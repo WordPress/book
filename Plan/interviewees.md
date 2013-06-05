@@ -16,15 +16,18 @@ Ryan Boren
 Donncha O Caoimh  
 
 _Contacted_
+
 Michel Valdrighi  
 Jason Verber  
 Mike Tremoulet  
 
 _Scheduled_
+
 Peter Westwood  
 Scott Merril  
 
 _To Contact_
+
 Mark Jaquith  
 Owen Winkler  
 Andrew Nacin  
@@ -44,6 +47,7 @@ Naoko Takano
 Xavier Borderie (by email)  
 
 _Contacted_
+
 Michael Heilemann  
 TechGnome  
 Christine Tremoulet  
@@ -84,9 +88,11 @@ Ben Metcalfe
 ### Others
 
 _Interviewed_
+
 Kathe Mullenweg  
 
 _Scheduled_
+
 Anil Dash  
 
 _To Contact_
