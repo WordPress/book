@@ -7,7 +7,9 @@ _Key people: WordPress users_
 _This section deals with the very early days of WordPress, the state of blogging, b2 development, and the forking of b2._ 
 
 **Chapter 1** 
+
 _On the state of blogging in 2002, the founders of WordPress, and why they decided to get online._ 
+
 This chapter will contain biographical information about the founders of WordPress – Matt Mullenweg and Mike Little. It will look at why they decided to set up their own blogs, and how they got into web development. The chapter will also contextualise blogging in 2002-2003. It will look at how blogging came about and evolved, and where it was in 2002. 
 Key people: Matt Mullenweg, Mike Little 
 
@@ -23,6 +25,7 @@ Key people: Michel Valdrighi
 Key Resources: b2 forums on tikadada.com (possibly lost), zengun.org 
 
 **Chapter 3** 
+
 _On forking WordPress, forks in general, early WordPress and the community_ 
 
 This chapter opens with Matt’s original post on “The Blogging Software” dilemma, and Mike’s comment about forking it. It looks at what it means to fork an open source project and the history of forks. It looks at why Matt decided to fork b2 and turn it into WordPress. This is followed by the early development of WordPress and the functionality that went into it. It will cover the development process and how decisions are made. It will also look at the growth of the WordPress community, and the significant changes made to WordPress during the first year (including the plugin system). 
@@ -63,7 +66,9 @@ _On the ways that the GPL continues to shape and effect the WordPress community_
 
 Key people: Matt Mullenweg, Chris Pearson, Brian Gardner and others (?) 
 
-### Part 3: WordPress, Inc This section will look at the difficulties around supporting open source software and commercialising it. 
+### Part 3: WordPress, Inc 
+
+This section will look at the difficulties around supporting open source software and commercialising it. 
 
 **Chapter 8** 
 
@@ -74,11 +79,14 @@ The focus of this chapter will be early attempts to make money to support the Wo
 Key people: Matt Mullenweg, Jonas Luster, Toni Schneider 
 
 **Chapter 9** 
+
 _On Automattic_
+
  This chapter will look at the setting up of Automattic, early employees and investments that were made in the company. It will look at the ethos behind Automattic and how that works alongside the WordPress project. It will ask how a company can be commercially viable within an open source context. It will look at how WordPress.com and Automattic’s other services have effected WordPress’s growth. 
 Key people: Matt Mullenweg, Toni Schneider, Om Malik, Phil Black, Mike Hirschland 
 
 **Chapter 10** 
+
 _On commercial themes_ 
 
 This chapter will look at the introduction of the theming system into WordPress and how this changes the user’s experience. It will look at the emergence of the commercial theme market. It will look at the founding of the major theme shops and the issues that they faced. It will look at the relationship, tensions, and synergies between the open source project and commercial businesses. 
@@ -93,7 +101,11 @@ This chapter will look at the growth of the commercial economy around WordPress.
 
 Key people: Cory Miller, Lisa Sabin-Wilson, Ben Metcalfe, Alex King (other WP business folks) 
 
-### Part 4: Ten Years of Code (better title needed – want to find a suitable blog post title) **Chapter 12** 
+### Part 4: Ten Years of Code 
+
+(better title needed – want to find a suitable blog post title) 
+
+**Chapter 12** 
 
 _On backwards compatibility and maintaining all that code_ 
 
