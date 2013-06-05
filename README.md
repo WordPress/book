@@ -1,4 +1,15 @@
-book
-====
+# WordPress: Freedom, Community, and the Business of Open Source
 
-The Book of WordPress.
+Welcome to the online repository for our book on the history and development of WordPress. Over the coming months you can follow the book as it evolves through extensive research and interviews with members of the WordPress community. By the time we have completed the first version, we hope to have created a narrative that will tell you the story of the first ten years of WordPress. Over the coming ten years that narrative will grow and change with WordPress itself. Our aim is to tell the story of WordPress, and to leave space for our story that is yet to unfold.
+
+## Translations
+
+To translate the book, please create a sub-directory of the project, giving it the correct [ISO639](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code, and submit a pull request.
+
+## Errata 
+
+If you come across any factual errors or typos, please [submit an issue] (http://daringfireball.net/projects/markdown/).
+
+## License
+
+
