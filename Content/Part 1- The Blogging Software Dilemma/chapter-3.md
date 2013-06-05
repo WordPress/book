@@ -1,5 +1,3 @@
-WordPress: Chapter 3
-
 # Chapter Three
 
 ## On forking WordPress, forks in general, early WordPress, and the community
