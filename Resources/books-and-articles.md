@@ -10,7 +10,7 @@
 - [A Comprehensive Study of Software Forks: Dates, Reasons, and Outcomes](http://flosshub.org/sites/flosshub.org/files/paper_0.pdf), Gregorio Robles and Jesús M. González-Barahona
 
 ### Chapter 4
-- [Free Software, Free Society: Selected Essays of Richard M. Stallman], Richard Stallman
+- [Free Software, Free Society: Selected Essays of Richard M. Stallman](http://shop.fsf.org/product/free-software-free-society-2/), Richard Stallman
 
 ### General
 - [Producing Open Source Software](http://producingoss.com/), Karl Fogel
