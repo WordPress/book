@@ -12,7 +12,12 @@ To translate the book, please create a sub-directory of the project, giving it t
 
 ## Errata 
 
-If you come across any factual errors or typos, please [submit an issue] (http://daringfireball.net/projects/markdown/).
-
+If you come across any factual errors or typos, please [submit an issue](https://github.com/WordPress/book/issues?state=open)
 ## License
+
+The book is licensed under:
+- [GPLv2](https://github.com/WordPress/book/blob/master/license-gpl.txt)
+- [Creative Commons Sharealike](http://creativecommons.org/licenses/by-sa/3.0/)
+
+Just like WordPress, you are free to read, share, distribute, and modify the book however you want, passing on those freedoms to everyone else. Cool!
 
