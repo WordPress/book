@@ -8,7 +8,7 @@ Check out the [outline of the book] (https://github.com/WordPress/book/blob/mast
 
 ## Translations
 
-To translate the book, please create a sub-directory of the project, giving it the correct [ISO639](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code (for example, pt for Portuguese), and submit a pull request.
+To translate the book, please create a sub-directory of the project, giving it the correct [ISO639](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code (for example, pt for Portuguese), and submit a pull request. Note that the content is currently in flux so translations are not recommended until it is more stable.
 
 ## Errata 
 
