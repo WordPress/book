@@ -12,7 +12,7 @@ To translate the book, please create a sub-directory of the project, giving it t
 
 ## Errata 
 
-If you come across any factual errors or typos, please [submit an issue](https://github.com/WordPress/book/issues?state=open)
+If you come across any factual errors or typos, please [submit an issue](https://github.com/WordPress/book/issues?state=open).
 ## License
 
 The book is licensed under:
