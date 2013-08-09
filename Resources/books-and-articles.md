@@ -11,6 +11,8 @@
 
 ### Chapter 4
 - [Free Software, Free Society: Selected Essays of Richard M. Stallman](http://shop.fsf.org/product/free-software-free-society-2/), Richard Stallman
+- [The Cathedral and the Bazaar](http://www.catb.org/esr/writings/homesteading/), Eric Raymond
+- [Hackers: Heroes of the Computer Revolution](http://www.amazon.com/Hackers-Computer-Revolution-Anniversary-Edition/dp/1449388396), Steven Levy
 
 ### General
 - [Producing Open Source Software](http://producingoss.com/), Karl Fogel
