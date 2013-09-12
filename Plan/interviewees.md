@@ -25,15 +25,16 @@ Jason Verber
 Mike Tremoulet  
 
 _Scheduled_
+
 Mark Jaquith  
 
 _To Contact_
  
 Andrew Nacin  
-Bryan Veloso
-Barry Abrahamson
-Andy Skelton
-Joen Assmussen
+Bryan Veloso  
+Barry Abrahamson  
+Andy Skelton  
+Joen Assmussen  
 Khaled Abou Alfa
 
 ### Community
