@@ -14,6 +14,9 @@ Mike Little
 Alex King  
 Ryan Boren  
 Donncha O Caoimh  
+Peter Westwood  
+Scott Merril  
+Owen Winkler 
 
 _Contacted_
 
@@ -22,15 +25,16 @@ Jason Verber
 Mike Tremoulet  
 
 _Scheduled_
-
-Peter Westwood  
-Scott Merril  
+Mark Jaquith  
 
 _To Contact_
-
-Mark Jaquith  
-Owen Winkler  
+ 
 Andrew Nacin  
+Bryan Veloso
+Barry Abrahamson
+Andy Skelton
+Joen Assmussen
+Khaled Abou Alfa
 
 ### Community
 
@@ -45,6 +49,8 @@ Mark Ghosh
 Cena Mayo (by email)  
 Naoko Takano  
 Xavier Borderie (by email)  
+Mark Riley  
+Toni Schneider  
 
 _Contacted_
 
@@ -53,12 +59,11 @@ TechGnome
 Christine Tremoulet  
 Michael Renzmann  
 Christoph Wimmer  
-Mark Riley  
 Kaf Oseo  
 Kimmo Suominen  
 Nikolay Bachiyski  
 Michael H  
-Toni Schneider  
+
 
 _To Contact_
 Burning Bird  
