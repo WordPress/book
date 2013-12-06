@@ -73,7 +73,7 @@ WordPress was completely focused on users, and ensuring that nothing broke for u
 
 In February 2007, when Ryan wrote the above comment, PHP 4 was still running on 88.44% of websites. PHP 5 adoption was slow and many web hosts didn't support it. If WordPress had made the switch to PHP 5 it would have meant that it was suddenly become unavailable on a huge number of hosts. 
 
-![PHP Major Distribution Stats in February 2007](../../Resources/images/chapter-6/php-graph-2007.jpg "PHP usage statistics")
+![PHP Major Distribution Stats in February 2007](../../Resources/images/chapter-6/php-graph-2007.png "PHP usage statistics")
 
 The other sign of this difference of emphasis is in the choice of license. WordPress has a GPL license, which is intended to secure the freedoms of users. Habari, on the other hand, uses the [Apache License](http://www.apache.org/licenses/LICENSE-2.0). This permissive license allows developers to take the code and make use of it in any way, even if they use it in a proprietary product. In the Apache License, the emphasis is very much on developer freedom. Owen Winkler outlined the reasons why the Habari project chose not to use a GPL license:
 
@@ -92,6 +92,9 @@ The [first Habari user was Chris Davis](http://chrisjdavis.org/changes-around-si
 Michael undertook a redesign of the Habari interface, which he says now was both a good and a bad experience. He had a good experience designing it, a bad experience getting it approved, and a good experience implementing it. The experience that he had getting it approved came down to the fact of Habari's meritocratic structure. A lot of time was spent discussing approving the new admin interface. People would weigh in with opinions who weren't designers but whose voice was given equal credence. For Michael, this left him feeling that he couldn't get his work done and he ended up bowing out of the community. When asked about whether he is more comfortable with a BDFL or Apache-style model, he says now: 
 
 > It’s easy to end up in very long discussions if everybody has equal footing. And that makes for a great democracy, but it’s also very hippie, 60s, everybody gets to sit around and share their opinion, but that’s not always something that’s really worthwhile. You don’t actually, necessarily, get a better product out of it. And so often you need somebody with vision, or at least somebody with a point of view with opinion to weigh in.
+
+![The Create Entry screen in Habari's dashboard](../../Resources/images/chapter-6/habari-monolith.png "habari monolith edit entry")
+
 
 Not all developers who felt dissatisfaction with the project decided to leave. Some felt that it would be better to put the effort in to try to change things. Mark Jaquith ([markjaquith](http://profiles.wordpress.org/markjaquith)), particularly, was pushing Matt to delegate more. It was slow, but things did change incrementally over time. For example, in June 2005, the [bug gardening scheme was started](http://codex.wordpress.org/IRC_Meetups/2005/June/June29RawLog). Mark, Scott, and another user were given maximum privileges in trac and were assigned the task of bug gardening. Change was slow and the developers became more and more disenfranchised, but change was happening. Mark Jaquith recalls "I felt like […] Matt was right on the verge of loosening the reins, it felt like things were really starting to get good and they left. And I was like oh, if you’d just held on." 
 
