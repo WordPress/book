@@ -26,10 +26,10 @@ The GPL protects four freedoms that constitute "free software." It's important t
 
 [Free software protects four essential freedoms](http://www.gnu.org/philosophy/free-sw.html):
 
-0 The freedom to run the program, for any purpose.
-1 The freedom to study how the program works, and change it so it does your computing as you wish.
-2 The freedom to redistribute copies so you can help your neighbour
-3 The freedom to distribute copies of your modified versions to others. 
+0 The freedom to run the program, for any purpose.  
+1 The freedom to study how the program works, and change it so it does your computing as you wish.  
+2 The freedom to redistribute copies so you can help your neighbour.  
+3 The freedom to distribute copies of your modified versions to others.
 
 These can be summarised as "the users have the freedom to run, copy, distribute, study, change and improve the software." The freedoms are protected for all users of the work. 
 
