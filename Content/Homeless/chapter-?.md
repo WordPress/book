@@ -38,7 +38,7 @@ Some of the feedback for the logos was lukewarm, though both [Joen](http://lists
 
 Joen even submitted his own versions of the logo based on Denis Radenkovic's heart design: 
 
-![Asmussen first design](../../Resources/images/design/2005_05_wordpress-logo-proposal_asmussen.jpg) 
+![Asmussen first design](../../Resources/images/design/2005_05_wordpress-logo-proposal_asmussen_sample.jpg) 
 
 And he produced a version of the admin screen with the design in situ:
 
