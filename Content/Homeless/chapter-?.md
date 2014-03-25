@@ -1,4 +1,3 @@
-
 Designing in an open source world isn't always easy. In fact, it rarely is. Even if they do share the element of creativity, designing and writing code are different. A bug fix is a bug fix, a piece of code works or it doesn't. There may be more or less logical or elegant ways or doing things, but it's easy for groups of trained programmers to work on something and iterate on it. Design is much more subjective - not everyone likes the same shade of blue but everyone feels like they have an opinion on it. Trained designers enter into environments where their work is commented on by people who don't know anything about design theory but who just know if they like rounded corners or not. To comment on a piece of code, one must have some level of skill in that code, but anyone can comment on a design.  
 
 In an open source project, things often move forward after discussion, through consensus, and by iteration by large groups of people. Fifty developers can work on a piece of code before it is final and there's nothing abnormal about it. For designers, who have an overall vision, this can be uncomfortable. And this mode of working doesn't necessarily work  as groups fall into the trap of design by committee. 
@@ -33,11 +32,7 @@ The [first suggestions](http://lists.automattic.com/pipermail/wp-design/2005-Mar
 
 A [second batch were sent](http://lists.automattic.com/pipermail/wp-design/2005-March/000171.html) by Denis Radenkovic:
 
-![Radenkovic heart logo](../../Resources/images/design/2005_03_wordpress-logo-proposal_radenkovic_1.jpg) 
-
-![Radenkovic heart logo 2](../../Resources/images/design/2005_03_wordpress-logo-proposal_radenkovic_2.jpg) 
-
-![Radenkovic logo 3](../../Resources/images/design/2005_03_wordpress-logo-proposal_radenkovic_3.jpg) 
+![Radenkovic heart logo](../../Resources/images/design/2005_03_wordpress-logo-proposal_radenkovic_sample.jpg) 
 
 Some of the feedback for the logos was lukewarm, though both [Joen](http://lists.automattic.com/pipermail/wp-design/2005-April/000175.html) and [Michael](http://lists.automattic.com/pipermail/wp-design/2005-March/000173.html) did both like Radenkovic's heart logos, describing them as "instantly recognisable" . 
 
