@@ -56,8 +56,6 @@ More designs were posted to the group, but the responses weren't much better.
 
 ![Santa Maria, logo 3](../../Resources/images/design/2005_04_wordpress-logo-proposal-santa-maria3.gif) 
 
-![Santa Maria, logo 4](../../Resources/images/design/2005_04_wordpress-logo-proposal-santa-maria3.gif) 
-
 While the logo discussion continued, Khaled spoke to Matt off-list about it. Speaking to Matt helped to clarify for him the direction Matt wanted to go with the branding and feel of WordPress. He [reported back](http://lists.automattic.com/pipermail/wp-design/2005-April/000192.html):
 
 > WordPress is meant to be the Jaguar or Aston Martin of Blogging tools. [...] that line sets the stage for what the design of the branding should be. Elegance, polished, and impecably [sic] designed is where we should be aiming. 
