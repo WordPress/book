@@ -116,15 +116,15 @@ Another change suggested by the Shuttle team was the implementation of collapsab
 
 In WordPress 1.5:
 
-![Functionality on Write screen in WordPress 1.5 =300x](../../Resources/images/design/pods_wp_1_5.jpg)
+![Functionality on Write screen in WordPress 1.5](../../Resources/images/design/pods_wp_1_5.jpg =300x)
 
 In version 8 of Shuttle:
 
-![Version 8 of Shuttle with mocked up pods =300x](../../Resources/images/design/pods_shuttlev8.jpg)
+![Version 8 of Shuttle with mocked up pods](../../Resources/images/design/pods_shuttlev8.jpg =300x)
 
 In WordPress 2.0
 
-![WordPress 2.0 Pods =300px](../../Resources/images/design/pods_wp_2.jpg)
+![WordPress 2.0 Pods](../../Resources/images/design/pods_wp_2.jpg =300px)
 
 However, feedback on the elements of Shuttle that were included wasn't always positive. WordPress 2.0 shipped with a number of elements from Shuttle. On her blog, [Molly Hollschwag wrote that](https://web.archive.org/web/20060203042213/http://www.molly.com/2006/01/05/wordpress-20-and-akismet/) "what WP2.0 has gained in interface appeal it's lost in some practicality too." For the Shuttle team, the problem was the [piecemeal implementation of their vision](http://lists.automattic.com/pipermail/wp-design/2006-January/000559.html).
 
