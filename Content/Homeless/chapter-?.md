@@ -102,29 +102,29 @@ As the design process continued, elements of Shuttle were implemented in WordPre
 
 In WordPress 1.5:
 
-![WordPress post functionality in 1.5](../../Resources/images/design/write_post_title_1_5.jpg) 
+<img alt="WordPress post functionality in 1.5" src="../../Resources/images/design/write_post_title_1_5.jpg" width="600px" />
 
 In Shuttle:
 
-![Shuttle design February 2005](../../Resources/images/design/write_post_title_shuttle.jpg) 
+<img alt="Shuttle design February 2005" src="../../Resources/images/design/write_post_title_shuttle.jpg" width="600px" />
 
 WordPress 2.0:
 
-![Shuttle design February 2005](../../Resources/images/design/write_post_title_2_0.jpg) 
+<img alt="WordPress 2.0 write post screen" src="../../Resources/images/design/write_post_title_2_0.jpg" width="600px" />
 
 Another change suggested by the Shuttle team was the implementation of collapsable pods in the Write screen so that elements such as post status, categories, and author, could be collapsed.
 
 In WordPress 1.5:
 
-![Functionality on Write screen in WordPress 1.5](../../Resources/images/design/pods_wp_1_5.jpg =300x)
+<img alt="Functionality on Write screen in WordPress 1.5" src="../../Resources/images/design/pods_wp_1_5.jpg" width="200px" />
 
 In version 8 of Shuttle:
 
-![Version 8 of Shuttle with mocked up pods](../../Resources/images/design/pods_shuttlev8.jpg =300x)
+<img alt="Version 8 of Shuttle with mocked up pods" src="../../Resources/images/design/pods_shuttlev8.jpg" width="200px" />
 
 In WordPress 2.0
 
-![WordPress 2.0 Pods](../../Resources/images/design/pods_wp_2.jpg =300px)
+<img alt="WordPress 2.0 Pods" src="../../Resources/images/design/pods_wp_2.jpg" width="200px" />
 
 However, feedback on the elements of Shuttle that were included wasn't always positive. WordPress 2.0 shipped with a number of elements from Shuttle. On her blog, [Molly Hollschwag wrote that](https://web.archive.org/web/20060203042213/http://www.molly.com/2006/01/05/wordpress-20-and-akismet/) "what WP2.0 has gained in interface appeal it's lost in some practicality too." For the Shuttle team, the problem was the [piecemeal implementation of their vision](http://lists.automattic.com/pipermail/wp-design/2006-January/000559.html).
 
@@ -137,10 +137,6 @@ At the start of March 2006, Khaled sent round a complete set of screenshots that
 ![Shuttle Dashboard](../../Resources/images/design/shuttlefinal/Dashboard.jpg) 
 
 ![Shuttle Write Screen](../../Resources/images/design/shuttlefinal/Write.jpg) 
-
-![Shuttle Plugin Screen](../../Resources/images/design/shuttlefinal/Plugins.jpg) 
-
-![Shuttle User Screen](../../Resources/images/design/shuttlefinal/User.jpg) 
 
 The rest of the group loved the designs and the work was delegated to the developers on the team for coding. As with the rest of the project, the developers took a long time to work on the code. In mid-April, [Michael Heilemann withdrew from the project](http://lists.automattic.com/pipermail/wp-design/2006-April/000721.html), saying that he had to prioritise his other commitments. The same month, [Khaled asked](http://lists.automattic.com/pipermail/wp-design/2006-April/000723.html) whether Matt or Ryan would ever get around to implementing it themselves. [Matt's response](http://lists.automattic.com/pipermail/wp-design/2006-April/000730.html) was that the redesign was a medium-priority and that changes would be made iteratively. 
 
