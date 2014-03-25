@@ -42,7 +42,7 @@ Joen even submitted his own versions of the logo based on Denis Radenkovic's hea
 
 And he produced a version of the admin screen with the design in situ:
 
-![Asmussen first design](../../Resources/images/design/2005_05_wordpress-logo-proposal_asmussen_admin.jpg) 
+![Asmussen admin design](../../Resources/images/design/2005_05_wordpress-logo-proposal_asmussen_admin.jpg) 
 
 But it wasn't just community members who were working on the logo. In March, Matt met [Jason Santa Maria](http://jasonsantamaria.com/) at South by South West and asked him to have a go at redesigning the WordPress logo. They had a lot of abstract ideas of what they wanted to the logo to be: "the things that kept coming up were not only the idea of publishing but the idea of having a personal journal and a personal thing that might have some sort of tactile overtones," says Jason now.  "We were making links to things like letterpress and journaling and any sort of older representations of what it meant to publish something in a physical form." In April, [Matt shared some of the early versions](http://lists.automattic.com/pipermail/wp-design/2005-April/000182.html) with the wp-design group:
 
