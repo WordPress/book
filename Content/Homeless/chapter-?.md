@@ -181,11 +181,11 @@ When it came to the design stage, Jason Santa Maria was tasked with putting toge
 
 He designed three early mockups for Matt to choose from:
 
-<img alt="Happy Cog design 1" src="../../Resources/images/design/happy-cog-design-1.jpg" />
+<img alt="Happy Cog design 1" src="../../Resources/images/design/happy-cog-design-a.jpg" />
 
-<img alt="Happy Cog design 2" src="../../Resources/images/design/happy-cog-design-2.jpg" />
+<img alt="Happy Cog design 2" src="../../Resources/images/design/happy-cog-design-b.jpg" />
 
-<img alt="Happy Cog design 3" src="../../Resources/images/design/happy-cog-design-3.jpg" />
+<img alt="Happy Cog design 3" src="../../Resources/images/design/happy-cog-design-c.jpg" />
 
 The design that Matt chose was the visually lighter one. Jason had taken a lot of the heavy blues introduced by Shuttle and lightened the interface up. The lighter blues were complemented by an orange accent colour.
 
