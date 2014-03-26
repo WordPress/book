@@ -6,7 +6,7 @@ The WordPress project has experimented with multiple different methods for redes
 
 The first attempt to redesign WordPress' admin was in early 2005 by a team of designers who called themselves "Shuttle". A [mailing list was set up](http://lists.automattic.com/pipermail/wp-design/) where the group could communicate. The group comprised Michael Heilemann ([michael](http://profiles.wordpress.org/michael), Khaled Abou Alfa ([khaled](http://profiles.wordpress.org/khaled), Joen Asmussen ([joen](http://profiles.wordpress.org/joen)), Chris Davis ([chrisjdavis](http://profiles.wordpress.org/chrisjdavis), Joshua Sigar ([alphaoide](http://profiles.wordpress.org/alphaoide)], and Matt. They were joined later on in the process by Bryan Veloso ([Syni](http://profiles.wordpress.org/syni)). The aim of the group was to create a coherent brand for WordPress with a view to redesigning the admin. 
 
-Early discussions are focused on WordPress' logo. In the early days the WordPress logo was some simple blue and black serif text. 
+Early discussions are focused on WordPress' logo. In the early days the WordPress logo was simply "WordPress" in the dante font. 
 
 ![Original WordPress logo](../../Resources/images/design/wp-logo-old.png) 
 
