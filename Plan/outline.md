@@ -60,56 +60,41 @@ _On Habari_ In 2006 there was a split in the WordPress community as a number of 
 
 Key People: Owen Winkler, Scott Merrill, Chris Davis, Rich Bowen 
 
-**Chapter 7** 
-
-_On the ways that the GPL continues to shape and effect the WordPress community_ The GPL continues to affect the WordPress community. This will look at instances when discussions around the GPL have caused shifts in the community. It will look at how the discussion around GPL themes influenced the growing theme marketplace. It will look at the distinction between WordPress’s official stance on the GPL and the GPL followed to the letter of the law. 
-
-Key people: Matt Mullenweg, Chris Pearson, Brian Gardner and others (?) 
 
 ### Part 3: WordPress, Inc 
 
 This section will look at the difficulties around supporting open source software and commercialising it. 
 
-**Chapter 8** 
+**Chapter 7** 
 
-_On initial attempts to make money to support the growing project_ 
+_On building a business on WordPress_ 
 
-The focus of this chapter will be early attempts to make money to support the WordPress project. It will explore the difficulties of supporting an independent open source project that isn’t intended as a commercial project. It will look at the circumstances around the search engine spam that appeared on WordPress.org. It will look at the announcement about WordPress Inc that was made at the 100K party. 
+The focus of this chapter will trace the attempts to make money from WordPress. It will look at difficulties of supporting an independent open source project that isn’t intended as a commercial project. It will look at WordPress Inc, Hot Nacho, Akismet, WordPress.com, & Automattic. 
 
-Key people: Matt Mullenweg, Jonas Luster, Toni Schneider 
+Key people: Matt Mullenweg, Jonas Luster, Toni Schneider, Om Malik
+
+**Chapter 8**
+_On WordPress Themes and the GPL_
+This chapter traces the evolution of the WordPress theme market. It looks at sponsored themes, the growth of commercial themes, theme licensing, and the GPL. It will how the GPL influenced the theme marketplace, and at the distinction between WordPress’s official stance on the GPL and the GPL followed to the letter of the law. 
+
+Key people: Matt Mullenweg, Chris Pearson, Brian Gardner, Collis Ta'eed, Adii Pienaar
+
+
+### Part 4: Building WordPress
+This section will look at the the challenges of building free software in a growing community and on a large scale
 
 **Chapter 9** 
 
-_On Automattic_
+_On WordPress' User Interface_ 
 
- This chapter will look at the setting up of Automattic, early employees and investments that were made in the company. It will look at the ethos behind Automattic and how that works alongside the WordPress project. It will ask how a company can be commercially viable within an open source context. It will look at how WordPress.com and Automattic’s other services have effected WordPress’s growth. 
-Key people: Matt Mullenweg, Toni Schneider, Om Malik, Phil Black, Mike Hirschland 
+This chapter looks at how WordPress' user interface has changed over time, and how the design process within WordPress has been refined. It looks at four main attempts to address the WordPress admin: Shuttle, Happy Cog, Crazyhorse, and MP6.
 
-**Chapter 10** 
+Key people: Jen Mylo, Michael Heilemann, Chris Davis, Joen Asmussen, Matt Miklic
 
-_On commercial themes_ 
+_On WordPress_
+This chapter looks at how WordPress's development processes and practices have evolved over time. It will look at the major changes to the WordPress software, and how these have impacted and been impacted by trends on the internet and in response to new technologies. It will look at the ways that the project has responded to challenges and refined the development process and project structure over time. 
 
-This chapter will look at the introduction of the theming system into WordPress and how this changes the user’s experience. It will look at the emergence of the commercial theme market. It will look at the founding of the major theme shops and the issues that they faced. It will look at the relationship, tensions, and synergies between the open source project and commercial businesses. 
-
-Key people: Brian Gardner, Adii Pienaar, Justin Tadlock, Ian Stewart, Cory Miller, Collis Ta’eed, other ppl running WP Theme Shops 
-
-**Chapter 11** 
-
-_On the wider commercialisation of WordPress and the effects on the community_ 
-
-This chapter will look at the growth of the commercial economy around WordPress. It will look at how businesses can make money by building their businesses on top of free software. As the commercial theme market has become saturated, it will look at how other businesses emerged, how they evolved, and the effect that this had on the community. 
-
-Key people: Cory Miller, Lisa Sabin-Wilson, Ben Metcalfe, Alex King (other WP business folks) 
-
-### Part 4: Ten Years of Code 
-
-(better title needed – want to find a suitable blog post title) 
-
-**Chapter 12** 
-
-_On backwards compatibility and maintaining all that code_ 
-
-This chapter will look at the challenges of maintaining ten years of code. It will look at how WordPress’ commitment to backwards compatibility has influenced its development, and how WordPress developers today deal with that legacy. It will look at how the developers ensure that WordPress users’ site don’t break, while refactoring code and introducing new features. Key people: Andrew Nacin, Mark Jaquith, Peter Westwood 
+Key people: Andrew Nacin, Mark Jaquith, Ryan Boren, Matt Mullwenweg, Andrew Ozz, Jen Mylo, Peter Westwood
 
 **Conclusion** 
 **End stuff** 
