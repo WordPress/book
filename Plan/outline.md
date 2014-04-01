@@ -91,6 +91,8 @@ This chapter looks at how WordPress' user interface has changed over time, and h
 
 Key people: Jen Mylo, Michael Heilemann, Chris Davis, Joen Asmussen, Matt Miklic
 
+**Chapter 10** 
+
 _On WordPress_
 This chapter looks at how WordPress's development processes and practices have evolved over time. It will look at the major changes to the WordPress software, and how these have impacted and been impacted by trends on the internet and in response to new technologies. It will look at the ways that the project has responded to challenges and refined the development process and project structure over time. 
 
