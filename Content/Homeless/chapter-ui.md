@@ -1,6 +1,6 @@
 Designing in an open source world isn't easy. Designing and writing code are different, even if they do share elements such as creativity and refinement. Certain things in coding can be decided objectively: a bug fix is a bug fix, a piece of code works or it doesn't. There may be more or less logical or elegant ways or doing things, but it's easy for groups of trained programmers to work on something and iterate on it. Design is much more subjective - not everyone likes the same shade of blue but everyone feels like they have an opinion on it. Trained designers enter into environments where their work is commented on by people who don't know anything about design theory but who just know if they like rounded corners or not. To comment on a piece of code, one must have some level of skill in that code, but anyone can comment on a design.  
 
-In an open source project, things move forward after discussion, through consensus, and through iteration. It's not out of the ordinary for ten developers to work on a piece of code before it is final. An individual designer, in contrast, will often have a holistic view of how they want a website or application to work.    Design school prepares a designer to work with clients and to retain control of their vision. In an open source project, a designer's work is picked apart by a hundred critics and changed in numerous tiny ways transforms the whole into a frankenstein design. 
+In an open source project, things move forward after discussion, through consensus, and through iteration. It's not out of the ordinary for ten developers to work on a piece of code before it is final. An individual designer, in contrast, will often have a holistic view of how they want a website or application to work.    Design school prepares a designer to work with clients and to retain control of their vision. In an open source project, a designer's work is picked apart by a hundred critics and changed in numerous tiny ways transforming the whole into a frankenstein design. 
 
 The WordPress project has experimented with multiple different methods for redesigning the administration screens. There have been four major projects with a focus on redesigning the admin, each with its own successes and its own challenges. In a world in which free software is often criticised for not being usable, getting the design right while still maintaining the values of the project is a difficult balance to get. This means not just iterating on the design but on the design process. 
 
@@ -82,7 +82,7 @@ Version 8
 
 ![Shuttle version 8](../../Resources/images/design/shuttlev8.jpg) 
 
-Verion 14
+Version 14
 
 ![Shuttle version 14](../../Resources/images/design/shuttlev14.jpg) 
 
@@ -126,7 +126,7 @@ In WordPress 2.0
 
 <img alt="WordPress 2.0 Pods" src="../../Resources/images/design/pods_wp_2.jpg" width="200px" />
 
-Deedback on the elements of Shuttle that were included wasn't always positive. WordPress 2.0 shipped with a number of Shuttle-inspired changes. On her blog, [Molly Hollschwag wrote that](https://web.archive.org/web/20060203042213/http://www.molly.com/2006/01/05/wordpress-20-and-akismet/) "what WP2.0 has gained in interface appeal it's lost in some practicality too." For the Shuttle team, the problem was the [piecemeal implementation of their vision](http://lists.automattic.com/pipermail/wp-design/2006-January/000559.html).
+Feedback on the elements of Shuttle that were included wasn't always positive. WordPress 2.0 shipped with a number of Shuttle-inspired changes. On her blog, [Molly Holzschlag wrote that](https://web.archive.org/web/20060203042213/http://www.molly.com/2006/01/05/wordpress-20-and-akismet/) "what WP2.0 has gained in interface appeal it's lost in some practicality too." For the Shuttle team, the problem was the [piecemeal implementation of their vision](http://lists.automattic.com/pipermail/wp-design/2006-January/000559.html).
 
 The project was beset by other problems. Despite having a closed mailing list to avoid the "too many cooks" problem, they had that problem anyway. The setup of the group meant that no one had responsibility for the overall vision of the project. Ideas were discussed and sent around, and while the team all got on well, formed friendships, and enjoyed working together, when one reads back the mailing list now it feels like a design-focused discussion forum rather than a team with a clear task.  No one had sole responsibility for the vision of the group and no one stepped up to take that role on. As the group discovered, having a group of designers, each with their own ideas, can cause as many problems as opening a design list up to a bunch of hackers.
 
