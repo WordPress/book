@@ -1,3 +1,7 @@
+# Chapter Two
+
+## On b2
+
 The village of Cervione clings to the side of Mont de Castelli, one of the hundreds of mountains that stretch over the island of Corsica. The main part of the town rests in a natural amphitheatre, while houses are scattered down the mountainside toward the long stretch of beach. The blistered, stone buildings look eastward, many perched at the edge of huge precipices giving the inhabitants a clear view to the green, rolling hills below and beyond that the blue expanse of the Mediterranean.  Inside Cervione, the narrow streets are a cobbled maze of alleys and arches. The dates of the buildings span centuries, shuttered windows flake with paint, and houses lean, holding each other up.
 
 In 2000, in a small apartment above a bar across the square from the Cathédrale St-Érasme, Michel Valdrighi was writing a blog post. The self-titled "only blogger in Corsica" worked on a dial-up AOL connection that disconnected every thirty minutes. When he tried to reconnect over the crowded network, it could take hours to get back online. He lived in the apartment with his cats, No Name and Gribouille, who perched on a windowsill that looked out over a high drop and [whose antics he captured on his blog](http://zengun.org/weblog/archives/2000/12/post1447/). Like many bloggers, Michel captured minor incidents in his life, using his blog to write about not only his cats, but his job, his colleagues, technology, and neopets.
