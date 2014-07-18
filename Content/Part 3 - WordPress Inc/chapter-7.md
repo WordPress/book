@@ -1,3 +1,6 @@
+## Chapter 7
+## On building a business on WordPress
+
 Many free and open source projects start out as hobbies - code hacked around on in a hacker's spare time, in their bedroom after school, in their basement, in the evening after work. The project brings people together around a common interest. The community grows as people work on the code. More and more users adopt the software. And then the hackers realise that this isn't just a hobby, it could be a business. 
 
 The business model that supports an open source project can determine the success or failure of that project, and vice versa. Between the business and the project, there is a symbiotic relationship: the business generates income and provides contributors and support to the project. The project provides the software which in the bedrock for the business. The business needs to grow in a non-destructive, sustainable way, allowing the project to grow, mature, and continue to attract a diverse group of contributors. 
