@@ -1,6 +1,6 @@
 # Chapter Four
 
-## On forking WordPress, forks in general, early WordPress, and the community
+## On the GPL
 
 The General Public License (GPL) is the license with which WordPress is distributed. There are few things in WordPress' history that have caused more controversy. Why do people get so fired up about a license? After all, we encounter licenses often in our day-to-day lives and often we simply ignore them. And no doubt many users pay little attention to the licenses that comes bundled with WordPress, but it's still a cornerstone of WordPress' history and development. Every year or two an argument flares up around the GPL, usually around a misunderstanding of its basic premise. But the GPL became significant long before WordPress was even conceived and continues to be	a key part of the free software community. In  2013, the [GPL remains the most popular free software license](http://osrc.blackducksoftware.com/data/licenses/) . But where did it come from, why is it so important to WordPress, and why does it cause so much controversy? This section will look in detail at, what Matt Mullenweg calls, WordPress' "bill of rights", asking all of these questions, and looking at some of the times when the GPL had a big impact on WordPress.
 
