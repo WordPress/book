@@ -1,3 +1,7 @@
+# Chapter One
+
+## On blogging, Mike Little, & Matt Mullenweg
+
 In early 2000, a new wave of user-generated content was sweeping the internet. The dot-com bubble had burst and many internet companies were in disarray. But while companies failed, individuals sought new ways to get their voices online. Blogging communities sprang up all over the internet. Tight-knit connections were created between people who never met in real life but knew each other's thoughts through what they wrote online. Real names didn't matter - people created an online identity and went by a self-styled moniker.
 
 The co-founders and early developers of WordPress started out as bloggers. They came to WordPress via blogging, not the other way round. Like every blogger, each of them had their own reason for going online to get heard; to create a home on the internet, to have a sense of authorship, to share ideas and reach an audience, to get involved with topical debates, to post about what they read, what they ate, the movies they watched, and the things they did with their friends. To post about school or work or family, to post cat photographs.
