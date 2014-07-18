@@ -1,3 +1,6 @@
+## Chapter 8
+## On WordPress Themes and the GPL
+
 WordPress 1.5 saw the introduction of the theme system. Gone were the days of designing your WordPress blog with just a CSS file. The new PHP template tag system gave designers much more flexibility. [Other templating systems were considered](http://wordpress.org/news/2003/04/template-engines-uncut/) and Donnacha even [imported the Smarty templating system](https://core.trac.wordpress.org/changeset/530), but in the end it was a custom WordPress system that won out.
 
 Using a PHP template tag system had the advantage of being fast and easy, particularly for WordPress developers and designers who were learning about PHP. It was "cheap and easy, and well-known and portable," says Ryan. The theme system broke a theme down into its component parts - header, footer, sidebar, for example - theme designers could customize each of the component parts and then use template tags to call different elements to display on the front end. This gave designers a flexible templating system without having to learn something new, such as Smarty.
