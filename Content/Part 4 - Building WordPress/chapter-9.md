@@ -1,3 +1,7 @@
+## Chapter 9
+
+## On WordPress' User Interface
+
 Designing in an open source world isn't easy. Designing and writing code are different, even if they do share elements such as creativity and refinement. Certain things in coding can be decided objectively: a bug fix is a bug fix, a piece of code works or it doesn't. There may be more or less logical or elegant ways or doing things, but it's easy for groups of trained programmers to work on something and iterate on it. Design is much more subjective - not everyone likes the same shade of blue but everyone feels like they have an opinion on it. Trained designers enter into environments where their work is commented on by people who don't know anything about design theory but who just know if they like rounded corners or not. To comment on a piece of code, one must have some level of skill in that code, but anyone can comment on a design.  
 
 In an open source project, things move forward after discussion, through consensus, and through iteration. It's not out of the ordinary for ten developers to work on a piece of code before it is final. An individual designer, in contrast, will often have a holistic view of how they want a website or application to work.    Design school prepares a designer to work with clients and to retain control of their vision. In an open source project, a designer's work is picked apart by a hundred critics and changed in numerous tiny ways transforming the whole into a frankenstein design. 
