@@ -1,4 +1,7 @@
-**Planning to move this chapter to another part of the book. It may sit better following the chapter on Automattic**
+## Chapter 6
+## On Habari
+
+**Possbly to move this chapter to another part of the book. It may sit better following the chapter on Automattic, or integrating with chapter on the development process**
 
 It was three years into the project when the WordPress community saw its first major conflict. It's perhaps inevitable in a growing community that people with different views will come into conflict with one another. WordPress grew in popularity the community became more diverse, with members taking different views on how a free software community should be run. It was in this context that WordPress experienced a fork, not of the software, but of the community itself.
 
