@@ -158,12 +158,12 @@ While more committers have been added, getting patches committed to core and cle
 Attempts are regularly made to improve communication in the project. By 2009, central communication in the project had fragmented into a number of different places: Trac, wp-hackers, the #wordpress-dev IRC chat room, [wpdevel.wordpress.com](http://make.wordpress.org/core/page/121/) that was set up in 2008 and used for development updates, and the development blog on WordPress.org. A [post written by Jen Mylo in 2009](https://wordpress.org/news/2009/05/ideas/) highlights the state of each of WordPress’ primary communication channels: the #wordpress-dev channel had become mostly inactive, wp-hackers had thousands of subscribers but it often became a forum for troubleshooting, the [development blog](http://wordpress.org/news/) was largely a place for official announcements, the [wpdevel.wordpress.com](http://make.wordpress.org/core/) blog (directed now to http://make.wordpress.org/core) was a place for the core team to post what they were working on, Trac had become an an unworkable mess with hundreds of tickets lined up for future versions that weren’t even relevant anymore, and the ideas forum where anyone could suggest a new feature, but that had highly-voted but irrelevant threads featured highly.
 
 A [thread was opened up to discuss improvements to communication](http://wordpress.org/support/topic/ideas-forumcommunication-channels?replies=55). There were a number of suggestions for improvements:
-- Create somewhere for people to raise things other than Trac
-- Find a way for make it easier for people to write automated unit tests
+- Create a place other than Trac for people to raise concerns
+- Find a way to make it easier for people to write automated unit tests
 - Make it possible for the community to vote on ideas
 - Better integrate documentation into WordPress and Trac
-- P2 be used for discussion
-- BuddyPress (a social-networking plugin that is a sister-project to WordPress) be used on WordPress.org
+- Use P2 for discussion
+- Use BuddyPress (a social-networking plugin that is a sister-project to WordPress) on WordPress.org
 
 But in addition to suggestions, there were a number of complaints: that no one official reads the ideas forum, IRC meet ups were difficult for people to attend because of timezone differences, that there were too many channels of communication - far too much for people to keep up with. 	
 
