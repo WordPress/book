@@ -1,5 +1,5 @@
 
-## 2. Cafelog/b2
+## 2. b2/Cafelog
 
 Just over a year before Matt and Mike took to the internet, in a small apartment above a bar in Corsica, Michel Valdrighi wrote a blog post. The self-titled "only blogger in Corsica" used a creaking dial-up AOL connection that disconnected every thirty minutes. He shared his apartment with his cats, No Name and Gribouille, who perched on a windowsill that looked out over a high drop and [whose antics he captured on his blog](http://zengun.org/weblog/archives/2000/12/post1447/). Like many bloggers, Michel captured minor incidents in his life, using his blog to write about not only his cats, but his job, his colleagues, technology, and neopets.
 
