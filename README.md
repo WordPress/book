@@ -1,4 +1,5 @@
 # WordPress: Freedom, Community, and the Business of Open Source
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/WordPress/book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Welcome to the online repository for our book on the history and development of WordPress. Over the coming months you can follow the book as it evolves through extensive research and interviews with members of the WordPress community. By the time we have completed the first version, we hope to have created a narrative that will tell you the story of the first ten years of WordPress. Over the coming ten years that narrative will grow and change with WordPress itself. Our aim is to tell the story of WordPress, and to leave space for our story that is yet to unfold.
 
