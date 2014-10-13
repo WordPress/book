@@ -1,4 +1,4 @@
-## 29. Happy Cog Redesign
+## 28. Happy Cog Redesign
 
 With the taxonomy system in place, the next major change was to be a new redesign of the admin screens, touted to appear in WordPress 2.4.  There was still the occasional question about whether the designs created by the Shuttle Group would be implemented, but by then the project had moved on and it was [design studio Happy Cod, who were to carry out a total redesign of the admin](http://lists.automattic.com/pipermail/wp-hackers/2007-November/016123.html). The founder of Happy Cog, Jeffrey Zeldman, led the project with WordPress's logo designer Jason Santa Maria, and UX designer Liz Danzico making up the rest of the team.
 
