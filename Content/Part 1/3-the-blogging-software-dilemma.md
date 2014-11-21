@@ -2,7 +2,7 @@
 
 The internet brings people from different backgrounds, different countries, different cultures, together around a shared interest. On a small corner of the internet, the b2 community was one of the places where this happened. People supported one another because they were interested in two things - blogging and blogging software. 
 
-The founders of WordPress were among those drawn into the community. From very different backgrounds, their similarities were drawn out by software. Matt Mullenweg, from sun-blasted Houston used his blog to write about politics, economics, and technology, weaving through that his passions - jazz music and photography.  Mike Little, from rainy Stockport, wrote about blogging technology, the books that he read, and his family. 
+The founders of WordPress were among those drawn into the community. From very different backgrounds, their similarities were drawn out by software. Matt Mullenweg, from Houston used his blog to write about politics, economics, and technology, weaving through that his passions - jazz music and photography.  Mike Little, from rainy Stockport, wrote about blogging technology, the books that he read, and his family. 
 
 They both had very different entries into computing: Matt first started tinkering with computers at an early age, through his father who was a computer programmer. Mike, twenty-two years older than Matt, had his first experience of computers at school, cut short when a teacher caught he and his friends smoking in the paper room. 
 
