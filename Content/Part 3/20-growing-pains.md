@@ -9,9 +9,6 @@ Co-founder Mike Little was one of those vexed by the process. In June 2005, [cha
 
 Discussions in the [WordPress IRC chat room](http://codex.wordpress.org/IRC_Meetups/2005/June/June29RawLog) focused on the fact of only Matt and Ryan had commit access. All issues had to go through them. Discussions were had about how to make the process more open.  As a result both Mark Jaquith and Sean Evans (morydd) were made bug gardeners and given maximum privileges on trac. 
 
-
-
-
 Another area which causeds heated debated was inline documentation. There was strong support in the community to improve WordPress' inline documentation. For many developers, digging into the code is the best learning tool that they have. In February 2006, Rich Bowen ([drbacchus](https://profiles.wordpress.org/drbacchus) proposed [that he document WordPress' functions](http://lists.automattic.com/pipermail/wp-hackers/2006-February/004921.html) and asked if there was a philosophical objection to having inline documentation.  [The response from Carthik was that](http://lists.automattic.com/pipermail/wp-hackers/2006-February/004926.html) it was frowned upon because it would lead to bloat. He referred to a thread from May 2005, [which said](http://lists.automattic.com/pipermail/wp-hackers/2005-May/001114.html):
 
 > Commenting is tricky. Some "well-commented" code I've seen had a bunch  of lines of repetitive filler that "documented" what you could easily see by just looking at the code itself and doubled the size of the program. APIs should be documented religiously, but I think spending a ton of time on redundant comments for code only a few core hackers will ever look at will bloat the codebase and waste everyone's time. I also  believe that well-written code usually doesn't need comments unless it's doing some sort of voodoo or workaround.
@@ -20,7 +17,7 @@ The proposal, however, had wide support across the community, and some developer
 
 Over the coming months there [continued to be support for inline documentation in the community](http://lists.automattic.com/pipermail/wp-hackers/2006-March/005481.html). [Tickets were opened but left ignored](http://core.trac.wordpress.org/ticket/2473), and Owen Winkler created his own [developer function reference](http://lists.automattic.com/pipermail/wp-hackers/2006-April/005534.html)
 
-<img alt=“Owen Winkler's Function Reference” src=“../../Resources/images/chapter-6/winkler_fn_ref.jpg” /> 
+<img alt=“Owen Winkler's Function Reference” src=“../../Resources/images/20/winkler_fn_ref.jpg” /> 
 
 The end of the inline docs proposal made many community members unhappy. Scott Merrill ([Skippy](http://profiles.wordpress.org)) wrote a long post on the wp-forums mailing list, [in which he outlined his issues with the project](http://codex.wordpress.org/IRC_Meetups/2006/February/February22RawLog). The docs at that time, were not in a good condition. After the first flurry of activity on the docs mailing list, activity died down and some months saw [barely any posts at all](http://lists.automattic.com/pipermail/wp-docs/2006-May/thread.html). The documentation did continue to grow but in a haphazard and messy way. Using a poorly-managed wiki as a host for documentation that should be inline would only make matters worse. 
 
