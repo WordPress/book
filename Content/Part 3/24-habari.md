@@ -52,7 +52,7 @@ WordPress is focused on users. It’s important that changes to the software don
 
 In February 2007, when Ryan wrote the above comment, PHP 4 was still running on 88.44% of websites. PHP 5 adoption was slow and many web hosts didn't support it. If WordPress had made the switch to PHP 5 it would have meant that it was suddenly unavailable on a huge number of hosts. 
 
-<Img src=“../../Resources/images/chapter-6/php-graph-2007.png” alt=“PHP Major Distribution Stats in February 2007” width=“800px”>
+<img src=“../../Resources/images/chapter-6/php-graph-2007.png” alt=“PHP Major Distribution Stats in February 2007” width=“800px” />
 
 The other sign of this difference of emphasis is in the choice of license. WordPress has a GPL license, which is intended to secure the freedoms of users. Habari, on the other hand, uses the [Apache License](http://www.apache.org/licenses/LICENSE-2.0). This permissive license allows developers to take the code and make use of it in any way, even if they use it in a proprietary product. In the Apache License, the emphasis is very much on developer freedom. Owen Winkler outlined the reasons why the Habari project chose not to use a GPL license:
 
@@ -64,6 +64,6 @@ All of these differences were, in the end, unresolvable, despite the fact that t
 
 But they didn’t hold on. By the time the reins were loosened they had founded their own project with their own ideals and focus. Free and open source communities can be run in many different ways. Sometimes the emphasis is on free software, sometimes the emphasis is on open source. Sometimes the emphasis is on users, sometimes the emphasis is on developers. Sometimes the license in permissive, sometimes it is copyleft. The wider free software communities are broad and encompass people from a multitude of different backgrounds. Each project has its own set of ideals and cultural norms, and sometimes project members gel with those ideals and sometimes they don’t. When there is a critical mass of people within that project who don’t accept a project’s core ideals then there is always the possibility of creating a fork. This can be a fork of the software or, as was the case with Habari, a fork of the community. This is not, necessarily, a [Bad Thing](http://www.catb.org/jargon/html/F/forked.html). Rather than struggling with constant debates and infighting that comes from a clash of beliefs, sometimes it is better for two groups to separate. Then there are two projects, each with a laser-sharp focus on the things that matter to them and on the software and project that they want to create. 
 
-<img alt=“Chris Davis, Owen Winkler, and Nicole Evans at Ohio Linux Fest 2007” src=“../../Resources/images/24/habari_oh_linux_fest_credit_morydd.jpg” 
+<img alt=“Chris Davis, Owen Winkler, and Nicole Evans at Ohio Linux Fest 2007” src=“../../Resources/images/24/habari_oh_linux_fest_credit_morydd.jpg” />
 
 Image CC license [Sean T Evans](http://www.flickr.com/photos/morydd/1463477046/)
