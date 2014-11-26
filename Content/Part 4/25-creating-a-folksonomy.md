@@ -5,7 +5,7 @@
 In the wake of the exodus to Habari, the project was changing even more. In March 2007, Robin Adrianse ([rob1n](https://profiles.wordpress.org/rob1n)), WordPress’ first temporary committer, was given commit access for three months to help Ryan Boren address the issue of languishing trac tickets. 
 
 Also in March, the Plugin Directory was launched. Prior to the Plugin Directory, many developers just hosted their plugins on their website. The plugin directory gave them exposure to a huge number of WordPress users. Samuel Wood ([Otto42](http://profiles.wordpress.org/otto42), recalls how the plugin directory encouraged him to distribute his code. “I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them.”	
-<img src="../../Resources/25/plugin-directory-2007.jpg" width="800px" />
+<img src="../../Resources/images/25/plugin-directory-2007.jpg" width="800px" />
 
 2.1 was eventually launched in January 2007, after a release cycle of more than a year. The following cycle was the first to adopt the new 120 day release cycle. This new goal, which would later become “deadlines are not arbitrary” in WordPress’ list of philosophies, was an ongoing challenge and it was tested even in WordPress 2.2. Developing in an open source environment means leaving time for every voice to be heard, waiting for volunteers with busy lives to get things done, spending time in discussions about new features and architecture changes. It’s a challenge that WordPress would have to address release cycle after release cycle.
 
@@ -56,7 +56,7 @@ Drupal’s taxonomy system, specifically for terms within a specific taxonomy. T
 
 The schema was a compromise. It was a three-table solution, with a table for terms, taxonomies, and objects. Discussion went back and forth, a [new trac ticket was opened up](https://core.trac.wordpress.org/ticket/4189) and a new structure was created based on this original proposal. The first table wp_terms, holds basic information about single terms. The wp_term_taxonomy places the term in a taxonomy. The final table, term_relationships relates objects (such as posts or links) to a term_taxonomy_id from the term_taxonomy table.
 
-<img src="../../Resources/25/taxonomy-structure.jpg" alt=“an image showing the current taxonomy structure of WordPress” />
+<img src="../../Resources/images/25/taxonomy-structure.jpg" alt=“an image showing the current taxonomy structure of WordPress” />
 
 This approach has the advantage of assigning one ID to a term name while using another table to relate that to a specific taxonomy. It is extensible for plugin developers, who can create their own taxonomies. It also enables large multisite networks, such as WordPress.com, to create global taxonomies - unified tagging systems in which users of different blogs can share terms within a taxonomy.
 
