@@ -56,7 +56,7 @@ Drupal’s taxonomy system, specifically for terms within a specific taxonomy. T
 
 The schema was a compromise. It was a three-table solution, with a table for terms, taxonomies, and objects. Discussion went back and forth, a [new trac ticket was opened up](https://core.trac.wordpress.org/ticket/4189) and a new structure was created based on this original proposal. The first table wp_terms, holds basic information about single terms. The wp_term_taxonomy places the term in a taxonomy. The final table, term_relationships relates objects (such as posts or links) to a term_taxonomy_id from the term_taxonomy table.
 
-<img src="../../Resources/images/25/taxonomy-structure.jpg" alt=“an image showing the current taxonomy structure of WordPress” />
+<img src="../../Resources/images/25/taxonomy-structure.jpg" alt="an image showing the current taxonomy structure of WordPress" />
 
 This approach has the advantage of assigning one ID to a term name while using another table to relate that to a specific taxonomy. It is extensible for plugin developers, who can create their own taxonomies. It also enables large multisite networks, such as WordPress.com, to create global taxonomies - unified tagging systems in which users of different blogs can share terms within a taxonomy.
 
