@@ -4,9 +4,9 @@ Now and then, people were still asking of the Shuttle designs would be implement
 
 Whereas Shuttle was primarily focused on aesthetics, Happy Cog was to identify and correct information architecture problems, and update and improve WordPress' look and feel. Despite the user-first ethos of the project, the admin screens had become cluttered over time, as new features were added in a relatively haphazard way. The change between the WordPress 1.5 and WordPress 2.3 shows all of the features that have been stuffed into the Pods introduced by Shuttle. If the project took its user-first approach seriously, a redesign of the admin was needed, one that focused on user experience as much as design aesthetics.
 
-<img alt=“WordPress 1.5 write screen“ src="../../Resources/images/28/wp_1_5.png” width=“800px” />
+<img alt="WordPress 1.5 write screen" src="../../Resources/images/28/wp_1_5.png" width=“800px” />
 
-<img alt=“WordPress 2.3 write screen“ src="../../Resources/images/28/wp_2_3.png” width=“800px” />
+<img alt="WordPress 2.3 write screen" src="../../Resources/images/28/wp_2_3.png" width="800px" />
 
 It was agreed that Happy Cog would produce the designs and the WordPress project would write the code. The scope of the project included user research and an audit of the current interface to identify WordPress' strengths and weaknesses, followed by a new structural design and a new interface design. These designs would then be passed over to the WordPress developers for final implementation.
 
