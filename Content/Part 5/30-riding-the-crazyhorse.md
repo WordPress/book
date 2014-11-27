@@ -47,11 +47,11 @@ Participants loved new position of the navigation, for example, at the left hand
 
 The new Dashboard was considered more useful, and people like the ability to customize it to their own needs. They liked the idea of QuickPress, though they weren't sure if they would use it. With action links now positioned under the comments, users found it easier to edit and act on comments. 
 
-<img alt="Crazyhorse write screen prototype" src="../../Resources/images/design/crazyhorse-prototype.jpg" />
+<img alt="Crazyhorse write screen prototype" src="../../Resources/images/30/crazyhorse-prototype.jpg" />
 
 The new Write screen had a drag and drop feature, which allowed users to decide which elements to give the best screen real estate. They also liked having access to post comments and felt that the new media uploader, with its clear integration with the media library, was a huge improvement.
 
-<img alt="The bottom publish bar in the crazyhorse prototype" src="../../Resources/images/design/crazyhorse-prototype-publish.jpg" />
+<img alt="The bottom publish bar in the crazyhorse prototype" src="../../Resources/images/30/crazyhorse-prototype-publish.jpg" />
 
 The only major negative responses were to a bottom publising bar that floated at the bottom of the screen. Users tended to look at the bar a few times before realising that it contained the Publish button. Some users compared it to a banner ad or thought it was part of their browser. 
 
@@ -66,7 +66,6 @@ A marked distinction in process between the Happy Cog redesign and Crazyhorse wa
 In 2008 alone the WordPress admin changed drastically, twice. When [screenshots of the changes made their way onto community blogs](http://weblogtoolscollection.com/archives/2008/09/02/first-look-at-wordpress-27/), the inevitable question was "why are they changing it again?" There had been no time for the WordPress 2.5 design to settle in before another huge change came about in 2.7. A change in the UI meant that users of varying skill levels needed to completely relearn how to use WordPress. Not only that, but there was a growing community of people who had created tutorials with screenshots and videos on how to use WordPress. Every screenshot would need to be retaken, every video re-shot. However, when WordPress users started upgrading the [feedback was positive](http://lorelle.wordpress.com/2008/12/10/wordpress-27-available-now/#comments). Users loved the new interface, finding it easy to use and intuitive, and demonstrating finally that it wasn't change they had been unhappy with just nine months earlier, but the interface itself.
 
 <img alt="The write screen in the WordPress 2.7 admin" src="../../Resources/images/30/2_7_admin.jpg" />
-
 
 There were other major changes in WordPress 2.7. The WordPress Plugin Repository was made available to users through the admin screens. Users no longer had to download a plugin and upload it using FTP. They could search the plugin directory for the features they needed right from their admin, and install the plugin with just a few clicks. This made it much easier for WordPress users to quickly find and install plugins, removing the barrier to entry that came with FTP. There were also improvements to WordPress’ documentation. [PHPDocumentor was added in WordPress 2.7](http://lists.automattic.com/pipermail/wp-docs/2008-October/001769.html), when there was a big push by Jacob Santos ([jacobsantos](https://profiles.wordpress.org/jacobsantos/)) and Jennifer Hodgdon ([jhodgdon](https://profiles.wordpress.org/jhodgdon))to get functions in WordPress documented in the code. There also the beginning of an [official user handbook](http://lists.automattic.com/pipermail/wp-docs/2009-January/001862.html).	
 
