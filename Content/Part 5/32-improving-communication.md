@@ -19,7 +19,6 @@ The aim of that initial post, and of a lot of work that Jen was doing at the tim
 A lot of development discussion had shifted from wp-hackers to trac. The benefit of using WordPress trac for discussion is that it focuses discussion directly on a trac ticket which is opened to report a bug, feature, or enhancement. That said, as more and more people started using it, it became just as wp-hackers susceptible to intractable, bikeshed discussions.
 
 One of these recurrent discussions has been around the issue of smilies. In 2009, [a ticket was opened up to replace](https://core.trac.wordpress.org/ticket/10145) WordPress’ smilies with Tango/Gnome smilies. The patch was [committed by Ryan Boren](https://core.trac.wordpress.org/changeset/11685)	
-<img src="../../Resources/images/32/smilies.jpg" width="800px" />.
 
 The first place that the smilies landed was WordPress.com, which receives daily updates to the codebase. The [feedback was negative](http://en.forums.wordpress.com/topic/new-smilies?replies=84), and reaction on the trac ticket spiralled, with contributors unhappy that the changes to the smilies had been added to core without any discussion. The problem was that WordPress [changed users’ content](https://core.trac.wordpress.org/ticket/10145#comment:18), without giving them any say in it. Some users would be unhappy if, upon updating their website, their content was changed. The discussion moved from trac tickets and spread out onto [community blogs](http://wptavern.com/nothing-to-smile-about), with calls for a public poll to make the decision. 
 
