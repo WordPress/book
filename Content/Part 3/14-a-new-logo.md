@@ -57,6 +57,6 @@ The members of the mailing list didn’t seem to be in agreement on the subject 
 
 The logo was finally decided on May 15th, when Matt sent an email to the mailing list with the subject "I think this is it". It contained just one image:
 
-![Santa Maria, final design](../../Resources/images/design/2005_04_wordpress-logo-proposal-santa-maria-final.gif) 
+<img src="../../Resources/images/14/2005_04_wordpress-logo-proposal-santa-maria-final.gif" alt="WordPress logo" />
 
 The major change to the logo, other than the new typeface, was the mark. The creation of a mark gave WordPress a standalone element of the logo which, over time, would be recognisable even without the word beside it. This could be used in icons, branding, and t-shirts. It’s become instantly recognisable, helped by its appearance on WordCamp t-shirts the world over. 
