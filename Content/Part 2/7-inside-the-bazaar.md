@@ -21,7 +21,7 @@ These sort of iterative steps have been more of a feature of WordPress’ develo
 —
 
 
-The facilitate development, there needs to be a way for developers to communicate with one another. The hackers mailing list wasn’t set up for 17 months after the project launch and the project’s main developers communicated on a private mailing list. One of the first tools that the community used for communication was an IRC chat room. b2/Cafelog had a channel hosted on the freenode network so it made sense for WordPress to have one too. The first of these was #wordpress. 
+To facilitate development developers need a way to communicate. The hackers mailing list wasn’t set up for 17 months after the project launch and the project’s main developers communicated on a private mailing list. One of the first tools that the community used for communication was an IRC chat room. b2/Cafelog had a channel hosted on the freenode network so it made sense for WordPress to have one too. The first of these was #wordpress. 
 
 An IRC channel provides a virtual meeting space where people can instantaneously communicate with one another. It’s also possible to log an IRC channel so that a record of what happened can be posted online. In the early days of WordPress, many community members spent all day hanging out in the IRC chat room. For some, it was the tone of the IRC chat room that got them more actively involved in the WordPress community. Owen Winkler ([ringmaster](http://profiles.wordpress.org/ringmaster)) recalls:
 
