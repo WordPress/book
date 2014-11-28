@@ -17,7 +17,7 @@ The proposal, however, had wide support across the community, and some developer
 
 Over the coming months there [continued to be support for inline documentation in the community](http://lists.automattic.com/pipermail/wp-hackers/2006-March/005481.html). [Tickets were opened but left ignored](http://core.trac.wordpress.org/ticket/2473), and Owen Winkler created his own [developer function reference](http://lists.automattic.com/pipermail/wp-hackers/2006-April/005534.html)
 
-<img alt=“Owen Winkler's Function Reference” src=“../../Resources/images/20/winkler_fn_ref.jpg” /> 
+<img alt="Owen Winkler's Function Reference" src="../../Resources/images/20/winkler_fn_ref.jpg" /> 
 
 The end of the inline docs proposal made many community members unhappy. Scott Merrill ([Skippy](http://profiles.wordpress.org)) wrote a long post on the wp-forums mailing list, [in which he outlined his issues with the project](http://codex.wordpress.org/IRC_Meetups/2006/February/February22RawLog). The docs at that time, were not in a good condition. After the first flurry of activity on the docs mailing list, activity died down and some months saw [barely any posts at all](http://lists.automattic.com/pipermail/wp-docs/2006-May/thread.html). The documentation did continue to grow but in a haphazard and messy way. Using a poorly-managed wiki as a host for documentation that should be inline would only make matters worse. 
 
