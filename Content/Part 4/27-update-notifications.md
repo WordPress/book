@@ -4,7 +4,7 @@ In July 2007, Peter Westwood was added as a core committer, which brought the nu
 
 The wp-hackers mailing list was in to its third year. Over time the amount of productive discussion on the mailing list diminished. More of the decision making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). A short discussion happened on WordPress Trac (WordPress’ bug tracking software) and the code was committed. It wasn’t until September that a [discussion about PHPMailer happened on wp-hackers](http://lists.automattic.com/pipermail/wp-hackers/2007-September/014497.html), a discussion that few of the committers participated in.
 
-Less development happened on the mailing list. It inclined towards [meta-discussion about the mailing list](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015058.html), about the [high signal to noise ratio](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015173.html), and about how to [improve mailing list etiquette](http://lists.automattic.com/pipermail/wp-hackers/2007-October/015489.html. 	
+Less development happened on the mailing list. It inclined towards [meta-discussion about the mailing list](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015058.html), about the [high signal to noise ratio](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015173.html), and about how to [improve mailing list etiquette](http://lists.automattic.com/pipermail/wp-hackers/2007-October/015489.html). 	
 
 [Andy Skelton wrote on his own blog about the problem with wp-hackers](http://andy.wordpress.com/2007/10/03/wp-hackers/):
 
@@ -42,7 +42,7 @@ This debate goes to the heart of one of the design philosophies in WordPress: �
 - They can confuse users
 - The space that you have for preferences is finite so fill it wisely
 
-WordPress developers carefully consider introducing a new option. Over time they have become better about making decisions about options. By the time the question arose about data collection, they were extremely reluctant to introduce new options. [Peter posted to the wp-hackers thread](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015119.html):	
+WordPress developers carefully consider introducing a new option. Over time they have become better about making decisions about options. By the time the question arose about data collection, they were extremely reluctant to introduce new options. [Westi posted to the wp-hackers thread](http://lists.automattic.com/pipermail/wp-hackers/2007-September/015119.html):	
 
 > One of the core design ideas for WordPress is that we don't introduce options lightly. The moment you think of making a feature optional you challenge the argument for introducing the feature in the beginning.
 
