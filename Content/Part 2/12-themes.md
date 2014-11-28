@@ -11,7 +11,7 @@ The other aim of the stylesheet competition was to create a resource similar to 
 
 The competition created buzz in the community. In total, there were 38 submissions. The winner of the first competition was Naoko Takano, with her entry Pink Lillies:
 
-<img src="../../Resources/images/12/pink-lillies.png” width="800px" />
+<img src="../../Resources/images/12/pink-lillies.png" alt="Naoko Takano's Pink Lillies theme" width="800px" />
 
 The competition was successful in the aim of widening the pool of available stylesheets, increasing the number from 7 to 45. On his website, Alex launched a [style browser for looking through all of the different stylesheets](http://alexking.org/projects/wordpress/styles/sample.php?wpstyle=pink_lilies). The competition [was run again in 2005](http://alexking.org/blog/2005/02/27/wordpress-theme-competition), this time receiving more than a hundred submissions. 
 
