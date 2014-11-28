@@ -16,7 +16,7 @@ With the project attracting so many writers and bloggers its no surprise that si
 
 The first schematic documentation was on the WordPress.org website, but this was just outlines that lacked content. By and large they were holding pages for content that was promised in the future:
 
-<img src="../../Resources/8/2003_10_docs.png” width="800px" />
+<img src="../../Resources/images/8/2003_10_docs.png" width="800px" />
 
  In [December 2003 the WordPress wiki was launched](http://wordpress.org/news/2003/12/wordpress-wiki/). Now any contributor could help with the documentation. Free Software projects often use wikis for their docs. The advantage is that anyone can easily edit the content. Some wikis require a login, others can be edited by anyone. The downside to using a wiki is that contributors have to learn a new tool with a new syntax for creating content. This is particularly onerous when the Free Software project is a CMS. A further problem is that, without careful curation, it can become messy, out-of-date, and difficult to navigate. 
 
