@@ -17,7 +17,7 @@ Since the project was so small community members had fun on the homepage, riffin
 
 ![WordPress Calvin Logo](../../Resources/images/14/wp-logo-calvin.gif) 
 
-Eventually, however, WordPress needed a logo designed by a professional. Usage of the software growing and it needed a logo that properly represented it. As a FOSS project, the first place to look for a logo was in the community. The community was asked to make suggestions about the logo. A mixed set of results came back, which were shared with the wp-design group for feedback.
+Eventually, however, WordPress needed a logo designed by a professional. Usage of the software growing and it needed a logo that properly represented it. As a free software project, the first place to look for a logo was in the community. The community was asked to make suggestions about the logo. A mixed set of results came back, which were shared with the wp-design group for feedback.
 
 The [first suggestions](http://lists.automattic.com/pipermail/wp-design/2005-March/000163.html) were from Andreas Kwiatkowski
 

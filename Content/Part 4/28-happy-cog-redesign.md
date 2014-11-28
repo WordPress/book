@@ -34,11 +34,11 @@ He designed three early mockups:
 
 <img alt="Happy Cog design 3" src="../../Resources/images/28/happy-cog-design-c.jpg" />
 
-The design that Matt chose was the visually lighter one. Jason had taken a lot of the heavy blues introduced by Shuttle and lightened the interface up. The lighter blues were complemented by an orange accent colour.
+The design that Matt chose was the visually lighter one. Jason had taken a lot of the heavy blues introduced by Shuttle and lightened the interface up. The lighter blues were complemented by an orange accent color.
 
 When the design was finally signed off, WordPress trunk started to transform. As change happened [community feedback](http://lists.automattic.com/pipermail/wp-hackers/2008-February/017849.html) was [posted to wp-hackers](http://lists.automattic.com/pipermail/wp-hackers/2008-February/017850.html). Was the admin actually more usable? Major changes broke familiar patters. Some comments make comparisons with Shuttle, with community members [still asking for the Shuttle interface](http://weblogtoolscollection.com/archives/2008/01/02/wordpress-24-admin-preview/#comment-1207158). 
 
-Just prior to the release, [a sneak peek was posted to the development blog](http://wordpress.org/development/2008/03/25-sneak-peek/), and WordPress users installed the release candidate to get a better look. The response was similar to that of the rest of the community. Regular WordPress users were surprised by the move of the functionality on the Write screen. For some, it was [a step backwards in terms of usability](http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i). 
+Just prior to the release, [a sneak peek was posted to the development blog](http://wordpress.org/development/2008/03/25-sneak-peek/), and WordPress users installed the release candidate to get a better look. The response was similar to that of the rest of the community. Regular WordPress users were surprized by the move of the functionality on the Write screen. For some, it was [a step backwards in terms of usability](http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i). 
 
 <img alt="The write screen in the WordPress 2.5 admin" src="../../Resources/images/28/2_5_admin.jpg" />
 
