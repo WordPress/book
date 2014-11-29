@@ -11,7 +11,7 @@ The other aim of the stylesheet competition was to create a resource similar to 
 
 The competition created buzz in the community. In total, there were 38 submissions. The winner of the first competition was Naoko Takano, with her entry Pink Lillies:
 
-<img src="../../Resources/images/12/pink-lillies.png” width="800px" />
+<img src="../../Resources/images/12/pink-lillies.png" alt="Naoko Takano's Pink Lillies theme" width="800px" />
 
 The competition was successful in the aim of widening the pool of available stylesheets, increasing the number from 7 to 45. On his website, Alex launched a [style browser for looking through all of the different stylesheets](http://alexking.org/projects/wordpress/styles/sample.php?wpstyle=pink_lilies). The competition [was run again in 2005](http://alexking.org/blog/2005/02/27/wordpress-theme-competition), this time receiving more than a hundred submissions. 
 
@@ -25,9 +25,9 @@ Bundled with WordPress 1.5 was a new default theme - an adapted version of Micha
 
 <img alt="Kubrick Theme" src="../../Resources/images/12/kubrick.jpg" />
 
-One of the problems with Kubrick was that it contained images; if a user wanted to make changes to their theme they had to use an external image editor. Some felt that users should be expected to download additional software just to change their site’s design. Other complaints were that it was too complex, it had .htaccess issues, and that there were other (better) themes that could be chosen. The [thread on the forums] (https://wordpress.org/support/topic/why-using-kubrick-on-13-is-a-mistake) reaches five pages with flames thrown all over the place. 
+One of the problems with Kubrick was that it contained images; if a user wanted to make changes to their theme they had to use an external image editor. Some felt that users should be expected to download additional software just to change their site’s design. Other complaints were that it was too complex, it had .htaccess issues, and that there were other (better) themes that could be chosen. The [thread on the forums](https://wordpress.org/support/topic/why-using-kubrick-on-13-is-a-mistake) reaches five pages with flames thrown all over the place. 
 
-These types of fires ignite quickly in bazaar style development. They can get out of hand, with people taking their opinion to their blogs and social media. As with many debates in Free Software communities, it burned ferociously for a short time before fizzling out. But the brief outbreak portended later debates about WordPress themes. There’s something about these that ignite people’s passions more than most other aspects of WordPress. 
+These types of fires ignite quickly in bazaar style development. They can get out of hand, with people taking their opinion to their blogs and social media. As with many debates in free software communities, it burned ferociously for a short time before fizzling out. But the brief outbreak portended later debates about WordPress themes. There’s something about these that ignite people’s passions more than most other aspects of WordPress. 
 
 Still, by the release of WordPress 1.5, the software had two of the elements that define the project and the community: themes and plugins. These two improvements transformed WordPress from standalone software into an extensible platform. Extensibility creates the right conditions for an ecosystem to flourish. If a product is solid and attracts a lot of users then developers will follow, extending the software and building tools for it. The theme and plugin systems made this possible, in both design and features. It also meant that some developers could focus on improving the core product while others could go off and work on their own pet project. Core developers could focus on refining the software into something that millions of people wanted to use.
 

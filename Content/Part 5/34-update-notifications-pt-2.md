@@ -5,7 +5,7 @@ Community blogs became important gathering points for those who wanted to commun
 
 WP Tavern also had a forum which was a focal point for debates. One of the biggest of these was around the ongoing issue of data collection.
 
-When WordPress 2.3 was shipped with update notifications, the initial debate quietened down. It was re-opened in 2009 on the WP Tavern forums by Lynne Pope ([Elpie](https://profiles.wordpress.org/Elpie), [who also posted to wp-hackers](http://lists.automattic.com/pipermail/wp-hackers/2009-December/029083.html). Lynne pointed out that Matt had said that data collection would be reviewed in WordPress 2.5. She specifically raised the point of collecting URLs and asked whether WordPress had found a need to collect them, suggesting that the blog URL be replaced with an anonymous identifier. In the discussion thread on WP Tavern, Lynne went further into her concerns:
+When WordPress 2.3 was shipped with update notifications, the initial debate quietened down. It was re-opened in 2009 on the WP Tavern forums by Lynne Pope ([Elpie](https://profiles.wordpress.org/Elpie), [who also posted to wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2009-December/029083.html). Lynne pointed out that Matt had said that data collection would be reviewed in WordPress 2.5. She specifically raised the point of collecting URLs and asked whether WordPress had found a need to collect them, suggesting that the blog URL be replaced with an anonymous identifier. In the discussion thread on WP Tavern, Lynne went further into her concerns:
 
 >  wordpress.org is not a legal entity so there is nobody to sue if data is misused. You can't sue a community. There is no disclosure about what data is collected or how it will be used. People are just supposed to trust that volunteers working on an open source project can be relied upon to keep personal data private?	
 
@@ -15,7 +15,7 @@ Since much of the data is freely available on the internet, many were unconcerne
 
 In the midst of all of these concerns about privacy, WordPress was a bastion of the independent web. If a person has privacy concerns, they can not use social media; they can install a website using something like WordPress, on their own server, with complete control over their own data. For some people in the community, the collection of data is in opposition to this independence. There is potential for abuse, and even if there is trust in the people who have access to the data now, there’s nothing to guarantee that someone else, with different motives, won’t have access to that data in the future. 
 	
-Mark Jaquith, who had originally opposed the data collection, [responded to Lynne on wp-hackers](http://lists.automattic.com/pipermail/wp-hackers/2009-December/029089.html):	
+Mark Jaquith, who had originally opposed the data collection, [responded to Lynne on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2009-December/029089.html):	
 
 > The more I thought about it, the more my knee-jerk objections faded away. Your server is doing an HTTP request, so the server knows your server's IP address. You can figure out what blog domains are hosted on that IP with a search on Bing or several other search engines. So if WordPress.org really wanted to know your URL, it could find it. Again, that's just based on the IP address, which you HAVE to send for HTTP to work. If your URL is discoverable, and your IP address has to be sent, withholding the URL doesn't actually get you more privacy, ultimately.	
 
