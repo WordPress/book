@@ -8,14 +8,14 @@ On 9th July he announced that the event would be on 5th August, and as yet he ha
 
 The [schedule for the WordCamp](http://2006.wordcamp.org/schedule/) reflects the concerns of the project at the time and also the breadth of people involved in the project. Mark Riley gave the first ever presentation at a WordCamp on how to get involved with the project. These are a staple of many WordCamps as community members try to get user inspired to help out. Andy Skelton presented on the widgets feature that he was working on for WordPress.com. There were presentations about blogging and podcasting, about journalism and monetising your blog. Donncha spoke about WPMU, and Mark Jaquith presented on [WordPress as a CMS](http://markjaquith.com/wordcamp/wordpress-versatility/), which he later reported was [one of the most-requested sessions](http://markjaquith.wordpress.com/2006/08/30/wordcamp-thoughts-late-to-the-game/).
 
-<img alt=“WordCamp San Francisco 2006“ src="../../Resources/images/21/wcsf_2006.jpg” width=“800px" />
+<img alt="WordCamp San Francisco 2006" src="../../Resources/images/21/wcsf_2006.jpg" width="800px" />
 
-_The first WordCamp (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)_
+_The first WordCamp (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)))_
 
 WordCamp San Francisco 2006 was the first WordCamp at which Matt did his State of the Word presentation. This has become a feature of every WordCamp San Francisco. Matt talks about what’s happened in the past year and what’s upcoming for WordPress. In the first State of the Word, he [talked about how](http://dan.hersam.com/2006/08/05/wordcamp-notes/) the software needed to be kept simple. The plan was to make installation a lot simpler, and to make themes and the admin page more usable. He mentioned Mark Riley, who had been extremely helpful on the support forums, and said that documentation and support needed a lot more contributors. One of the major issues hit on by Matt, and discussed in the Q&A afterwards, was updates. Matt made reference to Firefox, which could easily let people know that there was a new release. In order to be aware of a WordPress update, users had to follow the development blog. WordPress needed to be easy for people to update.
 
-<img alt=“State of the word 2006“ src="../../Resources/images/21/wcsf_2006_sotw_matt.jpg” width=“800px" />
+<img alt="State of the word 2006" src="../../Resources/images/21/wcsf_2006_sotw_matt.jpg" width="800px" />
 
-_Matt giving his State of the Word presentation (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)_
+_Matt giving his State of the Word presentation (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)))_
 
 As well as the presentations, there was barbecue for lunch and a party in the evening, and the event, despite the short lead time, was a success. It was the first of a WordCamp movement that ignited in countries across the world. The second WordCamp was in 2007, again in San Francisco in the Swedish American Hall. The first WordCamp outside of San Francisco was WordCamp Beijing in September 2007, which was quickly followed by WordCamps in Israel, Argentina, and Melbourne. These events, and WordPress events just like them, were organized by volunteers in the community who wanted to get WordPress users together to geek out on the software. In the beginning, there was no formal structure to the WordCamp program - if someone wanted to organize one they just did it. They were very informal user conferences, much like Barcamps themselves. It wasn’t until later, when the project had grown and the number of WordCamps across the world had exploded, that they started to get some structure. 
