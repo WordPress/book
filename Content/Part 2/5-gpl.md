@@ -4,7 +4,7 @@ The General Public License (GPL) is the license that WordPress is distributed wi
 
 The principles that inspired Mike have inspired thousands of software developers. They are ideas that resonate with hackers, that speak to freedom and a society based on sharing and collaboration. Communities, like WordPress, have grown up around an ethos which has influenced models of software development all over the world. 
 
-The principles are the clauses written in to the General Public License (GPL), the terms under which the software is distributed. The license was written by Richard Stallman for software he released as part of the GNU software project[^fn-1]. Exasperated by proprietary licensing, which he saw as responsible for the decline of the hacker lab at MIT, he wanted to distribute software that he wrote with a license that protected software users’ freedoms. The GPL protects four user freedoms that are at the heart of "free software." “Free" in this context does not apply to price; it refers to freedom, which is the underlying ethos that drives the Free Software Foundation.[^fn-2]
+The principles are the clauses written in to the General Public License (GPL), the terms under which the software is distributed. The license was written by Richard Stallman for software he released as part of the GNU software project[^fn-1]. Exasperated by proprietary licensing -- which he saw as responsible for the decline of the hacker lab at MIT -- he wanted to distribute software he wrote with a license that protected software users’ freedoms. The GPL protects four user freedoms that are at the heart of "free software." “Free" in this context does not apply to price; it refers to freedom, which is the underlying ethos that drives the Free Software Foundation.[^fn-2]
 
 [Free software protects four essential freedoms](http://www.gnu.org/philosophy/free-sw.html):
 
@@ -18,8 +18,8 @@ These can be summarized as "users have the freedom to run, copy, distribute, stu
 It’s not enough, however, just to write freedoms into a license. Those user freedoms need to be protected. Otherwise, free software can be absorbed into proprietary software. Developers get the benefits of free software but don’t pass on those benefits to others. In order to ensure that these freedoms are protected, the GPL operates using what Stallman calls "copyleft.” Copyleft subverts the normal use of copyright laws to protect the terms under which the work can be distributed and redistributed. It's a method of making a work free and requiring that all extended and modified versions of the work are free as well. In this way, the copyright holder can ensure that their work does not end up being part of a proprietary model.
 
 Copyleft works in the following way:
-1. The copyright holder asserts that they hold the copyright to the work.
-2. To this is added the terms of distribution. This says that anyone can use, modify, and redistribute the work, _provided they pass the same freedom on to everyone else_.
+1.    The copyright holder asserts that they hold the copyright to the work.
+2.    To this is added the terms of distribution. This says that anyone can use, modify, and redistribute the work, _provided they pass the same freedom on to everyone else_.
 
 If a programmer wants to use a copyleft work in their own software, then that new work must provide the same freedoms as the original work. Copyright is turned on its head. It is used against itself, or, as [Stallman puts it](http://www.gnu.org/copyleft/) "we use copyright to guarantee their freedom." A copyleft license doesn't abandon copyright (i.e., by simply putting a work in the public domain), it asserts it and uses it. 
 
