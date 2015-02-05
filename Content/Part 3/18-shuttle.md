@@ -6,13 +6,13 @@ The group focused on an aesthetic refresh to reimagine and modernize wp-admin --
 
 ![WordPress 1.5, Strayhorn](../../Resources/images/18/admin1_5.jpg) 
 
-Unlike WordPress core development, the Shuttle group ccommunicated on a private mailing list. This list was open to other members but the list archives weren't public. To get involved, a contributor had to be added to the group, and the group had to agree to add the new member. Discussions among members indicate that they weren’t keen for too many people to join.
+Unlike WordPress core development, the Shuttle group communicated via private mailing list. This list was open to other members but the list archives weren't public. To get involved, a contributor had to be added to the group, and the group had to agree to add the new member. Discussions among members indicate that they weren’t keen for too many people to join.
 
 This highlights one of the tensions between design -- which is usually a private process that leads to a finished design presented to the world -- and free software development. Linus's Law ([as outlined by Eric Raymond](http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/ar01s04.html)) is that "given enough eyeballs, all bugs are shallow." If there is a problem, get lots of eyes on it; it will be transparent to someone. This approach works with bugs or a coding problem with a clear answer.
 
-Design, however, is much more subjective, and all of the Shuttle project designers felt that opening up the design process to anyone at all would lead to a case of "too many cooks." "A mailing list like that," recalls Chris Davis now, "would become so much noise and so little signal so quickly that there would be no way we could move forward." 
+Design, however, is much more subjective, and the Shuttle project designers felt that opening up the design process to anyone would lead to a "too many cooks" situation. "A mailing list like that," recalls Chris Davis now, "would become so much noise and so little signal so quickly that there would be no way we could move forward." 
 
-To try and avoid this scenario, the group remained small, with three main designers (Michael, Joen, and Khaled) and coders responsible for realizing the design vision. The group worked from a set of PSDs and sent designs around among themselves. They offered feedback on each other's work and iterated on the design. They worked on design specific elements, mainly the Post screen (post.php). Over the project, 28 different versions circulated via the mailing list.
+To avoid this scenario, the group remained small, with three main designers (Michael, Joen, and Khaled) and coders responsible for realizing the design vision. The group worked from a set of PSDs and sent designs around among themselves. They offered feedback on each other's work and iterated on the design. They worked on design specific elements, mainly the Post screen (post.php). Over the project, 28 different versions circulated via the mailing list.
 
 Version 8
 
@@ -30,7 +30,7 @@ Version 26
 
 ![Shuttle version 26](../../Resources/images/18/shuttlev26.jpg) 
  
-As the design process continued, elements of Shuttle were implemented in WordPress. One of the earliest Shuttle designs increased the size of the title field in the post.php edit screen.
+As the design process continued, elements of Shuttle were implemented in WordPress. One of the earliest Shuttle designs increased the size of the title field in the `post.php` edit screen.
 
 In WordPress 1.5:
 
@@ -44,7 +44,7 @@ WordPress 2.0:
 
 <img alt="WordPress 2.0 write post screen" src="../../Resources/images/18/write_post_title_2_0.jpg" width="600px" />
 
-Pods in the Post screen, which collapsed elements such as post status, categories, and author, was another iteration.
+Pods in the `post.php` screen, which collapsed elements such as post status, categories, and author, was another iteration.
 
 In WordPress 1.5:
 
@@ -62,7 +62,7 @@ When WordPress 2.0 shipped with Shuttle-inspired changes, the feedback wasn’t 
 
 The project was beset by other problems. Despite having a closed mailing list to avoid the "too many cooks" problem, that problem arose anyway. The group's stucture made no one person responsible for the project's overall vision. Ideas were discussed and sent around. When one reads the mailing list now it feels like a design-focused discussion forum rather than a team with a clear task. As the group discovered, having a group of designers, each with their own ideas, can cause as many problems as opening a design mailing list up to a bunch of hackers.
 
-It took the group a long time to complete work. They discussed minor elements of the design such as rounded corners and gradients for lengthy periods, rather than pose fundamental questions about WordPress users' needs and wants. "I don’t know if we were cooperating enough on getting a unified feel and a unified understanding of everything before we were trying to actually apply our ideas to the problem," says Michael now. Besides that, all of the contributors had jobs that absorbed their time, so work happened in fits and starts. While the original plan was to complete the admin redesign within a period of three months (by mid-April 2005) this was pushed to September. The team eventually [missed the deadline for WordPress 2.0](http://lists.wordpress.org/pipermail/wp-design/2005-November/000502.html) in late 2005. The next deadline (for inclusion in WordPress 2.1, which itself never materialized) was the end of January, though a complete set of mockups did arrive in March 2006.
+It took the group a long time to complete work. They discussed minor design elements such as rounded corners and gradients for lengthy periods, rather than pose fundamental questions about WordPress users' needs and wants. "I don’t know if we were cooperating enough on getting a unified feel and a unified understanding of everything before we were trying to actually apply our ideas to the problem," says Michael now. Besides that, the contributors had jobs that absorbed their time, so work happened in fits and starts. While the original plan was to complete the admin redesign within three months (by mid-April 2005) this slid to September. The team eventually [missed the deadline for WordPress 2.0](http://lists.wordpress.org/pipermail/wp-design/2005-November/000502.html) in late 2005. The next deadline (for inclusion in WordPress 2.1, which itself never materialized) was the end of January, though it was March 2006, before a complete set of mockups arrived.
 
 It was then that Khaled sent round a complete set of screenshots with his vision for the new WordPress admin:
 
