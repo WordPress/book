@@ -1,6 +1,6 @@
 ## 28. Happy Cog Redesign
 
-Shuttle had failed and WordPress' admin needed a redesign. The project went to [design studio Happy Cog](http://lists.wordpress.org/pipermail/wp-hackers/2007-November/016123.html). Jeffrey Zeldman, Happy Cog founder, led the project with WordPress's logo designer Jason Santa Maria, and UX designer Liz Danzico.
+Shuttle had failed and WordPress' admin needed a redesign. Matt went to [design studio Happy Cog](http://lists.wordpress.org/pipermail/wp-hackers/2007-November/016123.html). Jeffrey Zeldman, Happy Cog founder, led the project with WordPress's logo designer Jason Santa Maria, and UX designer Liz Danzico.
 
 Whereas Shuttle focused on aesthetics, Happy Cog identified and corrected information architecture problems, and updated and improved WordPress' look and feel. Despite the project's user-first ethos, the admin screens had become cluttered over time, as new features were added in a relatively haphazard way. The change between WordPress 1.5 and WordPress 2.3 shows the features stuffed into the Pods Shuttle had introduced. 
 
@@ -10,7 +10,7 @@ Whereas Shuttle focused on aesthetics, Happy Cog identified and corrected inform
 
 Happy Cog produced designs and WordPress developers coded them. The project included user research and an interface audit to identify WordPress' strengths and weaknesses which informed new structural and interface designs. 
 
-WordPress, as a free software project, was an unusual client for a traditional design agency. The Happy Cog team was mostly sheltered from the community, by both Matt and Jeffery, but they knew this was an entirely different type of client. Jason Santa Maria says now:
+WordPress, as a free software project, was an unusual client for a traditional design agency. The Happy Cog team was mostly sheltered from the community, by both Matt and Jeffery, but they knew this was an entirely different type of client. [Jason Santa Maria says now](http://archive.wordpress.org/interviews/2014_01_22_Santa_Maria.html#L82):
 
 > Any other client will have customers and their own community, but you really have to just manage the people inside of a company, whereas when you’re dealing with an open source project, you deal with the people that you’re talking with, but there’s this whole gamut of other people that you will only ever get to talk to a small portion of. I think that that’s really difficult.
 
@@ -36,7 +36,7 @@ He designed three early mockups:
 
 Matt chose was the visually lighter design. Jason had taken Shuttle's heavy blue palette and lightened the interface. An orange accent color complemented the lighter blues.
 
-When the design was finally signed off, WordPress trunk started to transform. As change happened [community feedback](http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017849.html) was [posted to wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017850.html). Was the admin actually more usable? Major changes broke familiar patterns. Some comments make comparisons with Shuttle; some community members [want to implement Shuttle's interface](http://weblogtoolscollection.com/archives/2008/01/02/wordpress-24-admin-preview/#comment-1207158). 
+When the design was finally signed off, WordPress trunk started to transform. As change happened [community feedback](http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017849.html) was [posted to wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017850.html). Was the admin actually more usable? Major changes broke familiar patterns. Some comments make comparisons with Shuttle; a few community members [want to implement Shuttle's interface](http://weblogtoolscollection.com/archives/2008/01/02/wordpress-24-admin-preview/#comment-1207158). 
 
 Just before release, [a sneak peek was posted to the development blog](http://wordpress.org/development/2008/03/25-sneak-peek/), and WordPress users installed the release candidate to get a better look. The response was similar to that of the rest of the community. Regular WordPress users were surprised by the functionality changes to the Write screen. For some, it was [a step backward for usability](http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i). 
 
