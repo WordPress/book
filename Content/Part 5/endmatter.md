@@ -46,7 +46,7 @@ Improvements to Custom Post Types & Taxonomies
 Community
 - Crazyhorse redesign
 - Software Freedom Law Center decision on WordPress themes
-- 1st core meetup
+- 1st Core meetup
 - WordPress Foundation launched
 - WordCamp guidelines introduced
 

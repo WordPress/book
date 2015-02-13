@@ -1,7 +1,7 @@
 
 ## 42. The Community Summit
 
-2012 saw the first en-masse get-together of the WordPress community. Up until then, contributors got together at WordCamps, and the core team had smaller, focused meetups, but there had never been a large community event focused on issues that face WordPress software development and the wider WordPress community. The event was invitation only. Community members could nominate themselves and others to receive an invite to the event and this list was reviewed by a team of 18 people who voted on who would be invited. The attendees came from across the WordPress community, including active contributors, bloggers, plugin and theme developers, and business owners. They came together for a few days on Tybee Island, Georgia, to talk about WordPress.
+2012 saw the first en-masse get-together of the WordPress community. Up until then, contributors got together at WordCamps, and the Core team had smaller, focused meetups, but there had never been a large community event focused on issues that face WordPress software development and the wider WordPress community. The event was invitation only. Community members could nominate themselves and others to receive an invite to the event and this list was reviewed by a team of 18 people who voted on who would be invited. The attendees came from across the WordPress community, including active contributors, bloggers, plugin and theme developers, and business owners. They came together for a few days on Tybee Island, Georgia, to talk about WordPress.
 
 The main event, held at Tybee wedding chapel, was a one-day unconference, with a few informal days scheduled for afterwards for working on projects. In the morning attendees pitched their suggestions for discussions, discussion groups were formed around tables, and twice during the day the individual groups fed back their proposals for taking action. 
 
@@ -11,7 +11,7 @@ With so much discussed, and so many different ideas proposed, it was inevitable 
 
 - The better documentation of the theme review process to make the process more consistent and transparent
 - The production of a documentation and Codex roadmap, with the eventual launch of developer.wordpress.org
-- Language packs were included in core in WordPress 4.0
+- Language packs were included in Core in WordPress 4.0
 - Headers added to the P2 themes to tell contributors what to do to get involved in that area
 - The publication of a make/events sub-team list
 - Automatic updates 

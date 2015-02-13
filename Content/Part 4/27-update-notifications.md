@@ -1,6 +1,6 @@
 ## 27. Update notifications
 
-In July 2007, Peter Westwood became a core committer, bringing the number of people who could commit code to four. Westi got involved in the project in 2004, when, while working as a software engineer, he had written a script that downloaded WordPress and installed it on a server. He helped with the Codex and finding and fixing bugs. Like many other developers, he had little PHP experience when he came to the project.
+In July 2007, Peter Westwood became a Core committer, bringing the number of people who could commit code to four. Westi got involved in the project in 2004, when, while working as a software engineer, he had written a script that downloaded WordPress and installed it on a server. He helped with the Codex and finding and fixing bugs. Like many other developers, he had little PHP experience when he came to the project.
 
 The wp-hackers mailing list was in to its third year. Over time, productive discussion on the mailing list diminished. More decision making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). After only a short discussion on Trac, the code was committed. It wasn’t until September that a [phpmailer discussion happened on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/014497.html) -- a discussion that few committers participated in.
 
@@ -49,7 +49,7 @@ What benefit would an opt-out button for update notifications provide to users? 
 
 Therefore, despite the extensive discussion on wp-hackers, [WordPress 2.3 was launched as planned](http://wordpress.org/news/2007/09/wordpress-23/), with the following note in the announcement post:	
 
-> Our new update notification lets you know when there is a new release of WordPress or when any of the plugins you use has an update available. It works by sending your blog URL, plugins, and version information to our new api.wordpress.org service which then compares it to the plugin database and tells you whats (SIC) the latest and greatest you can use.
+> Our new update notification lets you know when there is a new release of WordPress or when any of the plugins you use has an update available. It works by sending your blog URL, plugins, and version information to our new api.wordpress.org service which then compares it to the plugin database and tells you whats (sic) the latest and greatest you can use.
 
 The project also published the [first version of a privacy policy on WordPress.org](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015014.html).	
 
