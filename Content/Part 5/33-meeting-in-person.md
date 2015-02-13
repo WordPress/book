@@ -21,7 +21,7 @@ WordPress’ core development team supported the proposal, and [Jen wrote about 
 
 Much of the early discussion was about what to call this cluster of plugins. The community voted and decided on “core plugins.” A team that included Westi, Aaron Campbell ([aaroncampbell](http://profiles.wordpress.org/aaroncampbell)), Austin Matzko ([filosofo](http://profiles.wordpress.org/filosofo)), Stephen Rider ([Strider72](http://profiles.wordpress.org/Strider72)), and Pete Mall ([PeteMall](http://profiles.wordpress.org/PeteMall/)) started work.
 
-[Health Check](https://wordpress.org/plugins/health-check/) which checks a website for common configuration errors and known issues, NAME, a plugin that shifted the post by email functionality from core into a plugin, and [PodPress](https://wordpress.org/plugins/podpress/), a popular podcasting plugin which had been abandoned, were the first canonical plugins. 
+[Health Check](https://wordpress.org/plugins/health-check/) which checks a website for common configuration errors and known issues, [PodPress](https://wordpress.org/plugins/podpress/), a popular podcasting plugin which had been abandoned, and a proposed plugin to shift the post by email functionality from core into a plugin, were the first canonical plugins. 
 
 Plugin developers weren’t so enthusiastic. They liked having ownership over their own plugins. The WordPress project was accused of trying to stifle the growing plugin market. Much of the discussion went on among developers, and how core plugins could influence them. Justin Tadlock [said](http://onefinejay.com/2010/01/10/shackling-a-free-market-wordpress-canonical-plugins/comment-page-2#comment-7578):
 
