@@ -48,7 +48,7 @@ Her current website, [The Roaming Pint] (http://theroamingpint.com) is a travelo
 
 To support her trip, Maria had to find work that would work with her fluid lifestyle. To begin with she planned to make money through her blog - plenty of people fund their travels by blogging, so why not her? However, making money purely from a blog is no easy task, and after a year on the road Maria decided money via the blog was not sustainable enough to solely support the lifestyle she wanted to maintain. For the past 3 years Maria has worked at WordPress Theme Shop, WooThemes, as the Internal Community Manager. Armed with a mobile hotspot and her laptop, she has everything she needs to make money while she is on the road. Her office is the RV. It's been completely renovated to make it feel like home: the walls are painted bright green and are decorated with stickers, coasters, pictures, and other souvenirs from her travels. The view from her office is always changing. "Next month my office will be overlooking the beautiful white capped Rockies in one of my favorite states - Colorado," says Maria "the following month we will be venturing even further west, eventually making our way back to the coast. There is no better office view for me than overlooking vast bodies of water, preferably with palm trees or mountain side cliffs and sandy beaches begging me to put my MacBook Air away and let the dogs play!"
 
-<img src="../Resources/images/introduction/maria-2.jpg" alt="Maria with her dogs and her RV" width="600px" />
+<img src="../Resources/images/introduction/maria-2.JPG" alt="Maria with her dogs and her RV" width="600px" />
 
 *Maria hanging out with her dogs and Stanley (by [sethkhughes.com](http://sethkhughes.com)*
 
@@ -59,7 +59,7 @@ To support her trip, Maria had to find work that would work with her fluid lifes
 
 Fjærland is a rural community with less than 300 inhabitants. Is is ringed by mountains and glaciers. Waterfalls run down the mountainsides along the fjords where porpoises and seal hunt for fish. In the summer, it is hot and sunny and busy with tourists, in the winter the weather turns cold and the local inhabitants, cut off from the rest of the world, plan for the coming summer. 
 
-<img src="../../Resources/images/introduction/booktown1.JPG" alt="Fjaerland booktown" width="600px" />
+<img src="../Resources/images/introduction/booktown1.JPG" alt="Fjaerland booktown" width="600px" />
 *The booktown at Fjærland (photo credit: Trond J. Hansen.)*
 
 The booktown that Eivind manages was a local initiative to reinvigorate the town. A [booktown is](http://booktown.net/) "a small rural town or village in which second-hand and antiquarian bookshops are concentrated. Most Book Towns have developed in villages of historic interest or of scenic beauty." The first was in Hay-on-Wye in Wales, but currently there are booktowns all over the world. In Fjærland, the booktown was established in 1995 to solve a specific problem. Buildings in the town were derelict and falling into disrepair. Rather than watch the town fall into ruin, the townspeople filled them with books. Second-hand books fill stables, boathouses, a bank and a post office, a grocery shop and a ferry waiting room. Each shop has its speciality, one even doubles as the tourist information office. Some bookshops are staffed, others operate by an honor system - customers leave money in an honesty book whenever they take a book.
