@@ -23,7 +23,7 @@ For many years, these documents were simply stored on paper. Offices full of pap
 
 With the help of a team of volunteers, the FBR's hundreds of thousands of records were converted into a digital database that allows rangers to quickly upload and disseminate information. The system needed to be usable by the rangers, many of whom had little computing experience, and many of whom speak different languages and dialects. When the project got to the point of user testing, the site was tested in a hut in the jungle on a laptop plugged into a solar cell, with a satellite internet connection.
 
-<img src="../Resources/images/introduction/fbr-usability.jpg" alt="Free Burma Rangers User Testing" width="600px" />
+<img src="../Resources/images/introduction/fbr-usability.JPG" alt="Free Burma Rangers User Testing" width="600px" />
 
 *User testing in a hut in the jungle*
 
@@ -39,7 +39,8 @@ With the help of a team of volunteers, the FBR's hundreds of thousands of record
 For nearly five years, Maria Scarpello has been traveling the highways and byways of America, sampling beer, in search of that perfect pint. She travels in an RV she calls Stanley, a 1999 Class C Ford Jayco. Stanley isn't just an RV, it's her home. "Home is where my wheels are," says Maria. She parks the RV wherever she can, from campgrounds to street corners, from parking lots to friends' driveways, and, from time to time, a parking lot. Stanley has been adapted to her life on the road. The bed has been removed from the back of the RV, replaced with a couch to give additional space to work, relax, and hang out with her two dogs Ernie and Buddha.
 
 Her first blog, [TrippingWithStanley.com] (http://trippinwithstanley.com) charted the first year and a half of their journey across America. From zip lines in Las Vegas to golfing in Phoenix, from barren deserts in Arizona to the rocky cliffs of the Oregon coasts. When Maria left home she had planned to travel for only six months, but the five years she has lived in her RV are a testament to how deeply she has fallen in love with life on the road.
-<img src="../Resources/images/introduction/maria-1.jpg" alt="Maria Scarpello" width="600px"/>
+
+<img src="../Resources/images/introduction/maria-1.JPG" alt="Maria Scarpello" width="600px"/>
 
 *Maria at Golden Canyon in Death Valley National Park*
 
@@ -58,12 +59,12 @@ To support her trip, Maria had to find work that would work with her fluid lifes
 
 Fjærland is a rural community with less than 300 inhabitants. Is is ringed by mountains and glaciers. Waterfalls run down the mountainsides along the fjords where porpoises and seal hunt for fish. In the summer, it is hot and sunny and busy with tourists, in the winter the weather turns cold and the local inhabitants, cut off from the rest of the world, plan for the coming summer. 
 
-<img src="../../Resources/images/introduction/booktown1.jpg" alt="Fjaerland booktown" width="600px" />
+<img src="../../Resources/images/introduction/booktown1.JPG" alt="Fjaerland booktown" width="600px" />
 *The booktown at Fjærland (photo credit: Trond J. Hansen.)*
 
 The booktown that Eivind manages was a local initiative to reinvigorate the town. A [booktown is](http://booktown.net/) "a small rural town or village in which second-hand and antiquarian bookshops are concentrated. Most Book Towns have developed in villages of historic interest or of scenic beauty." The first was in Hay-on-Wye in Wales, but currently there are booktowns all over the world. In Fjærland, the booktown was established in 1995 to solve a specific problem. Buildings in the town were derelict and falling into disrepair. Rather than watch the town fall into ruin, the townspeople filled them with books. Second-hand books fill stables, boathouses, a bank and a post office, a grocery shop and a ferry waiting room. Each shop has its speciality, one even doubles as the tourist information office. Some bookshops are staffed, others operate by an honor system - customers leave money in an honesty book whenever they take a book.
 
-<img src="../Resources/images/introduction/booktown2.jpg" alt="Fjaerland booktown with customer" width="600px" />
+<img src="../Resources/images/introduction/booktown2.JPG" alt="Fjaerland booktown with customer" width="600px" />
 
 *A customer browses the books (photo credit: Trond J. Hansen.)*
 
