@@ -13,11 +13,17 @@ Burma is the stage for one of the longest-running civil wars in history. Since 1
 
 Since 1997, the Free Burma Rangers (FBR) have delivered humanitarian relief to internally displaced persons (IDPs).  Operating from regions around Burma's borders, relief teams of up to six people enter Burma's jungles to provide emergency medical relief, humanitarian assistance, and counselling to IDPs. The teams are made up of Burmese nationals, many of whom have themselves been displaced, who themselves have been victims of the government's military rule.
 
+<img src="../../Resources/images/introduction/fbr.jpg" alt="Free Burma Rangers Medics" width="600px" />
+*Medics from the Free Burma Rangers in the field*
+
 In addition to providing humanitarian relief, the teams gather documentary evidence about atrocities and human rights abuses in Burma. Every team has a member whose job it is to document atrocities with photography, video, and interviews. This evidence is trekked out of the jungle, over the border, and forms an archive of the human rights abuses committed by the junta.
 
 For many years, these documents were simply stored on paper. Offices full of paper held evidence of years of abuse. The information was tabulated into spreadsheets and documents. Photographs and videos were stored on stacks of harddrives. In order to find information, a person had to spend hours looking for it. There was no way to look at the data in aggregate, to find patterns and trends. 
 
 With the help of a team of volunteers, the FBR's hundreds of thousands of records were converted into a digital database that allows rangers to quickly upload and disseminate information. The system needed to be usable by the rangers, many of whom had little computing experience, and many of whom speak different languages and dialects. When the project got to the point of user testing, the site was tested in a hut in the jungle on a laptop plugged into a solar cell, with a satellite internet connection.
+
+<img src="../../Resources/images/introduction/fbr-usability.jpg" alt="Free Burma Rangers User Testing" width="600px" />
+*User testing in a hut in the jungle*
 
  The reports are stored on two sites - an internal site for storing and tracking all of the reports, and public-facing website which is used to disseminate information to the public. Both of these websites are built using WordPress. While on a relief mission, a team takes notes on human rights violations, noting where they happen, taking photos and recording interviews. They do the same thing for any patients they see, recording everything in a paper journal. When the relief mission is complete, the journal and SD card are trekked out of the jungle and the information input into the website.
  
@@ -31,10 +37,15 @@ With the help of a team of volunteers, the FBR's hundreds of thousands of record
 For nearly five years, Maria Scarpello has been traveling the highways and byways of America, sampling beer, in search of that perfect pint. She travels in an RV she calls Stanley, a 1999 Class C Ford Jayco. Stanley isn't just an RV, it's her home. "Home is where my wheels are," says Maria. She parks the RV wherever she can, from campgrounds to street corners, from parking lots to friends' driveways, and, from time to time, a parking lot. Stanley has been adapted to her life on the road. The bed has been removed from the back of the RV, replaced with a couch to give additional space to work, relax, and hang out with her two dogs Ernie and Buddha.
 
 Her first blog, [TrippingWithStanley.com] (http://trippinwithstanley.com) charted the first year and a half of their journey across America. From zip lines in Las Vegas to golfing in Phoenix, from barren deserts in Arizona to the rocky cliffs of the Oregon coasts. When Maria left home she had planned to travel for only six months, but the five years she has lived in her RV are a testament to how deeply she has fallen in love with life on the road.
+<img src="../../Resources/images/introduction/maria-1.jpg" alt="Maria Scarpello" width="600px"/>
+*Maria at Golden Canyon in Death Valley National Park*
 
 Her current website, [The Roaming Pint] (http://theroamingpint.com) is a travelog of all of the breweries that she has visited in America. Through the site, beer lovers can vicariously visit America's breweries and search the website to get information about the hundreds of breweries that the couple have visited.
 
 To support her trip, Maria had to find work that would work with her fluid lifestyle. To begin with she planned to make money through her blog - plenty of people fund their travels by blogging, so why not her? However, making money purely from a blog is no easy task, and after a year on the road Maria decided money via the blog was not sustainable enough to solely support the lifestyle she wanted to maintain. For the past 3 years Maria has worked at WordPress Theme Shop, WooThemes, as the Internal Community Manager. Armed with a mobile hotspot and her laptop, she has everything she needs to make money while she is on the road. Her office is the RV. It's been completely renovated to make it feel like home: the walls are painted bright green and are decorated with stickers, coasters, pictures, and other souvenirs from her travels. The view from her office is always changing. "Next month my office will be overlooking the beautiful white capped Rockies in one of my favorite states - Colorado," says Maria "the following month we will be venturing even further west, eventually making our way back to the coast. There is no better office view for me than overlooking vast bodies of water, preferably with palm trees or mountain side cliffs and sandy beaches begging me to put my MacBook Air away and let the dogs play!"
+
+<img src="../../Resources/images/introduction/maria-2.jpg" alt="Maria with her dogs and her RV" width="600px" />
+*Maria hanging out with her dogs and Stanley (by [sethkhughes.com](http://sethkhughes.com)*
 
 **Running a Small Business**
  _Fjærland, Norway._ 
@@ -43,7 +54,13 @@ To support her trip, Maria had to find work that would work with her fluid lifes
 
 Fjærland is a rural community with less than 300 inhabitants. Is is ringed by mountains and glaciers. Waterfalls run down the mountainsides along the fjords where porpoises and seal hunt for fish. In the summer, it is hot and sunny and busy with tourists, in the winter the weather turns cold and the local inhabitants, cut off from the rest of the world, plan for the coming summer. 
 
+<img src="../../Resources/images/introduction/booktown1.jpg" alt="Fjaerland booktown" width="600px" />
+*The booktown at Fjærland (photo credit: Trond J. Hansen.)*
+
 The booktown that Eivind manages was a local initiative to reinvigorate the town. A [booktown is](http://booktown.net/) "a small rural town or village in which second-hand and antiquarian bookshops are concentrated. Most Book Towns have developed in villages of historic interest or of scenic beauty." The first was in Hay-on-Wye in Wales, but currently there are booktowns all over the world. In Fjærland, the booktown was established in 1995 to solve a specific problem. Buildings in the town were derelict and falling into disrepair. Rather than watch the town fall into ruin, the townspeople filled them with books. Second-hand books fill stables, boathouses, a bank and a post office, a grocery shop and a ferry waiting room. Each shop has its speciality, one even doubles as the tourist information office. Some bookshops are staffed, others operate by an honor system - customers leave money in an honesty book whenever they take a book.
+
+<img src="../../Resources/images/introduction/booktown2.jpg" alt="Fjaerland booktown with customer" width="600px" />
+*A customer browses the books (photo credit: Trond J. Hansen.)*
 
 Some of Eivind's time every day is spent managing and updating the [booktown's website](http://bokbyen.no/). The website is a window for the rest of the world onto this secluded community. The site provides information about the booktown, while the blog has news from Fjærland. There is also an online store from which the booktown distributes publications from Sjørettsfondet, the [Norweigan Maritime Law Foundation](http://www.sjorettsfondet.no/English.htm). The website, maintained in both Norweigan and English, is built on WordPress.
 
