@@ -4,9 +4,11 @@
 
 In the wake of the exodus to Habari, the project began to evolve. In March 2007, Robin Adrianse ([rob1n](https://profiles.wordpress.org/rob1n)), WordPress’ first temporary committer, received commit access for three months to help Ryan Boren address languishing trac tickets. 
 
-Also in March, the plugin directory launched. Before the plugin directory, many developers just hosted their plugins on their website. The plugin directory gave them exposure to a huge number of WordPress users. Samuel Wood ([Otto42](http://profiles.wordpress.org/otto42), [recalls how the plugin directory encouraged him to distribute his code](http://archive.wordpress.org/interviews/2014_06_07_Wood.html#L204). “I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them.”	
+Also in March, the plugin directory launched. Before the plugin directory, many developers just hosted their plugins on their website. The plugin directory gave them exposure to a huge number of WordPress users. Samuel Wood ([Otto42](http://profiles.wordpress.org/otto42)), [recalls how the plugin directory encouraged him to distribute his code](http://archive.wordpress.org/interviews/2014_06_07_Wood.html#L204). “I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them.”	
 
 <img src="../../Resources/images/25/plugin-directory-2007.jpg" width="800px" />
+
+*The WordPress Plugin Directory in 2007*
 
 WordPress 2.1 launched in January 2007, after a release cycle of more than a year. The following cycle, WordPress 2.2, was the first to adopt the new 120-day release cycle. This new goal, which would later become “deadlines are not arbitrary” in WordPress’ [list of philosophies](https://wordpress.org/about/philosophy/), was an ongoing challenge, tested even in WordPress 2.2, which featured a new taxonomy system -- the biggest database architecture changes to date. Developing in an open source environment means leaving time for every voice to be heard, waiting for volunteers with busy lives to get things done, and discussing new features and architecture changes. It’s a challenge that WordPress would have to address release cycle after release cycle.
 
@@ -55,6 +57,8 @@ In the thread, he also proposed an alternative; creating a new table, inspired b
 Ryan Boren [proposed a compromise](http://lists.wordpress.org/pipermail/wp-hackers/2007-April/011991.html), one which enabled individual terms to be part of any taxonomy while keeping the same ID. It was a three-table solution, with a table for terms, taxonomies, and objects. Discussion ensued, a [new Trac ticket was opened up](https://core.trac.wordpress.org/ticket/4189), and a new structure was created based on this proposal. The first table wp_terms, holds basic information about single terms. The wp_term_taxonomy places the term in a taxonomy. The final table, term_relationships relates objects (such as posts or links) to a term_taxonomy_id from the term_taxonomy table.
 
 <img src="../../Resources/images/25/taxonomy_structure.jpg" alt="an image showing the current taxonomy structure of WordPress" />
+
+*The database structure for WordPress taxonomies*
 
 This approach has the advantage of assigning one ID to a term name while using another table to relate it to a specific taxonomy. It's extensible for plugin developers who can create their own taxonomies. It also enables large multisite networks, such as WordPress.com, to create global taxonomies -- unified tagging systems in which users of different blogs can share terms within a taxonomy.
 
