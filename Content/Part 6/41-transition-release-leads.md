@@ -13,6 +13,8 @@ Ideally, these feature teams should be a led by lead developer or committer pair
 
 <img src="../../Resources/images/41/3_4_dev_process.jpg" width="800px" />
 
+*The proposal for the 3.4 release process.*
+
 They also decided that releases would have a specific focus. WordPress 3.3 had been a cluster of disparate features, some of which had been pulled because they weren't ready. WordPress 3.4 was the first cycle to have an overarching focus -- appearance/switching themes. The development team worked on improving both front-end and admin features that adjust a sites’s appearance. 
 
 Between WordPress 3.4 and 3.5 the approach to project leadership evolved. These changes started back in WordPress 3.0 when Dion Hulse became a committer. Though Dion received commit access, he was not made a lead developer. This was the first step toward decoupling the lead developer position from commit access. The team felt that commit access, while being a symbol of trust and responsibility, should not necessarily lead to a person becoming a lead developer. To reduce bottlenecks, the project needed committers but not necessarily more lead developers. Separating the roles offered opportunities for strong coders and patch triagers. Additionally, some contributors may not be suited for or even want a more general leadership role.
