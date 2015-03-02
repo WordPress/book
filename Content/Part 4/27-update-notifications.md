@@ -1,6 +1,6 @@
 ## 27. Update notifications
 
-In July 2007, Peter Westwood became a Core committer, bringing the number of people who could commit code to four. Westi got involved in the project in 2004, when, while working as a software engineer, he had written a script that downloaded WordPress and installed it on a server. He helped with the Codex and finding and fixing bugs. Like many other developers, he had little PHP experience when he came to the project.
+In July 2007, Peter Westwood became a core committer, bringing the number of people who could commit code to four. Westi got involved in the project in 2004, when, while working as a software engineer, he had written a script that downloaded WordPress and installed it on a server. He helped with the Codex and finding and fixing bugs. Like many other developers, he had little PHP experience when he came to the project.
 
 The wp-hackers mailing list was in to its third year. Over time, productive discussion on the mailing list diminished. More decision making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). After only a short discussion on Trac, the code was committed. It wasn’t until September that a [phpmailer discussion happened on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/014497.html) -- a discussion that few committers participated in.
 

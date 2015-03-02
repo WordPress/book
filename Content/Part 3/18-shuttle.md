@@ -6,7 +6,7 @@ The group focused on an aesthetic refresh to reimagine and modernize wp-admin --
 
 ![WordPress 1.5, Strayhorn](../../Resources/images/18/admin1_5.jpg) 
 
-Unlike WordPress Core development, the Shuttle group communicated via private mailing list. This list was open to other members but the list archives weren't public. To get involved, a contributor had to be added to the group, and the group had to agree to add the new member. Discussions among members indicate that they weren’t keen for too many people to join.
+Unlike WordPress core development, the Shuttle group communicated via private mailing list. This list was open to other members but the list archives weren't public. To get involved, a contributor had to be added to the group, and the group had to agree to add the new member. Discussions among members indicate that they weren’t keen for too many people to join.
 
 This highlights one of the tensions between design -- which is usually a private process that leads to a finished design presented to the world -- and free software development. Linus's Law ([as outlined by Eric Raymond](http://www.catb.org/esr/writings/homesteading/cathedral-bazaar/ar01s04.html)) is that "given enough eyeballs, all bugs are shallow." If there is a problem, get lots of eyes on it; it will be transparent to someone. This approach works with bugs or a coding problem with a clear answer.
 
