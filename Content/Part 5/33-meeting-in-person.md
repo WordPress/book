@@ -5,6 +5,8 @@ In December 2009, the Core team -- Matt, Mark, Ryan, Westi, Andrew, and Jen -- m
 
 <img src="../../Resources/images/33/1st-core-meetup.jpg" width="800px" />
 
+*From left to right: Mark Jaquith, Jen Mylo, Andrew Ozz, Peter Westwood, Matt Mullenweg, Ryan Boren*
+
 They [posted results to the WordPress news blog](http://wordpress.org/news/2009/12/core-team-meetup-results/), highlighting the breadth of the discussion: 	
 
 > Direction for the coming year(s), canonical plugins, social i18n for plugins, plugin salvage (like UDRP for abandoned plugins), WordPress/MU merge, default themes, CMS functionality (custom taxonomies, types, statuses, queries), cross-content taxonomy, media functions and UI, community “levels” based on activity, defining scope of releases, site menu management, communications within the community, lessons learned from past releases, mentorship programs, Trac issues, wordpress.org redesign, documentation, community code of conduct.	
