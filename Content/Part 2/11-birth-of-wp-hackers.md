@@ -31,4 +31,6 @@ The WordPress Plugin Repository was the other development resource that appeared
 In order to make it a little more accessible, a wiki was used to create a very early version of the Plugin Directory.	
 <img src="../../Resources/images/11/plugin-directory-2005.jpg" width="800px" />
 
+*The first version of the WordPress Plugin Directory, in [late 2005](https://web.archive.org/web/20051124163617/http://dev.wp-plugins.org/wiki/PluginDirectory)*
+
 While being full of developer tools, it didn’t have an easy interface to allow users to find the right plugins. Trac and wikis can often be difficult for non-technical software users to navigate. Users just want to get what they want, easily, and interfaces that look code-heavy can be confusing and off-putting. For developers, however, the repository nurtured the free software community’s inclination toward code sharing, and was the first step toward the plugin directory on WordPress.org.
