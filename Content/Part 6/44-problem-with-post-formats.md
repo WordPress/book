@@ -14,6 +14,8 @@ The problem was that despite time spent on wireframes and development, the team 
 
 <img src="../../Resources/images/44/post-formats.jpg" "one of the proposals for the post formats UI" />
 
+*The post formats user interface*
+
 April 29th was WordPress 3.6 target release date. On April 23rd, Jen, who had by that point stepped back from her involvement in development, [said that post formats weren't ready](http://make.wordpress.org/core/2013/04/23/post-formats-schedules-and-philosophy/). She said that the user interface was confusing, underscoring WordPress' _deadlines are not arbitrary_ philosophy. The thread, in addition to highlighting the post formats UI flaws, showed that not everyone on the development team was behind the _deadlines are not arbitrary_ clause. [Ryan Boren wrote](http://make.wordpress.org/core/2013/04/23/post-formats-schedules-and-philosophy/#comment-8523):
 
 > The four month deadline is so fanciful as to be arbitrary. It always has been. Historically, we just can’t do a major release with a marquee UI feature in that time, certainly not without heroic efforts of the 3.5 sort. So we end up facing decisions like this. Every single release we wonder if we have to punt the marquee feature. Punting often requires major surgery that can be as much work as finishing the feature. Punting is demoralizing. Four month releases are empty promises that bring us here.	
