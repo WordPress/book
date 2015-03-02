@@ -10,6 +10,8 @@ Themes lagged behind plugins for an official repository. For a long time, themes
 
 <img src="../../Resources/images/26/theme-viewer-2007.jpg" width="800px" />
 
+*The WordPress theme viewer in 2007*
+
 However, the system was susceptible to spam and duplicate themes. Some theme developers abused the system by [downloading their theme multiple times](https://web.archive.org/web/20080415170633/http://themes.wordpress.net/blog/939/first-spammer-caught/), so that they would appear at the top of the most popular results. The theme viewer was at the centre of the first big debate about themes.
 
 Theme designers tried theme sponsorship as a way to make money from their designs. Designers often link to their website in their theme as a credit. Kubrick, for example, links to Michael Heilemann's website. Every site that installs the theme links to the designer's website. The number of incoming links to a website is a variable in Google's PageRank algorithm: the more incoming links, the higher the PageRank, the further up in Google's search engine results. If hundreds, or even thousands, of people install a theme, the designer can watch themselves soar up Google's search results. Even better if that link comes from a high authority website. 
