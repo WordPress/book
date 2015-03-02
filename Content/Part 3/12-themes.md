@@ -13,6 +13,8 @@ The competition created buzz in the community. In total, there were 38 submissio
 
 <img src="../../Resources/images/12/pink-lillies.png" alt="Naoko Takano's Pink Lillies theme" width="800px" />
 
+*The Pink Lillies design, by Naoko Takano*
+
 The competition successfully widened the pool of available stylesheets, increasing the number from seven to 45. On his website, Alex launched a [style browser to allow visitors to view the different stylesheets](http://alexking.org/projects/wordpress/styles/sample.php?wpstyle=pink_lilies). The competition [ran again in 2005](http://alexking.org/blog/2005/02/27/wordpress-theme-competition), this time receiving more than a hundred submissions. 
 
 By the second competition, the theme system was in place and designers had more tools to design and build their theme. Alex’s experience in the second competition, however, foreshadowed problems that would dog the community in later years. In hosting 138 themes on his site, [Alex had to review all of the code](http://alexking.org/blog/2005/03/28/theme-competition) to make sure there was nothing malicious, and to ensure that each theme used coding best practices. He decided not to host the competition again in 2006 due to the sheer amount of work it required. WordPress’ growth meant there would be even more submissions, far too many for one person to review. This problem persisted as the project grew: how does one balance a low barrier to entry with achieving good code quality, particularly in third party plugins and themes?
@@ -22,6 +24,8 @@ Still, the 2005 competition showed off the flexibility of the brand new theme sy
 Bundled with WordPress 1.5 was a new default theme -- an adapted version of Michael Heilemann’s Kubrick. While some welcomed the new theme, [others were unhappy that it was chosen:](https://web.archive.org/web/20041016090654/http://binarybonsai.com/archives/2004/08/22/kubrick-vs-wordpress/)
 
 <img alt="Kubrick Theme" src="../../Resources/images/12/kubrick.jpg" />
+
+*The Kubrick Theme, which was WordPress' default theme until 2010*
 
 One of the problems with Kubrick was that it contained images; if a user wanted to change their theme they had to use an external image editor. Some felt that users should not be expected to download additional software just to change their site’s design. Others thought Kubrick too complex; it had .htaccess issues, and that other (better) default theme choices existed. The [thread on the forums](https://wordpress.org/support/topic/why-using-kubrick-on-13-is-a-mistake) reaches five pages with substantial flaming. 
 
