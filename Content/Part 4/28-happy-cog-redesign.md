@@ -6,7 +6,11 @@ Whereas Shuttle focused on aesthetics, Happy Cog identified and corrected inform
 
 <img alt="WordPress 1.5 write screen" src="../../Resources/images/28/wp_1_5.png" width=“800px” />
 
+*The Write screen in WordPress 1.5*
+
 <img alt="WordPress 2.3 write screen" src="../../Resources/images/28/wp_2_3.png" width="800px" />
+
+*The Write screen in WordPress 2.3*
 
 Happy Cog produced designs and WordPress developers coded them. The project included user research and an interface audit to identify WordPress' strengths and weaknesses which informed new structural and interface designs. 
 
@@ -30,9 +34,15 @@ He designed three early mockups:
 
 <img alt="Happy Cog design 1" src="../../Resources/images/28/happy-cog-design-a.jpg" />
 
+*Mockup Number 1*
+
 <img alt="Happy Cog design 2" src="../../Resources/images/28/happy-cog-design-b.jpg" />
 
+*Mockup Number 2*
+
 <img alt="Happy Cog design 3" src="../../Resources/images/28/happy-cog-design-c.jpg" />
+
+*Mockup Number 3*
 
 Matt chose was the visually lighter design. Jason had taken Shuttle's heavy blue palette and lightened the interface. An orange accent color complemented the lighter blues.
 
@@ -41,6 +51,8 @@ When the design was finally signed off, WordPress trunk started to transform. As
 Just before release, [a sneak peek was posted to the development blog](http://wordpress.org/development/2008/03/25-sneak-peek/), and WordPress users installed the release candidate to get a better look. The response was similar to that of the rest of the community. Regular WordPress users were surprised by the functionality changes to the Write screen. For some, it was [a step backward for usability](http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i). 
 
 <img alt="The write screen in the WordPress 2.5 admin" src="../../Resources/images/28/2_5_admin.jpg" />
+
+*The Write screen in the WordPRess 2.5 admin*
 
 WordPress 2.4 was the first version to fall significantly behind the 120-day release cycle. Versions 2.2 and 2.3 were mostly on schedule, but the Happy Cog redesign brought in major changes to the codebase that meant delaying the release. Rather than just delaying release, a version was skipped, [moving straight from WordPress 2.3 to WordPress 2.5](http://lists.wordpress.org/pipermail/wp-hackers/2008-January/016993.html), which was scheduled for release in March. 
 
