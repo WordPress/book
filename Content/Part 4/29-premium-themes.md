@@ -71,6 +71,8 @@ In the midst of these debates, themes found a new home on WordPress.org. The the
 
 <img alt=“the first version of the WordPress theme directory“ src="../../Resources/images/29/theme-directory-2008.jpg" />
 
+*The WordPress Theme Directory in 2008*
+
 
 
 [^Fn-1] The theme marketplace didn't launch until 2011, four years after the initial announcement.
