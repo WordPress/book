@@ -18,6 +18,8 @@ Michael redesigned the Habari interface -- which he says now was both a good and
 
 <img src="../../Resources/images/24/habari-monolith.png" alt="The Create Entry screen in Habari's dashboard" width="800px">
 
+*The Habari Monolith interface, designed by Michael Heilemann*
+
 Commit access was another flashpoint. In the Apache project, a clear path to commit access to the repository existed. In WordPress in early 2006, getting commit access was not possible for most people. Only Matt and Ryan had commit access to WordPress; they acted as a funnel through which all code would be reviewed. More committers were eventually added, but it was a slow process and one that led to frustration, particularly among prolific contributors. 
 
 Coming from Apache, Rich brought a different perspective to the project -- one that chimed with the more dissatisfied developers. For Rich, [WordPress didn’t constitute a true meritocracy](ttps://neosmart.net/blog/2007/a-clarification-on-wordpress/comment-page-1/#comment-10985) -- there was no opportunity for those with ability to gain power and responsibility. The final decision over who did and didn’t get power and authority lay with the project’s leader -- it was up to Matt's discretion to determine who had ability and deserved power. When Matt, in a discussion thread, said that WordPress is a meritocracy because commit access is provided to "the best of the best of the best contributors who prove their worth over time with high quality code, responsiveness to the community, and reliability in crunch times,” Rich responded by pointing out that because the final decision lies with the BDFL it prevents the community from becoming a true meritocracy.
@@ -44,6 +46,8 @@ In February 2007, when Ryan wrote that comment, PHP 4 was still running on 88.44
 
 <img src="../../Resources/images/24/php-graph-2007.png" alt="PHP Major Distribution Stats in February 2007" width="800px" />
 
+*PHP major distribution statistics in February 2007*
+
 Habari's license choice also signifies fundamental differences in FOSS beliefs. WordPress has a GPL license, which is intended to secure the freedoms of users. Habari, on the other hand, uses the [Apache License](http://www.apache.org/licenses/LICENSE-2.0). This permissive license allows developers to take the code and use it in any way -- even in a proprietary product. In the Apache license, the emphasis is very much on developer freedom. [Owen Winkler outlined the reasons](http://archive.wordpress.org/interviews/2013_08_20_Winkler.html#L81) why the Habari project chose not to use a GPL license:
 
 > There's the idea of developer freedom. If you give the software away you should be able to give it away with no requirements at all. If you want to take it and make software that you sell, then go ahead and do that. Hopefully you won’t. Hopefully you’ll contribute. Or if do, you’ll contribute what you make back to the community somehow.
@@ -54,4 +58,4 @@ But they didn’t hold on. By the time the reins loosened they had founded their
 
 <img alt="Chris Davis, Owen Winkler, and Nicole Evans at Ohio Linux Fest 2007" src="../../Resources/images/24/habari_oh_linux_fest_credit_morydd.jpg" />
 
-Image CC license [Sean T Evans](http://www.flickr.com/photos/morydd/1463477046/)
+*Chris Davis, Owen Winkler, and Nicole Evans at Ohio Linux Fest 2007 (Image CC license [Sean T Evans](http://www.flickr.com/photos/morydd/1463477046/))*
