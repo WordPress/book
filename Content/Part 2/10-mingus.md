@@ -1,4 +1,4 @@
-## 10. Mingus 
+## 10. WordPress 1.2 "Mingus"
 
 Those who switched from Movable Type to WordPress, did so at a time when the software itself was in flux. May 2004 was the month WordPress 1.2 launched -- a release that improved WordPress’ flexibility. 
 
