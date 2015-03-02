@@ -8,8 +8,11 @@ Jonas Luster, ([jluster](http://profiles.wordpress.org/jluster/)) was at the par
 
 Shortly afterward Matt jumped on stage to announce WordPress Inc. -- with Jonas Luster as employee number one. By the following morning, a [couple of blogs](http://sfist.com/2005/03/22/wordpress_incorporated.php) had [covered the announcement](http://laughingsquid.com/matt-mullenweg-announces-wordpress-inc/). A few days later, [Matt went on holiday](http://ma.tt/2005/03/wordpress-world-tour/) leaving WordPress' very first employee in charge.
 
-Even as the party was going on, trouble was brewing. In February, a [user posted to the WordPress.org support forums](http://wordpress.org/support/topic/odd-wordpress-articles?replies=6) asking about hundreds of articles hosted at wordpress.org/articles/. The articles were about everything from credit and healthcare to web hosting. The thread was closed by a forum moderator. Blogger Andy Baio discovered the thread. He contacted Matt to ask about what was going on.		
+Even as the party was going on, trouble was brewing. In February, a [user posted to the WordPress.org support forums](http://wordpress.org/support/topic/odd-wordpress-articles?replies=6) asking about hundreds of articles hosted at wordpress.org/articles/. The articles were about everything from credit and healthcare to web hosting. The thread was closed by a forum moderator. Blogger Andy Baio discovered the thread. He contacted Matt to ask about what was going on.
+
 <img src="https://raw.githubusercontent.com/WordPress/book/master/Resources/images/15/wp_org_spam.png" width="800px" />
+
+*The Google search results that show the articles hosted on WordPress.org. (Google and the Google logo are registered trademarks of Google Inc., used with permission.)*
 
 Matt explained to Andy that he was being paid by a company called Hot Nacho to host the articles on WordPress.org and that he was using the money to cover WordPress' costs. "The /articles thing isn't something I want to do long term," he told Andy, "but if it can help bootstrap something nice for the community, I'm willing to let it run for a little while." In addition to responding to Andy, Matt re-opened the support forum thread and [left a response](http://wordpress.org/support/topic/odd-wordpress-articles?replies=6#post-160502):	
 
