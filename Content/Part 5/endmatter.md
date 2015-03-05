@@ -56,7 +56,7 @@ Companies launched
 - Odd Alice
 - Pressable (formerly ZippyKid)
 - WooThemes
-- Inspyde
+- Inpsyde
 - Human Made Ltd
 - WP101
 - WebDevStudios
