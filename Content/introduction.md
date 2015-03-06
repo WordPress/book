@@ -73,7 +73,7 @@ Some of Eivind's time every day is spent managing and updating the [booktown's w
 **Building the Web**
 _New York, New York_ 
 
-Some blogs have been around long before blog software even existed -- long before WordPress or MovableType or Livejournal. People shared their thoughts and links from around the web on these hand-coded websites. These blogs chart not just the evolution of a person, but the evolution of the web. Jeffrey Zeldman's blog is one such example. It's a record of many of the important trends and changes in technology and design that have happened ever since the mid-1990s, complemented by asides and personal reflections that illustrate the world as it is has changed along with the web.
+Some blogs have been around long before blog software even existed -- long before WordPress or Movable Type or Livejournal. People shared their thoughts and links from around the web on these hand-coded websites. These blogs chart not just the evolution of a person, but the evolution of the web. Jeffrey Zeldman's blog is one such example. It's a record of many of the important trends and changes in technology and design that have happened ever since the mid-1990s, complemented by asides and personal reflections that illustrate the world as it is has changed along with the web.
 
 Before the advent of blogging as its own form, Jeffrey used his website to entertain and create. His archives are a treasure-trove of 1990s design artefacts: [banners from zeldman.com](http://www.zeldman.com/zlink.html), [desktop backgrounds](http://www.zeldman.com/desktops/), and 8-bit [pixel art icons](http://www.zeldman.com/icon1.html). 
 
