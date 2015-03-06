@@ -31,7 +31,7 @@ We would like each section of the book to open with a haiku. Therefore, we are l
 
 ## Translations
 
-When the book is ready for production and no more changes are expected, we woud welcome translations. To translate the book, please create a sub-directory of the project, giving it the correct [ISO639](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code (for example, pt for Portuguese), and submit a pull request. 
+When the book is ready for production and no more changes are expected, we would welcome translations. To translate the book, please create a sub-directory of the project, giving it the correct [ISO639](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code (for example, pt for Portuguese), and submit a pull request. 
 
 ## License
 
