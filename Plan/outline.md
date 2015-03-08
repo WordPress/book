@@ -44,7 +44,7 @@ _note: chapter headings are working headings only_
 26. Phoning Home
 27. Happy Cog
 
-**Part 6**
+**Part 5**
 
 28. Crazy Horse
 29. Premium Themes ongoing stuff
