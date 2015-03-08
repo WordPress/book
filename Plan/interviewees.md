@@ -1,12 +1,15 @@
+# Interviewees
+
 A list of people who have been/will be interviewed, and those that have been contacted. Some things to note:
+
 * Mainly includes only people who were involved prior to 2006
 * If you're not on the list, and you want to be, [open an issue] (https://github.com/WordPress/book/issues/new) 
 * If you notice someone missing, leave a comment
 * if you would like to conduct an interview with someone [drop me an email] (mailto:siobhan@wordpress.org)
 
-### Developers
+## Developers
 
-_Interviewed_
+### Interviewed
 
 Matt Mullenweg  
 Dougal Campbell  
@@ -18,17 +21,17 @@ Peter Westwood
 Scott Merril  
 Owen Winkler 
 
-_Contacted_
+### Contacted
 
 Michel Valdrighi  
 Jason Verber  
 Mike Tremoulet  
 
-_Scheduled_
+### Scheduled
 
 Mark Jaquith  
 
-_To Contact_
+### To Contact
  
 Andrew Nacin  
 Bryan Veloso  
@@ -37,9 +40,9 @@ Andy Skelton
 Joen Assmussen  
 Khaled Abou Alfa
 
-### Community
+## Community
 
-_Interviewed_
+### Interviewed
 
 Jayvie Canono  
 Craig Hartel  
@@ -53,7 +56,7 @@ Xavier Borderie (by email)
 Mark Riley  
 Toni Schneider  
 
-_Contacted_
+### Contacted
 
 Michael Heilemann  
 TechGnome  
@@ -65,8 +68,8 @@ Kimmo Suominen
 Nikolay Bachiyski  
 Michael H  
 
+### To Contact
 
-_To Contact_
 Burning Bird  
 scriptygoddess  
 Joseph Scott  
@@ -91,17 +94,17 @@ Collis Ta'eed
 Lisa Sabin Wilson  
 Ben Metcalfe  
 
-### Others
+## Others
 
-_Interviewed_
+### Interviewed
 
 Kathe Mullenweg  
 
-_Scheduled_
+### Scheduled
 
 Anil Dash  
 
-_To Contact_
+### To Contact
 
 Eric Meyer  
 Jonas Luster  
