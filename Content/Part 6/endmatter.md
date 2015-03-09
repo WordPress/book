@@ -24,7 +24,7 @@ Distraction Free writing
 Retire support for PHP4, MySQL4, IE6
 Faster updates
 
-WordPres 3.3
+WordPress 3.3
 Drag and drop uploader
 Pointer tips
 
@@ -61,9 +61,9 @@ Companies set up
 - 10up
 - MailPoet
 - WizzPress
-- Make do
+- Make Do
 - DevriX
-- Required gmbh
+- Required GmbH
 - Range
 - CyberChimps
 - BruteProtect
@@ -72,7 +72,7 @@ Companies set up
 - Artesans
 - WP Sessions
 - Bob WP
-- Code for the People
+- Code For The People
 - Reaktiv Studios
 
 
