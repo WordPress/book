@@ -57,7 +57,7 @@ Companies launched
 - Pressable (formerly ZippyKid)
 - WooThemes
 - Inpsyde
-- Human Made Ltd
+- Human Made
 - WP101
 - WebDevStudios
 - Event Espresso
