@@ -30,6 +30,7 @@ Note: the [interviews conducted as part of this project](http://archive.wordpres
 We would like each section of the book to open with a haiku. Therefore, we are looking for seven haiku - one for the opening of the book (that sums the whole thing up), and one for the opening of each section.
 
 To add a haiku:
+
 1. Create a fork of the repo
 2. Add your haiku to the haiku file (if there is already one there, add it underneath. We'll decide which ones to choose when we finish the feedback round).
 3. Submit a pull request.
