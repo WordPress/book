@@ -1,6 +1,6 @@
 ## 1. Hello World
 
-February 2002, in Houston Texas, Matt Mullenweg ([matt](http://profiles.wordpress.org/matt)) was home from school. Sitting at his homemade PC, surrounded by posters of his favorite Jazz musicians, he downloaded a copy of Movable Type, installed it on a web server, and [published his first blog post](http://ma.tt/2002/02/testing-new-system/).
+February 2002, in Houston Texas, Matt Mullenweg ([matt](http://profiles.wordpress.org/matt)) was home from school. Sitting at his homemade PC, surrounded by posters of his favorite jazz musicians, he downloaded a copy of Movable Type, installed it on a web server, and [published his first blog post](http://ma.tt/2002/02/testing-new-system/).
 
 > I suppose it was just a matter of time before my egotist tendencies combined with my inherit geekiness to create some sort of blog. I’ve had an unhealthy amount of fun setting this up. This will be a nexus where I talk about and comment on things that interest me, like music, technology, politics, etc. etc.
 
