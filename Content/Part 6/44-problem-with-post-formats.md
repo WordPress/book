@@ -6,7 +6,7 @@ Post formats was 3.6's headline feature. Introduced in WordPress 3.1., [post for
 
 Post formats lacked a standard user interface. In WordPress 3.6, release leads Mark Jaquith and Aaron Campbell tackled the problem. The release cycle was made up of a number of different stages: in the scoping chat, the release lead decided on the release's key features, created teams, and assigned feature leads. Feature leads ran their teams. The release leads coordinated with the teams and made the final decision on what went into the release.
 
-Carrying out major user interface changes in just a few months is challenging at best. WordPrss 3.5 demonstrated that to meet the deadline, the release leads needed to put in heroic coding efforts.
+Carrying out major user interface changes in just a few months is challenging at best. WordPress 3.5 demonstrated that to meet the deadline, the release leads needed to put in heroic coding efforts.
 
 The 3.6 release encountered problems; [features were dropped](http://make.wordpress.org/core/2013/02/19/dropping-editorial-flow/) as contributors discovered they'd overcommitted themselves and dropped out. The biggest issue, however, was around the post formats user interface, inspired by  Alex King’s [Post Format’s Admin UI](http://alexking.org/blog/2011/10/25/wordpress-post-formats-admin-ui). Much thought and study went into the post formats UI. Which UI would offer users a logical, intuitive workflow, without making the UI or the experience needlessly complex?
 

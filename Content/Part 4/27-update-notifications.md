@@ -20,7 +20,7 @@ Mailing lists tend toward bike shed discussions. [^fn-1] The idea of bike shed p
 
 An atomic plant is so vast that only very few people can grasp it. The board of directors assume that somebody has the knowledge and has done the groundwork. In contrast, everyone can build a bike shed, so everyone has an opinion on how it should be built, and, more specifically, what color it should be.
 
-In his book, _Producing Open Source Software_, Karl Fogel notes that as the technical difficulty of an issues goes down, the “[probability of meandering goes up](http://producingoss.com/en/producingoss.html#bikeshed).” If a discussion is highly technical it can be difficult for everyone to follow, but there are other discussions which everyone can follow and engage with:
+In his book, _Producing Open Source Software_, Karl Fogel notes that as the technical difficulty of an issue goes down, the “[probability of meandering goes up](http://producingoss.com/en/producingoss.html#bikeshed).” If a discussion is highly technical it can be difficult for everyone to follow, but there are other discussions which everyone can follow and engage with:
 
 > consensus is hardest to achieve in technical questions that are simple to understand and easy to have an opinion about, and in "soft" topics such as organization, publicity, funding, etc. People can participate in those arguments forever, because there are no qualifications necessary for doing so, no clear ways to decide (even afterward) if a decision was right or wrong, and because simply outwaiting other discussants is sometimes a successful tactic.	
 
@@ -45,7 +45,7 @@ WordPress developers carefully consider introducing any new option. Over time th
 
 > One of the core design ideas for WordPress is that we don't introduce options lightly. The moment you think of making a feature optional you challenge the argument for introducing the feature in the beginning.
 
-What benefit would an opt-out button for update notifications provide to users? The purpose of the notifications is to inform a user that a new version of WordPress, or a plugin, is available for them into install. This helps users to stay up-to-date and secure. Adding an option to opt-out of update notifications would only reduce the number of people updating their sites, and increase the number of insecure instances of WordPress. The benefit to adding the option doesn’t outweigh the cost. 
+What benefit would an opt-out button for update notifications provide to users? The purpose of the notifications is to inform a user that a new version of WordPress, or a plugin, is available for them to install. This helps users to stay up-to-date and secure. Adding an option to opt-out of update notifications would only reduce the number of people updating their sites, and increase the number of insecure instances of WordPress. The benefit to adding the option doesn’t outweigh the cost. 
 
 Therefore, despite the extensive discussion on wp-hackers, [WordPress 2.3 was launched as planned](http://wordpress.org/news/2007/09/wordpress-23/), with the following note in the announcement post:	
 
