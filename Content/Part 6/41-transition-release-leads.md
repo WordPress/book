@@ -1,5 +1,5 @@
 
-## 41. The Transition to Release Leads
+## 40. The Transition to Release Leads
 
 From late 2011 onward, the development process saw experimentation and refinement. The development process wasn't optimum: it lacked accountability, there were bottlenecks and missed deadlines. Each release from WordPress 3.4 saw a major change to the development process, and it wasn’t until WordPress 3.8 that these experimentations in process settled down.
 

@@ -1,4 +1,4 @@
-## 44. The Problem with Post Formats
+## 43. The Problem with Post Formats
 
 The 3.6 release cycle was a challenging one, precipitating a new approach to the development process. Two core WordPress philosophies, _design for the majority_ and, again, _deadlines are not arbitrary_, were tested. The 3.6 release cycle process followed the contours of a cycle started in WordPress 3.4. There was a unified theme for the release -- this time [content editing](https://make.wordpress.org/core/2012/12/19/wordpress-3-6-cycle/). Small teams worked on key features. This approach didn’t account for the fact that some features need more research and development than can be achieved within a single development cycle. And it was in the WordPress 3.6 cycle that the flaw in this approach became obvious.
 

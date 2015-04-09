@@ -1,5 +1,5 @@
 
-## 42. The Community Summit
+## 41. The Community Summit
 
 2012 saw the first en-masse invitation-only WordPress community get-together: The Community Summit. Up until then, contributors got together at WordCamps, and the core team had smaller, focused meetups, but there had never been a large community event focused on issues that face WordPress software development and the wider WordPress community. Community members could nominate themselves and others to receive an invite; a team of 18 people reviewed and voted on who would be invited. The attendees -- active contributors, bloggers, plugin and theme developers, and business owners from across the WordPress community -- came to Tybee Island, Georgia, to talk about WordPress.
 

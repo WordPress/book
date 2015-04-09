@@ -1,4 +1,4 @@
-## 43. The Spirit of the GPL
+## 42. The Spirit of the GPL
 
 By early 2013, much of the GPL discussion had settled down. While not everyone liked the fact that the WordPress project would only support 100% GPL products, most people had accepted it. Many, however, were taken by surprise, by a sudden flare-up around not just the legalities of the GPL, but the “spirit” of the license. In a 2008 interview, Jeff Chandler asks Matt about the spirit of the GPL. Matt says that the spirit of the GPL is about user empowerment, about the four freedoms: to use, distribute, modify, and distribute modifications of the software. Software distributed with these four freedoms is in the spirit of the GPL. WordPress was created and distributed in this spirit, giving users full freedom with regard to the software. 
 
