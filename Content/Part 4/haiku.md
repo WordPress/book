@@ -1,3 +1,3 @@
 WordPress + Happy
-Cog = Two great tastes that 
+Cog = two great tastes that 
 taste great together

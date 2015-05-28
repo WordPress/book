@@ -1,3 +1,3 @@
 WordPress not Wordpress
-elegant and painterly
+elegant and printerly
 enlightened logo

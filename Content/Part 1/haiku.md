@@ -2,6 +2,6 @@ code is poetry
 democratizing the web
 delighting users
 
-Open source software
-Usable and hackable
-Web standards bebop
+open source software
+usable and hackable
+web standards bebop
