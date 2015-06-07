@@ -2,6 +2,8 @@
 
 Welcome to the online repository for our book on the history and development of WordPress. The book is currently in version 1, having been written by Siobhan McKeown, edited by Krista Stevens, and with helpful pull requests from members of the community. 
 
+[Download a rough PDF of the book.](https://www.dropbox.com/s/ncvveuicsm0j7x6/wp-book.pdf?dl=0)
+
 ## Table of Contents
 - [Introduction](https://github.com/WordPress/book/blob/master/Content/introduction.md)
 - [Part 1](https://github.com/WordPress/book/tree/master/Content/Part%201)
