@@ -20,7 +20,7 @@ To continue to run his sites, Pilgrim would have to pay $535. Instead of paying 
 
 > This site now runs WordPress. 
 
-Pilgrim's post was one factor that instigated an exodus from Movable Type to WordPress. Even if users were willing to pay for their websites, what if Six Apart changed their licensing terms again? How much would Movable 4.0 cost? How many sites would users be able to run? It was too easy for Six Apart to change the rules of the game, but WordPress's rules could never change under its GPL license.
+Pilgrim's post was one factor that instigated an exodus from Movable Type to WordPress. Even if users were willing to pay for their websites, what if Six Apart changed their licensing terms again? How much would Movable 4.0 cost? How many sites would users be able to run? It was too easy for Six Apart to change the rules of the game, but WordPress' rules could never change under its GPL license.
 
 Six Apart's move galvanized the WordPress community. It helped grow the WordPress platform. All of those dissatisfied Movable Type users were in need of a blogging platform that was flexible and without restrictions. Mark Pilgrim pointed them to WordPress, and the community was only too happy to help people migrate. Andrea Rennick ([andrea_r](https://profiles.wordpress.org/andrea_r/)), who was a Movable Type user at that time, [recalls](http://archive.wordpress.org/interviews/2014_06_05_Rennick_A.html#L15):
 

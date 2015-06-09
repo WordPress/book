@@ -96,4 +96,4 @@ But the GPL license meant that neither the code nor the community had to disappe
 
 [^fn-3] Spam pings are pings sent from spam blogs to get links on other websites. 
 
-[^fn-4] Particular problems that the article calls out include the fact that b2 didn't cache calls to the database so when there was a new visit from a user, the page had to be loaded from the database and server, slowing the website. The article also criticized the lack of flexibility in the templating system and the absence of cruft-free URLS (known in WordPress lingo now as "pretty permalinks"). 
+[^fn-4] Particular problems that the article calls out include the fact that b2 didn't cache calls to the database so when there was a new visit from a user, the page had to be loaded from the database and server, slowing the website. The article also criticized the lack of flexibility in the templating system and the absence of cruft-free URLs (known in WordPress lingo now as "pretty permalinks"). 
