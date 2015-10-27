@@ -1,0 +1,408 @@
+	
+	
+Interviewer 00:02	And I want to start off asking you why you got into blogging in the first place.
+
+Ghosh 00:08	That's an interesting question, and there's an interesting answer, I hope. But, when I started I worked for a couple of years after my undergrads as a computer technician and got into computers very deeply. But, I wanted to get into software and learn more. So, I went back to get my Masters degree in Computer Science. And, when I started the Masters degree, I realized that I didn't have any hands on programming experience up to that point. So, I wanted to get into code in addition to my course work, and one of the things I looked for is - I thought there was this cool program, or set of programs, called blogs that I could mess with, and I started messing with LiveJournal. I found it to be unintuitive to me. And then, I started messing around with B2 and thought, "Oh, this looks interesting. Maybe I can get into the code of B2". That was my discovery phase in my personal education, and I wanted to find out how things work, how programs work, how software works, and I didn't know and I was really curious.
+
+Ghosh 01:20	So, I got under the covers of B2 to try to fix it the way I wanted, then I remembered there was a comment. The comment link wasn't the way I wanted to be, and I wanted to style it my way, and I knew HTML already. I was familiar with that, but now not PHP. So, I started looking into it and I realized that there was a pretty big forum out there too. But I didn't get very far into B2 because there wasn't a lot of support or people weren't very interested in it. So, I thought, "Okay, well lets look a little bit further," and at that point on the forums Mike, Michael [inaudible] pointed me to Mullenweg and said, "Hey, Matt is doing this thing called WordPress if you want to look into that. It's essentially a fork of B2 and B2 is kind of stalled, so he's taking over doing this, and if you want to talk to him, he'll help you with it." So that's how I got to know Matt, and I started to look at the forums and started writing some plugins, and started messing around with the undersides of WordPress under the covers. And so, that was my - getting into blogging. I wasn't really into the whole blogging per se. I was so interested in the tool that I got into blogging for the tool. And it was kind of strange, I looked for Weblog Tools Collection as a Google search and I saved it. And I would always get very interesting results that I would go through. And, so I decided: well, if it's such a good cool set of search terms, how about I make sure other people search for it too. So I'm just going to blog - called the Weblog Tools Collection. Just to mess around with WordPress.
+
+Interviewer 03:17	 Okay.
+
+Ghosh 03:17	 And that's how it started.
+
+Interviewer 03:18 	So that's how it started. So did you learn PHP that way?
+
+Ghosh 03:23	 Yes. I learned PHP, and then object oriented PHP, and then Perl, and then MySQL. And then, at school I was doing a lot of C++ and some Java. And, but I thought PHP was very elegant, and what it did-- it was flexible enough in certain places and incredibly powerful in others. So, I think PHP is-- does not get the respect it deserve, simply because it's used by so many people that don't know what they're doing. But at the same time I know so many people, include Matt's group, that have done such incredible, fantastic things with PHP, including things that you wouldn't expect something like PHP to do, such as video encoding.
+
+Interviewer 04:09 	Yeah.
+
+Ghosh 04:11	 So, they've done some very cool work from PHP. So, yes. So that's what I did learn PHP.
+
+Interviewer 04:16	 Did you have background in computer before that? What was your...?
+
+Ghosh 04:19	 Yes. I was a technician, computer technician before that, so...
+
+Interviewer 04:21 	Okay, okay.
+
+Ghosh 04:24 	I knew hardware but, that was it.
+
+Interviewer 04:28 	Did you get involve much with the B2 community? Or did you just see that--?
+
+Ghosh 04:32	No.
+
+Interviewer 04:32	-- not much was going on.
+
+Ghosh 04:33	 Yeah, there was not much going on, and Michael would not be available for weeks at a time. At one point someone said that he was hiking in Europe somewhere and couldn't be reached, and all I want was answer stupid question. It wasn't really complex at all but there wasn't this support--
+
+Interviewer 04:54	 Yeah.
+
+Ghosh 04:55	-- that WordPress enjoyed.
+
+Interviewer 04:57 	So, do you remember when this was?
+
+Ghosh 05:01	2004  I believe. On Weblog Tools Collection there - my first post, is I believe back from 2004.
+
+Interviewer 05:14	 Can I have a look? 2003?
+
+Ghosh 05:20	 Yeah, so it was around that time, 2003, 2004 that I would say, all of these started.
+
+Interviewer 05:27	 So did you - you set it up on WordPress then?
+
+Ghosh 05:31	Correct
+
+Interviewer 05:32	 Yeah. And, pasting to blog about lots of different login platforms to begin, like you have Drupal, and B2, and things like that. What do you think of the other options that were around?
+
+Ghosh 05:51	So... programmers don't necessarily program for glory. But they don't mind glory either, they get it, right? So I was just another programmer, and I just started monkeying with it and I thought it was pretty cool, that I could monkey with it. And then, I suddenly got all of this attention for not really knowing a whole lot, or doing a whole lot.
+
+	[chuckles] 
+	
+Ghosh 06:20	Honestly, and that really pleased me. I really basked in the glory, I was so happy that someone recognized me worldwide. And, I started helping out with the forums and got involved there, and then I put out a few plugins, and people remember me for it. There were hundreds of installs, and it was pretty cool. So, once I got at that point with WordPress, I looked at Drupal, I looked at MT, which at that time was 'the competitor' of WordPress, and I thought all of that was very contrite. It wasn't as elegant as WordPress. I looked, there was another fork of B2, and I will not remember the name of it, so I apologize. But there was another fork of B2 that had some of the internals of WordPress but had some other things that were pretty cool, like multiple file uploads and things like that. I can't remember the name of it. But anyways, I believe Matt wooed the developer to come and work for us on WordPress.
+
+Interviewer 07:35 	Yeah.
+
+Ghosh 07:35	But there was - go ahead.
+
+Interviewer 07:37	Yeah, that's right. It was a B2++.
+
+Ghosh 07:39	 Yes, B2++, that's it. I can't remember the moment I got either. Anyway, so they - there was that. There was - I think that was the closest to my [inaudible]. Live journal was totally unacceptable, live journal - dead journal, all of that crap because it was isolated. I really couldn't get under the cover, so to me that's what was exciting about a project. And I-- since I was getting all the honey from WordPress, I really didn't go anywhere else and I didn't like the people behind movable type. To me, they seemed - Mena and Ben were very mean to lot WordPress folks, and I didn't quite like them.
+
+Interviewer 08:27	 Why do they - why were they mean?
+
+Ghosh 08:30	I don't know. I just-- It just came across because I'm on the East Coast, right? So I don't get to interact with these people on the West Coast much at all.
+
+Interviewer 08:37	 Yeah.
+
+Ghosh 08:38	But, just the impression that I got from people and from conversation s, and things like that. It just turned out that they had money, where we actually making money from Movable Type. They were charging for it, so they had more support. And they flaunted a lot of that in front by saying, we have these developers, we have these support people, and I just felt we were the little guys. We were the outcasts, so to speak. We're trying to get into the market, and they didn't like the disruption, in my opinion, at that time.
+
+Interviewer 09:11	Well, how the tables have turned. [laughter]
+
+Ghosh 09:15	Yeah.
+
+Interviewer 09:17	 So, can you tell me a bit about the growth of Weblog Tools Collection and it's role in the community.
+
+Ghosh 09:26	So, as a - I like to think that I'm a very virtuous person. And I've always - and I say I like to think, because I'm a human being, right? I'm sure I've bent someone somewhere, but to me this blog was always a way to help new people that came in to work just to find new ways of doing things. When I was an active developer, I used it to promote my plugins and to write about things I did. Over the years I've had some really, really talented authors. Some of whom were bloggers themselves, some of whom were developers, like Ronald. Ronald was a great developer, and he wrote some of my best development content. But I've always tried to be very straight forward with my ideas. I'm just here to help people, I'm not here to promote any particular idea or software. If you're making money from your development - so if you write a theme or a plugin and you charge people for it, then I tried, at least on the first years, to stay away from writing about them because that would be advertising and I never-ever took money for advertising, or for promoting a product on my blog. If they want to advertise on the ads, that's fine, but I never talked about them. I always... I never like sponsored links and sponsored themes, so I fought against that. Matt helped me with that. I never liked the concept of people violating the GPL, that really bothered me. And I understood the GPL pretty well. I am an analytical sort of guy, so I fought against that. I am a big proponent of the GPL. At that time, I was working a little bit with the Mozilla Foundation, so that made me even more of a proponent with the GPL, and that frame of mind.
+
+Ghosh 11:46 	And then, when we came along and worked with the theme and finally the plugin communities, I was a big proponent of creating a financial model around it. And, I worked with some of the first few theme, premium theme people. I remember sitting in a bar at a WordCamp and discussing how the premium themes have worked, and how they could make the market for them, and how to sell them, and how to continue support for them, and so on and so forth. I had conversations with many premium theme vendors that are doing very well today. Some of them have advertised on my blog ever since I spoke with them. So, obviously Matt and the people at the top were very instrumental in building up the theme and plugging communities where the people could make money and the custom develop community.
+
+Interviewer 12:48	 Yeah.
+
+Ghosh 12:49	 But, I hope I helped some of that along. And, I just wanted to get new developers that don't get the opportunity to expose their work to the world. I wanted them to have a way to do so. Matt gave me the honor of being on the first page - when you get into the admin of WordPress, and I consider that an honor and I respected that tremendously. So - but I used that to hopefully try to help new developers, and new authors, and new people that wanted to get involved with the community, involved with the community. And, so that was my whole purpose with Weblog Tools Collection, and made some money along the way. I'll be honest, just as greedy as the next person. I had text-link ads at one point, which I consciously removed. I had advertising all the way through and I made a few bucks from it along the way, so... which helped allay server costs. The blog was - it needed a server of its own. It was just too many people hitting it at the same time. And, I think with the success of Automattic and with WordPress being solidified in its path, I kind of started to lose interest. I found that when I would go to WordCamp I wouldn't know anyone. There was a lot of new people that I didn't know. People wouldn't recognize who I was whereas they used to a couple of years ago. So it was just starting to wane and either I dove into it and became a full time blogger, or I took care of family and worked on my day job. And, I made a lot more money at my day job, so I figured I'd be better at it.
+
+Interviewer 14:51	 Yeah. Sure.
+
+Ghosh 14:53	So--
+
+Interviewer 14:55	 So what was the... Sorry, carry on.
+
+Ghosh 14:58	I like to write. I really like to write. I've honed my skill of trying to stay away from trouble in my written words, with my blog. So I like it. I mean - and my work with WordPress has gotten me into - my foot many doors in real life. So...
+
+Interviewer 15:21 	What doors?
+
+Ghosh 15:23	 Work.
+
+Interviewer 15:24	 Yeah.
+
+Ghosh 15:24	At work, I've got in interviews because I was involved with WordPress, and it's on my resume.
+
+Interviewer 15:31	Yeah.
+
+Ghosh 15:33	So it's, back and forth.
+
+Interviewer 15:35	 Yeah. So what was your traffic like, at sort of its peak?
+
+Ghosh 15:41	At its peak I was getting 12 to 15,000 units a day.
+
+Interviewer 15:48 	It's pretty good. [laughter]
+
+Ghosh 15:50	Yeah, it was pretty good. And I carried on - this was about 2007 through 2009, maybe '10.
+
+Interviewer 15:59	 Yeah.
+
+Ghosh 16:01	And I did not put on ads at that time, that I tried Google Ads, but they really didn't work pretty well, and there didn't exist a good plugin to do ads that I could have made money from, and then hired more authors. So, it just - I couldn't capitulate on that traffic, but I had a good million to million-and-a-half units a year, for about three years.
+
+Interviewer 16:28 	Do you think it's difficult for any, sort of WordPress community blog to be sustainable and make money?
+
+Ghosh 16:39	 Yes. It's difficult to be sustainable from one blog because it takes a lot of work to keep it fed. I understand what it takes to make a blog successful, and I know how to get it there. What I don't know is, what the good information to author ratio is. Because most of people come that come to Weblog Tools Collection, for example - came because they wanted the news of plugins, right? Or they wanted to know how to do X, Y, or Z, or they wanted-- they were trying to find this information, and the quality of the audience was kind of low. It did not appeal to the non-subscription that the sponsorship model. So, for example - and I spoke with Matt and with Om about it a couple times. But with Om, you can have three or four companies sponsor the blog for four months, and honestly, with the kind of traffic they have, just a single blog - no, he's got multiple, of course, but with just a single blog, with the amount of traffic you could probably fund another author and an editor, with that. Because, the people coming to read that information are valued audience to advertisers.
+
+Interviewer 18:22	 Yeah.
+
+Ghosh 18:24	 Blogs such as this, the advertisers have to be small time developers and producers of themes, and things like that. And, they can't, honestly, pay more than a hundred, two hundred bucks to have their ad up there, they just can't afford it. And, if they can't afford it - it's a vicious cycle. If they can't afford it, then I can't afford an author, and it kind of dies off. As soon as a little bit of momentum is lost, you're done.
+
+Interviewer 19:01 	And, do you think it would be easier knowing there's lots of businesses making a lot of money out of WordPress?
+
+Ghosh 19:07	No, it's not any easier now.
+
+Interviewer 19:09	No? Okay.
+
+Ghosh 19:09 	The problem is, there's a lot more of me out there.
+
+Interviewer 19:13	 Yeah.
+
+Ghosh 19:14	There's a tremendous amount of competition. There's a lot more people writing about the stuff. There's a lot more people, who have a lot more time than I do, out there that are writing about WordPress. There are some writing good things. Some writing hokey things. I follow them, still a little bit, but it's - the passion isn't there. I think it's been - the few people - there was a friend of mine - well, I call him a friend - he's an online friend from Canada. I've never met him. I don't know who he is, but at that time his name was Nuclear Moose.
+
+Interviewer 19:54	Yeah, I spoke to him the other day.
+
+Ghosh 19:56	Did you? Okay. And, he and I had-- we had so many late night talks. And even the guy from... the guy with the piercings... what's his name?
+
+Interviewer 20:08 	Podz?
+
+Ghosh 20:09	 Yeah, Podz.
+
+Interviewer 20:10 	Yeah.
+
+Ghosh 20:11	Yeah, so, the three of us had conversations late at night talking about WordPress. How we wanted to change things, how we wanted it to be better. We were - in our minds, revolutionary in what we were doing, and we were really making a difference. Really, really making a difference. And then, today it's - there are a thousand people like us working on the forums and helping out, and it's hard to make a mark. We-- I was there at the right place at the right time, and that's my reason for success. I had nothing special about me. There was nothing different about me. I was just at the right place at the right time. I wish I would have stayed with Matt when he wanted me to work for him, but I didn't. But, that's life. We were just at the right place at the right time.
+
+Interviewer 21:03	Why do you think people got so passionate about it?
+
+Ghosh 21:09	I know why I got passionate about it. I know why Matt was passionate about it. I know why different people had different reasons to be passionate. I think, I was passionate just because I was getting so much attention from it. It just made me so happy to know that I was helping people, and I don't know if you know - I shouldn't say it that way - I don't know if you understand what flow means but it kind of like, when I worked on WordPress, like if I start working on code, writing a plug-in or writing a theme, messing with a function, messing with a filter, time has no meaning.
+
+Interviewer 21:53	 Yeah.
+
+Ghosh 21:55	 Food and drink has no meaning. I can sit here for days just writing code for WordPress, and to me it's - I can't explain it, that's my nirvana, that's my flow and it's - I get that flow from working on a lot of other types of programming languages as well--
+
+Interviewer 22:20	Yeah.
+
+Ghosh 22:20	--but WordPress was the start of it, so when I go back to WordPress and work on it, it makes-- it brings that back. it's that feeling of, just time just melting away, and just me and the computer working our way at it. It's awesome. It's a really good feeling. So, that's why I think I did what I did.
+
+Interviewer 22:44	That's interesting. Do you have any sense of why other people were passionate about it?
+
+Ghosh 22:55	So, Matt was passionate about it because it was his baby. And he believed in the GPL, and he was really involved with the whole GPL thing. I think he met Stallman somewhere. And, he was really enthralled with it. He was a young kid who was very, very excited about the GPL, and he wanted to prove that he had a little baby that he could make work in the same way. I had conversations with his sister and his mom about this many times, about his passion and what he does for it. And, I think he feels the same way about code that I do. And, I still have a t-shirt that said, "Code is poetry", one of the first WordPress t-shirts. So he feels the same way about this. He was a much better, much-much-much-much-much-much-much-much better developer than I am. But, he feels the same way. Plus, to him, he was also a visionary, and not a lot of us are, but he has an incredible understanding of where he wants to go and he finds ways to get there. He is lucky, he is tremendously luck but he is also very gifted. And even though he is quite a few years younger than I am, I've always looked up to him for his ability to judge what to do next.
+
+Interviewer 24:23	Yeah.
+
+Ghosh 24:24	Or how to deal with things. I have advised him on certain occasions, but as well-- but for the most part he has been a visionary on how to handle things.
+
+Interviewer 24:34	Yeah.
+
+Ghosh 24:37	Other people, I - some people just gave their time, because they felt the tool was worth it to them. They got enough out of the tool to give time to them. For example, Lorelle, is a great example of that, where she started giving time to it because it helped her to write her blog for her travels through - somewhere in Asia, maybe some Arab country. She travels through a bunch of places, and then she wanted-- she had a blogged about that. And she wanted to make it better and that's how she got into it. I can't remember exactly what, but anyway, she did it because it helped her to make a career out of it. Out of many, many people who did it with WordPress and stuck with WordPress, because they could make a career out of it. The theme people, the people that wrote themes and made custom development, custom websites with WordPress. They stuck with WordPress. They felt passionate about WordPress because they saw this dream of having a theme market place, and being able to make - to make money literally. And once they're done with the theme, they're done. It's a receivable income all the way through. Yet, others did it because they saw little money from it. WordPress - the wonderful thing about WordPress, especially if you got a little bit into it and you started with tinkering with things a little bit, you could put up a blog with WordPress and put up Google Ads, and make a few bucks of a every month. I think a lot of developers and small-time people that messed with WordPress did, it because of it. A lot of my friends that were involved with WordPress did, it because they made some money from it. As well as, they liked the attention they got, a lot of it, and they liked all of that. So, there is different reasons.
+
+Interviewer 26:43	 Did you get involved with the development of WordPress, like patches and...
+
+Ghosh 26:48	Quite a bit. Towards the beginning, the first few years. I wrote something called Three Strikes Spam, I believe was the name of the plugin. Matt really liked the idea, and I believe Akismet is modeled with that in mind. I've written some, there's some code from me inside. I like going through, once in a while, downloading the zip and looking for my name. There's a bunch of code in the comment stuff, I did a bunch of work on XML , XML-RPC. I did some work on the common spam areas, the commenting sections. But, that's when I stopped, that's when things got a little - the blog got really busy, and because of that I couldn't spend as much time on the actual forums and writing a code, so that's when I stopped.
+
+Interviewer 27:52	 Can you tell me a bit about how the development process worked? In terms of getting patches into core.
+
+Ghosh 28:03	I couldn't tell you anymore.
+
+Interviewer 28:05 	I mean back then.
+
+Ghosh 28:07	Back then, okay. So we would write - I'd download the latest version from CVS, and we'd make the changes. And I believe there was an email address and you would send the diff to the email address and they would review it on their local machine. And then, either Matt or Ryan would apply the patches to the night list and release the night list.
+
+Interviewer 28:35	 Right. Okay.
+
+Ghosh 28:36	I believe that's what it was, I don't remember for sure.
+Interviewer 28:39	Okay.
+
+Ghosh 28:39	But, back then it was also CVS driven. It was all email driven.
+	[laughter] 
+	
+Interviewer 28:45	Did you interact with the other developers, like Mike, or Dugal, or Alex at all?
+
+Ghosh 28:51	Dougal, quite a bit. Alex, quite a bit. Those two have become friends. Alex and I have a lot of meeting of minds. We kind of think the same thing. But by the time Alex - he - Dougal wrote a lot of code. Alex wrote some code, that I think was more involved in the leadership aspects of it, I believe. I worked a lot with - on the forums; that's where I started meeting people. But, I never met any of these people face to face. But, Dougal and Alex I did work with quite a bit.
+
+Interviewer 29:33	Okay. And who else do you remember from the forums as being prominent?
+
+Ghosh 29:42	It was-- there were a couple of Indian guys and they both used to write for me. There was a guy called Carthik. I can't remember his last name.
+
+Interviewer 29:51	Carthik Sharma?
+Ghosh 29:52	Yeah, Sharma, that's right. He was getting his PhD and he was spending some time on the forums quite a bit. I remember him, I remember Podz of course, Nuclear Moose, Craig - what's his last name?
+
+Interviewer 30:04 	Hartel.
+
+Ghosh 30:05	Yes, that's it. That's it, Hartel. And then, those were the absolute first few years. Podz did a lot of the heavy lifting, he would put the questions into a digest for us and we would then answer once in a - I mean, we would do offline answering. And then, he would put them back in, so he did a lot of the heavy lifting. Him and Craig did a lot of the heavy lifting. And I answered questions to people, other people that answered questions as well. I can't remember much else.
+
+Interviewer 30:45 	Do you remember anything that caused major shifts in the dynamics of the community? Like any changes in the development or any other things that caused any shifts.
+
+Ghosh 30:58	Yes, there were quite a few of them. I think - I perceive - before, when we first started working with WordPress Matt was kind of this - he liked his handle Allusion, A-L-L-U-S-I-O-N, and he's not used that since 2006, I believe.
+
+Interviewer 31:23	Yeah.
+
+Ghosh 31:26	But anyway, allusion was this illusion to everyone. I didn't even know who he was for quite a while, for like three or four months. And then, suddenly I found something on the internet about Mullenweg, and he was this freckled, eyeglass wearing sixteen year old. That kind of broke that illusion in my mind at least. But anyway, he was, maybe, very active in the development community. They did a lot of higher C chats. They kind of went back and forth amongst each other on development. But, he wasn't really present in the community at all. He did not show off in the forums, not very often at all. He was kind of in the back and always just watching but not really doing much. And we did all the work on the forums, did the answering, and everything else.
+
+Interviewer 32:16	Yeah.
+
+Ghosh 32:18	And that was the beginning. Then-- and then, I believe he kind of showed his true colors. I think the first scandal, so to speak, in my mind, was the sponsored themes thing. And - I've worked with Matt before then on plugins and things like that. But I've never really collaborated with him on something that was important, but he kind of showed his full colors during that where he kind of put his foot down and said, "Listen, I'm not going to allow these people on the forums anymore. And I'm not going to do anything, promote anything about these people that do sponsored themes, and so on and so forth." He kind of jumped - he and I kind of jumped on the band wagon together, on that. I think that's where-- that followed by many, many, many, many such episodes. Kind of set the tone for the way the WordPress community would be. Where - and I might be wrong about that being the first instance, but that was the type of instance I'm talking about, where Matt knows what's right. And, he just does it, and he doesn't really do it for financial benefit or gain. He does it because it's the right thing to do. And he automatically knew what was the right thing to do. Anyways, but he was definitely a benevolent dictator. He knew where he wanted to go, he knew how he wanted to get there, and he put his foot down. I believe the first one was, yes, that's it. Now I remember. God, Matt put up a bunch of pages on WordPress.org for hot nacho.
+
+Interviewer 34:08	Yeah.
+
+Ghosh 34:10 	And, someone from... who found it?
+
+Interviewer 34:20 	It was a guy called Andy Baio?
+
+Ghosh 34:22	Yes, that's right. That's right, that's right, that's right. Yes, yes, yes. He found it, and he just raised on a heavy, heavy stink about it. And, it got everywhere, news got everywhere, that Mark was doing these pages to stuff Google. And, one night I get an email from him, late at night, and he wanted to discuss it and see what I thought and how he should handle it. And, I said, "Well, you've gotten caught, and you have to say I'm sorry and move on. People forget, just don't lie, and don't cheat, and just go forward." In the heat, even before I said that to him, he knew exactly what to do and he did exactly that. But ever since then he's always come to me whenever things erupted in the community till about 2007 or '08 I believe. But he would always come to me and we talk it out and come up with a solution and just do it, and - which involve me of course. If it didn't involve me then he didn't come to me. But if it involved me then he would always come to me and we talk about it. The sponsor theme thing was one thing. Then there was plugins that weren't in the repo, and should they be approved or not. It was just lot of fun. Controversial stuff that we went back and forth on. And I think that's when the community really understood. Everyone bitched about it, they still do, about how Matt is the dictator, and this is a community and everyone should have an opinion, and everyone should have a say in way things are done and back and forth. And, they just bitched about it all. And, I've always been a fan - a student of business in business practices and how to do business, and then I got an MBA and I realized, I understood how Matt behaves and why he does and why WordPress is so successful because of it. Because he's a single person making a decision. He has, for better or worse, the ability to make changes very quickly. And that's what gave WordPress the power that it had over every other tool out there.
+
+Interviewer 36:39	 Yes.
+
+Ghosh 36:41	So...
+
+Interviewer 36:43 	Do you think if someone else had been leading the project it would've been as successful?
+
+Ghosh 36:51	That's a very good question. No. The answer is no. Very successful - I can't tell you, right? It could've been - if someone else was Bill Gates or Steve Jobs - yeah, sure, it would've been more successful. But, for anyone of the other people involved with the project at the time, if we were the leader instead of Matt, I think we would've lost out or later on. It was not that we had the best developers, but I think we have the best vision. And vision and mission are critical to the success of any community and it's not just the end. And, his ability to unilaterally make decisions was a primary driver for why WordPress was a successful as a place. Even as a lead developer, he never-ever put down the gun. He was always shooting things down making, "Hey, I don't like this, go change it." He was always nice about it, but he never meant his word. If you look through the years worth of change logs for - through the Wiki, you'll notice Matt always coming in, m@gmail.com or mmmm@gmail.com, that's what he always used to use. But he would just put the smack down on developers, "I don't like this, either you pull it out or I am not pulling it into the [inaudible]. He made people take stuff out after it got into the core. [laughter] Yeah. He was a ruthless lead developer, and I respected that in him, and I think so did a lot of others. He had a vision for the software. He wasn't going to change it.
+
+Interviewer 38:53 	Can you tell me some of the decisions he made that you think were, not just right, but significant?
+
+Ghosh 39:06	Forming Automattic. I think that was significant game changer. Because without his financial backing, the WordPress.org, the organization would not have had the resources to do what they're doing today. That was a game changer. I wish he would've done earlier but I think he just needed to find us footing and Moebius or Moebius, or whatever the heck you call this first company, that didn't do too well. And then he had something else, some orange something on the other - he had a creative firm in Austin. It was orange something on the other.
+
+Interviewer 39:55 	Yeah.
+
+Ghosh 39:56	That didn't do very well either, so I mean, he just have to find his footing. But, creation of Automattic was - you had to have that in order for WordPress to succeed, otherwise it would've stalled. Other decisions he made, obviously, all of the decisions to keep sleazy money out worked good. I applauded everyone of those, all of the decisions to bring good money in to make a business model around GPL were phenomenal, and WordPress is a success story because of it. Because so many people have then jumped in and helped. They've written it for someone, and they paid for it, but then there's a [inaudible] use. And that was really cool, and that, I think, helped a lot in the adaption of WordPress. There were a couple of other things, that I think also were "bad" in many peoples views but actually helped WordPress. A lot of good PHP developers that object oriented PHP developers would look at WordPress and go, "Oh, my God. This is such spaghetti code. This is horrible."
+
+Interviewer 41:18	Okay.
+
+Ghosh 41:21	But, I think Matt and others were aiming WordPress at the, at home moms, and the front end developers that wanted something to be able to build their framework around, where they didn't have to worry about the details such as comments and individual posts and things like that. They didn't have to worry about any of that. That framework was build, they could just do the front end work and be done with it. That's what they were looking for.
+
+Interviewer 41:49 	Yeah.
+
+Ghosh 41:50	And WordPress gave it to them. Because it was spaghetti cold, it was also very simple to change and manipulate for front end developers. Loved it. They loved it, and they loved it, and they loved it, and that's - the adaption of that also meant that millions of people saw this tool everyday when they were working with web content management.
+
+Interviewer 42:15 	Yeah.
+
+Ghosh 42:16	And the simplicity was its strength, so that's another thing that I think Matt has always focused on, is elegance and simplicity and [inaudible]. Sadly, today WordPress has a lot of craft in it, and I believe that can be taken away. And I wish we would go back more, to the more elegant publication, focusing on the author and not worrying about these bells and whistles.
+
+Interviewer 42:42	 What bells and whistles? Are you... Yeah.
+
+Ghosh 42:45	So, if you look at the latest nightly - there´s just - blogging is no longer about just-- about writing something to be published on the web. There´s just so much more media, so many more connections, so many more things that you can do. And, one of the things that Matt always, always, always, always pined over four weeks, was what to put on the next release. He wanted a keep stuff that could be in plugins after the core. And, in order to do that - he did that to increase the simplicity and to reduce any cluttering of the interface.
+
+Interviewer 43:39	 Yeah.
+
+Ghosh 43:40	Todays interface is very cluttered. It's just too much on there. There's just too many things that people can do from the actual publishing interface, and I don't-- I don't know if that is helping people do their job better. The problem is, I think, WordPress is trying to be, too many things to too many people. And that's when you start losing the-- losing elegance and you can't - in software, it's very difficult to be everything to everyone.
+
+Interviewer 44:12 	Yeah, sure.
+
+Ghosh 44:14	So, now that I'm in my professional life, now I'm working with Enterprise content management software and talk about lack of elegance. [chuckles] That's what you're looking right?
+
+Interviewer 44:28 	Yeah, yeah.
+
+Ghosh 44:29	But, I have the experience with Adobe CQ5, with Oracle's UCM, and then what used to be Sites software which, or what used to be, I believe it was called [inaudible] or something, now it's Sites and Oracles. So I'm working with a lot of those and I wish we would've used WordPress to do - I work for Sherwin Williams, to do our site because it would've been so much easier to manage. But then I look at the WordPress interface, and I imagine explaining back to the marketing people, and I can see why it is as cluttered as it is. They're just trying to be too many things, to too many people.
+
+Interviewer 45:07 	Yeah. I wanted to ask you about the sponsored themes. I wasn't around then, or wasn't involved with WordPress, then. Can you tell me a bit about what the original issue was, and how the decision to ban them from the directory affected the community?
+
+Ghosh 45:31	 So, I was allowing sponsored themes on my site, as long as they allowed me to add - the fact that they're sponsored at the end of the link.
+
+Interviewer 46:06 	So the sponsor, does that mean that the developers are being paid, and then the developer adds a link to..?
+
+Ghosh 46:15 	No.
+
+Interviewer 46:16	 No. I've got that wrong?
+
+Ghosh 46:17	No, it's even worse. The sponsor's theme essentially is a theme that marketer's have paid for someone to develop. And as part of the development package they would put links, they would stuff links at the bottom of the footer.
+
+Interviewer 46:32	Right.
+
+Ghosh 46:33	Of these themes, and for Google. And, so, whoever downloaded the theme and installed them on their site, they would get the Google Juice from all of these sponsor themes.
+
+Interviewer 46:43	 Yeah.
+
+Ghosh 46:46	And marketer's quickly became worse and worse, and where we were at the point where you couldn't see the sponsored links at the bottom because it was this encoded PHP string. And It would go out to a separate server and download different sponsor themes or different links based on who had paid them.
+
+Interviewer 47:07	Right.
+
+Ghosh 47:08	It just got messy and messy. So I never liked the idea. I always oppose the idea - stuffing links in Google. So, I had initially said we will not do sponsored themes. And then, after some coaxing I put on there, that this is a sponsor theme. And, I would only allow sponsored themes to be put on the site if that [inaudible] was a sponsor theme.
+
+Interviewer 47:37	Yeah.
+
+Ghosh 47:38	So people were aware.
+
+Interviewer 47:39	Yeah.
+
+Ghosh 47:41	And then, I believed the sponsor theme essentially started doing something else malicious. I can't remember what triggered Matt, but something triggered Matt's wrath.
+
+Interviewer 47:54	Yeah.
+
+Ghosh 47:56	And I can't remember what it was. But whatever it was, Matt emailed me one night and said: "You're taking sponsor themes off your site." I said: "Really? Okay. What are you going to do about it?" "Well, I'm going to take them out of the director's. Do you want to do it together?" I said: "Okay. Well, I think that's a fair assessment. I agree that they're not good - I never liked them, but my audience seems to want them. But if you want me to support you in this, I will." So I announced that I'm not going to do sponsor themes anymore. And I believe Matt wrote something about it too and it just caused this huge uproar, and then he said, "Fine, I'm not going to allow them on the directory anymore either, and I will not allow anything about them in the forms." So, that just caused a huge human cry and people just got really pissed off and... but we stuck to it, and we never allowed sponsored themes. After then, it kind of died out at that point because I think Google figured out that this was happening, and they started penalizing the people that had their link in there. And, I wrote about it so much, and Matt wrote about it so much, so that a word got out that sponsored themes we're bad.
+
+Interviewer 49:17	Yeah. So, where did you get a lot of kind of marketers, marketing type people involved - well asking questions and things on the forums prior to this event, and then did they all disappear? Did it actually effect the makeup of the community as, I guess is what I'm asking.
+
+Ghosh 49:37	I think it did. I think it-- I think it kind of cleared out a lot of the riff-raff that year because they we're making money from-- because they were making money from marketing, you know the SEO, SEM types.
+
+Interviewer 50:03	Yeah.
+
+Ghosh 50:06	And once they realize that WordPress is not going to be a beating ground for them, where they can just do whatever they want to. Put these links into these themes, and just feed them in. I think they kind of took off. But then they started also, I think around that time, a lot of people started realizing the SEO power of WordPress. The built in meta, and the automatic [inaudible] and four hundreds, and a lot of those things really started to dawn on the marketers, that if they built their sites using WordPress they would get quicker Google juice, and that Google really likes WordPress.
+
+Interviewer 50:56	Yeah.
+
+Ghosh 50:57	So, I think it changed their opinion a little bit. And, some of the people that were making nasty money on it just got out. But, I think a lot of people were also very annoyed because they were making good money, and they would not be able to do so anymore.
+
+Interviewer 51:14	Yeah. Why do you think it was important that people didn't do it.
+
+Ghosh 51:27	One, because - I struggle with that myself. How is that?
+
+Interviewer 51:37	Okay.
+
+Ghosh 51:38	I struggle with, why putting in links to fuel Google is a bad thing. Is it bad because Google says its bad? I think so. And, that gives Google a lot of power and gives them the ability to make more money from their own ads.
+
+Interviewer 52:04	Yeah.
+
+Ghosh 52:06	So its kind of a strange mantra that we've been taught, and I respect it, but am also not, I'm not 100% about it.
+
+Interviewer 52:18	Yeah.
+
+Ghosh 52:19	So... Yes, I do agree that people shouldn't be stuffing links - but my... I think my negativity about it is, I'm not going to fight the war over links but don't bring it to my backyard.
+
+Interviewer 52:36	Yeah.
+
+Ghosh 52:38	If you're going to do things that I consider to be right or wrong, fine you do it in your part of the world. You do it in your ocean but don't bring it to WordPress. That's I think was my biggest reason for saying no, was that I wasn't a good judge of it but I didn't want to be in the political position to judge it either. Just, keep it out of WordPress and stuff your own links. I don't care.
+
+Interviewer 53:05	Can you tell me about any other challenges that came about just from running a WordPress community blog?
+
+Ghosh 53:15	Biggest challenge was how to fund it. WordPress traditionally, I don't believe anyone has made money, enough money to sustain themselves just by blogging about WordPress.
+
+Interviewer 53:29 	Yeah.
+
+Ghosh 53:30	It's just a very difficult thing to do. And since I was doing this - 2003, '04, I just started my MS and I got my Masters with that 2006, I believe. And then I just got into a new job, so anyways, I didn't have a lot of time or money to spend on the blog. It's about challenge. Always having to do the right thing is also a big challenge. If you don't feel like doing the right thing all the time.
+
+Interviewer 54:01	Yeah.
+
+Ghosh 54:01	But had to. I... literally, a lot of the - when I did the whole sponsor theme thing, I cut my advertisers into half. Because half of them were sponsored theme vendors.
+
+Interviewer 54:15	 Yeah.
+
+Ghosh 54:17	And they immediately took off, obviously.
+
+Interviewer 54:19	Yeah.
+
+Ghosh 54:21	And I didn't want to do that. I didn't want to take out text link ads. I was making incredible amounts of money from text link ads, and I didn't want to take them out. But I did, because I couldn't be two ways about it. Either I was for links or I was against links. And so I took them out myself. That was hard.
+
+Interviewer 54:45	Yeah.
+
+Ghosh 54:48	See, what else? I didn't like some of the things that came out of the development side of things, that I didn't like. And, it was hard because I was not involve in development and yet there were things that I can't even remember anymore. But there were things back then that came out of development that I didn't think were the right decisions to be made. Some of them were accidents. It was hard to be in the community so deep with 15,000 visitors everyday, and yet going to a WordCamp and no one know who you are. That's a hard thing, and I don't know why that happens but it does. What [inaudible] did to me. I have thought a few friends that knew laughing lizard or Weblog Tools Collection but most people didn't. None of those 15,000 came to the WordCamp. It was a - I sat down with my blog every night and worked. And it was - once I started having a family I think things got more difficult, and I couldn't hire anyone else because I wasn't making enough more, and it just got to the point where I said, "Fine, lets just do the best thing we can, and that was that."
+
+Interviewer 56:22	Cool. Okay, well that's been great, that's been really helpful.
+
+Ghosh 56:28	Good.
+
+Interviewer 56:28	if I might come back here on something’s in the future if that is okay?
+
+Ghosh 56:34	Of course.
+
+Interviewer 56:33	I mean, I'm kind of focused on the really early stuff now, but I'm going to get down to things like sponsor themes and that sort of thing, eventually.
+
+Ghosh 56:42	Sure.
+
+Interviewer 56:44	So I might hear you up again. I will drop you an email or something.
+
+Ghosh 56:46	No problem.
+
+Interviewer 56:47	And, if there is anything that you want to share or think of that, you think that nobody else will thought of or know, feel free to drop me an email anytime?.
+
+Ghosh 56:57	We'll do.
+
+Interviewer 56:58	Okay
+
+Ghosh 56:58	You too, just if you need anything, just let me know.
+
+Interviewer 57:01	I will, thank for speaking to me.
+
+Ghosh 57:03	Alright, take care. How do you say your first name?
+
+Interviewer 57:05	Siobhan
+
+Ghosh 57:07	Siobhan. Okay.
+
+Interviewer 57:08	Yeah, that's it.
+
+Ghosh 57:08	Well, thank you for speaking to me Siobhan.
+
+Interviewer 57:11	Thanks Mark, bye.
+
+Ghosh 57:12	Alright. Bye-bye.

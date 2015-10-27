@@ -1,0 +1,414 @@
+Interviewer: Okay, so let’s start off with… What did you do when you started work at Automattic? What were you employed to do?
+
+Riley: Support. That was it. It was support. When I started, enquiries from all support stuff came in to just an email address. So I opened Thunderbird, did what I was told to, create the email address so I could deal with it, and then for the first few months just dealt with that. Previous to that I believe that any emails into support were sent to all the developers’ Blackberries or mobile phones or whatever. And after, I think after a couple of weeks, once they realised that I was replying to them and they didn’t need to that they probably stopped doing that. So yeah, I was, I’ve only ever been, I’ve only ever had the job of support, that’s… I was never employed, I wasn’t a Happiness Engineer. That came after. 
+
+Interviewer: Oh I know. Are you a Happiness Engineer now?
+
+Riley: Uh, no, I would still call myself, I’m, I’ve still got the title of Support Maven so I’m happy if that just stays as it is, because I’ve done, I’m not really fussed where I go, I mean… Happiness Engineer? Ehh I’d rather… that… sounds odd.
+
+Interviewer: Are you saying you don’t engineer happiness?
+
+Riley: I love engineering happiness. I love making people happy which is why I wanted to move from Akismet back into Jetpack and back to doing support but no, I wouldn’t… I’m happy with Support Maven as a title.
+
+Interviewer: So you started out with emails, at what point did you decide we need a forum.
+
+Riley: No the forum was their first. The forum, the forum existed first on WordPress.com, I can’t remember how many parts to the forum their were, but the forum, the forum was there first. What happened was that as, as people realised that, I think as people realised that emails were now being answered, the issues were being addressed, and once people in the forum realised there was now actually somebody there doing, who is being paid to answer, then just, you know, contact support. There you go. 
+
+Interviewer: Yep.
+
+Riley: So what happened after, the, although the forums very very slowly expanded, I’ve forgotten the order, I’d have to see if it’s hidden, I’d have to see if it’s recorded somewhere. As the volume went up, it became, it became daft to keep it all in Thunderbird [3:00], and plus because it was all in, in an email client it wasn’t possible to easily share the information so that, so then we started, Barry and I started looking around for help desk software. And ended up with Kayako.
+
+Interviewer: Is that what you use now, or do you use…?
+
+Riley: Yes, it’s been Kayako since, since then, I’ve forgotten the exact, it was the best at the time.
+
+Interviewer: Yep, yep.
+
+Riley: And it meant that we, it, we host it, it wasn’t a hosted service and it was open source, so we could, I think, so we could do what we wanted to it, and yeah it’s been Kayako since 2006.
+
+Interviewer: So what’s the difference between server support that you do through the email and the support forums that you’ve got on WordPress.com?
+
+Riley: Well if you’re going through a forum then you can’t ask for personal details, you can’t ask for anything identifying. Because no matter how quickly you delete it, it’s still going to be part of the permanent record.
+
+Interviewer: Yep.
+
+Riley: So issues that can be, issues that can be solved which would be well written, issues that, issues that required no private information and for which an answer would be good to have publicly available, then leave that in the forum, because then that one answer will hopefully help more than one person. 
+
+Interviewer: Yep.
+
+Riley: But if it’s to do with something more interesting, more private, more whatever, or if the user just doesn’t want to divulge where their, where their blog is, because it’s a private blog or it’s a not safe for work blog, then, then ask them just to open a support ticket instead, and deal with it that way.
+
+Interviewer: What way do people prefer?
+
+Riley: I honestly, I honestly can’t remember. But don’t forget I mean a lot of people didn’t realise the forums were there.
+
+Interviewer: Right.
+
+Riley: And some people obvi-, I mean, you still see it today, I mean I still see it on, on forums they don’t realise how forums work, so they don’t know how to make a new post, they don’t know what information to put in, so they might put too much or too little, or they might just dump a whole load of code in there which breaks things things, and um, so I can’t remember. I mean the amount of, the amount of support requests certainly went up, but then it would do because the site was… When I, when I started I think we had thirty thousand blogs. Well on the day that, on the day that Matt said you know, welcome, here you go, I think we had about thirty thousand blogs. It was just me and support until we had three million.
+
+Interviewer: Wow.
+
+Riley: I’ve forgotten who was second. I’ve forgotten who was second in. [6:00] But yeah we had three million. But… the FAQ was being built, was being created, so we got some sort of support documentation, as poor it was, but it was, it was all it could do. We’ve got the forums, and we’ve got, obviously the site’s being developed. So it was, and priorities at the time were, were whatever they were, and I mean help at some point bubbled to the top and bingo, more people came in.
+
+Interviewer: So were you still able to work on the .org forums?
+
+Riley: I asked Matt that when I started. I said, you know do you mind if I still go and work on the .org because, and he, he had no problem with that. I just had no time. I literally had no time. Because I’m answering a couple of hundred tickets a day, also trying to create the FAQ, also trying to look after the forums. I, I literally had no time. It wasn’t that I abandoned it, I just had no time at all to go and get the same level of involvement that I did have. I wanted to, because it was, it’s, I mean I still find forum work more rewarding than support tickets. But I just didn’t have the time.
+
+Interviewer: Were you still able to get involved with the community, or did you just find yourself working on WordPress.com?
+
+Riley: WordPress.com took all my time. I mean there was literally one person that did support for the whole site and that was me. Additionally, some time after… it would’ve been in 2006 but I forget when, Matt introduced me to Akismet so I started taking over working there, so I had WordPress.com support and I had Akismet to work with. I had no time to do, I just, I just didn’t have time. And the community was, the community was .org. But .com, very different. Even the fact we’ve got early adopters, it was a very different crowd.
+
+Interviewer: So what was the difference between the two?
+
+Riley: The .orgers were all about code and independence, whereas .com were, it was a brand new service and you know why can’t I have JavaScript and why can’t I do this, and why can’t I store more, it was, you know why aren’t you like Blogger? And stuff like that. So it’s just, it was a different, at the time it was a very immature service, back then. It was just a, a different bunch of people really to, you know. The ones that made themselves known were the noisy ones who just did nothing but complain.
+
+Interviewer: Yep.
+
+Riley: Which I’m sure you’ve had names of those people. [9:00].
+
+Interviewer: Ah yeah, I’ve been reading their blogs. So uh.
+
+Riley: Yeah they just whinge whinge whinge. But yeah, they were just, they’re just different people, you know. It’s not like now where I think that there’s a, less of a gap. Because there are people who actively choose WordPress.com because they don’t have to bother with the technical, whereas back then maybe they couldn’t do the technical. 
+
+Interviewer: Did you get many people moving from .org to .com?
+
+Riley: I honestly couldn’t tell you. I, I don’t recall any particular movement of people between services from back then. All I remember is the whingers saying well why do we have to pay, and stuff like that. You just did.
+
+Interviewer: So what impact did the launch of WordPress.com have on the WordPress community?
+
+Riley: I don’t know, to be honest. Because, it no, it’s not um, I suppose it, I mean I suppose it’s going to make the community bigger, because it introduces more people, you’ve got people who were stuck on Blogger but couldn’t host their own blogs. So they could move to WordPress.com and it was, you know it looked better than Blogger, there was no rebuilding, there was no… at the time you could do a lot more on WordPress, we’ve got pages and Blogger didn’t have pages, stuff like that. So and I suppose, it expands it, but I mean, from a, from a support point of view and what I saw, we’ve just had people join. It just had more and more and more people.
+
+Interviewer: And what sort of, what was the reaction amongst the open source people to there being this commercialisation of WordPress?
+
+Riley: That wasn’t something that I took particular interest in at the time.
+
+Interviewer: Why was that?
+
+Riley: It’s like arguments about you know the GPL and licenses and stuff like that. I just, I just don’t care. It just doesn’t, that’s an argument somebody else can go and have in their own time somewhere else, I’m not bothered. As far as I, all I was concerned about was if somebody had a problem, I wanted to fix it. And I didn’t really care on the WordPress.org forums, I didn’t care on the WordPress.com, if you’ve got a problem, I’ll fix it. I don’t care, I don’t why and when and who and, and whatever, I don’t care if you’ve just been criticising me, if there’s an issue, then let’s, let’s fix it so you can get back to blogging. The, the high, the high or low level argument about, you know how this is commercialisation and will you, will it be closed source, open source, and stuff like, I don’t care. It, it just doesn’t impact me. And I don’t write the code, so.
+
+Interviewer: Yep. [12:00]. Fair enough. Do you remember there seemed to be in the early days a lot of trying out of different features on WordPress.com users, I was wondering from your experience of doing support which ones seemed to work and which ones didn’t?
+
+Riley: That’s, that’s a difficult one because being in support you only tend to hear from the noisy ones who don’t like it.
+
+Interviewer: That’s true.
+
+Riley: So it’s, so when, when you introduce, when for instance something’s introduced you always get people, why did you have to change? It’s the same with Facebook now. You know if I liked Facebook the way it was, why did they have to change, let’s start a petition, let’s start a Facebook page. And you see that nonsense in the forums, you know, and you know let’s complain about this that or the other. But then the forums, people who inhabit forums can be a strange bunch. Get very insular, get very… so it was hard, I mean I, I never look, I mean I don’t, I don’t look at stats, I don’t look at data. And it has to take the more balanced view, so the features that persisted were the ones that were light. Yes I mean things change, but then they have to, I mean WordPress is massively massively different to how it used to be. And people wouldn’t have it any other way, so.
+
+Interviewer: There were some people who were very disgruntled whose blogs that I’ve read, like wank.wordpress.com?
+
+Riley: Yeah she gave up and went away, didn’t she.
+
+Interviewer: Yeah, and Doctor Mike?
+
+Riley: Ohh yes.
+
+Interviewer: Why, I mean they seem to start out liking it but why did they become so antagonistic?
+
+Riley: Right well there are two very different people. With Doctor Mike, he, he was initially I think a force for good in the forums before I arrived. But what then happened was he was a moderator and he started, he basically started deleting questions. Or he started, he started deleting, basically he would take a dislike to somebody, he would delete their post. So they would ask a question and they would delete it, and he would delete it. They would reply to him and he would delete the reply. He started not moderating the forums, he turned it into some sort of personal fiefdom where he ruled. And that got worse. Additionally he had little followers, little acolytes like, uh, Time Thief, who basically Doctor Mike [15:00] couldn’t do anything wrong, why are you having a go at Doctor Mike, Doctor Mike’s great, stuff like that. And he became part, he became a problem. He was negatively affecting the forums because you’re either in his bunch or not in his bunch. He had emailed me some time before saying that you know he’d got a huge workload because he ran his own multi, WordPress Multisite install on daria.be. He’d got WordPress users there, and he got, and those WordPress users are also, were also on WordPress.com so of course he, he knew would could be done with the software, but he’s running a fairly small site and WordPress.com’s wanting to be big. So he emailed once and said you know, things are getting really busy and it was you know, stressful, blah blah blah. So I emailed him one day after I’d logged in and seen a particular string of deletions and actions and stuff and basically thanks, but no thanks. This, you know you can’t do this, so I’m sorry but you’re not a mod anymore. Which, which was tough on him, I mean he didn’t like it, I mean he posted in it I’ve been sacked, which was strange because he hadn’t been hired. But yeah there was a, there was a brief bright white light went off and then it, then it all sort of settled down, we just made sure the forums got back to, got back to normal. It’s so important, we found this out in the WordPress.org forums, it’s so important that the forums stay positive, stay decent, stay good, stay… stay somewhere that if you went and looked you’d be wanting to, you’d want to join that community. I think we did that with WordPress.org, and it was really important that we kept that in WordPress.com, and at the time there were very insular, there were very, there were very odd, you’d have some like Time Thief, who, she would post a reply, then somebody would reply to her, and then she would edit her reply. Her first reply. Which could and did make the second, the reply to her reply, look silly. Yes. So she, she edited, so you’d, she’d respond very very quickly, and there was a, I forget what the size of the editing window was, 30 minutes or something. And there were complaints came into support saying I, you know, I posted this, she replied that and now she’s changed her words, and I look silly. Which is why we took away, for a period of time, I don’t know what the window is now, we took away the ability to do that because it was wrong. Also Doctor Mike and [18:00] Time Thief and [inaudible] all had sockpuppet accounts.
+
+Interviewer: Right.
+
+Riley: So he would have Time Thief would post, somebody would criticise her, and then Time Thief under a different identity would post and defend Time Thief, and then Time Thief, Time Thief would log in and thank that other person, who was just really her.
+
+Interviewer: Yeah.
+
+Riley: And it, again, just silly, so tracking those down and killing those off, and just starting to send the message that you know, this isn’t how you do it, this isn’t how you play in forums. You know we’re here to help people, it isn’t… If you want to help people brilliant, great, we want you. If you’re not prepared to help people and you just want to, politics, then go away. We’ll make life tough for you, we’ll ban you for a while, we’ll do stuff like that. The goal, the goal wasn’t to ban Time Thief, she was, she has got some very useful sites, she was also a help, the point was to ban that particular behaviour.
+
+Interviewer: Yep. And why do you think forums attract this sort of behaviour? It’s weird.
+
+Riley: Oh I have no idea. It’s the, all forums are the same. I think when you go to community forums, it’s just… I don’t know. Have you looked on Reddit, I mean Reddit’s horrendous. 
+
+Interviewer: Yeah.
+
+Riley: I don’t use Reddit, but I mean, I mean Hacker News is getting, is getting similar, they’re all the same, you go to any big forums, you just get people who, who like it, who, who do know a lot that hang about and find they get rewarded for doing whatever they do.
+
+Interviewer: Is this an ongoing problem or is it something that you managed to solve?
+
+Riley: We solved it at the time. I mean I don’t know if other people have um, the reason I haven’t spent enough time back in the .com forums to know and the .org one the only one I’m looking at the moment is the Jetpack one, and that’s like, that’s support stuff, it’s not the general .org one. And I, I haven’t had time to follow the mailing lists or see what’s, and it would be wrong of me to do that, be wrong of me to sort of start following them and chip in suggestions after so many years of not being involved. Because I don’t know the bigger picture. So yeah I’m sure there are little power plays going on, but you know I’m sure they’re just dealing with them, will deal with them. 
+
+Interviewer: Yep. And what was the deal with wank.wordpress.com, which… I just find that domain name, um…
+
+Riley: I know, why did she pick that one. 
+
+Interviewer: Well, what, yeah…
+
+Riley: Because she could.
+
+Interviewer: Yeah. 
+
+Riley: I don’t know. I don’t know why she took a hatred to, to Matt and to WordPress. I mean it was a rite of passage in many ways to have your reply to her through support [21:00] or a forum reply to be posted and highlighted by her on her blog. That, then she started, you know, we got more people and she started to sort of go back and do whatever she did. I don’t know I think she just, at the time it was very, I don’t think she would have persisted for so long had she not had her little group of acolytes too, like Time Thief. The Sacred Path who I believe works for WordPress but I’ve forgotten his name. I think he works for the company now but I’ve forgotten his name. Doctor Mike and [inaudible] there was, there were a few others. I’d have to go back and read but I’m, it’s not exactly a pleasant blog to read.
+
+Interviewer: No.
+
+Riley: Though, even though everything she’s said has not come true about you know it’ll get worse and whatever else, she just had core group of admirers. So she posted I think as much to get her admirers to stay onboard with her as any particular criticism she had. I spoke to her once on the phone, I’ve forgotten, was it on the phone or was it, something, there was one weekend she got in touch with me or something and we, we chatted. Caroline, I think her name was. And she was perfectly reasonable in the, in the chat that we had. I had no worries about talking to her and saying you know this is how it goes and no Matt doesn’t do this, and no we don’t do that, and it’s all you know, try and just give her a you know, we’re not being horrible thing. But quite where she got that from I don’t know.
+
+Interviewer: Yep.
+
+Riley: Thankfully she went away though. I think she was, I think she was ignored into oblivion. Which is, which was a good thing.
+
+Interviewer: Yep. It’s just, I wonder if anyone’s done a study of, an anthropological study of support forums, it would be an interesting thing to read. Do you recall which paid upgrades you tried out, and which ones you ended up having to get rid of?
+
+Riley: No. No I can’t remember. I think the space upgrade was one of the first ones, CSS upgrade was another one. No, I can’t actually. I’m sure there have been but I’ve got, no.
+
+Interviewer: Yeah okay. And which of the upgrades did people really like? Do you remember that?
+
+Riley: From what I recall it was the CSS upgrade. Yeah the problem with that was, at the time, at the time that was launched there was only me doing support, and I said I can’t do CSS support as well [24:00]. I mean back then I knew CSS enough to, that I would’ve been able to help with most things, I mean it’s all changed now with CSS 3 and all that sort of stuff. I would consider myself pretty clueless these days. I remember saying to Matt that, you know if you launch this then, then please don’t say we’ll offer support because I don’t, CSS stuff takes so much time and I had literally had no time because I was working all day every single day just on keeping up, my head above water with support. So I’d say that one was the one that I remember as being pretty well received. I can’t remember any of the others. The space upgrade, no.
+
+Interviewer: No. Did you, from your sort of perspective inside the company and you having been involved with the community for so long, can you recall anything in the past, well since Automattic started, that, things that weren’t done really well in the community, the open source community, or things that didn’t go down well?
+
+Riley: You mean WordPress as a whole?
+
+Interviewer: Yeah. As in, sort of WordPress.org.
+
+Riley: I think, the only thing I recall… well there was the Hot Nacho thing. 
+
+Interviewer: Yep. That was pre Automattic though.
+
+Riley: That was pre Auttomatic, yeah.
+
+Interviewer: Yeah.
+
+Riley: There… since… I still think the GPL thing rubs people up the wrong way, but that’s a, you know, should it be GPL, when’s a theme GPL, when isn’t it, when’s a plugin and you know all this, all that sort of stuff, which is probably waiting for a, a court case somewhere to resolve it. That, that seems to, I mean I, I don’t really get all that stuff. Like I said before I just don’t care, I don’t care enough about it to be bothered about the nuances about why this, that and the other. I don’t know, I can’t think of anything that, that’s impacted me through support or that particularly rings a bell as to, um, no. 
+
+Interviewer: Okay.
+
+Riley: No, I think most stuff is, is now, is just sort of techy stuff like why we move to Git. You know, or you know the stuff that so called developers and coders care about and which the average person really doesn’t care about at all. You know, so long as, they just want their blog to start working.
+
+Interviewer: Yeah I guess that’s the people you deal with most of the time is, people who want their blogs to work.
+
+Riley: Yeah and that’s all, that’s all they do want, please move my subscribers, or I’ve just added a widget and it’s all gone wrong, why did it go wrong? Because you added the widget. Pull the widget out, let’s fix it. You know, and basic stuff like that. They just want it to work, [27:00] they don’t, it’s, you know they, they’re the customers of the carriage, they don’t want, they don’t care how the car’s built. You know, they just want to look at them go.
+
+Interviewer: What were you doing on Akismet?
+
+Riley: Um, all variety, I ended up doing Akismet support when we, when we started doing that. Just stuff. I can’t, I don’t, I can’t really say. So yeah I was just doing stuff.
+
+Interviewer: Akismet related stuff.
+
+Riley: Yeah I mean I did that from, yeah 2006 until about two months ago.
+
+Interviewer: Wow you’ve been doing Akismet for that long.
+
+Riley: I was doing, because it’s, very secret stuff, although Akismet is, although it’s, Automattic’s you know like it’s all open source, everybody can  do everything, Akismet’s always been kept tightly locked down, I mean I know there are developers who have been with the company since, since forever, who haven’t seen inside Akismet because Matt told me what was what, then it was just me ’til 2007, then Alex came on board and it was just me and Alex, and it was just me and Alex for quite a long time. Then Dave and Pete came in, but they had limited access to what I could see, and I didn’t see what… I think I could see what Alex did but I mean it’s code so I didn’t, I don’t look at because I can’t understand it. So Akismet’s, it’s, like a little need to know island. If you don’t need to know, then… You know if you want access to the secret Akismet blog for instance where issues are discussed, then you have to be added to that, you can’t, you can’t just add yourself like all the other Automattic blogs. So yeah, it was just Akismet stuff. Just, yeah, working with Akismet.
+
+Interviewer: Why is it so secret?
+
+Riley: Matt wants it that way? Because why not, because the more information that, I mean if people, you know, if we started saying well this is how Akismet works, and this is, this is this that and the other, and whatever else, then the drip drip drip of tiny little details would be put together by the people who Akismet wants to stop, maybe? And then you’ve started giving away why you do what you do and you’re also giving clues to other companies about how Akismet does what it does, and stuff like that. So best just to not say anything, really. It’s not, the core of, of Akismet is not open source, it’s completely closed, it’s ours, so, and it’s worth a few quid. Back when I started with Akismet it was on an honour system. The website said, you know, pay [30:00], and if you’re making money pay 5 dollars a month. When Pete and Dave came on board that’s when we started getting paid, and that’s, that’s when the, the millions of dollars started flowing in.
+
+Interviewer: Yep.
+
+Riley: Because it’s used by so many websites, and all the little 5 dollars adds up.
+
+Interviewer: Yeah and I noticed that people were quite annoyed when the interface changed, so you could still get it for free but it wasn’t obvious that you could get it for free, do you recall that?
+
+Riley: No, it wasn’t obvious you could get it for free. But, and I say this from a support point of view, I genuinely got emails from people saying Akismet’s great, how can I give you some money for this. And there was no way to give us money, because it was, we could sort, there might be a PayPal address but then tracking down and knowing where the money went, and being able to account for that in the company accounts would have just been a nightmare at the time. So no, if somebody wrote in saying Akismet isn’t free anymore I’d tell you yes it is, your website’s fine. Had charities write in and say, or somebody would write I had, you know, I’m running a blog for somewhere here and nobody gets any money and, you know, is there a discount on the fiver? Five dollars, I’d say yeah, have it for nothing. There you go, never pays a penny. I would try to count which were giving us money, and I’d say you shouldn’t be giving us any money, here you go, I’ve refunded your money. Have your money back, please use Akismet for free. Especially in the last year we’d have businesses write in saying, you know things are tough, we’re having to cut back, Akismet’s got to go, sorry we’re not giving you any more money. And I’d reply with I’ve made your account free. You don’t need the spam on top of whatever hassle you’ve got. If in a few years things are looking good, by all means feel free to start paying but we’ll never chase you for it, you know, it’s free. Use it, whatever. So we were never, never ever ever lied. If people paid and found out it could be free, gave them their money back. People on WordPress.com paid and realised it was, gave them their money back. Straight away, no questions, never asked any questions. So, but I mean, we are, I don’t think people get, I still don’t think people get the Akismet service. It’s not that we stop spam. It’s we save you time. For you going through, if you have to spend 5 minutes every single day looking through all your spam to find the decent comments, we’re saving you that 5 minutes. Now 5 minutes doesn’t sound a lot but every single day it would drain you. You add it all up and say well if it’s 5 minutes for whatever then, would you pay somebody 5 dollars a month to do it, and they’d probably say yes. Fine, give us 5 dollars then. And it was only ever for businesses [inaudible]. I, I was, I wasn’t… I was wary of that change, [33:00] because I was the one going to be answering the emails. And it, it didn’t sit right with me, the default money, but I understood why it was there. 
+
+Interviewer: Why?
+
+Riley: I wasn’t happy with it but I mean I knew it had… sorry?
+
+Interviewer: Why. Why was it there?
+
+Riley: Why?
+
+Interviewer: Yep.
+
+Riley: Um, it’s I opt out stuff. 
+
+Interviewer: Yep.
+
+Riley: You know, stuff where they opt you in automatically and then opt you out. I liked the smiley, the smiley face got a lot of good press. 
+
+Interviewer: Ah that smiley face nearly made me pay for Akismet.
+
+Riley: That smiley face makes people pay for Akismet.
+
+Interviewer: Exactly.
+
+Riley: It’s, that’s genius, that’s genius from Dave who did that. Absolute, absolute genius. It was mentioned on Hacker News, it’s been mentioned all over the place as a, as a brilliant, and I would, I would say, slide the little slider ’til the happy face looks very sad, and then pay, and I’d say ignore the sad, it doesn’t matter.
+
+Interviewer: Yep.
+
+Riley: You know, we have money, we have more money than you, we don’t, the important [inaudible] emphasise to people as far as I was concerned, I didn’t care about the money, I just didn’t want you to have spam. And that’s, that’s the same now. The fact that Akismet is included in Core, and is a paid thing, and is a paid Automattic thing, I know irritates a lot of people. But I think I said to Matt at one… why Akismet… it’s, I said if that was the case, if they, if it came to it I would happily just, this is obviously just me and I know nothing, I would just make Akismet completely free for everybody so it could stay in. Because I hate spam that much, I’d sooner rather give the service away for free. I keep expecting Google one day to pop up and ask Matt if they can buy it. Or somebody, or somebody like, somebody like that to say, because the, you know the amount of data we’ve got must be worth something. The amount of customers we’ve got with that which is pretty much every WordPress blog has got to be worth something. But then Matt, Matt created it for nothing so I mean I don’t know how much he sees it as his, and it’s also, it brings in a few million dollars to the company, so. Yeah, I wasn’t happy with the money thing but then we, the policy was and still is on Akismet if somebody’s unhappy with the money give it them back. And that has, that has always been the case, don’t even ask, if they say can I have my money back, yes, give them the money. Don’t question it, just give them the money. Because the last thing we wanted was, oh Akismet you know, squabbling over 5 dollars. It really doesn’t make any difference. 
+
+Interviewer: Yep. What was it like working at Automattic, in the very early days?
+
+Riley: In the very early days, it was… [36:00] Somewhere, for me, somewhere along the line, Automattic has become corporate. I don’t know where that change happened, I couldn’t pin it down to a particular time, but back then there was one IRC channel or two IRC channels, there was a couple of internal blogs, people chatting in IRC all the time. I mean I would log in and say good morning, and then Donncha would log in, morning, then we’d see the, you know, we’d chat through the day as we worked, and… as it sort, as it’s got bigger it’s, it just seems more corporate you know. This is how you file your expenses, and you didn’t pick the right thing, and it just, I don’t know. But I’m, but I say that from… being where I am in the U.K, having been unable to attend all the meet ups, I mean I went to one meet up in, where was it, I forget, maybe Arizona 2007 or 8, I think the next one after that I could get to was the one in San Diego. So I went from, walking in, being able to walk into a room and see everybody around one table, to walking in and just like, wow.
+
+Interviewer: Wow.
+
+Riley: I met somebody in San Diego that said how long have I been in the company, I said forever, they said wow you must know everybody and I said no no no no, you probably know more than me and yet this guy had been with us about 6 weeks. It was just bizarre. So I’m saying that from a point, you know I don’t have, I don’t have the meet up face time, if you want, with, with everybody else in the, in the company. So at the time, yes, it was all, it was everybody in together. You know, there’s a problem, fix it, you know. Oh this is going, this is an issue in support, this is not an issue. Discussions were more open. So I knew what, I knew, I think everybody knew what was going on because there were so few places to chat. So chat just happened in the IRC channel. As teams have grown up we’ve got a ridiculous amount of P2s and o2s and whatever else they call them. And we’ve got an IRC channel for each team, there are multiple Skype chats going on with different teams and… it feels odd.
+
+Interviewer: It’s a big company now.
+
+Riley: It’s a huge company now, yeah. I mean I don’t, I don’t want to say, I don’t want it to sound like I thought I was a big cog and now I’m a little cog, but it feels very [39:00] corporate. Not bureaucratic necessarily, but corporate. And I don’t, I couldn’t, I can’t sort of define that very well, but it just does. 
+
+Interviewer: Okay.
+
+Riley: And I think for the amount of people we’ve got in the company, there’s 
+a surprising few people post to the main P2s, things like the Water Cooler, there’s probably a core group of people who post to that. Update, there’s probably a core group of people who post to that. So although we’ve got what, we must have 250 - 300 people, a bit less than 10% post to those. So there’s something weird there. Still. 
+
+Interviewer: Okay well you’ve answered all my questions. So we can stop there.
+
+Riley: And I’m an employee now. I’m actually an employee.
+
+Interviewer: Oh you’ve opened your office in, the office in the U.K?
+
+Riley: I think it’s Ireland?
+
+Interviewer: Oh Ireland, okay.
+
+Riley: Could be, yeah as of the first of April, after all these years I’m now officially an employee, up until the first of April I was still a contractor.
+
+Interviewer: And did you ever like at the very start, ever have any problems getting paid or anything like that?
+
+Riley: Oh hell yes. That… Oh that was horrible, me and Donncha. We were paid in U.S dollars. We had to invoice in U.S dollars. So of course the bank switched that into U.K pounds, or whatever Donncha was paid in. And that depended on the exchange rate, and we both took a big pay cut, literally our pay was going down each month. Because the exchange rate was getting worse. So it was costing Automattic the same, obviously because they just paid in dollars, and the exchange rate went to hell. And it was just like, you know, this is silly. I’m getting less and less and less. So I, I don’t know how, at some point that got resolved. Don- uh, I think it was Tony got into it and said we’d prefer to be paid in U.K pounds. Yes please. 
+
+Interviewer: I know how that feels.
+
+Riley: Because then… yeah, it, well it was, I think he said at the time you know, you could change it once a year if you wanted, but if you chose pounds and the exchange rate swung the other way you couldn’t change it that month. It was just going no no, pounds please, then we know exactly what’s going to come in the door. 
+
+Interviewer: Yeah, exactly.
+
+Riley: Yeah I mean I think, I mean Jacky used to say, because he used to say send your invoice in by say the 25th, I think I was paid once 15th, 16th, 17th of the month. Because [inaudible] sort of got round to doing it. So there was that. Which in the past year or so has evened out to be proper. Yeah, it was the exchange rate was the killer [42:00], that was, talk to Donncha about that because he was, he’s probably got better memory on that, we both used to… we would literally say you know once payday came around, wonder what the exchange rate is. We’d have a conversation on IRC. Because I don’t think, I don’t think it’s occurred to U.S people that exchange rates exist and how bad it was, because they never had to deal with it. Yeah that was, that was, that was not good. That was a pay cut each and every month when the exchange rate went to hell. So being paid in pounds was a huge relief.
+
+Interviewer: Yeah, I bet. Okay. 
+
+Riley: So apart from that no, there was the occasional, back then when I was sent a Mac Mini and I had to pay the tax on it, and then I was sent a, a big monitor and had to pay the tax on it, and it wasn’t just all set up like it is now where I can just pay and get expensed. Yeah. Ask Donncha. 
+
+Interviewer: I was talking to Donncha. He told me about Tony and Matt running to the bank to pay him in cash, and stuff.
+
+Riley: Oh probably yeah because Donncha was the first wasn’t he, and I was what the fourth or fifth person to join? 
+
+Interviewer: You were number, I have it written down, 
+
+Riley: Because Barry joined after me. He was there before me but he wasn’t officially employed I think until after me.
+
+Interviewer: You were employee number six.
+
+Riley: I was, I was number six. Fair enough.
+
+Interviewer: Yeah. And Barry was not in the first ten.
+
+Riley: No, he wasn’t. I can just remember the first meet up at Tony Conrad’s house, we were all sat around the table.
+
+Interviewer: So you, did you go to that meet up?
+
+Riley: Yeah, the very first one.
+
+Interviewer: Where was that?
+
+Riley: I think it was Tony Conrad’s house. In San Francisco.
+
+Interviewer: What was that like, meeting for the first time?
+
+Riley: Amazing. I was stopped going in, I almost didn’t get into the country because the plane landed at, at um not Chicago, O’Hare I think, in Pennsylvania?
+
+Interviewer: Yeah.
+
+Riley: Yeah and I got quizzed as to why I was coming into the country.
+
+Interviewer: Yeah.
+
+Riley: I said do you know what blogs are, and the guy, the guy said no I work for a living. And then he looked at, then he saw the implant I have in my hand and asked about that and said it was brutal.
+
+Interviewer: Oh.
+
+Riley: And then he said, why aren’t your wife and kids with you. My wife, you know, is just not that sort of thing and so yeah I got told, please go and sit over there, I was one of the first of the aeroplane, and I got told to sit, go and sit in a chair until the whole aeroplane had been dealt with and then they came back, asked me some more questions, took me around to my bag and said you can go. I’ve had another, I’ve had another quiz or two on the way in to, on the way in and the way out, I was stopped when I last came back from San Diego taken aside and given the full [45:00] pat down and stuff, you know who are you travelling with, and take your shoes and socks off and blah blah blah blah. So yeah going to the U.S.A is, is not an experience I like. At all.
+
+Interviewer: No, I [inaudible]. It’s horrible.
+
+Riley: Just the security. And I don’t, I’ve posted about that before on the HR P2 and I don’t, I don’t think any of the American people realise that because they, they’re Americans, they’re allowed into their own country.
+
+Interviewer: Yeah it’s pretty miserable getting grilled at the airport, it makes me nervous every time I go in.
+
+Riley: It does me, and it annoys me because I’m stopped because they’ll see the tat, I’ve heard, I heard one guy once he was just like pull the guy with the tattoos. Which was me. Why, because I’ve got frigging tattoos. What, what, what does that mean? You know [inaudible] got death head stuff up my arms, it’s just really annoying. But going to San Francisco was just utterly utterly bizarre. I’ve just answered stuff in a forum, and then a year later here I am, being, they’re paying me to go on a plane. And they’re gonna pay, and I get this, wow. And there’s Matt, there’s Ryan, and wow. It was just bizarre.
+
+Interviewer: What did you do in that meet up?
+
+Riley: We had our first company meet up around a… It was a park bench, down by the Golden Gate. We went bowling at some Presidio in San Francisco. I won.
+
+Interviewer: Oh congratulations. 
+
+Riley: We, I can’t remember if we did, I don’t think we did Alcatraz, might have done but I can’t remember, I’d have to go, I’d have to look at, all my pictures are online so I’d have to go back and look at the 2007 pictures. They’re all actually, go to markr.smugmug.com. There’s a cache there. Dot smugmug.
+
+Interviewer: Aha, it’s you.
+
+Riley: Oh you’ve gone there already, yeah there’s a, there’s a section there Automattic which has got all the photos from, from the various places. So the first one was 2006, there was, we did do Alcatraz. So yeah and then the 2007 one was the Stinson Beach one. 
+
+Interviewer: So was that tied in with the WordCamp San Francisco or did you go separately?
+
+Riley: Stinson. They were… well the first, oh the first one that was, yeah the first one I think Matt just planned a BarCamp, Bar- the WordCamp thing just off the top of his head, and we ended up having this thing at the, was it the Old Swedish, or New Swedish Hall or American Swedish Hall or something. 
+
+Interviewer: Yeah.
+
+Riley: And Matt said there you go Mark, it’s you’re room, [48:00] talk to them. About what? Got no warning, no nothing. Probably did absolutely terribly. We spent a lot of the time carrying bucket, trays and trays and trays of water bottles upstairs so people had got something to drink and nobody drank them, so we had to carry them all downstairs. Then the Stinson one we had the WordCamp, and then went up to Stinson for the week, for the rest of the week I think it was. So we had the first night, the first night in, in San Francisco, did the WordCamp there and then drove up the next day. Yeah there was another one in Mexico 2007, I can see a picture of Barry with the cat on his laptop.
+
+Interviewer: So you’ve been to a few meet ups.
+
+Riley: Yeah I went to, I went to like the first, the first few, and then I think yeah the last one was San Diego, I don’t know if there are any pictures from San Diego, there probably are, yeah San Diego’s there. But then I missed a few, I missed Budapest, I missed Canada, and I missed Florida. I should make it to Utah this year though because my daughter, my daughter’s booked that week off work so she can stop at home with Jacquie. So I can, I can, I can get out to that because… I mean, missing one I think ehh okay. Missing two or more, no. It’s not, you know, it’s especially now I’m in… Because when I was just in Akismet there’s, I had, there was nobody really to talk to, we could do all our talking online but now I’m with the Jetpack team, now I do mix a little bit more. And of course I went to Fukuoka, I’d mentioned to Matt, or Matt knew that one of my dreams was to visit Japan.
+
+Interviewer: Me too.
+
+Riley: He found out there was a WordCamp in Fukuoka and said do you want to go to Japan? 
+
+Interviewer: That’s awesome.
+
+Riley: Well hell yes.
+
+Interviewer: Wow.
+
+Riley: So I went along to that and spent the week with, yeah a week doing stuff in Japan and meeting, which was absolutely fantastic.
+
+Interviewer: Not a bad gig.
+
+Riley: No, not at all, not at all. I mean looking at the places I’ve been to. No, not at all, it was a, it’s all been pretty amazing. And all this because I started answering questions in a forum.
+
+Interviewer: Yeah I know. Wow.
+
+Riley: I haven’t contributed any code, or patch, or all that sort of nonsense. Just said yeah I can help, I can fix that.
+
+Interviewer: Do you remember what you discussed on that park bench in San Francisco in 2006?
+
+Riley: Yes, actually. We mentioned how to escalate tickets and I can remember Ryan saying that he lived in Trac, so if everything went into Trac then that would be groovy. [51:00]. Never happened. Oh I think, yeah I think it might have done but then Trac just turned into a big dustbowl because it just got full and there was nobody else really looking at it and then priorities, and… But yeah that was, that was one issue, how do we improve support and, and do whatever else. And find issues, and yeah that was one of the issues around the park bench. In the shadow of the Golden Gate.
+
+Interviewer: Do you remember any of the others?
+
+Riley: What, the meet ups?
+
+Interviewer: No, what you were discussing around that park bench.
+
+Riley: No.
+
+Interviewer: Okay.
+
+Riley: No, I mean looking at the photo, looking at the photo of around [inaudible] I remember Ryan came to the meet up with probably an old Dell computer which promptly died so we went out and bought this swish Sony Vaio machine.
+
+Interviewer: Nice.
+
+Riley: No, I can’t, it’s just a very nice big house. And Tony Conrad had this moving sculpture which I wanted, but it costs thousands and thousands and thousands and thousands of dollars.
+
+Interviewer: Oh dear. Not for you, then.
+
+Riley: It wasn’t for him actually. He said he bought it when the artist was barely known.
+
+Interviewer: Oh, okay.
+
+Riley: So it didn’t, it didn’t cost him a lot and then the artist took off and now it’s worth a bomb. Oh they interviewed, at the time they interviewed… there was a discussion in Tony’s house about strengths and weaknesses in the company. I’ve forgotten, I’ve forgotten the, what came out of that. And the first admin person was taken on, I’ve forgotten her name.
+
+Interviewer: Was it Maya?
+
+Riley: Yes. She was interviewed in that house, too. She was interviewed during that WordCamp by I think Tony and Matt. Yeah I can’t, I can’t remember many of the details, that’s, that’s without looking at the photos and stuff. No doubt they’d just remind me of the places more than any particular conversations.
+
+Interviewer: It was a long time ago.
+
+Riley: Yeah, it was, well it’s eight years I’ve been with the company now, so. Ten years I’ve been doing, it’s over ten years now I’ve been WordPress support, which is pretty damn amazing.
+
+Interviewer: That’s a long time to do anything.
+
+Riley: I was a nurse for longer.
+
+Interviewer: Ah well one day you’ll cross over that threshold.
+
+Riley: I may well. I may well indeed. I can’t remember anything else from there.
+
+Interviewer: Well I’m going to stop the interview there, so thanks for that.

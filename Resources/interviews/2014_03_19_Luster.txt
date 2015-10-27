@@ -1,0 +1,375 @@
+Keywords: WordPress Foundation, Subversion, Apache, CollabNet, Bluehost, Technorati, Greymatter, Six Apart, Movable Type, LiveJournal, HotNacho
+
+People mentioned: Matt Mullenweg, Brian Behlendorf, Tantek Çelik, Paul Watzlawick, Anil Dash, Ben and Mena Trott
+
+[Transcribed by Patrik Ward on 03/25]
+
+[Word count: 9,300]
+
+[Begin transcription.] 
+
+Interviewer: I’m speaking to Jonas Luster on the 19th of March, 2014. Am I pronouncing your name correctly?
+
+Luster: Yes.
+
+Interviewer: Excellent. Okay. Let’s start off with how did you first get involved with WordPress?
+
+Luster: So, before WordPress I was a contributor/writer/coder/whatever for Drupal. I found Drupal when I was looking for some place to put all my stuff, like blogging, writing, whatever. This being 2002-ish. And right after the great Movable Type disaster, when Movable Type version 3.0 went for pay and people were really unhappy about that, I was in a bar — it was Mel’s Cafe in San Francisco, with Matt Mullenweg, and his girlfriend at that time and a bunch of other people. She wasn’t quite yet his girlfriend, but it developed that way.
+
+Matt said, “If you switch to WordPress, I’ll put the coding pieces of your writing into the WordPress feed that’s on the dashboard.” That was his carrot. I said, “Okay, I’ll do that.” And I spent a week and a half, two weeks — back then it was really crummy, creating a theme for WordPress that looked at least a little bit like my custom Drupal theme — and switched over to WordPress. I think the first time I used a curse word or wrote about a threesome or so, he took me out again. Which is okay. Which is okay. No problem with that!
+
+Along comes SXSW 2005, and at that point it’s the height of my blogging career. I had 20,000 readers and everybody loved me and ah, it was beautiful! At SXSW, Matt said, “If we reach 100,000 downloads we’ll have this party in San Francisco.” I said, “Hey, count me in! I want to go get torrentially drunk there and party with you.” I went to that party, and I didn’t get torrentially drunk, but I got a little blitzed and so did Matt.
+
+In the conversation with Matt at this party he said, “Oh, I was thinking about making this a commercial enterprise. [3:00] Or put a commercial arm to it that helps us finance the non-commercial arm. It would all be in the spirit of open source and it would all be in the spirit of don’t do evil and that kind of stuff,” and I said, “Oh cool! If you do that count me in.” Next thing I know Matt is on stage announcing that he is started the WordPress Foundation and that I’m employee #1. The rest is history.
+
+Interviewer: So he hadn’t mentioned it before then?
+
+Luster: Well we had been talking about doing something like this, but the employee #1 and WordPress Foundation was — as far as I know, it might have been in the back of his head for years. Funnily enough, Automattic — the idea of Automattic — is much younger than that, but I remember distinctly at that party that he said he wanted to something with this name Automattic. So that’s 2005. I remember that.
+
+There are a few holes — if you’ve ever seen the video. Ryan King shot the video. I was looking pretty blitzed and so was Matt. This was not a sound, sober business decision at that party. But it happened. After that — the week after that was crazy.
+
+Interviewer: You said that Automattic was already an idea then. What was supposed to be the difference between Automattic and WordPress Incorporated?
+
+Luster: To tell you the truth I don’t think there was any thinking about that! I don’t even think we had an idea. This is 2005, right? We’ve just emerged from the second big tech slump in the Valley. Open source is hot, WordPress is super hot, we’ve just learned — at that point I was working at CollabNet, the company that was started by Brian Behlendorf of Apache fame, so I was working every day all day on taking open source stuff like Subversion and Apache  and whatever and integrating that into a business context that would be sold. So that was the high flying 10,000 foot idea. Let’s find out what we could do with WordPress that would support the development as Apache and Subversion are supported by things like CollabNet.
+
+There’s the Apache Foundation on one hand, which is a non-profit that is a steering committee, and on the other there were things at CollabNet where paid coders were doing something [6:00] that ultimately benefitted the back of the enterprise. I think that was the idea: that Automattic would be something like CollabNet, where you have an actual corporation that has a for-paid product that benefits the open source product, and on the other side of the equation you have something like the WordPress Foundation that would be like the Apache Foundation that would be a steering committee for source code review, for all these things. 
+
+Interviewer: You meant WordPress Incorporated, not WordPress Foundation? They’re quite different.
+
+Luster: Yes, that was the other thing. I think, again, there are a few not-so-lucid moments in this conversation. I think we talked about foundation and we talked about corporation and we talked about Automattic and it all got muddled and then all of a sudden he’s standing up there and announcing WordPress Incorporated. It was great though! It was a good night!
+
+Interviewer: What did people think about it?
+
+Luster: There were three kinds of people. There were those who wanted to ultimately benefit from what WordPress is. I’m talking about venture capitalists, evangelists, the usual non-contributing member that still wants to make something. They were delighted! My phone wasn’t standing still for a couple of days. 
+
+[interrupted]
+
+Other people’s work as a business people. They were delighted. They would come out of the woodwork and my phone wasn’t standing still. Then there were the group of nerds of the Bay Area nerd corp, they were just generally happy. They were happy for Matt mostly because Matt’s been doing amazing things, and has been doing amazing things for a while, and him taking this to the next level in 2005, that was something that really everybody was super happy about.
+
+There were a few people who were super not happy with me, the crummy outsider being employee #1 and not the super coder somewhere or something like that. They were actually [9:00] in the minority. Maybe 5-6 hate me now. Maybe a little bit more! It was not bad.
+
+Interviewer: So why were you the first employee?
+
+Luster: Well, I think Matt is a coder. And Matt is an amazing coder, and I think since 2005 I was there at his 21st birthday. I dragged him into a strip club on his 21st birthday. But since then he has matured to a little bit more, but then he was the sax playing coder, a little bit awkward. He’s going to smack me over the head when he hears that, but a little bit awkward. I was a good 10 years older than him — more than that! I have a Ph.D in social psychology and I am on this green Earth, the greatest extrovert and talker. So you need somebody who can do that, who can stand on a stage and scream at people. Who can call up places like Bluehost that was our first attempt and say, “Dude, you’ve got to go host WordPress and you’ve got to give me money for that. And get it done.”
+
+As much as I hate to admit it, I was more a salesperson and a marketing and PR person than I was a coder.
+
+Interviewer: How did you end up in San Francisco? What was your background? You have a Ph.D in social psychology?
+
+Luster: Oh, my background! So I am not a coder, I am a cook. 
+
+Interviewer: Okay, I like cooks.
+
+Luster: Yeah, and I’ve always been a Valley outsider, but I graduated in ’99 from the University of Amsterdam with a Ph.D in social psychology, which I only got because I started going to school — I was working in Amsterdam — I started going to school because, when you go to university, you get free housing in Amsterdam. There’s very very strong subsidized housing in Amsterdam. So, through a lot of really creative things I graduated with a Ph.D, let’s just put it that way. The day I graduated with a Ph.D I went back to working in a kitchen.
+
+In ’99 I decided that, “Oh my god! Dot com boom! I’m going to make money.” Because I’ve always been coding on the side, I’ve always been coding in the background. I wrote a bunch of smaller things for Linux, I was one of the contributors in the steering committee for the INN new server, but that was all hobby. I was not a professional coder. So I said, “I am going to San Francisco — or, I am going to the Bay Area.” I am not a San Franciscan I am a San Jose guy. I am an actual Silicon Valley guy, not a tip of the peninsula guy.” 
+
+It spiraled out from there. [12:00] I started working at Exodus Communications, which was back then the biggest hoster — they were hosting Google and eBay and that kind of stuff, so they had these massive data centers. — as a security guy because I understand security really easily. Again, I’m a talker. That was what brought me to San Francisco. In addition to that I got sick, and working in a kitchen wasn’t really much of an option anymore for a while, so being a coder and working for a gaming company and working for things like Technorati was easy because I could just sit in front of the computer. 
+
+Interviewer: How did you meet Matt?
+
+Luster: I met Matt — weird things. There was this group of bloggers that met in the South Bay that were — this was before WordPress was a thing, when it was still B2 right? I guess ’99. I don’t know. WordPress is 2002?
+
+Interviewer: 2003.
+
+Luster: 2003. So yeah, it was before that. This weird group of bloggers, I met people there, and they introduced me to Tantek Çelik. And Tantek said, “Hey, I know this kid. I know this kid. You got to meet him!” And that’s how I met Matt.
+
+Interviewer: Did WordPress — I guess that would have been in 2004 when you went to San Francisco?
+
+Luster: 2003, 2004 yeah. Always back and forth. I was working in San Francisco and I was living across the bay in Oakland and so on.
+
+Interviewer: Did he show you WordPress then?
+
+Luster: Yes. Yes. In fact, rewind! He was still not living in San Francisco the first time I met him.
+
+Interviewer:  Okay, yep.
+
+Luster: Before he moved into this really swanky apartment, I think it was on 2nd or 3rd street. It was before he moved there, I met him a couple of times. It could have been SXSW 2003, I’m not sure. But I met him a couple of times and yes, he showed me WordPress. I thought it was kind of subpar at that point. I was a huge fan of the Movable Type approach to compile static pages out of a database.
+
+Interviewer: I’m interested to hear why you thought Movable type was good so.
+
+Luster: No, I hated Movable Type! This is going to get me sued, but may I please sue me for saying [inaudible]. I yelled at her a couple of times because in a sense all she did was take the Greymatter idea or the bloggings of Greymatter — which I was using at that time — and search and replace [15:00] and recode a little bit and offer that as Movable Type. But the idea of allowing — look, I come from a non-tech background. If you look at me, I use Android because it’s cheaper and I use Linux because it’s cheaper and so on and so on. You will not find a single Apple product in this house, not because I can’t afford it, but it is a step into a society that I am not willing to take. I’m not ready to take. 
+
+Thinking about lecturing an expense, and when I set up servers they usually are really crummy. Database queries for everything, repeatedly, while you have 20,000 readers was something I thought was stupid. For me, a static page that could be served off a minimalistic web server was so much more intelligent, especially for writing that was — my writing doesn’t change. I write something, and I might edit it a little bit, there’s comments, yes, but the rest of the page doesn’t change. So why do database queries for it? That was my argument and I told him and he said, “Well the future is blah.” And he was right and I was wrong.
+
+Interviewer: At what point did you think, “there’s a future in this and it’s something I want to be a part of”?
+
+Luster: Well, that is one of the things — all things considered, whether I was a cook or whether I was working at gaming or whatever, I always thought of myself a little bit as a storyteller. I know these days storyteller is the word du jour — everybody is a freakin’ storyteller! Like, “Oh, I’m playing the guitar, oh I’m a storyteller. Oh, I write blog posts about my food. I’m a storyteller. I take crummy Instagram at the restaurant I’m a —“ No, you’re not. I’m the other way around. Most people have a specific tool they use and they say, “I tell stories with that.” 
+
+For me it was, I tell stories and I use every frickin’ tool in the shed to tell a good story. Blogging, as much as it has completely changed since then — we had these massive CMSs for big corporations and then we had these really simple tools and I was like, “Oh, cool! A really simple tool!” I don’t have to think about anything. I can tell a story while typing on my computer and somebody can read it and that is great.
+
+So blogging was one of those things that always attracted me. And then, when you start using tools, and if you come from an arts and crafts background like cooking or brick laying or whatever — actual blue collar craftsman and artisan background — you always want to refine your tools. There’s a drive in you that says, “I’m using this tool. It works well. I need to [18:00] make it better.” And this is how I got into it I think, or coding around the blogging software. It’s a tool! And I really wanted to make it better.
+
+Interviewer: Did you do any coding for WordPress then, like plugins or themes or anything like that?
+
+Luster: Way way way back, before it was in the WordPress codebase, I wrote the first tagging plugin for WordPress. Because tagging was all the hype then, I used things like API queries to the back end Yahoo tag allocator to suggest tags and that kind of stuff, so extend shortly afterwards and a much better implementation.
+
+Again, I guess this is my curse. I have an idea, I implemented with what little coding prowess I have, and then somebody else takes it and makes it beautiful. I’m happy with that!
+
+Interviewer: They’re not very happy with how taxonomies work. Everyone complains about it.
+
+Luster: The thing about taxonomies is — you’ve got three kinds of people. You’ve got the, “I use $15 words to describe a $0.05 situation so I sound like an academic people who write these lengthy blog posts about why taxonomies work or don’t work. One of my big heroes in the world, Paul Watzlawick, was a psychologist/sociologist who taught at Stanford (an Austrian/German/American) and he used to say, “Never use a $10 word where a $0.02 word will suffice.” And these people can argue about taxonomies all they want. The bottom line is that we’ve reached a point where we have so much data that we have to classify it somehow and any more complicated way of classifying data creates more data to classify. The system is the lowest common denominator. It works! It’s fun!
+
+Interviewer: I think it’s the coders, the developers, that aren’t very happy with how it works in the database. There’s lots of complaints.
+
+Luster: Then fix it! It’s open source!
+
+Interviewer: I know! They’re trying to, so hopefully. So it sounds like WordPress Incorporated became a thing kind of, where you were the employee but you weren’t really the employee? Did you actually do anything?
+
+Luster: Oh, you sound like my mother! “Did you do anything?” 
+
+Yes, I did! So, I got the first six, seven, ten hosters on board that were actually paying Matt. 
+
+Interviewer: So what were they paying him for?
+
+Luster: For being listed as WordPress hosting sites on WordPress.org.
+
+Interviewer: How did you do that?
+
+Luster: I called them, [21:00] like Bluehost or whatever. “Hey dudes, here’s what. We’ve got n-thousand hits a day, we juts got 10,000 downloads of WordPress, this is the future of blogging, or the future of publishing. You want to be in on the ground floor and the best way for you to be on the ground floor is to be right there on WordPress.org when somebody clicks the hosting tab to see you right there. Now give me some money.”
+
+Some of them were playing a flat sum, but most of them were paying affiliate. 
+
+Interviewer: So was it lucrative?
+
+Luster: You would have to ask Matt. I never heard about the money. 
+
+Interviewer: What else did you do?
+
+Luster: Then — oh, the infamous Matt and Google and spam day. That’s what you’re steering at isn’t it? 
+
+Interviewer: I was hoping to hear about all the other things you did first! I have lots of questions about that.
+
+Luster: Well, okay, let’s talk about all the other things I did first.
+
+I spent a little bit of time with Matt discussing the future. I had meetings with people with venture capitalists — not going to name any names, because I don’t know if they want to be named. Some of them were not chosen. They were not the chosen few. Meetings with venture capitalists, talking about — really my whole job was to — blogging was hype. There were these micro-content movements, there was Tantek with his XFN metadata markups and so on and so on. The living web was super hype. There was Google having an anti-spam initiative where Google actually sat down and said, “Where rail = no follow came out of.” Where Google was thinking about how they can make blogs less of a spam magnet and so on. And that was mostly the things I did.
+
+I was traveling around talking to people. And by traveling, this being the Bay Area, you didn’t have to travel far to meet most anyone who was important. I was at Sand Hill Road a couple of times, downtown Palo Alto a couple of times talking to people.
+
+Interviewer: What did you and Matt talk about in relation to the future? What did you think the future was?
+
+Luster: I — and I’m pretty sure Matt sees that differently — I tried to be the grumpy negativist, because I always think that too many sycophants screw you up something fierce. I guess one of my most endearing qualities is that I’m not a sycophant, ever. [24:00] So I tried to talk Matt out of a few things that he thought would work. For example, the affiliate deals. My personal approach was, “Don’t let people give you a certain percentage of whatever sign up they get. Talk them into partnerships where not only they pay you a fixed sum but you have somebody who actually looks over their server code to make sure that WordPress runs stable.” I guess it’s a little bit embodied in the VIP program these days — which I don’t claim any ownership to! This is — a million people will have come up with the same idea, I’m not saying I helped to make it. “You have the expert, they have the need, sell them something that they pay a retainer on.”
+
+I guess to Matt maybe it wasn’t fathomable at that point that somebody wants to put down n-thousand dollars every month just for the privilege of having Matt Mullenweg look over their servers. These days I’m pretty sure that if you sold a Platinum package that says, “Matt Mullenweg himself will look over your server.” That could sell for a lot of money. I don’t know, but I’m pretty sure it could. These days, I’m not sure Matt was convinced it could work and I think I was convinced it could work, but we didn’t really try it. I tried to sell it a couple of times. People were interested. But it didn’t, at the end of the day — I’m using a salesman sentence, “At the end of the day…”
+
+Interviewer: I hate that sentence.
+
+Luster: Me too. I totally do.
+
+Interviewer: You just said it though!
+
+Luster: Yes. And why did I do that? Because I’m talking about selling something and I go into salesman mode. Which, I will have to scrub my eyes and bleach my tongue for when I’m done with this interview.
+
+Interviewer: Good, I’d like to see a photo.
+
+Luster: I will do that! You will get a bathroom selfie of me eating soap. You can put it out somewhere. I will personally squirt soap in my mouth.
+
+Interviewer: Thank you!
+
+Luster: Well at the end of the week, the month, the year, or whatever happened is that I really think that Matt did everything right at that time with a little struggle and a little pushing and maybe a little uncertainty about things. I was just trying to push the cart a little faster and in a little different direction. Would it have been better? I don’t know. I think it would have been a little different but it would have come out the same. Matt would still be the multi-millionaire traveling the world with hundreds of people and all that. I don’t think that would have changed.
+
+Interviewer: What direction would you have taken it in? [27:00]
+
+Luster: Well, I really thought of WordPress Inc. as a service organization rather than a hoster. So I think WordPress.com wouldn’t have existed under — if I had had a say, which I don’t. All I did then and all I did until it ended was, I could make suggestions. Matt had and has his own mind. I don’t think WordPress.com would have happened that way. What would have happened would have been many many WordPress.com run by other people who paid Matt for the privilege of running WordPress.com.
+
+Interviewer: That makes sense. One of the things I saw that you said in a blog post was that you said your job was to keep the corporate out of incorporated. What did you mean by that?
+
+Luster: Well, here’s what happened at that time, and if you look around. We had this big bogey man standing right there, front and center, the fat 50,000lb elephant standing right there in the room, and that was Six Apart and Movable Type. And I love Anil Dash. I really love him. He is one of the great people in this world. He is an amazing, amazing human being. At that time his job was to sweet talk this turd of Six Apart becoming a corporation and charging money for people to use the code they had originally contributed to an open source project. 
+
+The sudden silence and then Ben and Mena becoming a person of the month or the year or whatever, getting their own Wall Street Journal drawings. And that has to a certain degree also happened with the Ground Zero WordPress people, at least in my direction. All of a sudden Ben and Mena were no longer approachable. There was a time when I could pick up my email or my phone or whatever and send them an email to Mena and say, “Hey, you want to have beers? Bring Ben, let’s talk about something fun.” And the answer was, “Sure! When? Where? Let’s meet at [inaudible].” After the incorporation the worst that you could get was an email back from her secretary saying, “I’m sorry, Miss Trott is currently not available for you.”
+
+So this is the kind of corporate that I really, really — and I wasn’t the only one. Everybody had this feeling, why did WordPress get so famous? Well, because WordPress in a sense capitalized on the turd up on Six Apart’s side. And I didn’t want to have to be the Anil Dash who had to sweet talk a turd. I wanted to be me and [30:00] sell something or hype something that I was super interested in and was great! Keep that out! Matt should still be showing up at parties. Matt should still read the code and so on and so on and not make crazy purchasing decisions like LiveJournal and then sell it back to the Russians or something like that. This is the stuff that I wanted to avoid by keeping the corporate out of the incorporated!
+
+Interviewer: You seem to be more for having a, as you said, WordPress Foundation rather than WordPress Inc. What did you see as the difference between the two?
+
+Luster: Actual stewardship. If there is one thing that I can say — and this is going to, if you want a controversial statement, it’s coming right now. Mark the time, it’s 33:17 into the call, you can point that out. This is the controversial statement.
+
+Having a steward — an actual group of people, benevolent overlords or whatever you want to call it — that have no financial interest in going a certain direction but have an intellectual and an academic interest in going forward, creates an environment, in my opinion, in which things that can be monitized happen naturally. So rather than having a business development guy saying, “You know we really need X because that sounds swell.” To say, “We did X amazing and that’s why it sells.”
+
+You can see this in the Apache Foundation — all the criticism of the Apache Foundation aside — that is one thing that the Apache Foundation does, it forces rules and standards and it vets certain positions and it has a voice. At this very moment, if I, as a WordPress developer — and, you know, I’ve used Tumblr for a long long time now, for 4 years exactly yesterday by the way — not because I hate WordPress or I hate Matt or anything, but because I’m not a programmer and I don’t want to run my own server, and so on and so on and so on. I wanted to move back to WordPress in 3.9. I really liked the ideas behind 3.9 and I can’t wait to see what happens in 4.0 so I said, “Hey! I’m going to move over to WordPress for a while,” and exporter/importer all that works and I go online, I go into the forums, and the forums are full of people that don’t behave in a welcoming manner. And having a benevolent overlord over the orc version of things that says, “Yes, some of our users might really be gnarly people that think they’re the shit even though they’re not, we are here and we’re friendly and we have faces [33:00] and we talk to you. It’s not our job to sell you something, it’s just our job to talk to you and be nice to you and develop users.”
+
+Having something like that creates an atmosphere, I think, that is a little bit better than the rather — and that’s something I predicted would have happened, a rather cliquish and at times a little bit hostile feeling that the WordPress community has to me at least. 
+
+Interviewer: Why do you think that that happened?
+
+Luster: Pride and ownership. Look, you’re riding a multi-billion dollar cruise ship right now, which has all the great lights and all the really wonderful features and everything, and every time this cruise ship harbors somewhere, and new people come on, the first step that every one of the old people has to do, is to run to them and tell them, “These are our rules! And this is how we ride this cruise ship, this beautiful golden cruise ship, and we know more than you so go into your corner and watch us there for a while.”
+
+It’s human nature. It does’t matter whether it’s a stock club or a political party or an open source effort, it is prone to happen that generation 2 will tell generation 3 to shut up and sit in the corner for a while. After generation 10, generation 2 who has been patiently explaining things over and over will get a little brief about their explanations and daily manners. “Get out of this thread, you’re not supposed to be here, go create your own thread. I’m closing this now.” Stuff like that.
+
+Interviewer: I’d love to see any examples of that. Totally unrelated to this interview.
+
+Luster: Happily send you some.
+
+Interviewer: Please, please do.
+
+What kind of — we’re going to have to leave the Google thing for a while now because that leads me on to something else related to this.
+
+Luster: Okay.
+
+Interviewer: One of the things I’m writing about is Habari. Do you know much about Habari?
+
+Luster: A little bit, yeah.
+
+Interviewer: So they very much felt that WordPress should follow the Apache model and have a governing committee I guess. I was wondering how you felt about how the project was led and if you felt that there should have been more of a Foundation in the Apache sense as opposed to the benevolent dictator for life approach that was taken.
+
+Luster: If you have the right benevolent dictator for life it works — and I think in the list of greats, starting with Guido van Rossum,  [35:58] and going to Matt, [36:00] there are a number of benevolent dictators for life that are cut out for the job. Totally. Hindsight being 20/20, today I could sing a totally different tune. Back then, I wasn’t sure. That’s nothing negative towards Matt, but Matt was working at the time at CNET. He had a job at CNET. I was working at CollabNet and then I went to work for Technorati. There was — it wasn’t clear whether any single person in this large enterprise or organization could actually drive this forward. And the question is, at what cost to that person and to the organization itself?
+
+Let’s say, god forbid, Matt decides tomorrow that he is now a Java guy and he wants to work on Oogle CMS or whatever and screw WordPress, that is a much bigger impact if Matt does that now — both to the financial situation, the investors will take notice — and on the other hand to Matt. Call me an idiot for saying that, but — well, you can call me that! I predicted wrongly, that’s idiotic of me. I thought that come maybe 5 years in 2006, 2007, 2008, 2009 coming along, maybe WordPress would have been forked so many times and have so many different iterations out there that it didn’t make sense to have a single person but to have a steering committee. 
+
+Interviewer: Why do you think it wasn’t forked? I mean, it was occasionally forked, but not often.
+
+Luster: Not successfully! And it’s a critical mass thing. Really, if you go to fork WordPress today, you invite the scorn, the ridicule, and the laughter of the community. It’s that simple. Because, if WordPress is one thing and that is just looking at the bottom of every single [inaudible], it has always been readily very inclusive towards other people’s ideas as long as they could provide the code. If you have something that’s extremely ridiculously narrow in their way, they treat other people. Or externals. Then a fork is a good idea. If out of 150 submitted patches, none makes it it, then you go fork and you put it in. [39:00] It’s that simple. It’s Oomla versus or Mandrake versus that kind of stuff. There are, but I am to this day convinced that if I come up with a really amazing idea for something WordPress, I will — and it’s well written and so on and so on — I will have a good shot of getting it into the codebase. And if I don’t have that feeling then I go fork.
+
+This is why you would be laughed at. The thing that powers millions of blogs, you don’t just fork! You don’t just do that! If it’s B2 then you can. If it’s WordPress you can’t/
+
+Interviewer: No. So, what happened with the HotNacho thing? You seemed to get a lot of the flack for that, with the adverts, the Google and WordPress.org.
+
+Luster: I got the anger of the century, and if there’s one sour thing it’s that I don’t think — yeah, I worked my butt off and nobody really noticed anything, including Matt.
+
+I was working at Technorati, and we were having a Technorati dinner, like one of those drink ups, at the Chevy’s on Mission. Was that Mission? Yeah. In the middle of that somebody runs up to me and says, “Jonas, Jonas, check your email!” Again, this is 2005, so we don’t carry iPhones or Android phones. We carry frickin’ flip phones. I ran to Technorati, opened my computer, started looking at it, and there was this massive, massive blow out.
+
+Waxy were among the first to talk about it, and Priveo, and everyone was essentially just harping on Matt for being this nasty, evil dude. And here I am, WordPress Inc. employee #1 for what? Two weeks?
+
+Interviewer: I’d say it was about two weeks!
+
+Luster: And Matt was on frickin’ vacation in Turkey? And I didn’t have server access, so I can’t even remove it. I have nothing. I’m just sitting here and I’m fielding calls, and everybody walks up to me. Om Malik was one of the first people to basically drag me into a corner and — you’ve met Om, right?
+
+Interviewer: Yeah, yeah.
+
+Luster: He’s quite the door stopper when he wants to be. And he was wider and — you know. I’m not a small guy either, [42:00] I’m about 6/7th of Om. I’m 6/7 Om. I’m going to use Om from now on as a size measurement.
+
+Interviewer: We’ll measure you in Oms.
+
+Luster: Yes, I’ll measure myself in Oms from now on. Oh god, another person who will beat me in the face if I ever come back in the States.
+
+So he pulls me aside and says, “What’s going on? You need to make a public statement to me right now? I will have to blog about this.” And you know Om at that point, he was writing for Wall Street Journal?
+
+Interviewer: Business Week?
+
+Luster: Yeah, Business Week! He was working for Business Week. So here I am, two weeks in, I have no control, I don’t know what’s going on, I have been yelled at for being a filthy spammer, and here’s an official public figure of the press pushing me in the corner almost literally saying, “You need to make a public statement right now.” So I made one. It was two words, the first one started with F and the second one was “off.” And that was my public statement to the press at that point, and then I started essentially just fielding calls and answering emails and talking everybody down from the cliff.
+
+A number of those things were vastly misunderstood. For example, I said, “While I believe that this is a very not good situation, the HotNacho thing, I would hope that we could not call it spam because it is not technically spam. Spam has been” — the word has been diluted more and more sense then, but I come from USENET, and spam was a similar sounding message without — look at the content in many news groups, the only thing the spam cancel bots did was to look at how often cross posts came up. They didn’t look at the content, whether it was advertisement or someone looking for their long lost brother, it didn’t matter. You cross posted in more than five groups and bam, you were gone!
+
+And I said, “While we discuss this let’s not call it spam. Let’s call it what it is. It’s blackhat SEO and it’s evil marketing.” Not that I ever believed that there’s good marketing
+
+Interviewer: You’re a sales person though at the end of the day!
+
+Luster: I’m really not a sales person! I can sell you things. I can sell you dreams. I can sell you ideas. I can sell you on the idea of killing a hundred and fifty rats [inaudible]. I can sell you on that stuff. I can sell you on pretty much anything! No, I can’t I’m not that good. [45:00] I can try to sell you anything, but the outcome at the end is not that you give me money but that you buy into an idea.
+
+Interviewer: Could you sell this idea to people who were angry about what was happening on WordPress.org?
+
+Luster: Partially. Whenever something like that happens, there’s again 3 camps: the ones who want to validate their hatred of something because now you did something really evil. Look, every time Apple has a slip up. Or every time Google has a slip up. They come out of the woodworks saying, “This is further proof that Satan himself has manifested himself in the soul of Matt Mullenweg! He knew it from day one, it is an evil communist conspiracy.” And stuff like that.
+
+These people you cannot calm down. All you can do is build a wall against them by convincing the next layer, and that’s the people that really really hate what’s going on and think that was a really bad thing that happened, but at least are takable to. And then there’s of course always the people where somebody can do no wrong, ignore them too. Ignore both the nasties and concentrate on the middle.
+
+So more PR than marketing, actually. I tried to talk to many of them. Of course, that was Anil Dash was one of the first I talked to and said, “Dude, that’s unacceptable. That’s completely unacceptable.” Now here’s the thing. I didn’t know about HotNacho until it hit the fan. When the Nacho hit the fan, I was not even the first to hear about it. And I had no idea — this is one of the things I had no idea about — the amount of hits that the website got or any kind of financial agreements that Matt had. These were not within my purview. So I couldn’t even go and say, “Listen, guys, this is only 500,000 people have ever seen this to a tune of $35. Here is $40, I’m donating that to a battered women’s shelter. Let’s take all this money that Matt made and at least try to make good by donating that money to a good cause.” I couldn’t do that at the very first.
+
+Three days later — and in the meantime, I’m essentially doing damage control. I can’t fix the HotNacho part, and I can’t really speak well about what actually happened there, but I can do damage control. I’m in Silicon Valley. Everybody is there and wants to know what’s going on. I talk to people, and I just explain to them over and over. “Matt is a good guy. Matt is a good guy. We’re exploring ideas on how Matt can actually turn this into something that can pay him. Matt want’s to do this full-time and he’s exploring ideas, and maybe some of those are really [48:00] stupid. And that’s a stupid idea! HotNacho was a really stupid idea, but it was one of the things he might have been tossing around in the back of his head.” 
+
+And that’s all I could do and that’s all that I did. And I did this for a week and then Matt was notified I think by Glenda while he was in Turkey. I think it was Turkey. Or Italy. Italy, yes! Some country with really good food and really hot sun. Yeah. [inaudible] In any case, he then took the HotNacho thing out and he suddenly took over. That completely took me out of the loop again. One minute you’re talking to the quivering minion at the bottom of the mountain and the next thing the prophet speaks and of course no one looks at the quivering minion any more, so for me it ended like that. It ended literally all of a sudden. I had a bunch of email conversations going. I had a bunch of ICQ conversations.
+
+Interviewer: ICQ?
+
+Luster: Yeah! I had a Bunch of IRC conversations and they all died down pretty much around the same time the same day, because Matt spoke and that was it. And nobody ever brought it up. Not Matt, nobody ever brought it up ever again.
+
+Interviewer: You didn’t speak to Matt about it?
+
+Luster: I tried to! I don’t think he was very comfortable talking to me about it.
+
+Interviewer: How did that leave you feeling? You’d just been in the first employee of WordPress Inc. for two weeks and then you had to deal with this huge shitstorm. What were you feeling after that?
+
+Luster: Happy, actually. You don’t define yourself by what you’re a member of, you define yourself by what you do with your membership. And I believed very very strongly — and that hasn’t changed — in Matt’s capabilities and Matt’s abilities and the WordPress idea. So to say, “Okay fine, two weeks ago you made me WordPress employee #1 without a contract or payment, but I was still employee #1, and you essentially put me in and two weeks later this happens, and I think I’ve done a good enough job.” That made me happy.
+
+To this day, everybody in the Bay Area — there are like 4 or 5 incidents that happened in the Bay Area during my time there. I lived there for 10 years. Everybody I meet, if they mention one of the four incidents, number one is, “Hey, remember the HotNacho incident? [51:00] Oh my god. I can’t believe you climbed on top of a statue to scream at people.” Which I did.
+
+Interviewer: What! Tell me about this.
+
+Luster: It was outside of the house of shields, which back then was owned by [inaudible], and House of Shields was the place we all went to get our geek on. There was something happening, a podcasting thingy done by Eric Reis, and I was there because I was friends with Eric — I am friends with Eric — and at the end of this, I was standing outside and I was still a smoker, so I had a good old fag, and I’m just relaxing because it was really good. All of a sudden I get mobbed by this six or seven people saying, “What’s going on with WordPress? I’m going to move to Drupal! I’m going to Movable Type! You all let us down!” And there was this plastic statue standing outside for some enticement, and I figured that I needed the high ground! So I climbed the statue and sat on the statue and screamed down and said, “Listen people! The codebase is sound, the people are sound, the ideas are sound, the future is sound, this is an amazing frickin’ piece of work, you have tens of thousands of readers and people actually read you because WordPress gave you something for free so shut the hell up. This is one small thing, don’t take it out of proportion.”
+
+So this is still to this day, “Hey, when you climbed the statue and yelled, ‘This is the thing!’” One of the things that everyone always brings up.
+
+Interviewer: What was the statue?
+
+Luster: I have no idea! It was like this greenish, weird thing. It was like a plastic — it wasn’t a stationary statue, it was like one of those big plastic figurines that were advertising something.
+
+Interviewer: Like a person or a creature or?
+
+Luster: Yeah, it was like almost a Japanese missing noodle looking fat head, fat body, chubby arms, four fingers, that kind of stuff, like a cartoonish kind of figure.
+
+Interviewer: Wow, that’s a good mental image.
+
+Luster: I almost fell down because the thing was not very stable.
+
+Interviewer: I’m glad you didn’t.
+
+Luster: Well that would have added something. “Hey, remember when you climbed on that statue and hit your head! And forgot temporarily that your name was Jonas Luster.”
+
+Interviewer: So why were people so angry?
+
+Luster: Betrayal.
+
+Interviewer: Why did they feel betrayed?
+
+Luster: I think they felt betrayed because there was something extremely clean about WordPress that wasn’t present anywhere else. Something genuine [54:00]  that was both in the code is poetry — what we’re doing here is art, and we’re doing this not for money and not for recognition, we’re doing the art for the art. [inaudible] We’re doing this because we’re massive geeks and we’re coders and we just love doing this. 
+
+And to a lot of people, this altruism that was inherent in the idea of WordPress altruistically took over B2 and made it something better. Altruistically made it open source. The altruism in working with people, and especially that this was unlike — at that point — Movable Type and unlike Drupal ever, it actually had a public face. Yes, there were people like Kit Hadsum [?] in San Francisco that were Drupal code committers, and she was an evangelist for Drupal in her own way, and amazingly so, no question about it, but we had Matt. And we had Ryan King and we had [inaudible].
+
+I’m sorry! The train shall pass. I have two kids, two sons. One of them was on YouTube with me once on an interview with KidTV and yeah, they teach me how to multitask. I’m a stay at home person so.
+
+Interviewer: They sound very angry.
+
+Luster: I’m the housewife. Yeah, because he was forced to come back in. He was playing outside in the sand. He’s 18 months old and so to him sand is still the greatest thing since sliced bread.
+
+Interviewer: So did you feel betrayed?
+
+Luster: No.
+
+Interviewer: How did you feel?
+
+Luster: Ambivalent. Honestly. At that very moment, I didn’t feel much of anything except relief that I could actually sleep again. There were a number of weeks after that where I kind of — I don’t think betrayed, but I wasn’t happy that there were no lessons learned that we could talk about. That again sounds like super business development like a guy in suite and tie. You’ve seen pictures of me! I’m short, fat, tattooed with long hair and a beard. I’m not a business development major — I’m not an MBA or anything. When I get angry — I used to live in Dallas, and when I got angry I got on my horse and fixed the fence. That kind of stuff. [57:00] 
+
+I guess it’s like any relationship. What just happened? Do you want to talk about it or do you not want to talk about it? Do you just want to leave the elephant in the room? And we never really talked about it. And I can say I tried a couple of times, but for Matt, everything changed about it. He is now somewhere completely different and that was the beginning of his journey, and I think it’s totally understandable.
+
+Interviewer: What do you think changed?
+
+Luster: I’ll make a bet with you. I mean, he’s not listening to it in the next couple of days, if ever, I will send him an email right now saying, “Hey Matt, old buddy, how are you doing?” And I guarantee you, 2000 to 1, I won’t get an answer.
+
+Interviewer: I have no idea.
+
+Luster: I know. I guarantee you, because I’ve done it. I have a collection of happy birthday emails going from 2003 to now, and the answers just stop in 2006. Which is okay! I’m not blaming him. He’s a very, very busy person. But these were the first step where Matt went from being Matt Mullenweg to WordPress’ Matt Mullenweg. I’m glad, because I would be very rich by now I think but I wouldn’t be me anymore.
+
+Interviewer: How long were you at WordPress Inc.?
+
+Luster: About five months? Twelve months?
+
+Interviewer: Were you doing Technorati at the same time?
+
+Luster: After it became very clear that Matt couldn’t — we couldn’t afford employments — I took a job offer from Technorati. Technorati essentially approached me to see if I wanted to work for them. I didn’t apply or anything, they came to me and said, “Hey, do you want to work for me?” And I took the offer fully intending on still working on WordPress because Matt was still working at CNET. But it essentially became clear that this was not — that in the great scheme of things that the cruise ship — which is WordPress, I love that analogy, I’ll keep that! — this massive with lights and captain Matt at the helm, was going somewhere where either I wouldn’t be in the steward’s cabin anymore or, if I were, I would be sitting in the corner. That was just not my — that wasn’t where I wanted to be. And they paid me.
+
+Interviewer: Technorati paid you?
+
+Luster: Yeah. [60:00] 
+
+Interviewer: Yeah, I guess that made a difference. So there was no thought about going to Automattic when it eventually was set up, I guess later that year?
+
+Luster: There was a lot of thinking about that. I thought about it. I thought about sending my resume to Matt and just explain to him that I used to work for a company that had growing pains in the beginning and that I know a little bit about that, and I’m familiar with blogging software. I guess I contemplated the idea but then I got better at that point. I really wanted to go — I was working for a gaming company. I left Technorati and started working for a gaming company, and I had a job with Social Text, and so and so on, giving all that up to go work for Automattic, it would have been amazing. I would not have said no if I had submitted a resume and he would have said yes, or interviewed me and said yes, I definitely would not have said no. But it wasn’t the super bright star on the horizon anymore that I just aspired to want to be.
+
+Interviewer: I guess it was quite different to your intentions if you were interested in this idea more of stewardship than the business side of things. 
+
+Luster: Yes. Yes. Look, okay this is going to be a nasty — we’ve had the controversial, now comes the nasty. I’ve watched people take the WordPress project public. I did exactly that at Social Text at that very time in the reverse. I took a for-pay software and made it open source. Social Text. And there is a change that goes along with people who do this. I was still yearning for the crazy San Francisco days. The days where we were all sitting in cafes and coding happily without any idea of what — without any consideration of money.
+
+More so, I was yearning for the days where I could walk up to somebody or somebody could walk up to me and we could have an hour long chat about anything and nothing, and just be ourselves and have fun. At that point, it already — it turned a little bit into the [inaudible] which is equally lame so I will have to wash my fingers now and take a picture of it. But the A-List turned into unapproachable people, the people that were essentially where you were made to feel like you were an A-List.
+
+I had two options. I could either not be A-List or [63:00]  I could be A-List and make other people feel like that, and I don’t want to make people feel like that ever. If I ever don’t respond to somebody’s email, if I ever don’t stop to talk to somebody I know for 20 years, then please kill me because that’s not me. And I think that comes with the fame of being — I’m not sure the standard form of what you’re doing tonight, a thousand people read a funny story about how the Church of Nazarene came over because I requested a pony and a prayer box.
+
+Interviewer: I understand. So where have you been once you left? Did you have anything more to do with the project, or did you just move to Tumblr and that’s been it?
+
+Luster: I’ve used WordPress until 2012 almost. And then something happened, which I call my digital midlife crisis. I had at that point 9 servers at Digital Ocean and I took that down to 1 server so I had a DNS and a normal server. I had Flickr and G+ and here and there and I closed most of them down or just essentially archived them. I tripped everything down. That’s when I said, “Okay, I don’t want to run a server and have to do security patches and this and that and this and that, I’m just going to go to a platform that runs on somebody else’s server as long as they have an expert personality and custom domains.” So that day is not digital rot.
+
+If Tumblr ever goes under, it’s [inaudible] which I owe them, and I can export my Tumblr shit, with a lot of work at that point and get everything into Squarespace or WordPress or WordPress.com or somewhere. I figured I’ll do that and that’s why — I’m not using WordPress because it sucks. WordPress is the best platform out there. Period! Nothing better out there. I take the bad with the not having to run my own server.
+
+Interviewer: Well that’s a good note to leave it on so I’ll stop the recording. Thank you!
+
+Luster: You’re welcome!
+
+[Audio ends.]

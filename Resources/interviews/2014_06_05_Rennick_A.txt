@@ -1,0 +1,413 @@
+Interviewer:	It is the 5th June and I’m talking to Andrea Rennick. Hello, Andrea.
+
+Rennick:	Hello, Siobhan.
+
+Interviewer:	Can you tell me first of all how you first got involved with WordPress?
+
+Rennick:	I had a mummy blog, basically. I was online with a circle of friends and they all had blogs and I wanted to have one too. Actually, I started out when we first got our internet connection; it was so early the company gave us free internet for a year just to test it so I figured out how to build webpages with Netscape 4. Yes, and I got into posting family updates on that page so it was literally an HTML, hand coded blog, and then eventually platforms started to come out and I moved onto Blogger. I wanted a domain name but they were really super expensive at the time, like $75 a year. Eventually I did get one; they had come down to maybe $30 or something dumb like that. 
+
+	A bunch of my friends were trying Moveable Type and I was like, ‘Well, this is interesting. You can have multiple blogs; you can install it on your own server’. And then the licensing issues with Moveable Type and 2.6 happened, so that’s when I found WordPress and WordPress still seemed like it was pretty new and I jumped in there. That was around version 1.5. 
+
+	It was actually just about the time where they switched from themes being just CSS styles to actual themes, because I remember the first time - I had already taught myself CSS - so the first time I encountered WordPress I was like, ‘Great, I can just do a new style sheet to make a new theme’. 
+
+Interviewer:	And then that changed?
+
+Rennick:	And then that changed immediately. I just got sucked into it because here is this plucky kid, starting this platform while he’s in college and it seemed like it was all right; it seemed it was easier to learn than Moveable Type was, so that was pretty attractive.
+
+Interviewer:	Did you move because of the license?
+
+Rennick:	Yeah.
+
+Interviewer:	What was your problem with the license?
+
+Rennick:	With the license on Moveable Type?
+
+Interviewer:	Yes.
+
+Rennick:	It looked to me like they were going more for professional users and businesses, and I can’t remember how it was worded but it seemed like they wanted to charge you extra for every additional site that you wanted to have, and I’m like, ‘But there’s just a button in the backend, how are they ever going to check’? So I was like rather than figure that out I’m like, ‘Forget this, let’s go find something else’.
+
+Interviewer:	Yes. Do you think that was a major thing then for WordPress?
+
+Rennick:	I think it was a major thing for WordPress because that’s when I first heard people starting to say, ‘Hey, there’s this alternative’ and then the buzz kind of went around. There’s an alternative. It’s easier to use. You can set up multiple installs. You can’t set up multiple blogs inside the platform but it was super easy to set up a whole new one on your hosting site. It was a lot easier to install on a shared host too; like Moveable Type it was pretty all scripts and really picky to get set up. That’s what I remember. 
+
+Interviewer:	So when did you try out WordPress MU?
+
+Rennick:	When did I fall down the rabbit hole? Yes, so I had this blog, right, and I got Ron blogging and we started talking about homeschooling because that was our thing. We just heavy into it, that’s what we were talking about. We were getting our support online and then we wound up supporting other people. I figured I know how to set up blogs, I can do this. I helped my friends with their WordPress blogs occasionally and I’m like, ‘Yeah, I know stuff, right? I can get around fine; maybe not enough to charge but help somebody out in need’. 
+
+	So among the homeschooling community that I was in - in the greater web you started to see blog networks cropping up - and in the homeschooling community one of the publications that was out there started their own blogging network so they would host your homeschooling blog for you. This was a particular subset of homeschooling and some of the crowd that I followed, they didn’t want to support the publication, they didn’t want to support their values. They just didn’t agree with it so they didn’t even want to use their free blog service.
+
+	So I’m like, ‘Well, they’re just a bunch of stayathome parents, homeschooling their kids, they figured this out, surely I could figure this out too’? Haa haa haa. So I started poking around and I was like, WordPress.com had started and I was like, ‘Well, they’ve got WordPress.com and they’re using WordPress to do this, how did they do it’? So I started poking around to see how they did it, and then I found WordPress MU.
+
+	So I downloaded it and I’m like, ‘Okay, it’s a little more complicated but surely I should be able to figure this out because I figured out Moveable Type’. I even looked at Expression Engine, I’d figured out Blogger, hey, right? Used Live Journal; I’d actually tried to figure out Live Journal. They had released their code base actually at a later date, so if I had found that sooner I might have used that, I don’t know.  So I downloaded MU and I swear it took me a month to get installed and up and running.
+
+Interviewer:	What was so difficult about it?
+
+Rennick:	It was not a 15 minute install. Oh, how picky was it? This was my first foray into really server tech, I hadn’t done command lines since Windows 3.1 and I hadn’t done anything on a shared host, SSH before on any kind of host. I didn’t know anything about VPSs. I think way back then you had to do a lot of manual work and the WP config file to get it up and running. It was nowhere near as easy as it was now, so you had to hunt down that information too because there was no documentation. So it wasn’t just like following the directions; there was no documentation; there was maybe developer.
+
+	And you asked questions, and at the time the forums - they’re super changed now from what they used to be - but if you went in and asked a question in the forums that was particularly dense, just because you didn’t know, the answers you usually got were, ‘Shut up and read the code new’.
+
+Interviewer:	Right, that’s helpful.
+
+Rennick:	Yeah, it’s like, ‘Come on’, and that’s not so much hyperbole either; that’s almost verbatim for some folks. The MU forums, they did eventually start a forum - I don’t know if it was up by the time I found it or if that was soon after or around the same time; I’m not sure. So that was my thing; it was just a really benevolent, ‘Surely we could just set this up, have a few hundred of our closest friends and host their homeschooling blogs for them’ and we could sort of form our own community/support group and visit each other. So that was the impetus and that’s why I drove so hard to set this thing up.
+
+Interviewer:	Okay. Did you guys to any customizations of it like plugins and things like that?
+
+Rennick:	All right, Ron said that if I would want to do these things then we’d have to hunt down a plugin, and maybe it was for single WordPress and it was like, ‘How do we do this’? The themes back then were the easy part; it was just like, ‘Oh, make sure the theme …’ - well, you still had to look out for some stuff in some themes depending on how they were changing. This was also around the time widgets came out and people were still hard coding sidebars so we had to fixed themes so that they used widgets instead of hard coded sidebars for things. Like I said, we were just learning all of it at once. 
+
+Interviewer:	So how did you move from being a hobbyist to running a WordPress business?
+
+Rennick:	I usually tell people this. The time when you’re reading an article about how somebody became successful and they said, ‘I kind of fell into it’, and I hate reading that, but that’s my actual answer is, ‘I kind of fell into it’. Because it was so hard and there was no documentation and I just really wanted to help people, and apparently had a lot of free time, I was going back into the forums and posting to help other people and writing the docs and be like, ‘There’s nothing in the codex, I don’t know how to do this, I’m going to set up a blog and stick stuff in there’. 
+
+	When you’re in the forums you have to answer the same questions a lot of times, and if they’re long stuff, it’s just too long for like a snippet and I didn’t anything about browser snippets or text expanders or anything like that, so I’m like, ‘I’ll just write a post and I’ll link to the post’. So I started the WPMU tutorial blog. Well, it turns out if you help enough people and you start learning all this thing and you show that you’re knowledgeable, they just want to pay you to do it. 
+
+	So I was getting offers like, ‘Can I just pay you to set this up’? And I’m like, ‘Oh, I’m okay I guess, I could do it for you tomorrow maybe’. ‘How much do you want’? I’m like, ‘I don’t know’. So got there and then we got more confident and then Ron had realized, ‘You know what? This could really go somewhere’ because I kept getting more complicated requests for people, and people who were like, ‘Can I just hire you as a consultant’? And I’m like, ‘Gosh, I guess I’m practically a consultant now’. There just wasn’t a support system for being a WordPress freelancer as there is today, so we were kind of doing that by the seat of our pants as well. Ron came home one day from his corporate job and was basically like, ‘Ramp it up, I want to quit. I want to do this full time instead. You’re asking me all these question anyway and we can do this’. 
+
+Interviewer: 	Were you working at the time?
+
+Rennick:	I was not working, no. I transitioned from being a homeschooling housewife to learn about WordPress and building that career all on our own.
+
+Interviewer:	Were there any stumbling blocks with that?
+
+Rennick:	All of them?
+
+Interviewer:	You’ve got any specifics?
+
+Rennick:	It just seemed like, well, everybody has horror stories and sometimes it’s your own mistakes, but to do it in front of somebody who is paying you to do it is sometimes even worse. One of the stumbling blocks I can tell you about was for our homeschool journal multisite installed, the first one we had - this was our baby, right - it was at the height of its popularity. We have about 600 members. We had over one million hits a month. We weren’t taking any advertising. This was one of the things people didn’t like with the other servers. They thought ads were terrible. Completely different than today, right?
+
+Interviewer:	Yes.
+
+Rennick:	So we had this all set up and running and it was on a shared server - you see where this is going?
+
+Interviewer:	Yes; carry on.
+
+Rennick:	So then this was before Ron started consulting with me before I got too heavy into it, and he had found a new job at the other side of the province, which was three and a half hours away, so we were moving. So moving day comes, our house is packed up, the last thing left is the computer because the internet was going to be cut  off the next day. And the movers are at the door and they start doing the moving thing so I just decide to check my email. My email is exploding. The site is down so I have all the members emailing me saying, ‘Where is the site’? 
+
+	So I contact my hosts and they’re like, ‘We took the site down because it was using too many resources’. I’m like, ‘Are you kidding me? You didn’t even send me a warning’. And then the reality hits in that I am moving across the province and my internet is being shut off tomorrow and my new house does not have yet and I don’t know when they’re showing up. So that was a stumbling block; how to handle that and get things running and deal with a lot of … they weren’t really angry, they were just really concerned that they weren’t going to lose anything. So it was constant reinsurances, constant apologies and, ‘No, sorry, I didn’t see this coming’, which today, yes, I would see that coming, so a huge learning experience there.
+
+Interviewer:	How did you get it fixed?
+
+Rennick:	I had to find a new host and then move it. I remember I think I managed to do this while the movers were packing the van. Find a new host, sign up with them, start the transfer; we might have gotten it done by the next day. After we moved I basically had to go to the library every few days and check and make sure it was still up and iron out any issues. The added bonus to this kind of nightmare - I’d had major surgery like six or seven weeks before this so I was still occasionally taking pain meds and having trouble walking and tired out very easily, so it was just like everything piling on all at once. I’m like, ‘If I can just make it through this day unscathed I could probably do anything’.
+
+Interviewer:	What was the network called?
+
+Rennick:	Homeschooljournal.net. 
+
+Interviewer:	Is it still up and running?
+
+Rennick:	It is still up.
+
+Interviewer:	Do you still manage it?
+
+Rennick:	We do. Not a lot of management. A lot of users moved off to Facebook once Facebook got really popular, then they just started neglecting their blogs because they could just do it on Facebook. I would say that was a big decline. 
+
+Interviewer:	Yes, that sort of affected blogging for everyone really?
+
+Rennick:	It did. It started getting to a tipping point of, ‘Is this really worth it for us, especially if we’re not doing it for any money’? It’s there but it’s kind of languishing.
+
+Interviewer:	Can you tell me when you started getting actively involved in the WordPress project?
+
+Rennick:	Probably when I was doing the MU stuff, finding bugs in MU and talking to [Donaka 00:16:18] because he was super active in the forums, and the MU forums back then were nothing like the regular WordPress forums. It was super small and you could easily keep up with everything in maybe an hour or so a day, so kind of got into it that way and learning Trac because that’s what everybody used. I can’t remember if I submitted - I probably would have more tickets submitted for MU on the old Trac than I do for anything in the WordPress Core Trac.
+
+Interviewer:	What was your impression of the project back then?
+
+Rennick:	We had a joke in the WordPress MU forums that it was like the redheaded stepchild. It sort of languished behind everything else. And right now I can see why; it was a lower priority and everything is super busy, but I could also see the people who were using it were frustrated because stuff wasn’t getting fixed, but they were also making money off it so why couldn’t they chip in?
+
+Interviewer:	Yes. So was that frustrating for -
+
+Rennick:	Well, for me it was more puzzling.
+
+Interviewer:	Yes. I’m just trying to think about the process. The process of putting features into WordPress and then WordPress MU and then into WordPress.com, kind of seems a little crazy?
+
+Rennick:	Yes, it was a little crazy and I’m like, ‘This seems like a lot of work’. I can’t remember is somebody else mentioned it or if it was just like back channel conversations about maybe they’ll merge it one day and what’s going to happen. And I think Matt sort of dropped the ball and it was one day sort of on the side, ‘Oh, he was thinking of it’. I think we got to thinking, and I was a little worried, but then Ron was like, ‘No, no, no, this is actually going to be good because then it will just open up everything’. It will just be a bigger audience if we want more clients for what we’re doing.
+
+Interviewer:	Did you get involved with the merge as well?
+
+Rennick:	Sort of secondary to what Ron did. That was more when I started saying, ‘Okay, you can take care of that part and I’ll just handle whatever else we’re dealing with as best I can’.
+
+Interviewer:	What other areas of WordPress have you been involved with? Did you get involved with things like the codex and the sort of wider support forum?
+
+Rennick:	Yes, I did. After the merge they shut down the MU forum so I transitioned to the newer forums, the multisite section in the regular forums. Every so often I would branch out and see whatever else I could answer, but it started to take a lot of time because there was a lot more questions, so I only had a limited time to spend so I started skipping threads. But even then the sheer volume got my name out there too.
+
+	I think one thing leads to another when you start referring people who are looking for help in the forums too, ‘This is our official documentation’ and then you read it and you go, ‘Wait, this is outdated’ or ‘Wait, there’s an edit link right there, I’m just going to edit it’ because I’m more the person if there’s something that I can see that needs doing and I have the access and the ability to do, I’ll just go and do it.
+
+Interviewer:	How have the support forums changed over the years? I’m trying to sort of get a picture of what it was like in the early days compared to what it’s like now.
+
+Rennick:	Now it’s way, way, way more polite and way, way, way more helpful.
+
+Interviewer:	Really?
+
+Rennick:	Really.
+
+Interviewer:	What was it like then?
+
+Rennick:	Well, I used to call it a snake pit but I’m going like pre2.0, way back.
+
+Interviewer:	That’s good; I’m going way back.
+
+Rennick:	Way, way back that far. I remember thinking, ‘Good Lord, people, calm down, chill out’.
+
+Interviewer:	Really?
+
+Rennick:	Yeah.
+
+Interviewer:	Why were they so rude?
+
+Rennick:	I got the impression that it was full of just a bunch of developers, not users, and if you didn’t know the code, well, ‘Phff, why are you asking such a dumb question’?
+
+Interviewer:	And was that WordPress MU forums or the WordPress forums too?
+
+Rennick:	Both actually, although in the WordPress MU they were - we, they, all of us - were a little more willing and tolerant of people who had just started because we knew it was harder so you had to explain a little more just to get going.
+
+Interviewer:	I see a lot of emails from pods onto the WP Hacker’s mailing list in the early days begging developers to come and help them. He sort of talks about how there is a division between the developers and the 100 people working on the support forums. I was wondering if you’d ever experienced that.
+
+Rennick:	There was, but I think it’s really, really lessened now because I think the developers we have now have been in the forums before they were developers so they understand it better. Like I said, it was so developercentric. It was like WordPress was built by developers and developers were in the forums, and developers sort of took notes on the codex, such as they were, and developers communicated in the forums and users just interrupted that.
+
+Interviewer:	Yes. I should find some examples of this. It’s hard to get an idea of what the forums were like in the early days.
+
+Rennick:	Yes, it’s like you’d have to go way, way, way back.
+
+Interviewer:	Way back, yes. Do you feel that the project has historically acknowledged noncode contributions?
+
+Rennick:	It’s getting better at it, especially in the past couple of years. Like say somewhere around 2.7 and before that; I’m just tossing out a vague sort of sense here. Just before those days it just seemed like developers and design people, and again, users seemed like they were an afterthought. It was almost like, well, they were developers and they were working for clients and stuff, and it didn’t seem to be so much for hobbyists, at least not what I saw with people asking, things in the forums. People were making things for clients, people were making things that might make them money, so if it was just some hobbyist, ‘Well, tough, you can figure it out. You go read the documentation like where we started’.  
+
+Interviewer:	What do think made things change?
+
+Rennick:	I think it was a lot of people just repeating and setting an example. I tried to do this too after a while because I’m like, ‘I’m can’t even stand this’. Just trying to be nicer, trying to be more polite, insisting that other people calm down a little and let’s try and be civil here. Then it eventually became a group effort and I think that’s part of why I wanted to get on the support team, was so that we could have an official - get somewhere officially and be able to say, ‘Officially, yes, you can’t talk like that in here’.
+
+Interviewer:	Had you tried to do those things earlier and get an official support team and moderators and stuff?
+
+Rennick:	Not until I moved over to the multisite forum, in which case I think it already existed, sort of, because the MU forums were more like a Wild West theme thing and it was sort of as long as Donaka thought you were okay and you were doing an okay job, ‘Yes, okay, run with that’. It was pretty loose.
+
+Interviewer:	And do you think that was different to the WordPress support forums?
+
+Rennick:	Yes, it was. We did have a few users in there who were a little saltier and snider and, yes, sometimes I joined in, but the spirit was a little different.
+
+Interviewer:	Yes. 2.7; it was interesting that you said 2.7 was when things started to change because 2.7 and after was when Jen had more of a push on the developer blog, of kind of getting people involved in different areas. Do you think that had an impact?
+
+Rennick:	I think it did because in the MU forums one of the other members that I talked to often and we sort of [tag teamed 00:25:13]; he was basically, ‘Who the heck is this Jen person and why is she throwing her weight around’? I was like, ‘Well, it’s about time somebody did just so we all have some sort of direction’.
+
+Interviewer:	What was people’s reaction to her doing that?
+
+Rennick:	Some people wondered why the heck she was so bossy and I kind of thought that was funny. I’m like, ‘Well, if she’s hired to do this then she’s doing her job, and if she can get somewhere with it, good for her’. You know what I mean, so that was a good move. I think things really ramped up after that. I have a funny anecdote about the forums and it being saltier.
+
+Interviewer:	Go on then!
+
+Rennick:	When I started going to WordCamps I had this one guy come up to me and he introduced himself and he said, ‘I am so and so from the forums’ and I was like, ‘Okay, that name sounds familiar’. He goes, ‘Yeah, you told me in a thread that I needed to go and learn PHP’. And I’m like, my immediate reaction was, ‘Oh crap’ because then I remembered that he was asking a lot of questions and I basically told him flat out and pretty bluntly, ‘Dude, if you’re going to continue with this you’ve just got to learn how to write PHP’. So I said to him - he could see the penny drop on my face and I said, ‘Oh, goodness, I am so sorry’. And he goes, ‘No, no, no, don’t worry about it, that was the best advice that anybody gave me and it was exactly what I needed to hear’. So maybe the delivery was off but it was actually something he needed to learn.
+
+Interviewer:	Yes. I guess it must be a balance between answering people’s questions and not letting them bombard you with so many questions, but actually sometimes they do have to go out and learn things themselves?
+
+Rennick:	Yes, it’s kind of like managing expectations, but at the same time telling them politely where the limitations are in what you can give them, because in theory there could be somebody sitting there giving out everybody all the custom code they could ever want, but that’s not sustainable and that’s not even realistic.
+
+Interviewer:	Yes. Were you involved with documentation as well?
+
+Rennick:	Yes, because I got into that from doing the forums, so we did some documentation work, joining the teams. That was more along the lines of the last stuff that I was involved in.
+
+Interviewer:	So was there like an official support team and official documentation team or was it just like people doing stuff?
+
+Rennick:	Way back then it was sort of like people doing stuff, and the only reason it seemed official I think was because - I remember thinking so and so was in charge of the forum, or the codex, because he was basically doing most of the gardening and keeping things on track. I don’t know if he was still officially, but at least he took the role on and did it, and did a decent job.
+
+Interviewer:	Who was that?
+
+Rennick:	Oh, I can’t remember. There was an M in his username. 
+
+Interviewer:	Michael?
+
+Rennick:	It could have been Michael.
+
+Interviewer:	 Really?
+
+Rennick:	Michael; H was his last name. 
+
+Interviewer:	So it was Michael H who is very involved in the codex?
+
+Rennick:	A few years ago?
+
+Interviewer:	Yes.
+
+Rennick:	Yes, I think that was him. If somebody created a new page and it wasn’t appropriate he would take it off, stuff like that. Yes, it seemed like he was in charge, him and Lorelle.
+
+Interviewer:	Do you know anything about the dynamics of the documentation team back then?
+
+Rennick:	Not really, sorry.
+
+Interviewer:	I was just wondering how the codex grew to be the behemoth it is?
+
+Rennick:	No.
+
+Interviewer:	Okay.
+
+Rennick:	I know people did a lot of work but by the time I came on it seemed more like it was in autopilot.
+
+Interviewer:	It seemed to stagnate for a while?
+
+Rennick:	Yes, it did. 
+
+Interviewer:	Why is that?
+
+Rennick:	I don’t really know, but I would guess that probably the people who did all the work were exhausted waiting for somebody else to join in, and any other person that was looking out was like, ‘Oh, those people did all the work, they’re probably still involved, I don’t want to step on their toes’.
+
+Interviewer:	Did you ever get involved with WP Hackers?
+
+Rennick:	No, I don’t think I ever signed up for the list itself because I knew it was really, really high traffic, but I did go read occasional threads when certain situations came up, or stuff was referenced, like controversies and things.
+
+Interviewer:	Okay, speaking of controversies which were the major ones that stand out for you that happened in the WordPress community? If someone would say to you, WordPress controversy, what would be the first thing to jump into your mind?
+
+Rennick:	Probably the late 2.Xs where they did all the admin redesigns. I remember I would read some WP Hacker stuff and they were so into like, ‘Let’s completely dissect these ten lines of code and then have a long argument about semantics’ and I would just be like - my eyes would glaze over. I’m like, ‘Really? Really? This is what you’re arguing about’? 
+
+Interviewer:	So when was that?
+
+Rennick:	The general, ‘Let’s pick this piece of code’. I think that might happen monthly - it used to happen on a monthly basis. I don’t know about now.
+
+Interviewer:	Because the major, I guess, admin redesign was 2.7, whenever it changed from the top navigation to the left hand side navigation? Are you referring to that?
+
+Rennick:	Yes, from the happy cloud design with the orange?’
+
+Interviewer:	Yes, to the crazy horse.
+
+Rennick:	To the dark blue, yes. There was a lot of talk about that.
+
+Interviewer:	Yes, I’ve read a lot of that. Anything else? It doesn’t necessarily have to be in the code base; it could be in the wider community?
+
+Rennick:	I remember one time Matt put ads or something on the wordpress.org site because I remember posting something on my own site and I’m like, ‘Come on, just give him a break, he’s a kid, he’s doing this all on his own. He made a mistake. He owned up to it and he removed it’. But I remember people giving him a really hard time about that. 
+
+Interviewer:	Yes, that was the article that he had put on there and then hidden the CSS?
+
+Rennick:	It could have been, yes. To me that was also something other people had been doing, but it was still a little bit before people were coming out and saying, ‘Yeah, no, you really should not be doing that’.
+
+Interviewer:	Yes. Who do you think has had the most impact on the project outside of the code base?
+
+Rennick:	Outside of anything code related?
+
+Interviewer:	Yes.
+
+Rennick:	Probably Jane.
+
+Interviewer:	Why is that or how has she?
+
+Rennick:	Because she’s so vocal and so public about things and stirring people up to get them involved and talking about it and saying, ‘Hey, come contribute. Hey, let’s talk about this’. There was a time before she came along where people would post on their blogs, they supposed about things and there’s a word I’m thinking for it; it’s just completely escaped me. Speculation, sorry; people would be speculating about this, that or the other thing and there was a couple of blogs. 
+
+	There was like a snarky WordPress blog where this quote, anonymous user was constantly criticizing wordpress.com. Until Jane came along - Matt would just ignore them - and until Jane came along finally we had somebody officially to at least come out and say, ‘Yeah, you guys are speculating a little too much, it’s not going to be like that. Here’s what we’re doing. We’re going to be transparent’. I know Mark Jaquith also started to pop in and say things to people as well, just to kind of stop people from going on conspiracy theories and stuff.
+
+Interviewer:	Yes. Was that [unintelligible 00:33:55] wordpress.com?
+
+Rennick:	Yes.
+
+Interviewer:	I’ve read that quite a lot.
+
+Rennick:	You might see me in the comments there too. 
+
+Interviewer:	I’m sure I’ve come across you in the comments. Most people show up there at some point.
+
+Rennick:	Well, you couldn’t not look in those days.
+
+Interviewer:	Yes, I know.
+
+Rennick:	It was hilarious. Eventually I stopped commenting because it was like, ‘You’re just really angry and need a new hobby’. And also the posts are just like reposts.
+
+Interviewer:	Yes. Any unsung heroes?
+
+Rennick:	I know for a long time Doctor Mike’s contributions kind of were glossed over probably because he came across as really cranky. Pods you mentioned? I don’t think people mentioned him enough. I know he personally helped me out one time and he was super nice and so knowledgeable.  
+
+Interviewer:	Yes.
+
+Rennick:	I think anybody who pops in and helps somebody else in WordPress is an unsung hero. I really mean that. I think if you can communicate with another user about something that they had a problem with and you helped them solve that problem, then you’re that unsung hero. There are probably thousands every day that are out helping somebody else figure it out, even if it’s just pointing them in the right direction, and sometimes you have to take that person and pick them up and give them a 180 so they can go off in the other direction. Again, sometimes that’s what somebody needs.
+
+Interviewer:	Yes. Have there been any decisions that have surprised you?
+
+Rennick:	Esmé; Esmé was another unsung hero. This does not surprise me. There used to be, and I wish I could think of specific ones; there used to be but now stuff doesn’t surprise me so much because I have a broader picture that goes over the year. It’s broad but it’s kind of deep. I see how the decision are made. I saw when Ron was involved, and we were literally sitting there in the same office, so it was almost like being there without doing the actual work. I saw how much discussion and thought went into it, and how passionate people get about it. They don’t just stuff things in there willynilly, even if it’s things that people don’t like.
+
+	And often I’ve seen controversies come up where there’s like a big for, a big against, and they finally release it and there was like millions of users turned out, actually they like that. It made it easier for the user so I think a lot of the times the user sort of gets neglected.
+
+Interviewer:	What features do you think have come out that the users have really loved? 
+
+Rennick:	The menus? That to me was a big step for users, was to be able to rejigger their menus without changing the theme code, because up until then you had to put the WP [linked 00:37:00] pages in there.
+
+Interviewer:	I remember that.
+
+Rennick:	Yes, for users it was like, ‘But you gave me sidebar widgets’. And even today I explain menus to people, so there are still new users coming up that need to know these things. That’s the other thing. The stuff that makes theme customizing easier - I know they’re often looking at themes and stuff - and that’s the one thing, that flexibility in what you can do with the theme I think is what really propels a lot of things.  
+
+Interviewer:	You’ve been involved with the community for quite a long time, I guess almost since the beginning, can you tell me how the community has changed over the years?
+
+Rennick:	It’s weird because I think, yes, I’ve been involved, because in my head it doesn’t seem like it’s been that long. Oh, it’s only been a couple of years, right, and then I have to start counting and it’s like, ‘Wow, really? That long? I can’t believe it’, but then again I’m like the 90s were ten years ago, right, not 20?
+
+Interviewer:	Yes. 
+
+Rennick:	It’s like from 2000 and 2010 just gets super condensed for me. But the community, aside from the obvious getting bigger, we really have gotten more professional on a lot of different levels. More userfriendly, a little more usercentric.
+
+Interviewer:	Just a little more?
+
+Rennick:	I’d love to see it way more usercentric.
+
+Interviewer:	In what way is it not? 
+
+Rennick:	More opening? Well, even now when somebody goes into the forums sometimes they might be looking for stuff that isn’t necessarily … they need directions that are on wordpPress.com for how to actually use things. Like how do I make my menu? And they might be posting in the forums but there isn’t really a codex link that explains it very well, as in how to actually use it because there are some people who you have to tell them that you have to click here and you have to push this over here. Or the widgets, I find that there are days where I have to tell people you click on this side and you drag it over to this box, that’s how that works. But if they pop into the forums either that doesn’t get answered because there’s no document that really clearly states that, or somebody jumps in thinking it’s a development question.
+
+Interviewer:	Is that a wider sort of community question situation, rather than anything to do with the code base or the development?
+
+Rennick:	Yes, it’s probably wider. Yes, because you can find wider blogs in the community that give you all these things, and they’re out there and they’re great resources, and there are lots of people doing great work for Super [Moves 00:40:02]. I’d like to see some more of it on wordpress.org.
+
+Interviewer:	I would too. 
+
+Rennick:	I know.
+
+Interviewer:	Well, you have answered all my questions, unless you’ve got any WordPress anecdotes you’d like to share?
+
+Rennick:	I don’t know; I’ve just got so much in my head. I’ve been able to go so many places and meet so many people, and if I count my friends that are all around the world I swear 80% of them are WordPress people. My husband and I work full time at a job because of our WordPress knowledge, and if you stop and think about it - I don’t think about it on a daily basis, but when I’m talking to somebody and I’m like, ‘Well, what do you do and how did you get into that career’, I’m like, ‘This is going to sound like a crazy story so pull up a chair’. Because I had somebody asking at WordCamp, they were like, ‘So what was your career before you were a WordPress developer’? And my answer is, ‘A housewife’.
+
+Interviewer:	Yes. What was your first WordCamp?
+
+Rennick:	Wordcamp, New York.
+
+Interviewer:	Oh yes?
+
+Rennick:	The first one they had, that super big one. They had like eight tracks and we were on three different floors and we were just running everywhere. That was insane.
+
+Interviewer:	That was just a couple of years ago, 2012 maybe?
+
+Rennick:	2011? I have to look at my own site to see when I went.
+
+Interviewer:	I think I was there. 
+
+Rennick:	Really?
+
+Interviewer:	I think it might have been the year after.
+
+Rennick:	It was the one I know Jane helped organize it and I know I met a lot of new people there.
+
+Interviewer:	I was at 2012, not 2011, yes. 
+
+Rennick:	Oh wow. Oh no, wait, WordCamp New York City, 2009. 
+
+Interviewer:	That was you first WordCamp?
+
+Rennick:	Yes. 
+
+Interviewer:	Wow!
+
+Rennick:	That’s insane. That was the first time I had done public speaking outside of things like church.
+
+Interviewer:	What was the WordCamp like?
+
+Rennick:	I had been to an expo for a business I was in before, that was completely unrelated, and that was huge and overwhelming, so I was kind of expecting something like that. So when I got there and I realized, wow, this is super friendly, nobody is being like super businessy, nobody is wearing a tie. It was just so, ‘Yeah, we’re all in this together and we’re all learning and sharing our knowledge’ and not quite kumbaya’ and then, ‘Oh my God, we’re all in New York, aah’!
+
+Interviewer:	Have WordCamps changed over the years?
+
+Rennick:	Yes, they have. I think they’ve really gotten more polished, a little more focused on - well, probably a lot; I see a lot more stuff coming up that’s geared towards people who are building WordPress sites for clients, more businessytype things, and they’re also adding more newbie user stuff, which I was really happy about too. I’m seeing that coming up more and more. I love that they’re doing WordPress for kids, because while we started the homeschooling site of course, I got all my kids to have a blog so they could record some of their school work, and that would count as school too. Funnily enough, it totally does. So yes, for me, because I was doing the homeschooling and the teaching, turning around and teaching somebody about software, to me was just an extension of that.
+
+Interviewer:	Yes. Did you think that when you first starting using WordPress that it would become as big as it is?
+
+Rennick:	No way. I was like, in the back of my mind it would be like, ‘Wouldn’t it be cool if…’, but that was just a side thought. And now I know when 3.0 went out - actually I did contribute to 3.0 because they merged in multisite and I had been doing so much help work. I put in the screen options tab and the help tabs; the textus and the help tags in the multisite section is something I helped contribute to. Ron obviously had a bigger feather in his cap for it, but to me, as far as I was concerned I’m just some housewife who homeschooled her kids, who got into this because, you know, reasons to help my own homeschooling community. 
+
+	And a few years later here I am sitting back and something I did - I was sitting there staring at the downloads counter and it was over 30 million and Ron and I were looking at it, grinning at each other and going, ‘Our work is in 30 million sites on the internet, this is insane’.
+
+Interviewer:	Yes, that is insane.
+
+Rennick:	It’s totally insane. Like I keep saying, we’re just some schmucks from New Brunswick.
+
+Interviewer:	You’re not schmucks. 
+
+Rennick:	I know; you know what I mean. It was hilarious. I said, ‘Pinch me’.  
+
+Interviewer:	Well, let’s leave it there.
+
+Rennick:	Okay.

@@ -1,0 +1,259 @@
+Interviewer: So hello Scott Merrill
+
+Merrill: Hello
+
+Interviewer: First of all, let’s talk about why you first got involved with WordPress. Can you tell me what led to your involvement with the community?
+
+Merrill: It was problem solving. When I first got started I think it was WordPress 1.01 and it was rough around the edges but it was better than everything else available. I needed to do stuff with it that it didn’t do out of the box or I wanted to tweak it and personalize it in ways that at the time were not super easy to do and so the mailing list and the IRC channel quickly became common places in my day as I was finding ways to do stuff or asking for help or jeez why doesn’t it do this or that’s dumb. It didn’t take long before I was very much ingrained in that community and a part of it and then helping people solve the problems I had just solved.
+
+Interviewer: So what did you get out of it?
+
+Merrill: Fame and fortune!
+
+Interviewer: Oh, wow. Amazing!
+
+Merrill: No, I had… that was my first real personal involvement with an open source project. I’d been using open source, consuming open source for a long time, since 1999, I’d been a Linux user, an open source user, and I’d been a member of my local Linux users’ group since about that time as well. But it wasn’t really until I found WordPress that I found a project that I could sink my teeth into. It was all just a matter of timing. I got involved very early in WordPress’ development so it was easy to stake a claim and become an expert. And it was fun. I enjoyed that. I believed I did at the time, and I still do very much believe in the ideals of open source and free software. I believe in the power of community and collaborative problem solving and all of those things. And WordPress was my first real chance to, at a personal level, to dig in and give back to all the stuff I had been consuming to date at that time.
+
+Interviewer: So do you think that was part of it? The giving back aspect?
+
+Merrill: For me, absolutely yes.
+
+Interviewer: Do you think that’s common amongst people who are working on the project? Or do you think there were other motivations? Fun?
+
+Merrill: That’s a hard one to answer. Yeah, certainly it’s fun. Certainly there’s a sense of community. There’s a shared passion, whether your a PHP developer or a developer/designer, or just a, you know, a wordsmith and you just like to write and write and write. There’s… you find a shared home with the community, and you find a sense of belonging. As for why people do it, [3:00] I think giving back is a large part of it, but I don’t know that it is the majority. I think for developers… I think developers are a different breed, right? I’m not a developer, I’m a sys admin by trade and by training. And I think developers like to show off what they can do. And that’s not always a bad thing. That’s not pejorative at all. I think they’re proud of their skills. They’re proud of their talents and I think there’s definitely an aspect of hey look I did this. Whether it’s helpful or not is another question. But yeah… I would say that… I think giving back to the community and giving back to the project is definitely an important aspect of why people got involved and stayed involved, but I would hesitate to say that it’s a primary factor for most people.
+
+Interviewer: So you said that WordPress was a bit rough around the edges when you first started using it. Do you remember how it was rough around the edges?
+
+Merrill: Oh sure. The default theme was atrocious by today’s standards. It was this sickly green and just very unpleasant to look at. With calendars and widgets and all sorts of stuff all over the place. It was not well architected and well organized. But it was also three dudes, who’d never met, working together in their spare time. The code, the underpinnings of the code, were also very raw. You know, the loop, the primary loop within the code for pulling posts out was not very flexible. It worked great for the original plan of a blog, but very quickly thereafter people wanted to do stuff that wasn’t very bloggy. Or they wanted to work outside the realm of date-based posts. And the loop was an impediment for a lot of that stuff.
+
+Interviewer: So you would have got involved, I guess it was not that long after it was forked, so you got to experience some of the very early b2 code?
+
+Merrill: Yes, that’s correct.
+
+Interviewer: How was that code?
+
+Merrill: It wasn’t bad. I have to remember at the time I was not a PHP developer at all, so it was all new and magical to me. I cut my teeth on PHP and development in general on WordPress, and so it was very informative and instructive. And being there, and being close to the development, the evolution of that source code gave me a great opportunity to learn about how to improve things, how to make things better, and seeing some of the strident discussions on the mailing list and IRC about ways to improve, or ways to refactor the code. Whether it was some of the old b2 stuff or whether it was original WordPress code, it was very informative that there’s more than one way to do it and there’s trade-offs and it was very informative to see all of that.
+
+Interviewer: So do you think, as well as giving back, [6:00] it was an educational experience for you?
+
+Merrill: Oh, certainly. Yes. I think a good open source project should be. I think whatever it is you are doing with open source, there’s so many different ways to get involved. There’s so many inflection points, and there’s so many, you know… there’s very few stand-alone open source projects, right? They’re all part of an ecosystem. So if you wanna be in WordPress, you’ve got to learn PHP, you’ve got to learn a little of database, you’ve got to learn a little bit about web server tuning and so there’s so many ways to learn about how to make your main interest better. And that turns a lot of people off because it’s… they don’t care about being developers, they don’t want to be a PHP developer. They just want to write blog posts and rake in advertising dollars or something. For those people, the open source project doesn’t make sense in all the ways that it does for people who are much more in tune with… like I said, I’m a sys admin. I learned a tremendous amount about databases and database optimization, web server management, all of that through WordPress that I never would have gotten professionally.
+
+Interviewer: One of the things that I’ve been reading about, particularly about b2, but I guess it was a hangover into WordPress, was that quite experienced developers complained a lot about the code. And there was lots of discussions about making it more object-oriented. The early WordPress developers didn’t really have much PHP experience. So I’m wondering if, looking back now, you think that this more object-oriented approach would have been better? Or can you see why more experienced developers had issues with the code.
+
+Merrill: Yes, absolutely. It was very functional, it was very rigid in a lot of ways, it was not… the data model for the database, the model for how code… how WordPress executes it’s workflow was very rigid. It was not very abstracted. It was not easy to get into and modify without ripping out huge amounts of code. I think that there was a push to get object-oriented methodologies and stuff implemented sooner. I think one of the big resistances, one of the hangups to that, was that the community as a whole was just so green with PHP. When these really seasoned professional developers wanted to come in and get involved and say well this is really sub-optimal, here’s a much better way to do this. If they would try to commit major revisions whole cloth, they would leave behind huge swaths of newbie developers who were just trying to figure out how to, you know, where to put the calendar on their sidebar or whatever. And I was very much one of those people. I understand. 
+
+Interviewer: I’m one of those people too. Still. [9:00] So, do you think that that prevented more experienced developers from getting involved?
+
+Merrill: I don’t know that it prevented. I think WordPress sat at a very interesting intersection of technology, right? It was PHP, which at the time people still weren’t taking very seriously. It was the hobbyist language. So if you were a professional developer, you probably weren’t doing a lot of PHP work. At the time. If you were, you were one of the lucky few. And then… it’s writing blogs posts, right? And blogs at the time were… you know… the complaints against blogs at the time are the complaints people have against Instagram now. I don’t care what you had for lunch. I don’t [inaudible] dribble all the little minutiae details of your life out, which is what a lot of people were using blogs for. As so there was a lack of professionalism within blogging as a whole that I think was a barrier to professional developers really getting involved. There were certainly some professional developers. Owen Winkler was involved very early on. And if you haven’t talked to him yet, I strongly recommend you chat with him.
+
+Interviewer: Yeah, he’s on my list. 
+
+Merrill: Awesome. There were other professional developers. I didn’t remain friends with many of them, so I don’t remember their names now. A lot of people have since sprung from WordPress on to become professional developers. For good or ill. I think some people have done very well with that. And they’ve grown the way they need to. And some people know how to crank out crappy code and make a little bit of money at it and they’re okay with that. 
+
+Interviewer: Do you think WordPress encourages that?
+
+Merrill: Encourages pushing out crappy code?
+
+Interviewer: Yeah.
+
+Merrill: I think WordPress encourages a certain cookie cutter mentality to some levels of problem solving. Yes. It’s so easy to do 90% of what you want to do, that… and it’s easy to make it look easy. So if you have familiarity with WordPress, you can make it look trivial to set up professional looking websites for people who are very, very green with technology. So you can charge ridiculous sums of money because they don’t know any better and you can say oh look I’m a professional developer/professional designer. And really all you’re doing is culling open source projects and open source themes putting a little twist on it and rebranding some of that stuff. So yeah, I think there is a… and I don’t know that that’s specific to WordPress. I think a lot of open source projects make it easy to make it look like you know what you’re doing when you really don’t.
+
+Interviewer: Yeah, that’s a… one of the things that I love about WordPress is that non-profits and small businesses can make websites [12:00] for ridiculously cheap amounts of money but the side effect is exactly what you’re describing. That people do charge huge amounts of money for like a theme they buy on Themeforest and install.
+
+Merrill: Yeah, exactly.
+
+Interviewer: That’s kind of depressing. But there will always be people who try and take advantage of things like that, so. So did you find the community easy to get involved with?
+
+Merrill: At the time, very much so. At the time, we were all like hey this is awesome. I wanna do X. Someone says here, I just did Y. It’s very similar. Here’s how I did it. And so we were all learning from each other, and cobbling and cribbing from each other. The vibe in the mailing list and the vibe on the IRC channel was very casual. It was very friendly. There were not a lot of super strong personalities at the time. Everyone was pretty laid back, pretty easy going. And then after… and I think that was because we were all new at the same time, right? Then as people started to develop their level of expertise, whether it was with the themes or with the plugins or whether it was how to configure hosting. You get your areas of expertise, you get your subject matter experts, and then after that some of the stronger personalities started to come out. And then… so it was probably a year, year and a half, after I first started to get involved, if I remember correctly, that some of the really strong personalities started to show up. And that became kind of a turn off. As with any community, right? You’re going to get people who are blowhards. You’re going to get people who are my way or the highway. That’s just people.
+
+Interviewer: Do you remember who the strong personalities were?
+
+Merrill: The one name that I remember was io_error. I don’t remember what his human… his real name was. His handle was io_error. He wasn’t a bad fellow at all. I actually really liked him, but he was very opinionated about a lot of things. And well obviously, Matt. I mean Matt was a very strong personality initially that was for the good and I think over the time that it became a detriment for the project, the single benevolent dictator model with Matt at the helm became a problem for a lot of people.
+
+Interviewer: So in what way was it a problem?
+
+Merrill: It was his way or the highway. He was not as mature of a developer, not as seasoned a developer as some other folks who were contributing code. And so he was passing judgement on code that was outside his realm of expertise or outside of his abilities at the time, and so if he didn’t understand it or didn’t care for it, he would just reject it. And good things that could have happened to WordPress were cast aside.
+
+Interviewer: Yeah, I saw a discussion [15:00] on WP Hackers where he’d said to you that your code was too complicated.
+
+Merrill: Yup. And that’s certainly a legitimate complaint. I understand the need for WordPress to be a learning tool for people, but if there’s no simpler way to solve the problem as well, then the solution there is give better comments in your code so people can follow along.
+
+Interviewer: I’ve been reading about the posts where you kind of became disenfranchised with the community. Do you think that was inevitable with Matt at the helm?
+
+Merrill: Honestly, I think it’s inevitable with any community. I think communities are living, breathing things. I look back over my life, I’m no longer a participant in a lot of communities that were very important to me at one time. My interests wane, where I’m at in my life…changes, my free time changes, how I choose to spend that free time, things become more or less important, so I think… I would hesitate to ascribe any of that to Matt or to any individual within the WordPress community. Just, my interests changed. What I wanted from open source community, what I wanted from open source contributions wasn’t being satisfied at WordPress. So I wanted to try something else.
+
+Interviewer: It’s funny how intense it is while you’re kind of involved with it, and then afterwards it’s just like well, whatever.
+
+Merrill: Yeah. Right.
+
+Interviewer: So I read this… I’ve been meeting all the old mailing lists, lemme just find some stuff… there was a big discussion in 2006 about leadership. And basically, you said that you were sick of being an autocratic development model and you were leaving. Could you tell me about your kind of experience of that? Because you seemed to be very involved and even before I was working on this project, I remember seeing Skippy all over the place. So it was quite a kind of big change.
+
+Merrill: Yeah, I think part of it is that, one individual, in open source particularly, when an individual has contributed you know… some number of hours and some number of commits or whatever the metric is for their level of involvement. After they’ve been involved for some period of time, I think people naturally want to be able to influence the project more. It’s like at work, right? I’ve done my time, I want a promotion, I’m ready to take the next level of responsibility, the next level of challenge. And all of those efforts were very much being stymied within the WordPress community. [18:00] I’m sure at the time I was vitriolic and I was fired up. I don’t know that Matt or anybody, Ryan or is it Michel I guess, is that his name?
+
+Interviewer: Michel, yes.
+
+Merrill: I don’t know that any of those guys were actively hostile or resentful. It’s like oh we’re going to keep our power, you know. It wasn’t some hegemony issue. It was just they felt they were steering the projects in the way that was important to them or that they felt was the right way to go. And I disagreed with a lot of those things the more involved I got, or the more time I had committed. And I didn’t feel like I had inflection, any inflection points, for making positive contributions in the ways I now wanted to. I didn’t want to just keep submitting patches, I wanted to be in a leadership role. I wanted to help steer decisions. I wanted to help drive, you know, shepherd the community in new ways. And those efforts were stymied in a lot of ways. I know I told you in the email, prior to this, the big thing about code comments. It was just categorically rejected as just not worthwhile. And that was a real sticking point because how is that in any way a bad thing? You’ve got a volunteer willing to do it. You’ve got people who will benefit from it. It’s no skin off your back. So why would you not do that? It was just baffling to me. 
+
+Interviewer: Did you ever figure out why?
+
+Merrill: I don’t. No I never did. 
+
+Interviewer: I must find out. I mean I talked to Rich Bowen about this as well but his inline documentation patches were called bloat.
+
+Merrill: Yes. Yes, that’s exactly it. Yes. And I think some of the… looking back, in hindsight, I think Matt was very savvy in a lot of ways and totally clueless in other ways. As every human being is. That just people again. The things that were important to Matt, it was important for him to be able to say that WordPress had a very small download. Because we were competing against things like Drupal and Expression Engine, and lord knows what else has withered on the vine since then. And it was important for Matt to be able to say look how small our install is. Look how small our codebase is. We’re lean. We’re nimble. This is great. I also wonder now, cynically, how much of that was positioning to get ready for WordPress.com and to make a sales pitch to investors. When WordPress.com came out, that was when things really opened up.
+
+[Break]
+
+Interviewer: Where were we. [21:00] We were talking about how things changed when WordPress.com …
+
+Merrill: Yeah, yeah, yeah. So the development of WordPress.com was very an anathema to me because it was all of a sudden… here’s was this great open source project that stuff was going to start happening behind closed doors. And it was a real slap in the face for a lot of the hard work that a lot of the people had done and the monetization efforts and the WordPress Foundation and the brouhaha about the logo and all sorts of stuff about who’s going to shepherd the code and how it’s going to play…
+
+[Break]
+
+Interviewer: We were at “who was going to shepherd the code”…
+
+Merrill: Yeah, I think a lot of that stuff was just poorly communicated. Again, looking back, I was very much, as we said, in the moment I was very embroiled in it and very passionate. Looking back, I don’t really think there was anything sinister going on, I think it was just very poorly articulated. And so I think the failure of communication led to a lot of bad feeling about bad blood at the time. 
+
+Interviewer: Do you think that that was a kind of recurring thing? Communication failures?
+
+Merrill: Yeah, I think that’s common in many open source projects though. You hardly ever meet people in person. You’re always dealing online. So it’s all text. And some people are better at it than others. And some people handle the ambiguity of text only communication better. I don’t want to sound like a jerk, I really don’t, but I do often wonder, like, how much of what happened was just because Matt was so young. He was just a young guy. He was living the dream. He had thousands upon thousands of people who were interested in what he had to say and following on his every word and his development decisions were seen as “the right way” to so many people. How could you not get wrapped up in some of that and let it go to your head a little bit? And if you’re young and not as experienced with the world it’s super easy to get wrapped up even more in that. So, I have often wondered how much of it was just because Matt was so young. Would it have played out the same way now if Matt was 35 instead of 20? I don’t know.
+
+Interviewer: But if he was 35, instead of 20, I don’t know… sometimes I look the original developers and I wonder if it had been a different person would they have driven it forward as successfully as Matt did. 
+
+Merrill: Yeah, I mean, who knows.
+
+Interviewer: He did put a lot of energy into it. Can you remember other things that you kind of disagreed with the development team about?
+
+Merrill: Oh boy, it’s been so long. I’m sure all sorts of inflammatory things are in the mailing list under my name. No, I don’t recall. [24:00] I remember, you know, an issue driving towards object-oriented programming was a big deal. And I recognize that refactoring all of the WordPress code would be a Herculean task and it’s not something that somebody wants to just jump on. Documentation was always a sticking point. Matt and Michel and Ryan were always really big on user developed documentation. But I don’t know that they did a lot to really reward those efforts. And so to this day, the WordPress Codex is a mess. It’s not fun to work through. There’s so much stuff in there.
+
+Interviewer: That’s my job. My job is to fix it.
+
+Merrill: Oh, god bless you. This is the problem every open source project has, right? This is one of the reasons why when I look at folks like Rich Bowen, I have so much respect for Rich, because he’s dedicated his time and effort to making the Apache documentation so stellar. And it really is a shining example of you know an individual contributor making awesome success to an open source project then everybody benefits. But it’s been clear that the Apache project has rewarded Rich on those efforts. They’ve allowed him to carve out time. They invite him to the conferences. They make him a full-blown member at the highest level on peer with the developers, the core developers. And at WordPress, that was not the case. If you weren’t a developer, you were somebody else. And if all you wanted to do was write documentation, or  all you could do was write documentation, then you had to fight tooth and nail to get information from people who were doing development that could explain it to you and then you’d have to try to translate it and then your efforts would get mocked because you didn’t get it right. It was… in that regard, things were not very good. 
+
+Interviewer: That’s really depressing. Because I’m a documentation writer. So obviously, it’s what I do. But I totally understand.
+
+Merrill: Well, I think WordPress… where the organization and the community is at is at a different place. And I’ve been so removed, I don’t know what it’s like now. But I would hope now that, as a mature project, that those classist shoes are behind you guys now. With Apache, one of the reasons why Rich was so successful doing what he did was because he got in early, but then the Apache product matured so quickly because so many people used it, it became such a core part of infrastructure for so many organizations that it was necessary to be taken seriously. To have that kind of documentation. So I would hope that WordPress is at a stage in its life cycle now where its a core piece of infrastructure for people, it’s a core part of the stack, and so the development and the documentation are seen as equally important.
+
+Interviewer: We’re certainly working on it. In terms of documentation, did you have much to do with Lorelle?
+
+Merrill: Mm hmm. [27:00] I remember her. Yeah.
+
+Interviewer: Did you work with her in the Codex? 
+
+Merrill: I did. Yeah, I was involved with her and, who was the other… there was another fella that was… Podz, Mark. Yeah, they were big on the documentation. And I was…. I never considered myself to be a very good developer. I always knew I was kind of dabbling at the sides. So I kind of took it upon myself and a couple of other folks tend to bridge that gap between hard core developer and documentation person. So we could speak the same language. And document was important to me. Being able to follow instructions was important. So I very much put a lot of effort into helping those things. Shepherding the Codex. I’m sure my name is buried in there in lots of places.
+
+Interviewer: Oh, it is. Were you pleased when the wiki was set up? Was that a good step do you think?
+
+Merrill: Yeah, wikis are a double-edged sword, alright? There only as good as you put in them. And then you have to maintain and manage them. And as with the WordPress code, right, people were just kind of figuring it out as they went. You know, Matt and Ryan and Michel and everybody else was just kind of figuring out oh we want to do this now, so we gotta change this bit. Documentation and the wiki was very much the same way. There was no overarching plan that I recall. There was no real let’s do this right the first time or put some engineering effort into organizing and ranking information. It was all just dump it in there and let people search.
+
+Interviewer: I actually just did a survey on the Codex, we got like 1500 responses. A lot of people like it. But I wonder if they’re self-selecting because they’re people who were on the Codex and taking the survey. 
+
+Merrill: Once you know how to navigate it, once you know where to go, like if you got a brand new user and stood them in front of it and said go find out how to do something, I think your response rate would be very different.
+
+Interviewer: I know. I know. We’re thinking of doing some user testing on it.
+
+Merrill: Oh nice. OK.
+
+Interviewer: We have plans for kind of dismantling it bit by bit into more targeted documentation. 
+
+[Break]
+
+Interviewer: So were you writing code for WordPress when it was still hacks? Before the plugin system came in?
+
+Merrill: I think I was just after that. …  I do recall that being a big issue because some of that stuff never went away, right? It was deprecated, but never yanked out. That was a big problem for a long time. [30:00]
+
+Interviewer: Did you feel or did you get any sense that the introduction of the plugin system changed the makeup of the community at all?
+
+Merrill: I don’t think so. I don’t think that it changed the makeup at all. It certainly opened up a lot of new doors for participation. Made it easier to [inaudible] made it easier for Matt to politely reject code. Because he could say “that should be a plugin.” But then that opens up also a whole bunch of other stuff because then which are the blessed plugins that [inaudible] should be [inaudible] the product. Oh! Conveniently the one’s that Matt wrote. Right?
+
+Interviewer: I saw that one of yours was shipped with WordPress for awhile.
+
+Merrill: Yeah, the backup plugin was for a long time. It was a default. Yeah. And that was mostly just ripped out of the phpMyAdmin code. So hooray for GPL.
+
+Interviewer: Do you remember the introduction of the themeing system and any of the discussions around that?
+
+Merrill: I don’t. No. That’s never been an area that I was particularly interested in. I’ve been much more of a backend developer. Never… I’ve not
+
+[Break]
+
+Interviewer: So tell me about one of the… some of the highlights that you had of actually working in the WordPress 
+
+[Break]
+
+Interviewer: what you remember as being kind of highlights of your involvement in the community. What you kind of remember fondly?
+
+[Break]
+
+Interviewer: I’ll ask again. I was asking what you remember fondly. What are your highlights from your involvement with WordPress.
+
+Merrill: Definitely the friendships I made. I’m friends with Rich Bowen and Owen Winkler specifically because of WordPress. I never would have met them otherwise. I was engaged at the time and I got married while I was working on a lot of the plugins. And somebody, I forget who, wanted to thank me for the plugins I’d written, I forget which one now, it might have been a custom one I wrote for somebody, and he sent me a good number of things off my wedding registry. As a thank you. 
+
+Interviewer: Wow.
+
+Merrill: Yeah. It was really nice. It was a lot of fun too… And that’s one of the things I really liked at the time. There was an awful lot of, you know… you do something nice for somebody, make a custom theme for somebody, make a plugin for somebody, and they’d send you a five dollar gift card at Amazon, or they’d buy something for you off your Amazon wish list. Some little trinket. There was an awful lot of that going on at the time. [33:00] And that’s one of the things I really liked. And I haven’t seen… I don’t know if that still happens. It’s certainly not happening in a lot of the other open source projects I participated in since.
+
+Interviewer: Can you tell me about Habari? Where did this come from? Habari?
+
+Merrill: Sure. The impetus started from specifically Owen and Chris Davis and Rich Bowen and me being fed up with the autocratic development model at WordPress. The one leader making all the decisions. And then the lack of commitment to object-oriented code, the lack of a commitment to really shepherding new developers to understand things through inline comments, cohesive documentation. Kind of all the things that we saw… all the loose ends that we saw as problems around the core WordPress products, we thought we wanted to do it better. In the grand [inaudible] we decided to go off and make our own project. A lot of our ideas were very heavily influenced by Rich Bowen and his participation in Apache. And Apache, as an older, mature project, and an umbrella organization as well, really, they really had been able to codify and provide prior art for what a successful project looks like. And they were able to have a lot of lessons learned from their various projects to say, ok, so in order for it to succeed, this is the way it needs to work. And so they were very big on meritocracy. They were very big on a voting system so that no one person can say this is the way it’s going to be. And it makes things messy and it makes things contentious, but in the long run I think it makes things better. Because the better products are self-evidently better. It’s less of an issue of who has the most strenuous arguments or who can wear the other person down, or… those sorts of things go away. I really becomes about which is better. And you can verify with metrics whether it’s better code, better execution, you know… reduces the number of defects. All sorts of those things come into play. And it removes a lot of the personality from those discussions. Of course the personalities are always there. So that was really the motivator for us, is that we wanted to take the experience we had with the WordPress community and a bunch of passionate like-minded individuals and apply all of that energy and effort towards something that we thought was technically superior. And it was… it’s been very much a learning process. It’s been a lot of fun. I think Habari is better than WordPress in a lot of ways, but that’s also because I’ve been there from the beginning, right? So I know all the warts, and I know all the pieces. So new people coming in, Habari is very threatening [36:00] because it’s so different than anything they’re experienced with with WordPress. And WordPress is so dominant in the space, that why would you use anything else? So we’ve been going now what? We’ve been working on Habari longer than any of us had ever worked on WordPress now. Which is interesting. We had that realization the other day. 
+
+Interviewer: What do you think scares people about Habari?
+
+Merrill: It’s different. It’s like… in a lot of ways, it’s the same thing, like why would people use Linux when Windows works so well. If you need help with your computer, are you going to call some crazy, long-beard hacker or you gonna call the 15-year old down the street, right? I think a lot of those analogies are still true, because WordPress is dominant. It’s good enough for so many people. We feel that it could have been a lot better. And so, Habari is very, the coding style is very different. You have to know object-oriented programming, you HAVE to know object-oriented programming, which a lot of people still don’t, and they don’t want to. Our themeing model is different. Our plugin model is different. So the areas of inflection for people to jump in and start contributing is different. I think most people probably decide it’s a better use of their time to write some shitty little plugin for WordPress that is poorly written and poorly executed and full of security holes, that they can then go sell for a couple of bucks a pop, than learn how to do something better or more technically sophisticated. 
+
+Interviewer: How big is your community at Habari?
+
+Merrill: We don’t know. We don’t have a good metric on that. In the IRC channel at any time there’s about 30 people, of which, probably 5 to 10 are active on a regular basis. I’m no longer on the mailing list because I’ve kind of stepped away from kind of any pretence of development. And then my day job has just been so busy lately in the last two years, that I just don’t have as much free time to idle the way I used to. So I don’t know how busy the mailing lists are. They’re still going on. We are definitely a smaller community because we’re very much a niche, obviously. It’s a good question. I actually don’t know how big we are. 
+
+Interviewer: Do you know, or can you tell me about any positive influences that WordPress had on Habari?
+
+Merrill: Ummm…
+
+Interviewer: Were there any?
+
+Merrill: Yeah. It’s certainly important to keep an eye on [39:00] what other people are doing in the same space, right? Because we… we should all be learning from each other with open source. We should all be able to take the bits that work for you and make them work for us and make them better for our project. So one of the things that was… that WordPress has a huge head start on, theme development and responsive designs, and really, you know, really elegant, good-looking themes. We don’t have a lot of those because we don’t have as many people working on them. So we crib a lot of stuff from that. And that’s been helpful for us. Beyond that though, I think just everything WordPress was when we left gave us a really good impetus to engineer from the ground up what we felt was a better mousetrap. And I think we did it, because our core product has not undergone substantial revisions since that time because the object model was solid. The object-oriented underpinnings allow us to do a lot of extension without ripping out huge swaths of old code. So I think it was… it was a good learning process for us to have all been involved with WordPress and see, you know, a functionally designed project, functional code, and a whole bunch of aggregate stuff added on over time, and then a plugin system that was kind of goofy at the time, it’s matured over… so I think all of that stuff helped us in the engineering effort of what it meant to make the ground work for Habari.
+
+Interviewer: Why do you think WordPress is being so much more successful, in terms of… I mean it may not be successful in some ways, but it terms of usage, I guess?
+
+Merrill: I think it’s first-mover status. I mean WordPress was nothing, well not nothing, it was not much, prior to the license change at Moveable Type, right? Or Six Apart, or whatever that was. They were the leaders. They were definitely the leaders, and WordPress was the underdog at the time. And then the license change happened and everyone jumped ship because they were all pissed off and so WordPress had a huge influx. And so I think they’ve been able to maintain that dominance, the dominant position, largely from first-mover status at that time. And they’ve done a lot of good things. I think WordPress.com has come a long ways. I think hosted blogging is right for a lot of people. I don’t know what WordPress.org has done in the last, you know, three, four years. I’ve not been following it. I’m sure there’s a lot of awesome stuff that’s gone on. And the community is healthy enough to keep people coming and keep people involved. And I think it’s easy enough to do stuff if you’re a dabbler, to make it look good. And I think that’s one of the differences with Habari, is that it’s a lot harder to dabble. [42:00] You have to know a little bit more. You have to have a little more rigor. And that’s not… I’m not trying to be classist or snotty about that, that’s just the reality. Our stuff is harder. And we’re okay with that because we’re not going for global domination. We’re not trying to be all things to all people. And I think WordPress, at the time, I don’t know about lately, but at the time very much was trying to be all things to all people. And I saw some of the contortions people would jump through to make their site not be bloggy because it was painful to watch all the stuff that was happening.
+
+Interviewer: Yeah, someone mentioned there was a lot of contention around the introduction of pages. Do you remember that?
+
+Merrill: Yeah, because it was… it wasn’t a blog now, right, now it’s a content management system. And if you’re going to introduce pages then when… well why not introduce events and why not introduce recipes and all those other kind of stuff. And the way it was done, was not super elegant. It was fairly rigid. It was pages and posts, and that was it. And it was kind of a bolt-on rather than… again drawing from the Habari experience, we had a very abstract notion of content. So we can have lots of different types of content. It doesn’t have to be posts or pages. It can be anything you want to write the code to do. So pages, I’d forgotten that. That was kind of a… yeah, that was a moment.
+
+Interviewer: Ok, I’m going to have to find the IRC logs for that one. 
+
+Merrill: To be sure, people were excited about it. It was new functionality. It allowed people to do all sorts of stuff with their WordPress sites that were a pain in the ass prior to that. It introduced a whole bunch of new pains in the ass. But that’s development for you. 
+
+Interviewer: So what would you have done differently with WordPress?
+
+Merrill: Good lord. I don’t know. That’s a mighty good question. I don’t know. I think what I would have done differently… I would have handled the WordPress.com transition differently. I would have made a much bigger effort… now the whole open source / closed source product on top of the open source project is kind of, it’s kind of old hat. Everyone’s doing that now. Or lots of people are doing it at any rate. In different industries. WordPress was very much [inaudible] that. And I would hope that lots of people would learn from WordPress’ experience, and learn how to do it better. I think that transition was awkward. And I think that Matt and the other leaders of the community could have gone a long way to make it clear that WordPress.org was still important. And it wasn’t going to just be taking all the volunteer effort from the WordPress.org project and making huge sums of money at WordPress.com for Matt and his buddies. [45:00] All of that stuff, I think… I would have handled that differently. But that’s also the benefit of hindsight, right. In fact if I was there I don’t know how I would have done it differently. 
+
+Interviewer: That’s interesting. Anything in terms of development? Features or anything like that?
+
+Merrill: Boy it’s so hard to say. … I would not have nixed the inline code comments. I would certainly have done that sooner. I would probably have tried to make more of a… again, I’m speaking from the benefit of hindsight, at the time I was, I didn’t know squat about development or collaborative development processes, I think at the time I would have liked to have tried to get more of a collaborative development model so it wasn’t just huge chunks of code landing in trac or patches being submitted. I would have tried to have a little bit more, hey let’s do this together, rather than you go off and do this feature and submit it and I’ll commit it and we’ll surprise the hell out of everybody. It seemed there was a lot of that going on. 
+
+Interviewer: Well, that’s been great. Thanks for talking to me. I’m going to have like a section on Habari. So I will… you know, why you guys… I think that was kind of the first to kind of, or only really major, kind of split in the community…
+
+Merrill: I think so. Yeah, and it was largely… it was a pretty good mix between ideological and technical differences. And of course, you know, everyone is going to say, well why didn’t you just fork it. Because forks never work. It just doesn’t happen.
+
+Interviewer: I think there was a fork call Lyceum. It has been forked, but obviously they haven’t worked. 
+
+Merrill: Okay.
+
+Interviewer: But you kind of forked the community.
+
+Merrill: A little bit. Yeah. We took some of the major players, and there was… it wouldn’t have worked if there hadn’t been dissatisfaction, right? If it were just the four of us, we would just be the four of us still. But there was obviously some dissatisfaction. And all of us, to this day continue to deploy and use and tweak WordPress sites. I know Owen continues to make money from WordPress. Chris Davis continues to make money from WordPress. Because it’s part of the ecosystem. It’s not like we can say “Oh, it’s terrible. We’re never going to use it again. Oh, damn mad. Aaaahhhh! No, I’m going to stick it to Matt. He’ll see.” That’s just impractical. It’ll never happen. 
+
+Interviewer: Well I might hit you up again, when I actually get to writing, if I’ve got anything to double-check if that’s okay. 
+
+Merrill: Sure, that’d be great.
+
+Interviewer: Well, thank you for speaking to me. 
+
+Merrill: Thank you.
+
+Interviewer: Enjoy the rest of your day.
+
+Merrill: Thanks, you too. 
+
+Interviewer: Bye.

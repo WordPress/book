@@ -1,0 +1,226 @@
+Interviewer: So I’m speaking to Michael Heilemann on the 6th of November. Hi Michael, or Mike?
+
+Heilemann: Hi, how are you?
+
+Interviewer: Do you prefer, Mike or Michael?
+
+Heilemann: You know, I got either way.
+
+Interviewer: OK, great. So I wanted to start asking you how you first got involved with WordPress.
+
+Heilemann: Well, I think initially, I had some kind of no-name blog thing installed on the server I was using. This was like back in the day, honestly I forget the year exactly, but it was like when blogging was starting to take off and everybody was kind of getting interested in it. It was before WordPress actually comes, in it’s first release. And I forget if I installed… now I don’t even remember the name of it. What’s the name of the platform that came before WordPress?
+
+Interviewer: b2
+
+Heilemann: Yes, exactly. I don’t think I installed that… yeah, I don’t think I did. But the WordPress was announced at some point and had various features that were pretty cool at the time, like smart quotes and stuff like that. So I was following it from when it was announced, and when it got released. And the first release, I installed it on my server like as fast as possible. And one of my friends helped me write a thing so I could get all the old posts over from the no-name and then onto WordPress.. 
+
+Interviewer: What were you blogging about?
+
+Heilemann: Ah, you know, that’s a good question. Probably nothing. I think I was just showing off some of the stuff - I was at university at the time - I was studying computer arts. I was doing various things for games and stuff like that. And I think it was just showing off some of that stuff or like writing about opinions about various things, because when you have a blog, you have to share your opinions with the world. That and honestly, I think one of the big things about blogging in the early days was that you blogged about blogging. So I probably did a lot of that too. Trying to figure out what it was and so on.
+
+Interviewer: So how did you go from installing WordPress to getting involved with the community?
+
+Heilemann: Initially I think it was because you could, this for plugins and themes… I think themes didn’t really exist back then either, but people had very extensive hacks. And so you could download a hack and you’d have to install it in kind of esoteric ways. So I think a couple of people made some hacks that looked kind of interesting like… one of them was it showed, instead of showing the date that something was published, it showed you how long ago it was and so it was a little bit more humane and I liked that kind of stuff. And so, I would install those hacks. And inevitably, I kind of got my hands into the underpinnings of WordPress [3:00] and just started playing around. I think the first thing I made was actually either theme or it was like a converted version of a time-since plugin. But I think…  now I forget its name, but I made like some early themes and played around with that whole part of the platform.
+
+Interviewer: So that was… it was just a style sheet then, was that right? A CSS stylesheet?
+
+Heilemann: Yeah, pretty much. Yeah. It was pretty primitive when it first came out, because that kind of thing was just really something that any blogging was like seeing CAD, or it least it was in early days on WordPress so you kind of have to hack whatever you wanted it to do and then whenever a new upgrade came out you have to have it carry over your hacks or just say goodbye to them. 
+
+Interviewer: So do you recall the introduction of the theme system?
+
+Heilemann: I don’t actually recall when it was first introduced, do I … no I recall, I believe, and I might be wrong - my memory might not serve me quite as well as I want it to - but I think the splitting the theme into multiple files so that the huge stuff like the blog from the pages and permalinks and stuff like that was 2 point something. When did Kubrick?
+
+Interviewer: That was 1.5.
+
+Heilemann: 1.5, yeah, 1.5. I remember that. I don’t remember when the theme system first was introduced actually.
+
+Interviewer: I think that was the release in which it came in. I was just wondering what you had thought of it. This approach to themeing as opposed to just having a CSS stylesheet.
+
+Heilemann: I think it’s great. I mean that really… it changed so much what you could do. And you could start really customizing themes and do a lot more with them and not just have them be tied to what somebody else had thought previously what should be done. And it’s a lot of the things that Kubrick did at the time. You kind of did it manually before that upgrade to the theme system that allowed multiple files but a lot of that was introducing stuff like this humane metadata block under the posts, that kind of says, in a normal language, when it was published so-and-so and has these categories and these tags and so on. And being able to do stuff like that I think is been really important to making themes in general, and later on plugins, to give them that kind of flexibility to not just do what somebody else thought should be done, but actually do what you think should be done. [6:00] And that kind of all started with being able to do more than just a stylesheet really.
+
+Interviewer: Do you think that Kubrick influenced the theme system that would end up being in WordPress?
+
+Heilemann: I think so. Kind of beyond… I don’t even really see it as something that I made in some strange sense. It happened to take on it’s own life. But I think so. I think it had a tremendous influence both in terms of like the approach to design but also in terms how, and not that I am by no means or I certainly wasn’t back then, a programmer. So I kind of cobbled things together [inaudible] kind of way. I think some of those ideas permeated into the theme system.  You know, I would see something that’s pretty cool. 
+
+Interviewer: Can you think of any specific examples and - it’s a long time ago - but if you could recall why you did specific things in Kubrick that ended up having an influence on WordPress.
+
+Heilemann: I think some of the things was just trying to hide a way… for instance, when you would leave a comment, it would remember your name, but it would still leave I believe - and this is again my memory, might be a little vague on this - but I think before that when you left a comment the… your name and your address and so on would be remembered, but it would still have a form there. Which to me seemed kind of pointless, because why would you have the form when you already have your information in it. So instead it would hide the form so that when you left one comment it would just say Hi Michael, for instance. And that kind of thing. So K2, kind of the follow up to Kubrick, did this in a much bigger way, but being able to integrate a little bit with popular plugins and stuff like that was something that I really liked so that… because it was very hard. I think it’s probably easier now. Very hard for people to install plugins and get the code into the theme, the template files, and all these kinds of things. So rather than do that, have it be easy for them to put in their [inaudible] But at the time, that wasn’t really possible. That and one of my personal favorites - I’m not sure I would do it again today, but back then I really liked it - which was like this humane metadata block and that kind of thing to kind of… to make it seem less like a database entry and have it be a little more… have a little bit more personality and character and that kind of thing. [9:00] And then just, I think, a big part of it was also just clean colors and a little bit more restricted design than a lot of the stuff that was out at the time was a little bit more… it was over-designed often. So rather than have something that is easy for a lot of people to use, you’d have a template that had a lot of flowers on it. And so if that’s your thing, then great. But for me, I wanted something more where my content was a little bit more front and center and so flowers were perhaps a little bit off for me. So I think those kinds of things. I think it changed a little bit the tone of the templates and the direction that they could take. And I tried to make it also customizable, to the extent that it was possible. Because this is back before you could do gradients. Before you could do rounded corners and all these kinds of things. And obviously it uses that in the graphic design of it. Those were images but I tried to provide the assets for that so people could easily change it. And so they could customize it and put their own colors on it or put a header image or whatever, whatever they really wanted so that it was easy for them do it, as easy as it could be at the time. And then I think it didn’t actually take long before people started doing some really cool things. It was - I think it’s probably still around - but somebody made a… the header, like a gradient generator. Which I thought was really awesome. Because, again, you’re minimizing the distance that people have to go to get a customize their site and make it a little more interesting which is kind of what themeing in many ways is about - it’s about making it a personal experience. 
+
+Interviewer: I went through the CSS style competition entries. They’re very… individual, I guess is the word for them. I was reading a thread on the forums, which you’ll probably remember, a huge argument about Kubrick. Why is Kubrick the default theme..
+
+Heilemann: Yeah.
+
+Interviewer: Do you remember what… why people were giving you push back?
+
+Heilemann: This is just from my perspective, so somebody else from the other side of the argument should definitely defend their side. I think on one hand, I think it was probably a matter of the community not feeling like it had been their decision. One the one hand. And on the other hand, a big part of that, it ended up in like a huge flame [inaudible] [12:00] a lot of mental energy…
+
+[Interrupted]
+
+Heilemann: … it kind of turned into a flame war. There was one person who was surrounded by a bunch of people who I think was more angry that their theme hadn’t been considered and then, at the time, I think we ended up in a mud-throwing match of some sort as it happened on the internet. In a way I understand the annoyance of it. On the other hand I also felt, and to some extent I still feel, that it was the right thing to do. To have Kubrick be the default theme. Because it was great in many ways, and obviously went on to do really well. So without shining my own halo hopefully, I still feel like it ended up where it should. Even if the process of it perhaps was not the best. That’s also one of the things that it’s hard to get right always. And it’s one of those things that it was early enough in the project’s life that I think that understanding how the dynamics work was still something that was being figured out and so I think everybody probably learned a lot from it. 
+
+Interviewer: So how did Kubrick come to be the default theme?
+
+Heilemann: You know, I think… I think Matt asked me if he could use it. That’s how I remember it. Maybe I have the email somewhere… I’ll do a quick search while we talk. But I’ve probably changed email since then. But I think he just asked me. … Like the digital equivalent of [inaudible] … the archives.
+
+Interviewer: Yeah, I’ve been making use of archive.org a lot.
+
+Heilemann: No, actually, I asked him. I have an email here. August 16th, 2004 where I says like I’d love to see Kubrick make it into WordPress sometime. And he writes back, and so yeah, at the time it was actually under a different license, under a Creative Commons license, and I changed the license to be GPL so we could include it in WordPress. [15:00] So that’s how that went down.
+
+Interviewer: Wow. OK. And so why did you… what do you think made it stand out from the other themes. Some of the things in the threads that people were complaining about are the fact that it was bundled with images. Some people said it wasn’t simple enough. Although, in terms of design, it always seemed very simple and clean to me.
+
+Heilemann: I think… first of all, I think the argument about the images is both right and wrong. I think it’s right that it has images and it relies very much on those images, which means that customization is a little bit harder to do. And so that was on my mind at the time as well. One the one hand, that’s kind of a good thing because it forces people to… like unless you know what you’re doing, you’re not going to change it. Which is kind of strangely good thing sometimes. And at the same time, if you know what you’re doing, then it’s going to be easy to change because you have the images there. Or you can just remove the images and then rely on CSS. This is back in 2004. So at the time, you know, you didn’t have all this fancy CSS we have now. It wouldn’t take long before that started to kind of come into browsers. And when it did, it was pretty easy to kind of start removing the images and stuff like that. So it took a little transition before that was… before it was possible to do a design that was kind of like that. And not just have it be this kind of flat or square thing that’s very web 1.0-ish for lack of a better term. So I understand that argument, but at the same time I think the results speak for themselves. People don’t really mind that they can’t… that it’s a little bit hard to change. And then beyond that, the complexity of it. Yeah, it was more complex than themes were at the time, but that’s because it also did a lot more. It tried to be a little bit smart about what a permalink page looked like and what a list page looks like and not just have them be the same thing and obviously, like nowadays, themes in general, are just like there’s so much more complex than they ever were. And it’s going to keep going like that because the need to serve so many more purposes and they need to be able to do so many more things. And for them to be… for them to live up to all the features the platform has and for you to do stuff, like have a list (this is very simple now, we’ve solved this a long time ago) but for there to be a list on a permalink page there need to be two different views of that thing. And so it’s… I think at the time it was also the themeing world wasn’t mature in the same way that it is now, where people are… people understand more in terms of [18:00] engineering probably. And you have these like really big frameworks where I think, k2 for instance, is like a prototype framework in a way, because it tried to do a lot of the things frameworks do nowadays, and that’s a lot of complexity, but you don’t necessarily have to deal with it, you know, if you want to change this thing over there or that thing over there, then you create a child theme and, you know, style it the way you want it. So inevitably, I think, the more you want the platform to do, the more complexity you introduce in some form or fashion. You can try to relegate that to have like a big bucket over here on the side that’s like this is all the complexity to make it be really smart and clever and whatnot and then over here on the other side you have the place where people can go and put in their own little thing to change the things they want to change. Obviously that’s what’s happened since then, and I think that’s… You know I don’t even think Kubrick is that complex. I think it’s just a matter of, at the time, I think the world just wasn’t really there yet. Which isn’t to say that Kubrick was like, visionary and whatnot. But it needed to be more complex. 
+
+Interviewer: Did you ever see having an influence once it… I mean it was everywhere. You still see it everywhere.
+
+Heilemann: Yeah, it’s amazing.
+
+Interviewer: Did you have… did it have an influence then on, not just on other themes, but other blogging designs…
+
+Heilemann: If I saw it having? Or if I anticipated it? Or if I saw it afterwards?
+
+
+Interviewer: Did you see it having that sort of influence afterwards?
+
+Heilemann: Uh… yeah, I think so. First of all there were certainly a lot of themes based off of Kubrick. At one point I was also keeping track of the number of platforms it was imported to. When I stopped counting it was like 35 or something, other platforms, like forums and blogging platforms, and whatnot. It was completely crazy, and very unanticipated. And yeah, I mean, a lot of things were based off of it and I think even today, when I browse around, even if I don’t see Kubrick itself, which doesn’t happen so often any more, but it still, from time to time, I still see little snippets. Like that little metadata block, for instance, I still see some places. I still see like some fonts or something that I recognize as being from there. This is really is terrifying - I always describe it as wonderful and terrifying at the same time, because it’s great that you did something that so popular, at the same time, you know, it’s… I… there’s still some code in there that I’m not super happy about, that could be changed.
+
+Interviewer: Of course.
+
+Heilemann: So that still lives on. It’s kind of a reminder to make sure that the work you do is as you can possibly make it. Which it probably was at the time, but… because it might have a really [21:00] long longevity.
+
+Interviewer: Did you continue to be involved with developing it while it was the default theme for WordPress?
+
+Heilemann: No, not really. At the time it had exploded in popularity and at the time I was working for a computer game company and I didn’t really have a lot of interest in having a career and then a side career. I just kind of liked to do it as a hobby in a way. And explore those kinds of things and so I kind of left it over to the WordPress group to figure out what they wanted to do with it and then every once in a while I shot off an email with suggestions, but I didn’t really have much to do with it. And on the one hand that was because I wanted to focus on building games instead of these other things also because I was still, and this still happens every once in a while, I’d still get an email asking me for questions about Kubrick. Even though I haven’t had anything to do with it for years. For, I don’t know, it’s probably coming up on like eight years or something like that. And the support volume at the time was just staggering. Like it was just way too much for me to handle. And so I was kind of glad to see it go away and for me to be able to focus on something else. I like working on projects and then being able to move on so you don’t have to live with it for the rest of your life. I’m happy to not have worked on it for eternity, but at the same time I also wished that I could have worked on it sometimes because there are things I would have liked to have seen changed as it went on. Because it was in there for, I think it was something like six years, or something really long like that.
+
+Interviewer:  Yeah, about six years. Did you expect it to be the default for that long?
+
+Heilemann: NO. I really didn’t. I really, really didn’t.
+
+Interviewer: Did you get to the point where you’d look at it and go, oh god I wish I didn’t see that everywhere?
+
+Heilemann: Yeah, in a way I did. First of all I think there were things in there that needed to have been changed a long time ago. There was stuff I didn’t understand about CSS, for instance, where it had images in the header of the… I think it was, the head.php file, I might misremember. But there’s definitely some CSS where I didn’t know how to refer to it, like to relative paths. For some reason I didn't understand that stuff, so there’s like stupid PHP stuff in there that just didn’t need to be there. It’s minor stuff like that I wish could have been fixed. So it lived for a long time. And I would still hear people, both be happy about it as well as to complain about it. After years of it being in there, I’m just kind of out of it by then, but at the same time I feel connected to it, so… It’s fun to hear people talk about it. And I still get name recognition off of it, which is kind of funny considering how long time ago it was, and [24:00] how kind of weirdly obscure it seems to have a blogging theme become something that you can get name recognition off of.
+
+Interviewer: Yeah, I know, I know. I can’t think of anybody… any other themes where I know the name of the developers. Didn’t it say Kubrick, designed by Michael Heilemann? Something like that.
+
+Heilemann: It did. It did, yeah. Which gave me fantastic page rank on Google for a long time by the way. 
+
+Interviewer: I bet. I bet it did.
+
+Heilemann:  There was somebody who had put together, I guess some sort of automated lists of page rank of famous Danes, and I was like way up there above the Prime Minister and H.C. Andersen and like a bunch of other really, really famous Danes because of the page rank. It’s a great hack. 
+
+Interviewer: Yeah, it is.
+
+Heilemann: It was at the time anyway.
+
+Interviewer: I guess people ended up trying to do that with themes and the theme repository with sponsored links and stuff then.
+
+Heilemann: Yeah. I think on the one hand its great to sign your work and to have that… to get that recognition for something that became popular but at the same time… first of all, there’s a downside to it, which is that I didn’t ever ... a couple months ago I got an email… yeah, I got an email from a lawyer somewhere in the US, I forget where, who wanted me to call him. So I called up and he said well, um, he assumed that I didn’t have anything to do with it, but my name was on this thing that was involved with this company that they had some suit against. And so it gets you… it takes you weird places sometimes because your name happens to be on something. And people don’t necessarily understand that you were not directly involved with it, that you made something for an open source project a long time.
+
+Interviewer: That makes sense.
+
+Heilemann: Yeah. Well…
+
+Interviewer: I also wanted to ask you about Shuttle. I was wondering, first of all, how you got involved with that?
+
+Heilemann: That’s a good questions. I don’t… remember… it might have been… it have been through Joen or Khaled, I’m not actually sure… I don’t remember how that started. That’s a good question. Maybe I could find it somewhere.
+
+Interviewer: [inaudible] good. WP Design mailing list… let me just pull it up. Which was just Shuttle really.
+
+Heilemann: Yeah.
+
+[27:00]
+
+Interviewer: I was talking to Joen yesterday, he says hello.
+
+Heilemann: Oh great! Say hello back.
+
+Interviewer: I will. So I think it was Khaled who started it.
+
+Heilemann: Yeah, that sounds right. 
+
+Interviewer: Do you remember… do you remember what the intention was when you started out with the project?
+
+Heilemann: I think it was to modernize the interface of the admin a little bit. And kind of simplify it and make it a little bit more… simpler really. And just give it a face lift, because it had been the same for a long time and it had a lot of … it got a lot of new features over time that I think not everybody needed to use, you know - custom fields and various other things - so the idea was to… I think at the time we looked mostly on the post screen. Although we did a little bit of stuff on some of the other screens, but that was really the thing that interested us the most because it was something that was at the core of the system that everybody kind of used and everything else was kind of secondary to it. And we just kind of went through a bunch of like discussions and revisions on it and we did the login screen too. I remember a lot of mockups flying back and forth of the post screen and trying to figure out like a style and so on. … It’s funny to think back on because I think, honestly I don’t the mission was so clear in retrospect anyway, in terms of what exactly it was we wanted, which perhaps is also why we didn’t have a huge impact. That I think it was in many ways it was just us kind of feeling like it needed something like some kind of work. And we just kind of threw stuff on the wall and see what stuck. I think some of the stuff made it in there and then various other things have never really got picked up.
+
+Interviewer: When you started out, did you have the impression that you’d be redesigning the admin and that it would be applied. Because it seems to have been applied piecemeal. Bits and pieces would be added and I could you see you guys getting frustrated about that.
+
+Heilemann: Yeah, I think for me, I’m kind of a… I like taking something and kind of view this as a reoccurring theme in my life, I like taking something and kind of rethinking it across the board. I think that it was annoying in a way that we came up with [30:00] one piece of the thing that kind of worked on its own, but it needed to be in the whole for it to look and feel right. So like the collapsing things on the… the little pods on the post page for instance, were one of those things that got pulled out and put in to the actual admin. But they always feel a little weird to me because the rest of the admin didn’t really follow suit. So in a way I think it was a frustrating project and I think it didn’t really go anywhere as well because we we spend a lot of time focusing on one small piece rather than pulling back and saying well, here’s what it should be and why it needs to be that and here’s who it’s for. And instead we kind of ended up spending a lot of time arguing about probably about gradients, and rounded corners, and stuff like this which is completely irrelevant to the theme. And also three designers working on the same pieces is probably also not great. But at the time I think… it comes to the maturity of the community and the people working on it and so on. And I included myself in that. That we also didn’t have that much experience doing these kinds of things. So for us, it was just as much playing around with it and experimenting. It was a great lesson to go through some of those things. The login screen for instance, I thought that was a big improvement at the time. And to see some of that come into the project and know that it helped refine some of the thinking around it, even if the thinking itself wasn’t as kind of good, or big, as it was supposed to be. In retrospect anyway.
+
+Interviewer: You guys spent, seemed to have spent, quite a lot of time on it and work on it in fits and spurts. Working on it a little bit and then it would drop off. Was that because you guys had work or you lost interest or a lack of motivation…
+
+Heilemann: It was probably a combination of both. I think that’s a recurring theme in a lot of open source development is that, for me, it was always an outlet. Because I had done web design stuff previously in my life, but obviously I had this game job, and I loved that for most part of it, you know, until I didn’t. So I whenever I was focused on that or if I was busy in real life, I would not do anything. When inspiration came and you felt like you had a weekend, or whatever, then you felt like you could go off and do a lot of work. And you can do a lot of work in a weekend, when you’re really focused on it. So it’s a mixture of the two. And for me, I still work like that. I’ve been writing a book for the last three years and I work in spurts where for a couple of months I’m super focused and I get a lot done, and then for months I don’t get anything done at all. [33:00] I don’t look at it or even want to think about it. And it’s kind of the same. It’s like real life interfering where… because you don’t have to go to work every day and sit down in front of the computer and force yourself to work on it, inevitably you end up with, you know, with spurts. And also because you’re working on something where you’re giving your spare time to it like you might have strong principles about what you want to build and ideas about the direction you want it to go, but you still have to convince everybody else that your ideas are good. And that’s both a good idea and a horrible idea. It’s a good idea because it makes everybody have to agree on things. And it’s a horrible idea because sometimes it’s just better to dictate and get things done. You know. That said, if you can convince people, that’s definitely the better route. But I think that Shuttle, in a way, probably stalled some of those things. That we were, we were all kind of trying to push our visual ideas and I don’t know if we were… I don’t know if we were cooperating enough on getting a unified feel and a unified understanding of everything before we were trying to actually apply our ideas to the problem. So, it was interesting. I think a lot of, like the fact that I do interface design today is… comes out of this series of experiments and whatnot, including Shuttle and all the stuff we did for that. And some of the thinking behind trying to minimize the interface and those kinds of things have influenced me tremendously over the following years.
+
+Interviewer: What were your thoughts on trying to minimize the interface?
+
+Heilemann: Well, I always felt that for me, I was a blogger at the time. I blogged a lot. I don’t blog so much any more. I don’t really have so much time for it and I kind of want to spend that energy doing other stuff. But at the time I blogged a lot and I always felt that I would go into the blogging interface and there would be a text box. And then surrounding the text box was all this other stuff that I just had no use for. Because I was in writing mode. So I think that was something we were thinking on trying to just, I guess now it’s called send mode, but trying to minimize the stuff in the interface that I don’t use anyway. Like for my site, for a long time, I didn’t use like custom fields, I don’t think I used excerpts either, and I don’t fully remember what the interface looked like, but a bunch of the other things on there, I never used it. And if I used it then, you know, I would rather that I would have to go and call it out and get it, open it up essentially. So some of that thinking was just trying to remove the distractions and trying to remove the things that were unnecessary [36:00] for you to get your job done. Which is just to sit down and write your opinion about blogging for the most part. And yeah, so some of the later work I did similar for a blogging platform was very related to that idea that it’s about the writing, it’s about the content, and it’s about your ideas and so on. It’s not about filling in all this… in all these forms, because that’s kind of secondary to the primary thing. 
+
+Interviewer: Do you think something like Medium is trying to solve that problem?
+
+Heilemann: Yeah, I think so. And I think Medium is really interesting. It was interesting in a little… not disconcerting… but I like Medium in terms of like their design and their approach to building the product, I think it’s great. I think they did some really interesting things. And I like the restrictions they put on people for that purpose. That’s not the right thing for everybody. It’s not the right thing for people who want to have more control obviously. But for people who just want to just sit down and write and have like a template that they can put their content into, I think it’s really nice. I don’t know if I fully agree with the idea that a content platform should have my content for free…
+
+Interviewer: Yes, I agree.
+
+Heilemann: That’s a little disconcerting in a way. But you know, on the other hand, that’s also what Twitter and Facebook does, so it’s not uncommon today. But it is… it does seem a little bit more like people put a lot of hard work into writing these posts and I’m not entirely sure what the… why I would want to do that. Why would I want to put my content there and not just on my own site where I have control over it and nobody else is kind of… can use it to promote their own site or their own agenda and so on. 
+
+Interviewer: When Shuttle came to an end… I read some posts by Khaled and Joen and they were quite, I would say frustrated and disillusioned by the whole process. They were annoyed to not see their designs be implemented. Did you feel the same way? Did you feel that something had been miscommunicated? Or did you feel… I guess did you feel the same way as they did?
+
+Heilemann: Well that’s a good question. I’m not entirely sure actually how I felt at the time. I think I was probably frustrated that it had been implemented piecemeal. Because that kind of defeats some of the purpose. But at the same time, I remember being happy that, you know I talked about before, I liked the new login screen, the fact that the pods were there even if they were not… even if that was not a perfect implementation in retrospect. Then I think some of that… [39:00] it was nice to see some of that make it in there. But I agree that like the process and then the length of the project was perhaps not… the results didn’t live up to that. But that I think in a way… it was like a collective fault of everybody’s. Just as much mine and everybody else’s for not figuring out exactly where we were going with it. But that’s a great way to learn to. That way we figure out not to do that again.
+
+Interviewer: So I guess, not long after then end of the Shuttle project Habari was announced and you started to get involved with that. Can you tell me why you decided to make the switch to Habari?
+
+Heilemann: Well, I think at the time, for a couple of reasons. First of all, I think a lot of the people who started Habari did so for more political reasons, or like annoyances with how WordPress was being run as an organization and stuff like that. And for me it was more about, kind of undiscovered territory. There was certainly things I was not super thrilled about with WordPress but it was also, in a way you could look at it as an extension of the Shuttle thing where well, here’s a chance to really go and do something fresh. Do it completely from the ground up and rethink it. And not be burdened by the legacy of and existing platform. That’s what really drew me to it the most. And that’s why I ended up doing like a big redesign of how I thought an administration interface could look like. Which I think is, if I’m not mistaken, I think is still the way it looks today. So that was really great. That was a really good experience in designing it. And then it was a bad experience in getting it approved. And then it was a good experience in implementing it.
+
+Interviewer: So why was it a bad experience in getting it approved?
+
+Heilemann: Because Habari as a project works as a meritocracy, which has it’s merits. No pun intended. And so that means that people… you kind of have to earn your way into to being able to have the power to make decisions essentially. Or at least to have your vote weighs more by virtue of your work. And so for me, I came in kind of wild west, hung ho, and was waving my arms around saying I got this and here’s the design I finished. [42:00] And when are we going to start building it. And everybody, well not everybody, but certainly some people were very uncomfortable with that, because they felt like it should have been a process. Again, I think going back to some of the earlier discussion that you want to feel like you were consulted. And I completely understand that, but at the time and also, honestly, in retrospect I didn’t really feel like there was time to go through that also having been through Shuttle, I probably felt that we could argue it all we want but all we’re going to do is run in circles and not get any where. And if anything, we’re going to take the edge off what makes it good, what I felt made it good. And I think… I don’t think I was privy to all their discussions, but I think over a lot of shouting and hand waving it eventually got approved and got implemented. But that was not a super great, that was not a super great experience for me. I am much more comfortable with being in a position where it’s understood that certain people know more about certain things than other people, rather than having it be like a place where everybody get to… it’s fine that people get to discuss things, but you also have to understand when you’re talking about kind of … words escape me … like opinions that don’t have any actual reason behind them and when you’re talking about actual expertise and whatnot. And I think I’ve certainly move on a lot since then obviously, but at the time I felt very strongly and I still feel like I did really good work for Habari that it was a good piece of work. And the fact that it would be, potentially be, lost in this long discussions and clashes of personality and so on, that really got to me. So we implemented that and I used Habari for awhile and then I kind of bowed out of the community because I didn’t feel like it was… I didn’t feel like that was where I could get my, most of my work done. 
+
+Interviewer: So that’s interesting, because I guess the WordPress community is less… Habari community is a fairly straightforward meritocracy where you do stuff and then you have authority within that, but it seems in WordPress it’s more like Matt makes decisions about who has authority. Are you more comfortable with that way of doing things?
+
+Heilemann: Yeah, you know, I think personally I am. [Inaudible] I’m not a huge part of the WordPress community today, so I can’t talk too much about it. But I think the benevolent leader, overall, gets more work done. [45:00] And I think it’s easy to end up in very long discussions if everybody has kind of equal footing. And that makes for a great democracy, but it’s also very hippie, 60s, everybody gets to sit around and share their opinion, but that’s not always something that’s really worthwhile. You don’t actually, necessarily, get a better product out of it. And so often you need somebody with vision, or at least somebody with a point of view with opinion to weigh in. And so, it is for me, that works better. And that’s also what I prefer and the way that I work today, and so on. I love having discussions and I love… I feel like I need to be able to convince people why something’s right, but at the same time I also like the implicit understanding that I… this is my area of expertise and I understand things on a deeper level, hopefully, hopefully that’s what I get paid for, than somebody who works on something completely different. So our opinions are not equal. 
+
+Interviewer: That makes sense.
+
+Heilemann: They could be, you know, if the other person also spent a lot of time on it. Ultimately, I think that’s… it gets better results in the long term I think.
+
+Interviewer: So whenever you first got involved with WordPress, and I guess you were involved for a number of the early years, was it clear what the project structure was then. That it was this benevolent leader structure to this project?
+
+Heilemann: You know, that’s a good question. Because the… I’m also a little bit of a special case because I developed… you know, I did a number of themes… I did two very small themes, I think two, before I did Kubrick. And then Kubrick kind of got swallowed up by WordPress but I never really committed code to the actual WordPress code base. I just kind of handed over Kubrick. I wasn’t actually really involved in fixing tickets and whatnot for the code base. So for me, I have kind of a special relationship in that sense. I didn’t really get involved in discussions about whether feature x or y was the way to go, I kind of just did this thing that got swallowed up. And then I sat kind of on the outside and I did k2 which… k2 I think had a lot of influence on frameworks and on certain directions about how, whether the theme engine ended up going, but it was completely separate from WordPress itself. And so I don’t really have so much insight into you know… obviously some of the guys who went off to form Habari were frustrated with the way it worked, but I didn’t really have a dog in that fight. Is that the expression? 
+
+Interviewer: It could be.
+
+Heilemann: Well, okay. I didn’t have a thing in that thing. 
+
+Interviewer: OK. [48:00] Did you… One of the things they talked about was the setting up of Automattic and some people were very frustrated that a lot of people had put time and energy into building WordPress but then Matt was the only person who could go off and set up WordPress.com. Did you feel any of that frustration? Or do you recall any of those discussions within the community, how people felt?
+
+Heilemann: You know, I don’t quite remember, to be honest. Yeah, I don’t quite remember if I had any feelings either way. I think my opinion today is that I think it’s fine in a way anybody can fork WordPress and do more or less what they want given that it’s an open source project, but… so that doesn’t really bother me. Obviously there’s some brand recognition and so on. In the long term, again, I think the community is probably better off for it. For people who want that platform. And they want to build their site off of that thing, then I think they’re probably a lot better off for it. That there is an instance that actually lives off of it and maintains it, professionally. I mean, I’ve, as much as anybody, like k2 for instance. I worked on k2 for awhile and just because I wanted to and because there was some challenges that I kind of wanted to play with, but then at some point I also grew tired of it or I found other things I wanted to do, and I left it behind. And so rather than have somebody, something do that and end up dead, it’s good for people I think to have an instance that keeps that alive. So, yeah, on one hand a lot of people put work into it, but on the other hand, would they continue to do so, you know, over the next ten, twenty years? That’s a little bit up in the air I think. 
+
+Interviewer: I think that is all my questions then. 
+
+Heilemann: Alright.
+
+Interviewer: But thank you for talking to me. 
+
+Heilemann: Well thank you.
+
+Interviewer: If I… if anything else crops up, I might drop you an email, if that’s okay. 
+
+Heilemann: Yeah, that’s fine. 
+
+Interviewer: The book is on GitHub at the minute; it will be finished next year. But so I’ll drop you an email to let you guys know when it’s finished if you’re interested. 
+
+Heilemann: Yeah, that sounds great. So it’s on GitHub? Can I check it out now?
+
+Interviewer: You can. It’s a draft.
+
+Heilemann: OK. That’s fine. 
+
+Interviewer: I’ll give you a link. It’s definitely a work in progress. The first five chapters are up there. I just finished the one on Habari, so that will be on there soon. But I’ll be expanding some of that with some of this stuff we’ve talked about and then I need… I’m working on some stuff about Shuttle at the minute, because that sort of mode of working on a project is kind of what they’re doing for the MP6 project which is the new admin redesign. So that’s quite interesting and relevant. So feel free to check it out. 
+
+Heilemann: Alright. Will do.
+
+Interviewer: Alright. Nice to speak to you. 
+
+Heilemann: Yeah, you too. Have a good day.
+
+Interviewer: Bye. 
+
+Heilemann: Bye.

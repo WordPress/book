@@ -1,0 +1,179 @@
+Interviewer:	[00:00:01] It's 27th May and I'm talking to Joseph Scott.  Hi Joseph.  Can you first tell me how you first got involved with WordPress?
+
+Scott:	[00:00:13] Let's see.  I think the first time I came across WordPress back in the day was hunting down for some sort of reasonable blogging platform.  I tried to think when this would have been - 2003, 2004 maybe, somewhere around there.  I tried pretty much everything I could get my hands on and didn't really have good experiences with many of them, and basically WordPress ended up being the least painful option at the time, that I could find.  
+
+	[00:00:56] I think like a lot of folks back then, for some simple stuff, I just threw some scripts together and kind of ran on a shoestring of my own stuff for a while, and kind of got tired of keeping that up and eventually I switched WordPress for my site.
+
+Interviewer:	[00:01:16] So what were you doing at the time?  Did you have a job?
+
+Scott:	[00:01:21] Sure.  I worked at California State University, Sacramento.  I worked for a small program there on campus as a twoman IT department for that program.  I had a personal blog - a lot of it was just about me and then other stuff was just things that… you know, problems that I had solved, technical problems that I had solved that I figured might be of use to other people.  And I also it served as a backup memory for me because a lot of times these were things that I wouldn't necessarily do often enough to remember, and so I would kind of write it up and then go, ‘Okay, I know I've solved this before' and then go and search my site for it.  That was my common use case originally.
+
+Interviewer:	[00:02:23] Did you have a background in PHP?
+
+Scott:	[00:02:28] I did.  I kind of was the jack of all trades in this little IT department so I did network stuff, systems stuff, DBA stuff and software development.  We had some PHP apps internally and I had also done… a little bit of PHP development even earlier than that in the late 90s at a small ISP that I worked for previously.
+
+Interviewer:	[00:03:00] So what did you like about WordPress when you first installed it?
+
+Scott:	[00:03:05] When I first installed in?  Like I said, basically it was the least painful option.  Everything kind of had their pain points and this is the early days of WordPress so nothing against WordPress, per se; it was still relatively young.  It basically allowed me to get content posted with the least amount of fuss and that was really, I think, what kind of steered me in that direction versus any other options.
+
+Interviewer:	[00:03:44] So what led you from installing it to getting involved with the community?
+
+Scott:	[00:03:53] I think there were a couple of things.  One, I had a history of following and participating to some or other degree in other open source projects.  I used Free BSD for a lot of stuff at the ISP that I worked at and at the university, so I had some involvement in that community.  Once I started using WordPress, you know, you get that kind of, ‘All right, what sort of things could I do to make this a little better' and so I started mostly little things here and there, poking around and trying to improve things where I thought I could.  
+
+Interviewer:	[00:04:44] Do you remember what your first contributions were?
+
+Scott:	[00:04:52] It's been ten years so I have no idea what my first contributions were.  I'd have to go back on Trac.  Actually, you know, I think my first contributions may even predate Trac; there was another bug tracker that was used prior to that and I'm not sure if we still have backups of that around.  
+
+Interviewer:	[00:05:21] How did the WordPress community compare to the other open source communities you'd been involved with?
+
+Scott:	[00:05:29] Well, initially it was much smaller, for one.  The previous [team 00:05:33] in particular had been around for quite a while and had a number of people who had been there for a long time, and lots of other users.  I think in general just the focus was different.  You know, WordPress had competitors but WordPress was clearly also the underdog, at least until the Moveable Type licensing maneuver, which changed the dynamic target.  
+
+	[00:06:21] Previously, on the other hand, yes, their main competitor obviously was Linux and back then Linux was less dominant than it is today.  So I think that was the big difference, is that WordPress was clearly the underdog and was trying to be the scrappy… let's catch up to these other guys.
+
+Interviewer:	[00:06:49] How did the Moveable Type licensing change affect the dynamics of the community?
+
+Scott:	[00:06:57] It ejected a lot of people in the beginning because a lot of people were really upset, and I think it highlighted the specific issues around licensing.  It's not enough just to be free in terms of not costing any money, but free as in having some sort of assurity that you will be able to have access to the source code in perpetuity.  That somebody can't just come along later and say, ‘Hey, we changed our minds'.
+
+Interviewer:	[00:07:41] Was that important to you?
+
+Scott:	[00:07:44] Yes.  Like I said, having been involved in open source communities previously, all other things being equal, open sources licenses is the advantage, and I view it as an advantage and I view it as something important.  I've encourage the use of open source software at a variety of levels at basically everywhere I've worked because I felt that that was the best thing to do.  
+
+Interviewer:	[00:08:21] Why?  Why is it the best thing to do?
+
+Scott:	[00:08:26] From my view it gives you the most options going forward.  Like I said, one of those issues of not waking one day and going, ‘Oh, they've decided to revoke my privileges to the source code and now it's gone'.  There is a certain level of protection in the open source life, and the open source life and doing schemes, and so I felt that was an important issue.  I think that that has… should have been shown to be true as more and more of the world is basically driven by software.  
+
+	[00:09:14] Waking up one day and discovering, ‘Oh, now I either can't use it this way or that way, now I have to pay a ton of money, or a different amount of money that I had to pay before', something like that.  There is a strong degree of importance in controlling your own destiny and a large part of that is the software that you use to develop your services and products.
+
+Interviewer:	[00:09:39] Can you talk me through your experience as a contributor of getting your patches into Core in the early days.  What would you have to do to make that happen?
+
+Scott:	[00:09:53] Boy, the early days!  It was mostly just pestering people.  I don't know that it's changed a whole lot.  I think there is more structure than there used to be and there are more people than there used to be, but in general it was about saying, ‘Hey, I have this idea, who are the people who can review and decide whether or not this is a good thing to do' and reach out to those people and get their attention enough to say, ‘Hey, can you sign off on this or not?  How do I move forward'?  
+
+	[00:10:42] Nowadays it's a little bit easier I think in some regards because we have a bigger group.  There are more people who can kind of shepherd things through, there are IRC weekly chats and stuff like, which none of those things really happened at the kind of structured level they do now.  It was still just reaching out to people who had the ability to commit or sign off on commits, and ask them to take a look at your patch.  
+
+Interviewer:	[00:11:17] So did you upload patches to the bug tracker in the same way that they do with Trac now?
+
+Scott:	[00:11:26] I'm trying to remember when we switched to Trac, but it was basically the same idea.  It was a different piece of software but it was the same concept as Trac is today.  
+
+Interviewer:	[00:11:40] What was that experience like?  Was it a good experience?  Was it frustrating at times?  Was it trying to figure out what that was like from the perspective of the contributor?
+
+Scott:	[00:11:54] For me I don't think it was any less… I don't think it was significantly different than any other open source community.  You had to find the right people and basically get enough of their attention to get them to sign off on what you wanted to do.  That same process existed in the previous [inaudible 00:12:17] community and others that I think are frustrating and not frustrating at different levels.  It might be frustrating to kind of start with but if it's something you have a passion about and are interested in and are going to stick with it, then usually those people are like, ‘All right, you've annoyed me enough, start doing your stuff and we'll sign off on it'.  
+
+Interviewer:	[00:12:57] So who was the person signing off your patches?  Was it usually Ryan Boren or pretty much other people?
+
+Scott:	[00:13:06] When I came to work for Automattic, in the early days pretty much everybody contributed back to the WordPress.org project, so a lot of that was funneled through… at least for me a lot of that was funneled through Ryan Boren.
+
+Interviewer:	[00:13:30] How did you come to work at Automattic?
+
+Scott:	[00:13:36] Matt and I had exchanged a few emails over the years prior to that.  I suspect that that may have been early enough that Matt was still trying to read like every WordPress blog on the web and so I had a few exchanges with him.  At one point - it doesn't get much attention anymore - but in the early days one of the big issues was pinging services when…
+
+[Interruption]
+
+Interviewer:	[00:14:36] …services.
+
+Scott:	[00:14:39] So there was Ping-O-Matic, anyway, I don't remember exactly where we jumped off but it used to be that if PingOMatic got slow then on WordPress it would delay the publishing process, which drove me nuts so I wrote a replacement for PingOMatic that instead of immediately trying to turn around and ping all these different services it just queued the ping and it synchronously notified them after the fact.  That made life easier.  So I did that for a while and eventually PingOMatic improved and I think ended up performing a similar sort of approach, and so I shut down my alternative option that I had done.  
+
+	[00:15:34] At one point I got an email from Matt asking of I wanted to do some contract work for Automattic to expand the XML RPC APIs that were in Core WordPress.  That was happening because Microsoft was getting ready to release a new version of Windows Live Writer and they wanted some additional capabilities in relationship to publishing on WordPress.  So I ended up contracting for Automattic to work with Microsoft in developing the new XML RPC APIs that they wanted to use for Windows Live Writer, so that's how I ended up… eventually, after doing that I accepted a full time position in Automattic, so that's how I ended up there.
+
+Interviewer:	[00:16:37] What were you working on at Automattic after you'd finished with that?
+
+Scott:	[00:16:44] I still did a lot of XML RPC stuff.  I'm trying to remember the first things I worked on - if my memory is right I spent a lot of time in the early days just fixing bugs.  I would get a contact to say, ‘Hey, we have this bug, haven't been able to track it down yet, can you go take a look' and so I would spend a fair bit of time just working on that.  At the time WordPress.com was basically… we had Akismet and WordPress.com, but WordPress.com was the big beast that basically everyone worked on, and so I spent a lot of my early days on that just fixing bugs that would pop up on WordPress.com that hadn't been addressed yet.  
+
+Interviewer:	[00:17:44] I noticed there were a lot of server issues in the early WordPress.com days - was that while you were there or before you started?
+
+Scott:	[00:17:54] The worst of them were before I got here so we had growing pains like any other large website but I think the worst of them were stories that I heard that predate my time at Automattic.
+
+Interviewer:	[00:18:15] Okay. What was it like at Automattic when you first joined?  I mean, it's quite different to how it is today.  
+
+Scott:	[00:18:23] Sure.  So now we have 230 plus people; when I started I think there maybe a dozen of us and so there were no teams, no structures, no leads of anything.  Basically it was everybody more or less did everything because that's what we needed, and I guess a lot of… early on a lot of it too was everybody contributed back to WordPress.org.  You know, there was a very symbiotic relationship, and there still is, between improvements on WordPress.com and improvements on Core WordPress.  
+
+Interviewer:	[00:19:12] Can you tell me what your major contributions to the WordPress project were?
+
+Scott:	[00:19:19] From WordPress Core?
+
+Interviewer:	Yes, and the wider project as well I guess.
+
+Scott:	[00:19:25] Codewise most of it was the XML RPC work.  Like I said, I expanded a lot of that initially as a contract in relationship to the Windows Live Writer work that Microsoft was doing, but I continued to add more things as time went on.
+
+Interviewer:	[00:19:52] What sort of…
+
+Scott:	[00:19:53] What was that?
+
+Interviewer:	[00:19:55] I was just going to say what sort of state was that in whenever you came to it?
+
+Scott:	[00:20:04] It was in a state of being very old.  WordPress was in kind of an awkward position because a lot of the other platforms had these XML RPC APIs that publishing tools were using, and because WordPress in the early days was very much the underdog we basically didn't have the leverage to really encourage publishing tools to adopt new APIs.  If you do the original version of the XML RPC APIs, and our effort was to be as backwards compatible with other systems as possible.  My work with Microsoft and the Windows Live Writer stuff was basically adding a lot of new themes, and that I think was kind of one of our first chances to add WordPressspecific APIs to that [layer 00:21:12].  And having Windows Live Writer support those kind of was the big push to get other publishing clients to also support, so that was nice to see.
+
+Interviewer:	[00:21:28] Okay, so you're going to talk about your broader contributions?
+
+Scott:	[00:21:32] Some broader contributions, so other things that I have done.  At one point there was a theme directory - it wasn't on WordPress.org - I'm trying to remember that name now.
+
+Interviewer:	[00:21:46] It was themes.wordpress.net.
+
+Scott:	[00:21:49] Was it?  It may have been; there were a couple of reboots.  Matt had asked me basically to do another reboot on the theme directory to actually integrate into WordPress.org, and so I did some coding and other things to basically get a theme directory up and going.  Very primitive early on but it was enough to at least get some submissions going, and I spent a huge amount of time reviewing theme code and giving feedback to theme authors on what sort of things were going.  A lot of it was security related; other pieces were just kind of best practices of how to do different things.  Eventually, over time we were able to transition that review process to be more thing instead of just me trying to spend as much time as I could keeping up with it because that was just… there is so much out there and a lot of time so much feedback involved that it's not reasonable to expect one person to keep up with all that.  
+
+	[00:23:23] Eventually that was transitioned into having community volunteers and a team of those people spent time doing that.  Once they kind of got up to speed I stepped back and let them take over.  I've also done a few iterations on some of the WordPress.org stats.  WordPress will send some information back to WordPress.org on what version you're using and PHP versions and MySQL and stuff like that.  That, like anything else that sees a growing number of users, had some growth problems.  I don't know which version it was - that's gone through some iterations as well and it went through a few iterations after my iterations, but I spent some time helping with that infrastructure later as well.
+
+Interviewer:	[00:24:23] What are the stats used for?
+
+Scott:	[00:24:27] Mostly they're to make decisions on what versions WordPress needs to support.  Not too long ago - well, maybe it's been a couple of years now - but there was a big bump in the minimum PHP and MySQL versions and a big part of that was based on how many people were still using very old versions of PHP and MySQL.
+
+Interviewer:	[00:25:02] A lot of people seem quite unhappy with the fact that the stats were being collected - did you follow any of those conversations?
+
+Scott:	[00:25:11] I did; I followed them to a very limited degree.  I knew they were out there and we kind of looked at stuff.  My iterations - I do recall part of the work was basically normalizing data, which was interesting because I was surprised at the number of people who manually altered the code to put in custom WordPress version strings.
+
+Interviewer:	[00:25:50] Okay.  Why do people do that?
+
+Scott:	[00:25:53] I am not entirely sure to be honest, but I remember it catching me by surprise because I thought why?  I didn't know why people would do that.  I thought that was a little bit unusual.  So yes, a large part of what the code was doing was just basically looking at those types of strings and trying to figure out, okay, well, what version of WordPress is this really?  Is it WordPress 3.0, whatever it was back in the day because, like I said, people had customized things in kind of odd ways?
+
+Interviewer:	[00:26:32] That is odd.  So can you tell me about the process of creating the themes directory?  What was WordPress.org like at that time in terms of the code?
+
+Scott:	[00:26:48] It had some separate installs.  To set the right context this was before BBPress was a plugin, so it was a separate sort of thing, so WordPress.org had separate installs for things like… the support forums was a BBPress install and then we had a separate install for the main blog and stuff like that, and the plugins directory had used an install of BBPress as kind of the management layer for the plugins directory.  A lot of what I ended up doing just to get stuff off the ground for the themes directory on WordPress.org was to look at what the plugin directory had done and reproduce that for a theme directory, with kind of a specific tilt towards theme authors which sometimes are not as technical as plugin authors.
+
+Interviewer:	[00:28:06] What was the reception like to the theme directory?
+
+Scott:	[00:28:11] Overall I think it was good.  There were certainly people who were not thrilled that maybe their theme wasn't accepted because it had a particular set of issues, and didn't want to take the feedback and go through that.  I would say that was probably the minority of folks; overall I think the experience was good.  You know, looking back on it over the long term it's been nice to see some folks who started way back then and have gone on to be very successful as far as developing their own themes, commercial themes and whatnot, while still supporting free and open source at the same time.  I think over the long term it's been rewarding to see that kind of jumping off point for people to be able to continue to produce more themes, and very well regarded and high quality themes.
+
+Interviewer:	[00:29:31] Did you have guidelines to begin with?
+
+Scott:	[00:29:37] I'm trying to remember.  Guidelines were basically part of the development process.  I'm trying to remember early on - I don't know, when I started it, if there was a set of guidelines.  My memory is that we basically ended up having to develop them as we went along because a lot of times issues would come up that we just hadn't thought about before.  We would say, ‘Okay, well, a theme probably should or should not do X, Y and Z' as particular things came up, so a lot of it was just developing the guidelines as those issues came up.
+
+Interviewer:	[00:30:32] Do you recall in 2008 that - I'm not sure if it was you or someone else - pulled 200 themes from the theme directory?  Let me see if I can… I'll give you…
+
+Scott:	[00:30:47] There was.  Yes, I think - we're digging up memories here so I don't rely on memory; I think, and again this is just my personal memory - I think the expectations that Matt had about the theme directory were that, in addition to technical requirements, he wanted generally quality design themes as well.  So my memory is that we pulled a number of themes out because it didn't feel like they had met that threshold.  
+
+Interviewer:	[00:31:42] Okay.  So what do you think has led to WordPress being so successful?
+
+Scott:	[00:31:52] In terms of today or over time?
+
+Interviewer:	[00:31:55] What makes it so successful I guess over time.
+
+Scott:	[00:32:00] I think over time some of it was - from my point of view - some of it was luck, it was kind of in the right spot at the right time for a few different events, and a lot of it was drive and passion by the WordPress community.  You know, I think Matt deserves a lot of credit for being able to pour in a tremendous amount of energy into pushing the project to be better, and as part of that encouraging more people to participate and use the software and get involved.  
+
+	[00:32:58] It did a good job of spanning a variety of cases that people might want to use it for.  If you wanted to use WordPress for something very simple, your personal or family site or whatever, to just keep that up, you could do that, and it quickly evolved into having enough capabilities and [hooks 00:33:27] at least to develop additional capabilities for larger sites.  So I think that was a big part of that win; was saying, You know, we're okay spanning that whole spectrum of the very small sites to the very large sites'.
+
+Interviewer:	[00:33:45] Is there anything in the code that you think, Oh, why do we do it that way?  Why couldn't we have done it another way'?
+
+Scott:	[00:33:54] Oh sure.  You know, I think most software developers, in hindsight looking at what they've done, a lot of times go, ‘Wow, if I knew then what I know now I would have done it differently'.  Some of that is personal preference; other parts are just more complexity than I think it was probably worth.  You know, the taxonomy system I personally think is probably more complex than I would have gone for but that's… at this point that's kind of neither here nor there, but yes, there is plenty of pieces of WordPress that I've looked at and thought, ‘Mm, I wish we hadn't of done that'.   Oh, the escaping - oh, that drives me nuts.
+
+Interviewer:	[00:35:08] Can you tell me about that?
+
+Scott:	[00:35:11] WordPress will escape stuff going into the database and that's frustrating because when you take it out of the database you have kind of multiple issues.  You could have double escaping issues, but then you also have different contexts, so the way you escape data for HTML is different than the way you escape data for XML, which is different than whichever other format you want to talk about.  So yes, the escaping going into the database causes some frustration when you want to use it… the data in ways that WordPress didn't necessarily expect.  That [inaudible 00:36:07] obviously we'd get around that, but that's certainly something [inaudible 00:36:12].  Actually, I think I even wrote a ticket at one point suggesting undoing all that and the amount of pain involved was higher than we wanted to go through.
+
+Interviewer:	[00:36:27] Okay.  Well, you've answered all my questions so thanks for taking the time to talk to me.  
+
+Scott:	Certainly.
+
+Interviewer:	Yes, the book should be finished soonish.
+
+Scott:	[00:36:38] Sounds good.
+
+Interviewer:	All right.  Thanks Joseph.
+
+Scott:	[00:36:40] No problem, thank you.
+
+Interviewer:	Bye.
+
+Scott:	Bye.
+
+
+
+

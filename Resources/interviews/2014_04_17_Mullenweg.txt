@@ -1,0 +1,813 @@
+Interviewer: When did you realise that WordPress could be more than a hobby, and be something you could build a business on.
+
+Mullenweg: I think it’s probably, you know I have to give credit to CNET here. It’s when CNET hired me, or first reached out maybe, maybe even before we actually, I started working there. And I thought wow like, these guys, WordPress is important enough to them that were actually, they’re hiring me because of my work on WordPress, I mean there’s no other reason to hire me. I didn’t have a computer science degree or any other qualifications. And that they’re willing to actually pay me part of my time to work on it, and so that was a, that combination was, was pretty amazing. And so I realised that it was valuable to them. And, because they were running parts of their sites that generated millions of dollars, more than that, on WordPress. And so that was pretty cool and blew my mind as well, like the fact that I could move out to San Francisco which was like the land of milk and honey and when I visited there, there was like a tribe of people who were just as passionate about technology and the web as I was like all those things, just were so exciting.
+
+Interviewer: So did CNET get in touch with you about going to work for them?
+
+Mullenweg: Yeah. Roughly how I remember it, did you ever come across the stuff where I took my site down, once I hit number one on Google? 
+
+Interviewer: Yeah I vaguely recall this.
+
+Mullenweg: Yeah so I took my site down, and I had planned, my friend Tantek Celik who was a developer on IE for Mac, which was actually the, the good Internet Explorer, did you ever talk to Tantek?
+
+Interviewer: Not yet, I did get in touch with him, but I didn’t hear back from him. I could chase him up again.
+
+Mullenweg: Yeah he’s, he’s an amazing guy. So he had invited me out for like a week and I was just going to stay at his house, I didn’t know but at the time he was actually announcing he was leaving Microsoft and joining Technorati, which was a very influential blogging company at the time, blog search company. And while I was out, like, I visited, I went to Google, and I saw the Blogger guys, and we talked about sort of like what an enterprise behind a firewall Blogger could look like. And I think that was [inaudible] and I think Ev was still there, Biz Stone, and a lot of the folks who later went on to do Twitter, actually, in that meeting. Visited Yahoo. I went to Google, I went to Yahoo, I feel like I went to at least one other place. But CNET had also reached out and this was just, you know they had seen me take down my website because it kind of got some buzz in the blogosphere at the time. And they invited me in to talk about, I think RSS actually, which was a controversial subject. And so, it was in a conference room, there were three or four guys there, one of them was [3:00] John Roberts who I feel like was the product lead for News.com, I feel like they had the editor there. The guy who eventually brought me in was called Mike Tatum, and, and yeah it was just a meeting, we didn’t talk about me joining or anything, but when I went back to Houston after that week was over, there were all the folks I talked about, and CNET most aggressively got in touch about possibly joining their company, and what that would mean. Just as an engineer, you know nothing fancy, but.
+
+Interviewer: So did you, when did you start thinking about WordPress Inc, Automattic, what was your first ideas about the business that you wanted to set up?
+
+Mullenweg: I’m a very loyal person and so it was probably more after CNET said no to the idea. So WordPress.com I had originally pitched to CNET as like a, a new product they could do. Like, because they had so many good domains, like for example online.com. That I was like, well what if you could be like siobhan.online.com and that like had your blog on it and linked in your social networks, and like all this sort of jazz, and I think there was sort of a general sense, for context at this time, blogs were mainstream consciousness of blogs was largely in the context of like political takedowns, like political bloggers like Instapundit and folks were sort of the most prominent bloggers and the mainstream consciousness was, I forget the exact situation but not unlike the Romney thing last election cycle. Like someone said at a, at a private event that was really not kosher, some Republican, and he ended up getting ousted from office after blogs really publicised this occurrence. And so people, if you did a focus group on blogs, people would be like oh those are political, or those are hateful, or those are like things that try to take down politicians. And so even though every major internet company at the time had a blogging service, except for Google’s Blogger, none of them called it blogs. So AOL called it, I think journals, Yahoo called it 360, who else, Microsoft called it Spaces, MSN Spaces, so basically all the internet giants had a blogging service but none of them were brave enough to call it blogs. So at CNET you know there was sort of this thread of CNET versus Engadget or Gizmodo and, and the tech blogs were really starting to eat at CNET’s lunch, especially in the gadget space, and, and they were sort of circling the wagons in a lot of ways and there was a lot of distaste [6:00] towards blogs in the company. So I pitched the idea and ultimately they decided it wasn’t a direction they wanted to go, and so you know, I, I couldn’t not do this, I really had to do this, so I said well let’s talk about me leaving and, and pursuing this as sort of a startup, or as a full time thing. It was, it didn’t end up working really well, there were some projects I was working on so I ended up staying, I don’t remember how long, but at least like an extra three or four months after this conversation to help some of these projects finish up. Because I was kind of the only engineer on my team. And, and also the projects ended up saving them millions of dollars, so I feel like I also earned my salary, which was always important to me. And then both CNET and Shelby Bonnie who was the CEO of CNET at the time both put in money into the fundraising of Automattic.
+
+Interviewer: Okay. So was that the first round of funding? Or was that even before…
+
+Mullenweg: So they, they joined the first round of funding. So when we raising our, I think it was 1.1 million, they, they pitched in, they were part of that.
+
+Interviewer: Can you tell, can you tell me what happened the night you announced WordPress Incorporated?
+
+Mullenweg: Yeah I don’t remember at all. Because partly the reason I announced it, I was a little drunk. 
+
+Interviewer: Yep.
+
+Mullenweg: Have you spoken to Jonas yet?
+
+Interviewer: I have, yes.
+
+Mullenweg: He could probably describe it better than I could.
+
+Interviewer: Yep.
+
+Mullenweg: It was something where, I mean, Jonas, Jonas and actually Jason Hoffman as well were two folks who were sort of counselling me on what this would be if it was a business. And I don’t recall at the time, if this was before or after I met Toni Schneider, but it was definitely before I, before I thought about raising money from venture capitalists. So, and we were at the hundred thousand party, which is kind of funny to think about because the WordPress download counter is now at 158,000 for the release that came out four hours ago, but at the time we could plan the hundred thousand party within like a week, or two, so we would know what day we would roughly hit it. And yeah I just thought it seemed like a good… I feel like there was a guy Niall, have you spoken to Niall?
+
+Interviewer: No. Niall?
+
+Mullenweg: Niall Kennedy has the famous video of this.
+
+Interviewer: I have the video.
+
+Mullenweg: So I believe Niall made that video. And he also encouraged me to go up and talk about this, which seemed like a fantastic idea at the time.
+
+Interviewer: I bet.
+
+Mullenweg: And obviously, there were lots of details not locked down, like how was I going to pay Jonas [9:00], and should it be called WordPress Inc, and it was actually a little bit awkward when I went back to CNET the next day because they were like, so. My boss, an awesome guy named Eric [inaudible] was like so tell me about WordPress Inc.
+
+Interviewer: What was your plan for WordPress Inc, when I spoke to Jonas he’s described it more along the lines of the Foundation, and in his blog posts from that time he refers to WordPress Inc and sometimes he refers to the WordPress Foundation, so I was wondering what your original plan for it was?
+
+Mullenweg: Well the plan was to start both. So there would be both for profit and a non profit, similar to what we ended up doing. I don’t recall the exact business plan of what the WordPress Inc concept was. 
+
+[interrupted by slipping incident]
+
+Mullenweg: It was largely I think, what we ended up doing which was, you know, say if WordPress is going to be big, let’s do a one click, easy to start hosted version of it, and then build some services around it as well.
+
+Interviewer: The other thing that Jonas said that at that time you also planned to set up Automattic, that you’d also discussed that with him. So I was wondering what the difference was, between WordPress Inc and Automattic?
+
+Mullenweg: So the actual plan was for the, the name Automattic to be an umbrella for all of the open source projects. So that’s why the mailing list and a bunch of other things were hosted on, on the Automattic domain. And if you look at the early days of Automattic.com there’s just pointers to the, to the open source stuff. So it was like, that was going to be, I don’t know what to call it, but kind of what that would be. And then Mobius Ltd, Mobius Limited, I’m sure that was a fun play on words, would be the for profit site. And so, we called that WordPress Inc. So I’m not sure if Jonas was referring to what actually became Automattic, or whether he was referring to what I was planning Automattic to be at the time, which was something that looks a little bit more like the Foundation now.
+
+Interviewer: Yeah that’s interesting because I, I’d looked up on archive.org of the early sort of pages for Automattic, and you know one of the things it talks about is the WordPress project. So I had wondered if at the beginning you had planned for WordPress to be part of Automattic as opposed to separate?
+
+Mullenweg: Yes but that’s because Automattic was something that was different.
+
+Interviewer: Yep.
+
+Mullenweg: So it gets a little tricky because the names at different times [12:00] mean different things.
+
+Interviewer: Okay. Okay, that makes sense. Who came up with the name for Automattic?
+
+Mullenweg: I think I did. Did someone else claim it, or?
+
+Interviewer: No no, I just, I’ve just wondered, I mean I know who came up with the name for WordPress but I never knew Automattic, so.
+
+Mullenweg: Yeah so I’ve written a dictionary script to get all of the mattics, so. Yeah I registered dramattic, automattic, semiautomattic, diplomattic… 
+
+Interviewer: Wow.
+
+Mullenweg: [inaudible] I own all of these. It’d actually be funny to look at the list now because I don’t remember them all.
+
+Interviewer: It would be, you could do so much with this.
+
+Mullenweg: Yeah diplomattic not always my strong suit, but…
+
+Interviewer: Dramattic would be interesting.
+
+Mullenweg: So I still, yeah I just registered a tonne of these domains and of them all I really liked Automattic because it implied I guess something that was simple, something that was obvious, something that was just kind of happened, you know like you didn’t have to think about it, it was just automatic. It’s funny I’ve actually talked with Ev Williams about this because his, you know his holder company is named Obvious. And he, we have a mutual admiration for each other’s names because I think both Obvious and Automattic are great names. My only regret was not also buying Automatic with one t, which is now a completely separate company.
+
+Interviewer: It is, yeah. It is a little confusing.
+
+Mullenweg: It’s very confusing.
+
+Interviewer: Yeah. So why did you ask Jonas Luster to be your first employee?
+
+Mullenweg: Jonas was a force of nature. He, he had experience on the business side, he understand open source, he was tech, he could code a little bit even though that wasn’t going to be his primary contribution, but just sort of an everything guy.
+
+Interviewer: Did you ever get anything formalised or on paper?
+
+Mullenweg: No. And this was also around the time we would’ve been working with Jason Santa Maria as well. I’m sure you have the exact timeline, but I think it was about the same time, because part of the reason I couldn’t pay Jonas is because I also couldn’t pay Jason Santa Maria. And so, you know, I don’t know if you know this but I think with Jason it was a three month engagement, fifteen hundred bucks a month, and the idea was like the first month would be a logo, second month a website, third month the admin, actually. And, and we only ever got to that first month before I had to email him and say hey, before you go any further I’m just flat out broke, like. I can’t, so let’s, let’s put this on pause for right now and I, I sincerely apologise.
+
+Interviewer: Well you got the logo, which is good.
+
+Mullenweg: Yeah we did get the logo. And did you, I know, I know in the past Jason [15:00] posted a bunch of sketches for logos we ended up not using, did you find those?
+
+Interviewer: Yeah I have those, and I spoke to Jason as well.
+
+Mullenweg: Cool, yeah those would be great to have in the book.
+
+Interviewer: I have them included, I mean there’s tonnes of them so I’ve selected some of them. But yeah they’re great, it’s really interesting to see them.
+
+Mullenweg: It was a lot of fun going past, back and forth with him, and to be honest it was one of the first times I’ve really worked with a designer and I would say it sort of gave me a taste for what you know, in subsequent years I really loved about working with Matt Thomas, or Johan, or any of the great designers at Automattic. Just that sort of back and forth, you really, it can be really invigorating. And I feel like you come up, you can come up with something that’s better than anything I could have ever imagined. And possibly better than what they could’ve imagined too.
+
+Interviewer: Yep. What do you think’s different about that back and forth, and the back and forth with say a developer?
+
+Mullenweg: Oh they don’t have to be different. It’s just more visual.
+
+Interviewer: Okay.
+
+Mullenweg: There were definitely times in the early days where we’d pingpong some code or, you know, different approaches.
+
+Interviewer: Okay. So how did the Hot Nacho incident come about. Did they approach you, or did you approach them?
+
+Mullenweg: Yeah this guy had emailed me, and said hey… I forget the exact story, it was something like you know I, a small business that creates something or another like we, we write content, and but these spammers from Russia and China are stealing all of our stuff and because they’re spamming, yeah they’re ranking higher in Google than we are. So we’re looking to partner with high quality legitimate websites to, to host and link to our content. And you don’t have to give us access, you could just set up sort of a proxy, and so you know they kind of had it all put together. And I don’t remember the exact amount, I think I’ve probably written about it before, something like 800 or a grand a month or something like that and especially around, you know, the complete brokeness at the time it seemed very legit. 
+
+Interviewer: I was reading that you attended the Web Spam Summit in February 2005 which was after the articles had gone up on WordPress.org and just from my reading around they were, addressed web spam, and one of the things was link farms? And I was just wondering if at the time, when you’ve been, gone to the summit, you’d seen any correlation between the articles on WordPress.org, and what people were discussing?
+
+Mullenweg: That’s a good question. I don’t recall, was that February 2005? Now I think what was odd [18:00] for me, was I really thought of spam at the time as either something you got in your inbox or in your comments. You know, spam was something that came to you. I never thought of spam as something that targeted the world or Google in the same way. And that was actually what was the silver lining of Hot Nacho, was that thinking about things that way, led to the genesis of the original ideas and algorithms behind Akismet. Which was actually the first product Automattic launched before WordPress.com.
+
+Interviewer: That’s interesting, how did that feed into Akismet?
+
+Mullenweg: A couple of ways. One, my rampant Catholic guilt…
+
+Interviewer: Of course, I understand that…
+
+Mullenweg: …at having screwed up so badly. It’s really just, it was poor decisions, there was no excuse for what I had done. And, and it caused a lot of, just a lot needless drama for the community and for people who cared about it like Jonas, and my girlfriend at the time, and everyone, so.
+
+Interviewer: Did you have any idea that, when you did it that something was a bit fishy?
+
+Mullenweg: No, I, I think it’s one of those things where I probably should’ve, but it just, it seemed, it seemed, I rationalised it probably. Whether it was consciously or subconsciously.
+
+Interviewer: So do you think of that as spam now?
+
+Mullenweg: Yes, without a doubt.
+
+Interviewer: Okay. Yeah if you could tell me-
+
+Mullenweg: Oh because the articles had links. And then the other thing was they weren’t just related to technology topics. There were articles on mesothelioma, or whatever that thing is called. And all sorts of, you know. I don’t think actually viagra was on there but stuff that was just as bad.
+
+Interviewer: Yep. So how did that influence Akismet’s algorithm?
+
+Mullenweg: Well I can’t give too much of the secret sauce away, but, but basically just shifting from thinking about spam like email spam, to thinking about it like web spam.
+
+Interviewer: So once you realised that that was not a good way to make money, what did you think-
+
+Mullenweg: You know what? Another thing is that, I do remember part of the web summit, the web spam summit, was that at Technorati?
+
+Interviewer: I think it was at Google? I think it was hosted, oh no it was Technorati, yes, you’re right.
+
+Mullenweg: Yeah I mean a big problem, like, a lot of what we talked about at the time was the negative form of re-blogging, where people would set up scraper blogs and they would steal your content, so it was really people stealing content and republishing it and then doing trackbacks at the time mostly, [21:00] and so I think part of the distinction to me as well was that this was original content or, I don’t know there was probably something there that mattered to me at the time.
+
+Interviewer: Yep. Well I just, I picked up on it because there was a, a comment thread on someone’s blog where Anil Dash had mentioned you know that he was surprised to see this spam, because you know you’d been at the web spam summit. So I thought it’d be interesting to ask about it.
+
+Mullenweg: Yeah that was definitely a low point in Anil and I’s relationship.
+
+Interviewer: Oh yeah?
+
+Mullenweg: Yeah Six Apart piled on a little bit to that.
+
+Interviewer: In what way?
+
+Mullenweg: You know they had just started around the same time, but were way more legit as a company. And they, when they lost Fox, it was onstage at TED, you know Reid Hoffman and Joi Ito who were like two of the biggest guys at the time. Obviously Reid’s now a multi-billionaire from like LinkedIn and Facebook, like, they were the backers. Reid was on the board until relatively recently. So it was sort of their pitch partly, WordPress was starting to nip at their heels but their pitch was well this is you know a two bit amateur operation, and certainly this fed into a narrative of, of my two bit amateur mistake. 
+
+Interviewer: So what did you think next about how to make money to support WordPress? Once you were like okay, I can’t host articles on WordPress.org, what next?
+
+Mullenweg: Yeah I was really horrified, and, and you know I contacted the guy and I was like, can I return the money you’ve already paid, will, like, this has to go down. He actually felt really bad as well, I don’t think he expected the, the backlash it got either, which perhaps means that maybe he didn’t think of it as spam or maybe he was just a really good actor. But I actually don’t bare ill will towards the Hot Nacho guy, I should’ve known better. Basically the, at the time I had kept writing anti-spam plugins, and I wrote like a, or maybe I adapted I don’t remember, like a hashcash plugin. That was like a proof of work that the JavaScript did something that didn’t, we didn’t call it at the time but basically a nonce approach, had a blacklist… There was something, I think that it was called Matt’s Anti-Spam Software, which was the working name of Akismet until I realised what the acronym was.
+
+Interviewer: Mass?
+
+Mullenweg: People just said Matt’s… and then the rest.
+
+Interviewer: Oh. That’s pretty good.
+
+Mullenweg: So [24:00] the idea at the time was that it would be peer to peer. So that like my blog would talk to WeblogToolsCollection and actually Mark Ghosh was one of the early testers of this. And when I got a spammer marked as spam it would then share that info with Mark’s blog. And if Mark, if I was in Mark’s blogroll, and based on the XFN data he had about me in his blogroll, he either trusts me or not so his blog could then auto-accept this sort of expansion to the blacklist functionality that was built into WordPress, or not, but so there would sort of be a peer to peer distributed and auto-updating trust network that shared, sort of, some basic anti-spam metadata. And this was the approach that anti-spam took at the time, there was a, a movable type anti-spam plugin that also took a similar blacklist approach. You know sort of a list of key words, or irregular expressions that were pretty good at catching spam. 
+
+Interviewer: Okay.
+
+Mullenweg: But it all stopped working. And the, the moment where it really woke me up was when I released an update to one of these plugins, I don’t which, remember which one, but it had a really slick comment form thing, like it modified the comment form so there were hidden fields, and had a JavaScript proof of work, and did some really cool stuff, and literally like hours or days later like spammers had downloaded my plugin and figured out how it worked, and started working around it.
+
+Interviewer: So that’s why you keep Akismet a secret?
+
+Mullenweg: Oh it’s not why Akismet is a secret. The power of Akismet is in that it’s like all the kids on the playground ganging up against a bully, right. Collectively we all have the data and the information to stop spammers, certainly before they’re able to have a big impact. So, and that only be working together would we be able to even up the fight against the bad guys.
+
+Interviewer: So were you the original developer of Akismet or did someone work with it on you?
+
+Mullenweg: I was actually the sole developer for actually a couple of years. Not even anyone else in Automattic had access to the code base.
+
+Interviewer: So can you tell me anything about how it works?
+
+Mullenweg: It works really well. It’s, I’m very very proud of Akismet. It was interesting because it’s actually, it’s probably one of the things I’ve done that I’m most proud of. Because I was able to take the things that I learned from, because B2, WordPress was really built on B2. So there was kind of a framework there already. I think Ping-o-matic was already there at the time. So, there was actually a point when CNET was going to buy Pingomattic, that was pretty interesting. I don’t remember the exact number, but it would’ve been like 50 or 60 grand or something, it was, and Technorati was thinking about buying it, it was, it was actually a hot property [27:00]. And so I had learned a tonne about scaling things from Ping-o-matic, and a tonne about speed. Because it was really really important for things to be incredibly fast and asynchronous, and work at, at the time which was a scale as large as anything else in the blogging world because it was dealing with the pings from every blog. All the WordPresses, all the movable types, all the everythings were pinging Ping-o-matic. And so I was able to take that and Akismet, write it from scratch, so taking everything I’d learned. And I feel like it was, and actually is to this day, extremely elegant code. Probably the best I’ve written. I wish the world could see it. Of course if I looked at that code now I’d be like ah, this is a mess, I’d love to redo it, but like…
+
+Interviewer: Probably. So I’ve just got a few more questions about WordPress Inc before we move on to Akis-, asking you more about Akismet. But… One of the things that Jonas said was that he’d contacted hosted companies to get them listed on WordPress.org? I was just wondering about those partnerships that you created.
+
+Mullenweg: Yeah, that was helpful in the early days. It kind of started with TextDrive, where TextDrive did a program where when you signed up for TextDrive, you could essentially choose an open source project to benefit and they would donate, I think 10% of your, your hosting fees to either us, Ruby on Rails, Instiki, Textpattern. Did, did Jason talk to you about this?
+
+Interviewer: Yeah he talked a little about it, yep.
+
+Mullenweg: So that was super helpful in the early days, especially around bootstrapping Automattic, because well yeah, it was kind of before anyone was signing up for Akismet or before even WordPress.com existed, it was a, a great way to sort of get things going.
+
+Interviewer: So what happened with WordPress Inc? Where did it go?
+
+Mullenweg: You know I don’t entirely remember. I think it was one of those things where it was like there was this burst of activity because there was a premature announcement before anything was really set up. I don’t recall having any, any papers signed with anyone or anything. Maybe there were, but. Yeah, and so but then there was like well wait, I have to go back to my job, and I don’t actually have any money, and I can’t pay Jones if I, even if I want to. And he needs to get a job because he has bills to pay and because he’s a real adult, and, so there’s a combination of things, it just kind of… And plus I need to stay at CNET for a few more months to help them finish up things, like that combination kind of combined I guess, is, is the inelegant way to say it, but. I guess it fizzled.
+
+Interviewer: Fizzled. How did you found [30:00] WordPress.com to begin with? I guess you were just paying Donncha? 
+
+Mullenweg: I was just paying him literally out of my salary at CNET. So it was, it was basically taking my sal-, because I didn’t really have any costs, besides rents. My rent was astronomical. I, I went from paying four hundred and fifteen dollars a month to twenty seven hundred dollars a month.
+
+Interviewer: Oh my god, San Francisco’s crazy.
+
+Mullenweg: Yeah. But other than that I basically had zero costs.
+
+Interviewer: Yeah.
+
+Mullenweg: And so I was able to take all the rest of my salary and, plus some credit cards and things like that, and, and you know do that first bit. And then once, sort of, once the thing that is now Automattic sort of came together, obviously it was talking to Phil Black, Mike Hirshland and Toni Schneider about funding it. And to talking to Toni about joining as CEO.
+
+Interviewer: And how did you pay them before the funding came in?
+
+Mullenweg: That was just out of salary. It was just, because it was, I think I was the third that joined, so it was Donncha and Andy?
+
+Interviewer: Yep.
+
+Mullenweg: I should also say we were, we were all working for very little. It wasn’t like you know there was a huge amount of money going around. And I’d had a bit saved up, was paying for as much as I could with credit cards, and sort of rolling that, probably I, I don’t know. The most credit card debt I’d ever had, for sure. And, and then yeah, just paying it out of salary. I mean I was making a really great salary at CNET, and that was one of the reasons that was, I dropped out of college, was, I was like wow I can make as much as, or more than my dad makes, working for a oil company, if I move to San Francisco. And they’ll pay for me to move out there, so. It was a, a very unique opportunity. And it was also good to know that was there as a fallback. So, I always thought well, worse comes to worst, like Donncha, Andy and me, Ryan, we’re all good engineers, end of the day we’re good engineers. And I know that I can get a job programming at any of these companies, at Google or Technorati, at Yahoo, at wherever. Yahoo at the time was also a cool company. So. That was, that was good to know that was a fallback, that we had this very fungible and in demand skill.
+
+Interviewer: How did you acquire the WordPress.com domain name?
+
+Mullenweg: Oh that was messy.
+
+Interviewer: Yeah from what I read it looked messy.
+
+Mullenweg: I feel like, someone else owned it.
+
+Interviewer: Yep.
+
+Mullenweg: And there was this guy who had gone around, I don’t re-, like, Rick Johnson the Third might be his name.
+
+Interviewer: Rick Johnson, yep [33:00]. [inaudible] names.
+
+Mullenweg: Oh wow, I cannot believe I remember that.
+
+Interviewer: That’s pretty good.
+
+Mullenweg: So yeah, this was one of these things where this guy had registered the domains of a bunch of open source projects. Java, Drupal, WordPress, many others. Sometimes he registered them from scratch and sometimes he bought them. And, and WordPress.com was one of the ones he had, so I had .org and .net and he had .com. And he had this OpenDomain thing where he wanted like 10% of your company, or something ridiculous. And he, he would’ve done very well if we’d actually had done that, but. It was something unreasonable… Or that it was like 10% of revenue instead, or 5%. And eventually, we kind of got him down where we would, he would give us the domain and transfer it, and we would link to OpenDomain in the footer. Of WordPress.com, which, we did. I don’t remember exactly when or how it went south. But there was something around… I think one, I started to feel bad about this because he was using the WordPress thing as sort of a, a proof of, a social proof when, when he was going to other open source projects or buying other trademarks. And that felt bad. And then two, I don’t, again I don’t remember the exact things but I recall distinctly him coming on our forums. And WordPress.com had just started, and again for historical context, there were a lot of blogging services that had started and then gone out of business and lost everyone’s content at the time. So one of the biggest concerns about WordPress.com that people had was that we were going to lose all of their writing. There was a journalling site, not LiveJournal but a different one, like Live Diary or something like that, I think it had diary in the name. That actually my friend Elisa was on. Who was, Elisa was one of the first five WordPress users. That had literally just lost everyone’s content and gone out of business. I feel like weblogs.com had gone through a similar thing, there’d just been sort of a spate of these. So that was one of our biggest concerns. People were like, I don’t know who these Automattic guys are. I don’t know what WordPress is, like I don’t want to put my life on something and then have it go away. And so he came on our forums, and said… Oh wait, I’ve remembered something, so part of the way we got the domain from him was he started taking donations. First he set up a WordPress blog on WordPress.com and then he started taking donations there.
+
+Interviewer: Right, okay.
+
+Mullenweg: And people were donating to it thinking it was us.
+
+Interviewer: Yep.
+
+Mullenweg: So that was [36:00], I think part of how we got the domain and then once we got the domain some time later he came on the forums and said you know, I’m gonna sue WordPress.com and take it down, so, you know, you guys watch out. At this point I was like, really? But we were a real company at this time. So we worked with our legal counsel and decided the best thing to do before he sues us from rural Pennsylvania or wherever this guy was, was to file an actual claim against him. An actual lawsuit. And, an intellectually, intellectual property friendly jurisdiction, so, in the Bay area. And, and so that’s what we did. And hired these great litigators, I think the litigator’s name was David Frazee, and you litigators are vicious. So it ended up being that he hadn’t actually had a lawyer or had a complaint ready, or he had been sort of speaking ahead of himself a little bit. And then once we, you know once we actually engaged with his counsel and him, it turns out that, you know, we have three or probably four hundred dollar an hour like top of the line intellectual property attorneys, litigators, and I think his guy was actually like a divorce attorney. 
+
+Interviewer: God.
+
+Mullenweg: And literally like on the call, his own attorney started saying to him, like I really think you should back off this, blah blah blah. And you know. So it went, it went very much against him very quickly. And actually, you know I had to rein our litigators back, they were saying okay now we can go after his tax records, and dock his pay, and blah blah blah. And I was like woah woah woah woah woah woah, I don’t want to ruin this guy’s life, all I want is our name to belong to us, you know? We are WordPress, like, I would like to own that and not have some guy saying he’s going to sue us for our own name. And so I think the agreement we came to was that you know the name 100% belonged to us, and that he would transfer any other domains he had that were of our products or trademarks. And also that for like the next, I don’t remember whether it was five or ten years, he couldn’t own or register a domain that was a product that we had in public. 
+
+Interviewer: Right.
+
+Mullenweg: So even, like let’s say that he owns widget.com, and we’ve launched something called Widget, he would need to transfer that domain to us. So that was aggressive, but the reason they did that was actually to help out Drupal. Because I was talking to Dries at the time who was dealing with the guy as well, and they didn’t really have the resources that we had, in terms of the company being there and things like that. So I said well, you know, if this guy after we’re done with this if he still is holding the Drupal.com [39:00] name hostage, we could probably do something where, you know, for a month you transfer the trademark to Automattic, and then we use this existing settlement to get the Drupal.com name and then we’ll transfer both back to you. But it ended up, we ended up not having to do that.
+
+Interviewer: Yes, because the guy’s, Rick Johnson’s very emphatic that he’s doing it as a way to support open source projects.
+
+Mullenweg: So to be completely honest, I think that he, I think that he was.
+
+Interviewer: Okay.
+
+Mullenweg: Like I think that in, in the way he thought about it, he really believed that this was to, to help the companies, and to, and to be true, you know better him have it than a spammer, or you know a, a more traditional squatter. So I think that he, he really did believe in open source and he, he genuinely wanted to help, it just ended up being just a little different in our ideas of the best way for him to help.
+
+Interviewer: One of the, the things that you wrote in the support, one of the support threads was that, that Rick believed that the domain WordPress.com should be used for profit and you thought it should be used for non profit. I was wondering at what point you decided WordPress.com the should become a for profit domain?
+
+Mullenweg: I do not recall. But obviously, we decided .com would be commercial, .org would be non commercial, and .net would be kind of the, the random projects in between.
+
+Interviewer: Yep. Okay. Yeah it all seems kind of messy. Why did you decide to partner with Flock when you launched WordPress.com?
+
+Mullenweg: I was friends with a bunch of the guys over there. And in fact one of them, Chris Messina, had helped me out with some design work. He was one of those early designers I’d worked with a few times, who I thought was just really brilliant. And Chris was also involved in Microformats, we, were both two of the five co-founders of BarCamp together, I just really loved working with the guy. And he went to Flock, and to be honest I thought Flock was the future. And it actually was quite quite popular in its day. It got totally killed by, you know future versions of Firefox and then of course Chrome, but it was sort of, it was kind of the Chrome of its time, meaning that all the best and brightest and sort of leading edge people were using Flock. So we were very worried about scaling. Scalability was probably one of our primary concerns in [inaudible] at WordPress.com. Again because this was something that wasn’t like, easy to do. There was no Amazon, there was no a lot of the, the tools that we use now to scale things a lot easier. No Nginx. [42:00] So we wanted to, first we did the invites, and then we thought well, we’ll allow you to bypass an invite if you’re using Flock because then we’ll know that you’re kind of a social in the know cool person. And I believe Flock also had WordPress support, so I believe it had like some XML-RPC stuff built in.
+
+Interviewer: Yep. At what point did you drop the support, drop this partnership?
+
+Mullenweg: I don’t know. And to be fair it, it wasn’t like a super formal thing, like it wasn’t like any money changed hands. It was just like they were going to promote us and we were going to promote them. And I think it sort of, it was less that we dropped it and more just that we were opening up to the world more. And there was no, it didn’t really make sense to gate the sign-ups, because we got confidence in terms of how we could scale things.
+
+Interviewer: How did you get that confidence? Because I noticed you had lots of server issues, throughout the first year, at what point were you happy with how the servers were working?
+
+Mullenweg: Probably 2010.
+
+Interviewer: Okay. You brought Barry on board?
+
+Mullenweg: Yeah.
+
+Interviewer: Was he dealing with like, the scaling issues?
+
+Mullenweg: It was actually 100% a team effort at the time. Donncha and myself had done a lot of the early systems administration. Actually it was funny when Barry joined, he said I’m not going to do this unless you switch to Red Hat, and I was like, but this Ubuntu and Debian stuff is actually really slick. And I’m very proud to say that Barry is now a hardcore Debian guy, for all of our servers.
+
+Interviewer: Okay.
+
+Mullenweg: But to be honest, none of us had done it before. I mean Barry is very very gifted with servers. Ryan is an incredibly gifted coder. Donncha is actually very very handy with servers as well. We, but we were all kind of just figuring it out, and so, and there were some weird bugs, like we had this one database that would, we had to reboot it every night for it to keep running throughout the day. And so around, around kind of midnight, so it was morning Donncha’s time, and then sort of you know I guess, you know, normal for me, Andy, Ryan and Barry. We would all get together and, and reboot the server. So we’d have to take down the site for, you know, five minutes or something and then boot it. But, but it was very much, you know, Ryan, Donncha, myself, Andy, and then later Barry. I don’t remember exactly when Barry joined, but just hacking together and coding together and working together every day. 
+
+Interviewer: WordPress 2.0 came out in December 2005, and then the next major release wasn’t until January 2007?
+
+Mullenweg: Oh yeah that was the dark year.
+
+Interviewer: Yeah the dark year, that’s a good name for it. Was that because [45:00] that you guys were all hacking away trying to get WordPress.com up and running?
+
+Mullenweg: No.
+
+Interviewer: Why was it?
+
+Mullenweg: So it was a really good learning lesson, and one that we could probably, we’ve still continued to learn, is that we were trying to do a feature led release, rather than a time led release. Meaning that there was always just one more thing we were trying to work in. So we were like okay when so and so is done we’ll get it in. And then it’s like well now, this widget is almost done. What version of WordPress was it, it was like 1 to…
+
+Interviewer: It was 2.0 to 2.1.
+
+Mullenweg: Yeah. It was really one of those things, let me think back actually. I’m trying to remember what the big features were in 2.1 even.
+
+Interviewer: Let’s see, we have auto save, tabbed editor, privacy options.
+
+Mullenweg: Import/exports, we did spell checking, oh, pages, frontpage, we redid the database code. Yeah, there’s a lot of stuff in that release actually.
+
+Interviewer: Yeah.
+
+Mullenweg: Oh, we had the media manager, so that was new. First version of media, pseudo-cron, WP_Error class, yeah that, that was, you know, and 550 bug fixes, there was a lot in that release. And, but you see in the announcement post we say never again, we say we’re going to start doing releases like Ubuntu. Where we’ll do it for the, and I actually announced the date, April 23rd, that the next release would be on. 
+
+Interviewer: Yep.
+
+Mullenweg: Did we hit that date? No we didn’t, it came out about 2 weeks late basically.
+
+Interviewer: That’s not too bad.
+
+Mullenweg: That’s not too bad. Yeah I do think, I think 3.8 might’ve been on date release ever in WordPress history.
+
+Interviewer: Yeah, but 3, 3.9 followed suit, so.
+
+Mullenweg: We changed the date…
+
+Interviewer: Oh did you.
+
+Mullenweg: …So it was, I think we were originally going to do the 15th for 3.9, and we pushed it back a day. But, I, I will give full credit, we did hit it. And so, we changed the date early enough that we should still get credit. I hope that now with two in a row, every future release of WordPress will be on time.
+
+Interviewer: Hope so.
+
+Mullenweg: It’s actually something I encouraged, I did and encouraged Nacin to do this time and I’ll encourage for future release leads to do is pick an actual time, so like a time of the day it’s coming out [48:00]. Because that was, that’s one of the things that would bite us before, is like, like well it’s still Tuesday in Hawaii. 
+
+Interviewer: Yep.
+
+Mullenweg: And it’s like 6 in the morning, and we’ve been up all night.
+
+Interviewer: Yeah that’s not good for anyone.
+
+Mullenweg: So that dark year was just, yeah. Because at the time there was really no distinguishing difference between .com and .org code. And in fact at the time we were also syncing Trunk. So, you know, literally a lot of these features were running for already millions of people, and we knew they worked and everything like that. But for the shrink wrap release, for the .org release, we were like oh let’s get this one more thing in. And, and we went down a lot of rabbit holes, had a lot of, you know the mailing list that year was extremely active. We shipped hundreds of mailing list threads.
+
+Interviewer: Yeah I’ve read a little on most of those.
+
+Mullenweg: Just no software, so.
+
+Interviewer: Yep, yep.
+
+Mullenweg: I, I think we actually have equivalence of this today, with some of the non Core stuff. So with our work around international communities, or maybe what was developer.wordpress.org. I looked at it today, as announced at San, WordCamp San Francisco 2013, coming soon.
+
+Interviewer: Yep. It’s nearly there actually, it’s getting there.
+
+Mullenweg: So that’s, I mean it’s not a year yet, but it is something, a good example where sometimes we still make the mistake of you know, allowing one more thing to get in, or letting perfect be the enemy of good, and iterating in private. It’s part of why I wrote that 1.0 is the loneliest number essay, and I think I talk about the 2.0, or 2.1 release, in that one. 
+
+Interviewer: Yep, yep. What was the community’s reaction to WordPress.com?
+
+Mullenweg: Early on, sceptical. But it sort of became like the cool thing to have. So, like, Lorelle got lorelle.wordpress.com, of course everyone wanted the good name. So I had Matt, Ryan had Ryan, Mark had Mark. You know, everyone got the, the good subdomain. And we all started using it, you know, we all started blogging on it, my, my blog now is mostly photos obviously but at the time it was really, I was actually blogging on it. And, and so it was a lot of fun.
+
+Interviewer: How did you decide what themes to pick for WordPress.com?
+
+Mullenweg: Just ones I liked. Kind of how we, we pick default themes now, like it was just, there were a few that were popular, I feel like in one of the theme directories at the time, or that I really liked, and I think at that time to, probably around when Noel joined which would have been like 2008, 2009, I still did a lot of the theme porting [51:00] over. 
+
+Interviewer: Yep. Why did you decide not to allow plugins?
+
+Mullenweg: It was purely code, you know, the way that Multisite was written was we couldn’t have people executing their own PHP. It also seemed like a good distinction between .org and .com, that .org would always have like a bit more functionality, be a bit more, just a bit more robust in that way than .com would, which was really like a starter, a starter thing. 
+
+Interviewer: Were there any paid upgrades that you thought were particularly successful?
+
+Mullenweg: Yeah, domains I think were the, domains and custom CSS I feel like were the two first, does that sound right? 
+
+Interviewer: Yeah CSS was the first, domains was not long after.
+
+Mullenweg: And, you know to this day, customisation and domains are two of our biggest products.
+
+Interviewer: Were there any that were really unsuccessful?
+
+Mullenweg: What else was there, I fell like the most unsuccessful one ever was the unlimited private users upgrade.
+
+Interviewer: Okay, what’s-
+
+Mullenweg: Where we allowed, exactly, what is it.
+
+Interviewer: What?
+
+Mullenweg: We allowed you to have like up to a certain number of users on a private blog, a members only blog, I don’t remember the number let’s call it 25. And for more than 25 you had to pay, I don’t remember, let’s call it 30 dollars a year. So, in fact until very recently you could still buy that on WordPress.com. 
+
+Interviewer: Okay. Can you tell me about the WordPress support service that you launched, who was that aimed at?
+
+Mullenweg: Oh I think that was like a predecessor to VIP. 
+
+Interviewer: Yep. 
+
+Mullenweg: Ah, that was aimed at businesses.
+
+Interviewer: Okay. 
+
+Mullenweg: One thing we found… Oh, here’s the link to unlimited private users, and it’s a 35 user limit. There you go.
+
+Interviewer: Great, thanks.
+
+Mullenweg: What were we talking about?
+
+Interviewer: WordPress support services.
+
+Mullenweg: Oh yeah, it was competitive with Six Apart, it was one of the things that they checked a box on that we didn’t. And so like a big business was adopting WordPress and there was like, well who do I call if something goes wrong? What if it breaks? And we decided that for the growth of WordPress we needed someone to do that. So it was never planned as, as a business model, it still isn’t the primary business model, but it seemed like a pre, necessary precondition for a larger [54:00] adoption of WordPress, which was very important to us. So we were like alright, you can now check this box and Automattic will, will help you if you get stuck. And it’s funny there was no staff for it, it was just kind of our existing folks, doing that in addition to all the rest of the whole thing.
+
+Interviewer: When did you merge it?
+
+Mullenweg: But there was lots of that at the time.
+
+Interviewer: When did you merge it with WordPress.com VIP?
+
+Mullenweg: I don’t know. I think, so the first VIP I can recall, the first couple were maybe Scoble and Second Life Blog, are the two I really remember distinctly. For two reasons. Scoble, because he was an extraordinarily prominent blogger, at the time, and still to an extent at that, today, but at the time, like, he was the, I don’t even really know how to describe it, like the Errington or the, the Pando Daily of, of the tech world.  And he did this thing where he sort of, if someone implements this obscure feature on their blogging system, I will switch to it. And me and this one other guy implemented the, the obscure feature. I think we did it first, so I, I think the time logs will show that I was able to code the feature a little bit faster. But we launched it. And he ended up making a blog on both services. One of them had a weird name, it was written in ASP, and it was something like, Max’s Awesome Blog Service, like MABS, or something like that. And obviously we were WordPress.com, and I just sort of coded his stuff custom. And that was kind of the first VIP, the idea that someone on WordPress.com could have their own theme, and you could put all the plugins, all the design, all the everything they wanted in that theme, and they would be sort of segregated from the rest of, of everything else. And then Second Life I recall very vividly, because it was a test of our scale. So Second Life, I don’t know if it was very popular but it had millions of users. And when they would go down, they would redirect all those users to the blog. So it would go from a couple of thousand page views, to hundreds and hundreds of thousands of page views just like, within a few minutes. And so that was a very good test of scaling WordPress.com. I believe, I could be wrong, but I believe that’s when Andy Skelton developed what’s now Batcache, so the idea of a memcache based distributed cache system, on a per data center basis, we could have an extraordinarily fast version of static pages. And Batcache actually still runs on WordPress.com today, if you can believe it. And you can download the plugin for your own blog, it’s really good.
+
+Interviewer: I’m, I have actually used it before, so. When did you actually launch [57:00] WordPress.com VIP?
+
+Mullenweg: I don’t remember, do you know?
+
+Interviewer: No I was, I was looking for the date the other day and I couldn’t find it. I can email someone on the team, so. 
+
+Mullenweg: Yeah the person to ask might be Lloyd, or Vernon.
+
+Interviewer: Okay. Yep. I’ll get in touch with one of them. What were your early goals for Automattic?
+
+Mullenweg: Really I wanted to do a couple of things. I wanted to create a place that I wanted to work, I wanted to work at a place, part of that was, a company that produced open source software as its primary product, and also to show the world that when a, when a, when an open source project birthed a company that it didn’t have to suck, it didn’t have to be like JBoss, or Tomcat, or Red Hat, or MySQL, and so to put the community second. That we could create kind of a community first version of that and using kind of what the web afforded, what we’d now call a cloud service paired with distributed software running the same thing. We could create something, and some unintentional confusion of the name, we could create something that benefited both. So I think both .com and .org are bigger than either would have been on its own. And not just like a little bit bigger, but maybe like 30 or 50 times bigger than they would have been if they were on their own. Because, I mean, one of the criticisms of WordPress you’ve probably found, is that there were too many blogging systems at the time, that there, the market was saturated, there was no need for another CMS. And there were, there were dozens. And some of them were quite good. You know, b2evolution and Textpattern, and Movable Type and Typepad, and all of these, and like, I think the fact that we had a unified platform that basically, all the, the energy and investment of the company was going in to, going into the open source software, really benefited us at the time.
+
+Interviewer: What did you learn from the open source project that you brought to Automattic?
+
+Mullenweg: What do you mean?
+
+Interviewer: I mean in terms of running an open source project, how did that influence Automattic?
+
+Mullenweg: Oh, many of the things that define our culture today, including being distributed. You know the fact that, you can work with people no matter where they are in the world and develop an extremely close work and personal bond with these people, even though you’d never met them before in person. As, actually it was funny, Scoble has a story, where he was in Ireland, and he met Donncha, and [01:00:00], and we’d been working together I don’t know how long by this point, but a good amount, and, and Donncha asked Scoble so what’s Matt, what’s Matt like? And Scoble still tells this story, like, he found it completely ludicrous that we have been working together and, and never met. What else, I think philosophically, something that I think open source understands inherently and that has been at the core of Automattic’s philosophy from day one is impact over revenue, so don’t chase the dollar, chase the dream. As the notorious B.I.G would say. It’s, it’s really what you leave to the world, and the impact you have on the world, that’s so much more important than the increment dollar you make. You know, what they’re going to put on your tombstone is not how many dollars you make.
+
+Interviewer: What did you learn from Automattic that you, influenced how you run the open source project?
+
+Mullenweg: So much. How to scale things. So so much of WordPress’s scaling came from what we were learning on WordPress.com. How to do user testing and design. And eventually how to run a lar-, large organisation. You know, Automattic’s now 240 people. I didn’t know how to do that before, just like I didn’t know how to do 100 person, I didn’t know how to do 5 people, it’s sort of very much a learning on, on the go with all the bumps and potholes associated with that. But I am extraordinarily proud of, I actually think of Automattic as a product. Meaning that like, the way the company works, the way that we hire, the people involved, the way that the entire thing is structured, is a product that I’ve given just as much thought and care and attention to as I have to WordPress. And, you know, I’m proud of both.
+
+Interviewer: What have you learned about running a big organisation?
+
+Mullenweg: You need… committees are bad. You can’t make decisions by consensus. You can’t, you know, you need autonomy and clear responsibility. And probably the most important thing is accountability. So, when you think about it, as something starts to scale beyond, let’s call it two people, or even one person, it only gets more efficient if each individual actor in the ecosystem can rely on the other actor doing what they say they will do [01:03:00]. Because otherwise there’s a cost. If, if you almost imagine it like a routing network. If there were 10 routers in a network and 8 of them didn’t always pass along the packets, and so you had to recheck over and over, did you pass along the packet, did you pass along the packet, it would be an extraordinarily inefficient network topology. So you need accountability to be incredibly important, and the best way I’ve found to have accountability is to give people clear authority over something and say, you know, I’m not going to be looking over your back, I’m not going to be sort of micro-managing this. But this belongs to you, and what you say you need to do, needs to happen.
+
+Interviewer: Yep. Isn’t the danger in a open source community where you have lots of volunteers, that their life just gets in the way. It’s not their job.
+
+Mullenweg: You know what? It’s totally okay as long as you say that. It’s not so much, to me accountability doesn’t necessarily mean… Like let’s say, you’re going to ship something on Monday. Ideally you ship it on Monday. But the second part of that, is that you’re accountable in so far that if you, the moment you know it’s not going to happen on Monday or you have an inkling, that that’s communicated. Because then all the other actors in the system can plan around that, and don’t have to, you know they’re not waking up on Tuesday and being like oh, what happened. Because once that trust starts to break down, everything else breaks down. And you get situations where you know the people who do work hard just take more and more responsibility. And end up becoming a bottleneck. I’ve done this several times in my career where, you know, like, if I want it done right I’ve got to do it myself, and then you end up doing too much, and then you start becoming someone who’s not accountable because you’ve taken on, because you want it to be done well you’ve taken on too many things. And then, you know, that just starts, things start falling by the wayside because we only have so many hours in a day.
+
+Interviewer: In the first year did you have any other way of generating income, other than Akismet and WordPress.com? 
+
+Mullenweg: We had some of the hosting stuff, Akismet, WordPress.com, yeah there were the partnerships, Akismet, WordPress.com and I think that was it. Did we launch anything else? I guess, we, we had support, I don’t know if that was in the first year.
+
+Interviewer: I guess you, support services was a bit later I think.
+
+Mullenweg: Basically we were hustling. It was, it was to really try to get to a point where we were sustainable. And I knew that, you know, we had the investment money which was great, but I was a big believer in, you have true autonomy over your business, and true control over your destiny, when you’re in the green. And when you’re in the red, time works against you, when you’re in the green or the black, time [01:06:00] is on your side. We’ve certainly outlived some of our competitors if nothing else, we didn’t beat them, we outlived them. And, and so that was a very, getting you know, getting us to break even on profitability was, was sort of our first priority. Because I felt this responsibility. I knew that I could go back to CNET even. But Donncha was like buying a house, and getting married and having kids, and Ryan was moving half way across the country, like everyone had real lives and I just felt this incredible sense of responsibility. I still feel this to this day for every Automattician. Like, you know, if Ryan needed a kidney, I would give him a kidney, you know, as much as-
+
+Interviewer: We have that on record.
+
+Mullenweg: As much as any other family member. Like if Andy, like if I could like jump in front of a bullet, I would jump in front of a bullet for Andy, like it was, just was a such intense camaraderie, and as this person who at an extraordinarily young age, you know I was 20 or 21, or I guess I might have been 22 at the time, but still really young, younger than all these guys, was sort of responsible for being the breadwinner and making sure we had a future and that we had paychecks and payroll and paid our taxes and all this sort of stuff. Like I just wanted to, I would’ve done anything to make sure I didn’t let these guys down.
+
+Interviewer: In my interview with Toni he said that some people in the WordPress community thought you were up to no good with Automattic and just went after you.
+
+Mullenweg: Oh totally.
+
+Interviewer: Can you tell me about that?
+
+Mullenweg: I think people were, I don’t blame them, because I mean most of the examples before Automattic were of companies not doing the right thing by the community. And I’m sure you’ve found some of the attacks, like oh Automattic’s going to, they’re going to do WordPress Pro and all the good features are going to be in WordPress Pro. And all the lame stuff will be in the free version. Or they’re going to try to make it paid, or you know they were worried we were going pull like a Movable Type somehow. I don’t know, what are some other criticisms you’ve found?
+
+Interviewer: That Automattic don’t want us making money.
+
+Mullenweg: Oh yeah that was, that was more later but sure, I could see that being early on as well. 
+
+Interviewer: Yeah. How…
+
+Mullenweg: We talked a lot about that in the theme discussion, remember that?
+
+Interviewer: Yeah, we did, we did. How did it make you feel, to have all of this sort of criticism coming in?
+
+Mullenweg: We used to joke about asbestos underwear.
+
+Interviewer: What’s that…
+
+Mullenweg: To help you survive the flame wars. When you grew up, and, that’s really where we lived in those days, on mailing lists and on IRC. And both of those are, are communication mediums almost infamous for their, for their sometimes highly vigorous discussions. And so you just, you learn [01:09:00] how to take a hit, you know? And you, you roll with it, and you get better. And you know I think that’s still something that I’m learning to this day. There are lots of examples on the mailing list of me basically engaging in a very, you know really fighting with someone. There’s actually some really good mailing list threads where we just go back and forth and back and forth. But you, you learn how to engage. And the thing, what I always, the approach I always applied to like the Hot Nacho thing. Or the, any other controversies we had. And if you look at these blogs, you’re going to see me in the comments section. And so it wasn’t like a PR strategy where we’re trying to like, you know, hide the story or spin it or talk to press or anything, I was like well I really did believe, and to some extent do believe still that as long as someone’s reasonable, like if you can really talk about it, you can get back on the same page. And I was like well even if this person is always going to disagree with me, I want the person who is coming later, and who is going to read this article, to see my comment right underneath it, and know my point of the story. Or my point of view. And I’m actually, sometimes I come across those old comments and like I’m, I’m surprised because it’s like wow, I don’t remember saying that and it’s actually quite good. And so, you know I like this, you know, 22 year old Matt and 23 year old Matt.
+
+Interviewer: How did you balance the relationship between the project and the business?
+
+Mullenweg: Yeah. There was really no distinction in the beginning. Because all the major features, all of the, the big stuff was coming from Automatticians, including myself, and so we were both building this thing, and leading the project for all the big stuff. And so yeah, it wasn’t really wearing two hats, I was just wearing the same hat and the software was running in different places. But what I…
+
+Interviewer: Yep. And how did that-
+
+Mullenweg: But what I-
+
+Interviewer: Sorry, carry on.
+
+Mullenweg: Oh but the thing I always said and still say to this day is like you know you dance with the one that brought you. So if I have to choose, I put WordPress.org first. 
+
+Interviewer: But what about all those people who you are committed to at Automattic?
+
+Mullenweg: Well that’s what Toni and now I am responsible for in terms of building the business models of the company. Is not building us in a way that is going to be counter. So, I mean, in theory, and like I’ve always said I would rather choose WordPress.org over Automattic. Because that was what was first. In reality, it never actually comes to that. Because [01:12:00] months or you know, way way way way way up the decision tree before you even get to that point, is decisions you could make that are going to put you, in a direction which is community friendly or community hostile. And at every opportunity we always choose a direction that’s community friendly. And so we just never end up at odds with the users of the WordPress.org software or the primary, you know the people who develop the WordPress.org software. Are there little things where there’s disagreements, sure. But it’s really really minor stuff, it’s not over substantial issues that, that could tear us asunder. Although it could’ve been in those early days.
+
+Interviewer: Yep. Did you ever consider building an enterprise version of WordPress, like Red Hat has done?
+
+Mullenweg: I think we did a little bit, but just from a technical point of view, there was no need for it. I mean I felt like we could make the codebase the same one, if we, it could run, you know, call it a small personal blog, and the same code could run WordPress.com, which was millions of blogs. What does an enterprise version do, like. If it was about scalability, we’ve got that, we know how to do it. And in fact we could probably scale it way higher than your blog will ever get whether it’s enterprise or not. If it was about workflow features or things like that, I just was not interested. And if it was about support, I mean Automattic provided support. Oh that’s what it was called, it was called the ASN, Automattic Support Network.
+
+Interviewer: Yep. It started out as WordPress Support Services. But it changed names?
+
+Mullenweg: I think, I feel like the subdomain was asn.automattic.com. In fact I wonder if that still works, I’m going to type it in. I was actually, I was very pleased with that code. So, after Akismet the thing that I liked the best was bbPress, because it was also a good chance to start from scratch, take a lot of the things we learnt. And there was like something, I want to call it like, maybe a ten line or twenty line plugin I was able to write for bbPress, and made it private. So if you were a member, you could get access to these private forums where we would, we would sort of answer your questions. And if not, you know you just sort of saw a login page. And then, and the login, I think we put a PayPal button or something there, so you could actually literally go there, pay whatever it cost, I honestly don’t remember, and then it would give you access to this forum. 
+
+Interviewer: And that was for enterprise people?
+
+Mullenweg: Yeah.
+
+Interviewer: Big sites, yeah. One of the things I’ve been-
+
+Mullenweg: There’s a good article, Mashable, actually Pete Cashmore, wrote a really good article about it when we launched. Except for the lowercase p. 
+
+Interviewer: Everyone was doing that back then, I’ve read you use the [01:15:00] lowercase p, so.
+
+Mullenweg: [inaudible]
+
+Interviewer: On the, on the hackers mailing list.
+
+Mullenweg: Oh really? Yeah it was five thousand dollars per year. 
+
+Interviewer: Yeah.
+
+Mullenweg: Yeah I also really like that when you click that link, it still works. It redirects you to the VIP self hosted support.
+
+Interviewer: Yep. One of the things I’ve been reading about is the, in 2007 when there was a, TechCrunch reported that you turned down a 200 million dollar acquisition offer. Can you tell me about that?
+
+Mullenweg: Not a tonne, but yeah a little bit. What would you like to know?
+
+Interviewer: So, what was the offer? Was it just, and who was it from?
+
+Mullenweg: I can’t talk about all that, but there was an offer in that range, possibly even higher, to buy Automattic, and at the time we were small like, I want to say we were like 18 people. All we had raised was a million dollars. And so to exit for 200 plus would’ve, would’ve been kind of amazing and unheard of for its time, you know, like Flickr sold for 30, 35 million dollars, Oddpost, Toni’s last company, was around the same, Delicious. So it was, it was literally, almost like a, a 10 x what else had happened in the world, so.
+
+Interviewer: I read an article that was based on an interview with Mike Hirshland and in the article he says that you were, you wanted to take the offer. So I’m wondering why you wanted to take the offer.
+
+Mullenweg: I strongly considered taking the offer. Why, well, it would have been 9 figures for me personally. Just a, you know that’s something I think that, if you’re anyone, you have to consider. Especially if you are a kid who just two years before you know had to, cancel a logo design and stuff like that and, and do sketchy Hot Nacho stuff because you’re, you’re essentially 100% broke. 
+
+Interviewer: Yep. And what changed your mind? Why did you decide not to take it?
+
+Mullenweg: It wasn’t anything the investor said. The other reason I was thinking about taking it was this was a time when Automattic was getting hard. Like I, I remember, I don’t remember if it was Ryan or someone like, we were having like some personnel issues internally and some arguments and like it just, it felt, it felt like man this is really hard, this isn’t fun. This like a huge pain, and then there’s a, but you know the product was going really well and this offer came in [01:18:00] and it’s like wow, it actually could be kind of nice to be part of a larger thing, and have someone else take some of this off my, off my chest and, and then just focus on building the product. So why not, well I realised if I had 150 million dollars I would want to do exactly what I was doing then, I wouldn’t want to change a thing. You know I did then and still to this day like really really love what I do. In fact the number has gone up, I would pay a billion dollars to do exactly what I do today. I was travelling to WordCamps, I was speaking and connecting with WordPress folks, I was coding, shipping the software, working on WordPress.com, working with guys who I loved working with, and I was like, well I can’t imagine this getting any better. And I can’t imagine the future potential of what we want to build, you know democratising the web, getting majority of websites on WordPress, I can’t imagine that that will necessarily be better with someone as a steward of it. It really felt like Toni and I were the people who were going to bring that home.
+
+Interviewer: Just hypothetically, if you’d sold WordPress at, sorry, Automattic at that time, when Automattic had the WordPress trademarks, what impact do you think that would’ve had on the project?
+
+Mullenweg: Did Automattic still have the WordPress trademarks then?
+
+Interviewer: Yeah, it was-
+
+Mullenweg: I think, I think we had talked about spinning it out as part of the sale.
+
+Interviewer: Right.
+
+Mullenweg: So there were actually a few things. The, the people who were interested were really just interested in WordPress.com, so if we had done it we would’ve spun out Akismet as well so, and kept that as its own business. And it, it was, it was always very clear, like all the, you know .org belonged to me personally, Ping-o-matic, all these things were, were never on the table if Automattic was sold. So that, that was, it’s, it’s like not that it wasn’t a concern at all, but it was I think on both sides of the table we were on the same… If we had done the deal, I am confident that, that things would’ve been okay on the .org side as well. Just the way things were structured and the way we talked about it. Again that was my first hat.
+
+Interviewer: So this is something that comes up again and again, why is Akismet bundled with Core?
+
+Mullenweg: Yeah so, I’m about to send you a link that’s going to blow your mind.
+
+Interviewer: Okay.
+
+Mullenweg: This is apparently the page where you can purchase, the Automattic Support Network is still up.
+
+Interviewer: Page not found.
+
+Mullenweg: Oh that, that doesn’t work for you?
+
+Interviewer: No, it says page not found.
+
+Mullenweg: Oh it must be because I’m logged in.
+
+Interviewer: Yep.
+
+Mullenweg: I’ll send you a, a screenshot though.
+
+Interviewer: Sure.
+
+Mullenweg: Obviously it has the, the newer Chrome but this is the [01:21:00], I can’t believe this is still even, this code is still running. So that’s the 2500 per contact, or 5000 per contact.
+
+Interviewer: Oh, nice.
+
+Mullenweg: Why was Akismet bundled with Core, because anti-spam was one of the big differentiators that got people to adopt WordPress over Movable Type. And because Akismet was well and still is the honour system essentially, so pretty much everyone uses it for free even if they should be paying. It was kind of like a loss leader, that by doing this we could get people actually switching from Movable Type just for the better anti-spam and I believed then and I actually still believe today that there is no better web anti-spam system in the world, and if you just think of it from a user point of view, which you know you’re really good at because you do a lot of user design, like how terrible is it to start a new thing, like a blog, and the next thing you know there’s like porn, and spam, and like all this gross stuff, and at the time spam was really gross, like it was really niche, like beasts, you know animals, and like all sorts of stuff involved. That’s a terrible user experience. And, and everything we had tried before for anti-spam, both in Core and in plugins hadn’t worked. And Akismet just kept on working.
+
+Interviewer: What proportion of your business, of Automattic’s business, is made up from Akismet sales? Any idea?
+
+Mullenweg: That’s a good question. Less than 10%. So that’s a-
+
+Interviewer: That’s still pretty good.
+
+Mullenweg: Yeah. It’s a, it’s a really good service. And it’s not just used by WordPress users either, I mean I think that’s a testament to its, it’s quality. It’s used by big companies including some I can’t name because of agreements, but it’s used on forums for, I think I can talk about this one, I think, I want to say Electronic Arts, it might be Blizzard or Electronic Arts, one of these gaming companies uses it for their forums. Lots of other web services use it, lots of co-, you know competitors to Automattic use it. And actually Typepad uses it now. So there’s that.
+
+Interviewer: That’s funny. That’s good.
+
+Mullenweg: It’s kind of, it’s kind of everyone. That’s actually an interesting aside in the sort of Six Apart versus Automattic history, was they launched a clone of Akismet that duplicated the API perfectly. And it was free. It’s called TypePad AntiSpam. And I think that, what they thought at the time, they didn’t know that Akismet was such a small part of our revenue, they thought it was like the majority or all of our revenue. And so they, they thought if they could give it away for free they would essentially kneecap us. At least that’s my interpretation of what they thought, maybe they didn’t, but like I was, the way they marketed it, and they like made a WordPress plugin for it and everything like that so, that was actually [01:24:00] a very savvy move.
+
+Interviewer: It’s still there. It hasn’t been updated in over two years. 
+
+Mullenweg: They open sourced it too, so they kind of used our playbook against us, really. We’re going to commoditise and open source this and, and then you know, see what happens.
+
+Interviewer: But did they have any access to the sort of, what you call the secret sauce of Akismet?
+
+Mullenweg: No, no-one does.
+
+Interviewer: Exactly.
+
+Mullenweg: But I think they based theirs on, what’s it, SpamAssassin. So they were, you know, Six Apart was always Perl guys and SpamAssassin was Perl, and so they took some of the things that SpamAssassin does for email, and they applied it to web anti-spam. Which actually you know can get some pretty decent results. Although, I like to joke that if you just said if literally every IPI c-, API call you got, you said yes this is spam, you would be right about 95% of the time. So 95% accuracy you can get literally with one line of code. Just say yes to everything. It’s that kind of last, that last couple of percent that, separates, I don’t know what analogy, I was going to say the mice from the men but I don’t think that’s an actual analogy, so. Separates the, the wheat from the chaff, maybe.
+
+Interviewer: Did you ever consider removing it from Core?
+
+Mullenweg: Yeah, I actually proposed it. 
+
+Interviewer: When was this?
+
+Mullenweg: You’re going to have to dig for this one, because it was at least a few years ago. So I suggested, and maybe it was at one of these, it might have been at the first Core meet up, like the one we did in, one of the ones on Tybee Island, or one of the ones in Austin. I said why don’t we just make a, an anti-spam framework, actually both an anti-spam and a backup framework, and then allow different plugins to plug into it. And then if, if Mollom or TypePad AntiSpam wanted to make, be a service provider, and have a plugin in our directory, we could point to those just alongside Akismet as sort of things you can use as well.  
+
+Interviewer: Is that still on the table?
+
+Mullenweg: Yeah it’s, it’s a little less interesting now because a lot of those services are gone. There was a, a competitor at the time, what were they called. There was an independent company that raised like 5 or 10 million dollars that was also doing an Akismet competitor, there were two of them. And so there were some legitimate like things that were just as good that were competitors to Akismet, and so there was some, there would have been some good alternatives for people. Unfortunately now there are fewer than there used to be.
+
+Interviewer: Yep. What about something like Antispam Bee which, doesn’t it use HTML and CSS to do it, I’m not quite sure how it works?
+
+Mullenweg: In my technical opinion, if something like Antispam Bee were ever put into Core [01:27:00], or made sort of, or more popular than it is today, it would be completely ineffective.
+
+Interviewer: Right.
+
+Mullenweg: So there’s, you know Mark Pilgrim had this great great great essay, where he talked about Lojack versus Club solutions, so the the idea, you know what a Club is, it’s that little like lock you put on your steering wheel? And a Lojack is like a tracking device that you put in your car and that, when it’s stolen, it, they can track it down. So what’s interesting about this is, a Lojack, sorry, a Club, doesn’t actually make your car that much harder to steal. I mean the bad guys, if they can break into your car they can undo this little lock on your steering wheel. But what it does is make your car harder to steal than the one right next to it. And so if you’re a bad guy and you just want to steal any car, not a specific car, you’re going to go for the one that’s easiest. So you’ll go for the one without the Club. Now Lojack what’s interesting is that, in communities where there’s a lot of Lojack devices, car stealing overall goes down, right, because it lets the person steal the car, but then the police go to wherever their hideout is and they bust the guys. So it actually solves the problem of car stealing more generally, even if it doesn’t necessarily prevent your car from being stolen. So a lot of things like the plugins I wrote before, and how Antispam Bee works, they’re Club solutions. It makes your blog harder to spam than the next one. And so they, they actually totally work, as long as not that many people use it. As soon as it’s above a threshold where it’s worth the spammers figuring out what you’re doing, they can and will. Where, anything where, that uses sort of massively, massive data structures and you know sort of the intelligence of, the wisdom of the crowd, to fight spam, is more of a Lojack solution.
+
+Interviewer: Yep, okay. That makes sense. I wanted to talk about the trademarks a little.
+
+Mullenweg: Sure.
+
+Interviewer: So, originally you didn’t register them and then you applied in 2006, one of the threads I’ve been reading around it was when… I’ll just give you the link. There was two sites, wordpressvideos.com and wordpresstutorials.com and you said they were spammy, and the internet marketing community kind of went crazy. I was wondering if you remember this, and why you felt they were spammy? I’m just trying to find the link.
+
+Mullenweg: I don’t remember. But it certainly after Hot Nacho, what’s the, is it the word apostate? 
+
+Interviewer: Apostate is right, yeah.
+
+Mullenweg: Where you convert and then you become like ultra zealous. 
+
+Interviewer: Yep.
+
+Mullenweg: So I, I made the anti-spam mistake, and, [01:30:00] and since then I have been one of the loudest and largest and most fervent battlers of web spam. This is why Matt Cutts recommends WordPress.com. We’re kindred spirits in like trying to clean up the web, and we, almost to the detriment of our, our numbers to be honest, you know we’re very very aggressive against spam on WordPress.com.
+
+Interviewer: Yep. So I got in touch with one of the guys, Sherman Hu, who ran one of the sites WordPressTutorials, and you guys came to some sort of agreement with him whereby he could continue to use the name WordPress in the domain. I was wondering-
+
+Mullenweg: Really?
+
+Interviewer: Yep. He said- 
+
+Mullenweg: Don’t, don’t remember that at all. Is it still around?
+
+Interviewer: Ah no it’s not, he took, he finished it in 2008. It was running until then. So 2 years after the trademark discussions.
+
+Mullenweg: I feel like our domain policy came after the trademark stuff. 
+
+Interviewer: Right, okay.
+
+Mullenweg: Do you know when?
+
+Interviewer: The domain policy was, even before the trademarks you were talking-
+
+Mullenweg: I was.
+
+Interviewer: When people asked you, you said please don’t use WordPress in your domain, and then shortly after that you applied for the trademarks. No actually the month before, February 2006, was when the domain policy went on WordPress.org.
+
+Mullenweg: Huh, cool. I, you know, you know how sometimes marketing stuff can appear somewhat overly promotional or like, like an infomercial? Sometimes I used the word spammy to describe that.
+
+Interviewer: Yep, yep. Yeah that didn’t go down too well. But yeah. I was just wondering if, if anyone, if you’d allowed anyone else to continue to use the, the WordPress domain name? WordPress in their domain name?
+
+Mullenweg: I think the things that we list on the domain page are the exceptions, so it’s .org, .com, .net, and the WordPress Foundation.
+
+Interviewer: Okay.
+
+Mullenweg: There were some official things, like there was I think WordPress Plugins became WP Plugins, and that was actually kind of the official plugin directory for a while. There was a theme site that became, I feel like there was a WP Themes as well, so. Just WP became the convention.
+
+Interviewer: Was it always your intention to transfer the trademarks to the Foundation? Or a foundation?
+
+Mullenweg: Yes. 
+
+Interviewer: And what’s-
+
+Mullenweg: Well actually, not from the very beginning. At the very very beginning the counsel I got, which was it turns out wrong, but they said the best way to protect it, is to have it in the company.
+
+Interviewer: And who gave [01:33:00] you that counsel?
+
+Mullenweg: The early lawyers I had hired to help me set up Automattic and everything.
+
+Interviewer: Okay. So what was the intention of the Foundation?
+
+Mullenweg: To basically be like a counterbalance to Automattic in a lot of ways. So that even if, I knew that always if Toni or I were running Automattic, the company would do the right thing. Or at least what I consider the right thing, which might not be what everyone considers the right thing, but I was most concerned about what I considered the right thing. So I knew that that would always happen. But I wanted to create a structure whereby a independent actor, acting only in his or her economic self-interest, would run Automattic in the same way that Toni or I would. 
+
+Interviewer: Okay. So you think the Foundation sort of checks and balances?
+
+Mullenweg: Yeah, so I think that, like let’s say, I was not at Automattic anymore. Or let’s say Evil Co ran Automattic, and Evil Co only cares about making money. The balance between WordPress.org and the WordPress Foundation and WordPress.com is such that I think even Evil Co would do the right thing with regards to the community and the code and everything. If you want, I mean there’s a tonne of loopholes. Like obviously, none of the code we write on WordPress.com needs to be shared, because it’s, it’s a service, it’s not actually distributed, in the definition of the G, of the GPL. But, it’s the right thing for us to share that and give that all back to WordPress, so. How do you make it so, someone else will make that decision as well? And I think we found a cool hack for it, like it’s not perfect, and it could be better but it’s, it’s the best thing I’ve seen so far.
+
+Interviewer: Yeah when I spoke to Mike Adams he said that he would like if more of the code in Automattic was open source and he said that’s quite a, a common feeling in the company. I was wondering if you felt that too and if there was anything you’d like to open source that’s just currently, isn’t possible?
+
+Mullenweg: Yeah we take a sort of philosophy of open source everything. I think the quote that’s on our field guide is you can publish anything except our password files. And we’ve accidentally published our password files a time or two as well, so. Yeah I think there always is more but where it gets tricky is that, well, A; sometimes for some things that could be in Core, there’s a process that you have to go through for something to be in Core. I mean, obviously we don’t just wave, Automattic doesn’t get like say on what’s in the Core software or not. We’re a contributor just like anyone else. For other things, other parts of the software, [01:36:00] sometimes it’s just a clean up thing, you know, there’s an extra 20 or 30% of effort that needs to be done before something is abstracted enough to be standalone. Or has its own website, or just sort of fits out there in the world as its own thing. And when you’re moving really really quickly, and really fast, and just going at, sometimes it’s hard to find the time to do that.
+
+Interviewer: Why did it take so long to set the Foundation up?
+
+Mullenweg: Why did it take so long to set the Foundation up. Lots of reasons, I think we changed lawyers a few times in there, what else. There was some pending trademark stuff. I needed leverage within Automattic to be able to transfer, because I basically had to get Automattic, which was more than just me, to agree to transfer one of the most valuable assets out of the company.
+
+Interviewer: Yep. People pushed back against it?
+
+Mullenweg: I think it was a good conversation, I mean think of it this way, it would be like if I said hey, give me 30 million dollars for this thing. And I said hey, actually the most valuable part of this thing, I’m going to move to something else that I control.
+
+Interviewer: Yep.
+
+Mullenweg: That you don’t, that you don’t have no ownership over or anything. 
+
+Interviewer: Yep. And when I spoke to Phil Black, he said that from the beginning he understood that the trademarks would be going somewhere else. Do you think that was clear to all the investors?
+
+Mullenweg: The, the trademark would be going to what?
+
+Interviewer: The Foundation. Eventually.
+
+Mullenweg: Yes, because we had talked about it from the beginning. But then at some point it was like four years later, and it was a, it was a fresh discussion.
+
+Interviewer: Yep. Fair enough.
+
+Mullenweg: But it wouldn’t have happened without the support of Phil and Mike and Toni and Tony Conrad, I mean the Automattic board of directors deserves huge kudos there, for making what I think is, was a difficult decision, and I don’t think most other boards or companies would do in a million years. But was ultimately the best thing in the very long term for Automattic, and obviously the best thing in the short and long term for WordPress. I think it speaks to that I was very very lucky in finding the investors we did.
+
+Interviewer: Yep. How do you decide what goes in the Foundation, and what goes in Automattic?
+
+Mullenweg: Well the Foundation is set up to not really have anything in it right now, it’s, it’s set up to be as low load as possible. Meaning as few costs, as few overheads, everything as possible. This is from a few things. Oh yeah there was another thing why the Foundation took so long. Went back and forth with the IRS a tonne. If you look at the applications [01:39:00] for the Foundation they go back a few years. When we announced this, when we actually got the 5013C status, which took years longer than I thought it would. In the process, figured out that non profits are a huge pain in the butt, and I don’t know if I would ever do this again. I think it’s sometimes cleaner to have a non non profit structure, like a for profit structure, that just perhaps has a, a charter, or a articles of incorporation, or a board structure which has the same intention of a non profit. The only benefit of a non profit and the reason the IRS pays attention to it is that the money that goes into it is deductible.  But that really wasn’t our primary goal, you know. Honestly at the end of the day it doesn’t matter whether you can deduct a donation to the Foundation or not. It’s unimportant. What’s important is that the longer than I’m alive, longer than Automattic is alive, longer than any of us are alive, there is something that holds the WordPress code and trademark for the free access for the world.
+
+Interviewer: Yep. Are the applications public record?
+
+Mullenweg: I believe they are, yeah. All that sort of IRS stuff is public so you should be able to find it all. I don’t know if the applications that were denied are public record, but certainly the one we ended up going with. That’s why the Foundation, if you look at its charter, it’s an educational charter. The actual thing which the Foundation was most important to me, which was holding the copyrights and the trademark, is not a legitimate non profit activity. So that’s why we shifted it to be about educating people, publishing, coding, and using WordPress.
+
+Interviewer: Why were your first applications rejected?
+
+Mullenweg: I don’t remember exactly. I, I think the IRS had no idea what code was. They’re also rightly sceptical because you know sometimes people try to create like, tax avoidance things, like they create a company, and they create a non profit, and try to funnel a bunch of stuff to the non profit so they don’t pay taxes on it. So that’s what this system is kind of designed to protect against.
+
+Interviewer: Yep.
+
+Mullenweg: And since there’s obviously a company that has WordPress.com, and that I am also involved with, that was something that I think they were worried about. And you can’t just say as, I can say to you, like I really don’t care about taxes at all. 
+
+Interviewer: Yep. So why did you set up Audrey?
+
+Mullenweg: Set up Audrey for a few reasons. One, to, I’d say first, to house these investments I was making in companies, you know, try to pay it forward in terms of [01:42:00] just like I got a tonne of help when I moved out to San Francisco and started a company, I wanted to pay that forward to other entrepreneurs. Two, I was finding I had less time to code personally, but I still had a lot of things I wanted to do, and so the idea of hiring some coders that could do things that I didn’t have time any, for any more was really really attractive. And then also third, to provide a balance of people contributing to WordPress that weren’t employed by Automattic. So the idea was to kind of have, at the time, I don’t remember what year this was but like, let’s say let’s have five people at Automattic working on WordPress Core, five people at Audrey working on WordPress dot Core, and then I’ll try to get the different web hosts to each hire a person or two each, and so there’ll be, you know between the three kind of fifteen-ish people, full time on WordPress.org. 
+
+Interviewer: Okay, my next question was to ask you what the difference between the .org team at Automattic was, is, and the team at Audrey, but I guess you’ve just answered that.
+
+Mullenweg: Yeah, the advantage of the .org team, is that it honestly, and you work at Audrey so you realise this, they get the benefit of a lot of the structure that exists at Automattic. So you know infrastructure, performance reviews, all those sorts of things. And so it’s a lot more cohesive as a team, than I think we’ve been able to build at Audrey so far.
+
+Interviewer: So before we finish, I just wanted to talk a little bit about Jetpack. So where did the idea for Jetpack come from?
+
+Mullenweg: Sure, the idea behind - actually can we pause for one sec?
+
+Interviewer: Sure no problem.
+
+Mullenweg: I might have to run in a second.
+
+Interviewer: Okay.
+
+Mullenweg: So, the, basically in my version of the future, Automattic, WordPress.com doesn’t host, host WordPress sites. I feel like the direction, Moore’s Law, cloud computing, you take all these things to their logical conclusion, it, there will be something that’s just as easy to set up as WordPress.com, but also gives you all the flexibility of .org. Also one of the number one requests we get at WordPress.com is can I have these features for my self-hosted blog. Literally every time we’d launch something the first three comments would be like how do I get this on my blog? Whether it’s community features like tags and search [01:45:00], or connection to social networks, or stats, or anything. We did stats pretty early on. We built stats for both, both .org, .org and .com, and that was really really successful. So the idea with Jetpack, also at the, on the .org site I saw one of the biggest complaints being, well one, there’s no good plugins for some things, like if you want your blog to talk to Facebook, that was a very complex process, like there were plugins for it but you had to like register as a Facebook developer, copy and paste API keys and all this sort of jazz. But two, people’s biggest complaints were about the quality and integration of plugins. And really to do the things that we knew that people wanted, you need 15, 20 plugins. And at that point do they work well with each other, etcetera etcetera. So Jetpack is to create a parity experience. It’s to, sort of give you give you the best of both worlds, let you… I’m ringing, hold on. That you can have the control and flexibility of running your own site, but all the benefits that we give you with WordPress.com. And now I think the Jetpack vision is really starting to be realised, like we launched Related Posts recently which I’m very proud of. You can do related posts on your own database, it means that you’re doing a very expensive query on every page load. And it’s, and it’s honestly not high quality. We run dozens or hundreds of Lucene servers to index content within minutes and can provide a very high quality related post. So that’s just an example of something that, as Automattic, which is really good at building internet scale infrastructure, can just do something better than you’re going to ever be able to do on a 5 dollar web host. And, 5 dollar a month web host. And, and so let’s give you the best of both worlds. And at some point I hope that Jetpack comprises a majority of, or super majority, like 90% of both the usage of WordPress and the, the revenue for Automattic.
+
+Interviewer: Do you ever consider putting any of the modules from Jetpack into WordPress Core?
+
+Mullenweg: I would love for any of the modules in Jetpack to be in WordPress Core. And they are all GPL and open source, and packaged and ready to go. If Core ever wants any of them. And they advocate every now and then for like contact forms, or a few of the things that we know are just super popular. You know the things that are standalone, the things that don’t need a cloud service to run. You know I would happily put those in Core in a second.
+
+Interviewer: Why are some modules active when you activate the plugin, and others aren’t?
+
+Mullenweg: I don’t know. We’re definitely going a direction where kind of everything’s on by default. Some are probably always going to be a little bit niche, like you know LaTeX supports, not everyone does math formulas on their blog. But, [01:48:00] but by and large we want it to be a parity experience, so there should be no difference to running a Jetpack blog and WordPress.com. Like, the media should be the same, the interface should be the same, the features should be the same, and it should be the best blogging and CMS experience in the entire world. And I think this is especially important now that we have much better competitors than we did in the past. You know when you sign up for Wix, or Squarespace or one of these things, like a lot of this, they don’t ask you to worry about anti-spam for example. They don’t tell you how many images you can upload or how much space you have, like they abstract away a lot of the complexity, and they don’t make you jump through a bunch of hoops to make it so when you’re doing a post it goes to Facebook and Twitter. And so if we’re going to compete with these, if we’re going to keep WordPress from becoming PHP-Nuke, you know something that is around but no-one cares about 10 years from now, we need to, we need to win on quality, we need to win on user experience, so it needs to be just as compelling, every bit as compelling, as these completely proprietary hosted services. So, in some ways it’s a stopgap. In my perfect world, I’m a distributed guy, I would love to do every single thing on every single 5 dollar web host in the world. But I’m also practical, it’s just impossible right now. And so in the meantime, we’re going to ride sort of the, the tail end of Moore’s, of Moore’s Law, and do this as a cloud service. And, you know get WordPress from 20% to 40% to 80% of the web, and then you know just open it up as we go along, as the technology or processing power or capacity enables us to. 
+
+Interviewer: Why is it that some of the modules that don’t require a connection to WordPress.com, like after the deadline, which previously was standalone, why do they now need a connection?
+
+Mullenweg: Terms of service after the deadline is a, is a remote API call to a service we run, same thing for Photon. 
+
+Interviewer: What about things like Galleries, Carousel, things like that?
+
+Mullenweg: So those are completely standalone, and you can run Jetpack in debug mode, and run those without their connection. We just found that it was confusing from a user experience point of view, to have some things that were available and some things that weren’t. And it felt almost like a bait and switch. Like honestly if you’re not connected, you shouldn’t be running Jetpack. Run, run one of the other standalone plugins that does a couple of these things. Jetpack really kicks in when it’s connected to the cloud and, and also the vast majority of the services do require a cloud, cloud connection. Sort of, the rule of thumb for me is like, if it’s ever more than a third, which are available independently, like we’ll evaluate our stance, but it’s something like it’s, it’s like 10% or something.
+
+Interviewer: Does Jetpack collect data from self-hosted [01:51:00] WordPress sites?
+
+Mullenweg: Yeah so when you hook up your blog it, it puts your content and everything in the cloud as well. So like the way that we index the blog posts and do related posts, that’s because we have a copy of all the blog posts and we’re able to put that in the search index. So, think of it like all the data belongs to you but it’s also being married in a way that we can, you know today, do things like related posts, and search, and video transcoding and all the other cool stuff that we do. And tomorrow maybe can even do like lightweight, lightweight blog migration, or lightweight backup or something like that. 
+
+Interviewer: One of the things I was reading about in relation to WordPress stats, was there was a Quantcast script introduced at some point, what was the script introduced for?
+
+Mullenweg: So we used Quantcast to count uniques, because WordPress stats could count pages but not uniques, and, and so that was, it’s been in there almost since, I think since Quantcast started, like 2006, 2007. There was lots of conspiracy theories around this, none of them are true. We did remove it, I don’t remember when, a few months ago probably, partially because we now have the ability to do uniques in house, like we can do those, that processing ourself now. And two, because Quantcast business model has shifted more towards advertising, so it wasn’t something I was as comfortable with having on everyone’s blog. I super duper have to run and we’re at 2 hours, this is the longest one.
+
+Interviewer: It’s a long one, yep. Okay, that’s, you’ve answered all my questions anyway.
+
+Mullenweg: I’m happy to answer more later, I just, I’ve got to run.
+
+Interviewer: That’s okay we can schedule another day, thanks Matt.
+
+Mullenweg: Not a problem.
+
+Interviewer: Have a good evening. Bye.
+
+
+
+

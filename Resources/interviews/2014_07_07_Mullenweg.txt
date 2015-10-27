@@ -1,0 +1,568 @@
+﻿
+Interviewer: [00:00:00] All right so this is the seventh of July, I'm talking to Matt Mullenweg. Hi Matt. 
+
+Mullenweg: [00:00:04] You should say what year it is.
+
+Interviewer: [00:00:06] 2014.
+
+Mullenweg: [00:00:09] You know this is for the ages.
+
+Interviewer: [00:00:11] Yeah that's true, so I want to talk to you today about the development process. And we'll start out with the very early days, can you tell me how the project was structured right back in the beginning?
+
+Mullenweg: [00:00:24] To be honest I don't recall as much like it was pretty informal. Everyone was just doing everything. I did support, documentation, websites, web tracking, everything, and so did Mike and the other people who were involved.
+
+Interviewer: [00:00:42] When did you move from CVS to SVN?
+
+Mullenweg: [00:00:47] That's a good question, it's probably in the archives. I don't recall. 
+
+Interviewer: [00:00:51] I was supposed to ask you why, why did you move from CVS to SVN?
+
+Mullenweg: [00:00:54] Oh why, I thought you said when sorry, why? SVN was a lot more sort of elegant in how it stored files, a lot of operations over HTTP, the tools around that were better. It just felt a lot more modern. Sort of not dissimilar to today how people look at SVN and Git. It was just a, a tool that was, felt more like how we wanted to work, especially how it was native to the web. And, but it wasn't supposed by SourceForge, that's what sort of predicated the move away from SourceForge.
+
+Interviewer: [00:01:37] I see, that makes sense. Do you remember what software you set the forums up on originally?
+
+Mullenweg: [00:01:45] I believe it was called MiniBB, that what you found?
+
+Interviewer: [00:01:50] I couldn't find a name for it. I just found that you had moved off of it, so I was trying to figure out the other day which, which software it was.
+
+Mullenweg: [00:01:59] I believe we went from MiniBB to, well mailing list always, but from MiniBB to bbPress . And the cool thing about that initial switch is that when I wrote the bbPress  software it used the same database structures at MiniBB. So it was able to be, I was able to run like essentially new software talking to the same database. So it was a very easy migration.
+ 
+Interviewer: [00:02:29] Okay, what was wrong with the MiniBB software?
+
+Mullenweg: [00:02:33] Well first and foremost it wasn't standards compliant. So when I first adopted it and spent you know, many countless hours just going through every line and manual hacking the PHP to all be standards compliant, and used a CSS layout instead of table based. And, but other than that it had some very nice features, it was very simple, very fast, but at the point when we switched I felt like I had been working on WordPress for a year, year and a half. And I think it was, it might have been the Christmas I didn't go home. I stayed in San Francisco one, one holiday, which I will always regret because it was, it was the only time there has been a white Christmas in Houston in my lifetime. And also it was one of the last Christmases my, I think the last Christmas my grandmother was alive. But I ended up staying in San Francisco, partially because I didn't have enough money for a plane ticket home. But I didn't want to tell my mom I didn't have enough money [00:03:33] for a plane ticket home, and it was kind of cold and rainy in San Francisco. And I ended up just coding pretty much the whole time, and, but had learned a lot from WordPress and so wanted to build like a, a from scratch really clean forum system. So in many ways for its time I felt like bbPress was much much cleaner and was in fact faster than WordPress cause it had no legacy code from V2 or anything like that. It was kind of built from the ground up with the idea of filters and hooks and all the story of mechanisms in, in WordPress. So I mean it was simple, but I was very very proud of it. Probably more proud of it than even WordPress because WordPress was of course a fork where bbPress was from scratch.
+
+Interviewer: [00:04:16] It wasn't originally a plugin is that correct?
+
+Mullenweg: [00:04:19] No it wasn't a plugin at all, it was, it was meant to be completely stand alone. So this was, and it had its own templating system etcetera. This was before WordPress started doing everything. WordPress was really more blogging software, and even I was not yet thinking of it yet as a thing that everything else should plug into. And then we had the board and middle attempts trying to do BackPress, you know, the idea that you know, bbPress and WordPress could use the same sort of backend framework, and  actually could use the same backend framework called BackPress, which what you're talking about the user system, plugins, filters, formatting, you know, authentication things like that, but never really took off.
+
+Interviewer: [00:05:05] Yeah, when did, when did BackPress appear? I've heard some mentions of it but no one has really talked about it all that much.
+
+Mullenweg: [00:05:12] Oh really? Probably because we're embarrassed. Who has worked on BackPress? Westi has worked on BackPress, Nikolay certainly, myself, Sam Bauer, who is a former Automattician who was a lead bbPress guy. We've all worked on it because, and Andy Peatling as well. It seemed like, it seemed like something that would be a cool idea, but because we never put WordPress itself on BackPress there as sort of a level of abstraction that didn't really make sense. And WordPress got better at being everything faster than BackPress sort of got better at being an abstraction layer we ourselves would want to use. So I believe that bbPress used it for a few years. Now that code is gone. bbPress is much better as a plugin now. It loses some of its speed and simplicity, but it just makes it up in sort of template integrations, and integration of WordPress, which is far more important. 
+
+Interviewer: [00:06:12] So do you think the way that people are now using WordPress to build applications off was that the original intention for BackPress?
+
+Mullenweg: [00:06:21] It was, yeah. BackPress was meant to be an application framework.
+
+Interviewer: [00:06:26] Okay, okay so why didn't it take off? Why are you guys embarrassed?
+
+Mullenweg: [00:06:33] Oh, I think you know, there is, I talked about BackPress I some state of the words, so that would be a good place to find it. It would definitely be post Automatic, I don't remember which year, but it's in a couple of them. Maybe in like the early, maybe even like the first one at the Swedish American Home. The, why didn't it take off? Because we didn't use it ourselves. It's actually I think similar to what's going on with the API discussions right now in WordPress, where I am like a 200 percent believer in that we should make WordPress 100 percent API driven. And it's in fact how basically all new development at Automatic is working as well, but what I've learned in that process is that until you use it yourself you can't have an API first. I mean you do, do the API first, but until you actually write the application on top of it you can never perfectly predict all the calls and all the ways that you will use it. So you really build that first API to throw out, and, [00:07:33] and then it's really the second or third ones that you should ship to the world. And I think BackPress was the same way, like we, we kind of built that for, we didn't intend it at the time, but that first one we ended up throwing out. But it informed some things in WordPress that made WordPress easier to use as an application platform that people are now reaping the benefits of today. So even though the actual BackPress name and code base is dead the spirit of it very much goes on in WordPress, and I think is kind of the genesis of this third wave that WordPress is going through right now.
+
+Interviewer: [00:08:06] How does that fit with what you said in your 1.0 is the loneliest number essay, about shipping, shipping early, getting things out? Not, what you just said about the APIs was you, you build your first version and then you chuck it away, and then you use the second or third version. 
+
+Mullenweg: [00:08:23] Yeah well you release it, and you start using it. So you know, I talk about usage is oxygen for ideas, so I think that the APIs need to be pretty widely used. Not before they're released, but before they're in core, which I guess is a version of release but doesn't necessarily mean they're being iterated on in private. So it's very much in line with the idea that if it's only you using it, it's probably not that useful, and you'll never correctly anticipate. And so you really need lots of users to have I think a, an API that can stand the test of time. And we've seen this yeah you know, I've seen in some of your previous interviews like how we now [BMO ?] and the taxonomies or Query API or you know, any of the parts of WordPress that we look at now are like ah, I wish that was written differently. I know you have a question you ask people like what do you regret in the code or something like that? Now it's a very important to remember especially obviously if you go back and look at those old track tickets or mailing list that [00:09:23] at the time we thought that was the best thing in the world. So it's easy to forget that, that you know, someone just as confident as we are today about something that was shipping felt that way about the things that we look at now and, and you know, cringe a little bit. So it's, it's, it's a kind of humility that's, so it's very easy to forget.
+
+Interviewer: [00:09:52] Yeah I, I mean I think that's something that people talk about quite a lot is that they say that they're very confident about something and then they, on hindsight they've changed their mind. And that, that's true of everything in life. Do you recall something you might have to dig up a record for when the first IRC chat room was set up?
+
+Mullenweg: [00:10:17] Oh it would have been like the first day because I was Free Node already on other channels, and I believe that there was a cafelog IRC channel as well. So you know, as soon as we had a name we had a, a I guess you'd call it hash tag WordPress now, but at the time it was bound WordPress so yeah almost from the very beginning.
+
+Interviewer: [00:10:40] And did you just contact freenode and they set it up for you, is that how it works?
+
+Mullenweg: [00:10:45] You don't need to, so when you join a channel in freenode if it doesn't already exist it just creates it. So then you just type join, pound, WordPress and you're in it, it's great.
+
+Interviewer: [00:10:56] Okay, so one of the things very early on was these discussions about having a public developer mailing list before WPHackers was set up. And one of the things that you wrote on the thread was that you preferred a, using the forums instead of a mailing list, I was wondering why, why you had that preference for forums.
+
+Mullenweg: [00:11:20] That's a good question. I also have a vague recollection of a private developer mailing list, like a WPDev or something like that.
+
+Interviewer: [00:11:28] Yeah there was a private mailing list as well that you talk about on this thread let me just send you it. Here you go.
+
+Mullenweg: [00:11:38] I'll take a look.... Development culture at WP, ten years ago. 
+
+
+Interviewer: [00:11:53] I know. 
+Mullenweg: [00:11:57] Oh yeah so there was a private development list. Oh...it's nice, it talks about code as poetry.... [In a forum Mike is the only one there, ?] that's actually pretty funny. So the things, you know, it's really all in that second paragraph that I still agree with. [00:12:57] I guess at the time there was, you didn't have to register to post on the forum, so you could just use a name. And, and you didn't even need to you know, register an account, and I really loved how they were archived and searchable versus our mailing list. Which as you've seen like you ran into some of the old mailing lists being inaccessible where this forum thread from ten years ago still is there. I just like the format of forums a lot better, and I did, I was really into RSS a the time. So I followed the forums via RSS. There I a feature in, it might still even be in bbPress where you can get literally every single post as an RSS feed, and you can subscribe to individual threads. So actually in my Google Reader before they shutdown I still had some RSS threads I was following. 
+
+Interviewer: [00:13:48] What changed your mind? Why did you set up WPHackers?
+
+Mullenweg: [00:13:57] I don't know. 
+
+Interviewer: [00:14:01] Do you think it was a good decision to set it up?
+
+Mullenweg: [00:14:08] I think that, sure. I mean lots of really good discussions happened from there. I think it might have just been giving into the fact that we had a private list and we found it really useful, so thinking that a public list could also be just as useful. And the down side, which I've spoken many times about before, is that mailing lists often sort of encourages a certain type of discussion. Even the thing which, you know, I'm, I've done just as much as anyone else in the world, which is where you sort of reply sentence by sentence, you know, in line replies is, is I think a style of conversation that tends to put people a little bit on the defensive. And mailing lists sort of infamous for being sort of flame friendly right, like often people dig in their positions and it's, it becomes a little less collaborative. I think forums just have a different tenor. To be honest trac can sometimes have some of that same a little more combative style. You know, [00:15:08] just even think of the keyword wontfix. You know, like if you, you know, spent like an hour writing a bug fix and then someone just comes through and says won't fix and doesn't really talk about it, that's a not very good user experience. 
+
+Interviewer: [00:15:25] Why do developers seem to like Trac for communication?
+
+Mullenweg: [00:15:29] Well you know, we didn't originally use Trac, we used Mantis. We switched to Trac because the SVN integration was super slick, and I had a script that I ran on the early TextDrive server I could create a new, basically I had it scripted to create a new trac instance. So we created trac instances for everything. I even set up trac instances for like my own personal accounts. I think it was just sort of the, the best bug tracking software out there at the time. It was really nice to be able to mention how you can cross refer between tickets, and, and commits and everything. It had the integrated SVN browser, which was quite nice, all of it was pretty good. Only downside was it wasn't written in a language that all of us wrote, and in fact until even today Trac was largely unchanged until some of the recent improvements that Nacin made.
+
+Interviewer: [00:16:27] What language is it written in?
+
+Mullenweg: [00:16:29] Python.
+
+Interviewer: [00:16:30] Okay, all right yeah that does make it difficult for a PHP community. When did you have to adopt a method of using Trac for bugs and then like uploading patches for discussion, and then having that discussion on Track? Did that evolve organically? Is that something you were like this is what we're going to do now?
+
+Mullenweg: [00:16:49] I think it evolved organically, probably around the time that Ryan joined. You know, I think that you know, Ryan and I'll give Ryan credit for this because I don't remember talking about it with anyone else, but really turned me on to sort of the, the Linux kernel style developments. Which is probably why we started doing more mailing list and, and became more of a patch-centered development process.
+
+Interviewer: [00:17:18] Yeah, in that forum thread that I just posted you he's the person talking about wanting a development mailing list the most.
+
+Mullenweg: [00:17:26] Oh really, huh?
+
+Interviewer: [00:17:27] Yeah, and everybody else is like no we don't want one. He's like you should have one. 
+
+Mullenweg: [00:17:31] I guess Ryan wore me down.
+
+Interviewer: [00:17:33] Yeah, sounds like Ryan. 
+
+Mullenweg: [00:17:36] You know that he's one of those guys that he came in very much just by the dint of his contributions. And I think, I might have even said it in the announcement post, like I got tired of replying back to him so we just gave him commit.
+
+Interviewer: [00:17:47] Yeah that seems to happen, that seems to be how people get commit. They just do lots and then, and then they get it. They get one.
+
+Mullenweg: [00:17:55] Yeah, I, I don't think that that's a bad method, although now I think that we should just give commit to almost everybody.
+
+Interviewer: [00:18:03] Almost everybody?
+
+Mullenweg: [00:18:05] Yeah.
+
+Interviewer: [00:18:07] Why is that?
+
+Mullenweg: [00:18:09] Well like have hundreds and hundreds of committers as opposed to dozens.
+
+Interviewer: [00:18:12] Why do you want to have hundreds and hundreds of committers?
+
+Mullenweg: [00:18:17] Because I think that the beauty of source control is that it's you can always roll things back. And I think that you know, we have over 3,400 open trac tickets for example in WordPress. And I think we could develop a culture of testing, and, and sort of post-commit review versus pre-commit review that would increase the speed and, and sort of participation on the WordPress core project. 
+
+Interviewer: [00:18:50] So this is quite different to how it was when it was just you and Ryan with commit access. In fact that was quite drastically different, why have you changed your mind from having this, this funnel to having a sort of open commit policy?
+
+Mullenweg: [00:19:09] I think because I've done it the other way, and not everyone in the WordPress Core Team agrees with this. That's a pretty controversial topic. I think that you can have, right now it's the people who have the most, most, most time who get commit. And they just participate a ton and you kind of wear it down, that's what I just said about how Ryan got in. But I think there is lots of people who could contribute in more specialized areas, or more casually but still create a lot of value. And having their sort of name on the commit I think generates a lot of pride and also a lot of ownership. That when you can go back and do an SVN blame, like let's say there is a, let's make up a guy named Robert and say that he had commit. You know, he's sort of taking responsibility for everything that he brings into the code base, and certainly now running a [00:20:09] company with you know, probably close to 200 people that have commit now I see how it can work really really well. And you still get the advantages of things being reviewed and stuff like that, you just scale it more horizontally rather than sort of increasing the bandwidth of this bottleneck in the middle. Cause ultimately there is only 24 hours in the day and only so much that a single person or even a group of people can do. And there is a cycle often where people go from developing to being mostly reviewers, and I think that both of those responsibilities could be spread a lot more. And this was also the idea behind the you know, feature plugins that I think we did pretty well on 3.8 but that we haven't, like currently 4.0 doesn't have anything slated for 4.0 that's being developed as a plugin right now. But it's something I'd like for us to get back to more, that it's very very powerful [00:21:09] to have like we did in MP6 have lots and lots of people committing and involved in the process. Yeah, I guess [MP6 ?] is one of the other things that changed my mind on this. Well my mind changed before MP6, and MP6 was me trying to show the WordPress community that it could work really well.
+
+Interviewer: [00:21:24] Yeah, can, going back in time, can you tell me how the funnel worked and where you got that idea from?
+
+Mullenweg: [00:21:32] What's the funnel?
+
+Interviewer: [00:21:34] The funnel is Ryan and you, this is, well that's how Ryan describes it. He says that there is a, people submit patches and they go through the funnel, which is, means they're reviewed by your or Ryan before they're committed.
+
+Mullenweg: [00:21:47] Yeah that's how the Linux kernel works, yeah.
+
+Interviewer: [00:21:51] Did you think it was effective at the time?
+
+Mullenweg: [00:21:54] Well it's worth noting that we only adopted part of how the Linux kernel works. The Linux kernel has a number of maintainers that have their own sort of versions of the kernel. You could, and then things going to some of those before they go into the main branch, so we kind of did half of it without having the other half. Like there is not like a, a Ryan version of WordPress, and a Matt version of WordPress, and an Andy version of WordPress that has like different sets of features and patches included, nor should there by the way. We don't need to. We have this really robust plugin system that can get a lot of those benefits without necessarily having to have that overhead or cost.
+
+Interviewer: [00:22:30] Yeah there seems to have been a lot of attempts to widen the funnel so to speak, to add more committers. That people were often asking to have more commit access added, but often it didn't happen. So I was wondering how you decided who got commit access. I'm thinking about sort of around the time of 2.0 to 2.7, 2.8.
+
+Mullenweg: [00:22:56] I would say in the past few years for sure it's more of a consensus with the current lead developers. So we talk about a person and sometimes people would express you know, various reservations, and that would determine how and when someone got commit.
+ 
+Interviewer: [00:23:15] What about in the earlier days when it was just you and Ryan?
+
+Mullenweg: [00:23:21] It was probably just me and Ryan chatting.
+
+Interviewer: [00:23:23] Yeah, so why did you have only two committers for so long?
+
+Mullenweg: [00:23:29] Yeah, I don't really recall.
+
+Interviewer: [00:23:32] Okay, and why did you decide to add Mark and Peter?
+
+Mullenweg: [00:23:41] I remember Mark was doing some really excellent work, Peter as well. It was just one of those things where probably why it was Ryan and I for a while is cause we were able to, you know, and we felt like we were keeping the, Ryan and I are super aligned philosophically, actually to this day even we still have conversations where I'm like man this is like my soul brother. And, and so you could almost think of us, but we have different strengths coding wise as well. Like he was more of the backend and I was more of the sort of user facing side, and so we were just as, working as a duo able to get through a lot of stuff and sort of function almost as like a single unit. But ultimately you know, we were falling behind or felt like more people could get involved, and there were folks who were doing really excellent work. So I remember having a lot of discussions with him about opening it up, and, and advocating for it. But at the time it was probably still more in the mindset where we'd have like call it five to ten [00:24:41] people total as committers, not in the sort of hundreds and hundreds sort of radically open commit.
+
+Interviewer: [00:24:49] So why were Mark and Peter made lead developers?
+
+Mullenweg: [00:24:54] If I recall correctly they were sort of the top community contributors as well. Like both in the code but also from sort of a, a forums and a support, and blogging about WordPress and kind of everything point of view. They were doing all the stuff that Ryan and I were.
+
+Interviewer: [00:25:12] So what differentiates a lead developer from a committer?
+
+Mullenweg: [00:25:16] So that's something that sort of came up later, nothing in the beginning. Later around the time like Jen got involved there began to be a lot more of sort of different levels of commit access, which had different sort of connotations, like a release lead versus a trial commit versus a lead developer versus a committer versus you know, any number of things. But to be completely honest those aren't things that I ever intended to be created, and not all of them were discussed beforehand. 
+
+Interviewer: [00:25:54] Okay, can you give me any examples of ones that weren't discussed beforehand?
+
+Mullenweg: [00:26:03] None of them really stand out in my mind, it's just that personally I like simpler structures. And we ended up where we had kind of like five or six different sort of levels, and, and we'd have conversations like well okay well do we want this person representing the project? Which is an entirely different discussion from you know, are they, do they have good code or not, right? And to me these discussions always felt a little bit academic, cause the truth is everyone involved represents the product, product. So rather than sort of giving someone a halfway thing and saying, okay you have commit access and you can change all the code in WordPress and you know, review peoples' patches and everything like that. But don't, don't talk, don't say you're part of WordPress, or I don't even know what the distinction would be, it gets kind of arbitrary right. And the truth is it would be better if there is some reservation you have for that person representing WordPress, let's say [00:27:03] for example they occasionally flame people. It's better just to talk about that and say hey, you're committing, you're representing WordPress now so flaming people is bad. Don't do that, and talk about why, and understand it, and then just have it be more of a holistic thing. And I think that's I think something that we do a lot better now is where we talk about sort of the things that are expected of everyone who is involved with WordPress. Whether you're a forum volunteer, or a WordCamp speaker, or you know, we sort of recognize that now no matter what your role is you're representing what someone outside of the project sees as a thing called WordPress. And, and so you know, how you act is gonna be reflective on that, and in fact till this day I still sometimes get emails where someone will say hey this forum moderator was really rude to me, or something like that. [00:28:03] And they don't care that they're a volunteer, they don't care that you know, anything, you know, to some extent they have some sort of role within, official role within WordPress so people see them as such as they should. The only place that we really talk about that now is, is I ask folks not to sort of speak to press on behalf of WordPress without checking with me first or just letting me do it instead. But of course writing on blog posts and stuff like that, like sure post whatever you want. But sometimes press gets in touch with one of us and says what is WordPress' position on X?
+
+Interviewer: [00:28:38] Has that happened much in the past?
+
+Mullenweg: [00:28:42] It's really been the past couple of years that I've noticed it. Perhaps because there has just been more political stuff, like the world has woken up to the importance of technology. And so we'll get mainstream press that contacts us, and they will quote whatever we say as WordPress says, X, Y, Z. So that's fine sometimes, I mean sometimes we want to take a stand for example with SOPA and PIPA. And there are certainly other places I think we want to take stands as well, like I've never tried for WordPress to be a neutral brand, like we should stand for certain things. And we believe in certain things, and that might turn some people off politically, and ultimately that you know, we're a platform so people can publish whatever they want on it whether we agree or not. But we do have positions on fairness, and equality, and open source being a good license and all these sorts of things, and we shouldn't be shy. We should stand up for them.
+
+Interviewer: [00:29:37] Have those things that we stand for, have they changed in the past ten years or have they been pretty solid from the start?
+
+Mullenweg: [00:29:45] I certainly think they change and evolve. You know, one of the reasons, I'll just give one example of you know, getting more women involved in coding and sort of all the gender issues that are involved in open source projects, and technology, and management and everything like that. I think it's something I thought about a bit, I mean it's one of the reasons I wanted to bring Jen in on a leadership position, cause it seemed we had all dudes running the place. So yeah, at least having one woman running the place would be a good, a good balance and then hopefully encourage more in the future, which I believe it has. And, and especially when sort of Ryan and Jen took the two halves of the job that I used to do, sort of Ryan on the lead developer side like and Jen on the lead community side, you know, that was very much a even and equal role. I mean those are sort of equally important [00:30:45] in the world, WordPress is not really anything without both of them working in concert. And then Jen of course has a long background in these issues, and brought a lot of that thinking to the project and also [unlike me hugely ?] in how to think of this. And you know, her work to this day where we, we did the workshops and supports organizations like AdaCamp and things like that, Girls Who Code, it's influenced even my personal philantro--
+
+Interviewer: [Talks over] [00:31:15] Philanthropy?
+
+Mullenweg: [00:31:17] --philanthropy and, and giving.
+
+Interviewer: [00:31:21] I see, I found the WPHackers thread from I think it was around 2005 where you ask why are there not more women involved on the mailing list?
+
+Mullenweg: [00:31:30] Really? I bet, if I read that today I'd probably be embarrassed, to be honest you know, even looking back at my younger self, you know, when I was in elementary or middle school and used to do things like I'm gonna feel bad even saying this, but you'd be like as a kid we'd say like oh that's so gay. Right? And now I look at that I was like wow, so ignorant. That was just something all the kids in the school did, male, female or whatever, and, but how hurtful that must have been if someone was gay or like just the idea that you could use a word like that as a, as a sort of term. And I, it makes me also wonder like what do we say today that we're gonna look back on and say hmm, that probably wasn't the wisest. And we'll cringe in the same way.
+
+Interviewer: [00:32:18] I do notice things actually that people say are that are say maybe offensive in England but not offensive in America or offensive in New Zealand, or, that varies a lot.
+
+Mullenweg: [00:32:30] Oh really, I know there is words like nonce, which I guess is a bad word in the UK.
+
+Interviewer: [00:32:36] I, I guess it could be. I never really thought of nonce, but there is the ones that are pretty rude that other people would say aren't rude at all. Anyway so why did you step back from leading the project, leading development anyway?
+
+Mullenweg: [00:32:52] I think I felt like Ryan and Jen could do a better job, and I was focused, this was probably around the time, like Automatic existed for sure cause both Ryan and Jen were working for it, but Automatic needed some more of my attention.
+
+Interviewer: [00:33:11] And were you pleased with the job that they did?
+
+Mullenweg: [00:33:14] Of course, yeah. I'm pleased with the job everyone has done who has been involved with WordPress. I mean if you look at a lot of our growth over the past few years I think it's the, it's the result of lots and lots and lots and lots of people working together. And one of the things I'm most excited about in 4.0 and beyond is a little bit of the refocus on the community sides of it, sort of WordPress.org and the, and the community sides of WordPress you know, themes, plugins and translations getting some real developer love. Cause to be honest we can have the best software in the world, but if someone has a bad plugin or it's not available in their language we're not gonna have the reach. We're not gonna truly democratize publishing, as is our mission.
+
+Interviewer: [00:34:00] You had your first core meet up in Orlando in 2009, what was it like to meet for the first time?
+
+Mullenweg: [00:34:08] Totally wild, yeah. It was, that was also, if you look at pictures from there Ryan Boren had started a, I don't know how to call it other than like a Western wear phase.
+
+Interviewer: [00:34:19] Oh yes I've seen the pictures.
+
+Mullenweg: [00:34:22] So he, he showed up, and you know, I sort of knew him more in like his gym clothes phase, you know, like ultra tight fitting you know, under armor type shirts or Lululemon type pants. And so he came you know, kind of rocking the cowboy hat and stuff, push button button downs. It was just, it was just you know, a ton of fun. Mark, Westi, you know, all those folks every time that we get together it really is a lot of fun. And even though we have many differences in many aspects of life, politically even music wise although we all I think tolerate a little bit of jazz.
+
+Interviewer: [00:35:07] It's important.
+
+Mullenweg: [00:35:08] Some of us love it, some of us put up with it, but the, I just yeah it was a lot of fun. Same thing with Tybee and all the times we've gotten together, the core folks, it's been pretty cool. In fact I think one of the meet ups on Tybee fell over my birthday, and there were folks who there was a surprise birthday that Jen organized. And you know, folks flew in from both Automattic and from core on their own dime. And it really sort of touched my heart, and to this day is one of my favorite birthdays because it was so much fun spending it with sort of the community members from around the world.
+
+Interviewer: [00:35:46] So what was important for you about that first meet up?
+
+Mullenweg: [00:35:52] You know what I don't entirely recall. If you jog my memory maybe it'll--
+
+Interviewer: [Talks over] [00:35:56] Well you got together for the first time. You discussed core plugins, that was one of the big things, it was around WordPress 2.9. There is, you took a video of it, but one of the big things that you were all discussing seemed to be core plugins.
+
+Mullenweg: [00:36:14] You know we made videos of everyone. Oh, did we publish all those or?
+
+Interviewer: [00:36:19] I've seen the video that you published on WordPress.org, which is like a I guess a little snapshot of the whole event. 
+
+Mullenweg: [00:36:25] You know there is an individual interview with, I think I had really gotten into video at that time. So there is individual interviews with I think everyone except for Ryan I have from that event. I'll try to find those for you, maybe it's not in this version of the book, it can be in version 1.1.
+
+Interviewer: [00:36:44] Yeah, do you recall the discussions around core plugins?
+
+Mullenweg: [00:36:50] Yeah, that does jog memory. I think it was a little bit of the idea that we could modularize and sort of take out some of the code that was in core WordPress and move it to these core, or I think at the time we called them canonical plugins.
+
+Interviewer: [00:37:04] Yep that's right.
+
+Mullenweg: [00:37:06] And yeah I think it's a pretty cool idea. It's honestly an early iteration of the idea that we just talked about which is feature plugins. But also there were certain things, podcasting was a hot topic at the time where podcasting was something that was popular with a subset of users, a prominent subset too. The plugins that were like podPress and were either sort of in disrepair, or I remember one had just been bought by some startup. But of course inevitably neglected it, and you know, it's kind of dead now, but and so we were, we kind of wanted something we could point to and say this is the canonical you know, podcasting plugin, this is the canonical memberships plugin, this is the canonical you know, what would be a plugin. But I think what we overestimated was our bandwidth, I think that we thought that the core team, we definitely had a lot of confidence. [00:38:06] And probably you know, coming off the high of all meeting together and hanging out and everything, it felt like we could do anything. But when we really got back to it you know, between core and sort of all the normal work or WordPress there was just no space to have sort of a completely separate project focused on say podcasting. There was also the fact that none of us were podcasters, although there were some podcasts I was doing at the time. In fact including one with Ryan on how to make the perfect steak, and I would recommend that at some point everyone reading this listen to. I think it's called the MattCast, they're still up on MA.TT.
+
+Interviewer: [00:38:45] Yeah, I'm pretty good at making steak already. 
+
+Mullenweg: [00:38:49] I don't know if you're Ryan Boren good.
+
+Interviewer: [00:38:51] I don't know about that. I'll have to check it out. So there was a lot of hoping about between version numbers in the early days up until about 2.7. Why did that happen?
+
+Mullenweg: [00:39:04] Because we were bad about doing releases. 
+
+Interviewer: [00:39:07] Yeah, why were, why were you bad?
+
+Mullenweg: [00:39:11] Oh because we'd go too long between them, and so to sort of represent that magnitude of the changes between you know, like a, what was a big jump? Like a 1.2 to 1.5 right? In fact for some of those we had version numbers in between in SVN, but we just never did a real release so we ended up saying oh this is a big deal release let's bump the number more so people will understand that.
+Interviewer: [00:39:38] Yeah, yeah 1.3 became 1.5, I don't think there was 2.4, I think it went 2.3 to 2.5.
+
+Mullenweg: [00:39:48] I believe so.
+
+Interviewer: [00:39:50] Why did you adopt that version numbering system?
+
+Mullenweg: [00:39:54] Because we felt like version numbers had some sort of semantic meaning, and so we could indicate you know, how big a change there were between versions by, by the number. But it was in hindsight kind of silly and immature, I much prefer our current system. Even though it also has its tradeoffs, for example people think 3.0 and 4.0 are like two big things we've been working on. But in fact they're just you know, the next version after 2.9 and 3.9. So it does have its tradeoffs, but ultimately I think it's a lot more predictable and a lot more reliable. And also encourages us to release more frequently. 
+
+Interviewer: [00:40:39] Did you get to a point where you had a discussion and said, okay we need to stop skipping version numbers. Let's do like 2.9 to 3.0, 3.1 and stick to that?
+
+Mullenweg: [00:40:51] Yeah, I believe you know, it was a pretty vigorous discussion where we said major releases would always be plus point one, and sort of minor bug fixes or security fixes would always be plus point zero point one. And it was just said this is what we're doing, we're gonna stick to it. And we have ever since, which I'm actually very proud of. Over, and that was I guess you know, 13, 14 releases ago.
+
+Interviewer: [00:41:17] Yeah, I've tried to find a discussion about it, but I can't find anything on like hackers or anything like that. 
+
+Mullenweg: [00:41:23] Then it might have been one of those unfortunate things that we discussed in person and didn't fully create an online version of, which was my fear about getting together in person. This is something, I would say this is also influence of Jen by the way. I don't think we really got together or even really had the idea as a bunch of semi-antisocial geeks to, to have these meetups and things before Jen. But what I would always worry about is that it would disenfranchise the person that couldn't come, and it's true. That did sort of create, I think that's around the time, probably the, the sort of lead WordPress folks we became a little bit more insular. And I always thought of you know, the person who couldn't afford to come to the meet up even with a scholarship, or maybe couldn't take away from a job, or maybe the health wouldn't allow them or anything. And I do think one of the beautiful things that WordPress is that you can, it's the meritocracy, so you could be from anywhere in the world with any sort of economic, [00:42:23] social, or mobility background, and be able to contribute. And I so like the idea that you could be one of the lead people without ever meeting one of the existing people, but the reality is today if you wanted to be one of the lead people you really do need to go to Word Camps and socialize and everything like that. It's, it's better in some ways it's worse in some ways, but it is worth recognizing that that's the current reality. 
+
+Interviewer: [00:42:49] Did you take notes at the meetings or write them up or anything like that?
+
+Mullenweg: [00:42:53] We did.
+
+Interviewer: [00:42:55] Do you have them?
+
+Mullenweg: [00:42:57] I'm sure they're somewhere.
+
+Interviewer: [00:42:59] Somewhere in a hard drive somewhere. 
+
+Mullenweg: [00:43:03] That'll be sort of the next version of the book as we sort of uncover, it'll be like an archeology find. Let's go over some old notes or something, perhaps it can help flesh out a chapter.
+
+Interviewer: [00:43:13] Yep, so when WordPress 2.1 was being developed you proposed a 120 day release cycle. This was after you'd had the sort of long year, the dark year I think you called it between 2.1--
+
+Mullenweg: [Talks over] [00:43:27] The year of darkness.
+
+Interviewer: [00:43:28] Yeah, why did you think moving to 120 release cycle was a good idea?
+
+Mullenweg: [00:43:34] It's this idea that the release becomes more about what's ready versus what you want in it, and so what lead us to delay releases in the past is we'd say oh we really need this widget. But if the widget wasn't ready you delay the release until the widget was ready, and it you know, even very experienced software engineers are very bad at budgeting timelines. Those hidden complexities and rabbit holes, and you can never fully anticipate what's gonna be involved to start building something and timelines. So it's better to have a system where there is lots of sort of, lots of pots in the oven, lots of you know, buns in the oven. And, and when certain ones are ready they go out to the world, and the ones that aren't sort of get to wait for the next release cycle. But if you don't have a rigor or release cycle there is more and more pressure to have your particular widget or feature in the current release. Because if it's a year before the next one you don't want the world to wait a year [00:44:34] to see it, but if there is a predictable release schedule you're usually pretty okay with it. Cause it's like oh, well this didn't make this one. But I know that three or four months down the road it'll be in, and, and that's just a, I think a much healthier way of doing development. I believe one of the inspirations here was actually the [Ubuntu ?] Project, which moved to a, that and maybe you know, Madden. It's a video game that they do just Madden 2013, Madden 2014. It just sort of allowed, [Ubuntu ?] would do sort of a year based release and then sort of subs on that, one, two, three, four based on which one it was in that year. And it, and it was all time based, and it seemed much more healthy. And they could point to it and say this is our roadmap for the next few years, and to be honest it's not a fact but you, if you want to guess when WordPress 5.0 comes out and you sort of take ten versions, divide by three [00:45:34] to get the number of years and it'll be somewhere around you know, 2018-2019.
+
+Interviewer: [00:45:41] So even with that though releases were often delayed, why were there so many delays to release cycles?
+
+Mullenweg: [00:45:50] Releasing on time requires a lot of discipline, and it, it's, it's honestly it's not fun. You know, I'm very proud that 3.8 was on time, 3.9 was oh so so close. I think 4.0 will be on time as well, like to the day and to the time. In fact we picked at time August 27th at 11 am, or I think, yeah I think 11 AM Eastern. Well there is a time and a date, and I think even something as simple as picking the time is important. And this is something we've learned through trial and error. Cause we get to it, we say we're gonna release on this day, and then you know, you don't really do all the work beforehand. And then all of a sudden it's like midnight and you're like okay. Well it's still, it's still the 27th in Hawaii, so you know, it sort of becomes a vey loose target. And also when you don't have the discipline about [00:46:50] sticking to a date you know, days turn into weeks, turn into months, and so what becomes like just like oh we'll do that tomorrow. But then it's a holiday, so okay we don't want to release on a Friday, let's release it on Tuesday. And then Tuesday comes around and there is something else, like a security thing came up two days before. You know, these things can just cascade to add up you know, the road to Hades is paved with good intentions right where you just kind of slip, slip, slip, slip, slip, slip, slip and releases can get super, super, super late. The most recent example, I think it was 3.5, is that the one Mark did?
+
+Interviewer: [00:47:32] Three point six was post formats.
+
+Mullenweg: [00:47:34] Three point six, yeah just goes on forever, and it's really, it has nothing to do with even the week of the release. It has to do with the decisions you made two weeks out, four weeks out, six weeks out, eight weeks out on what's in core, what's not there, cutting things that aren't ready, and to be honest really coming down on people who aren't following up on what they say they're gonna do. And that's not fun. It's a lot more project management. In fact I was speaking to Helen the other day, and I got together with her talking about 4.0 in New York. And she said something to the effect of, this isn't an exact quote, but you know, like I'm, you know, we're in the part of a release cycle where I feel like all I'm doing is nagging people.
+
+Interviewer: [00:48:15] Yep that doesn't sound like fun.
+
+Mullenweg: [00:48:17] But that's what it takes, you really have to you know, have your, in your head where every single part of the release is. You need to sort of do dry runs and everything, and if you do it right the release dates is incredibly anti-climatic. It's kind of boring, it's just like the code that was packaged two days before you just change the version number and press a button. But that's what it should be like. And then pop your champagne and watch the download counter. Like when we had these sort of all night-- [Respondent cuts out]
+
+Interviewer: [00:48:48] Hello? Hello? [Tape cuts] Hello?
+
+Mullenweg: [00:49:07] Hello, am I back?
+
+Interviewer: [00:49:09] Yeah, it's back I don't know what happened, you were saying when we have these all night coding sessions. 
+
+Mullenweg: [00:49:15] When you have sort of this heroic effort at the very end I think it's a, it ultimately leads to mistakes and bugs. But the trade off, and this happened in 3.8 and was hugely controversial, is you have to ship with known issues. And in fact one of the known issues with 3.8 was keyboard accessibility, and you know, pretty big deal of a known issue. But we didn't compromise on the date, and there was, we thought we'd have to do like a minor update like a week later because of it. We ended up doing it about a month or five weeks later, which is pretty standard for a release. And to be honest the release was very well received, and super stable, and well reviewed, and had good upgrade rates and everything like that, so I think it was incredibly stressful psychologically to like just ship with something that we might call a blocker to be honest, which is keyboard accessibility. The problem is you have to draw the line somewhere. Everything cannot [00:50:15] be a blocker. If everything is important nothing is important, you know, not, Mark talks about the floor swept by everyone is, is swept by no one or something like that. He has a more eloquent way to say it, and that's really really really tough. It's tough, it's un-fun, it's un-sexy, it's un-glamorous but it's, it's what release management is. And that's one of the reasons I really like rotating release leads, cause I don't think you appreciate it until you've done it. You could be the guy or the girl arguing for you know, just wait more day or wait you know, slip this one more thing in. But until you've been on the other side of the table you don't understand the consequences of that. It seems like it's just one line of code, you know, it's one line of code how is this gonna cause any problems?
+
+Interviewer: [00:51:04] One of the releases in which you've had, had these discussions early on was 2., 2.2 with the introduction of tags. There was a lot of discussion about how it should be implemented, and then you decided to pull it until the next release. I just wanted to talk a little bit about that, about why you had decided to introduce tags in the first place.
+
+Mullenweg: [00:51:27] Tagging was, was very important. You know, WordPress only had categories. It had hierarchical categories, which are kind of cool, but this is a time of Delicious, Flickr, Technorati when tags are really at the core of, of sort of Web 2.0 to be completely honest. And WordPress, excuse me, WordPress did not support them.
+
+Interviewer: [00:51:55] Why did you want to use just one database table, just use the categories table?
+
+Mullenweg: [00:52:01] It's faster and more performant, so we, it required no additional queries. So in the same query that we were getting categories with we could get tags, and, and it was super simple.
+
+Interviewer: [00:52:17] Do you recall where you got the idea for shared terms?
+
+Mullenweg: [00:52:12] Probably WordPress.com, yeah. Cause as we implemented, we actually implemented tags in WordPress.com using the old data structure. And it was a very very popular feature, and people started to use you know, the blogs that would be in Technorati and things, and traffic went up and everyone was happy. So from a user point of view it was going incredibly well, but we still had all those old categories. So what we decided to do was create sort of these global tag pages that looked like Technorati tag pages. And so we needed sort of the taxonomies to be consistent across things so we could say this is the same thing. So you know, something, a category, something that might be legacy and categorized with say photograph we know that that's the same ID as something that's [00:53:12] tagged as photography.
+
+Interviewer: [00:53:17] With hindsight what do you think of the three table structure?
+
+Mullenweg: [00:53:22] It's over engineered. 
+
+Interviewer: [00:53:24] Yep, yep, has it caused problems? I mean has it caused problems on WordPress.com?
+
+Mullenweg: [00:53:33] Well when we introduced it, it caused huge problems. I don't remember the exact number, but we ended up having to I want to say ten percent more servers or fifteen percent more servers. You know, it was literally where had to spend tens of thousands of dollars a month more to be able to support the load that the additional tables and queries. The queries sort of this third normal form, it's, it's like the right way to do things from a computer science point of view. But just from a, a sort of query optimization point of view it's a lot heavier that you're joining all these different tables, and doing it, creating a lot of temporary tables and things like that. So yeah it, it's, it was slower to be completely honest, that was a cost that we saw very, in a very real way on WordPress.com, but also a hidden cost that we did impose on everyone who was doing WordPress in the world. So it's not that my way was right per se, but I think part of what was going on at that time [00:54:33] was it was a, you know, a lot of concerns about WordPress being too Matt-centric or things like that. And so people kind of dug into this issue as almost like a, a proxy war for you know, styles of development and things like this. And so we were talking about tags and categories, but we were really talking about everything else going on at the time. And it became one of those things where it would just become a war of attrition, and ultimately we hashed it out and I became a supporter of the three, three table taxonomy system. You know, I can't, I can't say that's [Inaudible 00:55:10] that was ultimately I supported that alongside everyone else. And sort of had input into design and discussion, so you know, it's not something that you can pin on any one person or say I thought this or I thought that, yeah.
+
+Interviewer: [00:55:24] No it's, it seems to have been a compromise.
+
+Mullenweg: [00:55:28] It was a compromise, and it was a compromise I fully supported and probably honestly was the best for the project, but knowing what we know now and even knowing what we know then about scalability it wasn't the best of all worlds. And some of the flexibility we built in turns out not to have been used that much, but again that's one of the things that you never know beforehand. Like I could certainly see a world where the taxonomy system became sort of a font of creativity and imagination for the WordPress world. And people used it in really creative ways, and in fact I became a early and still one of the only adopters of these sort of with the people tagging on MA.TT you know, so I created a taxonomy for people and again it's still there to this day. You can go to MA.TT/person/ you know, Ryan-Boren, and see photos on my blog attachments going back to oh 2002 if he's there, tagged with Ryan Boren. [00:56:28] So I used it, but it turns out that that use case isn't that popular.
+
+Interviewer: [00:56:36] That was one of the things that really emerged from talking to people and reading about the discussions around taxonomy structure was that it really was about how the project was run. One of the things that upset people was that the code was checked in without discussion beforehand, and that this had happened elsewhere and then, and then happened again. So I was wondering why you made those decisions to check in the code prior to the discussion.
+
+Mullenweg: [00:57:06] It comes, stems from a difference of philosophy about the role of trunk. So how I felt at the time and to be honest still feel is that trunk is a place for experimentation. And you can use an implementation or a commit as a, a starting point for discussion. It doesn't mean that the decision has been made or is the ending point, so it's, it can be, and in fact I believe the first commit of tags had problems with it. Like it had bugs and problems and things like that, people said, oh well this has bugs. I said, well of course, this was the first commit we will make many more commits over the next, and did over the coming days and weeks that will make the functionality really smooth. And ultimately it was production ready like we ended up deploying that code on WordPress.com to tens of millions of blogs that then created hundreds of millions of tags. So it was fine, but [00:58:06] I think the sort of dominant view of how things should be done at the time from folks not named Matt was that you know, it should have to be a mailing list post or a track ticket with a patch, which is then reviewed and discussed and it sort of iterates a lot in the patch phase. And then once there is a consensus between everyone who is involved in the ticket discussion then it's committed. Also keep in mind this is a time when WordPress was slowing down. 
+
+Interviewer: [00:58:40] Yeah, yeah so why didn't you think that that should be the way that it was, the way that you just talked about with the patch and the mailing list discussion and all of those, that stuff?
+
+Mullenweg: [00:58:58] The things I just said, so you know, why, that a, a commit can be a starting point for discussion, particularly when you're in the trunk sort of experimental alpha phase. It, and it, the nice thing about it is it's easy for everyone to SV and F and use it. And you can get user feedback and you can test it with users, and you can sort of run performances tests on it. Instead of getting wide testing and distribution of a patch even to this day is much, much, much, much harder. You're essentially asking people to apply these things manually and then run the code, and, and that sort of workflow is still I think more intimidating to getting lots of people involved.
+
+Interviewer: [00:59:43] Did you think beforehand that the decision to check in code would upset people?
+
+Mullenweg: [00:59:47] No, otherwise I wouldn't have done it.
+
+Interviewer: [00:59:49] Okay, and the perception among community members was that you had made a final decision, that by checking things in that the decision was made. I think this was compounded by the fact that only a few people had commit access, so only a few people could commit code for discussion. Do you think that was an accurate assessment?
+
+Mullenweg: [01:00:11] Sure, yeah it turned into kind of one of these community blow ups. It was, it's a good example that we probably just all should have listened to each other more. We ended up with a compromise, but we lost some of the things that were good about the original in sort of a, an effort to get as far away from it as possible. And again by no means saying that the original was perfect or even great, but it had good aspects. 
+
+Interviewer: [01:00:54] Yeah, there was a lot of people who disagreed with you though.
+
+Mullenweg: [01:00:58] Yes, and to be honest you know, it's a good example of one of those things where you know, you can come in with more of a traditional computer science background or database design background and say data structures like this should be in third normal form. That's the right way to do it, it allows the most flexibility for querying etcetera, etcetera, but that doesn't always line up with what works best in the real world. And we had sort of this more theoretical or academic clash versus the more pragmatic clash, and, and you know, I also have, you know, we're not on one side or another, although we were a little bit on this discussion. Everyone is just on a spectrum including myself, like I totally get drawn in by purely theoretical computer science type stuff as well. And love diving into you know, optimization of code and compilers in different languages and things like that, but at this point I was probably a lot more on the pragmatic user facing side. Because that [01:01:58] was really what we were doing with WordPress.com.
+
+Interviewer: [01:02:03] Have you had other examples of stuff that has gone into WordPress core and then you've put it on WordPress.com and it's caused problems or cost you tons of money, anything else like that?
+
+Mullenweg: [01:02:17] Taxonomy comes to mind the most. I just, and also the migration was a huge pain in the butt. I don't know, times when we've had to modify the database structure is a pain, cause we do have to loop over every single table. The irony is now that we've gotten pretty good at it we almost never change the database structure anymore, but things like when we retired links, you know, links has their own tables. Anytime we deprecate something is a bit of a pain, and honestly we're not good at deprecating things. Like we got rid of the links feature but we never really made a widget to replace it for example, so there is a, yeah there is things like that that have caused some pain. But to be honest it's kind of the idea of WordPress.com. Like my, my envisioning of it, it was to be a battle testing [01:03:17] ground for the core WordPress code. It allows us to have much better code, much more performance, much more user tested things that we ship out. And the dot release that goes out to you know, tens of millions of sites across millions of hosts, because we do beta test it essentially with all of WordPress.com. It's why I still push for pretty aggressive mergers with trunk, especially in the later phases of, of the WordPress core development cycle. You know, we'll often merge a month, a month and a half before the release, which can be painful. You know, it's a, we call them the BFM. In my world the F stands for Friday, the big Friday merge. 
+
+Interviewer: [01:04:03] I see okay. 
+
+Mullenweg: [01:04:05] And, and there you know, it's a lot of work and we find a lot of bugs, and it's, you know, it's one of those things where everyone is putting in a lot of hours to make it happen. But ultimately I feel like it's one of the best things Automatic can give to the open source community.
+
+Interviewer: [01:04:22] So why did you decide to merge multi-site or MU with WordPress core?
+
+Mullenweg: [01:04:30] You know multi-site was always, well it was called MU, and I think you know, the name MU had been co-opted by James Farmer who had registered WPMU.org, and things like that. I even think like a WordPress.moo or something like that, and well one no one ever knew how to pronounced MU. The official barbecue definition was it was pronounced like moo, like a cow. But many people said mu, like the Greek symbol or things like that, so. Two the code was always behind core WordPress, so maintaining it, even though there was you know, a 95 percent overlap in the code basis Donncha essentially had to manually merge everything over constantly. It didn't really get enough attention from developers, so it was difficult. If you want people to build plugins on things you need for them to be certain it's there. And then there was of course all the naming stuff where sort of [01:05:30] the MU name had been co-opted, so it seemed like a good opportunity to rename as well. 
+
+Interviewer: [01:05:36] Who was involved with the discussion?
+
+Mullenweg: [01:05:40] It would have been Donncha, Ryan, I don't remember who was. Definitely everyone on the MU side, that who I know was, we somehow, somehow got left out, I don't remember how, it was Mark. But I don't remember how or why, I don't think it was deliberate.
+
+Interviewer: [01:06:03] Well that was my next question why wasn't it discussed with the other lead developers? Mark is the person that mentioned it to me, that he'd found out at Word Camp San Francisco.
+
+Mullenweg: [01:06:15] Yeah, I think it's, it's probably one of those things where it's very easy to assume that everyone is paying as much attention to all the communication channels as you are. So be that a Skype channel or a mailing list, or things at forums or stuff like that, and so if it's, if they're not you know, let's say maybe this was being discussed, I'm pretty sure it was discussed on the, the MU mailing list. If you weren't following that you would have missed that discussion, and it's one of those things where we sort of took more of a, an opt, the way I thought about it was that if you were following it you were involved. And if you weren't following it you shouldn't be mad that you weren't involved, you know, sort of a do-ocracy or a meritocracy. And it never occurred to me that you know, Mark was someone or there was a group of people that needed to be sort of explicitly kept [01:07:15] in the loop for every single change that was going on in WordPress. Especially if it wasn't an area that they worked on.
+
+Interviewer: [01:07:22] How do you keep on top of all of the communication? There is a lot of it. 
+
+Mullenweg: [01:07:25] Me personally? 
+
+Interviewer: [01:07:28] Sorry?
+
+Mullenweg: [01:07:29] Me personally?
+
+Interviewer: [01:07:30] Yeah, you personally.
+
+Mullenweg: [01:07:33] I would say one of my super powers is to read and consume vast quantities of online material every day. Even inside Automatic there was a point when I read every single P2 post and comment, and every single commit and everything. And to the tune of might be, it might take four or five hours per day to do that, but I was just working 100 hours a week so it wasn't that big a deal including weekends. So how I keep up with it now is very different than how I kept up with it then. How I kept up with it then was sort of a relentless consume every single piece of information that's emitted from the WordPress community. Every blog post, every Technorati search for WordPress, every mailing list. I'm a big fan of Thunderbird. I'm like the world's last user of Thunderbird actually. 
+
+Interviewer: [01:08:33] I have it installed I don't use it. 
+
+Mullenweg: [01:08:37] Oh, yeah unfortunately you're like most of the world.
+
+Interviewer: [01:08:41] Yeah, I want to talk about 3.0 a bit more. I was wondering why there were so many--
+
+Mullenweg: [Talks over] [01:08:47] Oh just a last thing at that point and now I have to be a lot more selective. I can't follow everything. There is literally too, too, too, too much, so I rely on folks looping me on things that are important. And I follow sort of like an internal Google alerts system. So I get alerted to certain things. 
+
+Interviewer: [01:09:06] So why were there delays to WordPress 3.0?
+
+Mullenweg: [01:09:10] Probably cause we were trying to get extra features in it.
+
+Interviewer: [01:09:15] It was a big release.
+
+Mullenweg: [01:09:18] Yeah, even though we said it wasn't going to be.
+
+Interviewer: [01:09:20] Yeah, it was a really big release. It had--
+
+Mullenweg: [Talks over] [01:09:24] It's also one of the things where I think that we had a lot of new contributors in that release. And it was one of those ones where we struggled where a common pattern that you will see probably in all open source projects but WordPress especially, is cause people get so jazzed and excited about the possibilities and the mission and everything like that, which I think we are quite good at, that you inevitably take on too much. And you take on too much, and then you know, there is only 24 hours in a day and certain things start to fall behind. And particularly if you're like a me or a Nacin or a Jen or someone who is also in a position of authority, by saying you're gonna do something you also prevent other people from working on it. Even though that's not your intention, just someone says well if Matt is gonna do this why should I even bother? Or if he has an idea for how this should be built, you know, I should wait to see that before I'm gonna work on any patches or anything. So because [01:10:24] saying we're gonna do something is, is honestly one of the most dangerous things we can do for any of the sort of lead folks in WordPress.
+
+Interviewer: [01:10:35] It was around that time that Nacin was first given commit access, what sort of impact did he have on the project? He seemed to have been working all the time. 
+
+Mullenweg: [01:10:45] Yeah, I think you know, Nacin like Ryan is one of those guys that just has a, an ability to get in a flow, and just really crank and get focused intensely, and get through a ton of work. And, and people say how you, how do you do it, how do you do it? But it's really just one of those things where you have to dial in, people are like how do you, now they ask how do you read so much stuff and interact with so many things? It's like well yeah I put on some good music, and I turn off all notifications. And I just do it for until it's done. You know, there is a lot of folks on the non-tech side I'd say like a Mark Riley is someone who used to do this in the forums, or it's automatic, automattician Anthony Bubble who was, I think to this day he's still one of our most prolific support people. And they'd ask him like what's your [01:11:45] secret? How do you do it? He's like well I sit down. I do the work until I need a break. Then I take a break, then I do some more and it's like there is no secret sauce, it's just kind of like just doing it.
+ 
+Interviewer: [01:11:58] So why was he made need a lead developer?
+
+Mullenweg: [01:12:01] I think he, I notice all with patches so much we were like, like let's get this kid the ability to code it directly.
+
+Interviewer: [01:12:11] Well how did it go from being commit to being a lead developer, how do you, I guess he had commit a while before.
+
+Mullenweg: [01:12:17] I, I honestly don't think we had as much distinction between the roles at that time. So the commit was lead developer and vice versa.
+
+Interviewer: [01:12:29] So he was added at the time first of all Ron Rennick was added, and then Dion was added, added, and then Nacin was added. But he was the only person to be sort of, become a lead developer.
+
+Mullenweg: [01:12:46] Yeah, I think that later when there were sort of these distinctions introduced there was some sort of thing around that. But it's not something I personally ascribed to as much.
+
+Interviewer: [01:12:59] Okay, did you think the lead developer title is important?
+
+Mullenweg: [01:13:05] Well it depends on what you mean by it.
+
+Interviewer: [01:13:07] What does the project mean by it?
+
+Mullenweg: [01:13:10] That's a very good question, have you found a good definition of it?
+
+Interviewer: [01:13:14] Well I'm asking the project lead so I'm hoping I get one.
+
+Mullenweg: [01:13:18] Well I think that if you ask different people involved, if you ask different lead developers they will have different answers. And that's one of the issues with it is it means different things to different people, so that's one of the reasons that I think that it is--
+
+Interviewer: [Talks over] [01:13:31] What does it mean to you?
+
+Mullenweg: [01:13:32] --it is fraught.
+
+Interviewer: [01:13:34] What does it mean to you?
+
+Mullenweg: [01:13:38] Well so what it means to me is not entirely important, because the sort of what it mean to the world is a combination of many of our different definitions. So what it means to me is probably a subset of what it actually is, but I would call with other terms things that encompass more of what a lead developer currently is ascribed to. One of my big beefs with the lead developer term is it implies only developers can be leads of the project, which his you know, we have counter examples of even in Jen. And I think it downplays a little bit the contributions of support folks, and documentation, and all the other areas that honestly are as important to the success of WordPress as development is. And I think one of the issues that we've had really from the beginning is where it's sort of developers, and we have a sort of structure and hierarchy and recognition for them, and then there is just everyone else. And we've never really had a good system for any of those.
+
+Interviewer: [01:14:37] Okay, I'd like to talk a bit about the discussions you had in 2012 if that's okay. One of the things that I've spoken to the other people about was that, I mean there was big changes I guess in the project between 3.4 to 3.5 as we move towards release leads. But one of the, the things that the other lead developers and other people who were involved said that you had said that the lead developer was historical and non-meritocratic. I was wondering why you felt that way.
+
+Mullenweg: [01:15:12] Sure, so because lead developer is something that was just an arbitrary title and didn't really have a set of responsibilities assigned with it or expectations there was really, once you were a lead developer you were a lead developer forever essentially, which is still somewhat true to be honest. And it really had more to do with sort of when you became involved with WordPress, then your current contributions. And so to me the idea that the folks making a decision for a given area of WordPress should be the people who are most involved with it day to day, that the meritocracy of it. So if we're making a decision about documentation I want that to be made by the person who is writing the most documentation every day. But because that there was this, and this was I think a source of some of the conflict is this idea that the [01:16:12] lead developers sort of had the same role as me where they had sort of purview over everything across all parts of WordPress. We'd get these conflicts where you know, a lead developer would drop in a theme review team discussion, and you know, say something. And then that became sort of law, and then the theme people would come to me and say hey what just happened? Like we've been, we've, we have these processes, and we have these things we're doing and we're trying to go the best direction. And then someone just came in and told us something different, and that disenfranchises people. It discourages contributors, and it sort of centralizes decision making authority in a way that isn't necessarily the most scalable. Because not everyone can be an expert on every area, so like I, to me where a lead developer is most healthy is in the realm of the title. So meaning that it's around development, so if you are someone [01:17:12] who is in the development every day and in trac, and the historical anachronisms that's where we all got the title. So Jen is not a lead developer because she didn't commit code, but in terms of being one of the people who made decisions for WordPress, an influencer, absolutely she's one of those people. Right, and so you ran into this sort of weird I just, I'm not a fan of the taxonomy I guess is a way you could put it. Because I don't feel like it represents the nuance of different contributions. I don't feel like it gives enough credit to the non-development parts of WordPress, which as I've said are some of the most important. And it doesn't really have a mechanism for what the expectations are, so the, again once we got into this phase where it was you know, we had people who were some of the very senior in the project. When we said we were gonna do something you know, everything would stop until we did it. And if in the mean [01:18:12] time we got sort of caught up in something else you know, just that part of the project would essentially be waiting for us. Accountability is really really important, and you can't really have accountability unless you have a set of expectations and definitions around the role. And so ultimately that's what I'm still a believer of and what we've moved a lot closer to in sort of how release dates work and everything like that, was that we say, okay this person has authority for a given area. But also has accountability to be there for that area, I think you can't have one without the other. Does that make sense? I guess it's a little bit nuanced.
+
+Interviewer: [01:18:55] Yeah, I'm just wondering if there was ever an attempt to set up, to create a set of expectations and responsibilities for roles within the project?
+
+Mullenweg: [01:19:03] Yeah, absolutely, and you know, we drafted them up and wrote them and things like that. It, I would say one of the ways that, one of the things I've learned most about over the last decade is organizational design. And just what works well for different levels of organization, what can both be poisonous in anti-patterns and what can really allow things to scale to an impact to both involve hundreds of active people and, and you know, an impact to the world. Which is, and a lot of this I've learned through Automatic as well, because inside a company you sort of have a, a crucible of these discussions and decisions and everything and doing it right and doing it wrong.
+
+Interviewer: [01:19:46] So can you tell me on the one hand what's poisonous, and on the other hand what allows things to scale, what you've discovered?
+
+Mullenweg: [01:19:56] I think what's, if you think about moral and organization or anything like that you need recognition to be commensurate with, recognition and responsibility to be commiserate with accountability and effort. I would say that's probably the simplest way to put it even though that's relatively abstract. The people who you sort of give the most recognition and authority to need to also be accountable for if you know, doing what they say they're gonna do and following up on things, and taking responsibility for the success or failure of whatever their sort of realm is. And, and that requires also an abdication, a sublimation of authority from people who are further up. I mean me proposing the release thing, lead, was saying you know, we're gonna have someone who has authority even over me for what goes in that release. [01:20:56] Why do we need this? Well because we keep having these delays, and everyone just kind of looks at each other and says, well I don't know why it's delayed, or I don't know who or, and we're gonna say no there is a single person who is responsible for getting it out on this date. And if they do it, it's a success, if they don't do it it's a failure, but ultimately it comes down to them. And they need to have the authority to make all the decisions to make that goal happen. If, if I'm the release lead but then let's say a lead developer overrides me for what's gonna be in the release I no longer have the autonomy to be able to satisfy the goal that I've been given responsibility for. So ironically it's about giving people more autonomy not less autonomy, but then also saying that if, even if you're, you know, me, even if you're a benevolent dictator for life, like you have to be able to defer to these people in these areas. And [01:21:56] that needs to be defined, and you set it up, and most importantly you need to stick to it. Cause the moment you go back in there and micromanage or, or go back on that it sort of ruins that person's authority with everyone who is on their team. It messes up roadmaps. It hurts moral. It sort of removes their, the influence, and, and ultimately creates a really unhealthy organization. And this is true of any organization, this could be a non-profits, could be software, it could be a construction project, I think these are relatively universal.
+
+Interviewer: [01:22:31] Yeah, would you prefer a flat structure to the project with a sole leader?
+
+Mullenweg: [01:22:37] What do you mean?
+
+Interviewer: [01:22:39] That there would be no hierarchy at all in the project, just people, like you said open commit, everybody sort of there is no hierarchy and it's just you as a project lead?
+
+Mullenweg: [01:22:53] No, I think that hierarchy is important. The, but I think it needs to be a smart hierarchy, and I think that it's best if the line goes from person to person. Some of our lines, especially before, it's a lot better now, but there are still a couple of these where the line for who is accountable for something goes into a cloud. Right?
+
+Interviewer: [01:23:15] Okay can you give me an example?
+
+Mullenweg: [01:23:19] Sure there are certain things that where the line of accountability for something in the WordPress project goes to this group called lead developers right? Like for example defining who is a new lead developer, and you know, then there is a consensus driven process inside of that. I am a believer that great products and great projects aren't created through consensus. 
+
+Interviewer: [01:23:50] So do you think other people in the project should be involved in decision making processes? Not just in terms of development but in the wider project.
+
+Mullenweg: [01:24:00] Absolutely, yeah without a doubt. That's probably the most important thing, but it needs to be in an area of responsibility coupled with accountability. By the way this also makes it, remember I talked earlier about the problem of you can never really un-become a lead developer, this makes this easier. Cause at the point when you say based on my life commitments or something like that I no longer have the bandwidth to fulfil this set of responsibilities, but you're still accountable for it. Then you naturally pass that position to someone who can. Versus right now or not even right now, but what is sort of natural human inclination is you keep trying to do it. Right, and probably what happens is you, you do a worse and worse job, and honestly it only ever gets switched between people when it gets so bad the thing is just broken. So things have to be broken before they get fixed. It would be better if like let's say, let's say you know, I'm the documentation lead. [01:25:00] And I know that that means I need to review all incoming proposed changes to the handbooks, and you know, just based on the number of incoming changes that takes about 15 hours per week. At the point where I can't fulfil that responsibility the project still needs that to happen. So I need to find someone who can, maybe that's, I'm passing that to a deputy, or maybe I'm saying you are now the, I'm picking my successor. I'm saying you are now the documentation lead, and this is what's expected of you, you know, you need to review 15 hours worth of this per week. And, but you know, as a plus you also get to make a decision for how the processes and everything works in that, because you're the person that's closest to it so you understand it better than anyone else in the world, including more than me, Matt. So I think that's the coupling, and that's why Automattic has been able to scale so well is I remain involved with ultimately the buck stops somewhere, right? I'm the CEO, like the buck stops at my desk. If something goes wrong it's ultimately my [01:26:00] responsibility, and I feel this way with WordPress as well. Like if something went horribly wrong with it ultimately there is no one I can blame besides myself, but the key is that you set up the processes and the organizational design of the systems. Again it's like a release, it's what you do four weeks before and six weeks before and eight weeks before. It's you set up the, the system so that it's not set up to fail. That it's set up to succeed and iterate and learn, to, to unsuccessfully fail. You know, failure can be good, but there is failures that are, are for good reasons and failures for bad reasons. Does that make sense, like are you on, getting all that?
+
+Interviewer: [01:26:47] Yeah, yeah I'm getting it all.
+
+Mullenweg: [01:26:47] Okay well I know you're recording it all, but does it actually, does it parse?
+
+Interviewer: [01:26:53] Yes it's parsing. How do--
+
+Mullenweg: [01:26:57] These are kind of high level management topics as well. Like this was what I would talk about if I'm at like a hard business school class or something, so it's, let me know if anything is too wonky or, or too, or too abstract and I'll try to explain it in a different way.
+
+Interviewer: [01:27:13] Well how would you see the difference between the open source project and how you manage that, and the volunteers involved with that, and how you, how that happens in Automatic? Cause it's similar but different.
+
+Mullenweg: [01:27:30] In Automatic there is no clouds, so there is no committees or consensuses. Ultimately we make a single person responsible for every single area of importance, and then the lines flow from there. And, and it still flows to me, but the idea of making that person responsible is that ultimately I'm never making any decision in that area. So it's sort of counter intuitive that there is still a central person, but in fact the goal of that person is not to make decisions. It's not to make decisions. Does that make sense?
+
+Interviewer: [01:28:07] Yeah, I'm just wondering how you manage it differently with volunteers, people who aren't paid to, to be involved who do it for the love?
+
+Mullenweg: [01:28:18] I think it's exactly the same. If you're able to have well defined responsibilities and expectations, and we've seen areas, pockets of this within WordPress. Like some of the, some of the make groups around accessibility, and themes, and plugin reviews and things like that, forums, have developed some pretty good processes and structure for, for how this should work and for dividing responsibilities and things like that. So it can totally be done with 100 percent volunteers. It's, to be honest like even inside a company people are still volunteers. Everyone at Automatic has super valuable skills and could work at pretty much any company in the world. So they're, they're there by choice. It's not like you know, they're just there for the paycheck, because honestly in today's world like the paycheck isn't enough.
+
+Interviewer: [01:29:11] How did you feel when a number of the core developers emailed you about being unhappy about how the project was being run?
+
+Mullenweg: [01:29:19] I felt like it was a misunderstanding. So you know, probably when I would say lead developer is a historical anachronism or something like that, like depending on their definition of a lead developer and your status as such it could feel like I'm saying you are worthless, or what you do is not important. 
+
+Interviewer: [01:29:41] What were you saying?
+
+Mullenweg: [01:29:41] Which was not the intention at all. What I was saying is what I just talked about, where I think that a structure which sort delegated more authority to different people involved in different parts of the project and gave them more autonomy would be healthier, and release leads was part of that. And the idea of a release lead both not being consecutive, so it changes every release, and having ultimate authority above every single lead developer for what's in that release is, is pretty powerful and also pretty scary including for me. So that's, I think that that's something that a lot of people just had a, a very strong visceral reaction to, not everyone, but most people.
+
+Interviewer: [01:30:29] Was it unexpected?
+
+Mullenweg: [01:30:33] Sure it's, I think it's one of those things where comments can be taken out of context, and also maybe you react to the words but not necessarily the meaning behind it. As we all talked more and more we found that we were actually more on the same, we agree about more than we disagree about. And you know, thus us all still working together today, but, but I think some of the, the words seemed like a little scary to folks. And to be honest change is scary, and a really well operating organization does involve people who perhaps prior, previously did things not doing those things anymore, which can be scary. Cause you want to feel important, you want to feel like you're informed of every decision, you want to feel like you know everything that's going on. But until you let go of that, the organization is never gonna scale beyond the people who feel that way, right? If I was still saying everything needs to go through me, just as a though experiment, [01:31:33] you know, I'm BDFL, everything needs to go through me. I need to review every commit still. I need to do this or that, WordPress would be much smaller today. So it's something that I learned through doing it, and I think other people will learn through doing it as well.
+
+Interviewer: [01:31:48] What do you think is the view that the lead developers, even those who aren't active in the project anymore still provide essential advice and mentorship within the project?
+
+Mullenweg: [01:32:02] I think absolutely. I just don't know if that, you know, at some point you can't have like it would be weird if, if say Mike Little, who is someone who absolutely defines so many things about WordPress. Like you understand better than almost anyone, came back and vetoed some decision we were making. Like that would just feel weird right? Even though he was a lead developer. There is also, you haven't mentioned project lead, so we tried to create a new term called project lead to distinguish a little bit from lead developer. 
+
+Interviewer: [01:32:36] Yeah so when was this?
+
+Mullenweg: [01:32:39] I have no idea when that was.
+
+Interviewer: [01:32:42] This is what, prior to release leads?
+
+Mullenweg: [01:32:45] I believe so yeah.
+
+Interviewer: [01:32:46] And are you referring to projects within a release, like redesigning post formats, or are you referring to sort of wider, wider things?
+
+Mullenweg: [01:32:56] Basically the idea that someone like Jen is not a developer but still you know, makes decision for a lot of the project, so what do you call that?
+
+Interviewer: [01:33:07] So is she a project lead?
+Mullenweg: [01:33:10] You know what I might be sticking my foot in my mouth, maybe we actually never adopted this. Maybe it's just something we just talked about. But in, in my, in my head the taxonomy is that yeah absolutely Jen is a project lead.
+
+Interviewer: [01:33:21] Yeah, cause the only people I have down as project lead is you.
+
+Mullenweg: [01:33:25] Oh okay.
+
+Interviewer: [01:33:27] But if you want to make other people project lead right now while we're talking that's fine.
+
+Mullenweg: [01:33:31] Well I should probably look up the conversations and probably talk, well not probably I should talk about it with everyone to make sure that we're all on the same page of what that means. And you know, perhaps with Jen's focus, which is less on some of the software and more on the community side, a better title might be something that's more focused on that. So it's clear to other people sort of where, where the authority is and where her autonomy is. And that they should go to her for X and Y, that's another problem with sort of the amorphous sort of universal title for everyone is that people who aren't familiar with the organizational structure have no idea how it works. So like you, you would probably know or I would know that like if I need to do something for camps I should talk to Andrea, right. But where on the WordPress.org website does it indicate that? 
+
+Interviewer: [01:34:22] Yeah it doesn't.
+
+Mullenweg: [01:34:23] Right, so I mean this is one of the problems, and this happens internally to companies as well. So these are growing pains that WordPress is having, and they're honestly pretty common. And it's part of the reason I lead 3.8 was to sort of work us through some of these, and when I lead releases in the future we'll work through some more. Change will be gradual, but actually probably never been more optimistic about sort of the, the potential for us to evolve as a really large volunteer driven organization than I have in the history of WordPress. Because we, we've been through a lot of it and we've learned so much, and some of these things you have to do the wrong way before you can do the right way. 
+
+Interviewer: [01:35:08] Why haven't been, people been listed as leads traditionally? I mean other than lead developer and then Jen was UX lead for a while, and you were project lead, but--
+
+Mullenweg: [01:35:20] I think we've attempted it, but to be honest the most honest answer is that areas outside of development haven't gotten as much attention. They don't get as much love, so that's, that's, that's the uncomfortable but completely honest answer.
+
+Interviewer: [01:35:36] Why don't they?
+
+Mullenweg: [01:35:37] I think cause we're all developers. I mean it's easy to geek out and, and get really involved on you know, what feature is gonna be in the next release, cause it's concrete. It's a lot harder to develop a, a theme directory or process for reviewing plugins, or you know, these sorts of things, and on-boarding of new moderators. You know, these are things that just happen organically, and it's kind of, it's good enough, but it really, you, you're not really in front of the problem you're kind of behind the problem, right? So you fix things, you put out lots of fires, and sort of things work because you've put out fires and you've anointed people in certain areas and things like that. But it would have been better if you could have avoided the fire in the first place. And I would say that's sort of where we're transitioning to is from being a reactive to a proactive organization.
+
+Interviewer: [01:36:36] Are you happy with the current set up of having some release leads and then a group of lead developers?
+
+Mullenweg: [01:36:44] Yeah, I think it's fine, and it's, it's working a lot better. I think that the release leads have a lot more autonomy now, and, and you know, we now have two basically on-time releases and about to have a third. So I think that the, the proof is gonna be in the pudding. The next thing we need to do, the only thing that I think that we need to get back to is more of the feature-plugins, or having more of the development in plugins and having more people involved in that. You know, when I say this is also a thing that I think some people react to is sometimes I'll talk about where we might be five or ten years down the road. And people are like oh my god, if we just opened up 1,000 committers like it would be chaos, and you know what? They're right, because there is, there is like 100 steps in between now and then that sort of get us to 1,000 committers. But I think, my mind works that way because I think of sort of where, where do we want to be pointing the ship towards, and feature plugins [01:37:44] are a way to point the ship towards having a lot more committers.
+
+Interviewer: [01:37:48] Where did the idea--
+
+Mullenweg: [Talks over] [01:37:48] And the way--
+
+Interviewer: [01:37:50] Sorry.
+
+Mullenweg: [01:37:50] It was, there were 16 committers on MP6, I think actually so I mean that's equivalent to the entire team working on this one thing. And it ended up being really excellent. And I think that's probably if I were to say the biggest, the biggest thing that WordPress struggles with today it's radical change. You know, the way that we're currently structured I think lends itself to a lot more incremental change. And big changes are really really really really difficult.
+
+Interviewer: [01:38:23] Why?
+
+Mullenweg: [01:38:24] Because of how we're structured.
+
+Interviewer: [01:38:28] But why does the structure cause problems for radical change?
+
+Mullenweg: [01:38:34] Because there is no one who has autonomy over a given area enough to make a radical change, so if let's just say hypothetically in the ideal structure like let's, let's pick widgets as an area that's needs some love within WordPress. I think almost everyone would agree. Ideally there would just be someone who just worked on widgets and a team that just worked on widgets. And within that team they'd iterate and every release of WordPress, 4.0, 4.1, 4.2 would include some incremental iterations to widgets. And you know, we'd sort of say you know, whoever is the release lead would kind of shepherd those in and out. And maybe there is something that the release lead disagreed with, or they didn't really understand, but they would defer to the widgets lead for saying hey you know, if you really believe in this new structure for how it's gonna work let's do that. Or they'd say you know, [01:39:34] you've given more thought about this than anyone in the world so say how it's gonna work with backwards compatibility. So let's break backwards compatibility to get this you know, benefit for users, and ideally that widget's team includes some developers, some designers, people working on the documentation, and even people focused on supporting widgets or reviewing plugins in the directory tied to widgets. You know, it's just sort of like a, a holistic widget's group. So that's probably how it should work perfect, and I think that you would have both incremental and radical changes to widgets. Like if we looked widgets today and a year from now under that structure they'd be, have moved a lot further than they do in our current structure. Which is a little bit more of where something gets bad enough that we focus on it, or someone comes in like let's say someone comes off the street and has like a vision for widgets they have to convince essentially every lead developer, basically [01:40:34] every single person the committee that this is a good idea. And they really need to convince at least one of those people so much that they adopt it as their own. Cause right now unless a lead developer is advocating for something it's not really gonna happen in core, and completely candidly. Like you really have to have someone really pushing you through on the inside of this group for something to happen. And so what does that translate to? Well eventually like over a longer time period, like five years we maybe get to every single screen in WordPress, but widgets are only going to get an update every couple years. And menus are only going to get an update every couple years, and the themes page, and the plugins page and everything like that. So we, we sort of have this rotating focus. Imagine it like a spotlight where what we really need is floodlights. 
+
+Interviewer: [01:41:31] So how can, can you see that changing where you don't have to have a lead developer you know, advocating for you?
+
+Mullenweg: [01:41:40] Sure, I think that feature-plugins allow a lot more merit, meritocracy of the development. They allow commit to be granted a lot easier. They allow people to get involved. They provide autonomy over a given area to someone who is designated who is probably most passionate over that area. They have easy deployment and wide user testing, so we can actually see the usage of it. It's easy for someone to install a plugin than it is to apply a patch, and imagine if you could, I mean if you were to design a system and you say what if you could have a patch and then it auto updated. So I always had the latest version of that patch. And like I could get, you would, you're essentially talking about the plugin system, and, and WordPress' plugin system is flexible enough that I think you could do this for any area. In fact if we had a little more discipline I think we'd be doing it more for 4.0. I think why we're not doing it in 4.0 is just because all the screens are in core. So like oh I'm changing the plugin screen [01:42:40] let me do that as patches, and also all the lead people are kind of involved in the release. So the committers, the people who have the ability to commit things are also leading. So that lends itself to them asking for patches instead of looking at plugins. But you know, it's easy to write a plugin that just replaces the whole themes page or replaces the whole plugins page, and you could copy and paste the code and essentially then merger that way. So you could kind of fork it and then merge it later, versus being a series of patches that are manually applied off Track. Which if in a, in a very optimistic sense a dozen or two people are gonna run versus the tens of thousands that we have running like the MP6 plugins.
+
+Interviewer: [01:43:24] What did you come up with the idea for feature, feature plugins?
+
+Mullenweg: [01:43:29] It probably comes from canonical plugins to be honest. Like it's an idea that's been sort of bouncing around in our heads for many years.
+
+Interviewer: [01:43:39] Oh, it seems quite different to canonical plugins though. They were sort of stand alone officially sanctioned plugins for doing stuff that would never end up in core, or as features plugins, or plugins that you develop with the intention of ending up in core. 
+
+Mullenweg: [01:43:56] I think they're two sides of the same coin. So if you look at it, we actually never say a feature plugin is for sure gonna be in core.
+
+Interviewer: [01:44:04] No that's true.
+
+Mullenweg: [01:44:05] We just say that it should follow the same processes as core. So the same coding guidelines, the same inclusive nature, the same collaboration etcetera. So that it's good enough to be in core, and now I could totally see a feature plugin. Like let's say someone did a podcasting feature plugin, and at the end of it we say this is totally good enough to be in core. But we just don't think it meets that 80-20. I mean I think that could continue to be a really active really healthy plugin. And maybe even with that same team just working on it on their own, that would be beautiful. That would be wonderful. What we really need at the end of the day is just more collaboration. Right now there can only be so many people. With our current structure it won't be so many people with commit, so, so many people with authority, and those people need to be experts on every area of every part of WordPress. And that's, that's a tough job and it [01:45:05] gets less tenable as we grow. So either WordPress is gonna start growing or we need to expand how we work. 
+
+Interviewer: [01:45:13] One of the things I spoke to Aaron Campbell about who was involved with the canonical plugins thing. He said that one of the problems that they encountered was that the tools that they had were just not good enough for actually being able to develop in a really collaborative way. What they really needed are tools like are provided by GitHub. I was wondering if that's still the case or you know, if we still need tools like that?
+
+Mullenweg: [01:45:41] Tools have gotten better, but I, I would say they're still not as good at GitHub, and this is why I mean a very controversial thing, and 3.8 and the feature plugins as I said you can use whatever tools you want, including for chat if you want to use Skype, use Skype, if you want to use IRC use IRC. If you want to host it on GitHub that's fine, as long as it ends up on, in the plugin directory at the end of it. And so all of these things happened, and I think it's, it's good to give teams autonomy for choosing how they work. It's something that also I've learned in Automatic and has gone pretty well, and to be honest the best practices get adopted. So what starts with one team sort of then spreads virally to all the others, and pretty soon it's a standard. Or by [dog fooding ?], you make what you, what you produce better, so either of those I think would be perfectly fine outcomes.
+
+Interviewer: [01:46:37] Do you think we'll ever have tools like that on WordPress.org?
+
+Mullenweg: [01:46:41] Absolutely.
+
+Interviewer: [01:46:42] Okay, I hope so. All right let's leave it there.
+
+Mullenweg: [01:46:45] If you break it there down, it's actually not that hard. It's not rocket surgery, it's something like GitHub does. The one thing that is completely different is the version control system. Supporting Git on WordPress.org turned out being a lot harder than we thought it would be. But in the meantime you know, if people want to develop on GitHub let's support that. And then, but just make sure all the code comes back to the WordPress SVN, that's important for a lot of other reasons. But yeah, I think we can have even better tools than GitHub does, because we are, can be tightly integrated with the rest of the WordPress ecosystem.
+
+Interviewer: [01:47:18] That would be amazing, it would get people really excited. All right, you have answered all my questions, thank you.

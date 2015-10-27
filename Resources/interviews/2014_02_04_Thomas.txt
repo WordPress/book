@@ -1,0 +1,404 @@
+Keywords: Textpattern, TextDrive, 2.5, Crazyhorse, Shuttle project, Core, Akismet, Automattic, redesign, Microsoft, MP6, responsive design, Breckenridge, Make blogs
+
+People Mentioned: Matt Mullenweg, Dean Allen, Jason Hoffman, Jen Mylo, Liz Danzico, Jason Santa Maria, Ben Dunkle, Andy Peatling, Joen Asmussen, Dave Martin, Andrew Nacin, Deiter Rams
+
+
+[Begin transcription]
+
+Interviewer: I’m speaking to Matt Thomas on the 4th of February, 2014. Hello, Matt.
+
+Thomas: Hello!
+
+Interviewer: So tell me first how you first got involved with WordPress.
+
+Thomas: Sure. So I first started working with Matt Mullenweg in 2005 just doing some freelance work for him. I actually did the website for Akismet — the spam spider. I guess Matt liked it so he told me about his new company he was starting and he asked me to do the logo and the website for Automattic and that went well so a few months later he asked me to do the first big cohesive design for WordPress.org.
+
+Interviewer: Yeah, I can hear you.
+
+Thomas: There’s a loud noise all of a sudden.
+
+Interviewer: Oh, someone’s turned on the air conditioning. Hang on, let me go and turn it off… Hello.
+
+Thomas: Hey!
+
+Interviewer: The air conditioning unit is off now. I’m sitting on our balcony where there’s a bunch of air conditioning units and whenever someone turns it on it gets really noisy and really hot. 
+
+Thomas: It was so funny like the background noise is beautiful, I can hear birds chirping and it sounds like you’re in a nature sanctuary. And then when the air conditioning unit turned on it sounded like construction equipment. 
+
+Interviewer: Exactly, it does sound like that. Apart from that it’s lovely! I can see palm trees and I can see the sea.
+
+Thomas: I’m imagining it — it looks beautiful in my mind’s eye.
+
+Interviewer: I’m glad! So you can keep picturing that. Okay, back to WordPress. So you did Akismet and Automattic website and then you joined Automattic. Had you used WordPress before?
+
+Thomas: Actually, no. I started — well, I graduated from college in 2003 and then I started trying to teach myself web design after I graduated because I kind of learned — I went, I got a print design degree, and then I kind of realized print design was dead. So I tried to learn web standards and I got into reading A List Apart, and I actually picked Textpattern first as the CMS for my website.
+
+It was actually — if I hadn’t picked Textpattern then I would have gone with WordPress. I picked Textpattern [3:00] and I signed up for TextDrive — the site that Dean Allen started. After signing up as a TextDrive customer, I did some work for them and the freelance work I did for TextDrive lead Jason Hoffman to recommend me to Matt, so it all sort of fell into place from there.
+
+Interviewer: And that’s the connection.
+
+Thomas: Yeah. So I actually started using WordPress around the end of — I think it was 2005…yeah — was when I did the redesign of WordPress.org, and that’s when I started — I set up a WordPress installation for myself just to play with it and was like, “This is really cool!” 
+
+Interviewer: Why did you choose Textpattern to begin with?
+
+Thomas: I’m so not technical. I said I went to art school, and I didn’t take any design — or coding class, I took a lot of design classes — but I took no web or technology classes there. So I was looking for something that would ease me into it the most easily, and when I first looked at WordPress the PHP-based system of tempting just blew my mind a little bit too much. So I was looking for something that was just a little simpler to wrap my head around. So that’s how I got into Textpattern.
+
+Of course, once I did the site for WordPress.org I realized how much — I don’t know, enthusiasm? — like how many people were working on things in the WordPress side, and that’s what really goaded me to switch over.
+
+Interviewer: Do you remember what the brief was for the WordPress.org redesign?
+
+Thomas: Oh gosh. I wish I could remember. I remember that — I remember some of the conversations that Matt and I had about it.
+
+He had a very specific look in mind. He wanted — he didn’t want it to look like we were selling something to anyone. He wanted it to look more like a newspaper or some finely designed piece of writing or something. It was sort of a weird brief to get but it was great for me because sales-y kinds of things were what I was used to doing in my career at that time, so that was the visual inspiration for the design, was a newspaper or a periodical like a magazine.
+
+Interviewer: So what else did you do at Automattic to begin with?
+
+Thomas: I think — let’s see, when I first started, actually the first thing I did was redesign the company website that I had done about a year before. [6:00] Because you know, designers are never happy with anything they’ve done five months later.
+
+Pretty quickly after that I started working on WordPress.com and that sort of became my major focus for the next seven years. 
+
+Interviewer: So you didn’t — you weren’t involved with .org?
+
+Thomas: Not very much. My day job would be working on WordPress.com, different projects came up on the .org side of things like the 2.5 redesign project. When that came about I got excited about it and they asked for my help in implementing it. So I was really excited to take the Happy Cog designs and I did a lot of the CSS and HTML work necessary to implement the designs.
+
+When that was done I went back to WordPress.com, and again — obviously when Crazyhorse came about they sort of — actually it was at an Automattic Meetup in 2008. These Meetups, we always sort of split into little groups, and we get an assignment at the beginning of the week, and everyone was getting in their assignments, and Matt Mullenweg turned to me and Matt said, “Okay, Matt you’re going to redesign WordPress.”
+
+Interviewer: Wow.
+
+Thomas: So I was like, “Okay.”
+
+I worked with Jen Mylo for that week. She and I worked together. She filled me in on the work she and Liz had done on the user experience side of things, and they asked me to sort of fill in on the visual design how that should come together.
+
+Interviewer: Were you aware of the Shuttle project at all?
+
+Thomas: I actually was not. It was a little bit before my time. I joined Automattic in November of 2006, so I was a little late on that one.
+
+Interviewer: Yeah, that was…
+
+Thomas: I became aware of it as I sort of started using WordPress, but I also got hooked on WordPress.com pretty quickly as far as using my own site.
+
+Interviewer: So, I’m trying to figure out what the sense from the community was about the Shuttle project, because I mean I’m reading blog posts and things like that, but I’m just wondering what your impression was coming in from the outside.
+
+Thomas: Yeah, it’s funny because when I first learned about it I was like, “Holy crap! We’ve already done a redesign project.” I looked through it and I was fascinated, obviously, because it’s so much work and so much time had been put into it. [9:00] I think probably the best outcome of the Shuttle project was it sort of taught — it taught us a lesson for every future redesign project, on what the community would tolerate in terms of things that were developed or designed on their own, outside of the eye of the community.
+
+Some of it was good work, but they also I think spent a lot of time going down paths that they never would have explored had the community been able to help guide the direction.
+
+Interviewer: The next redesign I guess was the Happy Cog one, but that was done separately from the community too.
+
+Thomas: Yeah. That one was interesting because I was — as a young designer, when I heard that Happy Cog was doing it, I was like, “Oh my god! These guys are the masters!” And they totally are.
+
+But they had some of the same pitfalls as far as not listening to the people who actually use the software. Their work was beautiful. I thought it was visually wonderful, and I was really excited to launch it. I was as surprised as anyone — and maybe some people weren’t surprised — but I was super surprised to see the reaction that they got, but it makes sense in hindsight. It’s not just about those things.
+
+As a designer, a lot of the things that Happy Cog is really good at are things that I personally appreciate, but the one thing that they got wrong in that project was making sure that their solution fit the needs of the people actually using it. Again, it’s educational for all future efforts.
+
+Interviewer: Why do you think — sorry.
+
+Thomas: I was just going to say that I think obviously it inspired the approach that was taken in Crazyhorse, so it got to a good outcome for them.
+
+Interviewer: So do you think it went wrong because they weren’t involved with the wider project or do you think that there were other reasons?
+
+Thomas: It’s hard for me to say because I wasn’t that involved on the design side. I didn’t really see it until after the brief was done. And it made sense to me. As a designer I saw a completed brief and I said, “This looks and feels like it’s been very well reasoned. Let’s do it.”
+
+I think that — well, it was obviously the user testing that [12:00] Jen and Liz did in Crazyhorse that sort of shined the light on exactly what went wrong there, which was that it wasn’t as usable as it could be. Not by a long shot. It looked a lot better, for sure, and some of the organization made a lot more sense just logically, but until you actually get it in front of users you really are working blind, I think.
+
+Interviewer: They did some user testing. Was the report that they produced shared with you or shared with the community?
+
+Thomas: I don’t know. I really don’t know. It might have been shared with the community, but it wasn’t shared with me. I mostly got a brief of — explaining the elements and how they would fit together, and how they should be designed. I took those basics and then applied it to all of the elements on the screen.
+
+Thomas: was it 2007 maybe? And I was completely unaware of user testing at that point in my career. I had no idea what it was or why it was important. So like I said, it was a really educational experience for me because I learned after, as a result of that project, how much more work there is to do on the front end of the design side before you ever get to actually designing what it looks like. 
+
+Interviewer: What was it like to work with Happy Cog, then? Did you have much interaction with them?
+
+Thomas: Not a lot. I had a little bit. And it was kind of like working with rockstars, you know? Like your idols a little bit. Because talking to Liz Danzico and Jason Santa Maria and working with them as peers on a project was a little mind-blowing. They’re very good at what they do, they’re very down-to-earth, and there scientific in the way they think about design. I definitely don’t want to give the impression that I don’t think it was well-considered. I think it was, I just think that the — like the WordPress community has gotten really sophisticated in the way they expect WordPress to work, and what they expect to be able to do with it. It’s so much more pliable than most software that people interact with on the web.
+
+It would be so easy to design interfaces for software that didn’t exist yet all day, because there’s no limitations in terms of what users expect. The users will expect whatever you teach them to expect [15:00] at that point, but with WordPress you have such a very specific understanding of what people want it to do. You have to respect that, otherwise it’s not going to go anywhere. And that’s what happened, I think, a little bit with 2.6 — I mean, 2.5.
+
+Interviewer: What was it like to work as designers with those types of restrictions?
+
+Thomas: You know, I think it’s really hard for some designers because it definitely limits — it feels like it limits how creative you can be. That’s the initial sensation when you get a brief on a project like that.
+
+I have always felt like restrictions like that are what forces good work out of me. I don’t feel like a stereotypical creative person — I don’t even know if that’s a real thing — but I don’t feel like I’m just creative and I have all of these creative ideas coming out of me all the time. If I’m focused in on what I have to do, those kinds of restrictions almost always bring the best work out of me because the limitations focus my mind on the things that I can change and the things that I mustn’t.
+
+I guess time will tell, but I think MP6 was pretty successful because it didn’t — 
+
+Interviewer: Sorry!
+
+Thomas: What’s that?
+
+Interviewer: I just had some music appear from somewhere.
+
+Thomas: Oh, I didn’t hear it.
+
+Interviewer: Okay, good.
+
+Thomas: I think that’s why the approach we took in MP6 was a little more successful as far as redesigns go, just because we didn’t, we didn’t move the cheese.
+
+Interviewer: So what was your — can you tell me a bit more about your involvement in Crazyhorse?
+
+Thomas: Sure. So I didn’t get too involved with that until most of the user experience research had been done. I knew about it and I installed the Crazyhorse demo build that they had been working on. Actually, my first reaction was, “Oh my gosh.” Because we had just finished implementing the Happy Cog redesign just a few months prior and I was like, “What are we doing? Why are we doing this?” I was mortified at first, actually. 
+
+I started reading about the research they had done, and I started to understand why they had done it and it made more sense to me. When I saw how well-founded the design decisions were I was excited because I knew that this [18:00] was a structure that could take WordPress for a long time. It wouldn’t need a foundational redesign again for a long time. And history’s pretty much played that up.
+
+Interviewer: Did the rest of the community get involved with this process, or was it just Jen and Liz and you and a few other people?
+
+Thomas: I don’t know how involved the community was in the user experience work that was done before I got involved. I know that they tested it with people. I don’t really know the story of how the work that they did that led up to my involvement got done. They can kind of tell that story a little better than me.
+
+The visual design process was actually really close at that point in time. Like I said, it was at an Automattic Meetup and we were in a house in Breckenridge, Colorado and Jen and I pretty much just sat at the dining room table all week and worked on it. And we just worked and worked and worked, and I came up with ideas and I would share a list of options with Jen and Matt and a few other people and we would sort of make an executive decision — that one! — and move on to the next thing.
+
+It was crazy. It was fun. It was the kind of thing, when I’m really into a project, I don’t want to do anything but just work on that, so we were skipping team dinners with the rest of the company to hang back at the house and — we were working on Crazyhorse and watching the presidential debate between John McCain and President Obama one night. It was a fun week. It was really cool. But at the same time that could never work again in WordPress. It was sort of a function of the moment.
+
+We were there and I think that they had worked with someone else — I don’t remember who — on some sketches and concepts for a visual redesign, and it wasn’t working out, so they decided they would corner me when they had me in person I guess.
+
+Interviewer: So why could it never work again?
+
+Thomas: I just — I think the community has gotten too big for two or three people to do that much work in private. I think the way MP6 worked was really nice because it got — it gave people a way in to the group. Even though the group worked in private, [21:00] the door into the group we were working on was open, so if anyone said they were interested they could just walk in. 
+
+We had — I don’t remember, like 15 or around 15 maybe — people in the group chat eventually, and some of them were people who contributed every day, some of them were people who contributed at the start and then kind of stopped, and then just kind of listened, and chatted with us at times along the way, and all of it was good. All of that was useful. And I really appreciated the fact that there were people who wanted to get involved and wanted to offer their input, because that was kind of the problem that we had had in the past, too, in some of the earlier work that we have done: that there just wasn’t a whole lot of designers who were interested in being involved.
+
+Interviewer: Did you get feedback from non-designers? Not on MP6, but during other projects, and was that helpful?
+
+Thomas: We definitely did during MP6. I can’t really think of any other project where I’ve had that much interaction with the community. 
+
+The thing about MP6 that was different for me was that we had the system of Make blogs, which we didn’t have when I’d worked in Core projects in the past. That gave sort of a platform for me to talk to members of the community and for them to give me their input and then I could take it back to the group.
+
+That happened a lot. There were people who weren’t necessarily interested in joining the group, but had input on our weekly releases, and things they said would guide our progress from that point on.
+
+Interviewer: Do you remember what the brief you were given was for Crazyhorse? For the kind of…
+
+Thomas: Crazyhorse? Yeah, it was basically…take this and make it pretty.
+
+Interviewer: You didn’t have any idea about color schemes or?
+
+Thomas: No, not really. It — I mean, it’s nice. On one hand it’s freeing because Matt I guess trusts my judgement on a lot of things, which is — you know, I appreciate that. On the other hand, like I said, I like restrictions sometimes and so it’s almost a little scary when you don’t get very much — very many parameters to work with. 
+
+So when I got Crazyhorse, it was just sort of this prototype that didn’t look like anything — or it was sort of the weird hell child of the Happy Cog redesign and the work that Jen and Liz had done. They actually — they gave me some [24:00] mockups that another designer had done, and they were like, “We don’t like these.” And they explain why, and I understood. That was basically the — those were the parameters that I got, was, “We don’t like this. This is how it’s going to work. You come up with some ideas for how it should look.”
+
+We were very — it’s kind of amazing to me how much we’ve grown in terms of professionalism over the years, because we were all professionals at that point, but we were also young in our career, so we’ve grown as our understanding of our professions have grown.
+
+Interviewer: Did you come up with a couple of designs or did you just have one?
+
+Thomas: I believe that there were a handful, but I can’t — I remember doing a heavily blue one to go back to the pre-Happy Cog thing, and I did one sort of in Happy Cog colors with the light blue and grays and oranges, because I really liked the color scheme that they had introduced, and I didn’t want to mess with it too much. It seems like at the time, people wanted to get away from that because I guess the reaction to that — to the previous version — had not been so great, so they wanted the color scheme to shift away from it a little bit so it didn’t seem quite so related.
+
+So I kind of melded the two — I took the things that I kind of liked. They had given us an orange that we had never used before for highlight colors, so I kept that. That’s how the orange on actions or on active links came about. They had changed the tint of the blue to make it a little greener, and it seems like that I kept. But then the sort of — I don’t know, the — someone called it Fifty Shades of Gray the other day, and I was like, “I really don’t want that to be the way we refer to that,” but it was, it was very gray. It was a big gray bar on the top and a big gray down the side and gradients of gray all over the place.
+
+At the time, I think it was a pretty good representation of a web app, but my god I was really ready to change it by the time MP6 started.
+
+Interviewer: So how did MP6 come about?
+
+Thomas: Matt pointed me on Skype to a thread where they were talking about the new icons that Ben Dunkle had been working on. He had redone all of the core icons in [27:00] a flat one color design, which was really cool for several reasons because it allows you to do things like color the icons through CSS and make them vector with SVGs or Web Fonts and there’s all kind of cool things you can do once you simplify the design down to one color.
+
+But people, I don’t think, liked them in the context of the gray on gray on gray current design of the admin. It just — it felt flat. And the shading and the detail inside those icons were sort of the only little bit of whimsy and happiness, I guess, inside the dashboard. When those icons just got flattened to more dark gray, it just felt sad. It felt like you’d taken all of the character, all of the personality out of it.
+
+Until Matt sort of started a Skype group with Ben and myself, and said he wanted us to think about how this might work. He gave us some parameters — I could go back and look at the early conversations, because I do have those — but he didn’t necessarily say, “We don’t want to change too much. We don’t want to change the way it works.” That was just our best instinct on knowing that anything that we did would be better received if we respected the work that had been done on the Crazyhorse user experience.
+
+We felt we had a limited amount of time. We ended up having almost a year to work on it, but we thought that there was just no way that we’d ever have enough time to try to do really big — the really…what’s the word I’m looking for…I don’t know, the sort of bigger, more exciting redesign kinds of things that some people have posted about. Which I think are great! I think those ideas are totally welcome. It just wasn’t right for this particular effort.
+
+Interviewer: So how — Matt asked you about it, and how did you guys interact with the Core team? How did they feel about the, sort of any idea for a new redesign?
+
+Thomas: One of the things that we got from Matt in the beginning was that we should build a release every week, and post it publicly for people to download, and that was going to be how we [30:00] interacted with the community. And of course he gave us the idea to build it as a plugin in the first place. He basically said that I would have final say on design decisions, but that we would open it up to anyone who wanted to contribute and the Core team would make a decision based on what they thought of the work that we had done in the end, what they wanted to do with it.
+
+So we never worked that closely with the Core team in terms of asking them, “Do you like this? Is this the direction we can go?” We more just sort of did what we did and then said, “Do you like this?” Since we were doing it week by week, we never got too far out into the woods by trying to design something that never would have worked, because on a weekly basis we had that release and we would get feedback from Core team members saying, “I like this, I don’t like this.” 
+
+Interviewer: So you weren’t — you didn’t start to think that it was definitely going to be the new WordPress admin?
+
+Thomas: Oh no! No. No, not at all. I mean, I had an inkling that it would be possible, but I didn’t think it was a sure thing at all.
+
+Interviewer: Okay. What about other members of the team as they sort of joined, did they have the same — did they also think that it might not be in, or? I mean, when MP6 was announced, I just thought, “This is going to be the new dashboard. The new admin.”
+
+Thomas: You know, I tried to set the expectations for the group that we have no guarantee that any of this will ever go in, but that we were building a product that we thought would be appropriate to go in to Core.
+
+We kind of got lucky, because in the very beginning I think we did — I don’t remember, one or maybe two releases of just sort of polishing things up with Ben’s icons as he had designed them, and then I think it was in that second or maybe third week that I was just brainstorming and I had sketched out a few ideas on paper. I had taken a few of them into code and was just fiddling with CSS trying things to see what I thought worked and what didn’t. I had tried one with this unified black L-shaped bar around the top and the side and everything else sort of on this one piece of paper that is sort of — that was the idea, was that the black would feel like a background and the white would feel like the sheet of paper lying on top of it, so it would unify these [33:00] disparate things: the toolbar and the sidebar and the main content column, and they all had different designs. It was all sort of unified into two things: one navigation and one is content.
+
+That was pretty strongly received by the other people in the group, so we spent just three or four days just brainstorming and banging around on that idea, and when we released that at the end of the week, it got a pretty good reception. And I think at that point I pretty much had the idea in mind that the Core team liked what we were doing and that we would — unless we screwed it up — we would probably go into Core.
+
+But, you know, so many things have been screwed up in open source projects, so that’s why I never allowed myself to assume.
+
+Interviewer: Yep. Sure. It’s quite interesting. I’ve read all of the emails around the Shuttle project, and they said quite clearly at the start that they knew that it wasn’t going to get into, necessarily be part of WordPress.
+
+Thomas: Really?
+
+Interviewer: Yeah, that Matt was kind of their client and he would make the decision at the end. But then at the end of the project, I guess, after a year and half of work, they were pretty annoyed.
+
+Thomas: Yeah, that’s a tough way to work. I don’t think I would ever want to try to design something for a client, especially something as big as WordPress without having a really regular connection to the people it was being designed for. And that’s no knock on the people who did it, because like I said, every design that we produced — the good ones and the bad ones — have educated me on what to do or not to do in the future ones, so they’re all great in terms of what we’ve been able to learn from them in hindsight.
+
+Knowing that Matt sort of gave us the seal of approval to start working meant that we felt like we had enough — it’s not power, because it’s not power — but enough authority, I guess, if you want to use that word, to make some bold decisions and make some choices that not everybody might like. Because those are the ones that are going to lead to better designs. If no one has anything bad to say about it, you’ve probably failed because it probably wasn’t bold enough. At the same time, there’s also windows that…so. Which was super bold and beautiful to me as a designer, [36:00] and I thought it was going to be a big success, because I thought people would love it, and then I saw how unusable it was from a user experience point of view, and I realized that’s — again, it’s beautiful design and a real faith in the belief that if you put enough effort into the science of the design — because Microsoft — I’m talking too much about Microsoft…
+
+Interviewer: It’s okay!
+
+Thomas: They put so much faith in the math behind the grid on the page, because we worked with them on the WordPress.com for Windows 8 app — we worked with a Microsoft team a little bit on that at Automattic, and they were great, and they had so much science behind the design. The grids were mathematical, they had a typographic hierarchy in place for every app that I just thought was going to lead to so much better design for Windows, and I thought it was going to be a revolution for Windows users, and I did not realize that they had not really taken the time to make sure the Windows users were going to want these innovations. They didn’t want them. 
+
+And I think that’s kind of what happened with the Happy Cog design. It was beautiful, but it wasn’t anything that people were desiring.
+
+Interviewer: Were there any decisions you made around MP6 that didn’t go down well?
+
+Thomas: That’s a good question. The choice of using Web Fonts has definitely been sort of a…yeah…sort of a controversial one. But even that one made it into the final version.
+
+I’m trying to think of something that we wanted to do that we ended up axing…but I honestly can’t think of anything.
+
+Interviewer: Wow. That’s pretty good.
+
+Thomas: I mean, obviously we had to scale back some things. The responsive component of MP6, I actually said no originally because I didn’t think that we were going to have time to do it. I’ve been involved on the responsive redesign of WordPress.com and it’s hard. I just knew that there was going to be ten times more work involved in trying to make the entire WordPress admin responsive. And I was just like, “I don’t think that we should try to tackle that as part of this design project.” It just didn’t seem feasible. Then Andy Peatling came to me with a plugin that he had done over a weekend that did basically 65%-70% of the work of “responsifying” the admin. And he convoked me that we could do it.
+
+I showed it to Matt, and we installed it, we all tried it alongside MP6, [39:00] and as a group we decided to merge it with MP6 and it went great. It’s one of the things that’s gotten the most press, it’s just so just a first version of a responsive admin. There’s so much that it doesn’t do correctly yet that it just eats me up, but just the fact that it got done — I’m super happy with, because it’s so easy to have to just cut a feature out entirely, and it just sort of get relegated to trivia about WordPress and the future.
+
+Interviewer: Do you think it will be completed though?
+
+Thomas: Definitely! I think it’s going to happen segment by segment. There’s a lot of — some of the most difficult things we found when trying to do the responsive component of the design were in the right page, the edit page, and — I mean, not just tinyMCE, which presents its own challenges on touch screens, but things like the modal dialogue with the Publish button is so far down that you have to scroll so far down when you — to get to it after you’ve written something. That’s not something you can really tackle as part of a responsification, if that’s a word, because it requires completely rethinking the design on the desktop side too. There’s not something you could just magically do on the phone that would then also make sense when you resized the browser and it was back to the way it’s always been.
+
+So that’s where I think these efforts — the teams that have been working on potential new editors, the front-end editing or content blocks for the admin editor — I think that’s where some of these problems will get resolved on the responsive end too.
+
+Interviewer: That makes sense.
+
+Thomas: Because it’s going to take a whole new interface.
+
+The media library is another good example. The media library — I don’t remember what version it came in, it was fairly recent, and it was beautiful, and it was a great media library, but when we started trying to make it responsive it just fell apart because it made certain assumptions about the size of the interface that were no longer true once you were on a phone.
+
+Interviewer: Did you have a brief for MP6, then, or did you just — was it like, “Just go wild.” [42:00]
+
+Thomas: Yeah, usually with Matt it’s just, “Go wild.” Matt doesn’t really ever write project briefs.
+
+Interviewer: No.
+
+Thomas: We just — we got notes. We knew basically what the people in the community had not liked about the efforts to put the new icons into version 3.6 I think it was. God, I can’t remember now.
+
+Interviewer: Don’t know. I’ll look it up.
+
+Thomas: I think it was 3.6. We just started by trying to do some research on why it didn’t work, why people weren’t responding well to it. Then we just started brainstorming.
+
+It was very, very loose and honestly it wasn’t a whole lot more formal than the Crazyhorse redesign. It was just a bigger effort just by virtue of — well, first I just dragooned some people into it. Some designers who, in the WordPress community or Automattic, who I respect and I wanted to work with, and I was like, “You have got to help me with this!” So I brought in Joen Asmussen [43:14] and some other people and we just started spitballing ideas, and I would show them things and they would be like, “Eh, I get that kind of.” Or they would be like, “Oh, that’s great!” And I would think, okay, that’s what I’ll be working on.
+
+And it started off a lot like in Breckenridge with just a couple of people in a small group, and as we posted those things every Friday, someone would post a comment that I would respond to, and we would start chatting and I would invite them into Skype group.
+
+Interviewer: So how did it work? Did you kind of come up with the designs and send them to the group or did the other people did pieces of the designing? How did the team work?
+
+Thomas: We worked pretty well. I did the first big idea, I guess, with the — with what I talked about with the dark background and navigation, the sort of unification of toolbar and admin bar.
+
+Once I had that in place, the idea behind it started clicking for people. I think I did some of the basic visual — I don’t even know what to call it — it’s like sandpapering, like un-rounding the corners and fiddling with the gradients and making the background just ever so slightly less prominent and a little less — like just the teeny little things that make the design sharper. [45:00] I don’t know how to put it into words really. It’s just the little refinements I guess.
+
+I would send those to the group and that set the base for how the rest of things would be designed. I sort of did a table, a form, an interface for dragging things around, and showed how I envisioned all of these different elements taking on the new style. From there, the other designers who worked with me — like Joen and Mel and Dave Martin, and I don’t remember everyone right now, tons of people — had ideas and they would send little examples to me, like, “What about this? What about using this color for an alert message?” And Mel and Joen did three or four or five rounds of ideas for how the alert messages should be redesigned — those little gold blocks that were there before that are now just sort of with a color on the bar on the side. So I’m explaining this so terribly…
+
+But just those little refinements, those little things that everybody — that was one thing we heard from everybody, everyone hated those yellow notices, because they would log in and those fricking yellow things would be staring at you every time. Part of that is we need to make them dismissible, but also is just design them in a way that doesn’t make people nervous and angry every time that they log in. Those little psychological things that you can do that just make it happier for people who have to use it every day.
+
+Interviewer: I have a suggestion relating to that actually, but I’ll tell you in a minute when we’re done with this.
+
+Thomas: Awesome.
+
+Interviewer: I’ll try not to forget. Did you ever fall into the problems of design by committee, or was it not an issue with you kind of at the helm?
+
+Thomas: I’m trying to think. Not in MP6, not really.
+
+The Core group was really cool about deferring to us on almost everything. There were definitely some things that they didn’t like and they — and you know, Nacin would say, “What about this button? What about this? What about this little thing?” And I would say, “You know what, yeah actually that’s a good idea.” Because we designed some things just based on our instincts, again, and they were able to give us data on how people use it that gave us a better understanding of [48:00] the reasoning behind why it should work a certain way. 
+
+So that’s why I think some of the widgets sections got refined a lot towards the variant and some other things like that, just where the Core team was able to give us the background that we needed to help make it work better. But it never felt like they were guiding the creative direction, I guess, of the design.
+
+Interviewer: Did you have other challenges?
+
+Thomas: Gosh, I mean there were plenty. I’ve tried to erase them all from my memory.
+
+Interviewer: Drag them back to like bad memories.
+
+Thomas: I would say they fell into two major categories. 
+
+The first was technical challenges. Most of people — it was really weird in a sense, because it’s the first WordPress project I’ve ever worked on where there were more designers than engineers on the team. Usually as soon as we can design something, there’s four or five engineers waiting to start implementing it. But this time around, we would design things not exactly sure how they should work, and we’d get the designs together and then we’d sort of have to be like, “Can somebody help us now? Because we don’t know how to make this work.” There were a few times that we had to just take a leap and see what happened, because we didn’t know the correct way to do something, or — we had a feeling that there would be opinions about it later, so we just did our best knowing that it would probably change. You know, the way a certain thing was implemented. Google Web Fonts was a good example of that. I joke about it, but we just used Google Web Fonts in the beginning because it’s super easy to implement them.
+
+As we went through the project, it was on the list always to — we need to figure out how to bundle the fonts with WordPress, which licensing, legally, was fine, because they’re open source fonts, which is great, and Google really deserves a lot of credit for how much they’ve done for type on the web by open sourcing these fonts. But people also don’t understand how much technical background is behind a decision that feels so simple like that. Because we got a lot of very angry [51:00] backlash —
+
+Interviewer: Yeah, I remember.
+
+Thomas: — on MP6 over the decision to link to Google. Some of the criticism was: “They did this without even thinking!” Well, no, actually. We thought about it a lot.
+
+The reason we ended up using Google Web Fonts in the end was because we thought about it so much we realized it was the only solution that was reasonable to make the project work. It was either use Google Web Fonts or go back to Arial. And I think the design was worth it.
+
+I totally respect the opinions of people who have a concern about a font being served from a certain service, but those kinds of things I don’t think can be allowed to hamstring the pace of development in WordPress. If there’s somebody who wanted to contribute to WordPress by downloaded all of the fonts from Google, getting all of the language subsets that would be necessary, all of the different browser types, the different font formats for each different browser that you would need — because you end up talking about like 25 or 30 different files, and some of them need to be served dynamically depending on what language the user is using. This is all something that Google does like nothing, it’s just nothing. You write one line of code and it’s done. So if somebody wanted to contribute all of that to WordPress, that would be great! I don’t care about serving things from Google, but I do care very deeply about giving users the best possible experience. I’m happy to take the heat for whatever, whoever doesn’t like the decisions that  we made to get there, because I think in this case it was clearly worth it. 
+
+Web fonts are not just decoration anymore at this point. They really contribute significantly to the usability of software if it’s done right. I’ve been really, really — I don’t know the word — I’ve really appreciated the feedback we’ve gotten from people, like people with dyslexia or people with poor vision who have said it’s so much more readable now than it used to be. And I’m also realistic because there are also people who have told me that it’s worse now than it used to be. [54:00]
+
+Interviewer: Of course.
+
+Thomas: So that’s why we did the light color scheme, and we spent so much time making color scheme something people could extend so that they could build super high contrast accessibility themes if they need to. Because I want it to work for everybody, I want a universal design for everyone. I think you have to pick good defaults that help the most number of people even if there’s some people around the margins that it’s uncomfortable for as we make the move.
+
+I want to pick those people up and help them get there too. I want to make sure they get a plugin that disables the font or gives them a better font for them, or gives them a better color scheme, so that they can use WordPress too. But if we hadn’t bothered to ever put web fonts in, or put color schemes in, then we wouldn’t be having this conversation because they would just have to live with whatever we had picked.
+
+Interviewer: You said there was two types of challenge. One was technical. What was the other?
+
+Thomas: Yeah, the other would be the philosophical challenges. 
+
+I’m trying to think how best to explain it. We got all kinds of good feedback on the basics of the design, but we’d also get more ethereal feedback sometimes on things that couldn’t really be measured, and those were the hardest to suss out because as designers we want to be sensitive to the people who are using the software. We don’t want to design something that they hate or that they don’t want to use. But at the same time we want to feel like we can be confident in the decisions that we’ve made without necessarily having to go to individual users one by one and [inaudible] every single one of their concerns, you know what I mean? 
+
+So it was hard to know what feedback to ignore. And that sounds really bad. People are going to listen to this now. But it’s not about ignoring it; we read it and we considered it all. But we couldn’t make the design reflect every piece of feedback that we got. There were some things that had to be considered and we had to make a determination on where it ranks in the hierarchy of things that are important.
+
+Overall, that was — I think we got through that, but that was what I found most challenging, was [57:00] knowing that you can’t please everyone but at the same time we would get feedback from people who felt really passionately about certain things that we had no plans to change. So we wanted to be respectful to their concerns while also — you know, not deferring our own judgement to each individual who expressed an opinion I guess.
+
+Interviewer: Can you think of any particular examples?
+
+Thomas: There was all kinds of little ones. People wanted to debate the exact shade of gray that the sidebar would be. Again, I totally appreciate input on things like that but at a certain point a dark sidebar is a dark sidebar, and if it’s 80% gray or 85% gray or 90% gray, I don’t think that that’s really an important thing to debate. At a certain point, you just have to make a decision and roll with it.
+
+Things like that. The color, the font that we picked. You get could feedback, but you listen to the best — you listen to it all, you try to synthesize what’s good out of it, and you just roll with what you think works. The great democratizing thing about MP6 was that, at the end of the week, people had an open forum to tell us if they hated it. If anybody had really forcefully disagreed with anything we’d done, I think we would have heard about it. But we were lucky in that we didn’t really ever get much of that.
+
+Interviewer: So now that the dust has settled and it’s been part of WordPress for a little while now, do you think it was successful?
+
+Thomas: I do. I do. I think it was — my hopes for MP6 were very modest, because I knew that I didn’t want to try to change the basic usability of WordPress. I didn’t want to change anything in code if we could help it, just because I felt like we’d be going down a path where we’d be forking WordPress at some point. So I just wanted to see how much we could do with just CSS, just by visually refining. In those terms, I think it was definitely a success because I feel like the visual refinements [60:00] set up a system that will take WordPress for the next 5-10 years. Sort of like Crazyhorse set up a UX foundation that we could use for the long term.
+
+I’m sure that with every release of WordPress, certain visual things will change because times change and we want design to not be trendy but we want it to be up-to-date and modern and use the best design knowledge that we have at the time. We didn’t go flat for the sake of being flat, we took certain steps to standardize the interface in a way that would make it way more customizable in ways that it had never been before, like being able to do the color schemes. 
+
+By setting up an example that plugin authors hopefully will follow in the way that they design their plugins. Some plugins are really good. Some plugins have spent a whole lot of time on interesting designs for how their interfaces work, but a lot of them don’t really relate back to WordPress in any way. They don’t feel like a part of WordPress. And Automattic is as guilty of that as anyone in some cases too. I really wanted us to build something that plugin authors would get excited about designing around, because I think the existing design wasn’t really something they were ever excited about using and that’s why they didn’t use it for their plugins. And that’s why things like WooThemes don’t really look like Core and JetPack doesn’t really look like Core.
+
+Because Core was kind of boring, to be honest. So I hope with things like color schemes and the new icons and the new design language that plugin authors are really going to want to make software that looks like a piece of Core.
+
+Interviewer: Can you tell me a bit about, from your experience, what the challenges are of developing in an open source — not developing, designing — in an open source environment?
+
+Thomas: Sure.
+
+I think the primary one with this particular project is the legacy that the software has. Like I had mentioned earlier, a lot of the design education that’s available to web designers have been A List Apart and A Book Apart, the sort of industry standard best practices for design are all sort of based around designing things that are new, because they’re mostly thinking [63:00] of designers at agencies. You’re designing things that are new all the time.
+
+In WordPress, or in any other open source project that has been around as long as WordPress, there’s a history there that makes it far far far more challenging. A white piece of paper is extremely intimidating, but that’s nothing compared to a fully-designed piece of paper that millions of people already understand and they know how the piece of paper works and they expect certain things from that piece of paper. There’s so many expectations riding on the brand that whatever you do is magnified times a million. If someone doesn’t like a design that you create for a startup, then no one uses the startup and the startup goes away and everyone goes on to working on something else. But if you create a design for WordPress and it gets into Core and people hate it, then it could be really horrible for the community. Design is not something that people really rave about when it’s great, but if it’s bad it can do so many terrible things to your platform.
+
+Again, Windows 8 is a really good example of this. No matter how many things that they got right, the things that they got wrong now is resulting in people not using Windows 8 and there are people still buying new systems with old versions of the operating system. There are companies buying extra support packages so they can keep using the version of the operating system from like ten years ago. And that’s terrifying! That’s terrifying as someone who designs for a platform, because you know that, if WordPress got it wrong, an industry of people supporting old version of WordPress could explode and people refusing to update to the new version. And people will do that. It’s been shown over and over again that people will absolutely not go along with a new design if they don’t like it. And there’s still people using iPhones with iOS 6 on them. So that is terrifying to a designer. 
+
+But I think that by taking an incremental approach, by making major visual changes but not making changes that would force anyone to re-learn how to use WordPress, hopefully got us over that challenge.
+
+Interviewer: Were there any challenges that came of working with the community, or alongside [66:00] the community?
+
+Thomas: Not really. The community was actually super, super helpful to us not just in terms of getting feedback but also because some of the first designers that I pressed into service were just my friends and my coworkers, but there were other designers who I never even knew before they offered to help us. And they became rockstars in the community in this release just because they spoke up, and that was amazing to me and I had never seen anything like that happen in WordPress.
+
+I wouldn’t consider anything really  problem. There were some annoyances along the way, there were some debates about things that I thought were minor issues that I didn’t think were worth debating, but at the same time none of those ever derailed us or wasted time or prevented us from eventually launching when we wanted to.
+
+Interviewer: So, most of the other design iterations had some sort of problems, particularly with the community, like Shuttle did, Happy Cog, a little less so with Crazyhorse. Why do you think MP6 was different? Why do you think it worked so well?
+
+Thomas: I’d like to think it’s because of how much more open we were with the community. I was expecting, because I wrote most of the announcement posts on the Make blog, so the first Friday when I posted the first iteration that had the big change — when we went from fifty shades of gray to black and white — I was a little concerned, I was a little worried about what the reaction would be, but at the same time I knew that I had Matt’s support and that, in the end, we could get to where we needed to be even if people hated it, I could come back next week with something that might work better. 
+
+But we never really had a negative response. Sometimes there’s — it’s hard, when you have an open source project that’s open to anyone that wants to communicate, but in any organization you want to have spaces where people can speak candidly with each other. With MP6, I think we struck a good balance of [69:00] having a private space where we could communicate with each other as we designed, and using a public space to share that work with the community, converse with them in the comments, and doing the weekly office hours in IRC. We had a lot of good feedback from those.
+
+So opening up multiple lines of public communication with the group and making it as clear as we could that if anyone wanted to contribute themselves all they had to do was ask. And that’s not perfect, I’ll admit, because I’m a complete introvert and if somebody said you can contribute if you want, I probably wouldn’t because I would be scared. I have impostor syndrome or whatever, and there are certain people who would never take that opportunity to contribute if I was asked. So there’s more that we could do to help get people like that in as well. I’m not an expert on what that is because I am one of those people. Usually it takes someone forcing me to do it, but I would say that that’s the one — the weakness in the approach that we took. 
+
+Interviewer: I’d be interested to know what you felt you learned from the different iterations of the redesign of WordPress’s user interface? I identified four broad ones, which was Shuttle, Happy Cog, Crazyhorse, and then MP6, and I’m interested to know what you learnt from each of them, and particularly from the early ones — how you applied that in MP6.
+
+Thomas: Sure.
+
+I think we kind of talked about this a little bit before, but I think the major thing that I learned from the earliest projects like Shuttle was just the vast importance of staying connected to your client. I wasn’t there to see how those guys worked, so I don’t want to assume too much about their process, but it was a small group of I would say very like-minded designers and not a very diverse group of people giving input on the design, from my perspective.
+
+Crazyhorse — I mean, the Happy Cog redesign — did better on that just by virtue of the fact that people who did not have any experience with WordPress who weren’t living it the way we were day to day were working on the redesign, [72:00] and I thought that was really helpful, because these were people who not only were experts in interactive design but who weren’t so emotionally attached to WordPress as we were, and they could look at it with fresh eyes. And I do think that — I still think that some of the things they did, they carried on. I think there are still, if you look at WordPress, you will see little hints of things that kind of stuck around from the Happy Cog redesign. There’s not a whole lot of it, but they definitely gave us new eyes as far as looking at it as software and not a new version of WordPress. Comparing it to software that didn’t look anything like anything that WordPress had done before. 
+
+Crazyhorse, obviously, that was when I learned what user testing was. I was such a newbie at that point in my life, I had no idea. Like I said, I came from a print design background, and then I learned about web design on my own, and user testing wasn’t anything even on my radar. I had no idea what that was, and it wasn’t until I had met Jen and started learning what they had been working on, and I was like, “Okay, I guess this is a thing I need to learn about now.”
+
+So that was extremely eye opening. When I first saw Crazyhorse visually, I was terrified because I was like, “Why are we doing this again?” But then I got to see the results of the user testing and I understood why we were doing it. So that gave me a really intense appreciation for the Don’t Move My Cheese kind of thing. Once people have learned a piece of software they feel empowered, and when you change it they feel like you have taken something away from them. It’s not a little thing. It hurts people. 
+
+And it’s easy for designers to joke about, because when people complained about the new version of Facebook, but at the same time I have a lot of empathy for those people because I still use Skype 2.8 because I just don’t like the new version. It’s a completely respectable response to say, “I do not want the new version of this thing because it is not as good as the last.” [75:00] And an engineer’s response will say, “No, the new version is more stable and it will get more secure results and if you’re out of date you’ll get hacked.” And completely true and valid technical concerns, but to a user, to a person, none of that makes any difference if they feel dumb all of a sudden by something that they used to love doing. So that’s my long way of saying that Crazyhorse taught me to respect what people expect out of the software.
+
+That was what guided my vision of MP6 from the very beginning. I knew that I had no interest in any kind of overhaul of the structure of WordPress, because a) I didn’t have the resources to test any changes we might have. So, it’s great if you want to make big changes, big changes aren’t inherently bad, but you have to be able to gather the data to back up what you’re proposing, and I knew that for the kind of project that we were working on, we weren’t going to have those kinds of resources. So once I made the decision that I didn’t want to alter the user experience, putting that limitation on myself really freed up — or it focused the areas on which we used our creativity. 
+
+And I think that’s part of why MP6 was a success to the degree that it was. I mean, it’s still new so people I’m sure will find things that they don’t like about it that will need changing too, but it did build upon all of those past experiences. We have a much more diverse — in every aspect — team than the original Shuttle project, even though we have some of the original Shuttle project people contributing to MP6. It’s way more open to the community than the Happy Cog design was, it uses all of the important lessons that we learned with Crazyhorse, and it takes us into a more modern approach to visual design.
+
+Previously, the design of WordPress was sort of following trends as they came in the web world. Like the ability to do gradients and rounded corners. Like, we put rounded corners in 2.8 because that’s what we do, everybody was doing rounded corners all of a sudden. [78:00] I think we’ve gotten to a point with web standards that you can do so much that we’re looping around to the other end again, and saying, “OK, take all of that shit — or, stuff — sorry, take all of the ornamentation, all of that crap out of here. Start with elements as they natively appear, without any of your design bullshit and CSS on top of it, and just add the visual enhancements that it needs to do what it has to do, and nothing else.” So color for things like organization, to alert you to action, but no more color than you need. A box shadow on an element and a border, just to give you a sense that it’s an element that can be picked up and dragged around on the screen, but not so much that it feels like this heavy, effect-laden piece of computer user interface sitting in the middle of WordPress. It’s just a box! But it look like box that you could touch.
+
+So those kinds of things I think are affordances. It’s not skeuomorphic design, and it’s not about flat design, because that’s what’s popular now, it’s just about only — well, I really love Deiter Rams, he’s one of my gurus, and he has this thing about as little design as possible, so that’s one of my guiding principles in the work that I try to do. As little design as possible has been put into the visual appearance. We wanted to make it fun and happy, so we do things like color schemes, that I think have really livened up WordPress in a way that it never has been in the past, but at the same time we added all of that personality while simplifying so much about the way the design was implemented.
+
+Interviewer: Okay. Well I think that’s a good place to leave it.
+
+Thomas: Cool!
+
+Interviewer: So thank you very much for speaking to me.
+
+Thomas: Absolutely, it was fun. Thank you for asking me to speak with you.
+
+[Audio ends at 80:30]

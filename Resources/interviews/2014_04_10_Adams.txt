@@ -1,0 +1,163 @@
+Interviewer: Okay, so, you joined Automattic in 2006? What did you do, I have the exact date. 
+
+Adams: Well, okay then.
+
+Interviewer: I think it’s September 2006. What did you do, what were you hired to do to begin with?
+
+Adams: Wow that was a long time ago. I think back then we were all kind of Jacks of all, Jacks and Jills of all trades so to speak. I don’t know that I was hired to do anything specific. I did a lot of the early work with bbPress? So, and WordPress.com had some forums I think at the time, or maybe I installed some, I forget. So I was kind of in charge of keeping those up to date, but really it was just all across the board kind of generic WordPress and PHP development.
+
+Interviewer: What were the forms?
+
+Adams: The support forums, for…
+
+Interviewer: Oh the forums, I thought you said forms.
+
+Adams: Forums, yeah, sorry.
+
+Interviewer: That’s okay. Did you use bbPress for the support forums?
+
+Adams: Yeah, we still do.
+
+Interviewer: You still do.
+
+Adams: I think an old version, actually.
+
+Interviewer: Oh so it’s like WordPress.org. It’s like, a little out of date.
+
+Adams: Yeah, yeah.
+
+Interviewer: Okay. What was it like to work there, in the early days?
+
+Adams: It was a lot of fun, I mean still is. But you know there was only like, you know, a dozen of us. I think when I joined there was like eight or nine people. So it was, I mean, frequent and direct communication with everybody in the company every day, basically. Which obviously I can’t say anymore now, now, right there’s I don’t know 250 Automatticians or something like that and I’ve never spoken to half of them, so. So I think the, I think that’s the, the biggest memory I guess, is just like literally talking to everybody who was employed there, every day.
+
+Interviewer: What did you use to communicate with each other?
+
+Adams: Wow, you’re asking good questions. So this is pre P2, which is our you know sort of internal blogging fancy thing. I know you know what P2 is, I don’t if this is, if your, your audience will be listening to this recording for posterity will know, but. [3:00]. Pre P2, so we used IRC, for sure, we used email, we had one internal blog that was just a regular blog, it wasn’t like a P2 thing. But I think most of it was IRC.
+
+Interviewer: So you have a private IRC chatroom.
+
+Adams: Correct. I think at, at one point we were on Freenode but I don’t, and I don’t know when we moved to our own servers, so we have our own, it’s not just a private room we have our own servers too.
+
+Interviewer: Right, okay. And you’d already been involved with WordPress quite a bit before then, is that right?
+
+Adams: Me, or everyone, did you ask, sorry?
+
+Interviewer: You.
+
+Adams: Me, yeah. Yes. I had been contributing to both bbPress and WordPress for, I don’t know, a couple of years at this point.
+
+Interviewer: What, what did people in the community think when WordPress.com was launched?
+
+Adams: So I’ve never really been, besides my sort of obvious contributions like code and support and documentation, I’ve never really been too… tapped in to, kind of the community zeitgeist. So I don’t really know. I remember a few things… people saying oh, WordPress.com clearly it’s going to be some kind of like for profit enterprise, because it’s a .com address rather than a .org address. I think the logic is specious, but obviously they’re correct at any rate. I think people were excited that there would be a sort of simple, I think it became quickly clear that Automattic was going to have a simple way to spin up a WordPress.com blog for free, or cheap. I think people were excited about that, given the alternatives at the time. Definitely people I’m sure were nervous, I can’t remember any specific sort of accusations or anything, but I’m sure people were nervous about in particular Matt’s responsibilities to both, you know, both organisations. Me personally, I was never the subject of any intrigue, so.
+
+Interviewer: Why ever not, you’re so intriguing. 
+
+Adams: I’m too boring.
+
+Interviewer: It’s funny the developers I speak to are just not interested in a lot of the, sort of, stuff that went around. They’re just sort of writing code. [6:00].
+
+Adams: Yeah, we never really cared. Not, not in a like dismissive way, but just in a it wasn’t really on our radar, way.
+
+Interviewer: Yep. So who, who had to deal with that sort of stuff?
+
+Adams: I think it was mostly Matt. Mark, [inaudible], I’m sure was on the frontlines for some of that too just because he was our only support person for quite a long time at Automattic. Those are the people that come to mind. Tony probably did not deal with much of that kind of community stuff back then, Ranan may have seen a bit of it in dealing with partners and things but I doubt it. 
+
+Interviewer: Yep, yep. Okay.
+
+Adams: Ryan may have gotten some too just because he was you know, sort of the, well he was the lead developer of WordPress at the time and obviously more involved in the community so he may have shouldered some of it, I’m not sure. Witnessed some of it. 
+
+Interviewer: And did you guys find that you could, you still had time to work on WordPress, or was your time taken up by WordPress.com?
+
+Adams: I, the way I remember it in this seven year retrospective, we were still pretty active in contributions to Core WordPress. In part I suppose because it was the early days of WordPress.com, and also sort of the early days of WordPress itself. So there was a lot of stuff. There was a lot of stuff we could, as the open source community could do, that would directly benefit Automattic as well, WordPress.com. That’s still obviously true, I think it’s a little bit less true now. But definitely over time, I think probably all of the early Automatticians with the exception of I guess Ryan and Matt, contributed less and less to Core WordPress. Which is something Automattic wants to turn around, it’s definitely something we’re concerned about.
+
+Interviewer: Is that, was that a concern then?
+
+Adams: No I don’t think so, I mean one I don’t think the, it was sort of gradual and I don’t, I didn’t notice it happening [9:00], I’m sure other people in the company did. But also there, I mean there’s always more work you can do for anything, for WordPress.com, for Core WordPress, it’s, all of it needs to get done, so. I don’t know.
+
+Interviewer: Yep.
+
+Adams: Also, I think, espec-, going back to sort of developer mindset I think a lot of the early developers of WordPress never, like the community has changed quite a bit in the past, you know, ten years. And I think for some of the earlier developers, certainly for me, it’s, I think it may be a little bit harder to contribute to WordPress now, just because there’s more hoops, good hoops. But I mean the hoops, they aren’t really hoops, they’re just sort of, you know people call it politics or something, I call it, like, good governance. And all of those things are good, but they’re not what we were used to from, you know, seven years ago, ten years ago. I’m old and I don’t like change.
+
+Interviewer: You’re not that old.
+
+Adams: Mostly it, no, no, mostly it’s just, you know, you get busy doing one thing and have less time to contribute to another, so. 
+
+Interviewer: Did the work you did on WordPress.com influence what went into WordPress?
+
+Adams: Again is that, is this the work that Automatticians did, or the work that I did personally?
+
+Interviewer: Automatticians.
+
+Adams: Automatticians. Yeah, so the most memorable early example for me is widgets. That was originally a plugin developed for WordPress.com by Andy Skelton. It has since, that, that feature and that API has since gone through at least three major overhauls but the feature itself I suppose hasn’t changed too much, and that was a WordPress.com, sorry not WordPress.com. That was a, that’s a pretty nice example I think because it was something that could be developed completely independently of Core WordPress and then put in later. There are other examples I think where things needed to develop in concert. I think WordPress.com had some influence over various changes to the  taxonomy system and so forth. But that was not something we could just do on WordPress.com and then, and then make a case for, for Core.
+
+Interviewer: Right, and was that [12:00], were they always good did you think, the changes?
+
+Adams: I think they were, yeah I think so, I’m sure, I’m sure you can find examples of things that were bad in the sense of poorly designed or buggy or something. But especially back then anything we did was really kind of user focused, not kind of like architecturally focused. And they were responses to, you know, needs and desires that we got from real people. So I think that yes, I think that they’re on the whole good, I don’t think they’ve been… yeah, I’ll just say I think they’ve been on the whole good. I also can’t enumerate off the top of my head what all these mythical things might be. But widgets is, is the easy and obvious one to talk about.
+
+Interviewer: And were there other features that you tried out on users, that they either loved or hated?
+
+Adams: Yeah so, a good hated one is we have a subscriptions feature on WordPress.com, like email subscription?
+
+Interviewer: Yeah.
+
+Adams: And we thought it would be a good idea, and we had what I think was really good rational, to, if you ever left a comment on a post, you would by default, you could opt out but you would by default would be subscribed to future comments on that post. Because we wanted to encourage discussions to keep going, particularly we didn’t want someone to just sort of fly by and drop a comment and then you know never, never speak of it again. We got a lot of backlash for that to the point that we did, we did turn it off. And that was never something that was ever going to get into Core itself, but it’s certainly something that we tried you know sort of as an experiment on WordPress.com, and I wouldn’t say utterly failed, but did, did fail. Is that the kind of thing you’re, you’re asking about?
+
+Interviewer: Yeah, yeah I’m interested in, to know sort of what experiments, experiments you did and what, you know, users’ reactions were to those. What did they say about the subscriptions thing, what was the problem?
+
+Adams: Too much noise basically, they felt like it was spam. They didn’t, I think it was mostly, I think the… it’s, it’s hard to say. The feedback we got obviously was from our sort of most [15:00] active users because you don’t get much feedback from your least active users. And so it’s a little bit tricky to kind of tease out the real problems but for our most active users, they were kind of already either participating as much as they wanted to, or already had tools by which they could ensure they participated. And this was just sort of one more thing they had to deal with or ignore. So it’s, it’s hard, it was hard at the time and certainly hard during retrospect to figure out if less active users were benefiting from this or not, maybe we succumbed to, you know, a vocal minority. But that was, that was the feedback that we got, was that, this is a, you know, an invasion of my inbox, basically.
+
+Interviewer: How did you decide what was a paid upgrade, and what was just or everyone? 
+
+Adams: I honestly have no idea. Some of the things like storage, well some of the, the obvious ones are like domain purchases.
+
+Interviewer: Yep.
+
+Adams: Clearly they have to be paid, because it, it just plain costs money, it’s not something that just absorbs. Storage upgrades, also, if used, not everybody uses them which is sort of weird. But if used, obviously that costs us resources. Other than that, I have no idea how we as a company decide on what things are for pay and what things are for free.
+
+Interviewer: Okay. Can you think of anything that you guys did at Automattic that didn’t go down so well in the wider community?
+
+Adams: I suspect there’s 100 examples. Let’s see… Can think of… I’m sure there are a lot of, a lot of things, I can think of a couple just little ones, but nothing really interesting. I can get back, I need to get back to you with, if I think about it some more. Like one thing we did, I don’t know a couple of years ago, is we changed the way, this is really kind of minor and stupid, changed the way how Gravatar worked a little bit. So if you don’t have [18:00], you know if some commenter of yours doesn’t have Gravatar, you can tell Gravatar okay default to this picture instead. Right, then the like typical Gravatar logo or MonsterID or whatever. We changed how those default images worked, which broke some sites. Which is obviously annoying. But pretty minimal impact frankly because it didn’t break very many sites and we did it for, you know, [inaudible] security hardening purposes. So that’s like a small technological change that was annoying to some people. I think more interesting are probably the sort of social or quote political things that Automattic either did or was perceived to have done and honestly, I can’t think of what those are right now. They exist, I’m sure.
+
+Interviewer: Do you think that Automattic came under fire more than it necessarily would have if it hadn’t been Automattic, if that makes sense?
+
+Adams: Sort of. I think, let me rephrase the question and see if you agree. I think you’re asking, would Automattic have come under more fire… How about this, would Automattic have come under less fire if it were not founded by Matt.
+
+Interviewer: Well quite, yeah.
+
+Adams: Because I think that’s basically the same question. I think that any thing Matt does with WordPress is going to sort of, obviously he’s, a ma-, plays a major role in the open source community and govern, governance there. And so anything he does in the com-, commercial realm, is going to come under quite a bit of scrutiny. Appropriately. So I guess the answer to your question is… I don’t remember which way, which way you asked it… More under fire if it wasn’t Automattic… I think the answer to your question is that, is just what I said, that anything Matt does commercially is going to come under scrutiny, which I think is good.
+
+Interviewer: Has that ever made any, caused any problems for you as a company, that he has this sort of dual role?
+
+Adams: I mean it’s something we’re internally concerned about, sure. A lot of us are, or historically were, you know Core contributors or involved, and by contributor I don’t necessarily mean code, just involved, you know, with the community. Code, forums, documentation, you know, whatever. And, you know, most if not all of us really love WordPress and so we don’t want anything that Automattic does to hurt WordPress. That’s, we see that as [21:00] just very shortsighted. I think, my impression is that… I think, well I think Matt is sort of first and foremost among us when it comes to that concern. You’d have to ask him but I’m pretty sure that Automattic, he would never want Automattic to do anything that would damage the, the core software or the core community. Obviously that’s a subjective, you know, what, what does and doesn’t damage, or I guess more appropriately affect in any way the community is, is pretty subjective. But your question though was, what was your question? I’ve been rambling too much. 
+
+Interviewer: So my question was, has this dual role that Matt plays ever caused any problems internally. Because I mean I, from the community perspective people you know will have problems with it at times, and I’m just wondering if…
+
+Adams: Sure, I see. Internally. I mean I guess short answer yes, long answer no. I think the, not just Matt but there are people like myself, and Jane and a whole list of us frankly, who have access to some community data, or community resources that aren’t necessarily available to the general public. Me in part because I, more and more on the side, contribute to the WordPress.org site, and that kind of thing. And sometimes it’ll come up, where you know Automattic might want access to some of that data, whether it’s user testing data, or like how some, some functionality on the WordPress.org site works, that kind of thing. And universally I think everyone who has access to that data is very very protective of that data. Don’t want to give it to… we may know it as individuals but we don’t want to give that to the company at large. Because it sort of breaks the kind of division between these two roles. I think it’s always been the case that that protection has been upheld, but sometimes when that protection is upheld it can, you know, obviously create some internal conflict at Automattic because people will say well just give me the data, like this is really useful for us. Someone else will say yeah but it’s not our data. That kind of thing. So certainly that, I don’t think it’s specific to Matt’s role, there is overlap between, I mean I, rather I think that [24:00] many individuals in the company have at least a piece of that dual role, obviously Matt’s the biggest, and yes those dual roles, dual roles do, can cause a conflict internally, but nothing, you know, dramatic or severe to date.
+
+Interviewer: So whenever say you or, I mean, I guess, you are working on, say Core WordPress, but as part of your role, or WordPress.org, but as part of your role at Automattic, what hat are you wearing, are you wearing your Automattic hat, or are you wearing your WordPress contributor hat? 
+
+Adams: I would say… Oh are you ready for this, I don’t think you’re ready.
+
+Interviewer: Okay I’ll, I’m preparing myself.
+
+Adams: I would say that I’m wearing my WordPress contributor, my Core WordPress contributor hat, with, are you ready, with my Automattic spectacles on. I don’t know that that analogy’s very, very good, but it was too good to pass up. By that I mean the things I’m doing for WordPress Core, which frankly are sort of few and far between right now, I’m doing for WordPress Core with no kind of ulterior motive to benefit Automattic. But I am sort of viewing these situations from a perspective that has been taught over the past seven and a half years, or influenced over the past seven and a half years by Automattic. Meaning not like businessy or politically kind of things, but in running the website that hosts however many, you know, 60 million WordPress installations, WordPress websites, I have a not unique but specialised perspective on how certain things scale, on how users may interact with a particular kind of feature, that sort of thing. So yeah, I think, I think that I do a pretty good job of sort of separating those roles, but definitely the experience I’ve gained in both of those roles influences the work I do in, in both of those roles.
+
+Interviewer: Can you tell me how much code Automattic open sources?
+
+Adams: No, but not because I don’t want to. I don’t, I don’t know how to answer that question really. I would say that, I would say not enough. I would say that most Automatticians would agree. [27:00]. I’ll just pull up the Automattic GitHub account because that’s, that will tell us something. We’ve got, you know, so many - one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen… anyway, out of 130 repos on GitHub of more or less interest, if you go to code.trac.wordpress.org most of those things are fairly technical and sort of low level but I think all of them have been created by someone at Automattic for Automattic. No maybe that’s not true. Maybe a couple on here weren’t. So most of the things we open source, we have, we’ve developed a bunch of themes that we’ve open sourced. So I think we have kind of a good spread of kinds of things we open source, meaning user facing things like plugins and themes, meaning like systems level tools, like the things you might see on this code.trac.wordpress.org page. There’s definitely a lot of code at Automattic that could be open source, it’s not secret by any means, that has not been. One example might be something like [inaudible] which is something I’m contributing to now at Automattic, that’s our, kind of like multi device sync platform. There’s nothing secret or magical about this code, we have not open sourced it though, because it’s really confusing to set up, and we’re trying to sort of get it integrated into more places before, our priority right now is to get it integrated into more places before, before open sourcing it. Those are two kind of separate, not interrelated tasks. And we prioritised one over the other.
+
+Interviewer: How do you make that decision about what, what you’re going to open source and what you’re not?
+
+Adams: I think that, well anything sort of, obviously all our plugins and themes are, you know, open source [inaudible]. Other things… I think… a lot of our code is, on WordPress.com at least, very WordPress.com specific and so it never even really occurs to the developers or teams behind it to open source it because it would be useless to anybody else. How would we make this… I would like to say [30:00] that we assume everything will be open sourced, or that we will open source everything, and I don’t think anyone would have a problem with that mentality, I think though that the mentality is… a lot of these internal things is just… [inaudible]… just to get something working. I don’t, I don’t think that open sourcing something is the  first people think of… How do we decide to make something open source? We say hey, I bet people could use this, and then open source it. I think that’s a really crappy answer. I don’t really know how to… I don’t think there’s like a, you know there’s no like big decision tree where we have like some big meeting of all the team leads and say, you know, anything like that, it’s very adhoc and organic.
+
+Interviewer: So you said that you and other people in Automattic would say that you would like to see more stuff open sourced?
+
+Adams: I think, I think that, sorry to interrupt your question but I think that’s universally true, and I think that’s probably true of any developer that comes from an open source background, as most of us developers at Automattic do. It may not be on our radar all the time, but certainly I think that that philosophy is sort of important to us.
+
+Interviewer: What would you like to see open source that isn’t?
+
+Adams: Isn’t? Wow you’re actually like asking for data about these opinions I have. Let’s see. Well I mentioned [inaudible], which is one of the things I’m working on. I certainly would like to see that open sourced. I think Cloudup is another team at Automattic that is doing cool things, they do have a lot of open source stuff, actually they have a tonne of open source stuff. I don’t know that any of the stuff they don’t have open source is, is particularly interesting frankly. Though actually I’m not sure they have a sort of database technology they call MyDB I’m not sure if that’s open source, if it’s not then I would like to see that open source. WordPress centric stuff, obviously I can’t think of anything too interesting off the top of my head.
+
+Interviewer: Okay. Well you have answered all my questions, so I’m going to stop the recorder, thanks.
+
+Adams: Alright.

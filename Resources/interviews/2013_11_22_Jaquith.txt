@@ -1,0 +1,595 @@
+Interviewer: So let’s talk about the project structure. How was it structured when you first got involved in terms of governance and leadership?
+
+Jaquith: When I first got involved, which would have been around 2004, it was pretty much Matt ran the show and Ryan was on board by that time. He was probably considered the lead code developer, but Matt was at that time in the code a fair bit and still making decisions there. Pretty much everything ran through Matt at that point. That became a point of contention starting the next year, 2005.
+
+Interviewer: Why?
+
+Jaquith: I think 2005 is when Matt took the CNET job. Or maybe it was 2004?
+
+Interviewer: Late 2004.
+
+Jaquith: Somewhere in that time frame. So he had a full time job and they allowed him some amount of time to work on WordPress but not as much as before maybe. So a lot of things were bottlenecking around him and a lot of decisions were made fairly unilaterally by him. Some of them controversial.
+
+Interviewer: Like?
+
+Jaquith: So we had categories and we wanted to add tags as well. He went ahead and did it in a very — what we thought was a short-sighted way. It was maybe the quickest route to get them in, but it didn’t allow for any taxonomy expansion beyond that. We figured that this is not the only taxonomy issue that we might face in the future, because we also had the links and we wanted to give those taxonomy and we thought people might want to have their own taxonomies and we were thinking about things like location at the time.
+
+So that was a point of contention and we kind of butted heads over that. 
+
+Interviewer: What do you mean when you say we?
+
+Jaquith: I think Ryan didn’t think it was necessarily the best way. I didn’t. I can’t remember exactly who but it would probably be people like Owen and people who were involved at that time.
+
+Interviewer: So he just committed it to the code base without discussing it with you? Because I remember Boren talking about it was a mess the categories and tags. [3:00]
+
+Jaquith: I think he did commit it. I don’t think it would have been as contentious if he just proposed it and we said, “No, that’s not a great way.” But he proposed it and very quickly put it in to my recollection. And we were able to convince him later that that was not the best way and Boren redid it with the current system we have. And now actually we’re trying to simplify it again. We still want the flexibility that we have, but the way that Boren did it — he almost over architected it and made one fatal flaw in how he did it. And now we’re trying to unwind that.
+
+Interviewer: What was the flaw?
+
+Jaquith: The flaw was — so we went with the three table structure of having all the terms. So if you had a post and a category, both of say London, there would just be one term called London. Then we had separate tables that would relate a term to a taxonomy, so one entry for London category and one for the London tag. Then we had another table that would relate that term taxonomy table to a post. That was a simple lookup table.
+
+The simple lookup table was fine. The issue was that the distinction between terms and the term existing in the taxonomy proved to be not very useful. We could have just — since we were gaining the data anyway for the term-taxonomy table, we might as well have the actual term name in there. There were bugs where you would rename the category London to London, England it would rename the tag as well which may not have been desirable. Also, the way we did the IDs lookups was wrong. 
+
+Because we had a migration where we did category IDs, when we changed category terms we just had that ID get maintained but really the way you want to do it is you want the ID to be the term taxonomy ID. We have all these functions where you should be able to just pass in a term taxonomy ID to refer to the London ID, but now you have to actually say, “Okay, here’s the term ID London. Oh, I want you to get this for me from the category taxonomy.” So that extra step. We want to now combine those.
+
+Interviewer: So what happened? Did Matt put it in and you guys say, “We don’t like this” and then Ryan re-worked it?
+
+Jaquith: He put it in — we went back and forth on a mailing, which I’m sure you can find. Then I wrote him privately, in an email, [6:00] expressing concern about the way he was making decisions and expressing concern that — I knew he was the one making decisions, but still there are other people who were involved and had valid points of view, and I felt he wasn’t listening to those appropriately. I tried to phrase it in a way — I used that metaphor about the bumps on the side of the road.
+
+Interviewer: I don’t know it.
+
+Jaquith: So in America on highways, when you’re traveling at high rates of speed, at the very edges of the road when you pass over that line into the breakdown lane, there will be cuts in the road so as your tires go over it to make the noise. To keep truckers from falling asleep at the wheel a little bit, so just a minor corrective device. I tried to tell him that we’re there to help — not to take over necessarily but to help make those minor corrections.
+
+Interviewer: Did he listen?
+
+Jaquith: He did! He was very receptive to it. I don’t remember exactly what he said but he was touched in a way that we all cared about him this much. Obviously he did as well. It was his baby and he was worried that people would want to take it over and didn’t have the same goals and incentives as him.
+
+And he did listen, and then Boren re-architected it.
+
+Interviewer: When did you manage to get to the point where you convinced him that it wasn’t just his baby, but that you were all invested in it and had a stake in it?
+
+Jaquith: That’s been a continual process. That’s an ongoing process. Major events were probably in 2005 when Skippy and Owen split off. That was probably one of the big ones. He sort of started gradually letting go after that.
+
+When Automattic started taking off and he sort of fell away from the day-to-day code, that involved more delegation. When Jane came on board in 2008, that was another. So he essentially appointed her as his lieutenant and delegated a lot of his decisions over to her, which I think at first he thought that she would act a bit as his puppet in a sense where in his absence she could make decisions, but when he told her to do something she would do it for him and he wouldn’t have [9:00]  to get in there. So there were some arguments where she would say something and it’s like, was this coming from you or did Matt whisper in your ear? That was sometimes the case. That was another big shift.
+
+The final one was last year, we had a big intervention. 
+
+Interviewer: What happened?
+
+Jaquith: A bunch of us were — we had gotten blind-sided by a few decisions that had been made and felt that — so, he hadn’t touched the code in many, many years and had in effect delegated the decisions to a lot of the leads, and its was never really — when we were made lead developers, it was never really clear what responsibilities that entailed and what authority was given.
+
+At first it was just very much related to day-to-day coding stuff, then it transitioned, especially as WordCamp started taking off and we started going around and talking and talking to users about some of the philosophy behind WordPress and the direction we wanted to take. It became more of a general leadership role in practice. That was never really clarified.
+
+So we had all settled into that assumption, thinking he was okay with that, but he had made some decisions — and a lot of it wasn’t major stuff, it was just stuff that he would make the decision and we would be the last ones, or not the first ones, to hear about it.
+
+Interviewer: Examples?
+
+Jaquith: A big one was the WordPress MU merge into WordPress multi-site. I found out about that when he announced it at the WordCamp in 2009. He made that announcement and all the people around me looked at me like, “Oh, you’re doing that?” And started asking me questions about how it was going to go and I couldn’t outright admit that this is the first I’m hearing about it, because it makes me look bad, it makes him look bad, it makes us all look bad to not know what’s going on. I couldn’t really give any solid answers because this was the first I was hearing about it, so I had to nod because, yes he just announced it so it was happening! I was vague on the details.
+
+Interviewer: Oh dear. Do you remember other examples? I read something about the icons that appeared, was that related to this? [12:00] 
+
+Jaquith: Which icons?
+
+Interviewer: The ones that just got checked into Core and there was that huge ridiculous thread about flat and…
+
+Jaquith: Yes! So those did get checked in a little bit earlier than I thought. He’d also done a few things — gosh, I can’t even remember. There’s something related to re-organizing the comments viewing and editing screen, where he had someone else drop in the commit without any real discussion at a time when he wasn’t even available. He was out of the country. That was…
+
+Interviewer: What happened with the intervention? Did you guys sit him down?
+
+Jaquith: Yeah, we organized a — first we sent an email that expressed our grievances. Mostly related to the fact that he was doing things — not necessarily that we thought that we should have veto power over everything, but that we weren’t in the loop at all on some decisions. Stuff going on with the foundation and WordCamps, decisions related to that.
+
+There’s that, but then we also felt that we had earned and been operating under the assumption that we had some shared authority over the project as a whole, not just the code portions of it. We felt that he didn’t really respect that or in some senses even acknowledge it as a legitimate. After that, we went back and forth on email a few times, then we had a Google+ Hangout, where we had a whole bunch of people — I can’t even remember who. And we talked through all that stuff, and it got contentious at times but I think it was mostly positive. He felt a little bit like we’d sprung this on him and were ganging up, and we knew that he doesn’t do well when multiple people confront him but we’d individually said it and it just wasn’t getting through, so we felt that [15:00] we had to do that.
+
+We felt that however much of a shock it might have been in the short term that it would have been good in the long run. And it’s improved since then. After that, we had the concept of the release lead, which is something that had sort of been done with Jen sort of leading a few releases and I led one and Nacin kind of led one, but we didn’t really have that authority locked down. It wasn’t clear how much authority we had. That concept definitely sprung from that.
+
+Interviewer: How did things change?
+
+Jaquith: Well, after Matt had recovered from the shock of that intervention, I think he reached out to a few people. He definitely reached out to me and we got to talk about things in more detail and more one-on-one less confrontational way now that he knew the seriousness of what we were concerned about.
+
+We talked about a lot of things. We talked about the Foundation, and we talked about conflicts between Automattic and WordPress core, and the future of things and what happens when he gets hit by a bus.
+
+Interviewer: What does happen if he gets hit by a bus?
+
+Jaquith: I don’t have a really firm answer. He assures me that there’s a plan for the foundation. The thing is that the WordPress core and WordPress.org domain name are pretty much him personally. So I would think it would be up to him having a will for that.
+
+Interviewer: Or it would be his family?
+
+Jaquith: Maybe? I don’t know. But I would like to know!
+
+Interviewer: What would have been — you said things changed — what if they hadn’t?
+
+Jaquith: If they hadn’t changed — we might have lost some people. It might have been not so much that we had people [18:00] publicly announce it and walk out, but we might have just lost people by gradual attrition. If I thought that he didn’t think that my time and my philosophy and my vision for WordPress was a good one and were valuing, then I probably would have lessened my contributions. I’d still make money off WordPress and still be involved to some extent, but I’d probably — after I’d put in with WordPress core in a leadership role — probably would not be worth it if it wasn’t being valued.
+
+Interviewer: Did you talk to him about what your role is then?
+
+Jaquith: Yeah. He’s accepted that it’s more of a leadership role — a general project leadership role — rather than a specific code leadership role.
+
+Interviewer: When we talked before, you said you spent a lot of time being very meticulous in the code and in that space. Do you think your role changed from setting an example through code to leading?
+
+Jaquith: Yeah, that happened earlier.
+
+Interviewer: How did that happen?
+
+Jaquith: Just gradually. When it got to the point where there were more WordCamps than you could go to. People go to WordCamps and they try to look for authority figures. I stood in for him at a couple of WordCamps and got into a key position in a couple of WordCamps like 08/09. Yeah, people are just looking for the person who is the WordPress person there, and we have to step up and give them answers. It’s something that happened fairly quickly.
+
+Interviewer: WordCamps directly?
+
+Jaquith: They were a part of it. They are a big part of talking to the larger community.
+
+Interviewer: Did you feel comfortable with it?
+
+Jaquith: I did. I think because it happened so gradually.
+
+Even before, in the first two WordCamps, in ’07 Matt organized the talk to the developers [21:00] panel — and there’s video of this.
+
+Interviewer: I’ve seen the video.
+
+Jaquith: He sort of gave hints there that he hopes that more people have a say in things and was asking us questions about what we thought about the future of the project in various respects, although mostly related to coding questions.
+
+Interviewer: Do you think that authority and responsibility directly followed from commit access and coding capabilities? I think Jen’s probably an anomaly.
+
+Jaquith: She’s an anomaly. Yeah, usually it followed from coding proficiency. People who were given commit weren’t — it wasn’t just based on the coder, you had to understand WordPress’ coding philosophies and aesthetic related to things like decisions not options, focusing on user experience in many ways (not just the UI), but in terms of minimizing install steps and maximizing PHP version add ability and backwards compatibility and API and things like that.
+
+Interviewer: Something all of the Habari guys said to me was that you didn’t need to write code to have a leadership role in the project, that they give commit access as a symbol of authority and leadership and trust. People who they wouldn’t trust to touch the code I guess, and one of their gripes with WordPress was that people who weren’t coders, people who were doing support or other things, were not getting the same recognition as the people writing code.
+
+Jaquith: I would say that was very much true. A completely valid point. It started to change after Jane came on in 2008. So we had in the version before she came on, Matt had asked Happy Cog to do a redesign of the back-end which was overall probably considered a failure and they abandoned it immediately, but it was a success in the sense that it matured our approach to things.
+
+That wasn’t specifically the right approach, but in the sense that there are people who are actually experts in the field of UI and experience and things like formal user testing that really we hadn’t done before. [24:00]  Being open to those concepts really matured the way we look at things and gave us more respect for non-coders who have other areas of expertise. After Jane came on, she was doing her own user-testing that was more in-house, working very closely with Mike Adams on the Crazyhorse prototype stuff. That was another new approach — trying little experiments and then testing in front of people.
+
+She also helped us mature in a couple of other areas. One big one was accessibility. We had always been pretty good on accessibility — certainly better than the competition — but we hadn’t made it the first concern. It was one of the things where we would come along periodically and do these sweeps, but we hadn’t quite integrated it into how we thought about things in our approach to development. Those sorts of things like design, user experience, accessibility, translations, stuff like documentation, Jen did a good job in getting those beefed up and communicating better with the core team. For the first time, I felt like there are other opportunities for leadership roles that could have a big impact on WordPress that had nothing to do with code. 
+
+Interviewer: Why do you think it took someone coming from the outside to make that happen?
+
+Jaquith: Because we were all just coders by trade or self-taught. Coders and — I don’t know, it’s hard to step out of your own shoes and see the project from fresh eyes. So with the WYSIWYG thing, there was a lot of pushback to it. If we had seen how much having formatting be accessible to non-coders, people who didn’t know HTML — to us, HTML is just our lowest, simplest, most native language to us. It’s something that’s very natural. And we weren’t thinking about how much it would open up WordPress to the people. Having someone with an actual formal training in testing and user experience, it was just [27:00] useful. It was not just useful then, but it also changed us. Or at least it changed me. Where I started thinking in these ways as well and becoming better at stepping out of my own head.
+
+You can never do it fully — and you have to keep at it. You can never fully drop your preconceptions, but you can try and you can know the situations in which you should call someone who has fresh eyes and something that deserves user testing or someone who has never used WordPress or a beginner.
+
+Interviewer: One of the things that Matt said in a few threads in wp-hackers is, he keeps saying that commit access doesn’t mean leadership in the project. He tries to stress early on, but how the community is made up seems to contradict that.
+
+Jaquith: So in recent years we’ve expanded our commit access. So it used to be that to get commit access you had to meet a pretty high threshold. I think I was the first one to get commit access after Ryan. Ryan probably got it in 2003 and I got it in 2006. So three years with no one being added. And then Westi was added almost immediately after me in ’06. Peter and I were separately recognized as lead developers the next year, so we did get commit access before we were recognized as leads.
+
+Interviewer: How did that come about?
+
+Jaquith: Ryan Boren sent an email to Matt and then publicly CC’d me and he just had a list of things that he said, “We need to do this this.” One of the things he said was, “We need to make Jaquith a lead, he’s put in the time and earned it.”
+
+Interviewer: Did that feel good?
+
+Jaquith: It felt very good! I respect Ryan immensely. Yeah, it felt really good. I enjoyed that he had CC’d me on that so Matt had to confront it, he couldn’t ignore it.
+
+Interviewer: So do you think that could have come from Matt ever, or do you think it would always only have come from Ryan?
+
+Jaquith: I don’t know, that’s interesting. I don’t know if it would have come from Matt without pressure. He was certainly in that time not very good at delegating, and he was very loathe to give up authority, [30:00] not just explicitly but implicitly, sort of alluding his control over it at the time. So it might not have happened without someone else pushing.
+
+Interviewer: I’d be interested on your perspective on that relationship, between Ryan and Matt.
+
+Jaquith: Ryan and Matt are — they sometimes are like an old married couple, where they are very close but they can also be very antagonistic to each other. They’ve had some doozies of battles over some things.
+
+Interviewer: Like?
+
+Jaquith: I’m trying to remember when this was. It was after I gave a talk at WordCamp in San Francisco in 2007, because he referenced in the email something I said about contributing. So in the talk, which was about how to contribute to WordPress, I mentioned that you should step back once in a while so you don’t get burned out. I talked about how I would sometimes take weeks or even a month or two and just step back from the project in my head.
+
+He and Ryan were butting heads over something — it might have been the categories and tags thing — and he essentially in this email, which several people were CC’d on — I don’t know if it was public or if several people were just CC’d — and Ryan was working as his employee at that time, so he essentially said, “You should consider remarks in his talk and you should take some time off.” He basically said that it was getting too hot in here and step back. So yeah, Ryan’s definitely had times where he just burns out and has to.
+
+Interviewer: What do you think Ryan brings to the project that Matt’s lacking?
+
+Jaquith: Ryan brings actual, formal code training. Matt is self-taught, as are many of us including myself. Which is good in some ways, I think it’s actually been a boon to WordPress because you get a bunch of coders in a room and you try to get them to solve a problem, they solve the problem for coders, they’re not as good at solving problems for non-coders. For people. Not to imply that coders aren’t people, but they’re their own animal.
+
+I’m not saying that Ryan is like this, but if you did just had only people with coding degrees, it could [33:00]  be a problem. You do sometimes frequently need someone who has that rigorous training or experience. If I had had the task at that time with engineering schema and a way for dealing with the taxonomy thing, I couldn’t have come up with what Ryan came up with. When we need something with serious coding to be done, he is invaluable to have around. He’s very, very productive and he writes very, very good code.
+
+Interviewer: He seems to have quite a lot of sympathy for the idea behind users before developers.
+
+Jaquith: He does! For someone with that background he is tremendously empathetic — even sympathetic — to user concerns. I think we tend to attract that type, even for people who are coders. It’s sort of woven into the project, and if you don’t embody that, you’re just not going to go very far. You’re just not going to mesh with us, and we’re just going to keep pushing back and demanding more and you’re either going to adapt or go somewhere else.
+
+Interviewer: It’s one of the things I find really interesting in doing all of this research, is that you can see the difference of emphasis, which is probably some people from the outside would be quite subtle, but a Movable Type emphasis become on commercial and with Habari their emphasis is on developers.
+
+Jaquith: Yep, Drupal very focused on developers. Joomla same thing.
+
+Interviewer: It’s quite interesting to notice these subtle differences, even in things like the choice of license and Habari’s choice of Apache license. It’s all about the developers which is fine and they enjoy it, they’re happy. Do you ever wish that WordPress had a different license?
+
+Jaquith: Sometimes. I’m a big supporter of the concept behind open source software, the user freedoms and developer freedoms. I’m not super in love with the GPL. I think in some ways it’s really a license, it’s a legal hack in a way. It’s clever and I appreciate that. I do like that it’s free going forward, but it does cause issues in terms of what software we can bring in and integrate into the project. [36:00] 
+
+People tend to be kind of fanatical about it, almost in a religious sense, about the license which is a bit of a turnoff for me. This is something I’m actually working on now, is thinking about how we can get people to stop being GPL cheerleaders and more about user freedom cheerleaders. Because GPL is good because it offers user freedoms, not because it’s some divinely inspired best license ever.
+
+Interviewer: What do you think is wrong with it?
+
+Jaquith: It’s just so strict in terms of what you can bring in that it locks you into decisions. It’s a good thing and a double-edged sword, because we couldn’t relicense WordPress — at least the PHP code — under different licenses because GPL, but the reason we couldn’t do it if, say, 1) we had copyright assignments or organization, so if everyone was assigned copyright over to the foundation or to Matt, then he or they could just decide that. Because everyone retains their copyright, literally we would never. It would be impossible.
+
+In a way it’s a good thing, because we could never release a proprietary version of WordPress. So down the road we could never do that. It gets tricky. GPL versions, we originally V2, then we did an effort to make sure to get rid of the V2-only code, and make sure we had code that was V2 or higher.
+
+Interviewer: Sounds like a pain!
+
+Jaquith: It’s incredibly painful! I know way more about this than I wish I did or have to. It’s just a lot of work.
+
+Interviewer: Have you ever found something you wanted to use and then down the line you couldn’t use it because of the license, or are you always quite diligent about checking before hand?
+
+Jaquith: I’d like to say we’re really vigilant, but we’ve gotten caught before doing things we shouldn’t have. Some of it is just that the person was being vague about it, or they said the license was one thing but it said another thing, so over the years I’ve spent a lot of time talking to people getting them to clarify certain [39:00]  things.
+
+For instance, we had an issue with Bootstrap, which is the Twitter design framework. It was GPL licensed at first, it may be different now, and then they brought in a mini version of some icon font files. So they had said Bootstrap is GPL, then those files in it, and when it went to the site of the person who did those icons, the license there was different. It conflicted. I opened a ticket and I was talking to him and the Bootstrap people about it and I didn’t at first realize it was a problem that he had added these other classes on. I think he had wanted you to add a link on your site somewhere and I think there was something about non-commercial. That wasn’t in WordPress core, but the issue was people were using themes and stuff and we had the GPL compatible stipulation for that.
+
+So I spent a lot of time doing stuff like that, chasing down and getting people to update their license files and make a clarifying statement. We very recently found some code that had its own license in WordPress that thankfully I contact the developer and he was shocked that we were using code — and honestly it wasn’t even used in WordPress anymore, it was just sitting there unused. So yeah that was good, I got the developer to give us retroactive immunity.
+
+Interviewer: Is there anything you can think of in there that is not GPL?
+
+Jaquith: Right now? Not that I can think of.
+
+Interviewer: What would it mean if it was contradicting the license?
+
+Jaquith: Some of that is unclear. The GPL is really clear about what happens if you use GPL software in non-GPL compatible ways, or rather distribute it in non-GPL compatible ways. So if you took GPL code and released it under proprietary license, essentially you lose your right to use the code at all. It’s less clear what to do in the cases where you’ve accidentally put non-GPL compatible code into something GPL. Our stance has always been, if we don’t need it we can get rid of it. If we do need it, most of the time it’s been pretty subtle things where we can go to the developer and get them to put that in [42:00] writing.
+
+Interviewer: Did you ever have any problems with that? Specifically with Core?
+
+Jaquith: No, I can’t think of a situation where we got backed into a corner and had to make super hard decisions. Most of the time people are really flattered that a project as big as WordPress is using something they wrote, and they’re generally willing to bend over backwards to do all the licensing nonsense that might be required.
+
+Interviewer: Do you see WordPress as a free software project or an open source project?
+
+Jaquith: Both? I know the big argument that you’re getting to is the Richard Stallmen vs. Tim O’Reilly. 
+
+Interviewer: I’m just interested in different developers’ perspective on that.
+
+Jaquith: So I am guilty of saying open source and meaning free open source. When I use the acronym I try to use FLOSS because english is very terrible on not being specific enough on the word free. I’ll sometimes say open source or I’ll say free and open source or I’ll say free, I sort of flit about.
+
+Interviewer: Different people have different perspectives about what’s good about it.
+
+Jaquith: I think in most use-cases they all mean the same thing. Most people may some open source or free or free and open source, they mean free and open source. So I also think that there is another aspect. Something can be open source technically — meaning the source is available — but I also think there is a bit of an open source philosophy or a more general philosophy of openness that most — well, many — good projects embody, but not all. So you look at when Movable Type was free and open source they were an empty OS version is a GPL version. It was technically free. It was technically open source. But it didn’t really embody the open source philosophy. It required you to do copyright assignment, which is not inherently bad, but they also just — there was a sense that they were the ones making it and you could play. You couldn’t really be a shareholder or a stakeholder in any meaningful sense. 
+
+I think that openness and that inclusiveness is an important part of the software movement. It’s not just about having it free to use however you want and having developers see the code but [45:00] actually letting developers to become stakeholders in the project is a big part in not just the feel and the philosophy, but it’s also very practical in terms of maximizing the software’s longevity.
+
+The quote is, “With free and open source software, there are no dead ends.” But that doesn’t really mean anything. How many people do you see forking Movable Type open source? Well, there was one group. It was called Open Melody. Where has it gone? It hasn’t gone anywhere. The question one of them — I forgot who it was — tweeted about it, when Movable Type stopped offering the open source — or Six Apart? — in any case they announced that they’re stopping it. They wondered if they could have done a better job at actually making an open source community, if Open Melody would have succeeded. And I think that’s definitely an important part in the practical aspects of making sure software doesn’t dead end, is letting developers become invested. Letting them become stakeholders so they’re actually motivated to keep it going.
+
+Interviewer: What’s your stake in WordPress?
+
+Jaquith: My stake in WordPress? It’s pretty high. It provides my living, not through core development — indirectly through core development, because it’s my CV and it’s my example of prior work and it’s my marketing and it’s pretty much my ongoing job training. So all that. So WordPress provides a living for me, puts food on my table, it’s my WordPress.com blog.
+
+It’s also a part of my persona in the sense that I feel invested in the project, I’m proud of what it’s accomplished and what it continues to accomplish, and it’s a big part of my esteem I guess, my self worth. Someone asked me this question and I said, if you’re familiar with Maslow’s hierarchy of needs?
+
+Interviewer: Vaguely.
+
+Jaquith: The lowest level is based on safety, and it’s something about [48:00] sustenance. And then there are higher needs like friendship and I think it includes sexual — so — the only thing WordPress doesn’t provide is that. It does provide friendship and a higher sense of purpose and all that.
+
+Interviewer: So you really [inaudible] then? Because if it hadn’t…
+
+Jaquith: I did. I probably would have been okay. I enjoy being a higher level part of such a successful and fun project to be involved with. It’s fun to have people say, “What do you do?” And I can say, “Well, I don’t really talk about my consulting work necessarily. I can say I’m a web publishing consultant for WordPress, which is powering one out of five new websites.”
+
+Interviewer: I want to talk about Automattic.
+
+Jaquith: Okay!
+
+Interviewer: When it was set up in 2005, what was the reaction like in the community?
+
+Jaquith: I’m trying to remember that far back. I believe at the time Matt had simultaneously announced that he was going to be forming a foundation. The WordPress foundation didn’t technically get set up until 2010, 2009 maybe? But he made an announcement way back then, and I think he even hired an employee.
+
+Interviewer: That was WordPress Inc. 2005 May, he hired Jonas Luster. And he got drunk at the 100 Downloads Party and announced it, and there’s a video on the internet of course. And he set up the WordPress Inc. thing and apologized profusely and said, “I’m sorry, I didn’t mean it.” There’s a codex page still up which is his explanation of what happened and that was shortly before Automattic was set up. Jonas Luster went to work at Technorati. So I don’t think that was a foundation, that was a first staggering attempt at a company.
+
+Jaquith: My recollection is that sometime in that year he made references to a non-profit wing of WordPress or something like that. So I don’t know. People were very confused about the relationship between [51:00] WordPress and Automattic at that time. I think with good reason, because the lines got very blurry for a long time.
+
+Interviewer: How were they blurred?
+
+Jaquith: So it wasn’t clear if Matt still owned WordPress or if Automattic did, and I guess Automattic did acquire the trademark from him at that time and probably acquired the copyright of his contributions and the contributions of anyone who was hired. So Boren and Skelton, some of the early hires. For a long time — even within my eyes, the two became very much conflated. For a while, WordPress was seen and operated as if it was an Automattic-controlled project. They were the leaders of it and other people could play, but they’re running the show.
+
+Interviewer: That was prior to you being made a lead developer? You and Westi?
+
+Jaquith: Yeah, that would be 2005-2006ish.
+
+Interviewer: Someone had mentioned to me — I can’t remember who — that there was bad feeling caused in the community because, who was going to get asked to work at Automattic? Who were going to be the chosen people who get to go work there?
+
+Jaquith: There was some of that. Yeah, I felt a little bit of that. I was a little bit — not upset, but maybe surprised and curious. Actually, I talked with Toni about this a few years later, maybe in 2008 or around then, and — because he was giving a talk at WordCamp about being a WordPress consultant and we were talking after and he said, “You know what? I think that you would have fit in really well with the company. You have a great fit, but I’m almost glad that we didn’t hire you.” Because at the time the WordPress consulting ecosystem or marketplace was pretty weak and I was one of the earlier people who was actually going at it full time and making a living at it. 
+
+And he said that it was just really helpful to have someone they could send people to and actually — you can’t hire up all the talent in an area. [54:00] If you do that, you kill the natural marketplace that could have formed. Matt had talked about how some open source projects that either got acquired by companies or spawned into companies and went too overboard in hiring up the talent — I think MySQL was one of the examples they gave — went so overboard they basically killed the marketplace and everyone had to go to that company.
+
+Do you want a big slice of a small pie or a medium slice of a huge pie? I think it was definitely — the fact that, if I had been struggling on my own and not making it, I think that could have been an option for me. Because I was doing fine on my own, that helped them grow the bigger pie of WordPress as a viable publishing platform for businesses to use and have people who could customize it and support them. We had a happy symbiotic relationship where I was contributing to the core, they were sending me business that they didn’t want to take or they weren’t really set up for at the time — it wasn’t really their goal. They still don’t want to be a general consulting firm.
+
+Interviewer: How did it feel when WordPress.com was launched?
+
+Jaquith: I was excited about it. First of all because it was using multi-site, which I thought was cool but under-developed. I also thought it was just cool that anyone could click and start up a new site and not have to pay anything, not have to have any knowledge of FTP and database credentials and all that.
+
+It was also cool in the sense that it massively increased people’s awareness of WordPress in the general sphere. So I could say, if someone wants to know what I do, I could just point them to WordPress.com and say, “Go here! Start up a blog. Start writing.”
+
+Interviewer: Do you think it was a good naming decision?
+
+Jaquith: Yes and no. 
+
+Interviewer: Start with the yeses and then the no.
+
+Jaquith: The yesses in mind was good. I think it was good to grow the WordPress brand in the sense I just mentioned: increased awareness and made it something more people could use, whereas if it were something powered by WordPress [57:00] I don’t think the impact to the WordPress brand would be as great. People might not have thought, “Oh, there’s this new blab blah blah hosting thing that uses WordPress.”
+
+For example, anyone with the WordPress.com blog could just export their stuff and import it into WordPress at any time is very powerful and that might not have been as clear if it had been named something else. So that’s the yes answer.
+
+The no answer is that it — well I guess it’s really the same answer! People conflate the two. It has some practical issues. So people would sign up for WordPress.com and wonder why they couldn’t install plugins, or people would try to sign into their WordPress self-hosted blog with their .com credentials. To this day, I can count on one hand the number of tech journalists who can understand the distinction. So we would get stuff like, just last night I saw a story that said something about “WordPress Sues blah blah blah for something”. It’s Automattic who’s suing something.
+
+I also feel — well, I felt this way but I think I still feel this — in some ways, it minimizes and makes second class any non-Automattic contributors. Whenever you see the news stories that say, “WordPress which is a product of Automattic”, I think, “Okay, what about me? I put stuff into it and I’m not with Automattic.”
+
+Interviewer: Did you ever see features end up in WordPress that open source products that were obviously made for WordPress.com? That were really Automattic’s agenda rather than WordPress?
+
+Jaquith: Maybe the stuff in multisite? Because they were the big users of it. Not many people were using it. It’s still not many people use it. So maybe a little bit there.
+
+I could see maybe little stuff. The thing is that a lot of the things — you might have been able to say, “Oh, this is for WordPress.com” but it might have also been for general WordPress installs. Some of it relates to scale. So for now we have a flag that’s like, [60:00] “is large site” or something like that — I forget what it’s exactly called. We have different code forks where some stuff won’t run on a larger WordPress install, which could be .com but it could be any other large install. Like autocompleting users. If you have a million users, you don’t want to be searching through that with every keystroke.
+
+In 2005 or 2006, when there was that period of real confusion about Automattic’s relationship with WordPress — I guess it was actually 2006 or 2007 — I had a change I was about to make and in the back of my head I thought, “Oh this is probably not going to be so great for .com because of the scale at which they’re running.” And I wrote Matt a post somewhere and I said, what do you think about this? And his response was, “You let us worry about .com. You just worry about WordPress.” Which was good.
+
+That’s when I started to get the idea that the two could be considered really separate entities. They had employees who could figure it out. They’d been running a forked version if it since the early days, so it’s not like they have to run all the code that we put into WordPress core.
+
+Interviewer: Did you see Automattic having any influence as a company on other aspects of the project?
+
+Jaquith: Yeah, so they were providing the majority of the code through their employees. Their employees were. Anything that was a huge feature, it would be rare for some huge feature to be coded by someone outside of Automattic because of the time commitment. So they had the advantage that their employees were full time and could actually dedicate enough time to this, whereas there weren’t in those days any non-Automattic people who were on WordPress core full time.
+
+Interviewer: Any negative influence on the project, do you think?
+
+Jaquith: In a general confusion sense, yes. In a coding sense? I don’t know. Not that I can really think of.
+
+Interviewer: One of the things that people have cited was that once it was set up, there was a lot of frustration because Ryan and Matt and they were all distracted by the commercial side of things like WordPress.com that they weren’t actually spending time anymore [63:00] into WordPress, so it was taking a long time to get a release out.
+
+Jaquith: Yeah. Yep. There were definitely issues with bottlenecks happening.
+
+Interviewer: Some of the people have felt a little resentful I guess that they had put a lot of code into the project and that the only person who could really make a company the size of Automattic was Matt.
+
+Jaquith: I don’t know if that’s technically true.
+
+Interviewer: You think someone else could?
+
+Jaquith: I think in terms of what he could offer to investors, certainly the trademark was valuable. He ended up convincing them to give that back to him through the foundation anyway. So that was obviously not the biggest asset or they wouldn’t have given it up. Certainly the copyright was technically valuable, but considering that individual contributors have their own copyright it’s not like Automattic owns 100% of WordPress code copyright, so that’s not uniquely valuable.
+
+Mostly, I think the value that they were getting was his vision. 
+
+Interviewer: What about WordPress.com? Nobody else could have set up WordPress.com.
+
+Jaquith: Oh, so that is a trademark value. So when they gave the trademark back, they did get a commercial license to use the trademark. So that was fairly valuable. But even at the time — 2005 — WordPress wasn’t a name on the street. It was known in the tech circles but — I don’t know. I think WordPress.com could have been just about as successful with a different name and just as valuable to investors.
+
+I think someone else could have, if they had been so motivated. But Matt was the one who made the contacts in San Francisco, he med Ohm who introduced him to Tony, and started the whole ball rolling on that.
+
+Interviewer: Toni said one of his regrets is calling it WordPress.com, so I thought that was interesting. He said that they would discuss it from time to time, but I can’t imagine that they would change it. 
+
+Jaquith: I think back in the day Matt told me when he was still at CNET, he essentially pitched WordPress.com to them and CNET has a [66:00] stable of uniquely valuable domain names. I don’t know if they had blog.com or they had web.com. I think he pitched to them that they could use web.com. So it could be siobhan.web.com.
+
+Interviewer: I like that!
+
+Jaquith: Yeah, it would be pretty cool! And they just weren’t interested. And I bet they’re regretting that now it’s considered a billion dollar company.
+
+Interviewer: What do you think about something like Jetpack?
+
+Jaquith: Someone told me last night actually that they consider me the — and I’ve heard this from time to time — they consider me the conscience of WordPress in that I am ruthlessly independent. People still can’t believe that I wasn’t hired by Automattic or that I haven’t gone over. I’ve had Automattic employees think that I work for Automattic, which is really weird. They say, “Wait you don’t work for us?” And I would tell them no.
+
+But yeah, I maintain that independence and I’m not afraid to speak out publicly when I think something Automattic’s doing is bad or something that the WordPress core is doing is bad. So I’ve been pretty outspoken about a few things I don’t like about Jetpack. It’s time for my laundry list.
+
+It’s huge and bloated and very slow. They occasionally auto-activate new features, which has resulted in client sites breaking. And the annoying this is when you update to the new version of Jetpack everything is fine, the next time some client goes into the backend and sees the Jetpack bubble and clicks on it and some new feature’s been activated that might conflict or at least confuses the client because it adds a bunch of new UI.
+
+What else. There was some other weird thing. Oh, I found that the UI was very confusing. It’s super easy to activate modules, but if you want to dative something it’s hidden in layers. It uses its own UI aesthetic that doesn’t really fit in with WordPress. It requires the WordPress.com connection, even if you’re running things that don’t require it. Although I think now they have a flag for that. 
+
+So that said — and also I don’t find the majority of what it offers very useful — that said, it is handy that I can install one plugin and get the WordPress.com stats and get the integration if you have other stuff [69:00] like Akismet and VaultPress, it will integrate everything there quite nicely. So that is useful. I am very much in love with Photon, which technically doesn’t require it. You could technically you don’t even need the plugin, but their terms and service they want you to keep the connection for that and they give you some nice API functions to rewrite images. So that’s massively useful.
+
+I think a lot of the stuff they added doesn’t really benefit — so the promise here is that there’s certain stuff that’s hard to do locally, like a shared WordPress install and writing images on the fly. We’re considering doing it but it’s hairy, it’s expensive, and the fact that they can integrate with this service that does all that is pretty cool. Stuff like handling video uploads and rendering them into multiple formats is hard to do. A good grammar spell check service.
+
+Interviewer: That was the only one I used and then it ended up in Jetpack and I was like, “Ohh. I have to use Jetpack!”
+
+Jaquith: I also think that — for a while they didn’t even have a Jetpack team. Matt wanted everyone at the company to be contributing to it, and it was just way too many cooks and I think the code and the reliability of it suffered. They’ve released some Jetpack versions that were massively broken and had some massive issues, and they’ve had to scramble. So I think it offers a lot of promise, but it’s not representative of the quality of work that the company could do.
+
+They’ve gotten a little better. I think they have a dedicated Jetpack team. I think they need someone to really take hold of it and have the right vision for it and communicate that with people.
+
+Interviewer: What do you think it’s future is? Where do you think they’re going with it?
+
+Jaquith: Well, Matt’s said he wants it’s future to be any WordPress site can get all the features of WordPress.com, which I suspect will have some monetary impact at some point. Essentially all they’re doing now is linking out to VaultPress, which requires a subscription. There are things like themes that they could offer, paid upgrades too. [72:00] VideoPress, they could start selling VideoPress subscriptions.
+
+Interviewer: What do you think about the Akismet being bundled with the core?
+
+Jaquith: At first, I was okay with it because at the time it came out it was revolutionary. There was nothing that did as good a job, and basically people were criticizing WordPress because of the spam problem. They would install a WordPress blog and it would just get filled with comment spam. It almost became a little bit of a joke for a while, so I think it was a necessary step. I think that the way that it works with a proprietary engine is part of why it works so well.
+
+That said, I don’t like that it is a single company’s product and that it is a — for a while it was completely free to use, then they introduced pricing, and now there’s even for personal use certain levels of pricing. That rubs me the wrong way, because if you try and think, if some other company had offered a paid product like that, say BackupBuddy or something, could they get that integrated into WordPress core? It seems an unfair advantage and it cuts against WordPress’ goal of openness. That being said, spam is still a huge problem and Akismet is still the leading product, even though there are now alternatives.
+
+Interviewer: Have you guys had that discussion amongst the core?
+
+Jaquith: We have, and I think we’re getting to the point where installing — so now that you can actually install plugins from within WordPress, I think we can push updates and all that, the distinction between bundled code and user-installed code is fading to the point where I think we could almost stop bundling Akismet and then say something like, “If you don’t have Akismet…” Almost let anti-spam plugins advertise, “Hey, I’m an anti-spam plugin.” And if we notice you’re not running any anti-spam plugins, we could throw a user an alert that says, “Hey, we noticed that you have comments open but don’t have an anti-spam plugin running, here are the ones we recommend.” With Akismet at the top, starred because it really is the best. I don’t feel that we’re playing favorites by saying it’s the best option.
+
+Then one click, they almost just check a box and they install it [75:00] on the fly. In that case it would be less bundling code and more of just bundling the suggestion that they use one and, oh, Akismet is the best. We could offer competitor plugins in there as well. You might think that that’s not really a meaningful distinction, but the fact that it is bundled does matter for the way people think bout things. Also, it’s caused some problems in that the Akismet development team is run quietly from within Automattic and they don’t just add Akismet screens, they actually change core WordPress screens when Akismet is available. The UI changes, especially in the comment areas.
+
+So we’ve butted heads before where people are sending in bug reports saying, “Hey, there’s this bug on my comments screen.” And I’m looking at it going, what the heck is that? I’ve never seen that. And it’s Akismet. So, it felt really weird for them to be privately shooting in UI changes and the fact that it was bundled means that we sometimes have to consider it part of the core code, but we lead developers don’t guide it’s direction at all so there’s definitely some weirdness there. That would mean we could at least wash our hands if it was a separate thing you could install, even if it was heavily promoted.
+
+Interviewer: Do you think that could possibly happen?
+
+Jaquith: I think there’s a good chance that it could happen, yes. I’ve just been waiting for the — first of all, waiting for our updates install process to get better, but yeah. I think it could happen in the next couple years.
+
+Interviewer: When Akismet first landed in WordPress, what was the discussion like? Or was it dropped in up here?
+
+Jaquith: I actually don’t recall. Don’t recall.
+
+My recollection is that, regardless of whether it was discussed before or after, I believe my feeling after was that — I was personally so happy that the spam problem was better that the concerns I have now I didn’t have as strongly then. It was an emergency situation for the project.
+
+Interviewer: I think it was free as well.
+
+Jaquith: It was free [78:00] as well. So yeah. That definitely changes the calculus, when they start charging.
+
+Interviewer: Yeah, I guess they do have an unfair advantage.
+
+Jaquith: Yes.
+
+Interviewer: I think it’s going to get really noisy in here in a minute so we may stop.
+
+You’ve been very much a part of that as you were saying earlier in terms of consultancy. I guess we should start at the beginning. Did you expect that WordPress would have such a huge ecosystem and economy around it?
+
+Jaquith: I did not expect that. It very much surprised me. So in 2004 I started using — or  I switched to WordPress and started using it. I think I was probably doing WordPress consulting maybe by the end of that year. Certainly by early 2005. Actually yeah, in 2004 I believe I did a few small jobs. I was also still in college at the time and was through 2005 or 2006.
+
+Interviewer: What were you studying?
+
+Jaquith: First business then I switched over to biology.
+
+Interviewer: You wanted to be a dentist?
+
+Jaquith: Yeah. 
+
+[79:26]
+
+Interviewer: Have you given up on that dream?
+
+Jaquith: Oh yeah! So we can get to that. At the time, I just wanted to blog because I wanted to write. I started tinkering with it and started getting paid to do small WordPress jobs. At the time I wasn’t charging very much and it was just beer or pizza money. There was a certain point, my rates kept going up and I hit a certain rate where I did the math. Say I could bill 20 hours a week at this rate, what would that give me a year? And I looked at the math and I realized it was something that could be a career and something that was financially serious. It took me by surprise when I saw that.
+
+It wasn’t like I was in school thinking, oh when can I quit and do this all the time? I didn’t see myself as coder. I still kind of don’t. I just thought, “Oh I’m tinkering with this.” I thought that this is too fun, it can’t be a career, it’s a hobby. This is what I skip class to do, to hack on WordPress. So it very much took me by surprise [81:00] when I discovered that I could make a living doing it. It continues to take me by surprise how many people make a living on WordPress, whether that’s as a writer, or consultant, or someone who makes WordPress products. The amount of money that comes in from some of the bigger WordPress products is just astounding to me.
+
+At the time, I was impressed because I could make a quite modest 5-figure salary on WordPress. If someone had proposed that a few years from then people would be making 7 or 8 figures a year on WordPress related products I wouldn’t have believed it.
+
+Interviewer: When people started selling themes, there was a lot of kerfuffle over theme selling. How did you feel about the commercialization of people like StudioPress?
+
+Jaquith: Some of the issue was that some of the early commercial themes were not GPL. They were restrictively licensed and they had noxious restrictions. You had to buy a license to use on one site, and if you wanted to use it on two sites or unlimited sites you had to pay them more, sometimes much more. That just rubbed me the in wrong way. It’s very much against user freedoms.
+
+At least for me, I think probably for others, the attitude towards commercial themes changed when they started adopting GPL licenses. There was also a little bit of annoyed by the way they were marketing them, and they used the word “premium” themes. Premium there’s a sense of a “premium” in the sense of a monetary premium, but I got more the sense that they were denigrating free themes. The themes that we were building and releasing for free, so I didn’t like that attitude especially because a lot of them when you look at the code downright terrible. Yes, they offered more features, and some people are quite happy to be running them, but they were quite shoddily done.
+
+Interviewer: What sort of impact did that have on the community? [84:00] That seems to be the first foray into products, is themes.
+
+Jaquith: So those objections notwithstanding, they did open the door to WordPress-related products, which I think has been beneficial. I may have disagreed with the way they were cobbling features and plugins into themes, but they did serve some needs. There were people who were using these products and getting tremendous value from them. It was good to know that other people could build stuff on WordPress, it made the whole thing feel more solid, because there were other people setting up these mini empires based on the WordPress platform.
+
+Interviewer: What about plugins? Do you hold the same views as Matt?
+
+Jaquith: I don’t. Well, the view that Matt has expressed in the past has been that he’s been very welcoming to commercial themes if they’re GPL compatible and play nicely like that. He’s held the idea that plugins are not something you should charge for in the same way you can charge for themes. He has a few arguments about this, and one of them is really the fact that you only have one theme. It’s more of an artistic expression on your site, so he was talking about the idea that you could have a limited release theme that you would only sell to 50 people, so there’s benefit in the scarcity there. 
+
+With plugins, he doesn’t see the same — it doesn’t really hurt a site to know another site is using the same plugin the way it would if my site had the look and feel as yours and it’s like, oh that’s my site’s look and feel. He also made arguments based on something about how a theme substantially changes the look and feel of your site, while a plugin is just a little tiny add-on. I don’t really agree with him there. There can be some massive plugins that really do control — think of something like BuddyPress. BuddyPress could have been a commercial product. [87:00] Even think of something like Rafferty Forums, which it’s not maybe the highlighted feature of the site, but for some sites it is essential that they have these forums that provide feedback and loops into generating more content and stuff like that.
+
+Interviewer: I guess you wouldn’t be sad if you saw someone else using a Gravity Form. Oh, they have the same look as me.
+
+Jaquith: Right. Yeah. So I definitely think that the way you charge for things — plugins — is maybe a little different, because you’re not offering a scarcity benefit with the fact that with themes almost the fact that you’re charging for it makes it more valuable because not everyone can have it. With plugins I think the benefit you’re selling is the work you put into the code, but also if it’s a GPL thing then they could freely give the code to other people so you need another benefit there. And the benefit there is support and updates, promise that if they have a problem with it you’re going to maintain it and keep it going and that’s worth money and that’s valuable to people. People pay for that and for a while the plugins lag behind — and they still do — but we’re getting to the point where people focus on plugins. Gravity Forms is a big one . Pippin’s Plugins. He’s done quite well with a suite of plugins and then various add-ons for the plugins.
+
+Interviewer: I think it’s WooThemes saying most of their business comes through WooCommerce now. I think they said 60% comes through WooCommerce.
+
+Jaquith: That’s surprising to me. I would have guessed 15-20%.
+
+Interviewer: So there may be more to plugins.
+
+Jaquith: Yeah. Ecommerce is definitely another area where plugins can offer a huge value to a site, and it’s a substantial enough thing. And especially if they’re going to make money from it. People, if they’re going to make money from a thing, people generally don’t mind paying for it.
+
+Interviewer: So you think commercial plugins are viable and okay?
+
+Jaquith: I don’t think they’re necessarily going to be as big as themes, because there is something visceral and visual excitement with a theme and you’re not going to sell as many copies of a plugin I think as you [90:00] could a theme. But I don’t know. Especially as people have started embracing the idea of apps, sort of a simple way to add something on and add new value to something you already own.
+
+I think it’s going to get better and better.
+
+Interviewer: The thing about the scarcity thing in the themes. If a theme is $25 or $35 on Theme Forest does that actually encourage scarcity in a meaningful way?
+
+Jaquith: No, probably not at that price level. At that price level I think you’re just paying for a convenience. You have a specific look and feel in mind and you could pay someone a couple hundred dollars or a thousand dollars to develop on your own, or you could pay $35 and get something close enough and just go.
+
+For example, I had to build a wedding website for my brother and I started by buying a theme on Theme Forest because it was close enough and had a wedding motif and I could have spent a lot of time building it myself but this was just a really quick jumpstart for me. I think I paid somewhere in the range of $30.
+
+Interviewer: How was the code?
+
+Jaquith: Not great. Which I didn’t realize before buying it, so I almost immediately patched some things and sent it back to the developer and they did integrate that in and I hacked around and added some filters to change their stuff. Overall, it saved me a ton of time from any other approach I could have taken. But, some of the more premium commercial themes — which I can say, because their code has gotten to the point where it’s actually quite good now — this is more the Studio Press/Genesis/WooThemes family of themes, they’re hitting higher price points now and they’re offering a more mature codebase and more thoughtful integration points for developers, huge support infrastructure. Also the fact that they’re that popular means — the base product is popular, they sell themes that go on top of their base theme products that give you that unique look and feel, but then the base product is supported by lots and lots [93:00] of plugins and other free add ons that enhance it.
+
+The scarcity thing might get like when you’re charging closer to $200 for a theme, that starts to kick in again. It’s weird because at the same time there’s the scarcity there but then there’s the commonness of that underlying base theme framework and having all those add ons that work with it.
+
+Interviewer: How do you deal with situations whereby there’s some functionality in a plugin — and this is one of Matt’s other objections — there’s functionality in a plugin, then you decide that you want that functionality in core. How do you deal with a situation like that?
+
+Jaquith: I think that’s just a theoretical objection. So the issue would be, we see this functionality and — are you talking about we would want to bring that —
+
+Interviewer: Bring forms in core, or something like that.
+
+Jaquith: Would we be wanting to bring their actual code into core?
+
+Interviewer: Well not necessarily. It could be that or just writing the features yourself. The feature thing.
+
+Jaquith: Or is it the Apple affect, where someone starts making something and then Apple ends up baking it into the OS. Or an Internet Explorer and Netscape issue?
+
+I don’t know. First of all, speaking about their actual code, we wouldn’t bring in their code like that without their permission. Even though the GPL says we can, it would just be really — if they didn’t want us to, and we did it anyway it would be a terrible move for the community. I think that would be poisonous to the community. So I don’t think that we would do that. 
+
+In terms of forms — and this is something that may happen — first of all, if the need they’re filling is a really common need, like something that almost should be part of core isn’t, then they should have seen that coming. Then they’re not really filling a niche, they’re just maybe — they got a few years ahead of core and they should have known that was coming. 
+
+Second thing is, a plugin can have a hyper focus on a feature that is way, way more intense than core would ever have. So if we brought forms into core, there’s no way we would have even close to the feature set that Gravity Forms has. They could show a checklist of WordPress core forms, and then they could show their checklist, which would be dozens and dozens of items longer. [96:00] So I don’t think that the people who are using Gravity Forms would just be like, “Oh I don’t need this anymore because WordPress does it!” It’s very unlikely.
+
+The question is whether they would lose sales because for some people the WordPress forms are good enough? Probably to some small extent. But one possible route that opens up to them is they can now build their product not as many a standalone thing but as an enhancement of WordPress forms. That could either be from a technical standpoint or the way they market it. So, take something that WordPress users are now a lot more — now tens of millions people across the world are familiar with the concept of building forms within WordPress — just theoretically, now they have in their customer base tens of millions of people who are on a basic level aware of what a product could do and might actually be acutely aware of some frustrations with what they would like the WordPress core product to do but doesn’t. That might open up new sales to them just through awareness.
+
+Interviewer: Can you use your examples of when you guys have worked with commercial companies? The WooThemse I guess is obvious.
+
+Jaquith: Yeah so we worked with WooThemes on the nav menus item. We ended up rewriting large chunks of it, but it was nice to have a functioning example of this is how it could work and give us that much of a jumpstart on things. Then we’ve also, for our default themes, we’ve worked with different people. The benefit there is, well we get a nice new theme. The benefit for them is they get a sample of their work in front of every WordPress user in the world, which is probably not bad at all. Not a bad deal for them.
+
+Interviewer: Do you guys ever come into conflict with any of the companies?
+
+Jaquith: Sure. Some of the conflicts we’ve had maybe relate to — so companies who offer a commercial theme or a commercial product might want to start using the WordPress plugin or theme repository as a marketing device. So we’ve run into some issues there. [99:00] That’s still sort of an ongoing concern, where do we draw the line? When is it okay to offer a lite plugin for free and then offer a premium or pro version that’s slightly marketed from there? So we’ve been wary of making sure it’s clear that we don’t want people to neuter plugins in artificial ways.
+
+If it’s a plugin that lets you create widgets for the sidebar, don’t say “You can only create 10 widgets for this plugin.” Don’t create a time-expiring trial. Don’t be really obnoxious, don’t have obnoxious advertising on every WordPress page for your pro upgrade. So we’ve butted heads trying to find where the line is on that. Also, specifically with a reference to commercial plugins, those authors have felt justifiably so, that Matt is not very — he does not share their vision of this being a valid or desirable marketplace.
+
+Premium theme developers have also felt that, but Matt has warned them. There’s that period where Matt was convincing people theme makers to go GPL and there was a give and take where they were going GPL, and as a boon — or a way to throw them a bone, he was promoting their foundries on WordPress.org. So in the theme repository, you could say here’s a list of premium theme makers that we support. 
+
+Interviewer: Where do you stand on the whole CSS and images being under proactory or proprietary license and the code can be…
+
+Jaquith: I agree…actually can I take a bathroom break?
+
+So you’re question was?
+
+Interviewer: What are your thoughts on themes being under proprietary license for the CSS and GPL for PHP?
+
+Jaquith: First of all, from a legal interpretation of the GPL, I agree with the opinion that Matt got. I think that is correct, that you can’t reasonably consider CSS to be one program with PHP code that generate HTML that references that CSS. The problem is that GPL was not really created with [102:00] web software in mind. The way web software works is fairly — those different components are fairly disconnected, they just reference each other. That’s almost the way that, in a traditional program, it would make external calls to an API to some other program or something like that, and the GPL is clear that it doesn’t consider that part of the same program. It needs to be integrated and running under a single process for it to consider it one program.
+
+So I agree with that from a technical sense. I think they can do that, but I am sort of annoyed when they use that as a backdoor to place obnoxious restrictions on users. So when they say, “Yeah, our theme is GPL, but the CSS is not and you have to buy a license for the CSS per site.” That’s currently the case for Genesis — or not Genesis, let’s strike that. That’s currently what Thesis is doing.
+
+Interviewer: So why do you think user freedoms are important.
+
+Jaquith: I think user freedoms are important for the same reason that freedoms are important. The same reason that I care about human rights. They’re just respectful of the way that people are and operate. I also like that they don’t preclude anything. They leave the whole realm of things that could happen open. It’s for the same reason I support freedom of speech and freedom of the press. By trying to control that, there are all sorts of amazing things that could come about that won’t.
+
+To me that’s a double edged sword, although I’d say that one edge is a lot bigger. It does mean that you deal with people who publish nasty, nasty stuff and say hateful things. People who use WordPress in ways that offend me morally. You know WordPress is used as a spamming platform, it’s used to publish hate sites. But it’s something that — that’s going to happen. You just sort of have to have faith, and I think that the evidence shows this to be true that on [105:00] the whole the benefit to society at large and to individual people is larger when you let it be free.
+
+Interviewer: And you think that that’s more important than developer freedom?
+
+Jaquith: Well I guess it would depend on what you mean by that.
+
+Interviewer: I guess in terms of developers being able to use the code however they want. There are definitely restrictions on developers in terms of GPL.
+
+Jaquith: So this is almost like GPL vs. MIT, BSD style license?
+
+Interviewer: Right.
+
+Jaquith: Like I said, it’s good and bad with the GPL. It can’t ever not be free, which is good, but it does kind of annoy me the restrictions it places on developers in order to affect that result.
+
+Interviewer: Do you think that it’s necessary to have those restrictions on developers in order for user freedoms to be protected?
+
+Jaquith: No. I’m trying to think of the best way to phrase this. A GPL makes it certain that any instance of it is going to have those user freedoms, but in the MIT sense, say WordPress was MIT and someone forked it and made some proprietary thing. That thing itself wouldn’t be enhancing user freedoms, right? Because it could have some obnoxious license. But so what? You could just ignore it. WordPress itself would still be free and someone else could fork it and maintain those freedoms.
+
+Interviewer: But what about the people who end up using this other product?
+
+Jaquith:  It would be bad for them but they’ve opted in for that. Just in the same way that people agree to certain terms of service and give up certain aspects of their freedom and they start putting their content on Facebook. I don’t think it’s a good choice for them but it’s a choice that they’re making.
+
+Interviewer: What if they don’t make a choice? What if the only one they see is the proprietary one? [inaudible]
+
+Jaquith: Then we’re probably not doing our job, right? Here’s the thing about freedom, and this is going to get sort of [108:00] political: freedom is not something you can really impose on people if they’re not ready for it. It’s the whole George Bush thing. We’re going to impose freedom on you and we’re going to bomb freedom into your mentality it just doesn’t happen. So people have to want that.
+
+I don’t think we should try to make a world where there’s no proprietary software. I think we should make a world where people are educated that there is a better way and they can maintain their freedom, they don’t have to sign all of their rights over to Facebook or someone else and then have people make that choice. 
+
+Interviewer: Do you think users think or care about this if they do think about it? There’s a huge group of people that…
+
+Jaquith: Yeah, I think people care about it but they’re not educated so much on the terminology and the options available to them. You talk to people about, “What do you think about Facebook and your content and your privacy and stuff like that?” And people will go off on rants about, “Oh yeah, Facebook is taking my content and they’re changing the things and I don’t like it.” And it’s just this general malaise and sense of discontentment, and I don’t think the free open source community has really done a good enough job explaining to people that there are better ways. There are different options.
+
+Partly because some of the people who do it — say the FSF — they do it in really obnoxious ways. They expect that they’re going to — it’s like the PETA approach, where they’re just going to start throwing buckets of blood on proprietary software and people are going to be like, “Oh, I don’t like my iPhone anymore!” That’s not going to change people’s minds. They also take a very all-or-nothing approach. “Here, you can use this completely open stack to do everything.” And it’s completely divorced with how much effort it would take and the compatibility with other things. I’m a huge fan of open source stuff but I still carry an iPhone. I don’t have a source code to my microwave’s firmware. You have to draw the line in certain places, and different people draw it at different junctures. I think as long as people are aware of these general concepts.
+
+I place a higher [111:00] priority on using open source stuff and protecting my freedom when it comes to content that I’ve made. So even Twitter — yeah I use Twitter, but I still haven’t signed over all my rights to my content with them and I have open source software that’s continuously keeping a copy of it. So if Twitter goes away or if Twitter becomes annoying, I still have everything I’ve ever written on there.
+
+Interviewer: What about Medium?
+
+Jaquith: So yeah, I’ve written one post on Medium? I wrote one post on a competitor’s proprietary publishing solution and people started taking that to mean —
+
+Interviewer: Did they?
+
+Jaquith: Oh yeah. They thought it was a really bad omen.
+
+Interviewer: I haven’t had time to write anything, I’m just interested in the experience of writing on it.
+
+Jaquith: Here’s the thing. I’m interested in web publishing, not just in WordPress but in general. I don’t think that — I love WordPress — but I don’t think that WordPress is necessarily the best in all aspects. I think other people who don’t have the legacy baggage that we have can start things up and can bring really amazing new ideas to the table and I want to be familiar with all of that, because it’s all part of the web publishing landscape.
+
+Interviewer: What do you think about WordPress’ move towards being an application framework?
+
+Jaquith: I think it’s good. First of all, because we need to get our ducks in a row there. It’s been something that people have been doing with WordPress, but we’ve not made it easy enough. We’ve had this really hardcore focus on the user experience that — I wouldn’t say that we’ve neglected developers, but we haven’t become as rigorous about building really beautiful APIs and ways to build on top of WordPress. So I think that’s something that we’re going to need to start improving. If this WordPress as an app platform is going to be taken very seriously.
+
+Interviewer: Is it taken seriously at the moment?
+
+Jaquith: No, probably not to a huge extent. You can build things on WordPress. If you look at BB Press or BuddyPress which are huge applications that are built on top of it, but they almost make their own APIs for certain things. They’re almost making up for the stuff that we lack and doing it themselves. You do have to wonder at some point like, [114:00] “Oh, when would it have just been easier for them to build it in Symphony or something like that? Or Cake?”
+
+Because WordPress offers a lot of benefit. First of all, the one-click plugin install, integration with the user system, there’s some really good solid stuff there. We just need to be better at not just giving them the base platform but also giving them some of the tools and the reusable patterns that allow them to build these more complex applications.
+
+Interviewer: Do you think that could distract things on the focus on users and user features?
+
+Jaquith: No. It could, but — we have, it’s almost easier for us. Because we’ve had this user focused approach, I think it’s easier for us to add in these APIs and these low-level developer things and that’s an easier thing to do mostly because the fact that we’ve not done them and not focused more on developers has been a conscious constraint that we’ve imposed upon ourselves. I think other projects, say Joomla and Drupal, which have been very single-mindedly focused on the developer experience, they’re going to have a harder time as they try and offer a user experience. It’s not that they’ve been against offering a better user experience, it’s just not what they’ve been doing. It involves a lot more self-imposed constraints. Saying no, we’re not going to break this backwards compatibility. No this UI is not good enough because we’ve done user testing and X,Y,Z.
+
+Interviewer: I wanted to ask you about and hand’t asked about yet was something that the Habari folks were talking about. Was the structure of the project in terms of, they had decided to take the Apache model and they have their committees that make decisions and everything has to go through that. Have you ever thought that that would be an appropriate model for WordPress as opposed to sort of BDFL?
+
+Jaquith: Not to the extent that they’ve done it that way. I think — it’s good to get consensus. We try as much as possible to do things by consensus, but if you focus too much on committees you spend a lot of time, first of all — you spend more time than you should discussing things and not enough [117:00] time doing things. You also, I think — everyone has in them the ability to…yeah let’s pause.
+
+Try and remind me where I was in the thought.
+
+So everyone has a vision for things and there’s generally something about their vision that is edgy and forward-thinking and brave, and some people are better at that than others. Matt is very good at it, that’s why he’s been very effective in his leadership role. I think if you try and make every decision go through a committee, you end up blunting the edginess and the forward thinking of individual visions and you end up with this boring but generally inoffensive morass of ideas. Yeah, you might not really offend anyone but you’re not going to blow their socks off.
+
+Take the recent thing we did in WordPress 3.7 which was the automatic background updates for minor versions. I don’t think that — that’s something that Matt has been pushing for and pushing for, and that’s been his vision. When we talked about it we would all just be like, “Okay, but you’ve got to worry about this and this” and we had all these concerns, and eventually it was just said, “Okay, let’s just go for it.” And it was mostly Dion and Nacin and a few others, but they did a lot of it. They just went through it and they just did it, and it is surpassed our expectations amazingly and is — no one is doing anything remotely close to this in web publishing software or in web applications in general, or in self-run web applications at least. I don’t think it’s the sort of thing that could have happened by community consensus, because there were so many concerns and so many reasons to be conservative and just say no. 
+
+Interviewer: Alright. We’re finished then. Thank you!
+
+[Transcript ends.]

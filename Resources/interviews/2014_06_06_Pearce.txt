@@ -1,0 +1,126 @@
+Jeffrey Pearce on 2014-06-06 at 09:03 (The Brain's conflicted copy 2014-06-10)
+
+[Start of recorded material at 00:00:00]
+	
+Interviewer:	It's the sixth of June, and I'm talking to Jeffrey Pearce from WooThemes. Can you tell me a bit about your background with WordPress?
+	
+Pearce:	[00:10] Sure. Basically, I got started with WordPress in around about 2007, I think it was, and that was at my job before WooThemes. What I was doing there was I was an analyst developer, so basically my job was to implement solutions and decide which would be the best solutions for our clients. And we had a custom CMS at the time, and we kind of realized that we need to change this. And I had a look at a lot of options, and eventually we settled on WordPress in 2008 and pretty much started the WordPress division there. And then late 2009, I moved to WooThemes. 
+	
+Interviewer:	Why did you decide to use WordPress?
+	
+Pearce:	[00:59] The biggest thing was the ease of use, in terms of for our clients. We'd been using Joomla and the custom system, and our training programs were ridiculously long. And we decided that we'd do a pilot with WordPress, because we were using WordPress for our company blog. And we loved it, and we decided, "yeah, let's give this a whirl." It was easy to extend, and yeah, it just made sense at the time. 
+	
+Interviewer:	So how long have you been at WooThemes?
+	
+Pearce:	[01:31] I've been there almost five years now. 
+	
+Interviewer:	At what point did you start moving from themes to more into plugins?
+	
+Pearce:	[01:41] I think that point came when we released WooCommerce. We'd been flirting with a few plugins here and there. But that was the big shift, when we launched WooCommerce, and we started putting support into our themes for WooCommerce. We kind of realized that keeping too many features inside themes, it was a bad idea. And just from the support load, that was really not a great idea. 
+	
+Interviewer:	Why did you decide to develop the menus plugin?
+	
+Pearce:	[02:15] That was actually quite a funny story. I started in November 2009. And the very first thing that WooThemes gave me to work on was the menu system, because our customers had been crying out for it, and I had good JavaScript experience. So we figured we could use jQuery and the jQuery UI would be a nice solution. So yeah, that's why we built it. And our customers loved it. 
+	
+Interviewer:	So what problem did it solve for users?
+	
+Pearce:	[02:54] Well, previously, they would have had to use I think it was wp_page_list function, I don't remember exactly which one. But previously, they'd have to use that in order to just basically pull in all the pages. And then they'd have to go and have ID in our background theme framework thing. And then they'd have to list the IDs of the pages that they wouldn't want. So they were frustrated because they'd either to have just all categories, or just all pages in their menus. And they didn't really like the existing menu system plugins out there. They didn't offer them the flexibility. That was the big thing. And with our one, we could edit the menu names, we could add custom links in, and they really like that. 
+	
+Interviewer:	Could you tell me how the plugin worked? Did it make custom post types? Or how did it work in the code?
+	
+Pearce:	[03:53] I think originally, we had custom tables. I think we had a table system. And then basically, it stored a container menu, and then individual menu items. 
+	
+Interviewer:	Were you aware that WordPress was working on menus?
+	
+Pearce:	[04:16] No. At that stage of my career, I wasn't too heavily focused on following what was happening in core dev as yet. I didn't realize how easy it was to get involved. I'd thought it was some core team who was kind of, I felt, a bit separated from it. But that was kind of my own incorrect perception, I guess. But yeah, I didn't know until they contacted us, basically. 
+	
+Interviewer:	So what did they say?
+	
+Pearce:	[04:55] I think the original email came from either Ryan Boren or Jen Mylo. I don't know who it was originally, but basically the email came through to Eddie, and then Eddie said to me, "Hey, this is what happened, and that we need to look into putting into core." 
+	
+Interviewer:	What was your reaction? 
+	
+Pearce:	[05:24] We kind of joked about it two weeks before that. One morning we were having coffee, and we were just like, "Ha ha, wouldn't it be nice if this was in core?" And they were like, "Yeah, whatever, they'll never go for that." So I said to him, "No, you're joking with me. Stop joking." "No, I'm serious." And he printed the email and he gave it to me. And I was like, "What?" That was pretty cool. 
+	
+Interviewer:	Did you have any involvement in an open source project before?
+	
+Pearce:	[05:55] In terms of contributing? No. 
+	
+Interviewer:	Okay. 
+	
+Pearce:	[06:00] I'd used a lot of open source, which was pretty much my involvement. 
+	
+Interviewer:	And what was your impression, when you started to get involved?
+	
+Pearce:	[06:12] For me, it was very different to anything I'd been involved with. So the first kind of involvement was the initial emails. And then basically, we did a Thursday night here, so I can't remember what the time was. We did the Thursday evening chat on the IRC. And then I got introduced to a couple of the guys, and then, yeah, from there, they assigned, I can't remember who the original person was, but I remember working with Ptah. And I'm just going to find that original ticket -- but basically, I was introduced to the person, and then I think it was Ptah, originally, and then from there, we created a patch. And then I uploaded it to the ticket, and then it was merged into the core. yeah, from there a whole bunch of people worked on it. 
+	
+Interviewer:	How much additional work did it need for you to turn it from the plugin into a patch for core?
+	
+Pearce:	[07:33] At the time, core didn't have the version of jQuery that we were using. So I had to add that version of jQuery in. So that was quite nice to jQuery get upgraded from what it was at. But I basically just took the original files, tried to follow the structure. I mean at that stage, I had very little core exposure, so a lot of my stuff was quite raw, and I wasn't used to the Walker classes or any of that sort of stuff. so basically, once my code was in and it was working, it was hooked up to the admin menu. From there, the guys took it, reworked it into Walkers and then worked it into the post-app system.
+	
+Interviewer:	What was that process like, working with the core development team?
+	
+Pearce:	[08:27] Initially, Ptah and I, we kind of missed each other all the time, because we were in different time zones. So eventually, yeah, I think we eventually connected by email because we were trying to connect via Skype and stuff like that. For me, WooThemes at the time was I think eight people, and most of those were in the office. So I didn't have much exposure to remote working. So that was kind of like my first real remote working experience with a lot of people. It was different, but it was quite a good experience. I enjoyed the process. The one thing that I did find that was quite strange was how, at the time, it was like the UI team and the dev team, and that kind of felt very disconnected. There seemed to be a lot more going on on the dev side of things than the UI side of things, but maybe I just was not involved. yeah, it was a good experience. 
+	
+Interviewer:	What did you like about it?
+	
+Pearce:	[09:35] I liked to learn about it. I liked to learn from others who are good. So I learned a lot from the feedback the guys gave me on the code. I also learned a lot about how the open source process works, and how the WordPress core process work. So that was pretty cool, especially in terms of following what was going on in core in the future. So that was something that from then, we started following a lot more what was going on in core. That flowed into the post formats, when there was a discussion because we did the tumblr plugin, and that was kind of cool to follow what was going on there. yeah. 
+	
+Interviewer:	What was the relationship like between WooThemes as a commercial business and the open source project?
+	
+Pearce:	[10:38] I think before we did menus, we kind of did our own thing. We kind of just focused on our customers and not really on the core project itself. I don't know how to explain it. I think from then, we started to be getting more and more involved. Having more, not an opinion, but taking more interest in what was going on in core, and getting more involved, and getting involved in discussion on track tickets and that kind of thing. 
+	
+Interviewer:	When I asked Adii about it, he said that the process was excruciating. 
+	
+Pearce:	[11:27] Well, there was a lot of back and forth. Most of the dog work, but like all the coding side of things I was handling. I don't know what he was handling on the admin side of things. Maybe he was just shielding me from that or I don't know. It was a long process, I'll put it to you that way. 
+	
+Interviewer:	He said what was difficult was the design by committee environment, with lots of voices. 
+	
+Pearce:	[11:54] Yeah, so the one thing that was -- we were already into the process. I think I had already committed the first patch. I think so, I can't remember exactly. But Mark Forrester and myself, we were in the dev chat, and the way we originally designed it, we had -- normally on the WordPress back end on the left hand panel, you've got the admin menu, then in the center, you've got your contents, and then on the right hand side, you've got actions and extra boxes. 
+
+	So we originally designed menus to be like that, where in the center there was your menus, and then on the right hand side, we had all the extra boxes where you could publish the menu and add items and stuff like that. And on that, we were in the one dev chat, I remember Mark was in there as well, and we spent quite a bit of time designing that, and that got shot down very quickly. We were like, "That's a bit strange." It was screenshots with errors and everything. So that was the one thing I really didn't understand at all why that went the way it did. But yeah. 
+	
+Interviewer:	Were there any other problems?
+	
+Pearce:	[13:18] Other than Ptah and I missing each other? I can't think off hand. I think once it got to a stage where I committed the initial patch, and the guys took it from there, my involvement kind of stopped. It would have been nice to have been involved right to the end, but I think also, I could have kind of pushed for more involvement. But, yeah, I kind of just went in and just flew.
+	
+Interviewer:	Were you happy with the end result?
+	
+Pearce:	[13:55] I still to this day think that the initial launch of menus, that whole action area that ended up between the admin area and the actual, where you create the menu, I still think that should have been on the right-hand side, and I don't think anyone will ever convince me otherwise. But where it's at now, I'm pretty happy with it. I was happy with how they used post-touch. That was quite cool. And I also was quite happy with how they turned it into the Walker classes. That was very cool as well. So, yeah.
+	
+Interviewer:	I've read some posts from people saying that you didn't get appropriate acknowledgment from WordPress for the contribution. How did you feel about that?
+	
+Pearce:	[14:49] I didn't really take much notice, to be honest because at the time, it was just pretty cool to be involved. It was flattering to see those posts pop-up and stuff like that. But I think Nacin kind of hit the nail on the head in his post. Because there were a couple of posts that went around, I think. [unintelligible at 15:18] did one, and there were a couple of others. And Nacin kind of summed it up quite nicely, where he said, "Sure we came with the initial patch, and then it got committed and they were grateful for that. But then from there, a whole bunch of other guys did a lot of work on it. So we should all get credit." And I think that's the right approach in an open source project like WordPress, because we do -- there were a lot of guys involved on the 3.0 release. Menus wasn't just the only thing. 
+
+	So I think just to have our name on the contributors' wall, that to me was good enough. And anyone, I think for me, the recognition side of things, it's nice just to be able to say, I built a part of WordPress. No one can ever take that away from me. That was recognition enough for me. But yeah, it was nice to see those posts floating around, but it didn't really matter. 
+	
+Interviewer:	Would you do it again?
+	
+Pearce:	[16:27] I didn't do it for a while, because of the time difference, and stuff like that, getting involved in the IRC chats and stuff like that took a lot out of my evening time and stuff like that. I was newly married at the time. So that part, I didn't enjoy. So I stayed away for a long time. I think I would get involved again, but on a smaller scale. I don't think I'd get involved on something that big again.
+	
+Interviewer:	How long were you working on the menus for?
+	
+Pearce:	[17:07] Before it was in core or after it was in core?
+	
+Interviewer:	Once the whole process of one day you got the email, and then ...
+	
+Pearce:	[17:18] I think it was a couple of weeks, because of all the backwards and forwards. I think -- I can't remember exactly, but integrating the code didn't take that long because it was already working with our themes and it was pretty modular at the time. So it could kind of just pull it out, and we had just basically one loader class. And we could just in core figure out where the loader was, and then just load it in there. So that wasn't too difficult. It was just getting files in the right place.
+	
+Interviewer:	So what have we learned form it? 
+	
+Pearce:	[17:59] Definitely to write cleaner code. Because I know one of the initial things was I had a lot of JavaScript in there, and it took quite a while for a couple of your guys to figure out what exactly was going on. And yeah, I think I learned that -- when we built menus, we built them for our customers. So we didn't build it, include it into core. I think we focused on solving the problem and delivering a good solution for the [unintelligible at 18:50] and that the recognition that it was a good solution was the inclusion to core. So I think that on any product that we do, it's because we always focus on delivering a great solution and solving the problem. I think that's followed through to like WooCommerce and all of our themes, and yeah. That helps when you're building products. 
+	
+Interviewer:	Great. All right. Well, you've answered all my questions. I think we can leave it there. 
+	
+Pearce:	[19:19] Cool. 
+	
+[End of recorded material at 00:19:20]
+
+Transcript Divas
+www.transcriptdivas.com
+Phone: (888) 494-8474
+
+
+5
+
+

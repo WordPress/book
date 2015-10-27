@@ -1,0 +1,700 @@
+Interviewer: So hello. I’m speaking to Owen Winkler on 13th of August, no the 20th of August.
+
+Winkler: It’s not the 13th anymore
+
+Interviewer: That was a while ago. Ok, so hi Owen.
+
+Winkler: Hi
+
+Interviewer: So can you tell me first of all how you got into blogging and WordPress?
+
+Winkler: Well, I started out… I actually had a dream. I had a dream that I was building out a website and prior to this, I had built other stuff before but it was all sort of functional, like toy stuff, and I had this dream, and I thought… I woke up from this dream and I had the name of the site in my head and I thought I’m going to start writing every day and make a static website, just completely HTML, and get like cheapy hosting and just put the site online and that’s how I started blogging. It didn’t have anything to do with WordPress at all. It was just, like I said, static sites and I was updating with probably Dreamweaver or something dumb like that.
+
+Interviewer: We’ve all done that
+
+Winkler: And being a programmer, I mean I was doing desktop development at the time. It was kind of like, why am I editing this everyday? And uploading it? It’s a pain. I should have something online that does this. So I started writing my own. I wrote one… I was a Windows programmer, so I was writing it in like .ASP… and it did what I wanted it to do. But, then I started to learn a little bit about PHP stuff. And started switching languages. And wrote a whole new system. And you know, after you do this a couple times and you look back, like why did I like start with this in the first place… I really wanted to write stuff and publish it online. And I didn’t want to be writing all this software. Because that’s what I did during the day. So, I said well, what can I switch to so that I can stop programming and go back to writing. And I looked around and … being the kind of quantitative, let’s do some statistics guy that I am, I made this gigantic chart and put all the different qualities of different blog software in there and I did things like, not just what languages did they use, but I would like sort of invade, sort of, their support communities and start asking like dumb questions just to see, like, what the response would be. Because if something breaks down and I don’t want to have to write it myself then I wanted to have something good, you know, some resource that I could go to that was good. That was actually exactly the time that Moveable Type switched their license. My chart, which I had turned into HTML and posted on my static site, got slash-dotted at a time, which is fun. I kind of… [3:00] I realize there’s probably a lot of other things that are like catalysts for the switch from Moveable Type to WordPress in the minds of everyone. But I like to think that I had a reasonable size part in that because people would look… well, they’d look on Slash Dot and they’d see, oh this guy made this chart that shows all the differences. Ultimately I picked WordPress just because, you know, it did all the stuff that I wanted to do, the support community was there, and you know, it was good. And then I don’t know, it was maybe two weeks into having installed WordPress, decided that it didn’t quite do what I wanted to do either and ended up coding a lot more stuff for it. So that’s kind of the story.
+
+Interviewer: So did you start writing plugins for it? Or submitting patches for it?
+
+Winkler: So this is right around when WordPress didn’t really have a plugin system. It had that WP Hacks… I think I had a few things in there, just because that’s how you did it. But because I was a developer and got involved development, I got, like, the newer versions and started messing around with all the plugin stuff that was coming around. And sort of at that point got involved the mess of development that was going on at the time. 
+
+Interviewer: So why was it a mess?
+
+Winkler: Oh no, it wasn’t… I’m characterizing it, you know… it wasn’t really a mess.
+
+Interviewer: Was that scrum?
+
+Winkler: No, no. I don’t know. I guess it wasn’t really my first exposure to open source, but it was my first real exposure to open source development. I guess back in the day, I guess WordPress formed my thoughts on what open source should really be like if you’re a developer and..
+
+Interviewer: What were those thought?
+
+Winkler: Well, one of the things that struck me most significantly about WordPress was the… I hesitate to call it a support community, because they were developers mostly that I was interacting with, so it wasn’t like “hey how do I install this thing” it was how do I write this code to do this. And talking philosophically about what the software should do and that kind of thing. And the community they had online was one of the better ones. I mean I had stumbled on IRC channels for other programs before, and you know, you ask a question and no one answers or they make fun of you. WordPress was never like that. When I started out, if you came to the channel and you asked a question, people answered the question. After you learned a bit, if you stuck around, you would answer the questions too. It’s just how things worked. And that’s something that I’ve liked about the whole thing, is the community aspect. 
+
+Interviewer: So did you get sucked into the community kind of straight away? Or …
+
+Winkler: Well, you kind of have to be. Because there wasn’t significant documentation [6:00] on what I was trying to do at that point. We were kind of throwing it together as we were going.
+
+Interviewer: What were you trying to do with it?
+
+Winkler: I dunno. It’s always, as with any software, it’s kind of like “I wish it could do this one more thing” and off you go. I think one of the first plugins I wrote for WordPress is the GeoIP plugin, that does geolocation, publishes the location once you associate that with blog posts stuff like that. Actually, it was one of _the_ first plugins, it probably wasn’t THE first plugin, but it was like one that was practical and not written by like a WordPress developer.
+
+Interviewer: Yeah, Hello Dolly was the first one.
+
+Winkler: Oh boy!
+
+Interviewer: I know. Woo!
+
+Winkler: It’s exciting.
+
+Interviewer: I ready your posts that you wrote around that time. The blogging choice I think you titled it, and that was where you compared all the blogging software.
+
+Winkler: I think that was the one that was… like, I made my choice. And I think the one with the chart in it “Blog Software Breakdown.”
+
+Interviewer: Do you have the chart still?
+
+Winkler: I still have it. Yeah. It’s on a different site now.
+
+Interviewer: Oh, okay. I’d like to find it.
+
+Winkler: I’ll dig it up and send it to you.
+
+Interviewer: That would be good. Because I think Matt linked to it and I followed the link and…
+
+Winkler: It probably wasn’t there.
+
+Interviewer: A lot of the links that I’m going through are broken. Which is kind of frustrating. Then you started getting involved with core development?
+
+Winkler: Yeah, a little bit. 
+
+Interviewer: How was that? What was the dynamic like in the core development?
+
+Winkler: I dunno. You see something that needs fixed and you just fix it. I guess compared to the corporate development I’ve done and the open source development that I do, back then with WordPress, it was not organized, at all. That’s not to say it was bad, it’s just… you see a problem and you fix it. And you submit code. And if you do that often enough, then they say we’re tired of taking the code you send us and having to incorporate it in the project. Just do it.
+
+Interviewer: So did you have commit access?
+
+Winkler: For a little bit. For a little bit.
+
+Interviewer: And when did you lose it?
+
+Winkler: I dunno. I really don’t know.
+
+Interviewer: Is that a contentious thing?
+
+Winkler: No, I just … I think at some point someone decided that maybe we shouldn’t do it that way. And they just yanked it from everybody. I think at the time, it wasn’t something that I would have even said “oh that’s… what do you mean?! You’re slighting me!” It’s nothing crazy like that.
+
+Interviewer: I guess it makes sense to not give everybody commit access.
+
+Winkler: Well, yeah.
+
+Interviewer: So were you still there when Mike [9:00] and Dougal and Alex were around? Or had they already kind of disappeared?
+
+Winkler: Mike wasn’t ever around when I was around. He was really early on. Dougal was definitely around. Obviously Matt. Matt was… Matt played a lot more of a role in development back then. Which, you know, maybe he shouldn’t have?
+
+Interviewer: What were his PHP skills like?
+
+Winkler: Not good I’d say. It’s one of those things where you come into it from a certain direction and maybe he didn’t have the programming background to know how thing should best be done. He would implement stuff and it would kind of work. And then someone else would rewrite it because they could see what he was trying to do and just rewrite it do to better. I know there had been several occasions where he submitted something where someone has said “Oh no. We can’t do that.”
+
+Interviewer: I’d like to find those tickets. I find it quite interesting that the very first developers… well, Mike not so much, but Matt and Michele and Dougal and Alex weren’t that familiar with PHP. They were all kind of learning it on the hoof. Do you think that was reflected in the code?
+
+Winkler: I think a bit. Yeah. And the guys that do the code now are… they’re a lot more savvy in terms of development concepts. You know… things… algorithms, classes they’ve had in school and stuff like that. So, you can definitely see the difference in what they’re doing. But there’s other problems with that too. 
+
+Interviewer: What are the problems with that?
+
+Winkler: Well, WordPress has a lot of… philosophically, they have such a large install base that they have to cater to people who have older installations, older versions of PHP, because hosts for whatever reason, don’t like to upgrade and keep security updates updated. So, to keep their entire user base happy, they kind of have to leave some of the code in the past, that probably could be brought up to the future.
+
+Interviewer: Yeah, I spoke to Boren about that and he was like backwards compatibility is a huge things.
+
+Winkler: It’s a big, big issue.
+
+Interviewer: But I guess back then, when you first got involved with the project, that wasn’t an issue so much.
+
+Winkler: No, because there wasn’t anything to be backwards compatible with. What did we do with that WP Hacks file? I don’t know?
+
+Interviewer: There are still things in the Codex that refer to WP Hacks. I know that’s a totally different issue. I can talk about that later. So who do you think had a major impact on WordPress while you were involved? Or who [inaudible]
+
+Winkler: [12:00] I don’t know. Ryan was always somebody to watch, because he was always doing something interesting. It seemed like he had sort of a vision for where things were going in spite of like no one actually announcing this is what we’re going to do next. I don’t know if I could name specific things because everything was just so like haphazard, I guess. This maybe sounds bad, but it’s just how it was. You start a project like that and you don’t have organization from the beginning. You get organization later. 
+
+Interviewer: I guess no one expected it to go where it went, so why would you even need organization. It’s just something people are hacking around on. What do you think of the significance… things that happened within WordPress or the functionality-wise, while you were involved. Like the biggest changes…
+
+Winkler: Oh, like what I think they are? Creating the plugin system was probably the biggest thing. Sort of drafting developers to be, sort of, advocates for the platform made it that much more popular. You know, having people say, oh you can do all this stuff with WordPress as a developer, come and check it out. 
+
+Interviewer: What do you think were the biggest issues while you were involved?
+
+Winkler: The biggest issues?
+
+Interviewer: Like the biggest problems, or things that you just felt were kind of intractable. I mean you guys left the project for a reason, I guess.
+
+Winkler: Well there were reasons why we left the project. The weren’t necessarily related to WordPress itself. While WordPress itself had its issues, you know as I said, I could stand to have some more classes and I could stand to have more modern coding techniques and use the newest stuff. It was really… for me, it was really the idea that you could take this project that… you know, you kind of recruit all these developers to do work on this thing and then you take that work and make a product out of it that those developers don’t have any involvement in, monetarily. And it’s not… it sounds a little greedy for the developers, but really, there’s a lot of people who contributed to WordPress that… all they got was credit. The argument is that anyone could have taken WordPress and done what Automattic did with WordPress, [15:00] but no one could have done what Automattic did with WordPress because Automattic and Matt and whoever owned the trademark to the name. So you create a new project that uses WordPress, you have to call it something else, and it’s not WordPress. 
+
+Interviewer: So was the founding of Automattic, did that cause problems in the community?
+
+Winkler: I don’t know if it really caused problems in the community. I know that… like people that I was involved with didn’t really like the idea very much. And you know, there were people that didn’t care… Since then, some of the people that I was involved with in the community… you know, they stuck with WordPress and they’ve made decent livings working on WordPress and continue to. So it’s all worked out for them too. It wasn’t like this gigantic divide. But there were enough reasons to go seek some other thing. I think. That’s where all that came from. 
+
+Interviewer: What were your reasons?
+
+Winkler: The primary one was the WordPress.com stuff. It just didn’t seem good. It’s one thing to have an open source project and say everyone can contribute, it belongs to everybody, and all that. And then to take that good will that you’re fostering and turn it into a commercial product basically. So… That’s the really, that’s the one big thing. There are other things. I think probably by that the community started to slip. So the things that I really liked about WordPress, how you could go to the IRC channel and talk about stuff and people would have ideas and share and help everybody, by that time we were starting to grow the community to a point where new people that came in would ask a question and people who had sort of gotten past that step and moved on to being more knowledgeable about it would say “oh, you don’t know that?” like it’s some exclusive club that we can’t belong to. And it was never like that. And it kind of rubbed me the wrong way that not only did it get that way, but the people who could have stepped in and said “don’t behave like that” never did anything about it. It goes hand in hand. You have the whole idea of building this product out of WordPress and you want to focus people on using the support mechanisms that you’re putting in place to that, you know, as a legitimate way of driving business to your products and having everybody kind of stick in this one sheltered area, so IRC sort of turned into this, like, [18:00] backwater location where people hung out and bad things happened. 
+
+Interviewer: Why do you think that was? Was it just the number of people? Or was there specific personalities?
+
+Winkler: It was the number of people, which inevitably happens to any community. If you have just people coming in from everywhere all of a sudden, even gradually over time, you get all different types of personalities. And some people are just not conducive to working with other people in a good way online. It’s just the way it is. But the other thing is that all of that could have been prevented if it was recognized that this part of the community was valid and needed to be sort of nurtured and cared for. And I think maybe it was because of the commercial aspect, maybe it wasn’t. But for whatever reason IRC was just kind of this thing that they let languish, they didn’t really take care of it.
+
+Interviewer: Do you think there was a split then between the kind of developers and this support, documentation, like non-developer people?
+
+Winkler: Yeah, there’s definitely, definitely a split between the people that were doing the coding and the people that were using the software. And that’s … there’s probably another reason why, if you were going to let the IRC channel just kind of do it’s own thing, that might have been a reason why. Because all the developers would hang out in IRC and they would never come over to the support forums which are the things the regular users use and vice versa. As developers, we sat around the IRC channel waiting for users to come in and ask questions so we could answer them. But the users… it’s IRC… who does IRC, right? And never really considered, you know, users aren’t going to have that knowledge. So maybe that’s why they let it go? One of the reasons why? But, you know, at the same time there’s this other divide, which is that… within WordPress, more weight was given, like significantly more, to where no one else was getting any credit, for contributions that were not code. So you contribute code? Oh you’re, you’re a king! That’s great! But you’re doing support, like user support on the forums? Whatever. In some ways they tried to change that a little bit. Like you could see them, as Automattic formed, and they started hiring community managers and stuff like that. They tried to give them a little more credit. But it never to me seemed like those people were… these people, these are people that figured out somehow to bridge the gap between the developers, who are typically people [21:00] who don’t want to interact with the users because it’s… it’s not that it’s a waste of time, it’s just that like people constantly asking you questions about how things work can derail you from getting things done. But they figured out how to connect the users and the developers, and the credit that they’re getting? Is you know, yay, you get a star on the forum. You’re one of the support people, you get one of those little monikers under your user name. Oh boy. That’s the credit. So that really kind of bugged me. And then you know, people who were writing documentation weren’t getting credit. And there were people, Lorelle for example, like was ripping through the wiki and making all those changes and I guess she probably got more credit than a lot of the other people who were contributing to documentation, but if that’s the only kind of contribution you can make and you do a lot of it, that’s super valuable. I just… it didn’t feel like they were getting the credit that they needed to. 
+
+Interviewer: Can you think of anyone who was involved in that side of things that you think it would be good for me to talk to? I’ve spoken to a few people.
+
+Winkler: I probably can, but…
+
+Interviewer: If you can’t think off the top of your head, like email me. Because you’re emailing me that chart. I’m going to write that down, to bother you about that. So when you set up Habari, did any of these sort of people come with you? The community type people?
+
+Winkler: Um, yeah. You probably got the story from the other guys too, but I can retell it if you want.
+
+Interviewer: Yeah, I’d like to hear it.
+
+Winkler: Oh yeah, I totally… I packed my Ohio Linux Fest shirt. And I was going to wear it. It’s up in the room. But we… you know Skippy and I had gotten to become like good online friends, which is totally weird, but he’s a good guy.
+
+Interviewer: I have good online friends.
+
+Winkler: Isn’t that strange how that works? But I was… he said, you should come to this Linux Fest in Ohio. Ok, I’lll come do it. Whatever. 
+
+Interviewer: Are you into Linux?
+
+Winkler: At the time, not really. Much more into it now. But I went out and Skippy was there… there’s a year before. I went out the year before. And it’s like, oh this is pretty cool. You know, if we do something with Habari, we should set up like a table here and show everybody what Habari is. Because… Linux Fest, in Ohio, has got this really cool thing where if you’re an open source project and you’re not really trying to sell something then you can get like a table, like these conference… the big conference tables, they can get cost hundreds of dollars. It was like seventy-five bucks, maybe? So we got a table. And I bought a banner. [24:00] And we put up this [inaudible] and a few… look for the pictures on Flickr online. You can see the stupid Habari logo. I’m standing in front of this sign and the Habari logo is behind me on this sign and it looks like I’ve got this weird hairdo. It’s just sticking up in the air. It’s bizarre. Yeah, but we did that. We did that. But I guess, you know, that’s after Habari was started. That time we got together, it was Skippy and I and Rich Bowen and Chris Davis and… well, the way I tell the story, we decided to get lunch. And we were all WordPress guys. We knew each other from the WordPress IRC channel. And we go down to Buca de Beppo. And they had the room with the popes. Yeah, we were just sitting there and we started talking about the state of WordPress and what we thought was going on. All that stuff. And we batted around the idea of just starting something new. And we all… I think it’s interesting, that we all started talking about… as you asked… what do you not like? What would you want to do instead? And I specifically remember Rich Bowen saying that he didn’t know as much PHP as he really wanted to. And that it would be great that in the process of  doing this we could help him learn PHP a little better that he [inaudible] And that’s always kind of stuck with me as something that Habari should be good at is having people learn about how to do this stuff. I wanted that community to come back. I wanted have a license that wasn’t GPL, because GPL is okay, and there’s a lot of good software that’s GPL and the company that I work for makes GPL software, so I can’t talk about it too badly, but, you know, I think there’s also the idea of developer freedom. If you give the software away you should be able to give it away with no requirements at all. If you want to take it and make software that you sell, then go ahead and do that. Hopefully you won’t. Hopefully you’ll contribute. Or if do, you’ll contribute what you make back to the community somehow. And we wanted to make someplace that if people come and they contribute to documentation or they do support or they do hosting or whatever, then we can give them a real, tangible bit of credit, you know, that’s… you know, everyone’s equivalent. Like the developers aren’t more worthy than the documenters are. That kind of thing.  So that’s where that all came from.
+
+Interviewer: So what were the issues that were discussed kind of around the table at that?
+
+Winkler: [27:00] Yeah, I don’t want to get us in too much trouble because… like we still hang out in this other IRC channel that we don’t tell anybody about. You know, it’s not a big deal. And it’s not like all four of us… there’s always been this sort of … this thought that you guys are hanging out somewhere, and you’re making all these decisions in a back room, and no one else gets to help. And it’s really not like that. It’s just us hanging out somewhere else and talking about dumb stuff. We actually started out hanging in that channel to begin with. I was doing… I was doing some WordPress work. We started a little… I wouldn’t even call it like a consultancy. It was just kind of like, I can do this and you can do that and you can do that and you can do this. And we all don’t do the same thing as each other. Let’s all work together and do this thing! We’ve just kind of kept that channel alive and hung out in there. But it was stuff… we would do really dumb things like we’d have… there was a point where WordPress was running like weekly IRC meetups. And we’d have one window open to the meetup and we’d have the other window open to our other channel, and it would be like sitting in the back of the theater, like making fun of the guy. It was awful. We’re terrible people. So yeah, I don’t want to say too much about that. But you know, it’s the same stuff. For us at that time, it came to a head. We were all in the same place at the same time and we all had these issues. And we just said hey, let’s just just do this. And we did.
+
+Interviewer: Yeah, it’s been interesting speaking to the different people. I remember Rich was saying that the issue was the inline documentation.
+
+Winkler: Oh! The inline documentation! Oh! You know he was so… This is what I was getting at, with them not giving credit to people who were doing significant work for them. If someone offers to come into your code base and say, you know they say to you, this could be so much better if it had documentation that new people coming into the project could read and understand and help contribute to your project, and someone says to you “no, stay away.” That is insane! That is absolutely insane. 
+
+Interviewer: I read through the threads this afternoon, actually, just to remind myself of it. It’s interesting to me, because at the minute, I’m running the documentation stuff at WordPress, and we’re working on the new code reference, so all of the inline documentation is in the process of being updated. So that’s quite interesting for me to see that happening seven years later.
+
+Winkler: Yeah, seven years later. Exactly. And you know the best part? At the time that Rich was doing all [30:00] that, like he asked about it, and he was flatly turned down. And I said, well that kind of sucks. So I wrote a tool that would sort of look at the WordPress code base, suck all the function names and parameters out, put them in a database, and then let people contribute code comments that you could then push a button and export them and it would create a patch that you could patch back into WordPress so you could get documentation. And it was this cool little project that no one ever, like, did anything with. And you know, people had started to do the like the x-ref stuff and I wanted to expand that. I wanted people to be able to… you know, if the WordPress people in charge, powers that be… if you were to look at our IRC logs it’s all “PTB”, that’’s when we’re talking about them. “OTB” is other blog tool. We never said WordPress in the Habari channels.
+
+Interviewer: I need to look at your Habari channels then.
+
+Winkler: Yeah, OBT. So yeah, if they’re not going to let us contribute this way and put it right into the code, then we’re just going to do this thing over here that does it any way. You know. 
+
+Interviewer: So, is “powers that be” Matt, or Matt plus Ryan?
+
+Winkler: I think when it came down to it, Ryan was not political in that way at all. He was really influential about what the code did, but I don’t think he was making any of the decisions about how it should be. And when Ryan said he wanted to do something, Matt was kind of like okay, because like we don’t have you then there’s not much WordPress.
+
+Interviewer: So once you decided to start Habari and that was 2006?
+
+Winkler: Yeah, it was probably somewhere around there, 2006. It’s been so long. Like if it was last year, I could tell you it was last year.
+
+Interviewer: I think it was 2006.
+
+Winkler: Yeah, 2006.
+
+Interviewer: And how long did it take you to get the first version out?
+
+Winkler: So, yeah. Is the first version done. It depends on how you…
+
+Interviewer: I saw that Chris Davis put his blog on it.
+
+Winkler: Chris has always been a little gung-ho. Yeah, I remember we started writing the code in like October I guess, and by January Chris was so excited about it he couldn’t contain himself anymore. We were just kind of keeping it on the DL. No one was talking about it. And Chris just couldn’t take it anymore. And he put his blog on Habari. And he’s like “I’m running Habari and it’s awesome!” And all of a sudden there’s like 8 thousand people asking us questions about stuff. And I’m like “The code doesn’t even like… you can’t install it… what are you doing?!” Yeah, it was pretty raw. [33:00] Nonetheless, I guess if you want to call that the first version, then that’s the first version. Technically, we haven’t hit 1.0 yet. I guess in the community right now, it’s kind of like “why haven’t we hit 1.0? Let’s just make it 1.0. What’s this 0.10 garbage?” So, yeah, 1.0. I think there was a lot of philosophical changes from WordPress that we were trying to change to. And one is related to the versioning. The versioning is an inconsequential detail basically, but like we wanted to have a stable API at each major version number. So we didn’t want to say this is version one without having the API be stable, which is another thing that WordPress never really standardized on. So actually looking at, yet another strength of Habari, looking at all the other tools that are available to do this and seeing what they did well and just kind of saying “we’re going to do that.” And that was like… that’s something that like Drupal does. They do hard version numbers that are API incompatible. Not to say that we want to be incompatible, just that we wanted to have these things mean something and not just be numbers that we advance every six months or three months.
+
+Interviewer: So what other philosophical changes did you have from WordPress? Obviously the GPL is quite a big one.
+
+Winkler: Yeah, the GPL is a very big one. And it’s one that comes up a lot with like the themes and designs and stuff like that, where you can just sell a Habari theme and we don’t care. So that’s definitely one. Code comments. You cannot submit code for Habari without a code comment. Has to have it. Definitely we changed the stuff about like the credit that you get for contributing things. So we’ve had people come along and do only documentation. And… it’s hard to come up with, like you can’t just give them a trophy. You can’t give them something tangible.
+
+Interviewer: A medal?
+
+Winkler: Yeah. “Here’s your medal! Yeah!” But we give everyone who demonstrates like sort of the Habari qualities that we appreciate access, like direct access, to the repository for the code. So it’s sort of like… there’s some people who are committers, who are part of the primary management committee in Habari who I would never want to actually touch the code because they don’t really do development. But we give them access to it because they’ve demonstrated that they’re part of the community and they’re actively trying to advance Habari as a project. And that’s the way we demonstrate that, you know, you’re part of the club, basically. [36:00] That’s a big difference I think. And now that the company, Automattic, the company is just this huge thing, it’s hard to know who has what access and like tiered levels… I guess there’s someone who knows somewhere along the way, but like as an outsider you could run into someone that says they work for Automattic and you’d have no idea…
+
+Interviewer: I could tell you who has access. I mean it’s listed on the … there is a structure now that they have lead developers and they have core committers and they have guest committers who are like brought on for a cycle to do stuff.
+
+Winkler: But see… you see the difference? Because we don’t have tiered anything. 
+
+Interviewer: I think it’s because people become guest committers before becoming core committers so they have a cycle to get used to it before they’re like officially given it for good. That’s they way it works, I think. Core is kind of outside of what I do, generally. Did you get many people coming from documentation support, other areas than development from WordPress to Habari?
+
+Winkler: Yeah, there were a few people that came over to do that. We’ve got Michael Hileimann…
+
+Interviewer: Is he still involved?
+
+Winkler: Not so much any more. Of course he helped us port over the K2 theme, which was our theme, like our primary theme for a while.
+
+Interviewer: Is K2 Kubrick 2?
+
+Winkler: Yes. K2 was in WordPress for a while too. But he also designed the Habari admin that was called monolith. And monolith was… currently still is, like the theme for the admin and had been for a long time. Just because, when you give a designer, like not carte blanch, like free reign over what you can design for a thing and they’re good at it, then you come up with something that’s long-lasting. And that’s definitely evident in the admin that we had. Everyone who sees the admin and looks at it says “you know this is…”. It was one of the big differentiators. When you look at WordPress and compare its admin to Habari, WordPress is this thing that has buttons every stinkin’ where and, you know, most people who you meet who are WordPress users they’ll say “oh, no it’s really easy”, but when you really start to ask them questions about how long did it take you to learn this, and they still don’t even know what some buttons do. Whereas the Habari admin is designed so that the only thing [39:00] you really need to focus on is writing your content and then you walk away from it.
+
+Interviewer: So is Habari blog-oriented or do people build websites with it?
+
+Winkler: So, it’s primary purpose to start off with was blogging. And sure WordPress’ primary purpose to start off was blogging also, although you’ll have people claim “no, WordPress was build to be a CMS.” No, it wasn’t.
+
+Interviewer: No, it wasn’t. I haven’t heard anyone claim that with me.
+
+Winkler: And now they even say like, maybe it wasn’t built to be a CMS but it’s definitely possible to do that with it now. When you don’t even have like model-view controller type stuff as a developer to work with, it’s not something you can build on top of as a platform. You can. And people have. But it’s unwise. But I think what we’ve done differently is we’ve stuck with some of the classic programming structures. Like the classic patterns in programming. And as a result of having built the blog that way, you can use it as a CMS because like the parts are modular and they just fit themselves well to being used in that way. So, I guess, the past couple of years when I’ve been doing contracting, I’ve had actually a really large project built in Habari that doesn’t look anything like a blog. It’s complete… it’s an app. You know, it’s a web-based application. It’s millions of dollars in transactions and it works great. It’s built well.
+
+Interviewer: One of the things that… I think I was talking with Brian Boren and he was saying that, if they’d completely rewritten WordPress and made it object-oriented, that it would have made it more difficult for developers to get involved who were not experienced and could have inhibited its growth. Do you think that’s true? Or do you think that actually… they’re actually storing up problems in the long-term because down the line…
+
+Winkler: Well, WordPress’ biggest problem right now is technical debt. And while he might be right, and I think I even said it earlier when we were talking that having switched things over to classes and using object-oriented programming would have made it harder for developers who didn’t know that stuff and were just kind of PHP-script guys to come into the project. And then it wouldn’t have been as popular as it was. And it wouldn’t be as big as it has gotten. So on one hand, you can have it grow the way it did, and get to the point where now you need to refactor everything, [42:00] if you want to do it that way. Or you switch over early and maybe it doesn’t take off like it did. 
+
+Interviewer: Kind of a Catch-22.
+
+Winkler: Yeah, a little bit. 
+
+Interviewer: Why do you think WordPress got so big? It’s now 19% of the top … million websites.
+
+Winkler: I’m trying not to be glib.
+
+Interviewer: You can be glib.
+
+Winkler: Well, I think that there’s probably a real reason why and I could say like a funny thing like “people are stupid” which is probably part of it, but it’s so easy to start, it’s like crack. You can follow a basic set of instructions and get a site online so easily and think that you’re really doing something and have significant results… that kind of thing, I mean when I started learning how to program, being able to type “print hello” and have it show up on a screen was a big deal! And this is, you know, you can put a whole website online in five minutes. That’s amazing. Which is not to say that, like you can’t do that with other tools, it’s just the other tools… I dunno. Some of them don’t work quite that fast or their documentation isn’t such a way that you can get that fast. You know.
+
+Interviewer: WordPress’ documentation is…
+
+Winkler: Yeah. Well, you know, they have always billed themselves as like the five-minute install. Which is one of the things we tried to sort of attack with Habari.
+
+Interviewer: How long does it take to install Habari?
+
+Winkler: Like 30 seconds.
+
+Interviewer: To actually install it?
+
+Winkler: Yeah. You should install it.
+
+Interviewer: I can’t believe I haven’t done it before. Can I do it right now?
+
+Winkler: Sure.
+
+Interviewer: I shouldn’t get started on this… I’d love to look at the admin.
+
+Winkler: The best thing would be if you installed it and it totally didn’t work. That would be the best thing.
+
+Interviewer: Can I install it locally?
+
+Winkler: Oh, yeah, if you have the server.
+
+Interviewer: I mean I’m really interested in why people think WordPress’ being successful. Because people say very different things. And what about Habari? How many users have you got?
+
+Winkler: Like six. 
+
+Interviewer: Ok. You could have seven in like 30 seconds.
+
+Winkler: [45:00] It’s weird. Because we can… here’s a good analogy… for the longest time, not for the longest time, for like five months, I had a Palm Pre phone. And I loved it because it’s got web cards and you can program the whole thing in HTML and JavaScript. And sure the battery power really sucks, but like it’s a really cool development-based phone. And all my friends had iPhones. So when they’re talking about “oh, there’s this really cool app that you can do all this stuff…” I’m like “oh, I don’t have that on my Palm.” You know. But it’s kind of nice to be able to talk to your friends about all the stuff that they’re doing. It’s the same thing with blog software. You install Habari, and sure we’ve got tons of plugins that do the same stuff that WordPress does. And Habari out of the box does a lot of things that WordPress doesn’t do out of the box.
+
+Interviewer: Like?
+
+Winkler: I don’t care what anybody else says…
+
+Interviewer: OK
+
+Winkler: Habari had built-in spam prevention from the get-go. And WordPress was not built with the hooks to enable spam prevention. Was not built that way.
+
+Interviewer: Do you think that could have been added? Or the fact that Akismet is an Automattic plugin prevented that from happening…
+
+Winkler: I think that Akismet probably uses hooks that they have added since. And then having added them, why would anybody use something other than Akismet to do spam prevention. Except for the fact that you’re sending every comment you get over to some black box somewhere to figure out whether its spam or not. Which is another thing. Especially with, well, I spent the entire weekend talking about the NSA, but if your stuff is being watched by somebody, people are kind of wary about that. 
+
+Interviewer: [inaudible]
+
+Winkler: Look at that. It’s beautiful!
+
+Interviewer: The website is lovely. 
+
+Winkler: Yeah, Chris did a great job. 
+
+Interviewer: Is that new?
+
+Winkler: Yeah.
+
+Interviewer: Because I didn’t remember it being this nice before. It will take a few minutes, the thing is slow.
+
+Winkler: Yeah, we’ve had a lot of trouble with design by committee.
+
+Interviewer: WordPress suffers from the same problem.
+
+Winkler: It’s kind of nice though. And I think that our community is coming around to it, where you can sort of give someone the power to make decisions on their own for a while. And then have it reviewed every so often so it doesn’t go off the rails.
+
+Interviewer: We’ve done that with the new admin that’s going to be. Have you seen the new admin?
+
+Winkler: I don’t think so.
+
+Interviewer: It’s not launched yet. It’s a plugin still. This probably is not even the latest version because I didn’t update it. [48:00] Do you remember when Akismet was started to be bundled with core and how that went down?
+
+Winkler: It was one of those things that we kind of ranted about in our little back channel. “What’s this?”
+
+Interviewer: It’s good that you had a way to vent.
+
+Winkler: Yeah? Well, you had to have something to do. And sure ultimately it led to us just sort of going somewhere else, but it was good to complain.
+
+Interviewer: This is the new… it’s kind of black. I haven’t updated it recently.
+
+Winkler: This is different than the old one?
+
+Interviewer: It is. Well, this isn’t different. I haven’t been very far. Let’s see if I need to update it. … I do like your new website.
+
+Winkler: My new website’s cool. 
+
+Interviewer: It is nice. 
+
+Winkler: Hey look at that, the same crappy junk. Look it’s just this massive menus and any plugin can add whatever they want to anywhere in this menu that they want. The plugin configurations they add their little do-dads over there on the left. It’s just… eh.
+
+Interviewer: Does it annoy you?
+
+Winkler: A little. And then there’s a whole community springs up around building plugins and you know, sure the GPL is great, this is another one of those weird licensing things, but then you get people who make popular plugins and then they spew ads all over your admin. And as an integrator, you’re trying to put like these plugins in that do exactly what you want. And sure you can give them money, maybe, to make the ads go away, but then there’s that whole GPL issue and I’m not against paying someone for their work, but then there’s some plugins that you can’t get the stupid buy me button to go away. I don’t know.
+
+Interviewer: What, even if you paid for them?
+
+Winkler: Well, they’ll have just like you know “this was made by so-and-so” at the top in a box, and the box won’t go away.
+
+Interviewer: Were you involved with the community when the whole GPL themes kind of thing kicked off?
+
+Winkler: No
+
+Interviewer: Or had you kind of skipped…
+
+Winkler: That was like really soon after we just totally stopped doing anything with WordPress and moved entirely to focusing Habari. And I think it was Doug Stewart, who’s in Philly, who…
+
+Interviewer: He’s a ?moose?
+
+Winkler: He’s a ?moose, yeah. He sent me a link or something to somewhere and he’s like “check this out.” And I think my response was, and it was weird to have to type “I’m pointing and laughing.” Yeah, it was pretty good.
+
+Interviewer: Yeah.
+
+Winkler: And I did write a whole article about like, I think the title was something like “How Habari Totally Kicks WordPress’ …”
+
+Interviewer: I may have this open somewhere…
+
+Winkler: Look, my blog is all over your computer. [51:00]
+
+Interviewer: I know. Well, you know, I prepare.
+
+Winkler: No one reads this stuff. 
+
+Interviewer: I read it. I’m reading everyone’s blog. I know a lot about WordPress now.
+
+Winkler: I’m sorry. 
+
+Interviewer: I read this, but then I have problems with the text. So it’s frustrating. But yeah, I was … I did read that. The GPL stuff rears it’s head rears it’s head every so often now, but the themes thing seems to have mostly gone away. 
+
+Winkler: Really?
+
+Interviewer: Well, people sell themes. Nobody has a problem with it. 
+
+Winkler: I wouldn’t say nobody has a problem with it. 
+
+Interviewer: Who doesn’t have a problem with it?
+
+Winkler: Well, I have a problem with it.
+
+Interviewer: You have a problem with people selling GPL themes.
+
+Winkler: Yeah.
+
+Interviewer: Why?
+
+Winkler: Well, I don’t have a problem with them selling GPL themes. I have a problem with them selling themes and saying you can’t distribute the x-part of this with this. Especially the CSS part.
+
+Interviewer: Okay.
+
+Winkler: CSS is code. 
+
+Interviewer: But WordPress.org’s they … the official line is that the whole thing has to be GPL. So 100%, CSS and everything distributed with it. Or they won’t support it on WordPress.org.
+
+Winkler: Well they won’t put it on WordPress.org but they also kind of turn a blind eye to the whole thing when its not hosted there. And you have companies like Envato, I don’t know how to say it…
+
+Interviewer: Envato, yeah.
+
+Winkler: … that sell themes. And, you know, I personally don’t have a problem with themes being sold. But if you’re going to produce a theme for a GPL software, then your theme is GPL and all the stuff that comes with it is GPL, I don’t care if it’s graphics, CSS… and I know that people have presented reasonably good arguments on how that could be viewed as like a valid thing to do. And as a business model, okay that’s fine. I’m okay with people making money from their stuff. But my thought is, if you want to sell a theme, then you should not choose software that is GPL and sort of … it’s kind of like disingenuous to the spirit of the license.
+
+Interviewer: I would agree. I mean, you and Matt agree on this. Completely. I mean, but there was the … so he went to the free software foundation and they actually looked into it and, legally, the PHP has to be GPL, but the CSS doesn’t legally have to be. But… I mean this is why WordPress doesn’t support themes that have CSS. But, you know that Envato has now changed their system so that you can opt to be GPL now.
+
+Winkler: Oh yeah. Yeah. But you can also opt not to be.
+
+Interviewer: But you can opt not to be, yeah. And it should really be … c’mon Habari, download. It’s a very big file I guess.
+
+Winkler: Is it?
+
+Interviewer: No. It’s 3.4 meg. Oh, my wi-fi is gone. That’s what it is. 
+
+Winkler: Feel free to blame the server. We’re actually in the process of migrating the server itself to different hosting. [54:00]
+
+Interviewer: I think it’s the wi-fi. Did you interact much with Matt?
+
+Winkler: I was just about to say “don’t forget to ask me about this cool Matt story I have.”
+
+Interviewer: Tell me about your cool Matt story.
+
+Winkler: He was in Philadelphia for some thing. I don’t know. I think Drexel was giving him some award for some… which is like “what are you giving Matt an award for?” Okay. Yeah, he was in Philadelphia at some presentation and they had like an impromptu lets get everybody together so we can meet Matt type of deal. And in Philadelphia we’ve got this fantastic tech community. I don’t know if you’ve been to Philadelphia?
+
+Interviewer: No.
+
+Winkler: No? If you ever make it to Philadelphia…
+
+Interviewer: I would like to. WordCamp Philadelphia.
+
+Winkler: It’s great. Yeah. We have this awesome tech community. And the place… there’s a third street in Philadelphia is where all the real tech hub is. We’re getting super tangential, but third street, it’s north third street, they abbreviate north with an N and they flip the 3 around. N. E. R.
+
+Interviewer: So, next street?
+
+Winkler: So third is three R D and N … c’mon, you’ll get it.
+
+Interviewer: Nerd Street!
+
+Winkler: There you go.
+
+Interviewer: I got there eventually. 
+
+Winkler: Ok. So, north third street and like, that’s really where the tech hub in Philly is. It’s like in old city and it’s a really charismatic area and it’s just super cool. Down the street from where the big co-working space is, that’s Indie Hall. Indie for Independents like NTS not CE. But down the street from there, there’s a place called National Mechanics which is like… I wanna say hacker bar, but like if you imagine hacker bar, it’s not at all what this place is like. It’s like this old bank building. And it’s like wood and stuff inside. And it’s a pretty nice place. So this is where this meeting thing is going to happen. And I showed up a little early and I had, I was reading some book at the time, and I sat at the bar and I was reading my book. And people started to sort of filter in. And Matt eventually showed up. And there was like this huge, like “hey let’s talk to Matt” and it was like this big thing and the whole place was full, and he was in the back and I’m sitting at the bar reading my book. 
+
+Interviewer: What were you reading?
+
+Winkler: I’m trying to remember. It was probably some sci-fi or something. It was pointless. [57:00] But I figured I’m not gonna… like I’m not sure I really even want to be here in the first place.
+
+Interviewer: Was this post-Habari?
+
+Winkler: Yeah. 
+
+Interviewer: Had you met Matt before?
+
+Winkler: No. So I was a little apprehensive about the whole thing, as things go. So I’m just sitting at the bar reading the book. And eventually the crowd starts to get thin and he makes his way out to the front like he’s going to leave and I guess he’s got a few people that are like going around with him. Like someone from the college was there to kind of show him around. There were a couple guys from a tech podcast, Drew Olanoff.
+
+Interviewer: Oh yeah, the guy from TechCrunch.
+
+Winkler: Yeah, that’s what he’s doing now. They were there. And he kind of came out to the front of the bar and I’m like “you’re Matt right?” And he’s like “yeah, I’m Matt. What’s your name?” And I’m like “I’m Owen Winkler.” He’s like, “Yeah, I know you.” And we had this whole weird conversation about like “we’re not going to get into a fight now are we?” And I’m like… I don’t know how we ended up there, but I was like showing him how to throw punches. It was very weird! And he was like “I would totally lose a fight because I don’t know how to throw a punch.” “Well, you do it like this…” So he’s like “are you going to come with us to Drew’s place, until I do this podcast?” And I’m like “Well, I don’t have anything to do.” So we all got in the subway and went over to like somewhere in west Philly. This is like way outside of where I’ve ever been… When I go to the city, I go into the city. It’s like a 40 minute trip for me, at least. And so we’re out in, I don’t know where we are. And at Drew’s place, he’s got a couple of roommates and we’re all drinking beer and doing this podcast. He’s got this whole thing set up in his living room. I hope it’s still online somewhere, because I’m in it. And someone asked some weird question and they turned the camera over and pointed it at me. And I’m like disagreeing with Matt. And this whole… yeah, it’s very weird. 
+
+Interviewer: Is that the only time you’ve met him?
+
+Winkler: That’s the only time I met him. But the best part of the story… so we finished the podcast and we’re just all hanging out and … clearly this was a while ago, Matt’s like I’ve got to get out of here, I have to be somewhere tomorrow. Okay that’s cool. So he gets a cab. And like all of the girls in the place like go out and get in the cab with Matt. Like to go elsewhere. You know, like, oh do you need a ride? Sure, I need a ride. Let’s all get in the cab. Okay. I remember I was standing, I don’t know who it was I was talking to, I was standing next to this guy on the porch watching the cab drive away [60:00] and I turned to the guy and I said “Did Matt just leave with all the girls?” That’s wrong.
+
+Interviewer: He took all of them?
+
+Winkler: They were all gone! I went back inside. There was nothing but guys sitting around kind slouching on the couch. I’m like “why am I here?” It was pretty weird.
+
+Interviewer: That’s kinda weird.
+
+Winkler: And then I got stuck in the city that night too.
+
+Interviewer: oh no.
+
+Winkler: All the trains that come out to where I live, they stopped running at that point. So I had to crash on some guys couch. It was very weird. It was a very weird evening. 
+
+Interviewer: That does sound weird. I should speak to Drew Olanoff, I bet. Because he’s got that WordPress tattoo. Have you seen it?
+
+Winkler: I may have. 
+
+Interviewer: I think he was raising money for cancer or something and Matt paid the highest amount. 
+
+Winkler: Oh, okay.
+
+Interviewer: And he got like a tattoo, had to get a WordPress tattoo. Do you go to WordCamp Philly?
+
+Winkler: The best damn blog… the best damn podcast ever. 
+
+Interviewer: Is that what it’s called?
+
+Winkler: It’s got the word damn in it definitely.
+
+Interviewer: That was after you’d had many interactions online, I guess.
+
+Winkler: Sure, sure.
+
+Interviewer: And how were they fractious at times?
+
+Winkler: Eh, sometimes. I remember there was one… one of those IRC weekly meet up things that I’d said something and then… that’s like really stupid to do that, and, like, out of character, called him something or said something, and he sort of called me on it. And I’m like “I’m done. I’m out of here.”
+
+Interviewer: I can show you that, maybe.
+
+Winkler: Can you? You were looking at it?
+
+Interviewer: Let’s see… bookmarks… 
+
+Winkler: It’s great that all this stuff is recorded for history.
+
+Interviewer: I love it. Unfortunately the very first chats are not recorded. Or at least they’ve been…
+
+Winkler: The early ones, yeah.
+
+Interviewer: …very early ones. It’s been a bit frustrating. Matt has them somewhere, but he hasn’t managed to find them yet. I just like this he kinda flunks out. This is a [inaudible] little exchange.
+
+Winkler: That’s exactly the one that I was talking about.
+
+Interviewer: I think I kinda, yeah… [inaudible] I guess you were talking about capabilities? And that was your thing. [63:00]
+
+Winkler: Yeah, well, it’s frickin’ important. Like everything that you try to do is affected by capabilities, so… and it was long delayed and he just insisted on not having anything to do with it. And, you know… you get pissed.
+
+Interviewer: Have I brought back bad memories?
+
+Winkler: No, no. This is fun stuff. I mean… yeah, you can see. “Anything else we can ignore? Why bother? See ya. I’m out.”
+
+Interviewer: You didn’t even say goodbye. You just left. I quite like it because it’s quite flouncy.
+
+Winkler: Yeah, quite the charmer. That’s the one that sticks with me. I knew he said something like that. That’s good. Meanwhile, I was in another channel talking with other people.
+
+Interviewer: Yeah, of course. So I guess your relationship was strained at times. 
+
+Winkler: Yeah, I think this is the worst. Most of the time there wasn’t really direct interaction. He had ideas as to what he wanted done and he kind of mentioned them here and there and he always had this thought that like when he comes into discussions and says like we should do this or we should do that, then people would take him as, like this is mandate. And he was afraid to do that a lot. And while I think he makes a good point, I think he probably could have stood to do more of it. There’s a lot of things I think he could have done with WordPress that he… like, when you have one of the most used tools on the web for publication, you have the power to influence things in a way that can make sense. And there’s a lot of things on the web that don’t make sense. And if you have people… like if you can… it takes a little… I don’t know. You have to be strong-willed for it. But there’s some things like RSS, for example, WordPress could have said this is how RSS works. This is the format we’re going to produce, and we’re going to publish the spec for it. And that would have been the end of it. RSS would be what RSS is because WordPress says this is what it is. And generally speaking, it worked that way anyway because everyone uses what WordPress puts out as garbage to publish whatever they publish. But because of reluctance to really nail down things like that, you know, WordPress never really wielded the power it could have and probably should have community-wise to get like other projects to come in together and work on things [66:00] that would have been best for everyone.
+
+Interviewer: Matt was quite involved with web standards. No? Yes?
+
+Winkler: Maybe. Maybe like the protocol level stuff, like CSS, HTML stuff. You can tell from… the primary example is the WXR, it’s crap. It’s awful. In many cases it’s not valid XML and people try to import it with XML parsers and you can’t because it’s not XML. And then they add all kinds of weird little things to like… the HTML namespaces, like there’s, I dunno. I just seems like there could have been ways to do it well and in a lot of cases it just wasn’t done well. It was just we need to do this so let’s do this. Rather than involve everyone in the decisions about it and get some good feedback first it was just like let’s do this. 
+
+Interviewer: So you think WordPress has been a good influence on the Internet?
+
+Winkler: No. It’s awful. As a matter of fact, and I should make a significant emphasis of this. WordPress is probably the thing most responsible for the fact that PHP is considered by the development community as the worst language to use on the web. Because the code that’s in WordPress, and how people learn to program in PHP which is usually through WordPress is garbage. It’s just absolute garbage. There’s parts of it that are great, like the capabilities. But, you know…
+
+Interviewer: Obviously. But you said you could fix that.
+
+Winkler: No. I’m just messing around. It’s not perfect. Nothing that I wrote was perfect. But generally speaking when you look at like the… every time I look at WordPress I end up in a file that’s got HTML and PHP mixed together. Where you have your business logic and your display mixed together into this random thing. And people look at that and say okay WordPress is one of the most widely used softwares on the web, this is probably how it should be done. And then they go and they do more of that. And it’s terrible that people would think that, or be caused to think that because the quality of WordPress code… and I should qualify this, because there are a lot of people who are producing WordPress code and they’re doing a great job of making WordPress code. But in terms of… like if you were going to take that skill and apply it to any other development, that isn’t going to cut the mustard. It’s great for WordPress but not good for really anything else. And that’s how we’ve ended up in a state where, you know, I go to Hacker News and read, oh there’s this latest new language. Is it better than PHP? Obviously. It’s these dumb comments. It makes me feel bad because [69:00] I’m trying to produce, not just Habari but other stuff that people will… that if they ask anyone about code quality and PHP, like should I use PHP for my next app… you know, I’m trying to get jobs where I can write PHP and make money and when you ask developers generally on the Internet and places like Hacker News or Slashdot or whatever, should I use PHP for my app, and they’ll say “what are you crazy? Go use Ruby or Python or something.”
+
+Interviewer: So you think Ruby or Python are inherently better than PHP or do you think…
+
+Winkler: It would be foolish for me to say no, because the languages, those languages are designed as languages, whereas PHP started out as a scripting tool, and sort of evolved from there. So there’s just some sort of bizarre things about PHP that are never going to be fixed because it’s just been that way all along, that you just kind of have to live with. But like the… I think people’s big problem with PHP generally is that it fosters poor programming practices. And projects like WordPress that continue to foster those things because, maybe because of the backwards compatibility issues… it’s sad.
+
+Interviewer: Do you think that any language can foster bad practices?
+
+Winkler: Sure. But I think PHP has the most potential for fostering bad practices just because of how it was evolved. Like there’s… the prime examples are, there’s some functions in PHP that do like searches through data, and one function will have like needle/haystack in the call order and the other will have haystack/needle and there’s a reason why, because the libraries that they’re using to do those searches came from two different places that were built separately from each other, but whoever put those things together in the language should have taken that into account and they just didn’t.
+
+Interviewer: Yeah, it’s interesting to ask people about PHP. About whether they would have chosen something different or…
+
+Winkler: The nice thing about PHP, unlike Python and Ruby, is practically every server comes with it or it’s easy to get it there, and when you want to deploy an application written in PHP, you just copy the files over and you’re done. So Habari, WordPress, you know, any of those PHP tools practically… now PHP is getting more into this, like composer-based stuff, where you have to run a command in order to start everything up, which is what all the other languages are doing and I think on one hand it’s nice to have real deployment tools, and this is going completely tangent now…
+
+Interviewer: That’s okay.
+
+Winkler: … but, you know, on one hand it’s good to have those tools, but on the other hand you’re getting away from what makes PHP cool [72:00] in terms of having that stuff really easy for anybody to do.
+
+Interviewer: Yeah, I wrote a plugin.
+
+Winkler: Did ya? What does it do?
+
+Interviewer: It makes custom post types.
+
+Winkler: Does it?
+
+Interviewer: Yeah.
+
+Winkler: That’s cool. That’s good. 
+
+Interviewer: It’s live on WordPress.org.
+
+Winkler: Oh yeah?
+
+Interviewer: Yeah.
+
+Winkler: Nice.
+
+Interviewer: I needed it. I was like I need this. I cannot wait for other people to make it for me. So it’s like how do I do that? Apparently it’s okay to run live, so that was good. So, just to go back to Automattic being set up, do you… people started to be hard on the community, what sort of feeling did that generate.
+
+Winkler: So there was an afternoon, I was working at a job that wasn’t very demanding and had lots of time to work on WordPress stuff, and I was building a plugin… I was building a plugin that did media management. And I’d gotten reasonably far with it and it was doing some neat things that nothing really had been doing yet. I remember this afternoon, I had IM up, I had AOL — what?! — and I got this message from Matt and he’s like, you know, how would you like to do WordPress stuff, you know, like all the time. And I think, you know, this is a problem I still have with the startup culture, because… you get these like 20-something guys that, you know, they have nothing else to do with their time but go to work at ten-o’clock in the morning and then finish up at eleven at night and then go drink. And start over the next day. And somehow they make just enough money to pay for the beer. And at the time, I was trying to buy a house, I’ve got kids, what are you talking about. I’m like, it sounds really cool but like, I can’t leave this job even though I’m not really doing a whole lot because I’ve got to pay the mortgage, you know. And he’s like well that’s cool, you know. How can you not just respect that you need money, fine. So at one point, and I think like before there’s really Automattic, there’s no… like he’s paying people real money now, right? [75:00] Who knew what was going to happen. He didn’t really say I expect to be making x-amount of dollars in so many months or whatever. So, if I had really thought about it, I probably could have imagined it going that direction. And I think now, I mean this is like somewhat personal stuff, I’m sure it doesn’t apply to everybody else, but you know having gone out and done the contracting on my own, I’m a little less risk-averse now, which is weird. And if something like that were to happen these days, I’d probably jump at it a little faster. But at the time, that’s how things were.
+
+Interviewer: Did it cause any bad feeling in the community that some people were being hired and some people weren’t? Or were people just glad that there was an opportunity for people to be paid to work on WordPress?
+
+Winkler: I think it kind of tempers the thought that you build a company that’s based around WordPress and I was saying before, you have all these contributors that aren’t really getting paid, but if you’re hiring those contributors, or if your intent is to hire those contributors then that’s less bad. It’s still not great because it’s just… I think it’s the mentality of the action that’s the problem. But a lot of good guys got jobs from that and work for Automattic. I still talk to some of them. Stuff that I do… they’ll follow me on Twitter and I’ll say something and I’ll get a good reply from them. There’s still a good camaraderie in spite of the fact that we may have diverged in some ways. I’m happy for them. I’m happy they’re able to… well, how good is it to be able to make money off open source?
+
+Interviewer: Yeah, I know.
+
+Winkler: Because you can feel good about it and make money. That’s great. 
+
+Interviewer: So why do you thing WordPress has been more successful than Habari?
+
+Winkler: Well, the little red book of marketing says first to market is king. So, Habari would necessarily have to position itself as something other than what WordPress is. And if it is a blog tool, then how do you manage that?
+
+Interviewer: But wasn’t Moveable Type first to market?
+
+Winkler: Eh, yeah, but I think there were enough differences though. That’s the thing, that’s the second rule. If you’re not first to market then you need to differentiate yourself enough that their customers recognize it. And I think WordPress did that enough, being open source, and not doing crazy things with their licenses, [78:00] and not being written in Perl and then switching things around, and whatever. You know. They were there and that’s what people recognized. And then, you know, you start to get the avalanche going and it’s hard to stop. But you know, Apple’s really pulling forward past Microsoft these days…
+
+Interviewer: Yeah, I know. You never know! You went from six users to seven.
+
+Winkler: Six to seven!
+
+Interviewer: Yes! Is there anything positive that you guys took from WordPress? As opposed to philosophies you felt needed to be changed, is there anything that you looked it and went actually we want to preserve that side of things?
+
+Winkler: Certainly there’s stuff that WordPress lost along the way, like the community stuff that I liked about WordPress that we brought back. But there’s a lot of development stuff that we took cues from how WordPress was doing things and put our own spin on it. Clearly the idea of bringing developers in early on with plugins is something that we said we absolutely have to have this. Themeing is the same thing. There’s a lot of stuff that WordPress did that we’ve never really been able to get anyone in our community interested enough to take it on to accomplish it. Specifically, it’s like every year we have a giant argument about whether we want to use the mailing list or some kind of forum, and you know WordPress has both, and other stuff like p2 sites, and we’re… I joke about having six users, we probably have quite a few more users than that. One of the things we don’t do… I just go all over the place, but one thing that was important to me about WordPress at one point was that there’s a user base… what really stuck with me, was there was a site for battered women and they wanted to have a website that you could put up to tell people that it was okay to seek help. And have stories there that people could relate to. But it was really important that that wouldn’t reveal things about the women that were posting the stories. And there were some crazy stories about like the abusive husbands looking up the domain registration of sites and finding out the person who posted the site and then going after that person. Which is crazy stuff! [81:00] There was a point when I remember saying a few times in WordPress, like we can’t do that because there are people who need this to be an anonymous place where they can do this type of thing. So one of the major things that we’ve done with Habari that everyone hates and every time they say “Why aren’t we doing this?” and I tell them these stories. We don’t want to track that stuff. We have completely turned logging off on the server, because we don’t want to know who downloads it. We don’t have to have that information. So, NSA screw you! 
+
+Interviewer: So you have no stats about…
+
+Winkler: We have no stats at all. And it drives everyone insane, because we’ve approached some ISPs about donating hosting for our projects because I… technically, I’m paying it all out of pocket right now, which like, it’s not like this huge bill. But when people ask like “Who pays for this stuff?” they’re all pointing at me. And, you know, I get checks in the mail from people now and then. It’s like “Put this toward the Habari hosting.” And we have like a yearly SSL cert drive where we say “Hey everybody, kick in a little cash.” Because we don’t have some foundation making the money to do the hosting. But that’s like, one of the important things I think. Keeping things anonymous. And, you know, not getting the free hosting because we don’t want… they ask us, like “How many downloads do you have a day?”, for example. And I’m like “I don’t know” because we don’t log it. Not being able to do that, we end up having to do it all ourselves. But I think the effort is worth it in the end. I think being able to say that your safe, these aren’t going to be issues for you… that’s worth it to me anyway. And that why… like so many people say “Oh, I could host it. I work at an ISP and I’ll just put it on a server somewhere.” Eh, no. I just want to make sure that it’s doing what we want it to do.
+
+Interviewer: Fair enough. … Have you got anything you want to add?
+
+Winkler: You didn’t ask about, the Philly WordPress meetup.
+
+Interviewer: Tell me about the Philly WordPress meetup. There’s a few people in Philadelphia. WordPressy people.
+
+Winkler: There might be. Yeah, WebDev Studios.
+
+Interviewer: WebDev, yeah, that’s right.
+
+Winkler: Yeah, Brad.
+
+Interviewer: Yeah Brad.
+
+Winkler: So he runs the meetup. Him and [84:00] Zmoose… but it wasn’t that way. It was me and… I met in Harrisburg with Skippy and Ryan Boren, no not Ryan Boren, Ryan Duff. Different Ryan. Ryan Duff.
+
+Interviewer: They’re very different.
+
+Winkler: Yeah, they are very different. And we just… like Skippy was visiting relatives or something and Ryan lives in Harrisburg-ish, and I don’t know what the heck I was doing driving to Harrisburg, but I did… I think that might have been the first time I met either of them in person, and we were just sitting around talking about WordPress because that’s what we do, and Ryan said you know, we should start a meetup in like wherever. I’m like well I’ll start it in Philadelphia, but you have to come. So I did. I started up the meetup and he came out to Philadelphia and we had like five people and you know, it was this little thing. We had it at a bar and it wasn’t really very… like there was no like… we have meetups now where people present things. I go to our now suburban WordPress meetup, like regularly…
+
+Interviewer: Oh, because you have a few now.
+
+Winkler: Yeah, Philly has two.
+
+Interviewer: So does London. 
+
+Winkler: Does it?
+
+Interviewer: Yeah, it has two. It has like a normal one and then it has WP Hooked which is just for developers.
+
+Winkler: I think the Philly meetup, I don’t know if they do this anymore. I have been to the one in Philly for awhile, because A) it’s in Philly and B) we have the suburban one. But they used to like separate it into like two rooms with different tracks, but I don’t know that they do that anymore. Yeah, set the meetup up in Philadelphia and Scott MacNulty used to write for the The Ultimate Apple Weblog, he was running the blogger meetup. Like not Google Blogger, but general bloggers. We sort of like ran the two of them together like one into the other. We’d start up with WordPress and then the bloggers would show up. And I think there were some like… some meetups that had like 40 people. Which doesn’t sound like a whole lot, but this like before these types of things really started. This is before they had any of the organized WordPress stuff on the WordPress site for meeting up places. And I think there was one meetup outside of Philadelphia, it was in Texas, that Matt threw together impromptu, and so for the term of two years or so, we were the largest WordPress meetup that met regularly anywhere. Which is kind of weird because, well, for at the time, WordPress was not the big phenomena that it is. [87:00] And to have enough people know about WordPress to care to come to these things is kind of interesting.
+
+Interviewer: So you kept up going after Habari and after you kind of stopped being involved with the community?
+
+Winkler: Well, there was a point where… it’s like a lot of these things happen, summer comes around and no one wants to go to a meetup. They want go to go do barbecues and stuff, so I was arranging these things and driving through the snow to get to someplace and like two people show up and then in the summer comes around, I show up and there’s no one there. So I’m like, if you guys don’t want to do this anymore, that’s fine, we’ll just stop. And I let it go. And then, you know… Brad shows up, and Doug. And they set the whole thing… like their very first meetup, there’s like a hundred some people. It’s bizarre. I was at the first one, that was fun. And still… And so, like, ending the WordPress meetup, didn’t have anything to do with Habari, it was just, you know, it had it’s cycle. And then of course, didn’t really make time to go to the Philadelphia meetup just because… the Habari stuff. I don’t want to drive all the way into Philly for something I’m not really dedicated to anymore. But… Liam Dempsey does the local one, the suburban Philadelphia meetup, so I go there. It’s a fledgling meetup. It’s a year old now. But all the people who come generally are, they’re not super new, but new enough that they ask questions. And one of the things… this is totally my character, but I like to help people. When you have a whole room full of people that have questions, and you can answer them, that’s like a weird, sort of attractive thing to me for some reason.
+
+Interviewer: So you like support forums.
+
+Winkler: No, I don’t like support forums at all.
+
+Interviewer: Oh, okay.
+
+Winkler: But I like helping people in person, though. That’s kind of nice. 
+
+Interviewer: I don’t go in the support forums. And I was out with some of the support guys today, and I was like I really should have a go at that. But it hasn’t been my thing. Do you go to the WordCamp?
+
+Winkler: I went to the first two Philly WordCamps, and I think I missed the third one because it was like a birthday of somebody and I had to go to a party or something. They’re moving this year’s to next year, to like early next year. Because in Philly in the fall when they usually have it, is like camp central…
+
+Interviewer: Yeah it is, like really busy.
+
+Winkler: And like Philly’s BarCamp [90:00] is something. And it’s right around that time. So hopefully, I’ll be able to make it to this next one. I’ve presented at a couple of them. I did a couple of like WordPress Community: What’s It All About and how to … which is super funny, because like how involved was I in that community at the time I did that. Well, I was trying to say that, you know, you can make the community be what you want. So I gave that presentation and Andrew Nacin is sitting in the back with, what’s her name, community manager person…
+
+Interviewer: Jen? Jane Wells?
+
+Winkler: Jane. Yeah. The two of them were sitting in the back, and like not quite heckling, you know..
+
+Interviewer: Yup.
+
+Winkler: See… this kind of gets me. Because I think as an open source developer, you have to have just enough humility. And that just completely rubbed me the wrong way. And if that’s the state that WordPress development is in now, if those are the people that are involved in that, then I’m glad that I don’t have a whole lot to do with it. But, you know…
+
+Interviewer: It’s a shame.
+
+Winkler: Yeah.
+
+Interviewer: Is it on video anywhere? Or is that prior to people videoing WordCamps?
+
+Winkler: I don’t think that one was on video, the other one is.
+
+Interviewer: I should find it.
+
+Winkler: How-to… Everything You Need to Know About Your Business, WordPress For Your Business which was another interesting WordCamp presentation that has nothing to do with WordPress. I was like… one of the things I said was you… you come to WordCamp and every talk today is going to be about WordPress, except for this one. Because what people fail to tell you about like, if you’re a business owners, you need to know about domain registration, you need to know like what’s it going to cost to hire somebody to do this. So I was trying to answer some of those type of questions, because everyone wants to focus on “oh, WordPress is so great. You can manage it easily yourself.” There’s like a bazillion books, you know you can go to a meetup and learn this stuff. What’s the stuff that people aren’t telling you. So I put that presentation together. The other thing that is important, and this one is online, and you should look at this one, is IgnitePhilly9. You know Ignite?
+
+Interviewer: Yeah, isn’t it a startup sort of thing?
+
+Winkler: It’s a TED spinoff thing. There are lightning talks with the slides that automatically advance and you get five minutes.
+
+Interviewer: Yeah, yeah. You get 20 seconds per slide or something.
+
+Winkler: [93:00] A good Philly friend of mine, Yasmin Moustafa, I don’t think I’ve ever said her name out loud, that weird. She was running Girl Develop It, this is going… my brain is so flighty… I had like nine hours of sleep in the past three days… just running around Berlin in the middle of the night… she’s doing these really great things with like teaching girls how to do code so that when they grow up they can be coders. Not just that, like teaching women how to write code and like get into WordPress and get into stuff like that, and it’s in an environment where, typically, it’s like guys club type of thing. It’s a really great idea and she did it really well. And Girl Develop It in Philly is fantastic. And I taught a Git class there once. But you know, we have this good rapport, and she was telling me she was going to present at IgnitePhilly, and… for me, it’s interesting… like, this event is unlike any of the other Ignites that are around. They sort of fill concert hall and it’s very formal. IgnitePhilly happens in like an old punk club and they can put like maybe 200 people in there, and they sell out every time, and they charge twenty dollars a ticket, so people are paying to get into this thing. So it’s like… it’s not the typical meetup, BarCamp type of thing where you can go and talk for free, and people hear you for free. Like people were actually paying to hear these people’s talk. And some of the stuff that these guys do is so inspiring. I mean, Girl Develop It is one example, but there’s like so many neat things that are going on and inspiring things. And I told Yasmin, you know, I’ve got a pretty good story about Habari and like open source and stuff like that, that, you know, maybe would be good for this type of thing. So I wrote it all out and I sent it to her, and she like forwarded it to a bunch of people and eventually it got to my friend Jeff Demassey, who runs the thing, he runs the event, and… I don’t know why I didn’t just send it to him in the first place, but I think I like needed a proxy, I needed someone to recommend me. And he’s like, oh we definitely want to have you tell this story. So this is, it’s on IgnitePhilly9, it should have my name on it, but the story’s basically about how… I don’t want to ruin it. I don’t want to ruin it because it’s good. But it’s why I work with open source, what it’s all about for me. What the impact, the tangible impact can be in working with open source. You should look at that one.
+
+Interviewer: I will look that up. I’ve just been writing the chapter [96:00] about the GPL and open source and what it means, so I’ll definitely look that up.
+
+Winkler: It’s a good one.
+
+Interviewer: Yeah, okay. Is there anything else you’d like to add about Habari?
+
+Winkler: No, let’s get food!
+

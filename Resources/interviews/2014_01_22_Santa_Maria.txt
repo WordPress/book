@@ -1,0 +1,247 @@
+Interviewer: I’m speaking to Jason Santa Maria and it is Wednesday, the 22nd of January. So, just to get started, can you tell me a bit about your background?
+
+Santa Maria: Sure. So my background is one of graphic design. And, at least from when I first got out of college it was about print design, so I got mostly a traditional graphic design training when I was in school and only just started to get my hands on some of the web design side of things as I was graduating, so this was in 2000.
+
+After I got out of school, I got a job at an agency that was doing a lot of print and web design work, which is sort of rare now —places don’t do that as much — so I got to learn a lot of web design on the job and still exercise my graphic design side through a lot of print work as well. I just bounced around at a bunch of different agencies and really got heavily into web design work and sort of switched more primarily over to that a couple of years after that, and later then I started working with Jeffrey Zeldman at Happy Cog and just kind of continued to do that. The rest is sort of history, working at Happy Cog and then on my own stuff and then later to more in-house design teams like TypeKit and Adobe and now some other startups.
+
+Interviewer: So were you at Happy Cog when you designed the logo for WordPress?
+
+Santa Maria: No, I was not. I knew Jeffrey at the time because we had worked on some stuff — actually, you know, now that I think of it, I think I was at Happy Cog but I wasn’t full time, I think that’s what…so I was doing some of my own client work on the side, and I had met Matt Mullenweg at SXSW and at other conferences, so we were friendly, and he approached me to do some explorations around redesigning the logo.
+
+So I guess I was on my own at that time.
+
+Interviewer: Do you remember what the brief was that he gave you, or any of the discussions that you had about it?
+
+Santa Maria: I don’t think that it was a very formal process at all. I think it was — you know, we jumped on the phone and I think we just talked through a lot of what Matt thought WordPress was about and obviously Matt’s always had such a good understanding of what WordPress represents and what it means to not only him but to the community so he was very articulate in describing the self-publishing and the [3:00] personalized nature of that.
+
+I think there wasn’t really any discussion of what we wanted the logo to be, at that point. Just sort of lots of abstract ideas. But the things that kept coming up were not only the idea of publishing but sort of the idea of having like a personal journal and a personal thing that might have some sort of tactile overtones and we were making links to things like letterpress and journaling and any sort of older representations of what it meant to publish something in a physical form, and I think that’s sort of where we left it.
+
+I know Matt really liked the typeface that he was using at the time, which I believe was Centaur, if I recall, so there was the possibility of either using that or not straying to far from it.
+
+Interviewer: Did you like the typeface?
+
+Santa Maria: Did I like Centaur? I did, but not for a logo. It’s definitely more of a book typeface. Although saying that now I realize that I ended up choosing another book typeface anyway for the logo, so what do I know.
+
+It’s interesting too, because I — as I’ve gotten older I’ve really tried to avoid designing logos whenever I can because I find the process to be very stressful for me, because I don’t feel as though I’m terribly adept at it. It’s a very particular skill set and a very particular kind of mind that can really understand what a logo needs to be and it’s very much one of those things that sometimes you just nail it and it makes total sense or you just spin your wheels for ages, never feeling like you get there. 
+
+Even the WordPress logo, looking at it now I feel like it’s successful, because it’s been around for a while and it’s been slightly redrawn and cleaned up and it’s definitely the best version of what that thing is now. But even looking back on it I realize that I think I was more ambitious about my shortcomings with the logo design back then, so I figured maybe I’ll just get it if I keep trying and trying and trying, and it’s a good logo in that it’s had some lasting staying power, but I was unsure. [6:00]
+
+Interviewer: Were you unsure when you finished it, if it was that great? Or were you happy with it?
+
+Santa Maria: No I think I was happy with it, I was happy with it because it felt okay and Matt was happy and if I remember, I think that it actually — I’m trying to remember what the response was — I don’t remember there being that bad of a response, maybe if there was I pushed it to the back of my head now, but I don’t think anyone really minded it either, I think it was a pretty soft sell. 
+
+Interviewer: Yeah, I mean it wasn’t a huge change or — I mean, if there was the stamp with the W thing.
+
+Santa Maria: Right, which is actually a very big thing if you think about it. One of the things that I really wanted to try and push was the idea of having a mark rather than just something typeset, that way it could live on in many different instances. It could be on a t-shirt, it could be a very small icon on a webpage, it could stand on its own over time and not even need the wordmark as well, and coming to represent something bigger, which is tough. It takes a very long time for that to happen, and I feel like that’s definitely happened now.
+
+Interviewer: Yeah, you see it everywhere now. Especially if you look at WordCamps.
+
+Santa Maria: Exactly. And if you think what it takes for a logo to be able to stand on its own that way, it’s not so much the structure of the logo — that’s part of it — but what it really just takes is time for people to absorb it, for it to become part of the visual lexicon around something. And that’s just an investment of time.
+
+Interviewer: So were you aware of any of the other — there were other logo designs coming in from the community. Were you aware of any of them, or were you just sort of working on it separate to the open source community?
+
+Santa Maria: Definitely separate. I remember seeing a few of them and them sort of being well-intentioned but not as privy to some of the stuff that Matt and I had been talking about, obviously. So we were trying to come up with more of a set of guidelines, what the logo needed to do in order to be successful, not just to represent and give a face to WordPress but it actually had to work. It had to do a lot of other stuff in and around the app and the website and offline as well, so if you were just to sit down without knowing any of that you might typeset something in a typeface that you like and it might be attractive but it’s not ultimately going to be successful.
+
+Interviewer: Did you get the sense, talking to Matt at that point, that he felt this was something that was going to be around for a long time?
+
+Santa Maria: I don’t know. I don’t think either of us knew. That’s always the goal, but I think  [9:00] — actually, it’s more of a byproduct of making something that might be good, is that it’ll probably stay around for a little while. But I don’t know. You kind of just have to put it out there and hope for the best, because there are many fantastic logos that get redesigned a year later just because they don’t work in the way that they needed to.
+
+Interviewer: So were you his introduction to Happy Cog?
+
+Santa Maria: No, no. Now that I’m talking through it I realize that Jeffrey and I, I believe, started working together in 2004 and 2005, somewhere in there, and the WordPress logo was in 2005, but I believe that — yeah, Jeffrey and I had done a project or two together before that, so I was working on it while I had started working with Jeffrey, but I was sort of splitting my time between Happy Cog and my own freelance work.
+
+Interviewer: And had you worked with an open source project before?
+
+Santa Maria: No. No, I had not.
+
+Interviewer: What was your experience of that?
+
+Santa Maria: I think I was scared, because it’s the ultimate notion of having too many cooks in the kitchen. The kitchen is completely packed with bodies. Everyone has an opinion and everyone will be weighing in, and that’s sort of the blessing and the curse.
+
+It’s amazing because that just means that there are so many people out there that care about this thing. They want it to be the best version of what it can be. But it’s also tough to successfully communicate what it is that you need to do, and what it is that the work you’re doing needs to do to all those people as well.
+
+Interviewer: Had you worked on a sort of similar application before?
+
+Santa Maria: Just internal things. Some of the agencies that I worked in I were making internal tools for project management and tracking and things like that, so I had a little bit of interface experience in that way, as opposed to the more promotional and informational side of things of just typical websites. So this was definitely the more — the most large — the largest of these kind of projects that I had worked on.
+
+Interviewer: Were you aware of the redesign that had gone on beforehand that hadn’t really worked out? The Shuttle project? You discussed it briefly on the internal — on your Basecamp.
+
+Santa Maria: I think I remember hearing about it, but I don’t actually recall very much beyond that.
+
+Interviewer: I guess what I’m interested in, so that was more — well they were kind of closed, [12:00] they had this mailing list, where they would throw ideas around, but it was this, as you were saying, case of too many cooks, and then there’s this move to Happy Cog, so it was an in-house design at an agency as opposed to open source which was quite different.
+
+Santa Maria: Yeah, and I remember Matt being worried about that too, because he thought that it might be perceived as not listening to the community without bringing in a third party, because everything up until then had been done by sort of consensus and lots of people. So this was definitely a different approach, and I know that he was a bit concerned — we were all concerned — that it was going to be — the pitchforks and torches were going to come out and this was not going to be a very popular decision. Even just to work with us, not even getting to the point of making something.
+
+Interviewer: I haven’t found very much stuff on mailing lists about it being discussed that you were going to be hired to do it, so were you guys sort of protected from all of that, or did you follow the mailing lists, or did you just get on with it in-house?
+
+Santa Maria: Yeah, we mostly got on with it, and I think Matt sort of protected us from a lot of that stuff too. And also at the time, I think that Jeffrey probably protected me from anything like that as well. I was definitely younger then and Jeffrey was in charge of everything, so he wanted to make sure I could do the work that we needed to get done.
+
+Interviewer: Okay. Can you talk me through your part in the process of the redesign?
+
+Santa Maria: So my part was mostly to come up with the design work and to be a part of the meetings and the brainstorming and all of that too, and the presentations. Back then, we were doing a fairly typical of the time setup where we would do three different designs and we would present those and talk through what was good or what the designs were seeking to do.
+
+Generally, the client — Matt — would pick one, and we would kind of move forward and keep iterating on that for a couple of more rounds of design and build out lots more pages beyond that too. So all of my designs were Photoshop comps and they were presented as pings on a private intranet. I actually have them in front of me right now, I’m looking at them.
+
+Interviewer: Would I be able to get a copy of those?
+
+Santa Maria: Sure, sure.
+
+Interviewer: That would be great. I would just love to see what the three options were and how the design evolved. [15:00]
+
+What were you seeking to do with the design?
+
+Santa Maria: If I recall a couple of the things that were happening around the time — it was much for of a move towards making the dashboard the very first page that you come into much more useful. There was lots of stats were happening now, and kind of serving as a more useful place where you could go in and actually act on something.
+
+One of the things that we were really focused on with all the designs was kind of a process-oriented approach, so really pushing to the forefront the idea of how many things you have published, what you might have scheduled, were there new comments, and things that you can see that are active right now. It sounds I’m sure very obvious now but really surfacing how many comments are awaiting moderation and anything that needs your attention or anything that might be new, as well as — we were trying to see if there was a way to collect all of the different sites and WordPress things that you were doing in one place.
+
+There were a lot more people using multiple WordPress installs or were a part of multiple sites that were running WordPress, so we were kind of trying to provide a global navigation across all of those instances. 
+
+What else… and also the biggest undertaking was redesigning the writing — the post page.  Just kind of simplifying things a lot. Making the media a lot easier to add, whether it be images or video or audio, and trying to find ways to make it a little bit more flexible to the kind of posting that someone wanted to do. So if they weren’t using particular fields, maybe they could collapse them and tuck them out of the way, and just making it a little bit more flexible.
+
+Also, I think — I cannot recall what the buttons used to be, but I’m looking at the little post — like the save and publish area — I remember that we changed those buttons.
+
+Interviewer: Yeah, I’m looking at the old one. 2.0, just a couple of versions before. The save and continue editing and the publish and everything they were under the posts field.
+
+Santa Maria: That’s right. Right. And we also, I think, simplified it to be Preview, Save, and Publish, and we got rid of the Continue Editing because we felt like it was a confusing [18:00] thing to have.
+
+Interviewer: Yeah, it’s quite a bit of change.
+
+Santa Maria: Yeah, it was actually. It seems so silly to change a button or to remove a button but whether or not it was right from the beginning, people learned to use it that way. So once you start changing anything that someone’s learning how to use, it seems like the wrong decision to them.
+
+Interviewer: Do you remember what your first impressions were of the WordPress interface when you saw, before you redesigned it?
+
+Santa Maria: It felt — to me, it was very functional. It was definitely function over form. It wasn’t necessarily the most optimized interface for flow and for process but it felt like it had a lot of potential. It just needed more iteration, I think.
+
+Interviewer: And were you pleased with the final results?
+
+Santa Maria: I was. I think that it was interesting to me because the interface that we went with — so there were, like I said, three different ones — and the one Matt ended up choosing was my favorite from the beginning too, and it was one that was very spare. In the original design it was actually even more sparse than the final. And I think I liked that because, if I recall, the interface at the time was a lot heavier. There was a lot more density to the blues and everything just felt a lot heavier visually.
+
+It was interesting to me to take that out and lighten it up. Before you even use it and it gave it the feeling of being faster and a little bit lighter — somehow less heavy lifting to do. I think that ultimately, if I recall, it ended up being too much of a departure for a lot of people, or at least too big of a difference — and that’s not to say that our design was successful or unsuccessful, just that I think that it needed probably a couple more passes in order to really sink it.
+
+The way that it all ended up, I’m actually very happy because we took it to a certain point and then it went back to the community and back to the internal teams at WordPress to keep refining. And I mean they — no matter how much we could get immersed in the world of WordPress, we’re still outside contractors and we could never know them as well as the people at WordPress do. So I think that it [21:00] played out at the end was probably the best possible scenario.
+
+Interviewer: One of the things that I read on the Basecamp was that the job was set up so that you would provide the comps and then it would be passed over to the WordPress developers for coding and that was quite unusual, that normally you guys would do all of that.
+
+Santa Maria: Yes.
+
+Interviewer: How did you manage that process and did your design actually change within the coding?
+
+Santa Maria: I think we just managed the process of having a really good amount of communication, not only for handing off of things and checking in and seeing things as they progressed. Normally, at the time, we would usually code this stuff because there wasn’t anyone else to code it. When we would work with a client, there was no one else that could — that either knew web standards to the level that we wanted them to to make it a useful project, or that they could code faster or better than us anyway.
+
+But that wasn’t the case with WordPress. These were our people. They were already part of our tribe, so there were people there that could easily code as well as we could. And we trusted them. It was different for us, but we knew that it was probably going to be just fine. And I don’t remember the design changing very drastically at all. I’m sure that there were some small concessions here and there, but I don’t think that anything huge was changed.
+
+Interviewer: Were you aware of the feedback that came from the community and WordPress users?
+
+Santa Maria: I was, certainly after the initial reveal of what the design was. And I remember there were a lot of people that really liked it, and there were probably just as many people that didn’t like it.
+
+I tried not to harp too much on it. We did I think a good job and definitely the best job that we could do in the time that we had, but the thing that stinks about client work is that usually that’s all that you get to do. You don’t get to come back, you don’t get to try and fix things, or respond to a lot more of that feedback, because you’re only brought in for a certain amount of time for a certain duration.
+
+Interviewer: There was quite a big change then in the next version of WordPress, to 2.7, which was the one that Jen worked on with Liz. That was even more of a departure from the version that you had designed, so I was wondering how it felt when you saw this completely different animal coming out? [24:00]
+
+Santa Maria: I was sort of sad because I think I would have liked to have seen some of the things that we had done developed more, rather than taking another big departure. Yeah, I think I would have liked to have seen just more exploration on where we headed, but I think that that was probably a response to what the community wanted.
+
+Interviewer: And what are the things that you thought really worked and that you wished had been worked on more?
+
+Santa Maria: I think some of the stuff — mostly up top, some of my favorite things were the different variations of the masthead in the different versions of the designs that we did. I just felt like I did a very good job of simplifying and playing out some really good hierarchies up at the top, and also I was very — like I was saying before — I was very interested in the idea of switching between different blogs. But I think ultimately that might not have been as big of a deal as I thought it might be.
+
+Interviewer: Yeah, I guess that’s the challenge of being an external contractor. It’s not just one client, it’s a whole community you’ve got to deal with.
+
+Santa Maria: Absolutely.
+
+Interviewer: So Liz worked on the next version. That wasn’t a part of Happy Cog anymore? Was that off her own bat?
+
+Santa Maria: I don’t recall. I think that there might have been some additional work through Happy Cog — well, I mean Liz did do some of the early work for us. So I think that she was a part of our project, but I think maybe went on to do some consulting of her own with Matt and WordPress after that to further refine things. And Liz and I are good friends. I remember her asking me questions even during that process, about what I thought of things, some of the work that she had been doing.
+
+Interviewer: There were quite different results between the testing that you guys did and the testing that they did for the subsequent version. Is that just normal in user testing, because it was completely different results?
+
+Santa Maria: I don’t know, but definitely depending on what the test is going to be, you can certainly end up with different results.
+
+Interviewer: One of the things that I was interested in were the long discussions over the use of nouns [27:00] or verbs, and Liz suggested to begin with that you go with nouns and everyone got really excited about nouns. Then just off someone’s comment, then you decided to have a mix of verbs and nouns. But then the next version of WordPress it was all nouns and posts and media links, and I was digging through the Basecamp and I was thinking, “Go with the nouns! Go with the nouns!” Even though I knew that you hadn’t. Yeah, it’s been interesting to follow it. Have you worked with any other open source projects since?
+
+Santa Maria: I don’t think so. I’m blanking. If I have, I’m not thinking of it.
+
+Interviewer: Can you tell me how it differs to working with a normal client?
+
+Santa Maria: Well, the biggest is that you’re dealing with a community. Any other client will have customers and their own community, but you really have to just manage the people inside of a company, whereas when you’re dealing with an open source project, you deal with the people that you’re talking with, but there’s kind of this whole gamut of other people that you will only ever get to talk to a small portion of. I think that that’s really difficult.
+
+Plus, I think that on an open source project like this, it’s inherently different, not just because it’s more of a CMS than an informational website — the design needs are different — but it’s just a different kind of way to work, knowing that whatever you do probably isn’t going to stick around for very long. It’s going to continue to evolve and continue to be adapted. Usually, in the very near-term as well, not even 3-4 months from now, but next week.
+
+Interviewer: But that wasn’t the case of the logo, which stuck around.
+
+Santa Maria: No, and I’m very happy about that. It did end up getting redrawn — or not entirely redrawn, but just sort of tightened up, and again that’s entirely because I’m just an okay logo designer, so the changes were great when I saw them I was like, “Oh yeah, that makes much more sense.”
+
+Interviewer: Do you think that design by consensus and committee can ever work?
+
+Santa Maria: Maybe. It’s tough, because you can’t necessarily pin all of the design by [30:00] committee situations as the same. A lot of people might think that they’re doing a design by committee because they’re just dealing with a large number of people, but there’s still probably someone in charge.
+
+On the whole, if you’re dealing with many many people, and you’re weighing all of their opinions and their thoughts the same, and you’re letting them impact the project in the same way, I don’t really see how it’s possible to come up with something really worthwhile in that interaction. There are ways that you can cull everyone’s opinions and thoughts from a large group and still distill something down into something that’s useful, but if everyone sees their thoughts as being the most important and they all want them incorporated, I don’t think that you’re going to necessarily succeed by anyone’s metrics.
+
+Interviewer: Do you think you would do it again?
+
+Santa Maria: Yeah, I absolutely would. As soon as we were done I wanted to do it again because I can already see ways that I wanted to change it and improve things again. And that’s kind of the beauty of WordPress. It’s a project that has a constant life. it’s very much a living project, so it’s always changing, always evolving, and hopefully always getting better. I’m glad that I got to be a small part of that, and even if some of the things that we did aren’t really present in the app anymore, at least in a big way we helped push it in a different direction.
+
+And some of the things are still there. Some of the colors and some of the little bits I can still see in the interface. Little traces.
+
+Interviewer: There definitely is. It’s funny because I’m just looking at all of the different version of WordPress and you can see things that have been dropped in by different people and they’re still there.
+
+Santa Maria: Also I think our design was the very first to introduce a different color, I believe. Because I remember really hanging on tight to this orange and I think everything up until then was mostly blue.
+
+Interviewer: Why did you want the orange?
+
+Santa Maria: Oh, I just wanted something really punchy to offset everything else, so that when you needed a color it was going to be distinct. 
+
+Interviewer: Yeah, I like it, I like the orange and the blue. I really like the color palette. Was something that Matt had suggested or did he just give you an idea of it’s got to be blue or…
+
+Santa Maria: I think blue was definitely in the cards from the beginning, but even in the one that I had mentioned, the larger departure, the really white —
+
+Interviewer: Hello? [33:00]
+
+[brief silence]
+
+Santa Maria: Hello!
+
+Interviewer: I lost you.
+
+Santa Maria: Okay.
+
+Interviewer: I don’t know if that was my connection or your connection.
+
+Santa Maria: Definitely me I think.
+
+Interviewer: Okay, my connection can be a bit dodgy out here. You were talking about the whites and there was a version that was a completely different departure?
+
+Santa Maria: Yeah, the one that was white, just getting rid of as much of the blue as possible, the comp was predominantly white, and just these little bits of orange would really pop off the page and they were sort of action colors. 
+
+Interviewer: Yeah, I like them. Okay, well I think you’ve answered all my questions. If you could send me through any designs that you’ve got that would be great, and if I could use any of them actually in the book that would be also great — but that’s totally up to you.
+
+Santa Maria: I think that’s totally fine. I don’t know if…I should see what some of this will be. Yeah. I can send you some of the logo stuff too.
+
+Oh gosh! I don’t want to show you these.
+
+Interviewer: I have some of them already.
+
+Santa Maria: No, I just remembered that when I did the logo I also said, “Hey, you should let me redesign the CMS sometime!” And I threw Matt two really poorly conceived comps.
+
+Interviewer: I would love to see them.
+
+Santa Maria: They’ve never, ever seen the light of day. Oh, they’re bad. Yeah, we might just never look at those again.
+
+Interviewer: Okay.
+
+Santa Maria: Yeah, I’ll send you some stuff. I have a presentation folder of all the things that we showed Matt, and I think — it’s just HTML pages with jpegs on them, so you can feel free to dig through that.
+
+Interviewer: That sounds great. Okay. Well, thank you for speaking to me. I hope it warms up there.
+
+Santa Maria: Oh, thank you!
+
+Interviewer: At least your kind of out of the cold. 
+
+Santa Maria: Yes, and get some sleep over there.
+
+Interviewer: Yeah, that’s what I’m going to do right now. Okay, take care Jason, thanks!
+
+Santa Maria: Okay, take care.
+
+Interviewer: Bye!
+
+[Recording ends at 35:48]

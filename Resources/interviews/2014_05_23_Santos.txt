@@ -1,0 +1,171 @@
+Interviewer:	[00:00:00] I'm speaking to Jacob Santos and it's the 23rd of May. Hi, there. Can we start out first, can you tell me how you got involved with WordPress in the first place?
+
+Santos:	Yes, I got involved because the place I was working at in 2007 wanted to put together a WordPress site and I was tasked with building a plug-in and adding features so while I was doing that I was taking a look at the source code, the documentation, and sort of trying to figure out how go about implementing that task. [00:00:59] So how I got involved I found there were certain things I didn't like about the source code so I sort of got involved by communicating with the community and sort of got some of those tasks or, you know, trying to provide solutions on my own time after work to sort of help me at my day job.
+
+Interviewer:	So what were the problems that you saw with the software?
+
+Santos:	Well, some of it was...well, two things. 	Documentation was a big one, not the Wiki but just the code. [00:01:57] The Wiki itself was awesome in providing some clue, some idea of where to go but second was, even though WordPress is generally great with providing hooks, some of those didn't exist in the areas I was modifying so simply, you know, either applying patches to provide more hooks or communicating where some hooks could be. But documentation was one of the biggest things, just trying to find out where everything was.
+
+Interviewer:	Had you read any of the earlier discussions about inline documentation on wp-hackers and places like that? [00:02:56] Because there had been some push-back in the past about having things documented.
+
+Santos:	Well, I kind of got into that after I started doing inline documentation. I would run across some of the old discussions and I'm like well, I was lucky in the sense that by the time I came into the community, the community was more accepting of inline documentation but even at that point there was still some push back and gradually as the newer Core commit team was sort of more okay with the idea of inline documentation, this sort of allowed me to continue providing patches as well as lead the discussion towards one where inline documentation was sort of acceptable. [00:04:14] I think eventually [Matt??] became okay with it. I don't know his side of it but sort of I think it was more the idea that even though the Wiki is good but a lot of information on how things to get things done, being able to actually look at the code and sort of get an idea of what different functions do and what's available as well as having the PHP documented tool, actually output the functions, and sort of provide additional resources but really I don't know. [00:05:17] That's just my speculation. 
+
+	What did happen was Peter Westwood and a couple others started to actually commit the patches and they were more accepting of the idea so it gradually went in and the discussion on whether or not documentation should demand just went away at that point.
+
+Interviewer:	So who were you getting push back from?
+
+Santos:	With inline documentation?
+
+Interviewer:	[00:05:58] With inline doc, yeah.
+
+Santos:	Well, [Matt??], as well as a few other people, so what had to be proven was simply...the push back was one of the increase of download so if you have inline documentation that increases the download because it's part of the PHP source and that will increase...there was sort of pride in the fact that a download was so small. [00:06:52] If you could download a single file that's one megabyte, if you start adding inline documentation that one megabyte starts to increase because if you're doing inline documentation correctly then it should match the link of the function at the very least so the sort of push back was you would increase the download. The second push back was essentially fear that the inline documentation would decrease performance. So PHP interpreter would have to go through and basically [pars??] all the comments and then just reject them because they're not code so you basically have white space and that would slow down the execution or the perception that it would slow down execution which is true but not at the same time. [00:08:07] The amount of slow down is minute compared to the actual execution of PHP.
+
+Interviewer:	Did discussions about this happen mostly on wp-hackers or did you have other discussions as well? 
+
+Santos: 	Wp-hackers as well as some of it also on the [OP track??] site.
+
+Interviewer:	And what was your experience of the whole process of spearheading that and trying to get it pushed through?
+
+Santos:	Given that the patches were essentially a white space, once that effort started going through there was no issue. [00:09:12] As long as the patch only had inline documentation changes and no actual code changes any committer could just simply apply the patch and then commit the patch as well as have it part of the [actual base??].
+
+Interviewer:	Had you been involved with other open source projects prior to WordPress?
+
+Santos:	Well, none that were successful. [00:09:58] So WordPress kind of provided a good learning experience given that basically put this project, if I left, it would still continue. So basically whether or not I helped or how much I helped was not that [unintelligible 00:10:22] given that other people, many people were actually helping and applying, putting patches, so it was actually nice to work on a project where there's no stress involved with whether or not if I stopped working on it it would fail because it was already a success by the time I got into it.
+
+Interviewer:	So what did you learn from your experience of being involved with it?
+
+Santos:	[00:10:57] Well, when you work for the people, you have to be kind and I'm not a kind person so basically respect is a big thing and it took a while to learn that. So if you don't respect community then you can't really expect respect back so actually learning that, it's very helpful. So you can't just go into a group of people who already have a sort of leadership and community involved...you know, these are the leaders. These are the major support team and these are the people with [unintelligible 00:12:02]. [00:12:05] If you jump into a group and start creating waves that's not a good thing. So you can't do that. The other thing is that when I went into WordPress I had the assumption based on the PHP community that WordPress wasn't all that great but WordPress has a lot of intelligent, smart, driven people and actually working with those people and seeing their solutions...it's like you would create a patch and then another person would create a better patch and you would learn from that better patch. [00:12:57] So as you gradually like create patches and sort of look at the same patches as well as communicate ideas or read communications of other people talking about ideas, about different aspects you sort of learn about programming, about projects and different ideas of how to create a solution and that's awesome because it sort of gets rid of this perception and coming into a project, if you read like back then WordPress was not that great. 
+
+	[00:13:59] Many would argue that it's not great now but, I mean, it's just something...what I learned was how the way WordPress does things is good in the sense that it's simple and easy to learn whereas other projects, if you work on those projects or try to create a solution, certainly they're better written, that's sort of hard to quantify but they're more difficult to work with whereas WordPress, if you create an event, it's simple. Once you know a concept, it's very simple to work with and creating a plug-in and creating a theme and the way those are handled are better than other so-called better written products. [00:15:08] So sort of learning that and sort of changing the mindset of what creates the product. WordPress is a good product in the sense that even back then it's solutions. The model  [Matt??] has is correct.
+
+Interviewer:	Can you tell me a bit more the perception of the PHP community?
+
+Santos:	Well, not based on what I've read back then, I mean sort of anecdotal so well, I mean it's the entire thing. [00:16:05] Anyway, so the perception was that it was not objects. It didn't use that many objects back then. Currently it uses more objects but the perception was that if you're creating a professional product you want to use objects. So the perception with the object oriented programming crowd was that, you know, the way the WordPress does objects is incorrect. That's debatable. [00:17:00] The other thing was that it lacked comments so even though it includes a ton of documentation on a Wiki site we're talking with programmers. If there's not a whole lot of inline documentation then that sort of establishes a quality because a Wiki might not be updated but inline documentation should be or most likely would be if it had changed in main function or something like that is taken away.
+
+Interviewer:	Do you think your changes to inline documentation helped with that?
+
+Santos:	I don't know. 
+
+Interviewer:	I guess that's hard to quantify.
+
+Santos:	Yeah. [00:17:54] Really, my goal with that was that I was trying to see if you establish a baseline whether or not someone would come in and continue so if all that happened was a person or some people wrote all of the documentation and then once they stopped it just kind of lapsed then that would be a failure but that's not the case with the people that came in after I left. I can't say whether or not the work that I did...okay, how can I say this? [00:18:58] I think that even if I didn't do what I did I think there still would be inline documentation now. So whether or not someone would have come along and made it their priority, it was a priority by the people who became leads after I left. So with them the continuation was just a no brainer. Certainly it helped to have a few people take the lead and sort of create, move the [unintelligible 00:19:49] of inline documentation to a point where there's a standard and much of the code is documented.
+
+Interviewer:	[00:20:04] Can you tell me, if you can recall, what your first impression of the community was whenever you first got involved?
+
+Santos:	My first impression was that these are really intelligent people and I'm not as smart as what I thought I was. [00:20:58] I'm trying to think of how to say...so I kind of wish that they were more committers to the community back then. The impression was that, you know, there's a whole lot of patches but they're stale and perhaps if there were more committers, those patches could be tested, could have been part of the core but now looking back, the problem with hindsight is the bias, so I know thinking now that I didn't know back then. What I've said, if you asked me the question back then, would be a whole lot different than now. [00:22:00] So back then the response would be an immature response. Now it's just basically I realize that for each patch it needs to be tested. The argument is basically, well, even though there's a patch does it actually solve the problem? Is it the correct solution and if you have to create that discussion then that takes time away from other priorities. So certainly back then I was looking at the situation and sort of remarking that well, why aren't these patches getting through quicker but in a more impolite type way.
+
+Interviewer:	[00:23:04] A lot of people seem to have that criticism of the development process, that there were not enough people committing to code. That seems to be a common thing that people say. Why do you think that was? Why do you think there wasn't enough committers?  
+
+Santos:	Inline documentation was the second thing of that I did. The first thing was to attempt to get an automated testing suite established so that these patches could possibly get through a lot quicker. So if you write tests and can prove that the patch doesn't break anything and actually works and it's not going to provide a support issue then the discussion becomes simply is this the correct patch or how to improve on that patch? [00:24:08] Besides the actual priority of the actual projects going forward. That's separate from that. So what I found was that that's not simple. Given that the architecture of WordPress...oh, and another criticism was that technically WordPress isn't a true MBC system. So basically when you run WordPress there's not really a good way to actually isolate parts of WordPress from other parts of WordPress to actually test individual parts of WordPress. [00:25:10] So writing a test is difficult and actually starting up and setting up and prevent [the state??] from interfering with other tests is difficult. The way the WordPress core group solved that is, I think, sort of the best way, there were two...there's my project and there was another project that sort of attempted to actually solve or create a solution that could be built upon. 
+
+	[00:26:16] The problem is that I think we...at first to try sort of isolate and mock some of the code so that basically you could run certain functionalities in sort of pseudo isolation which didn't work well. The wordpress.org solution was simply to create a bootstrap that loaded WordPress, created a data base and then run all the tests in sort of functional or a duration way. [00:27:17] The reason why I didn't continue doing this was that would take one person a long, long time. So I was looking at possibly three, four years if I did it myself versus six months to a year for inline documentation. I knew both were important but I figured inline documentation possibly was easier and then after that sort of help the people that were doing the test read. I never actually did go back to writing test efforts. [00:28:15] I finished with the inline documentation. I sort of left the group.
+
+Interviewer:	So why did you leave?
+
+Santos:	The problem as I perceived it then was that the amount of time to get patches into core and I sort of couldn't...so the biggest thing was that it's not about an individual person so there's like 100 plus people working on WordPress so to ask five, six people to focus on one person is unwise. [00:29:20] I knew this even back then but, I mean, until you look both at patches being submitted and go nowhere so the perception was, well, if I don't push then the work that I put into this would go nowhere irrespective of whether or not that patch was important. I think if I took better advice and actually worked on higher priority stuff so most of the stuff I worked on was lower priority which sort of didn't help. [00:30:15] The core team doesn't want to focus on low priority stuff. They made it low priority for a reason but most of the stuff I cared about, most of the stuff I could actually work on were, unfortunately, of low priority. So it got to the point where I didn't want to fight the system or did I know enough or have the drive to actually work on some of the more higher priority stuff. So I sort of left at that point.
+
+Interviewer:	Did you leave like a good feeling or were you kind of annoyed about it or...?
+
+Santos:	[00:31:16] I was very, very annoyed.
+
+Interviewer:	Okay.
+
+Santos:	So if you read some of the wp-hackers, if it's still like this, I think possibly I would be very, very ashamed. I think I went crazy a couple times.
+
+Interviewer:	I haven't found you going crazy yet so I'll look [tonight??]?
+
+Santos:	Yeah, I think at one point I wrote an email that I regret immensely, yeah. If I can go back and delete that email I definitely would because it was just all not good. Basically when Andrew talks about poisonous people, unfortunately, I was one of those people. [00:32:22] So it was actually good that I left so that better people could come in and sort of take off where I left and do a better job at it as a whole, being nice to people.
+
+Interviewer:	In what way do you think you're a poisonous person?
+
+Santos:	If you could find that email that would pretty much tell you why?
+
+Interviewer:	Do you know what the email was about?
+
+Santos:	Yes, I do. I remember the contents of that email so I think I went off on a patch that...it wasn't even the patch, it was a comment that [Nikolai??], I think his name is, made about performance. [00:33:26] It was about performance. It turns out I was wrong so there's that as well as the sort of...yeah, it was unkind. 
+
+Interviewer:	I'll find it. What I'm wondering, what do you think it is about open source projects that drew the art in you or draws that out in people more generally?
+
+Santos:	I didn't catch that.
+
+Interviewer:	What do you think it is about open source projects that draws that out in people? That side of being a poisonous person?
+
+Santos:	[00:34:09] You know, for me, I wanted to improve the project because, you know, I had to use it at work. I wanted to make my life simpler than it was working with WordPress if I'm going to work with WordPress on my own time making [unintelligible 00:34:39]. The selfishness goes along with it. I care about my stuff and I don't know more sort of, I guess, care about what other people, their motivation, so when you think with that mindset you approach community in such a way that is unwise if you want to continue in that community. [00:35:27] Honestly, if you're going to be a jerk regardless of anything anyone says, you just can't change who you are overnight, and what the biggest problem is quite possibly I have two sides, at least for me. When I first joined the project I was hesitant in my personality. When I'm like that I'm shy. If I'm with you it would be different versus if I knew you and we had some connection which we don't so I'm nicer than what I would be if I actually knew who you were. [00:36:27] Some people aren't hesitant, are not shy, so when you have an internet type communication where you don't meet people you sort of let loose. If you don't see a person as a person, then basically you can be whoever you would be. 
+
+	The way you would communicate with someone who potentially hit back whether physically or figuratively speaking, like hey, don't do that. Online, it's a whole...I mean, you know, different studies. [00:37:26] I cared about the progress and going forward but the priority that I had with the test, that I cared about were not in sync with the priorities that the WordPress community had at that time. I sort of just moved on and I think that was also the best thing given that all the new people that came in afterwards were highly respected, most of them.
+
+Interviewer:	Yeah. Did you ever reflect on this at the time? Like your attitude and emails and things like that?
+
+Santos:	I do. [00:38:23] I learned a lot. So that's like my first experience dealing with people outside of...like personal work, confrontation. Well, not confrontation but interaction so when you interact with someone up close you act differently. When you're at work you act differently than you would on line. So that I did learn a whole lot. I don't think my attitude has changed that much. I kind of feared that if I join WordPress again or join another public source project I would revert back to the attitude even though intellectually I would know that that's a bad thing. 
+
+Interviewer:	[00:39:32] It's interesting to talk to someone who has an awareness of that, who would say I was a poisonous person. I don't think most of us would admit to it. I mean it's sort of refreshing that you've got that hindsight on it. I'm just trying to find the email. This is a performance enhancement question mark? 
+
+Santos:	What year was it? 
+
+Interviewer:	2010.
+
+Santos:	Yes, that's quite possibly the one.
+
+Interviewer:	[unintelligible 00:40:05] like. So have you got involved with any other open source projects since?
+
+Santos:	Not really. [00:40:22] Really after that, what I learned was that I don't know a whole lot so my focus became becoming a better programmer versus joining another project and sort of helping. There were a few projects I wanted to join but I didn't know enough or they already had everything that I could work on so there was no real need for me to actually contribute given that I didn't know what they would want nor could I really apply what I knew to help.
+
+Interviewer:	Do you follow the projects of  [09??] WordPress?
+
+Santos:	[00:41:21] I did for a while but after...yes, sorry, I'm reading the email.
+
+Interviewer:	All right, okay. If you want to say anything about it, that's fine.
+
+Santos:	No, that's...I think it's the one before that.
+
+Interviewer:	The very short one? Where are you?
+
+Santos:	What was the question again?
+
+Interviewer:	I just asked you if you were still...your perception of how the project had changed since you left?
+
+Santos:	Yeah, definitely. [00:42:20] The people that work on it now, some of them were the ones I was working with back when I was in the community so I have a lot of respect for dd32. I have a lot of respect for wtsti which I think is Peter Westworth so those people I have a lot of respect for. So I point them out only because I worked with them in some cases directly but everyone, part of that team, it's great. Now I think there are enough people who kind of respect the things that I respect that if I had joined the community now it would be a whole different sort of situation. [00:43:32] I wouldn't come into it...well, I might have. You know, every once in a while you think you read something about WordPress not being great PHP code which I disagree with because I've worked on it. I've seen behind the curtain so to speak. But, yeah, I mean there's the automated testing, to hopefully get that pushed forward. There's the inline documentation push and effort as well. [00:44:17] So if I were to join it now I don't think there would be much need for me so I don't think I would actually join it other than possibly to write in a test for things that might not have test cases. It's the way I wanted it to be or wished it could be back when I started so I think it's really great.
+
+Interviewer:	Why do you think it took so long to get there?
+
+Santos:	Part of the issue was the priority of the lead has to align with QA, quality assurance, so the people who work for us now believe, I think in my opinion, want quality assurance. [00:45:27] They live, some of them, in wordpress.com so the nice thing about automated tests if you can get people to actually run them and write them is that you write them once and run them all the time and they're able to tell you whether or not something's broken. If you get down to a layer deep enough then they can tell you where and that is the holy grail of programming. So quality assurance is important and when you have a team that not only understands that but actually pushes towards that as much as you can in an open source, you know, you can't really like say hey, write test to people and have them do that for eight hours. [00:46:38] It's not a job for most people working on WordPress but having that effort there and that sort of drive behind the leads and stuff really helps to sort of hey, why don't you clean up the documentation so the function you're changing before we commit it, why don't you write some test cases for the function that you're adding. [00:47:12] If you could do that than more then likely we might be able to push the patch in, not quite mafia style but it sort of helps if you can have test cases have improvement to inline documentation or if you can have inline documentation it's not going to say that it won't get in it'll just be better off if you have those things for...as a quality assurance I wanted to test WordPress, as a user I can simply download the repository that has the test cases, run them openly and if there's a problem for the community now, whether from an add or a bud ticket. 
+
+	[00:48:14] I think that drive versus when I was joining, it might have been [unintelligible 00:48:25]. Well, [Matt??] did hire like a guy to work on the automated press suite back then but, as I said, writing test cases is not a simple...it is somewhat simple but it's not a quick process. It's a long process and when you start from zero and you have to test something that has massive ads. WordPress, it's part of [unintelligible 00:49:05], it's very...Michael with inline documentation was simply and only but WP- includes a directory. [00:49:25] I don't think I even...I may have updated some things in the wp-admin but for the most part I stayed away from that directory. As daunting as WP includes were documenting wp-admin would have been, oh, man...So there's a lot of props to people who are working on wp-admin now. I think after you contacted me I went back and sort of checked on the status of, somewhat on inline documentation to see if that was still going forward and it looks like for the most part it still is.
+
+Interviewer:	[00:50:25] Have you seen the code reference?
+
+Santos:	Sorry.
+
+Interviewer:	There's a new code reference, basically there's a link to.
+
+Santos:	No.
+
+Interviewer:	That pulls all the inline docs into WordPress. So there's been a big push to get that done.
+
+Santos:	Oh, neat.
+
+Interviewer:	Is there anyone...who would you say you learned the most from in WordPress?
+
+Santos:	Possibly I think GD, referred to. Oh, I can't think of his name.
+
+Interviewer:	De Young?
+
+Santos:	Yes, as well as many other people who were part of the project. It's hard to think of all the people that work on the project that commit patches and comment and are part of the discussion on WordPress. [00:51:38] It's hard to say like one person or a few people other than primarily the people that I worked with or saw what they were doing. The people that gave the biggest impression are not just only people that gave an impression on what I think currently. [00:52:22] The way I've learned is from past people, looking at the code, so all the people that worked on WordPress prior to me actually joining and reading the code, I think I learned the most from, especially the simple plug-in API. How well that works, it blew my mind. Before that the concept was you write a class that does one thing well and then your sort of write other classes that interface with that class but the way the plug-in API worked and the way WordPress works as a whole I think sort of provides the antithesis to pure object oriented code. [00:53:33] So helpers could be functions and sometimes the simplest helper to a core solution is a function.
+
+	So one of the solutions HTTP API was to provide functions that sort of abstracted away most of the complexity of the WP HTTP class. That will not exist prior to actually learning from WordPress that functions could be helpful and the best way to provide a helpful function. [00:54:28] So part of that, I would just create classes. There'd be terrible design back then. Objects are not simple but functions can be as long as they are simple. Doing objects right is a lot harder than doing functions right. 
+
+Interviewer:	Okay. Well, I think you've answered all my questions unless there's anything else you want to add to your experience with WordPress.
+
+Santos:	Oh, I don't know.
+
+Interviewer:	That's too much of open question.
+
+Santos:	[00:55:25] Yeah, I mean, I don't know, I kind of wish I can go back and do some things differently. I probably wouldn't.
+
+Interviewer:	Hindsight's great after the fact.
+
+Santos:	Yeah. I mean I am who I am and to be completely honest I didn't want to be part of WordPress so everything I put into WordPress was simply to help me and that's not the best way of joining a project. In some ways I'm kind of happy that if I use WordPress that people working on it, I don't have to work on WordPress. [00:56:28] To me that's the best thing. They're smart, intelligent people who believe in sort of the same things I believe working on it and they're the best people for that and that's the best possible thing. I joined it because I didn't think anyone would do the things that I wanted to be done so I did them but now I'm obsolete which is a great thing. I'm happy about that.
+
+Interviewer:	Okay, excellent. Well, thank you for your time.
+
+Santos:	Thank you.

@@ -1,0 +1,202 @@
+
+Interviewer: So, can you tell me a bit about your background?
+
+Jackson: Yeah, absolutely. I started working on the internet in ’98. A little bit before that, actually. I met Matt when I think he was 13 and I was 12.
+
+Interviewer: Really?
+
+Jackson: And WordPress wasn’t invented yet, and we were both using Movable Type. We had blogs that were in the top 500 blogs, and when you posted you would send out a ping to the weblogs site and your site would show up. That’s kind of how we became friends. We were friends for many years talking about blogging stuff, and then he talked about creating this software called WordPress and I used it at first and I told him I didn’t like a lot of things about it but that I thought it was a really cool idea.
+
+He worked on it, and it became huge. We were still in touch quite a bit. There were a few things that I did with Movable Type and PHP helping to make typography better — so fancy quotes and that type of thing and doing filtering, and that’s one of the things Matt always said when he talked to me was, “Oh, you gave me the idea for filtering things through how you were enhancing typography on your blog with this filtering mechanism.”
+
+Let’s see…I started using WordPress after it matured quite a bit. And then I started my own agency. Fast forward a few years, I was working on some themes and I was really into photography, so I made a theme called Monotone. I made that as an independent contractor for Automattic and then after that is when Matt hired me. I think I was one of the 20, 27th, or maybe 37th in place — I think 27th, there were under 30 people in the company [3:00] — I came on just before hiring started to become more aggressive at Automattic.
+
+I started out doing just about everything — as everybody did there. Whatever needed to be done we worked on. Since I was so into themes, I helped to start the theme team at Automattic WordPress.com. That’s the recap of my WordPress involvement. I’ve contributed to the Core — it’s been a few years now since I’ve contributed to Core, but I worked on the PressThis bookmarklet and other things so I’ve been involved quite a bit. Being so involved in WordPress has actually slowed down my blogging. Working for a blogging company slowed down my blogging.
+
+Interviewer: Yeah, I’m the same.
+
+Jackson: So there’s a little background, I hope that helps clarify some things.
+
+Interviewer: So what year did you join Automattic? Do you remember?
+
+Jackson: 2008? Yeah. That would be about right.
+
+Interviewer: Why were you so into themes?
+
+Jackson: Well, I started out as a designer that really had to learn how to program, so I did both. I developed this software called PhotoStack about 14 years ago now and I was a really big fan of someone called Dean Allan, who ran a blog called Textism. He had an amazing layout for his photographs, and I wanted to create a system that would allow me to display my photos and manage them easily. The first theme for PhotoStack was based upon Dean Allan’s design, and he was cool with me using his design and I really enjoyed both the design and coding aspect. Themes were just a really great combination of front-end and design and development.
+
+With the photo themes, since I was so into photography, there was a lot to work around, especially at that time, with coding, because there was no real media in WordPress when I first started. [6:00] It was kind of messy. There’s some really cool things that you could do and come up with, and one of them was this code library that I helped implement — which is now called Tonesque. They took it out of the Duotone theme that I made which automatically took colors out of the photo that you put into your theme and used them around the photo.
+
+Themes were in a really interesting place — and they still are! I’m working on a bunch of new photo themes actually. A lot of really cool ones. It was just kind of a passion of mine because design and typography was where I came from — it was what I studied in school, and when I was in High School I ran a lithography press, which is kind of an evolution of the design and technology coming together. 
+
+Interviewer: What was the intention behind the theme team? Did it have a mission statement of sorts?
+
+Jackson: At that time, it was becoming apparent that the demand on an employee to be pulled in so many different directions was becoming increasingly greater, so we needed to focus on the themes because that was an integral part of someone having a blog and for WordPress.com to really expand was the need for more themes and also to review the themes over time as people started using them differently, or had some of the features on WordPress.com that made some of the themes break, so there was continuous work.
+
+I was really one of maybe 2 or 3 people, but the main person that went in and fixed things. We just needed a team to accomplish that and help. I really think that the themes helped grow WordPress.com substantially and having a stable arm of the company devoted to that was really helpful — hugely helpful. The first person that we hired — Lance Willett — was amazing and I believe he’s leading the theme team with Ian Stewart, who is also amazing. Working with them for about a year and a half or two years was great. 
+
+Interviewer: When was that set up? Do you remember?
+
+Jackson: It was about a year after I started [9:00] working there. So about 2009.
+
+Interviewer: How was theme development managed before then?
+
+Jackson: It was all over the place!
+
+Interviewer: Why? Or how?
+
+Jackson: Why? Well, Automattic was a small company when it started, and when I got hired was I think when we started running into growing pains. There weren’t any teams when I started, it was just: you do what you’re good at, and you do whatever you can do, and we hired you because you’re one of the best programmers in the world, you’re one of the best at what you do. I still think that’s exactly what Automattic does, they hire the best in the world. And definitely unconventional designers and developers.
+
+It wasn’t necessarily a bad thing for the development to be all over the place in the beginning, but then just some of the triage became an issue. It was a necessary evolution.
+
+Interviewer: So you would have been at Automattic around the time that premium themes started to become a thing in the WordPress community, is that right?
+
+Jackson: Yes. Yes. So, WordPress.com originally launched premium themes before I started working there. But then took them away very quickly because there was a lot of community backlash. I wouldn’t say — maybe those are the wrong words to use, not community backlash — but since there was no premium theme marketplace out there at the time, there wasn’t competition. So WordPress.com being GPL-focused and open source focused, having a premium theme section to a lot of the community just seemed backwards at the time. Until there were other people setting up theme foundries and charging a fee for a theme — until that started, WordPress.com wasn’t able to roll out their premium themes.
+
+Once that whole industry started rolling is when we really were able to start experimenting with that. It wasn’t until a few months before [12:00] I left the company that they did that. I know that as soon as they did it, there was no issue. People didn’t have any problems because the landscape had changed and it was quite a successful venture for WordPress.com in those few months before I left the company.
+
+Interviewer: I saw the post on Matt’s blog where he announced that at WordCamp Argentina about a WordPress.com marketplace, and then that seems to have disappeared, so I wasn’t quite sure if it had actually been launched or whether it had been just talked about as an idea.
+
+Jackson: The premium themes were always something that I definitely pushed for. I felt like if you’re running a company, you should be able to sell something that’s valuable to your customers, and I felt like themes were the most valuable addition that you could sell to them. It was always just not the right time, or we tried that in the past and we had negative reactions to it. So I think it was just the timing. Letting people in the community evolve and realize what the license structure is like and that it’s okay to pay a service provider for an upgrade that’s a theme.
+
+Especially if the licensing is in place. I think it wasn’t really until there were issues with themes and their licensing that people were aware of how a WordPress theme licensing structure worked, which is really complicated to understand at first. A lot of people didn’t get it. The adoption of that education was really what was needed for premium themes to take launch.
+
+Interviewer: Internally, did people get the whole licensing thing, or were there problems in Automattic about that as well?
+
+Jackson: It was something where people would say, “Why aren’t we doing this?” At that time, the company was so small that it wasn’t up for debate. It was just, you could suggest it and we all knew that what had happened in the past so don’t question it, really. After a few times that it comes up you just, “Well, that’s that. So we’re never going to do that.”
+
+Obviously, that changed. [15:00]
+
+Interviewer: That must have been frustrating for you if that’s what you wanted to push for.
+
+Jackson: It’s not my business. I worked there. I was an employee for a business and I was there to help them, and to learn from them, and to give them whatever knowledge I could, and assert my point of view the best that I could. You can have an opinion but that’s all it really is.
+
+Not frustrating, I wouldn’t say. There was a lot to work on, so I was never bored. I definitely would have liked to work on more theme and create more, but that wasn’t the focus of the business at that point in time.
+
+Interviewer: So what were your opinions?
+
+Jackson: On premium themes?
+
+Interviewer: Yeah.
+
+Jackson: Well, I feel like they were totally fine and that there would be a negative reaction but that’s how it always is, and in the end I think it would have settled out just fine. Like it has now. From what I would guess, it’s probably been a huge change in how people decide if they’re going to start a blog at WordPress.com. How can my site look? is really on the forefront of a lot of people’s mind even though perhaps it shouldn’t be.
+
+I think they should have done it sooner. I think that would have been something that maybe could have changed and pushed the landscape of theming forward even more from where it is now, if WordPress.com might have launched that. I think it could have changed things sooner. But I think everything is evolving quite nicely these days. There’s a lot I’d like to see still happen with themes but I think it’ll get there.
+
+Interviewer: What was the sticking point? Was it just that, internally, you just didn’t want to cause problems in the community?
+
+Jackson: Yeah, that was Matt’s opinion from past reactions. I would say that’s — from my recollection, [18:00] I’d say my memory is probably not the greatest thing in the world — but the reaction was that, when they first tried it, there was negative reaction, and we don’t want to mess with that, so let’s just keep open source themes and that’s it, because we’re an open source company, and we can’t do premium themes because even though it makes sense and it is legal, that people just don’t understand the difference between open source and open source with a price on it.
+
+So I think that especially the whole Thesis theme debacle that took place — which was quite entertaining I might add — I think that changed things and really shifted the power into the hands of creators out there, which was really what was necessary, was to say, “If you’re going to be a part of this, you need to be a team player. If you’re going to make money off themes, you have to adhere to the license. Fortunately or unfortunately, however you look at it, you chose to take part in selling something on an open source platform, so your theme must adhere to the proper licensing.”
+
+I don’t think that has changed. Obviously if you look at — I think most people know WordPress arena know this — if you look at the theme foundries that always were selling their themes but adhering to the GPL license were doing better than the ones that weren’t. I think that’s still true today. The quality and especially the quality of the people behind the company, and of the themes, is higher with those that are sticking to the plan and being a team player and supporting the community and selling a quality product with a proper license on it. I don’t think people think twice about it because it’s just the same as pirating music. Somebody is going to do it, whether you want them to or not. If you want to put some block in place, somebody is going to get around it.
+
+It makes it easier, I think, to just be creative and share your work with the world. If somebody wants to learn from your work, then they can. That just makes everything better. [21:00] Sharing, learning from each other. It’s helping to put in place barriers for ego to get out of control and really letting art flourish.
+
+Interviewer: Do you remember what the discussions were whenever other people started releasing premium themes? The support of that, did people not like it, particularly in terms of Automattic?
+
+Jackson: I think nobody had an issue with it. I think it was interesting, especially in the beginning when it started happening. It was interesting to see revenue figures for themes that were released as a premium theme — not a WordPress.com premium theme — but someone selling their theme and keeping the GPL license and thinking, “Well, people are actually buying this.” There wasn’t an issue with it. I think that made everybody happy. I don’t think there were really any negative comments about that at all. I think that was just an evolution of the whole community, and the internet in general, had to grow up a little bit to understand those concepts.
+
+I can’t really recall the first premium theme that was launched but I know Khoi Vinh’s theme that he developed was one of the first high profile premium WordPress themes, and I think one of the first that WordPress.com put into their premium theme marketplace. And Khoi was really open and transparent about his revenue figures, and I think that was a huge turning point in empowering people to say, “Oh, well, you know what, I actually can make an open source piece of software and sell it and make money and people aren’t going to pirate it. And if they are going to pirate it, then they were going to pirate it no matter what I did.”
+
+Interviewer:  Who was that?
+
+Jackson: Khoi Vinh, he at the time was a designer for the New York Times.
+
+Interviewer: How do you spell it?
+
+Jackson: Khoi Vinh. He runs Subtraction.com.
+
+Interviewer: Just Googling him. Perfect, thanks. I will look him up. I know about [24:00] StudioPress, Revolution and Adii’s theme and I haven’t come across his name, so I’ll look him up.
+
+Jackson: He is a very talented graphic designer and his site design people really loved — and I think he took note of that, and turned it into a theme, sold it, and it did pretty fantastic I believe. I need to go back actually and look at what his numbers were, I’m kind of curious.
+
+Interviewer: Did he post them on his blog? 
+
+Jackson: Yeah.
+
+Interviewer: I’ll look them up definitely. So I’m reading a lot of the blog posts from around this time, and there’s really a perception amongst some of the premium theme sellers that Automattic didn’t want them to be making money. Or Matt didn’t want them to be making money. What do you think about that opinion?
+
+Jackson: That’s interesting. No, I think Matt is an idealist. He is also a realist and he just really wants — whatever light people may want to paint Matt in, they don’t know him. He does come across as I would say short sometimes. He’s quick, he’s fast. He likes to have brevity in what he says. And I think sometimes that may translate into something different than what it actually is. I think Matt wants everybody to win. I really do. He’s not the kind of guy that — obviously, with him sticking to the GPL license and wanting people to adhere to it, I think that’s the only thing that he really cared about, was the community and keeping everything intact. I think that’s a cop out for any premium theme seller to be greedy or have something to pin their failure upon is the captain of the ship isn’t allowing me to do what I want. 
+
+Matt isn’t. He runs Automattic and he did help build WordPress. He created it. But is he the one just [27:00] continually developing it all on his own? No. And he’s not a dictator in any way. People want drama in their life, and on the internet I think people just get heavy and boxed in and a little nutty about stuff, and I think they maybe take themselves a little too seriously. They think there’s a conspiracy against premium theme selling. I don’t think any of that was there, definitely not in internal discussion was there any sentiment about, “We don’t want them to be making money.”
+
+Interviewer: It’s funny. I’m interested about how the misconception came about, because speaking to people who are really successful in the area now, they’re like, “Yeah, I used to think that Matt didn’t want me to make money, but I was just totally wrong.” So something was miscommunicated. They say now, “We didn’t understand the GPL.”
+
+Jackson: I think people just didn’t understand that, and that was the issue. It relates to all digital media. You need to give people what they want, when hey want it, and this applies across the board. When you start putting restrictions in place, it just puts a damper on the community, no matter what it is. If it’s the music community: iTunes learned from this. They had DRM on their music and people hated that because it was a hinderance — not to them pirating it — but just for them using it. In this case, premium themes — sure, you can sell any GPL licensed work for whatever you want, but that doesn’t mean that you get to tell the person who bought it what they’re allowed to do with it once they’ve purchased it. 
+
+I think that’s how everything should be. Someone selling me a piece of music gear and telling me, “You’re not allowed to actually sell any music that you make with it once you purchase this piece of music making equipment.” It’s just silly, and it just holds everybody back. It’s like those stickers on audio equipment (I’m a big music geek), those stickers on the cases where, “Void warranty if opened”, like you can’t learn from their circuitry or anything and they don’t want you to see inside because it’s a secret. That doesn’t help the world learn.
+
+I think the GPL license is good for themes and people — as developers, I think they see it much differently [30:00] than people purchasing it. I think people purchasing a theme don’t even understand what the GPL means, and if they do, then that’s really good and they’ll be able to leverage it and use it to their advantage if they need to. And the theme developers themselves can also gain from it in many ways. In many ways.
+
+I do remember a few discussions about premium themes coming out that weren’t licensed properly, and how do we approach this, how do we think about it, and how do we engage with the community in thoughtful discussion about this matter. I think, if you look at the whole Thesis theme debate, that there’s just a lot of stubborn-headed talk about what the GPL license does and people being really protective of what they think is their art. Then when you dig a little deeper you realize that, just as in traditional art, people that are really overprotective are usually overprotective because they didn’t create their work of art solely from just their mind. They really did use other people’s ideas and they did steal. In the case of the Thesis theme, when you looked at it there were lines of code that were copied and pasted from other themes. It was just ludicrous to even argue that you wouldn’t have to adhere to the same license as something that you stole from.
+
+Obviously that whole discussion worked itself out, and Thesis then became a GPL theme. That whole thing didn’t need to go down like that, but perhaps it was amusing and informative. I suppose?
+
+Interviewer: So as the GPL thing became more of an issue, how did you guys decide to engage the community on it? You must have thought — you said that the thing with Thesis didn’t have to happen like that. So what would you have liked to happen? What were you guys trying to get to happen?
+
+Jackson: There wasn’t any collusion inside the company upon that, and I think that that was [33:00] a conversation — I’m not sure really how the creator of Thesis and Matt started to talk or were invited to talk. I think that just happened out of Matt realizing that Thesis was being used by a lot of people and it wasn’t adhering to the license, so let’s reach out and explain why the GPL license really does make things better and how what you’re doing is violating this. 
+
+Nobody had really had needed to deal with that before, so I believe that was just a serendipitous thing. It was an inevitable conversation that had to take place.
+
+After that, I think things really started to change. There’s still a lot of issues out there. With ThemeForest, I think in particular. I’m not sure what you can do and I really don’t think that this is going to be an issue forever. I think that it will eventually right itself and the GPL license will be totally understood, but that’s going to take even more time for the public to demand this and really understand that we need this for themes to advance even more. For us to learn from each other and for it to be fair, really. 
+
+Interviewer: What did you think of the quality of the first premium themes, in terms of both design and code?
+
+Jackson: That’s a good question. I would say that the first premium themes that came out were nice looking.
+
+I think that’s what they really hinged themselves upon. As far as code, I’m not sure. Extremely fantastic? But also the code for theming in WordPress, the functions, really weren’t there and it took [36:00] a little bit of figuring things out and still is evolving quite a lot. The first premium things were definitely — especially Khoi’s theme, the basic math’s theme, it was quite nice. Really well done and a beautiful theme, but not a ton of interesting stuff going on behind the scenes. I think that there’s a lot there especially that still needs to be worked on. That’s where premium themes and themes in general need to grow, is in the back-end and what you can do — what makes the theme special besides just how it looks. Is there a better way that we can manage content for this specific theme and working on drag-and-drop interfaces for people, that type of thing.
+
+I don’t really have much else to say about the first premium themes. I think they were regular themes, to be honest, but marketed very well and designed really well. There’s good time spent developing them and should be rewarded. 
+
+Interviewer: You had been using themes a long time. What do you think would be the most important development in terms of WordPress Core to do with themes?
+
+Jackson: Oh, the most important development… Definitely the media functions. That was always the biggest issue for me. Building photo themes in the beginning it was really tricky to do it properly.
+
+It still needs to come some ways, but the latest release is absolutely phenomenal in how we can handle media inside elf a theme and what we can do with it. That was definitely the biggest advancement and most necessary. For everything else, it’s still a little bit messy in the back-end. There’s some different ways to skin a cat. Parent themes is an interesting [39:00] idea, one that I think works pretty well in a lot of places. Yeah, the back-end is still a bit messy in how things come together and just the different approaches everybody uses.
+
+I think that we can learn some better practices, but that the copy and paste culture that is so — I mean, it’s a great way to learn a skill, to copy-and-paste code, and I think that’s how a lot of theme developers got started in developing themes, and I think that’s kind of slowed down a lot of huge progress in really having some excellent, excellent habits for coding and for theme structure. Definitely the biggest thing is underscores theme. I think that’s a great starting point, and definitely a learning tool for people developing themes to see how it all works and can work and different ways that you can structure stuff, and how you should probably focus on developing a theme is not taking 2011 and then cutting stuff out and putting more in, but just starting from a nice base and building something from the ground up.
+
+I think that’s helped a lot of new themes have better code, better design, and be easier to navigate if a user wants to edit them.
+
+Interviewer: What do you think about the move — fairly recent in the past year — of theme providers pushing all of the functionality into plugins and using the theme just for the design?
+
+Jackson: It’s interesting. I really have mixed feelings about it. I think that kind of relates to my feelings on the drag-and-drop interfaces, is that stuff’s just kind of messy and not quite thought out as concisely as it should be. You buy a theme from X theme foundry or Z theme foundry and they all have some special back-end thing that needs to be upgraded and has all kinds of functions that are special and do this and do that [42:00] and really, the functionality that you need is going to be very similar, and yet when you’re working inside these themes you just see these functions that are mixed into these plugins inside the themes. Without the plugin the theme doesn’t work that well. There’s a lot of issues there.
+
+I would like to see a fantastic open sourced plugin that helps with that functionality that so many of these theme foundries are trying to replicate. I’m not sure why all the foundries aren’t open sourcing their plugins for that functionality. I mean, I know why. It’s the same reason why their themes are GPL licensed or should be, their plugin for making it easier to make changes on the back-end, it should be open source. It should be something the community can build upon and create some sort of user — what’s the word here — create something that all users are used to and the experience is similar. 
+
+If you look at all the other communities out there — the Node community — people realize these things, that the really important foundational pieces of the evolution of the project hinges upon them being able to be open sourced and to be made even better. So that needs to happen.
+
+My biggest pet peeve with premium themes is that, that special back-end plugin panel feature cluster of nonsense.
+
+Interviewer: They’re awful.
+
+Jackson: I’m not sure what term is the specific term for what that is, but. The cluster of features plugin.
+
+Interviewer: I guess there is a move towards having less options in themes. Speaking to some of the premium providers — or commercial providers, not necessarily [45:00] premium I guess — they say that before you had to put everything in the theme and have everything you could absolutely do and now they’re trying to pair back, which is nice. Some of these theme option panels are insane.
+
+Jackson: Yeah, it’s absolutely insane. But I think we’ll get there. Somebody’s going to come through, I know, eventually.
+
+Interviewer: So you’re still actively developing themes, through your own business?
+
+Jackson: Yeah, I am. Through my studio, Exquisite. Shameless plug. Yeah, I’m developing a lot of photo themes and I’ll be launching them this year. Most recently I designed a theme for Roger Snider, who’s the photographer for the famous Dos Equiis campaigns. So yeah, I really feel that there’s a lot that we can do with themes that hasn’t been done and I love photography and being able to display it on the web and experiment with all the different devices out there.
+
+There are so many layout options and so many user interface patterns that are open to be explored. Everything’s kind of very similar in the photo theme world. Not a lot of experimentation being taken, so that’s what I’m trying to do.
+
+Interviewer: You left Automattic shortly after the premium themes were set up?
+
+Jackson: Yeah. Yeah, I did.
+
+Interviewer: How come you left after you’d wanted that for so long?
+
+Jackson: I left for two reasons. The first reason was that the company was bigger than I expected it to ever grow to, and that wasn’t a good environment for me to be in. I don’t interact with a 125 other people well. It’s just really hard to do. Being in a small group, at that time [48:00] it was very hard to be working on the same project for an extended period of time. I really enjoyed being able to work at Automattic especially in the beginning because there was a whole lot to do and you didn’t have to spend 6 months working on the same project. That’s just a person preference.
+
+The second part was that I was feeling lousy and I was stressed out. I actually became — I knew I wasn’t producing to the level that I had known myself to produce at, and I was so worn out and realized that I needed to take a break. And I did, and I actually became more sick, so I realized that it wasn’t just stress. I found out that I have a strange genetic condition that I luckily have solved and bounced back from, but it took a year and a half to two years to actually have a doctor smart enough to diagnose me and figure out the proper protocol to treat my symptoms.
+
+So it was those two things. But I love those guys, everybody that’s there. They’re fantastic. I do think the company’s too big for I think a lot of people to handle, and I think that probably is one of the only reasons I would choose to leave that place really. Other than that, there was — I really think there’s so much to do and it’s a fun, amazing company to work with. The people there really are some of the best in the world at what they do.
+
+Interviewer: I think we can leave it there. Thank you so much for speaking to me.
+
+Jackson: Yeah, no problem.
+
+[Audio ends.]

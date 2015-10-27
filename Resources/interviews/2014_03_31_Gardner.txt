@@ -1,0 +1,169 @@
+Interviewer: I’m speaking to Brian Gardner on the 1st of April. Happy April Fool’s day! It’s the 31st of March, I guess.
+
+Gardner: Yeah, we’re not quite there yet.
+
+Interviewer: Not quite there. Okay. So can you tell me how you first got involved in WordPress?
+
+Gardner: So, many years ago — I want to say 2006 or 2007-ish — I was at a day job and I was a little bit bored with what I was doing there at work and so I started blogging, and naturally I Googled how to blog and I think I landed with Blogspot first, Blogger. So I started doing a little bit on there and realized that there were some drawbacks and some limitations within Blogger that I wasn’t really a fan of and someone told me to check out WordPress and so I checked it out and I didn’t have any formal computer programming training or anything like that so it took a little bit of time to figure out what it was and how I got it to work.
+
+Ultimately, I figured out how to install WordPress on my own domain and started writing. Back at that time the pool of free themes that were available were really basic blog themes. At the time, and I’m kind of a particular person so I wanted to envision my blog looking a certain way and the themes that were there just didn’t do it for me so i started popping open themes files and trying to figure out how to change code and CSS to get a different look and that was basically how I got started.
+
+Interviewer: Did you find it easy to pick up theming?
+
+Gardner: Yeah, so what happened was I am a neat freak by nature so I downloaded a theme that was called the “Pool” theme, actually. So before I started I took the theme as it was, I renamed it to some word that I wanted to use for my theme name and I basically — are you still there?
+
+Interviewer: Yeah I’m still here!
+
+Gardner: Oh, oh, okay! And so I basically cleaned up the code as it was. It was — the semantics and spacing. There weren’t really any best practices back then so it looked like it was just a hodgepodge of code, so the first thing I did was just clean it up and indent things properly and space them just so I could see what it was that I was looking at. A lot of the PHP code was completely unfamiliar to me so I needed to organize it better so that it made sense to me so that I could look at it and visually see what each piece did, so once I started with that I just kind of started making very subtle changes — primarily CSS at first, only because I didn’t know what I was doing with PHP and quite honestly I think I white-screened my screen every other attempt [3:00] of trying to do something.
+
+Using Google and the codex really helped.
+
+Interviewer: What was your day job?
+
+Gardner: I was a project manager at an architectural firm. We designed laboratory space for schools and hospitals and things like that so I was in front of the computer all day with access to the internet so over my lunch hour or before I would show up before work, I’d spend a little bit of time monkeying around with the internet and WordPress and my blog. 
+
+Interviewer: Had you been involved with open source before or did you know anything about it?
+
+Gardner: No, at that point Hotmail was basically the only thing I did on the internet. No knowledge whatsoever of code, open source, licensing, or any of that kind of stuff. That all played into the picture years down the road.
+
+Interviewer: Did you have any design background?
+
+Gardner: Absolutely none, other than — I’m a street smart person, I learn everything by popping the hood open and plugging and unplugging and changing and manipulating and doing it that way.
+
+Interviewer: At what point did you realize, “I could start making money out of this theme thing.”?
+
+Gardner: I created the theme for myself to use on my blog, and I kind of enjoyed the idea of playing with themes and code and stuff like that. So somehow I started getting a little bit of traction to my blog probably via search and so what I started to do was create some free themes because I thought that might be a fun way to get links back to my site and at the time Technorati was a huge metric of success and I was in the top 100 and all the links pointing back started to help put me there and so I started doing free themes and by doing free themes that led to some customization jobs for people who had just downloaded the theme and say, “Hey, I see you’re the guy who created the theme, can I pay you to change the colors” and so that was the first instance I had with making money with WordPress.
+
+What happened ultimately was, as I started moonlighting at night doing full blown custom jobs I had a real estate agent who rejected one of my designs and I thought it was really really good and it was actually kind of more than a blog. It was kind of actually like a website or a CMS looking theme, and since I didn’t know what to do with it I just wrote it on my blog and said, “Hey would anybody [inaudible].” And I got hundreds of comments from that post, and at that point I knew that there was viability in selling themes.
+
+Interviewer: And did you — there were Reddit blog comments where you mention that you tried your hand at sponsored themes.
+
+Gardner: Yeah, back in the day I had — because at that point I was just trying to make money [6:00]  in any way shape or form, so I created a few themes for people that at the time paid for links and stuff like that. Of course, I didn’t know better. I do know, but looking back on it. Yes, I was absolutely a perpetrator of paid-for links and footers of distributed themes and stuff like that, but once I caught wind of what it was and why it was bad I obviously stopped immediately. So that was prior to selling themes themselves, the sponsored themes was my first experience with making money on the theme part.
+
+Interviewer: Did you make very much money for a link?
+
+Gardner: I’m trying to remember what it was. I want to say it was maybe $1000 or $2000 per theme.
+
+Interviewer: That’s not too bad!
+
+Gardner: No, at the time it was like, “Hey, vacation money!” But again, looking back on it, there’s way more money in selling themes than selling links in themes, and of course that got all shut down pretty quickly so I think I only did a couple of themes with that strategy before that whole funnel ended.
+
+Interviewer: Yeah. How did that work? Did someone contact you about asking you if you sold links?
+
+Gardner: Yeah, because at the time there were themes and there are metrics — I think it was WPThemes.net or one of the original theme repositories that weren’t on WordPress showed how many times each theme was downloaded, so what happened was that these companies would go look for the themes that were downloaded the most, or from the “most popular” theme developers, and go for those because that’s where their distribution came in. You don’t want to pay for a theme being downloaded 10 times, you want it to be downloaded 10,000 times.
+
+Interviewer: Sure. So that got shut down and you moved on to Revolution.
+
+Gardner: Yes. So, I opened up the idea of anybody buying a theme on my blog and when so many people responded I took that design that was rejected from the real estate guy and basically packaged it more for distribution. So I created a little site called RevolutionTheme.com and put the theme up there for sale and sold $10,000 in the first month.
+
+Interviewer: Oh, wow! That’s better than sponsored links.
+
+Gardner: Yeah at that point. So after the first month I was like, “OK, wow this is really cool. Maybe I should keep going.” The first four months sales doubled every month, and then it got to a point where I looked at my wife and said, “This is not just fun this is — we may want to consider me quitting my job and moving into this.” Of course at the time we were fairly newly married and we didn’t have our son [9:00]  yet, so the idea of jumping ship on a stable job wasn’t really in the cards but when we were doing $80,000 a month in theme sales it was a little easier to digest that decision.
+
+Interviewer: Yeah, absolutely. Did you — you didn’t have a business plan then or anything like that? It just happened?
+
+Gardner: Yeah, no. No business background, no computer background, I was just a guy making themes that were selling and I was taking it day by day and totally doing the best I could with what I had. 
+
+Interviewer: So is Revolution the first premium theme?
+
+Gardner: To my recollection, yes. There may have been something that was paid for previous to that, but looking back if there would be history books written on it my guess would be that that would be seen as the kickstart of the premium theme movement.
+
+Interviewer: I can’t find any other ones. There’s others shortly after, but that seems to be the first one. So can you tell me what the license for Revolution?
+
+Gardner: So back then, Revolution — I don’t even remember if I had a license or lack of license, but back then Revolution was more or less seen as proprietary. In other words, it didn’t necessarily come shipped with a GPL license. Of course, at the time I had no idea what any of that all was anyways. The gist of it was: I and others that were starting to sell themes at that point wanted to protect our work and make sure that — we were almost scared of the open source concept where the design and images and the code we felt was all ours and really wasn’t derivative of WordPress itself so we sold things on a proprietary level.
+
+After our third or fourth theme on Revolution came and at the time Adii — it was doing stuff, it wasn’t called WooThemes at the time but he had a couple of themes out there and it was right around when Chris Pearson was coming out with Thesis and somewhere along the way, within the community, it was known that we were — not the outcasts or black sheep — but there were those people who were fully open source minded look down upon this idea of proprietary themes and licenses and stuff.
+
+It was a comment on Ian Stewart’s blog Theme Shaper at the time that changed everything for me because Matt Mullenweg left a comment there saying, “If any of these theme shops would switch to GPL, I’d be more than happy to help promote that work.” I sent Matt an email and said, “Hey, look, I saw your comment on this.” [12:00] And I thought of it as an opportunity to do the right thing but with a little bit of safety net if I knew that Matt would back the decision. I didn’t expect him to promote endlessly, because at the time I was doing $100,000 per month so I was really, really afraid of shutting that down but I knew big picture that the license needed to change and I wasn’t sure. 
+
+So I asked Matt if I could meet with him in San Francisco to talk about things, because it was a huge thing for me to decide, and so I flew out there and then talked to him and Tony Schneider, who’s the CEO of Automattic, or the CFO. So we talked and shortly after that trip I switched licenses back to the GPL.
+
+Interviewer: So what happened at the meeting?
+
+Gardner: We just basically sat down. It really wasn’t all that big of a meeting and it didn’t even take very long, it was just — we just talked more about what was going on because things back then were new and they were curious about the ecosystem and how themes being sold worked and reasons behind proprietary licensing. I more than anything just went out there for peace of mind to know that I was making the right decision that they would help cushion the fall if there was going to be any. So yeah.
+
+Interviewer: I’ve read a lot of blog posts where people are quite conspiratorial about Matt and Tony and Automattic saying things like, “Automattic doesn’t want me to make money, they don’t want anyone to make money.” You didn’t get any sense of that?
+
+Gardner: See, that was the perception, because really all they were saying was, “We want and these themes should be GPL.” Because at the time people thought that going GPL meant that it had to be free, which Matt was the first person who would go on record saying, “No, it doesn’t. You can be GPL and charge for it, that’s fine, but the code itself needs to be GPL.” I think I hopefully set precedent that it was okay to change the license, because in the end only a fraction of any WordPress user really understands GPL and the whole idea of open source and most people who buy themes now are business people. They don’t even know or care or anything, so really the fear was unwarranted because we changed to GPL and still sold themes and sales were unaffected. And we were doing the “right thing” by being aligned with WordPress and the whole open source system. 
+
+But at the time everyone freaked out, “Oh my gosh, my sales are going to tank, I have to give the themes away, how am I going to make money?” So they clung to their proprietary license [15:00] or tried to do split licenses, which was looking back on it completely ridiculous.
+
+Interviewer: Why do you think the split licenses were ridiculous?
+
+Gardner: Because, people do what they’re going to do anyway. Within the WordPress community, I am not going to go and take someone’s intellectual property and imitate it because I’m going to be seen as a bad guy from an ethical standpoint. So do these things ever hold up in court of law? Who knows. And who’s going to ever even try it? Really, pirates are going to steal no matter what the license, so I found that there was more benefit to playing ball and going GPL than there was not.
+
+Interviewer: You were the first person to go GPL as well. Is that correct? The first premium theme author?
+
+Gardner: Yeah, and shortly thereafter Press 75 — well, I don’t think Press 75 was even around at the time, but I know iThemes and Headway moved in that direction and then of course the last real big shop up there was the whole Chris and Thesis DIY Themes thing, and I’m sure you’ve read and heard the interview with Mixergy all about that.
+
+Interviewer: How did that seem to you? Because, you went GPL in September I guess and it wasn’t until the next April or May that WooThemes, iThemes, they all followed suite. And then in that interim time there was a lot of public arguments about the GPL. There were themes being pulled from the WordPress repository because they linked to sites with non-GPL themes, and I saw you coming in for flak because you were getting promotion on WordPress.org for Revolution. What was that like for you to be that first person amongst all the premium theme sellers, you were the first person to take that step?
+
+Gardner: Obvoiusly it was a scary step, but when you take risk there’s also reward. I took the risk and obviously there was a lot of reward and it took some time for a lot of the shops to move over probably more because they wanted to see how things would play out with me and also because they didn’t want to seem like copy cats, like, “Oh Brian went GPL so we have to.” In theory, that’s really what it all came down to. Ultimately, everybody found more value in being GPL than not being GPL and maybe there were some theme shops that were afraid Matt and WordPress were going to get to them or whatever, which was the unspoken fear.
+
+I knew I was doing the right thing [18:00] and when sales continued, that was just affirmation that that was the case.
+
+Interviewer: How many licenses had you sold when you went open source, do you remember?
+
+Gardner: It was probably thousands. Go ahead.
+
+Interviewer: What did your users think of it? Did they care?
+
+Gardner: Not really. Not much really changed because, again, they paid for something that was ultimately still being paid for — from behind the scenes it was really like, “Okay, you were paying for themes, now you’re paying for support.” From the front-end it almost looked like it was the same thing, because like I said: only a small fraction of the users really knew what open source GPL was anyway. They were like “I pay $75 for a theme whether it’s for the theme or support or whatever I don’t care. I just pay my money, I have value from it, and I get help when I need it. That’s all that matters.
+
+Interviewer: Did you advise other theme developers who were thinking about going GPL?
+
+Gardner: Yeah, I was really good friends with guys like Cory Miller of iThemes and we had conversations and Jason actually — Jason Schuller of Press 75 — was with me in San Francisco because him and I were coming together at the time for a togetherness so he was out there too, so most of the players knew what was going on and why it was happening. Again, really what it came down to was knowing that numbers were unaffected, that it was more perception than anything. Everybody made decisions based on their own best interest of their company, so.
+
+Interviewer: Did you speak to Chris Pearson at all at Thesis?
+
+Gardner: Not really about the whole licensing part of it all. We may have had a few chats here or there, but at the time Revolution/StudioPress and DIY Thesis we were kind of competing against one another even though I was the one who encouraged Chris to get into the premium space. Chris and I really weren’t friendly-friendly back then, not like I was with Jason or Cory or some of the other guys in the industry. Chris just kind of sailed his own ship and did his own thing anyways.
+
+Interviewer: So at what point did you retire Revolution and launch Genesis?
+
+Gardner: January? I don’t know if it was 2008. It must have been 2008. ’08 sounds vaguely familiar. So Revolution became Studio Press because I was sent a cease and desist letter from a software company in the United Kingdom. Like I said, I was street smart, so I didn’t have any real business [21:00] knowledge. Of course at the time when I picked the name I thought it was cool but didn’t realize that I should have done research before hand. In my defense, I also had no idea that this was going to become a million dollar a year company either. So I got the letter and I took it to my intellectual property attorney and he said, “Yeah, it’s probably in your better interest to change it. You could probably fight it but it’s probably not worth it.” Then of course I went hunting for domain names and I came across Studio Press and before I bought it I had him do a trademark search and it came up clean from the software side so that’s when I made a big announcement that Revolution was becoming Studio Press and I want to say it was in 2008. That sounds about right. 
+
+Interviewer: Then you launched Genesis and it was a different theme?
+
+Gardner: Originally Studio Press started off as being just a bunch of standalone themes, much like Revolution was and all that. At the time I was working a little bit with Nathan Rice, who was working with iThemes just hiring him to custom code some stuff that I needed and I knew that ultimately he was leaving iThemes so I contacted him and said, “Hey, what do you think about working with me? I’ve got this idea of this framework type of theme.” Thesis was around, so its as partly inspired by what Chris was doing at Thesis, but also a little bit different because of the whole parent framework and child theme thing. So I pitched Nathan just conceptually on the idea of what I was thinking and just started working on it.
+
+Interviewer: Did you think Thesis was the first big theme framework?
+
+Gardner: Yeah, you know — I wouldn’t even call Thesis a theme framework. It’s ambiguous what a theme framework even means. It could be a bunch of different things, but technically was it the first theme that a bunch of different looks came out of? Probably. I know that Chris had a little bit of theme settings, its as a little more robust at the time than our standalone themes were, so maybe. There’s probably some open source ones. I know that Justin Tadlock had a few themes that were probably seen as true frameworks that were out before Thesis.
+
+But again, everything mushed together.
+
+Interviewer: At what point did you merge with Copyblogger?
+
+Gardner: That was the next big step. I believe it was September 2009. And — go ahead.
+
+Interviewer: Sorry, carry on.
+
+Gardner: So that really came out of the whole Chris Pearson DIY, because at the time Chris and Brian Clark were partners [24:00]  at DIY Themes and Chris refused to go GPL and there were ongoing issues between Chris and Matt and so ultimately Brian reached out to me and said, “Hey, I’m looking to potentially do something else. Do you have any interest in working together?”
+
+At the time, I was like, “If I say no, Brian may go find someone else and that may affect my business.” So without even thinking I was like, “Yes, sure, of course. Let’s go. You’re Brian Clark and this is a crazy opportunity.” So Brian reached out to me and he had a number of other partnerships with other people that basically were agreements on products that are lines of business in our current company, so after Brian and I worked out the fact that we were going to pull together, he then pitched a bigger vision, which is, “Okay, hey, now that we’re going to theme stuff, what do you think about building a bigger company and being a partner of something?”
+
+So 5 of us flew out to Denver shortly thereafter and just sat down in a room and 2 hours later had an operating agreement put together and that’s when we formed Copyblogger Media the company.
+
+Interviewer: What’s really the focus of Genesis? Is it more developers, is that your customer base?
+
+Gardner: Originally it was supposed to be the users. With the fallout at Thesis and the developers that were actually developing off of Thesis, many of which contacted me almost immediately after the whole Chris and Mixergy interview with Matt and when they found out that him and Brian were parting ways, then it became not more developer but included developer. So, I don’t know if it’s 50/50 or what. We have a huge — what we call the DIY crowd, which is people who just buy a theme and do their thing — but there’s also a ton of extremely talented WordPress developers that now build some exclusively some semi-exclusively off of Genesis.
+
+Interviewer: I find that interesting that, I don’t know if there are any other themes that have developers who solely develop with that theme, but there’s a lot of people who exclusively work with Genesis. I find that quite interesting.
+
+So why do you think themes became commercialized more than plugins?
+
+Gardner: Themes are eye candy, and it’s so much easier to buy eye candy than it is to buy functionality. [27:00]  Plugins are predominately add functionality back into stuff so it’s harder to find value or an immediate desire to buy something that you don’t see. So I think it will always be this way. I think themes will always be held higher in regard to the capacity to make money off of. Obviously, there’s some plugins like WooCommerce and Gravity Forms and what not that just fill a very specific purpose and that people find tremendous value in, and they’ve got some flourishing companies built off of that, but as a whole I think themes will always hold that one up.
+
+Interviewer: Why do you think they’ve been so controversial?
+
+Gardner: Themes? 
+
+Interviewer: Yeah.
+
+Gardner: So many people using them. So much money to be made. I think with anything when there’s a lot of money involved, then you’ve got people coming from all kinds of angles trying to — not leverage but there’s just so many people using WordPress there’s so many people building with WordPress that just by the nature of the volume of use that there’s just bound within any ecosystem to be drama.
+
+Interviewer: Okay. Well, you’ve answered all of my questions. I’m going to stop the recording now, thank you!
+
+Gardner: Sure!
+
+[Interview ends.]

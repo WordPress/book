@@ -1,0 +1,297 @@
+Interviewer:	[00:00:01] It's 29th May; I am talking to Ron Rennick.  Hello, Ron.
+
+Rennick:	Hello.  
+
+Interviewer:	[00:00:07] To start off can you tell me how you first got involved with WordPress?
+
+Rennick:	[00:00:14] My wife, Andrea, actually had a blog that she was, originally did it with Netscape Navigator and then she switched over to using Blogger, and then she had also switched to Moveable Type and Moveable Type changed their license back in late 2004 already, 2005.  She switched over to WordPress, which at the time was maybe version 1.5 and she wanted extra little stuff done because I was already a developer.  I ended up working with it and then from there we started making themes; nothing fancy about them but we just started making our own themes for fun.
+
+	[00:01:05] Then she set up a second homeschooling blog and that sort of turned into my blog.  Then from there we set up a site or a WordPress MU for homeschooling that we basically offered free sites for homeschoolers, and that was like the WordPress MU data - it was where we started with that.  Basically, partly because it was a couple of years newer than WordPress to an [inaudible 00:01:37] where it would be, and also there were a lot less people using it.  There really were hardly any plugins available for it so I ended up, I was writing stuff that Andrea wanted to add to the site and so on.  That how I got involved in the MU side of things.
+
+Interviewer:	[00:01:55] Okay, so was that running in MU?
+
+Rennick:	[00:01:59] Yes.  It started with,
+
+Interviewer:	It started with?
+
+Rennick:	Go ahead.
+
+Interviewer:	I was just wondering why it was on MU?
+
+Rennick:	[00:02:09] Well, my homeschooling blog, no, no.  My homeschooling blog was just WordPress.
+
+Interviewer:	Okay.  
+
+Rennick:	[00:02:16] Oh, okay.  So after that we set up a site, an MU site for homeschoolers to have free blogs.
+
+Interviewer:	[00:02:25] I see, okay.
+
+Rennick:	[00:02:27] And that started with the MU1.0 data; Andrea originally set that up.  It was MU that there was hardly anything available for.
+
+Interviewer:	[00:02:44] So what is your background?  Are you a PHP developer or what type of developer?
+
+Rennick:	[00:02:51] Well, I learnt PHP from working with WordPress.  I started out, I was an operating system's guy so the language that I worked with was [4 Trans C 00:03:04], stuff like that, the equivalent of bash scripting.
+
+Interviewer:	[00:03:15] What were the plugins that you wrote for WordPress MU?
+
+Rennick:	[00:03:20] There's too many to list.  I wrote stuff for converting from folder install to subdomain install, help done into a site like tags and the main mapping.  I have theme stats - the thing is, a lot of them I did them kind of oneoffs and before the plugin repository was there so I probably have them on a backup drive somewhere.  On WordPress.org I have 32 plugins and probably about half of those are Multisiterelated.  I wrote anything and everything for Multisite.
+
+Interviewer:	[00:04:08] So what was WordPress MU like back then?
+
+Rennick:	[00:04:17] Well, when it originally started it was actually quite, not necessarily from a user face perspective but under the hood quite a bit different.  The versions came usually anywhere from a month to three months behind WordPress, and until the 2.6 version, the MU versions and the WordPress versions were different.  So WordPress 2.5 and WordPress MU 1.5 were basically the same version of WordPress.
+
+Interviewer:	[00:04:51] That's quite confusing.
+
+Rennick:	[00:04:54] No, that was one of the reasons why they synced the versions.  The other thing that happened in 2.6 and also in 2.7, a lot of the differences between MU and greater WordPress were eliminated, so in a sense, by the time we actually got to the merge a lot of the work on the merge had actually already been done because the data was more consistent.  
+
+Interviewer:	[00:05:27] Did you ever help Donncha with supporting all of the changes to WordPress over to WordPress MU?
+
+Rennick:	[00:05:36] No, he did that on his own.  The things that I, well other than obviously bug fixes and so on, the other thing that I did some work on was multiple networks, although technically I suppose some of that might have been bug fixes as well, so running more than one network in one install.  
+
+Interviewer:	[00:06:03] Why was the decision made to merge WordPress MU with WordPress?
+
+Rennick:	[00:06:08] I wasn't involved in that conversation so I don't know.  From my perspective it was a perfectly logical thing to do.  It cuts down on the [inaudible 00:06:19] time involved and it eliminated that delay between when WordPress would be released and when an updated version of MU would be released.
+
+Interviewer:	[00:06:31] And how were you recruited to start helping out?
+
+Rennick:	[00:06:36] I actually volunteered.
+
+Interviewer:	[00:06:39] Okay.  Were there many, sorry, carry on.
+
+Rennick:	[00:06:43] In terms of volunteers?  
+
+Interviewer:	[00:06:45] I was just wondering if there were that many people developing with WordPress MU at that time?
+
+Rennick:	[00:06:51] There were quite a few; there were a fair number of people who basically did exclusive work for MU installs and so on.  The number of installs was less but most people who were running MU were actually looking for custom functionality of some kind.  Up until, we got to maybe 2.8 and 2.9 and there were a lot of plugins that didn't work right in MU, even though with a few minor changes they would have worked, but most of the, or a lot of the people who were developing plugins didn't give a thought to whether or not to make it compatible with MU.  They didn't have an install test with us so they just didn't.  It was only after the merge was announced that plugin authors really started looking at making them compatible as possible.
+
+Interviewer:	[00:07:51] Was that difficult for plugin authors?
+
+Rennick:	[00:07:53] No, that was actually relatively easy.
+
+Interviewer:	[00:07:55] That's good.  So can you tell me about the process of the merge?
+
+Rennick:	[00:08:06] Maybe be a bit more specific as to what part of the process.  Like the development process or the,
+
+Interviewer:	[00:08:14] Let's talk about the development process first.
+
+Rennick:	[00:08:15] The way we organized it?
+
+Interviewer:	Tell me about that?
+
+Rennick:	[00:08:19] Well, I had actually, go ahead.
+
+Interviewer:	[00:08:22] Tell me about the development process.
+
+Rennick:	[00:08:25] Okay.  Before I actually volunteered to work on the merge I had actually done an experiment and actually had MU running where the main install was just a regular WordPress site, so I basically installed MU over the top of an existing site.  Then two months later after, that was with 2.71; after 2.81 I repeated that process and the second time I did a bit more work on it so that it, because the first version you had to be a super admin before everything worked really right.  
+
+	[00:09:07] About two or three months after that I actually built and installed and put it up so people could download it, with instructions.  This obviously was for a live site but for demonstration purposes you set up a WordPress install, you run this script, you have an MU install and whatever was in your site.  So from the development process what I basically did in the first couple of weeks was reverse engineer what I already had, that I knew worked, and instead of starting with MU I was starting with, so I was starting WordPress and I had to have the MU functionality in without bringing WordPress, and making it so that an upgraded WordPress install worked, an upgraded MU install worked and there was a utility there to convert a single WordPress install to a Multisite install.  After that it was like bug fixes and stuff like, and a lot of, after the first couple of weeks most of the work I did on the Multisite merge was actually testing probably.
+
+Interviewer:	[00:10:17] Were there any features that were particularly difficult to merge?
+
+Rennick:	[00:10:23] No.  It was, surprisingly it only took, including building the admins screen wrapper around the script I had for doing the conversion, it was probably only like 40 hours from the time I started putting files into trunk and it was there and it was all basically working other than, like I say, bugs here and there.
+
+Interviewer:	[00:10:56] And were there any decisions that you guys made that were particularly controversial?
+
+Rennick:	[00:11:04] Well, probably yes, but I would actually have to go back and look through the history to see what they were.  We had a lot of really good discussions about what we were doing and so on.  If you're going to have good discussions you're usually going to have some controversy, a good amount of, but I don't know that could necessarily be avoided.  
+
+Interviewer:	[00:11:34] Where did the discussions take place?
+
+Rennick:	[00:11:39] Mostly in IRC.  I mean, there a few Trac tickets there that are really long but mostly if we're talking about it would be in IRC.
+
+Interviewer:	[00:11:51] How was the project organized to get that done?
+
+Rennick:	[00:12:02] 3.0 was really I think the first version where a schedule was set up at the beginning and then published, but that might not be the case.  So we had I'll say six weeks or something to get to the point, or satisfied to get to the point where we had an alpha and then like two weeks to get to a beta, or whatever it happened to be.  The thing is I hadn't been involved in it, really much of WordPress Core development prior to the merge, so I really can't compare it to what had been done before.  
+
+Interviewer:	[00:12:46] What was your experience of being involved with Core at that level?
+
+Rennick:	[00:12:51] Well, initially it was kind of a shock for me because WordPress MU Trac was really sedate.  You might get, on a busy week you might get two or three Trac tickets.  You know, I put in 18 files on 7th January or whatever it was; there were 54 Trac tickets by the next morning and the amount of people that were talking on Trac tickets, people in IRC, like it was really, really a lot more active when I was [inaudible 00:13:26].
+
+Interviewer:	[00:13:29] Did you have to keep on top of all those Trac tickets and the conversations and stuff?
+
+Rennick:	[00:13:34] Yes.  It was actually pretty much a full time job [inaudible].
+
+Interviewer:	Hello?
+
+Rennick:	[00:13:44] I'm still here.
+
+Interviewer:	[00:13:44] Sorry, you just faded off into the distance there.
+
+Rennick:	[00:13:47] It wasn't necessarily a full time job every week, but overall with the time averaged out it was pretty well a full time job for me for about five and a half months.  
+
+Interviewer:	[00:13:56] Wow!  Where were you working at the time?
+
+Rennick:	[00:14:01] Well, Andrea and I were working for ourselves so I basically, I had one customer project that I did while I was doing the merge, but otherwise I basically worked full time on the merge.
+
+Interviewer:	[00:14:18] What benefits were there for you to do that?
+
+Rennick:	[00:14:22] Well, for us, we basically were all MU back then; that's all we worked on.  Even though it was a lot of time and I think commitment, it was kind of securing our business so that we knew that, you know, our existing customers and so on were going to be able to upgrade.  We basically went from happening, whether it was 100 or 200,000, whatever the number happened to be, the potential for customers to, at the time there were like 8 million or 10 million WordPress sites, so we got 100:1 increase in the potential customers that were out there.  Go ahead.
+
+Interviewer:	[00:15:10] I was going to say did you see, after you completed the merge, did it have an impact on your business?
+
+Rennick:	[00:15:17] Well, yes; yes, it did because obviously the notoriety that went with that, I think by the time it was done there were a lot of people who definitely knew who I was and what my skill level was and so on.
+
+Interviewer:	[00:15:35] Who else was involved with it?
+
+Rennick:	[00:15:37] With the merge?
+
+Interviewer:	[00:15:39] Yes.
+
+Rennick:	[00:15:40] There were quite a few people watching from Core but the main three people who worked on it were Andy Nacin and Ryan Boren.
+
+Interviewer:	[00:15:53] And how did you work together?  Did you have any sort of private communications or did you do everything in IRC and on the meet blog?
+
+Rennick:	[00:16:04] Well, I suppose we did have the odd private conversation but we pretty much, everything, I would say over 90% of the conversations that the three of us had were in IRC.  We would talk about things, post things on Trac tickets and so on.  Before we were doing, in a lot of cases we would come up, you know, if I got something, well, I need a constant, what are we going to call it?  Well, we'd pick a name and go from there; we didn't need to talk on a Trac ticket for that but it was just a quick decision that needed to be made.  
+
+Interviewer:	[00:16:42] I don't really know how merge would work so could you talk me through it?  Did you take the code from MU and put it into WordPress or did you replicate the features?  How did it work?
+
+Rennick:	[00:16:57] As far as the regular site admin in MU, not the super admin but regular site admin, their interface was identical to a single WordPress install, except they did not have the plugin editor or the theme editor, so that part of it we didn't have to do anything with.  Basically, I started out with, WordPress I added all of the files that were in MU that were not in WordPress, and I think there were 18 files, and then we renamed those because they had a lot more MU dash, or whatever, and we changed them to [MNS 00:17:38] dash or whatever.
+
+	[00:17:44] Then I ran a diff, a chunk of WordPress against MU and I basically just worked through that diff and merged in the code, basically, one feature/function at a time so that you ended up, you had the super admin menu and all of that stuff.  
+
+Interviewer:	[00:18:10] Why did you decide to have it so that people had to do the whole sunrise thing, rather than just having a button they could click to upgrade to Multisite?
+
+Rennick:	[00:18:22] Originally it actually was just a button you could click.  The reason we decided not to do that is that a lot of the shared hosts would not have been happy if they're users could just take any WordPress install, click a button, without actually knowing anything about what was going to happen and convert it over to Multisite.  The decision was made to actually make it a physical process that they had to go through.  
+	
+	[00:18:55] If they're comfortable with editing their AC access and WP config then, you know, they can actually, the nice thing about Multisite is you can actually turn it back off by going into WP config and putting it back the way it was before you turned Multisite on.  But if you have someone who is comfortable, or at least somewhat comfortable with doing that edit, then they'll be better prepared to deal with the other things that have changed in their admin interface.  
+
+Interviewer:	[00:19:30] Did you consult with the shared hosts about that?  
+
+Rennick:	[00:19:34] No.  Actually, the person who, that was a discussion among the lead devs.
+
+Interviewer:	[00:19:46] Right, okay.  And did you think that made sense?  
+
+Rennick:	[00:19:51] Yes, I thought that as a good idea.
+
+Interviewer:	[00:19:54] Okay.  Are there things that you did that you wish you'd done differently?
+
+Rennick:	[00:20:03] Well, probably at the time there were a few things but, you know, now we're actually working on ten versions later, and a lot of the stuff that could maybe have been done differently or otherwise then has, in a large degree, sorted itself out over time.  The main goal I had was whoever upgrades I want their site to work, like before we had any features or whether we had any feature changes or anything like that.  The main goal was everybody could upgrade because that was, you know, if there was an issue with people upgrading then how long are people going to sit on MU, and how many versions of WordPress would they have to go before they would actually go ahead and do that update?  
+
+Interviewer:	[00:21:01] So do you still actively make feature updates to WordPress Multisite?
+
+Rennick:	[00:21:05] No.  I was actually sick for about 18 months and I had surgery before Christmas so I'm actually, even though I've recovered and so on from the surgery I'm like, all kinds of stuff I'm behind on because last year there were all kinds of things that I [inaudible 00:21:25] that I should have done, that I haven't done.
+
+Interviewer:	[00:21:31] Have you been following what's going on?
+
+Rennick:	[00:21:35] Yes.  I am subscribed to the meet blog and I get emails on quite a few Trac tickets and so on.  
+
+Interviewer:	[00:21:48] I'm not following Multisite development at all so I was just wondering, from your perspective, if you've seen anything that you think is particularly good that they've done to it, particular improvements?
+
+Rennick:	[00:22:00] Well, they've started working on some of things we talked about at the community summit a year and a half ago, where dividing up Multisite into, let's say, a private network or a hosted network where the host network is where you actually have people signing up, and the private one is basically, it might not be just me but say, my company has 30 sites they're running and then the network, but all of the people who have access to the dashboards are all employees, so we don't need to be so worried so much about security and so on from that user perspective.  
+
+	[00:22:48] I'm looking forward to seeing that as it rolls out because in most cases the work that we were doing like four or five years ago was for people who they knew who, it was a company or an organization network, so they didn't really need, like the registration was [inaudible 00:23:09] and all of that.  
+
+[Interruption]
+
+Interviewer:	[00:24:45] So you worked on the menus in WordPress 3.0.
+
+Rennick:	Right.
+
+Interviewer:	[00:24:51] So the idea came from WooThemes, is that correct?
+
+Rennick:	[00:24:54] Yes.  Basically, what had happened there is there were a few people who had, let's say, different visions for how they wanted menus to work and what features were included and so on, and I actually wasn't really involved in that because I was focusing on the merge part.  Anyway, that ended up getting stalled and I'm not sure how it ended up being stalled.
+
+	Woo volunteered their menu system and we got a copy of it and I think it was attached to a zip, to a Trac ticket, and when we had the meeting, had the weekly IRC meeting they were looking for someone to merge that in, to get that code in, and I said I would do it if no one else volunteers.  Well, it was like everybody taking two steps back I think.  No one else volunteered so I ended up being the person who added the menu, the original menu code as well, and once I had that code in Ryan and I worked for maybe, somewhere up to a range to a week, to get a basic working, had it converted over and have it so that it was basically working.  Then from that point on other people took over and built classes for it and stuff like that, and that was the,
+
+Interviewer:	[00:26:43] What was the code like?
+
+Rennick:	[00:26:47] It wasn't too, you mean that Woo put in?
+
+Interviewer:	Yes.
+
+Rennick:	[00:26:51] It wasn't too bad.  I mean, it was fairly simple, straightforward.  They had written all their own scripts for managing the menus and so on, so for me at that time I could write java script but I was by no means an expert.  The first bit of it I actually probably put quite a bit of time in the figuring out how to java script worked, and as I adjusted the markup and so on and some of the other things, editing the scripts, so that worked. 
+
+Interviewer:	[00:27:28] So did you work much with Woo Themes on that?
+
+Rennick:	[00:27:36] No.  It was Jeffikus I think that had actually been the main developer of it and I did have one Skype conversation with him but that was like on the Thursday for me, which would have been a Friday for him, and he was gone for the weekend.  Well, by the time he was back on his Monday morning it was in Core and least the editing part was already working.
+
+Interviewer:	[00:28:09] I heard that it wasn't necessarily a good experience for all of the people involved.
+
+Rennick:	[00:28:16] Well, it was, I mean, one of the reasons why I actually volunteered for it was, the whole thing had taken quite a bit longer than I sort of expected it to.  By the time I volunteered to do that we were pretty well at the original targeted release date, and yes, we had a beta but we still didn't even have the menus done.  For me, like I said, I was basically not working, not bringing in any money so I needed to get this; we've got to get this thing out of the door and I'm not really one to let you bug you at the door, but we've got to get this thing done.  
+
+	[00:28:56] For me that was probably the, well, say the three or four days that I worked on it, that was probably, that block of time was probably the heaviest amount of time I worked in a single concentration in the last two or three months.  
+
+Interviewer:	[00:29:17] Okay.  Let me get this straight in my head - so there was a decision you wanted menus but you didn't check the coding until just before the release date?
+
+Rennick:	[00:29:29] No, no, the release date, it was released two months and four days after the original release date.
+
+Interviewer:	I see.
+
+Rennick:	[00:29:37] So we were that far behind.  Anyway, I don't know how, once it was in there and it was working and they started working on making it so that it was worked with and without the admin, Jackson, that kind of stuff, which I have zero experience with.  I wouldn't know where to start with that even now.  That was basically, the people who took it over were already familiar with that stuff so I think once it got to a certain point, you know, the first people who worked on it didn't really keep track of what was going on too much.
+
+Interviewer:	[00:30:18] Okay.  So who else worked on it?  
+
+Rennick:	[00:30:25] Ptah Dunbar, Austin somebody - [Filosofo 00:30:32] or something like that.
+
+Interviewer:	That's right, yes.
+
+Rennick:	[00:30:41] [Cyril] has worked on it - now some of these may have worked on it before I did rather than after, and there were other people who actually worked on it as well but I can't think of, that I know were working on it after but I don't remember who those people are.  The ticket number for that is 1181 southern.
+
+Interviewer:	[00:31:06] I'm looking at it.  I see Scribu was working on it?
+
+Rennick:	[00:31:09] Yes, he's another one; he had been working on it.  
+
+Interviewer:	[00:31:16] I'm just sort of flicking through it.  Yes, why do you think that release was delayed so much?
+
+Rennick:	[00:31:25] Well like beta, in theory, when the beta went the menus should have been sort of there, somewhat functioning, like when the beta was called so whether or not, they actually called beta some time in February I think but we weren't really in beta until some time in April in terms of at least having something functional there that may have needed or whatever, right?
+
+	I think actually they learned a lot of stuff about being better organized in the development process from the 3.0 dev cycle.  Like I was the first person that they gave temporary access to, and of course I really wasn't prepared for the amount of, how much of my time it took, which not to complain or anything but, then Nacin and Dion were added about a month after I was, whenever that was.  
+
+	[00:32:42] Since then, for example, they haven't actually taken someone who hasn't had a fair amount of activity in Trac and hasn't spent a fair amount of time in IRC because that's actually, I mean, IRC and Trac was where a good chunk of my time went, and if you're not expecting that, well, you know.
+
+Interviewer:	[00:33:08] Yes.  What else do you think they learned about organizational processes in 3.0?
+
+Rennick:	[00:33:15] Let's way theoretically that the menus cost them six weeks on release date - so if you get to a point where let's say you have a deadlock or whatever, however, whatever you want to call it, make the decision.  Yes, we're just going to punt it until the next one.  Like the thing now, what they're doing where they start about two versions ahead of time talking about possibly adding this plugin into [features 00:33:47] and so on, I think that's an outgrowth of what happened in 3.0 and probably had happened in some of the other releases inbetween, but was really an issue with 3.0. 
+
+Interviewer:	[00:34:04] Where do you think the issues for 3.0 came from?
+
+Rennick:	[00:34:09] Oh well, again, my understanding of it was that there were, let's say, three or four competing visions as to how the menus should work and what they should look like, and how many features there were.  I think there was one person that wanted something very simple, very stripped down, but relatively easy to use, and there were other people who, well, you've got all this stuff that should be there and so on.  It was basically you had one person writing patches to make it work one way, and another person writing patches to make it work another way.  You need someone on the lead, among the leads to actually commit it, so until they got to the point where they decided, Well, okay, this is the actual direction we're going to go', none of the patches were actually being pushed into trunk.  
+
+Interviewer:	[00:35:19] Who was supposed to be making the decisions on that release?
+
+Rennick:	[00:35:23] Oh, well, they didn't have an appointed lead like they do now, and actually that's probably another thing that they learned out of the 3.0 to maybe 3.1, 3.2; up until the point where they started, actually, one person is the lead for this release because there really wasn't prior to that, right?
+
+Interviewer:	[00:35:51] Okay.  What else were you involved with?
+
+Rennick:	[00:35:55] Well, my other one is, the export was a really simple utility.  You had to basically export the entire site, that's it.  So I had written an advanced export plugin and I put it in the web log tools collection on a plugin competition and I got second place.  So after I won second place, or before the competition was over I actually took my plugin, made it a patch, and created a ticket in Trac and had that, so that was actually my very first thing on WordPress Trac, was this export, update to the export utility which allowed you to pick date ranges, post types, that kind of stuff, so we actually put that in in 3.0 as well.
+
+Interviewer:	[00:36:45] Okay.  Have you contributed much to any of the other releases?
+
+Rennick:	[00:36:50] Up until I think 3.6 I had actually had patches in all of them.
+
+Interviewer:	[00:37:03] Were you as active as you had been on 3.0 because that seems like a lot of work?
+
+Rennick:	[00:37:07] No.  And the thing is if you don't have, I'll say if you don't have maybe 15 hours a week to spend on it, ten to 15 hours, you're probably not going to get too far, and that doesn't mean you can't put in a patch to do a bug fix or whatever.  I mean, you have to spend some time in IRC, you have to read amount of Trac tickets involved with that, and it's just, like after they gave me some of it I came home and I went through, because we'd talked about doing a triage or whatever, I went through all the Multisite tickets and I wrote patches for a bunch of them or provide information on any of them that were there.  I actually don't know if any of the patches that I wrote, well, [inaudible 00:37:58] have actually been added to Core.
+
+Interviewer:	[00:38:05] Does that happen a lot?
+
+Rennick:	[00:38:10] Well, yes, I would say there is probably a fair number of tickets there that have patches there sitting and waiting.  One of the things is basically, because the project is big enough and there are enough people forwarding issues and so on, unless you have the time to go into IRC and get hold of somebody to say, ‘Hey, can you look at this' and discuss it and all of that, it can actually sit there for quite a whole and - not to say no one knows it's theirs - but there are other things that are always coming up that kind of keep the attention away from it.
+
+Interviewer:	[00:38:49] I think that's always been the case in the project; some people have been complaining about it since the very early days.
+
+Rennick:	[00:38:58] Yes.  Well, yes, that's quite possible, and it doesn't surprise me.  Because I have the experience with 3.0, it completely doesn't surprise me and it's not a criticism of anyone that works, is on lead or bug gardening or whatever.  There is just so much going on that one person cannot keep up with it all.  
+
+Interviewer:	[00:39:22] Did you have a good experience overall?
+
+Rennick:	[00:39:25] Oh yes.  
+
+Interviewer:	Yes?
+
+Rennick:	[00:39:29] It was tiring.  By the time I was done I was really tired but overall that was a huge amount of fun to do.  
+
+Interviewer:	[00:39:40] That's good.  Okay, well, we can leave it there.  Thanks for the extra information.  Tell Andrea I will speak to her next week.
+
+Rennick:	Okay.
+
+Interviewer:	[00:39:49] Maybe I'll see you guys at a work camp?
+
+Rennick:	[00:39:52] Yes.  We're going to work camp New York.
+
+Interviewer:	[00:39:56] I will see you there.
+
+Rennick:	[00:39:57] Great.  See you then.
+
+Interviewer:	[00:39:58] See you then.  Thanks Ron.
+
+Rennick:	Bye bye.
+
+

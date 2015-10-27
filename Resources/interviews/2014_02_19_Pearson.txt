@@ -1,0 +1,281 @@
+Interviewer: I’m talking to Chris Pearson and it’s the 19th of February. Nice talking to you Chris!
+
+Can you tell me how you first got into WordPress?
+
+Chris Pearson: Yes, I’m actually going to plug up headphones really quick. One second.
+
+Ok, so the question was how did I first get into WordPress? Alright, I was building websites back in 2005 and then early 2006 and was using Movable Type, which was kind of the standard at the time, and I started getting clients who wanted me to change things about their sites, such as SEOs becoming a much bigger concern, so people wanted me to change their title tags all across their sites. It was very challenging with Movable Type and not very straightforward at all as compared to WordPress which was written in PHP. I think Movable Type was PERL script, something like that.
+
+WordPress being in PHP was a lot more accessible to me, especially at the time, I was just starting out and didn’t know anything, so the fact that it was on PHP and the fact that SEO was gaining so much momentum as a thing that people wanted or would hire out for, to me those were kind of inevitable forces that pushed a lot of people towards WordPress whether they knew it or not. That was certainly one of the forces that pushed me towards it.
+
+Interviewer: What was your background? What were you doing at the time?
+
+Chris Pearson: Freelance design work, a little bit of development work. A lot of times people would hire me for design but they didn’t know anything about their sites at all, and I would try to help them however I could, and that would extend to areas beyond just design.
+
+Interviewer: I found the interview you did with Mixergy. You said you’re selling knockoff handbags.
+
+Chris Pearson: I only caught a little bit of that. Can you repeat it?
+
+Interviewer: I found an interview you did with Mixergy, you said you were selling knockoff handbags, so I was just wondering about that. Can you hear me?
+
+Chris Pearson: Yes, that was prior to my freelance work, so before I started doing freelance design/development. I was messing with the websites selling knockoff handbags.
+
+Interviewer: Okay, that sounds interesting. So did you see the potential of WordPress to begin with?
+
+Chris Pearson: Looking back, I’m still kind of surprised that a tool like WordPress did not exist even in 2005, 2006. It seems to fulfill such a fundamental need. [3:00] What ultimately — what WordPress does, saving content to a database, it’s your content, you save it, you move it around, you can build a site around it, that basic idea is so fundamental to me, and so fundamental to having a website, that I think it’s amazing that the opportunity existed for WordPress to be WordPress when WordPress became WordPress, if that makes sense.
+
+I’m surprised that it’s as dominant as it is to, in the kind of CMS site building space. I guess you have a lot of end-to-end canned solutions such as SquareSpace or WordPress.com that get a ton of sites that are on the internet, but as far as people building their own sites from scratch, WordPress is utterly dominant in that area. I think, like I said, because it is such a fundamental thing, I think it is surprising that you have one player that’s so strong.
+
+Interviewer: Why do you think it’s so strong?
+
+Chris Pearson: Well, I think in the answer I’d give there, it’s just a lot of conjecture and probably wouldn’t matter very much.
+
+There’s a lot of reasons. You have a lot of people buying into a general ira, and whether it’s correct or not is immaterial, if you have a lot of people buy into something it’s very popular. A lot of things have been popular throughout the years for a variety of different reasons. I think in WordPress’s case, the central message of WordPress — I don’t know what you want to call it, the creed maybe — strikes a chord that resonates positively with a lot of people.
+
+But I think that doesn’t have anything to do with its functionality.
+
+Interviewer: So you think it’s that message that people like, as opposed to the — actually what it does?
+
+Chris Pearson: What’s that?
+
+Interviewer: Do you think that it’s that message — that creed, as you called it — that people care about?
+
+Chris Pearson: I think for a whole lot of people, yeah that reason stands kind of tantamount to all the others. Which is just an interesting aspective thing, that’s the way it is.
+
+Interviewer: What about you?
+
+Chris Pearson: What you mean what about me?
+
+Interviewer: Why did you like WordPress so much?
+
+Chris Pearson: Honestly, it’s all been kind of a process. At the time, in 2006 when I first started really using WordPress for sites and switched my site over to WordPress, I was really just learning as much as possible. So I started modifying HTML files and then adding CSS and that kind of thing. Then it became a gradual transition towards to template systems, and in this case a WordPress template system, and then that naturally grew into themes. Kind of building this core from which you do all your work, so you have the basis — a foundation. [6:00] So that was the natural progression, and WordPress had a way to do this — and I was exploring so many different concepts at the time, just the idea of theming or building a template system. The idea of writing CSS in a way that’s more universal and ready to be used as a distributable product rather than an end-result for one particular client, a very specialized CSS stylesheet as opposed to a very generalized one, is useful to more people.
+
+So it became this progression from a one-off freelance approach to a more ubiquitous, universally applicable approach to design and development. My growth in that, my progression through that, happened in the WordPress ecosystem. So I was just building themes because that’s how I got from point A to point B back in 2006 - 2008, then somewhere along the way I kind of — a lightbulb went off and I really understood what a template system was, and that it maybe didn’t have to look exactly like the way WordPresses did. I realized that there was a bigger problem here, a fundamental problem of what is a template and how does it work? — that was kind of my own journey to go and explore.
+
+So it happened through WordPress but now I just see it all for what it is. WordPress has a template system and that’s that. It’s not the template system, it’s just one of them.
+
+Interviewer: Did you start getting involved with the community? At what point did that happen?
+
+Chris Pearson: That happened pretty much right away. I released my first theme in May of 2006, and then proceeded to release quite a few more. Let’s see here Cutline [inaudible]. At the time that became the most popular theme on WordPress.com as well. So that was kind of the big deal, and that’s how a lot of people knew me back in 2006, 2007, and early 2008, and I used that momentum to launch DIY Themes and Thesis, because I actually shut down my Cutline community because I felt like I was putting a whole lot of effort out there and wasn’t making a dime off of it. I could have done freelance work for people but that was lame. 
+
+Theme work like that leads to 5,000 requests for work and 4,998 of those are long tail, and then you have two really serious ones that really pay off, so that wasn’t really adding up for me. So I deliberately started DIY themes and Thesis with the attempt to “do it right” the second time, to have a product I really liked, to be able to stand behind it and to do it for the long haul.
+
+Interviewer: Do you remember the whole “sponsored links” [9:00] thing in themes?
+
+Chris Pearson: What was it? The whole what?
+
+Interviewer: Sponsored links, when people were paying for links in the…
+
+Chris Pearson: Oh yeah! Paying for footer links and that kind of stuff.
+
+I do remember that. It’s a natural outgrowth, it makes sense. The fact is — and SEO types, link-buying types, picked up on this right away — having those links was super powerful. My own personal site had millions of links in 2007 and 2008. That is mind-blowing. One little guy’s site had millions of links, my site was super powerful in the search results pages, and it was basically on the strength of all of these back links because of my themes. People knew that this was probably a pretty good buy for the money, and it was I’m sure.
+
+Interviewer: What was your opinion of it?
+
+Chris Pearson: Again, this goes into what I said earlier, but it doesn’t really matter one way or the other. A lot of people don’t like that, I am totally dispassionate about it. It’s an opportunity to exploit a thing and a system — Google, search engines — that’s exploitable, and if an opportunity like that exists, it’s going to be exploited until people find a workaround or find a way to shut it down if there’s enough people who don’t like it, or whatever. Or until Google penalizes people for taking that action. You set up an opportunity to be gained, you should expect it to be gained until you change the system.
+
+So I don’t care one way or another. I wouldn’t have put it my themes, because I would have felt like it might have compromised my reputation or reliability or just genuineness. I wouldn’t want that in my product, but it doesn’t matter.
+
+Interviewer: They got pulled out of the theme directories. People seemed to be really looking for how to monetize WordPress, how to start making money for the time that they were putting in. I was wondering how you, if you recall, how you felt about that at the time? When it was just early on?
+
+Chris Pearson: Well, like I said, I started the Cutline thing and did that for about six months, put a lot of effort into it and realized I wasn’t really making much money off of it — certainly not enough to warrant keeping at it — and I just tried to…you know, I felt like that was my mistake. I set it up wrong. I set it up free. There was no rule that said I had to give it away for free. There’s no licensing that says that, there’s no rule that says that, I just chose to do that, because that’s what was fashionable at the time. With DIY Themes and Thesis I deliberately tried to rectify my mistakes that I had made with Cutline and charge for my work.
+
+That worked out right away [12:00] [inaudible] I felt like I could go with this, and so I felt like I solved my own problem because I had set up the rules of the game, so to speak, I had set the up wrong. So I set them up in my favor to be something sustainable and it worked. So I felt like it fell on me, and not a product of WordPress or anything like that, not a complaint to have against WordPress, it’s a complaint against oneself.
+
+Interviewer: And how did it go down when you started charging for Thesis? What was the reaction?
+
+Chris Pearson: I’d say it was positive right away! Positive right away. It was kind of reactionary, or running contrary to whatever everyone else was doing at the time to be charging for a theme, so you have your people who are going to be like, “Oh you can’t do that! It’s terrible, it should be free!” But the fact is, if you provide value — you can fool people for a little while. You can offer something that seems enticing and people will buy it. If you keep that up over time, then obviously you’re providing enough value to keep people coming back around, and to not be giving crappy word of mouth, so obviously if you provide value it will be sustainable. And I was confident in the value I was providing and so were my customers, so it was easy.
+
+Interviewer: What about from Matt and the lead WordPress developers?
+
+Chris Pearson: What was the question?
+
+Interviewer: I was wondering how Matt and the other lead developers felt about the early monetization of WordPress?
+
+Chris Pearson: You know that’s interesting. I certainly don’t know how anyone felt, but I will say that right around the time Thesis started getting successful, I actually had both Matt Mullenweg and Tony Schneider reach out to me, they started a dialogue, and talking about various things. Talking about the business — not really keying in on me charging for the product per se, I think they were just genuinely interested in how it was going, because not many people at the time had taken the risk and charged for building a theme or plugin on WordPress, so I think they were genuinely just curious like, “How’s it going?”
+
+When we started the dialogue — and then of course inevitably through the course of our conversations, licensing and stuff like that came…and naturally what the conversation ended up centering around for a couple of years…I think it was genuine curiosity when they reached out and they reached out to me.
+
+Interviewer: So you never got the feeling that they weren’t happy about other people starting to monetize WordPress?
+
+Chris Pearson: I think there was some ambivalent — but like I said, I don’t know exactly what they felt. I think there [15:00] was something unsettling there, from their perspective, and I think that manifested itself in conversations and discussions about licensing, but I don’t know that it was all about the licensing. Does that make sense? I feel like that was a cover for a larger point, but I can’t speak to what that was. I just feel like they were unsettled for some reason.
+
+Interviewer: What about other people? You were one of the first sort of premium theme sellers I guess, along with people like Brian Gardner and Adii. What was your relationship like with those people?
+
+Chris Pearson: I’ve always been very friendly with Brian Gardner, and I haven’t spoken with Adii too much. I remember when he was just starting out, he seemed to like a lot of my articles and would routinely reference stuff that I had talked about. Then that kind of stopped as he built his own profile, and that’s natural. We never really talked very much anyway, so I guess it’s what it always was, but Brian Gardner and I have kept in touch through the years for sure.
+
+Interviewer: Why do you think people started to start selling themes instead of plugins? Commercialization of themes seems to have been way more successful. I mean, there are a few exceptions, like Gravity Forms…
+
+Chris Pearson: Well that’s a great question, and that’s a great topic right now. I think themes were a more natural, obvious value proposition for your every day person. “Hey, I get a web design!” That makes sense. I think we are now beginning to see as the market matures and gets better at serving various needs, I think we’re starting to see that plugins are actually a way better business proposition. They’re much more modular in the sense that they can address one singular issue and do one thing and do one thing well, and that is certainly an advantage.
+
+Trying to build a theme dips one’s toes into a whole lot of areas of web development and web design, and it becomes hard to identify a very distinct feature set for that product. So a theme really is a big, big product. A plugin can be much more focused, and I think we’re seeing right now growth in the plugin area that is super positive, and I think that plugins are addressing the sore spot needs much better than themes right now — and providing much better businesses frankly.
+
+But like I said, themes were the more obvious product from the get-go.
+
+Interviewer: Can you recall if there were other attempts to make money from WordPress or if it was really focused on themes? Thinking about in the early days as the theme market was emerging.
+
+Chris Pearson: What was the exact question? I missed the first couple of words.
+
+Interviewer: Can you recall any other [18:00] ways that people were trying to make money out of WordPress?
+
+Chris Pearson: No, I mean really you’ve got themes, plugins, and then service work on top of WordPress, like design work, development work, hosting. Those kinds of things. But those are just the natural aspects of running a website. It really has nothing to do with WordPress, but this part of the market — people are going to be stepping into every one of those needs to fulfill them.
+
+Interviewer: What do you think made Thesis so popular?
+
+Chris Pearson: What do I think made Thesis so popular? I think it was a combination of — I think I was probably the most popular theme figure from 2008-2010. I think I was, given my work on my blog up through 2009 we’ll say, I was on a lot of people’s minds as an authority on website markup and SEO and that kind of stuff, and that really mattered.
+
+Those things still matter. Go to any conference and SEO panels are the ones that are completely full. There was a whole lot of buzz around that topic in those years and I had been talking about those things and going to conferences and speaking about it and I was top of mind at the time. I think that — right guy, right place, right time, and that’s when themes were taking off, so all those things were hitting at the same time for me so Thesis and me, by extension, at the time were just very relevant.
+
+Interviewer: And why didn’t you decide to license under the GPL?
+
+Chris Pearson: Well, there’s a ton of reasons. The first one: the fact is that when that whole dust up happened in the summer of 2010, on Mixergy, the fact is I didn’t know anything about licensing at the time. And I had never sat down with my product and sat there and thought, “Okay, now how do I need to license this thing?” That’s just not — like, I see how you get into that in big business, and I see how it comes up later, but when you’re just a young guy making a thing he wants to make, this is the last thing you’re ever thinking of, especially when you made it yourself. I wasn’t borrowing parts and cutting and pasting or anything like that. It wasn’t like that! I sat down and built this thing to make templates run differently than the WordPress — the natural WordPress way of doing it. Not natural WordPress way, the default WordPress template scheme, which requires a lot of files.
+
+So I never once thought, “Oh, I need to apply a license to this.” I was just selling a thing that I had made and people were happy with that, and that’s all the further that topic ever needed to go. So when I spoke about that on that Mixergy thing, or when we had that dust up, [21:00] I really didn’t know anything about licensing at the time. And of course in the wake of that — in the events that happened later that summer, and that have happened since — I’ve learned a lot.
+
+I’d also had some brief contact prior to that Mixergy thing with a guy who worked with Jason Calacanis, and I want to say he was maybe at Blogsmith or something. I think his name was Jason Alvey — he was a programmer. And I was at a conference and I was just talking to him. I guess this was right after the Mixergy thing. Anyway, right around that time, I remember speaking with him and he had been involved in a blogging software acquisition in the past. He was telling me — we got into a discussion about licensing. Because I was like, “Dude, I don’t understand why people are so hung up on this. It never even came up for me. It’s not something that I sit and ask myself with things that I make, what the licensing would be.” And I was like, “Where is this coming from?” And so we sat down and talked about it and he was like, “Listen man, I just had a big acquisition, and the fact is these investors were scared to death of the GPL. They wanted to make sure that our stuff was not licensed that way because they felt like they had no legal protections and weren’t ready to deal.”
+
+Whether or not that’s legit and whether or not that’s going to change in the future — you know, WordPress is figuring out some great way to manage a GPL license community — those are all potentials that exist, but the fact is, from an acquisition standpoint, from a business community standpoint, there seems to be some vitriol against the GPL as if it were poison not to be touched when some acquisitions — software acquisitions — are being considered. 
+
+That was something I didn’t know! I suppose there’s plenty of other licenses that would be poison, or looked upon as that as well, I don’t know. It seems reasonable. So that’s just more information that I was getting along those lines that it at least suggests that some [inaudible] hey, you can just do this because a lot of people are telling you to do something, it’s the popular thing to do, that doesn’t make it right, and that doesn’t mean that you should just do it just to do it, like jump, jump, jump! Just go ahead and jump.
+
+Things need to be considered. You don’t just do something because everyone’s doing it and it’s the thing to do to make you popular and other people will be happy if you do this. That’s no good reason to do anything, and that’s certainly not the way I do things. It’s not because I’m trying to be a contrarian. I’m not going to do what everyone else says is good for me, I’m going to figure out what it is and I’m going to make that decision myself.
+
+So I had some conflicting input there, and since I’ve spoken with attorneys and dealt with some strict licensing issues in the wake of that whole thing, and I’ve decided that a [24:00] specific license is what’s best for me and my business and my products. But the beauty of it is, when you’re writing your own license, you can write any terms you want to in it! You can be a jerk and write super restrictive terms and try to loophole people and nail them down and take that kind of approach to a license, or you can take it as the way that the GPL and the MIT license and those things that have that backing where they try to be cool. It’s up to the license maker whether or not you’re cool or not. The license itself — there is no — a license is just a license. It can be “evil” or not. It depends on the intent of the maker, so just because the license is proprietary doesn’t mean it’s not good or whatever. So I chose that kind of license for my product, but other people can choose whatever they think is best for them.
+
+Interviewer: So for a while you went with a split license?
+
+Chris Pearson: What’s that?
+
+Interviewer: After the Mixergy interview and you end up going with a split license for the Thesis…
+
+Chris Pearson: Yes, that is true. That applies to the Thesis 1 product line.
+
+That was a very tough time for me, as you might imagine. Summer of 2010. What happened — and I’ve explained this before, so I have no problem talking about it. What happened was we had a pretty serious customer backlash internally, because they — it’s one of those things, it’s so funny even talking about it, like people had never even thought about the licensing before and had no idea right! It had never even crossed their minds. Then they read something about it that was pejorative and suggests that we might be a bad guy, just depends on who writes the article, right?
+
+It’s neither good nor bad, it just was, but we were presented as the bad guy, so customers naturally who don’t know better, they freak out and bring this stuff to our attention. Some people got mad! They don’t like being associated with a product that gets portrayed negatively — ever. And I understand that, it’s perfectly natural for them to feel that way, but it’s a fact of the case. They were really unhappy to be associated with something that was being painted negatively at the time, and there was a lot of demand that we capitulate in some way or try to make the licensing — because they were saying, “Now I don’t feel comfortable with this product. I don’t think I can use this product.” Because they were mislead with a lot of blog posts. People were saying, “Oh, you shouldn’t use this. You’re this kind of moral person if you are using the product.” That kind of thing is a ridiculous argument, but these were true for our customers at the time.
+
+So in order to basically appease them and call off the dogs, that’s what we did. In hindsight, I regret doing that. I didn’t want to do that at the time, but it’s not just me in this business and it certainly wasn’t just me at the time, so I did what some other people wanted to do. And I felt like it probably should be done, I would have held my own ground because that’s the kind of guy I am, but because other people were involved I just went ahead and did it. [27:00]
+
+Interviewer: Would you have gone to court over it?
+
+Chris Pearson: What’s that?
+
+Interviewer: Would you have gone to court?
+
+Chris Pearson: It never would have gone to court! Would I have gone to court? I’m not the person you should be asking about that. Someone would have had to take me to court. So would someone else have taken me to court? You’d have to ask them.
+
+Interviewer: When Matt said that they were going to sue you…
+
+Chris Pearson: Well, it doesn’t play out that way. If they’re actually going to sue me, we’re going to have 5000 pieces of correspondence back and forth before anyone even hears about it and it’s going to cost a zillion dollars and be really stupid. So…prepare to go to court over it? Who knows what would have happened. There’s so much to the whole process, it’s insane.
+
+Interviewer: So had this sort of licensing stuff been rumbling on for a while? I got the impression they had been contacting you about it in private and then all of a sudden it was a public thing? What was the timeline of that?
+
+Chris Pearson: I’d say for about 18 months after that Mixergy interview, there was a whole lot of back channel activity that was intentionally subversive, and tried to get big name people off of Thesis and on to something else. And on to particular other theme. And I know that some people from — I have on pretty good faith from some pretty good sources that people in WordPress were involved with this, and they teamed up with a private third party WordPress theme company to try — in a lot of their efforts — and they were pretty successful in doing that and continuing to pound my name into the sand on back channels for about 18 months.
+
+And then it kind of died down, because there was a smoldering hole left in the ground where the earth had been burned behind them, and I felt like — it probably felt like the game was over.
+
+Interviewer: At what point did you change to a proprietary license from a split license?
+
+Chris Pearson: When we released Thesis 2, which is a totally different product.
+
+Interviewer: So Thesis comes out…when did Thesis 2 come out?
+
+Chris Pearson: What’s that?
+
+Interviewer: When was Thesis 2 released?
+
+Chris Pearson: We real eased Thesis 2 on October 1st, 2012.
+
+Interviewer: So the thing that Matt wrote about themes being GPL 2 and have the software freedom law center look into whether themes are GPL, why do you think that in Thesis’ case, and perhaps in other themes’ case, why do you think they’re not GPL? They don’t have to be?
+
+Chris Pearson: You blinked out [30:00] during a critical part of that. You said something about themes and GPL?
+
+Interviewer: Why do you think that themes don’t have to be GPL? Why do you think there’s not a requirement when PHP [inaudible] WordPress?
+
+Chris Pearson: Why do I think that themes don’t have to be GPL?
+
+Let’s reframe. Why do you think that themes have to be GPL?
+
+Interviewer: I’m the interviewer though!
+
+Chris Pearson: Well right, I’m just saying that’s another way to ask the question, so that’s the question I would ask. It’s two sides of the same coin.
+
+Here’s another [inaudible] question: in any software — let’s say you have software that has an API that let’s people build things with or on your software. One of these would come — and with pretty much any piece of software — is a plug-in point. A hook, a whatever. A point at which another program can bolt on to this one and start running stuff.
+
+That right there — that question — if something is bolting on to this, this being whatever entity over here, but it could also bolt onto something else — or anything for that matter, it’s a standalone piece, but you’ve chosen to bolt it on to this particular thing — what, if any, is the relationship of licensing between those two components? And should there be any?
+
+So — and I’m going to reference this directly now — the WordPress GPL question is one of directionality and hierarchy. WordPress is saying that it gets to set the stage for anything that connects to it. Well, it’s kind of like saying WordPress is the starship Enterprise — a spaceship out in the galaxy somewhere — and there’s a little ship — I guess one of the crew members has his own personal ship — and he goes out from the starship Enterprise to visit a planet or something, and the ship is really small, and it fits inside the starship Enterprise, and it’s just a tiny piece of it. When you look at it that way, you can say, “Sure! Maybe that little plane needs to inherit the licensing of the starship Enterprise.” But another ship comes along and it latches on to the back of the starship Enterprise but it’s 400 times larger than the starship Enterprise, dwarfing it. But it connects to the same point on the Enterprise that this little pod plane does. So does that 400 times larger behemoth then inherit the licensing of the starship Enterprise?
+
+I don’t know the answer to that question, but I’m saying this is exactly what you’ve got to ask yourself. Where are these lines in the sand? Are we really drawing these arbitrary lines in the sand? Are we really trying to say that this and this and this and this and this need to comply here and here and here and here? That is a slippery slope. That is all I’m saying. [33:00]
+
+Interviewer: So WordPress is the starship Enterprise and Thesis is…
+
+Chris Pearson: Well, I’m just saying — that’s an analogy I think a lot of people will understand.
+
+Interviewer: Right. Ok. So after all of the Mixergy thing happened and  you guys were — very public — how did that affect your idea why themes and Thesis’ position within the WordPress community?
+
+Chris Pearson: What I think surprisingly to many people, the affects really weren’t negative at the time at all. 2010 was an extremely good year for sales. 2011 was very good as well. And adding Compass’ 18 months after that whole thing occurred — and so really I can’t say that it was bad! I would prefer that that not have happened, I would have preferred that I had thought a bit more about licensing at the time, I would have preferred that I had been savvy enough to know not to get on that interview that I was going to get double-teamed for a purpose. I don’t think that that was very fair to me, and I certainly wasn’t prepared.
+
+I don’t make those kinds of arguments, I agreed to go on there. It’s my fault, and everything that happened there is my fault, and that’s okay. I don’t really regret it. I don’t feel like it was bad for business. I gotta be honest with you: that incident has kind of normalized me in WordPress lore and has made me continually relevant because people can not stop mentioning Thesis and GPL and licensing. So that’s kind of — the eternal equity there I gained from that, so that’s not all bad. Every time I make a move people pay attention because — really, I’ve told this to people privately, I don’t even know why people care anymore! I really don’t! But in the space between Thesis 1.6 in 2009 and the release of Thesis 2 in October of 2012, I barely released anything. 
+
+I was so surprised. It was comical, almost, to me, that I sustained that relevance, because what had I really done lately? So it’s not all bad.
+
+Interviewer: So how did the Mixergy interview come about?
+
+Chris Pearson: Well I had actually done a previous interview with Andrew and he really liked it and it got him a lot of traffic, and so he wanted to have me on again. And his idea was a damn good one, because for a long time — and maybe even still, I don’t know — that was Mixergy’s highest traffic item ever. So Andrew is a good producer. 
+
+Interviewer: But you felt that you had been set up to be [36:00] tag teamed?
+
+Chris Pearson: It wasn’t like that. It wasn’t like that. But I think that Andrew took a populous kind of approach to that and that effectively was a double team. I don’t think it was intentional on his part at all. I don’t think there was any prior collusion or collaboration or anything like that. I doubt it.
+
+Interviewer: What did you think about other theme sellers deciding to use the GPL? Did you think that they were…
+
+Chris Pearson: I thought that that was strictly [inaudible]. The community wants you to do it, they’re all standing around just waiting with anticipation for you to do it, and then you just do it. You just went to them, like, “Ahh!” just falling backwards into the cross circle where you would fall back and they would catch you. It’s like that. Like, “Let go!” It was one of those things, and that’s what everyone chose to do. I didn’t. Other people didn’t — I’m not the only one. We all make different choices and that’s what they wanted to do.
+
+Interviewer: Did you think their businesses could be successful when they had GPL license?
+
+Chris Pearson: What was the question?
+
+Interviewer: Did you think that their businesses could be successful?
+
+Chris Pearson: Oh absolutely! I think they’ve been wildly successful. I don’t think the license, in terms of the business’ success — I think that being GPL is probably a neutral to slightly positive effect, and not because WordPress is going to toot your horn. They’re not going to. They’re going to toot a couple of horns, but there are hundreds of companies here. Effectively, no one’s getting their horn tooted by WordPress.
+
+What it is, is that the community accepts you, you have removed some friction that would otherwise be there. So that is a win for a GPL company. Slight win. Most of my customers, unless provoked, would not know — have any idea about licensing, once again. We’re four years removed from that, three and a half years removed from it. Nobody knows. Nobody cares.
+
+People care about the terms of their purchase — like how many sites can I use this on? — that kind of thing. [inaudible] while you’re trying to do Phase 1 of your business and build up and sell, that kind of thing, GPL might be neutral to slightly positive. It’s later — long term planning — selling your product…let’s say you build this great core that can be extended, and some larger company may want to buy, or you may have an exit strategy, there’s many things that could happen here. Because I build for tomorrow, I’m trying to build a machine that’s going to be useful now and later. Any developer is going to eventually [39:00] figure out that that’s the approach they need to take.
+
+In that long-term view, if you have a central piece of your software that is not really going to be able to be acquired and used in a particular way, then you have limited the amount of potential uses for it in the future. [inaudible] GPL product could turn it into something like a community managed thing like WordPress. Now, that may be perfectly okay! You may be prepared to do just that. But you may also not want to run that kind of thing. You may want to have a different exit strategy, and the GPL may have precluded that.
+
+So it’s merely an issue of strategy and where you’re at and what you want. 
+
+Interviewer: So how did you come up with the Thesis 2 license? Did you work with lawyers?
+
+Chris Pearson: Yeah, I had to work with lawyers. That’s what you do, unless you know how to write technical licenses yourself.
+
+Interviewer: What informed that? What did you want the license terms to be?
+
+Chris Pearson: What did I want them to be? Just like, can’t take the work and resell it. Can’t take the work and repackage it unless we specified that this piece is a piece that can be repacked, that kind of thing.
+
+Interviewer: Think you’ve actually answered all my questions. So thank you for speaking to me.
+
+Chris Pearson: Well I’m glad we were able to get through this! I wasn’t sure at the beginning if I was going to be able to hear you or not.
+
+Interviewer: Yeah, it’s okay, I might come back to you with some more questions later on when I’ve been doing more research into it if that’s okay.
+
+Chris Pearson: Yeah, that would actually be fine. I felt like I had one thing I wanted to mention to you that might have been of interest to you. Trying to see if I can remember what it was.
+
+I guess not, I guess not for now. If I do think of that I will shoot you an email though.
+
+Interviewer: Yeah, or ping my on Skype any time, that’s totally fine.
+
+Chris Pearson: Excellent.
+
+Interviewer: Well thank you for speaking with me Chris, it was really good!
+
+Chris Pearson: Yes, enjoy Thailand and have a good day!
+
+Interviewer: Thanks, bye!
+
+Chris Pearson: See you!
+
+[Audio ends.]

@@ -1,0 +1,237 @@
+Interviewer: It’s Friday the 11th of April, I’m speaking to Collis Ta’eed, hello Collis.
+
+Ta'eed: Hi.
+
+Interviewer: So can we start by… can you tell me a bit about your background?
+
+Ta'eed: About my background as in, professional background?
+
+Interviewer: Professional background.
+
+Ta'eed: Professional background, yeah, no problem, so I was a web designer, well once upon a time I studied math actually, mathematics, and became… it wasn’t really my calling… [interrupted]
+
+Interviewer: Hello?
+
+Ta'eed:…photoshop, which was bootlegged actually, back before I knew better but hopefully I paid back Adobe over the years, but anyhow it got me into becoming a web… this is probably the first interview that opens with an admission of piracy.
+
+Interviewer: It is actually. Actually no, we did have another one which had something along those lines. So you’re not on your own.
+
+Ta'eed: Yes I learned my… I learnt pretty quick happily and I’m an avidly paying Adobe member, if anyone from Adobe is listening. Anyhow, I became a web designer and worked at a couple of places, very tiny little agencies, my first job was with a wedding singer, actually, who did web design on the side, so I joined him as his fellow web designer. Anyhow, and then became a freelance web designer for a little while and decided to start Envato because we, my wife and I, Cyan and I, we’d gotten married and we were freelancing together and neither of us was particularly good at freelancing and she wanted to travel, so we thought let’s build an online business, because then we can go anywhere and just do it via our laptops, so yeah, that’s what we did.
+
+Interviewer: What was Envato to begin with?
+
+Ta'eed: Our very first product was a Flash marketplace, so Adobe Flash. I used to be a Flash designer, this was like back in the mid two thousands, the mid noughties I think…uh I don’t know if I’ve ever actually heard anyone refer to it as noughties out loud. 2006 we started the company, so I had been a Flash designer, I used to sell on iStockphoto which used to sell Flash, oddly enough, but it was like a real minor part of the site and they would do things like refer to everybody as photographers, so I was like I’m not a photographer, I’m a Flash designer. And so we started at that time it was called FlashDen, and it was a marketplace for selling Flash components, so preloaders and things, and a little while in somebody uploaded an XML powered website template and it was a big hit and… because of the nature of the marketplaces [inaudible] [3:00] one success in that space, other authors sort of flock to it and we started having heaps of people make XML driven website templates and that built up FlashDen.
+
+Interviewer: Yeah, sorry your connection keeps breaking up, are you there?
+
+Ta'eed: Oh, I have some, I have a cable [inaudible] give me a second, I’m on wireless at the moment… Let’s see if that’s any better, just give me a moment. You’d think the jump from Melbourne to New Zealand…
+
+Interviewer: Yeah I know.
+
+[inaudible]
+
+Ta'eed: Is that better? 
+
+Interviewer: It’s a little better. Let’s see how we get on.
+
+Ta'eed: Ok. I could always try giving you a call back or we could switch to Hangouts or something.
+
+Interviewer: Uh possibly, let’s see how we get on. So that was your first theme, did then you start ThemeForest?
+
+Ta'eed: No, so in 2006 we started FlashDen, in 2007 I got into blogging actually. So with FlashDen I always wanted to do more stuff than our application actually could, and our developer at that time was like just go start a blog so you can run your competitions as blog posts and things, and he referred me to WordPress. I installed a copy of WordPress at the very start of 2007, actually no it was at the very end of 2006, it was like Christmas Eve or something and I was like wow this is awesome. I started my own little personal blog, and then I started a site called FreelanceSwitch which used to give freelance advice and then I start publishing Photoshop tutorials using a WordPress install and that was all in 2007, and that became Tuts+ which FreelanceSwitch we eventually folded into Tuts+ as well actually. So in 2007 was kind of the year of starting publishing sites, and it was in 2008 that we then launched our second marketplace which was audio actually, AudioJungle, and then the third one was ThemeForest. 
+
+Interviewer: Ok.
+
+Ta'eed: Yeah.
+
+Interviewer: Was that not just WordPress themes, that’s lots of different types of themes isn’t it.
+
+Ta'eed: Yeah that’s right so as I mentioned before, Active, FlashDen one of it’s most popular things was website templates so it seemed like a logical thing to do to build an entire marketplace for website templates so ThemeForest was like August 2008, and it started with HTML templates, WordPress themes, Joomla themes, and Drupal themes. I think I might have had like a miscellaneous category which just had all kinds of other CMSes but those were the four sort of main categories and of them WordPress was very quickly a standout. 
+
+Interviewer: Right. So what sort of percentage was it of your sales in terms of ThemeForest?
+
+Ta'eed: In those early days, I’d need to go back and have a look at it but [6:00] I’d say probably about a half even from the beginning. Yeah it was very quickly the standout category. I mean at that time I think Joomla had been around for a while and was beginning what has been a bit of a long steady decline I would say, don’t know if any Joomla fans are out there listening to this groaning but I think it’s, when I look at most [inaudible]  decline, I mean that said our Joomla theme sales are much larger than what they were back then but, as a sort of overall market, whereas WordPress was really, at least the premium theme market I think was just getting started. I believe Adi and company had just launched WooThemes a month or two prior to ThemeForest coming out and I think StudioPress might have been around? There weren’t very many theme shops at that time, it was pretty little, and I, I remember people saying things like why on earth would people pay for a WordPress theme, those things are free.
+
+Interviewer: Yep.
+
+Ta'eed: But I said umm I think they will, we’ve sold a lot of XML templates, I think they’ll buy WordPress themes.
+
+Interviewer: Yep. So what percentage of your sales of ThemeForest is it now?
+
+Ta'eed: I’d need to check but it’s similarish, about a half.
+
+Interviewer: Ok so they’ve all sort of grown about the same amount?
+
+Ta'eed: Yeah they’ve, and we’ve extended ThemeForest a lot into eCommerce which is quite a substantial portion, Magento, a whole bunch of other platforms over the years. So I’d say WordPress has grown faster than the things we had at the start, but ThemeForest has, we’ve constantly been broadening it.
+
+Interviewer: Uh huh. What did people think when you started selling themes? Like through the market, you know creating the marketplace?
+
+Ta'eed: Yeah I think they were broadly pretty open to it, initially… So our idea at the, at the very beginning has been to have quite a, I don’t know what you’d call it, almost industrial, so like there was no support included, that was the initial offering was no support, but they were quite cheap so they were like twenty to forty dollars I think at the very beginning when forty dollars was like the, I don’t even know if we had any actually, I’d need to check that. Definitely we had twenty dollar themes though and twenty five dollar themes and thirty dollar themes, there was no support and the aim was really to sell them to other freelancers who would then you know be selling to clients and things. It was the only one of our marketplaces where even in the private beta we saw sales, I’d need to double check the numbers but my recollection of the first month it was like twenty five thousand dollars of sales of themes which was like, I don’t know, I guess  the response was good, is the answer.
+
+Interviewer: When did you move into plugins?
+
+Ta'eed: Plugins, [9:00] testing my memory, I think that was 2010, I’ll make a list of things I need, of details to give you afterwards.
+
+Interviewer: That would be excellent. 
+
+Ta'eed: Yeah no problem. Yeah I’m pretty sure that was around 2010, it was a little while later. I think plugins, also just generally as a market premium plugins has been a kind of, a little after themes as well, if that makes sense. So it was a while before I started seeing many paid plugins either. There was a group here in Melbourne oddly enough called WPMU who launched wpplugins.com just shortly before we added it to CodeCanyon. And at that time, so plugins on CodeCanyon had always been 100% GPL and I wasn’t sure at that time if that would work to sell things as 100% GPL, but it turned out it did. We added the plugins category and these days it’s gotten quite substantial in size.
+
+Interviewer: What sort of percentage do you think it…?
+
+Ta'eed: I have absolutely no idea. But I will go and check that. We’ve got so many different types of things we sell, I’m trying to think on the fly for plugins, uh, I’ll come back to you with actual useful numbers rather than my made up.
+
+Interviewer: That would be great.
+
+Ta'eed: I know at the moment like currently we’ve got plugins which are selling five hundred odd copies a week, so it’s gotten…
+
+Interviewer: Oh wow.
+
+Ta'eed: Yeah it’s amazing, and there’s plugins there that, the top selling plugin on CodeCanyon which is one called Visual Composer then has a whole bunch of extensions, I mean they’re more plugins really but they’re extensions to the original plugin which also sell. So there’s a bit of an ecosystem, of course we’re seeing the same thing with WooCommerce and that’s, it’s, a plugin that’s become a platform really.
+
+Interviewer: Did you have much contact with the WordPress community when you started selling themes?
+
+Ta'eed: I don’t think I did, I mean I thought I did at the time, like I thought we were selling WordPress themes, the people who showed up were the WordPress community. It was a while later that I started to realise that there seemed to be another community called the WordPress community and they weren’t necessarily that big a fan of what we were doing. It was, I think in like 2009 I’m gonna say, I wrote a book about WordPress theming and I emailed Matt, that’s the first time I ever emailed Matt saying hey I wrote this book, and he taught me the spelling of WordPress correctly with the capitalisation. I was like thanks, that’s probably an important thing for a book on this subject. But yeah at that time [12:00] and we, obviously we were publishing tutorials about WordPress on Nettuts for a long time, around the same time that we started ThemeForest, possibly even a little before. But it wasn’t until, we’ll say 2011 or so that we started having more contact with the WordPress community. There was a post on a site called WPCandy I recall, that was I think it was called why is Themeforest the redheaded stepchild of themes, or something like that and I remember at that time being like what, we are? But we’re, you know, we sell lots of themes and we’ve written books and tutorials. Yeah and started to realise that there was some level of criticism, probably a good portion of it justified criticism of, you know we should do more on theme standards and things. I think we’d grown a lot as an entity and not quite realised that it was, we were maybe more impactful than we thought we were. 
+
+Interviewer: Yeah that’s true. I remember that post. How did that make you guys feel? I mean, did it come out of nowhere?
+
+Ta'eed: I’m trying to remember, I’m pretty sure at that time it was pretty much out of nowhere, I remember thinking, I was just like a bit of huh? Ok. I guess we should do something about this. It was not that long later that we brought on Japh Thomson as our WordPress Evangelist to start us, start helping us engage more with the WordPress community, also to like identify things we could do to improve and that sort of started us on a bit of a path, I’d like to believe that we’re in better standing in the WordPress community… 
+
+Interviewer: I think so.
+
+Ta'eed: Maybe your other interviewees will be able to clarify but yeah I think that that got us a bit more engaged.
+
+Interviewer: So before whenever you started selling themes on there, did you have any sort of review process or did you just like, yeah just sell whatever, as long as it’s…?
+
+Ta'eed: Oh no we’ve always had reviews from day one, so because we’d actually been running marketplaces already we’d had a review system and a review team and we’ve always turned away quite a reasonable amount, I’d need to double check the numbers, but like I know… The one I always remember is in our PSD templates category, so not WordPress themes but in Photoshop templates we turn away 99% of submissions.
+
+Interviewer: Wow.
+
+Ta'eed: Which is kind of mind boggling. In WordPress themes it’s less, but I’d say we turn away maybe half and again I’ll double check the, the numbers. So uh, but like our standards, our theme standards have evolved, I think historically [15:00] we’ve had a bias towards visual standards over coding standards which have slowly, which have sort of been slower to come in. But yeah, we were reviewing from day one.
+
+Interviewer: And when you started selling themes, did you think at all about licensing or was it, I mean it terms of you know the GPL or were you just like thinking about, you know, your ThemeForest license?
+
+Ta'eed: Didn’t, uh, in 2008 had no clue, I’m not even sure I knew what the GPL was in 2008. It was an email from Matt sometime after I think I’d written that email about my book was the first type of contact I ever had, and a little while later I wrote to him about the theme marketplace and he pointed out that we didn’t have the GPL license and we at that point made it so that all the PHP code was GPL, so it started, I mean I guess maybe arguably it had always been GPL but the thing that [inaudible] we started inserting the GPL license and I can dig up the blog post where we announced that everyone needed to have this as part of their themes. I think it was 2009, maybe about a year in, that we had the GPL component to licensing.
+
+Interviewer: Yep I have the blog post, it’s on archive.org, so.
+
+Ta'eed: Oh ok.
+
+Interviewer: So why did you…?
+
+Ta'eed: Was the date right, is it 2009?
+
+Interviewer: It was 2009.
+
+Ta'eed: I haven’t prepared nearly enough for this interview.
+
+Interviewer: Yeah, no it was definitely, it was definitely 2009. So why did you decide to just license the PHP under the GPL and not the other components?
+
+Ta'eed: To be honest I think at that time, so I, being a graphic design sort of web designer, I was a bit like what, the design would be open source? I don’t even understand what this means, and what does it mean if I’ve included an icon set which you know was licensed under something else or stock photos that I’ve bought from somewhere, or or or… And so at that time that didn’t make a whole lot of sense to me, to be honest? The putting GPL on the code, I, I think I had a much better understanding of how that sort of thing worked. I also felt like it would protect the, the, I guess the commercial integrity. I kept thinking, I remember at that time when those theme shops would appear, would like switch over to 100% GPL, I kept wondering if, if it would lead to people just selling other people’s material, it never happened though. So, I have to, I can um, I’ve been like pleasantly surprised by human nature when it came to the GPL. But yeah my background in design really led me to feel like ah ok well the design is, you know, something you have to protect [18:00] and yeah, it’s your intellectual property and, mm.
+
+Interviewer: So you didn’t, because of that you wouldn’t have got featured on wordpress.org under the commercial theme sellers, did that have, did that have any impact on your, on your business?
+
+Ta'eed: Uhh I don’t think, I mean I’m sure it must have had some impact in that sense that if we’d been there maybe it would have gone even better, but we’ve been you know really fortunate and lucky that things have gone really really well, so uh it could have always been better though I’m sure. And later on in I’m gonna say early last year, you’d think my memory of like 14 months would be better, but anyway, I’m pretty sure it was around 14 months ago that there was a bit of a public discussion about why we didn’t have full GPL options available and what not, and at that time, so that was where you know there was the guy, Jake Caputo at um, published a post about being blackballed and there was a few discussions back and forth and eventually we started offering the option.
+
+Interviewer: Yep.
+
+Ta'eed: But at that time, Matt published a comment that, he would put any theme marketplaces that did go 100% GPL onto wordpress.org’s homepage, I think that probably, like a homepage exposure seems like it would do a lot. The theme directory has a lot of amazing theme sellers so I think yeah a little less exposure overall from the directory, mm hmm.
+
+Interviewer: So had you been contacted prior to that about going 100% GPL or offering that option?
+
+Ta'eed: Yeah so every now and then we would get somebody from, especially through WordCamps, so for a while we’d been sponsoring WordCamps sorry I can’t remember the years that we did it but there was a little while that we were sponsoring WordCamps when all of a sudden we started getting messages back from WordCamp organisers saying that the um, I’m not sure if it was that the rules had changed or just been clarified or, someone was actually making sure that the Camp organisers realised that only 100% GPL content companies could sponsor and so we started having WordCamp organisers saying hey, you know, why don’t you do this and then you can sponsor us. Um, yeah.
+
+Interviewer: What did you think?
+
+Ta'eed: So I mean for quite a while I, as I mentioned before, was really like this doesn’t make sense to me, selling 100% GPL, I feel like our, there’s lots of authors who wouldn’t want to sell 100% GPL [21:00], [inaudible] the way they are, the options there, well not the options but the, the GPL is on the code, um component, and obviously eventually last year I came to the conclusion that really we should have been giving the option for authors to go 100% GPL and after the issues with Jake and WordCamps we did introduce that option.
+
+Interviewer: Yep. How did you feel whenever Jake wrote that post and it all went a little bit crazy?
+
+Ta'eed: Yeah it was a little, it was, it kind of sucked, I mean it’s a, a bit depressing to think somebody is like suffering from selling with us, if that makes sense?
+
+Interviewer: Yep.
+
+Ta'eed: Obviously the aim of our marketplaces is to empower our authors to give them you know access to markets to sell on, and to generally do good things for them, not get them kicked out of [inaudible] they want to go to, so yeah that was pretty depressing. And yeah I felt, I felt a bit like we were umm needed to give some sort of response. I can’t actually remember my first response but I remember my second one was like actually I think we should offer this option. I think my first one was a bit more like no, I don’t think this is right.
+
+Interviewer: Yep.
+
+Ta'eed: Ummm my second response after a day or two was like oh actually, why don’t we put the option in, then Jake switched his themes over and got to go to WordCamps, which is nice. 
+
+Interviewer: Yep.
+
+Ta'eed: I assume he’s going actually, I have not witnessed him at a WordCamp but I’m sure he must be going to them.
+
+Interviewer: So did it impact the other, the rest of the ThemeForest community? The sort of, the sort of public outcry about what was going on?
+
+Ta'eed: Uh not really I don’t think, sales and what not just trucked right through as usual, the community I think got a bit more engaged with WordPress as well so I think that was maybe good, by this point I’d realised there was a WordPress community and a ThemeForest community and there was some overlap but not as much as I’d imagined so I think they, it got more of our authors maybe a bit more involved in the WordPress community I’d like to believe? But no, not a, not a huge impact, mostly just I think concerning the authors who were already you know active participants, or wanted to be active participants who suddenly felt like they were needing to choose sides. And happily we got to the point where they didn’t need to choose sides as much, a much better outcome.
+
+Interviewer: Did the results of the survey surprise you, or?
+
+Ta'eed: Oh, the survey when we, we asked about the, the GPL, not really, I don’t recall [24:00] being surprised, I can’t actually recall what we asked, I’m embarrassed to admit. I don’t remember thinking it was a big surprise though. Sorry that’s a real crap answer.
+
+Interviewer: That’s ok. Would you have offered the choice anyway, if most of your, you know, if say 25% of your authors had wanted it but 75% hadn’t?
+
+Ta'eed: Yeah right I see. Yeah look I think at that point we’d, we’d gotten to a place where, as I say, I felt pretty guilty that our authors were paying some sort of price for selling with us, that, that felt pretty wrong. So I think probably but it was good to go to the community and ask them. Do you remember what the, or do you have the details of what percentage did ask for the GPL?
+
+Interviewer: Uhh I don’t have it to hand.
+
+Ta'eed: Do you like how I’m interviewing the interviewer?
+
+Interviewer: Yeah I know.
+
+Ta'eed: I’ll go look it up after.
+
+Interviewer: I think what was interesting was that the people who wanted the GPL were people who didn’t care about piracy, who weren’t worried about piracy with or without the GPL. The people who didn’t want the GPL were people who were concerned about piracy.
+
+[inaudible]
+
+Ta'eed: Piracy is like one of those kind of unintuitive things in my mind, so we, we have a guy for example on our support team whose job is… umm there’s a word for it, it’s not anti-piracy but it’s effectively anti-piracy, you know he goes around issuing DMCA takedown notices and trying to prevent people from you know, abusing the intellectual property of our authors, and it’s important we do it, and you know I think it makes some difference, but you know overall, I don’t think it really stops piracy, or… You know the music industry threw a lot of resources in that direction and I think they kind of proved that it, it’s not particularly effective. So, yeah, I don’t know. But I, so intuitively as a creator of stuff, when you’re earning your living from it I think it feels really wrong when you see your stuff being sold, given away. I always remember finding this site which was giving away all content from our marketplaces and then had a donation button on the side to support the guy who was organising all the giveaways, and I thought this just feels so, so wrong. Why, why is he taking donations. Anyhow. But what can you do. It’s life.
+
+Interviewer: I have, I have the results.
+
+Ta'eed: Oh cool.
+
+Interviewer: So, I guess the verified authors are what you’re more interested in because non-verified could have been anyone. But uh… so 35% didn’t know, so that’s… 31% wanted a split license. [27:00]. 12.5 GPL, and 19% would’ve used both. At different times. So
+
+Ta'eed: Yeah, right. There we go.
+
+Interviewer: I mean I guess a lot of people don’t care about that [inaudible].
+
+Ta'eed: Yeah look I think the reality is that lots of people are quite oblivious of licensing in general. There’s people who are oblivious of all kinds of stuff though, yeah, sometimes you’d think they’d know better given they’re selling licenses but I think there’s a lot of guys out there who just want to make a nice theme and sell it, and aren’t actually thinking much about these kinds of things.
+
+Interviewer: Has providing this 100% GPL option, has that had any impact on the theme sellers? Other than being able to speak at WordCamps.
+
+Ta'eed: I think that’s probably the main impact. No not really, it’s felt a bit like things have gone on okay, much the same as before, yeah but all quiet on the Western front I think.
+
+Interviewer: Yep. So no-one reporting a, you know, spike in people pirating their themes or anything?
+
+Ta'eed: No. Yeah, it’s been kind of like a… nothing much in either direction, not a spike in piracy, not a spike in sales, not a spike in… I think it’s almost felt like um, to a lot of authors and to a lot of the buyers it’s more of a philosophical decision if that makes sense. We haven’t seen lots of submissions of, you know reworked GPL themes or anything like that, yeah it’s mostly life’s gone on.
+
+Interviewer: Yep. Were any of your sellers really opposed to this, to the GPL?
+
+Ta'eed: I think there was quite a few sellers who were opposed to being, to having it enforced like a, a mandatory thing, and I’m pretty sure there’s some forum threads where people were discussing… I think generally any time that you mandate a specific direction it’s going to have some opponents which I think is why at the end I felt like actually, we should the option, giving the option makes the most sense, and you know. Let those who want 100% GPL have it, and let those who just want to do it the other way… I mean I think the… having GPL on code as a mandatory option makes sense as I don’t think, I don’t think that was actually a choice. If that makes sense.
+
+Interviewer: Yep. Yeah that makes sense. What sort of people make up the ThemeForest community?
+
+Ta'eed: A pretty diverse group, they’re spread all over the world. They’re usually web designers or developers, lots of freelancers. [30:00]. There’s quite a, well there’s an increasing number who, it’s their job, so you know that’s what they do. Obviously we talk lots about the, the sort of standout sales guys, and there’s like 15 or 16 people who’ve sold over a million, but there’s a large group of people who make enough to earn a living off, especially in, the numbers if you’re in Romania for example, you need a lot less sales than if you’re in, I don’t know, where’s a, New York City for example. I don’t know much about the cost of living in New York City but I’m pretty sure it’s higher than in Romania. Or Melbourne. Here in Melbourne it’s really expensive to live. You need to sell a lot more themes if you’re living here. So yeah there’s quite a lot of people who earn their living through it. We’re actually, we’ve sent a couple of guys on a trip around the world interviewing some of our community members deliberately to try to get a bit more visibility out of who are all these people, because there’s thousands of them.
+
+Interviewer: Yep.
+
+Ta'eed: So they’ve been zooming around, a little bit like you, but on a much tighter schedule, 80 days they have to travel to I think 40 countries or something like that.
+
+Interviewer: That sounds amazing. Eighty days around the world.
+
+Ta'eed: [inaudible]. To me it sounds like my nightmare. I’m introverted by nature, and trekking around the world with a person I don’t really know, meeting people I don’t know sounds really scary. And exhausting.
+
+Interviewer: Yeah, it would be exhausting.
+
+Ta'eed: We picked the two most sociable guys in the company. One used to be a producer at CNN, and the other was a radio guy so they’re, they’re super outgoing. And I think they’re in Eastern Europe at the moment, I just have this Instagram feed of them in random locations.
+
+Interviewer: So is this your um, the ThemeForest community do they sort of segregate themselves into like WordPress or Drupal and you know, all the different things, or do they sort of…
+
+Ta'eed: Uh no, I think they’re all pretty, in terms of our forums especially they’re all pretty chatty together. We have forums for ThemeForest versus CodeCanyon if that makes sense, like the different marketplaces have forums but it’s fairly overall communal. I find a lot of our popular authors in other segments eventually end up dabbling in WordPress, just because the returns are so strong. So we had an author who, I really thought he was going to be the first million dollar author to sell Joomla themes but in the end he got there by selling a WordPress theme. No, Marius, why. But we’ve got a couple of Magento guys, Magento only, who are starting to come up, but you never know they may end up converting their eCommerce themes into a WordPress WooCommerce combination, we’ll see.
+
+Interviewer: Yep. Ok. Well you’ve actually answered all my questions. So. Thank you very much.
+
+Ta'eed: Oh cool. [inaudible].
+
+Interviewer: No, no. Thanks. [33:00].

@@ -1,0 +1,279 @@
+
+Interviewer 00:00	One of the things I was wondering is whenever you started your blog in February 2002, you said that you were sick? I was wondering what you were sick with?
+Mullenweg 00:13	I don't remember.
+Interviewer 00:18	Was it anything to do with your headaches that you had, your sinus problems?
+Mullenweg 00:25	I don't know. But my mom is about to visit in San Francisco today, so you should try and talk to her.
+Interviewer 00:33	Will she like to talk to me?
+Mullenweg 00:34	Sure, she'll be happy too.
+Interviewer 00:37	Well, I'll be around until probably around midnight, so if you guys want to ping me that would be great.
+Mullenweg 00:45	Okay.
+Interviewer 00:47	That will be good. I just thought it was interesting that you said that you were sick, and that's why you started your blog.
+	[laughter] 
+Interviewer 00:54	That you were very productive when you were sick.
+Interviewer 01:03	Yeah, that's very true.
+Mullenweg 01:06	Did you get sick a lot.
+Mullenweg 01:08	[inaudible] I almost never sick anymore.
+Interviewer 01:12	Yeah, that's good. Yeah, you seem quite healthy, so reading through your posts about you being ill, you seemed much more sickly when you were younger.
+Mullenweg 01:23	Yeah, I used to get ill all the time.
+Interviewer 01:23	Why was that?
+Mullenweg 01:28	I used to get sick all the time, but I think I kind of grew out of it. Like really the past year or so, almost not ever sick at all.
+Interviewer 01:37	That's good. You had some operations?
+Mullenweg 01:46	Yeah. I did.
+Interviewer 01:46	Did that improve things?
+Mullenweg 01:51	Well that helped with the headaches. I don't remember how many there were - probably five or six surgeries. And my headaches pretty much started going away then.
+Interviewer 02:01	What age were you then?
+Mullenweg 02:03	I'm pretty sure that was early high school.
+Interviewer 02:07	High school, I have no idea about American schools [chuckles]. I can look it up. So how did you first get into computers?
+Mullenweg 02:20	Probably because my dad always had them around the house.
+Interviewer 02:29	Yeah. Why did he have them around?
+Mullenweg 02:33	He was-- he worked with computers for an Oil Company, the plant was called Brown & Roots in Halliburton and he-- just as long as I remember, he put on his suit everyday, and grab his briefcase and go to work. They had take your son to work day and those were always really fun to me.
+Interviewer 02:58	Yeah.
+Mullenweg 03:01	Thinking back, it was just a cute farm and I really I almost wanted that. There must have been thousands, and thousands of people in this building. I found it really fascinating. The cubicles were like a maze, clinical and then they have really fast internet, like a T1 connection. I used to go download stuff.
+Interviewer 03:23	What did you download?
+Mullenweg 03:21	There was a show called Babylon 5.
+Interviewer 03:27	Yeah, I've seen that.
+Mullenweg 03:30	I was really into it at that time and they had a website. Two things, I loved Dover cartoons and Babylon 5. I download a video that was 22 seconds had the a postcard stamp size of the Babylon 5 ship command of warp speed or something.
+Interviewer 03:47	[chuckles] So, did you get to go with him a lot to work?
+Mullenweg 03:50	I certainly remember it. It was probably once a year, but it seemed like a good amount.
+Interviewer 04:02	Yeah. And, did you--
+Mullenweg 04:03	Sometimes I'll go with him, because he'd work on Saturdays a bunch. So a lot of times I would go with him on a Saturday.
+Interviewer 04:08	He was happy with you tinkering with computers there?
+Mullenweg 04:11	Yeah. He would give me - I don't remember how I got on, but yeah. [chuckles] He probably - they probably had a shared login system, so he logged in under his account.
+Interviewer 04:24	Yup. And did you play games?
+Mullenweg 04:29	All the time.
+Interviewer 04:31	[chuckles] What did you play?
+Mullenweg 04:34	I think we had a Super Nintendo at that point. So I played a lot of Super Nintendo. A lot of computer games. It's probably how I first got started. We had a Winnie the Pooh game on this old Atari computer that we had. And it was actually really advanced for its time, it had a sort of OS6 type Mac interface - like a Macintosh interface - even though it was Atari. It's a pretty obscure computer, but I found it. I can send you the link. And for that, I played this Winnie the Pooh game, and one of the early Ultimas. In fact, I played Ultima until Ultima 9, so this was probably Ultima 2 or 3. Mostly text-based, and I just found those sort of fantasy games really fun. Had a fighting game called One Must Fall where we'd fight these robots with each other.
+Interviewer 05:28	[chuckles] So you liked the role-playing games, but that was the text-based, go into a room type things?
+Mullenweg 05:36	I started with that, but I remember-- I think they became - I remember them being graphical very early on.
+Interviewer 05:51	Right. Sorry, I'm just looking up the Winnie The Pooh game. [chuckles]. You must have been quite young then.
+Mullenweg 05:59	Yeah, a little bitty, bitty kid.
+Interviewer 06:02	Yeah. And where was-- in Houston did you live?
+Mullenweg 06:08	There's a place called , Mrya Park.
+Interviewer 06:17	Mrya Park. It was you and your mom and dad and your sister?
+Mullenweg 06:23	Yup.
+Interviewer 06:25	What does your mom do?
+Mullenweg 06:26	She's always a mom, homemaker.
+Interviewer 06:29	What was your neighborhood like?
+Mullenweg 06:34	It was nice. Houses, because my grandmother had six kids. A lot of the aunts and uncles lived in area - pretty cool. So I will ride my bike a lot to my grandma's house or to my uncle's house. I had lots of cousins in neighborhood, so it was a very residential neighborhood. But I can also go few blocks over and there's a Popeye’s and a gas station.
+Interviewer 06:59	Right, okay. So, you've got a big family?
+Mullenweg 07:06	I just have a nuclear family. Just me and my sister. Like I said that my grandmother was my only grandparent, all of my other grandparents died before I was born. That's six, three boys and three girls. There was a lot of a family.
+Interviewer 07:24	Did you spend a lot of time for them?
+Mullenweg 07:27	Yeah.
+Interviewer 07:31	Something that I've notice about you is you seem to be quite moral and ethical person. Do you think that was shape by your growing up?
+Mullenweg 07:40	Yeah. Absolutely.
+Interviewer 07:43	In what way?
+Mullenweg 07:46	I think, the church, as a boy scout, all sorts of things. I just like how you grow up with your parents, I think it's a big deal.
+Interviewer 08:04	Did they have a big influence on you?
+Mullenweg 08:07	Absolutely. Especially my mom because my sister was 10 years older. I was not only child but definitely I got a lot of her attention.
+Interviewer 08:23	That's a quite a big age gap. Had she left home by time you were a teenager or did she stick around?
+Mullenweg 08:34	Actually she stuck around probably a few years, I think she probably left home when I was 13.
+Interviewer 08:42	Are you guys close?
+Mullenweg 08:45	We are now. I think when I was really young, I was probably really annoying to her.
+Interviewer 08:49	Probably.
+Mullenweg 08:50	She would be that cool teenager. Once I was 11 or 12 we started getting pretty close.
+Interviewer 09:01	And what does she do?
+Mullenweg 09:06	She now works in computers as well.
+	[laughter] 
+Mullenweg 09:12	I think for 11 or 12 years, at a Catholic Charity Hospital in Austin. She worked in Medical billing and stuff there and just last year she actually went to work for my Dad's company.
+Interviewer 09:26	Right. So your dad is still in web development?
+Mullenweg 09:31	He's never been really a web developer.
+Interviewer 09:35	Right.
+Mullenweg 09:34	But he's still making software. He has a funny company called OpAmp. You can look at the site but you'll have no idea what it does. It's a terrific site of course.
+Interviewer 09:51	Of course [laughter]. Innovative solutions for any information management needs.
+	[laughter] 
+Interviewer 10:02	So, your sister works for him, right?
+Mullenweg 10:05	She does. She technically works for one of the companies they work for, like a Shell, or Exxon or one of these oil companies.
+Interviewer 10:17	So, what age were you when you get your first Mac computer?
+Mullenweg 10:24	I don't remember. That would be something one of my parents would remember.
+Interviewer 10:27	Okay, I'll ask your mom if I can speak to her.
+Mullenweg 10:32	Do you remember what it was?
+Interviewer 10:35	It was a PC.
+Mullenweg 10:36	PC, and is that what you--
+Mullenweg 10:37	Whatever they got into was building computers. We go to one of these warehouse, like stores faraway and buy the parts and then we'd put the computers together. That's was the thing both me my dad got really into, and eventually what I started doing on my early businesses was for [inaudible] musicians in addition to making them websites, I would build them computers. So, my grandmother would refer the realtors or a different musicians would refer each other and I would just build them a cool PC.
+Interviewer 11:13	Wow, that's quite a good job. What age were you then?
+Mullenweg 11:18	I don't know. That was definitely - probably started when I was 13, 12 or 13.
+Interviewer 11:25	So you were quite entrepreneurial then?
+Mullenweg 11:27	I always - I used to think all you needed to start a business was a business card.
+	[laughter] 
+Mullenweg 11:34	I bought this little Avery - the ones that tear apart. Now, I loved printing things. I really loved printing things and so would just - I probably had 10 or 15 different businesses cards over the years.
+Interviewer 11:50	Do you have any of them, in a box somewhere probably?
+Mullenweg 11:54	No [laughter]. I'm going to say no. It's probably for the best.
+Interviewer 11:59	It's probably best to say no.
+Mullenweg 12:02	My phone's ringing [music] Hello.
+Interviewer 12:15	Hello.
+Mullenweg 12:17	I'm still here.
+Interviewer 12:17	You just - the phone is [inaudible]. I forgot what I was going to ask you about. We were talking about business cards. Yeah, I read that thing - the interview sent me for Blog-It called in the Houston Press and you had a cleaning company?
+Mullenweg 12:38	Yeah, Matt's Cleaning Company.
+Interviewer 12:41	How did you come up with that idea or were you just desperate for some money?
+Mullenweg 12:46	No, I just love cleaning windows. I don't know why.
+Interviewer 12:49	Do you still like cleaning windows?
+Mullenweg 12:51	Yeah, I haven't done it in a while. But not probably cleaning my screen.
+Interviewer 12:56	I have--
+Mullenweg 13:00	Yeah, getting some Windex and just going to town on the windows.
+Interviewer 13:02	Wow. Did you like other types of cleaning?
+Mullenweg 13:06	I liked weeding and dusting. I don't really like - I've never liked laundry or that's pretty much it.
+Interviewer 13:18	I guess if you ever need some extra work, you could be a window cleaner.
+Mullenweg 13:22	Yeah. It's funny because the noise that was outside was some window cleaners going by outside.
+Interviewer 13:29	Were you jealous?
+Mullenweg 13:33	Well that is extra cool because they get to hang off at the side of the building.
+Interviewer 13:36	I know, I bet little Matt would have loved that.
+Mullenweg 13:38	Yeah. [chuckles]
+Mullenweg 13:41	Okay, so whenever you started blogging you were working on a PC that you'd built?
+Mullenweg 13:50	Yeah. I use PCs I've built until probably about three or four years ago.
+Interviewer 13:56	Why did you stop?
+Mullenweg 14:01	Hello?
+Interviewer 14:07	Hi. Why did you stop?
+Mullenweg 14:11	Hello, hello?
+Interviewer 14:06	Hi. Can you hear me?
+Mullenweg 14:08	Sorry. You're cutting out.
+	[silence] 
+Mullenweg 14:17	Yeah. I do.[chuckles]
+Interviewer 14:18	It's good to know. [chuckles]
+Mullenweg 14:22	The time was for a reason right?
+Interviewer 14:23	Sorry?
+Mullenweg 14:24	The time was for a reason?
+Interviewer 14:26	Well, quite. Yeah. No, I still like to read those things. So it's nice to know the other people who move away from it do.
+Mullenweg 14:35	I think it's one of those things where particularly moral philosophy, a John Rawls, or any of these Vam, they force you to think of things in the long term or in the broad sense. And I think that's something that has always served WordPress really well. Is when we're setting something up like an archive site right? I want it to be something that will be around 50 years from now and when I think of the URLs I'm like these have to be URLs that we're going to support forever - essentially.
+Interviewer 15:07	So, do you think that studying philosophy and economics had an effect on your thinking around WordPress?
+Mullenweg 15:17	Yeah, absolutely.
+Interviewer 15:21	In what way?
+Mullenweg 15:30	Every way [chuckles]. I think it's just thinking of systems. Not just software or an interface on its own but also thinking about the system around it. A lot of the success of WordPress is the plug in ecosystem. Which is very separate from the way it's been architected and the plug in directory works and the way the-- everything on WordPress.org had thought put into at one point even though as you found a testimonials page today [laughter] But all was created for a for specific purposes that - and the ones that did well are still pretty active just like the directories. Some of them just fell into disrepair.
+Interviewer 16:30	It would be interesting to find any of the -this is why the IRC logs would be great at some point to see the thought processes behind why things came about. That's quite difficult to find. Let me just see.
+Mullenweg 16:54	You said the commit messages were good. Were there any particular?
+Interviewer 16:54	Some of them were good and some of them were really bad. Mike had wrote some good ones so this is quite good, but I spoke to Nathan about it and he wants more of the thinking behind it. I guess I - it seems to me that you're driving force in the early days seem to be semantics and usability. Whereas Mike was getting his links manager thing in. Everybody had their own little thing that they were working on?
+Mullenweg 17:31	Yeah.
+Interviewer 17:36	So finding the thinking behind it. I guess that's one of the things I want to ask you right today is, to begin with, did you all just work in this kind of modular fashion, like off on your own doing your own thing?
+Mullenweg 17:51	I think how we did it is actually how we want to get back to development today. Where sections have owners, right? So, there would be a clear line of responsibility.
+Interviewer 18:05	Yep.
+Mullenweg 18:05	And that works really well.
+Interviewer 18:08	Yep. When it seemed quite freeform, everybody committed what they wanted?
+Mullenweg 18:16	Yeah.
+Interviewer 18:17	Do you think that's had any kind of repercussions today? It seemed to me quite unstructured.
+Mullenweg 18:24	Sure. We could have created functions that were inconsistent. Honestly, a lot of the inconsistent stuff was inherited from YouTube. Like capitalization of ID view, things that still bug me a bit till this day. For the most part I think that the speed of the iteration outweighed the downside of mistakes that we made along the way. I still feel that way.
+Interviewer 19:07	Sorry?
+Mullenweg 19:09	I still feel that way.
+Interviewer 19:10	You didn't think about fixing the IDs when you did the renaming then?
+Mullenweg 19:17	[chuckles] It was really a data thing, right? It's in the scheme.
+Interviewer 19:25	Yup, fair enough. You posted about forking B2 in January. But you didn't create the repository until April. I was just wondering what happened in those few months?
+Mullenweg 19:43	The repository on SourceForge?
+Interviewer 19:47	It says your first thing on track is April, which is your CVS imported thing. Let me find it.
+Mullenweg 19:58	I'm pretty sure we worked before then using CVS on SourceForge.
+Interviewer 20:04	Right. I'm just going to see what I can get.
+Mullenweg 20:16	But maybe not.
+Interviewer 20:22	Let's see. Putting in American dates instead of UK. It says new repository was initialized on the first of April.
+Mullenweg 20:42	That was migration script, right?
+Interviewer 20:49	Okay. So you've already been working on it?
+Mullenweg 20:52	I think so. Yeah.
+Interviewer 20:56	Did your vision for--
+Mullenweg 20:59	You now what, I don't know.
+Interviewer 21:01	You might have had emails or something got in the way?
+Mullenweg 21:08	Sure.
+Interviewer 21:10	How did your vision for the project differ from Michel's? Did you have at that point an idea of what you wanted it to turn into?
+Mullenweg 21:21	No. Not at the time.
+Interviewer 21:26	Where you happy with how Michel had been doing things?
+Mullenweg 21:32	I don't remember. I think so, because I like the software. In fact to this day I admire the simplicity of and some the obviousness of some of the decisions interface things that he had done.
+Interviewer 21:48	Right, but it did lead to some problems that were having [inaudible]. Do you know what any of those are?
+Mullenweg 21:55	It sounds like you have some in mind.
+Interviewer 21:58	No. I don't have any in mind. I can't look at the code and tell you what the problems are.
+Mullenweg 22:04	[chuckles] Did anyone else raise one?
+Interviewer 22:06	Nothing specifically actually. Mike said that there was problems around just that B2 was a one man project, and Michel had just like learning code while he was doing it. Which Michel had said too, and that he said that's what all problems come from. But no one said anything specific.
+Mullenweg 22:31	I was learning code as well.
+Interviewer 22:32	Yes, Dougal says you were all learning code. But do you think there are anything that it came in issue for WordPress, that were as a result of you guys learning code?
+Mullenweg 22:48	Of course security stuff, right? I mean there was really no concept of web security back then. You know we did database sanitization but actually not even that in the beginning. No concept of cross-site scripting, those things. I think something that - it was actually in the early versions, but we've lost it to this day. It's kind of hard to describe, so let's say you're on the edit page for early WordPress or B2, all of the code to do the edit page was right there in that file. So self-contained, so that the disadvantage wasn't really reusable. The advantage was that it wasn't loaded on any other page, and part of one of our challenges with WordPress today, is we kind of moved everything to functions and classes that are loaded with every single page of them. So you're loading the code for editing post even if you're not getting even close to editing a post. And that is an overhead, that I think is holding us back a lot performance wise.
+Interviewer 24:18	Do you think will get it to round it or should we get back to B2?
+Mullenweg 24:26	It's funny when you load up those old versions how ridiculously fast they are. I think that - I mean this is the only working presentation on the course I want. I kind of wanted to emphasize to people just how much slower WordPress has been getting from the execution point of view. I don't think it really took to be honest.
+Interviewer 24:52	Well, I'm not involved with the core development [chuckles]. I think people would like to see it faster.
+Mullenweg 25:02	If you remember the questions there was actual some denials in all that - like is this switch page and it doesn't recognize. This is an improvement overall and what about the themes page. We fixed that up.
+Interviewer 25:18	So, is this something you'd like to see more of speed?
+Mullenweg 25:22	I think performance is paramount and probably one of our weakest areas right now.
+Interviewer 25:26	Well, that's the future stuff. So, I should ask you some more past stuff, but I think that's interesting that performance was an issue even back then. Alex tried out WordPress and said it was too slow and moved back to B2. [chuckles] He took like a couple of releases even though you posted on 9.71 release. You said that it was 300% faster. It wasn't fast enough.
+Mullenweg 26:00	I wonder what we did to make 300% faster.
+Interviewer 26:02	I don't know [chuckles]. I think it seemed to be a lot of reorganization. Be a lot of what you were doing in the early few releases.
+Mullenweg 26:13	Cool.
+Interviewer 26:16	Whenever it became the official bunch of B2, did you contact Michel about that or did he come to you?
+Mullenweg 26:25	I don't remember. I kind of remember him coming back on the Blog. Was there anything interesting in the old cafe log entries?
+Interviewer 26:38	About WordPress? Mostly this--
+Mullenweg 26:41	Or just B2 industry as well?
+Interviewer 26:43	Yeah, there was interesting stuff about the B2, particular around the GPL and how the GPL got into B2. That was quite fun. Michel was having all sort of problems around copyright. And it was interesting see some of the old developers, who I'm trying to get in touch of. But they were trying to create a client an App basically to be able to post from B2 from a Mac. There was interesting things like that is going on.
+Mullenweg 27:16	Yeah I remember. One of the things that was fun about the early days of the WordPress blog, published a lot more of the thinking--
+Interviewer 27:26	Yes.
+Mullenweg 27:26	--behind it. There was - I remember doing a bunch of post about templating systems.
+Interviewer 27:32	Yes, that's on my list to ask you about. [chuckles] It's very interesting to read that stuff.
+Mullenweg 27:41	[inaudible].
+Interviewer 27:43	Michel did some posting about thinking behind things as well--
+Mullenweg 27:53	Probably a lot of that’s in the forms.
+Interviewer 27:57	I got some of the forms, but the--I think the data loss has affected it. That happen a couple of years ago or a while back. So some of that old stuff -very old stuff is gone. The first post in various threads is gone, but I going through them.
+Mullenweg 28:20	Wait, you did a data dump of the forms?
+Interviewer 28:22	No, I'm going through them on the website.
+Mullenweg 28:24	Okay.
+Interviewer 28:25	I spoke to Michael Adams yesterday and he said, that at some point whenever you moved the forms, there was some data loss.
+Mullenweg 28:29	Wow, I don't remember that.
+Interviewer 28:42	Yeah. So there's lots of threads that have no first post, they have subsequent  posts, but the first post is missing.
+Mullenweg 28:50	Really?
+Interviewer 28:52	Yeah.
+Mullenweg 28:53	That's weird.
+Interviewer 28:54	That is weird. It's a bit frustrating, but I'll get around it. So was it important to you to be the official branch of B2?
+Mullenweg 29:08	I think, how I remember it - and maybe this isn't how it happened. I remember Michel sort of coming back to me, like "oh this WordPress thing, it seems to be doing well."
+Interviewer 29:19	He could have gone with B2Evolution though or B2++.
+Mullenweg 29:25	Well, B2++ I think we had already - had we already contacted or brought Domanic in at that point?
+Interviewer 29:33	You hadn't quite, but he came on board like four days later, or something.
+Mullenweg 29:39	Sounds like you're talking to him. And B2Evolution was always a little weird.
+Interviewer 29:44	Why was it weird?
+Mullenweg 29:46	I don't know, it's kind of a one man show.
+Interviewer 29:52	Did you think the fact that there was lots of you involved with WordPress, as opposed to a one man show, do you think that contributed to its success?
+Mullenweg 29:59	Absolutely. A big part of it was just the organizing gene I have to get lots of people involved.
+Interviewer 30:12	You seem to drive quite a lot of it, just getting people excited about it.
+Mullenweg 30:18	Yeah, to this day.
+Interviewer 30:20	Yes, to this day. What about the templating system? You seem to look at smarty and smart templates and then a bunch of other templating systems. Did any of them actually influence what the eventual theming system?
+Mullenweg 30:39	No. Smarty, I really liked and the fact that you said for a couple of projects. Considering B2++ used it. In hindsight, it actually could have been nice to go that direction but I kind of got it in our heads that PHP was a templating system itself. And it's weird to - it's also a different trader between mobile type. We would say if you learn the mobile tech syntax, you just know the mobile type syntax. It's not really applicable anywhere else. If you learned WordPress themes, PHP, you can use that with everything.
+Interviewer 31:32	Was Smarty -was it not PHP?
+Interviewer 31:36	It is PHP. They're all PHP. They're just preprocessors. So they locate all the files and compile it into PHP.
+Interviewer 31:46	 Donncha first commit was getting some Smarty stuff into WordPress. He seemed to be very keen in B2++.
+Mullenweg 31:58	Well, when you think about it, it allows template editing for multi user. Apple was always multi-users from the very beginning. Because we ran this site in islands.
+Interviewer 32:10	So B2++ was a precursor to WordPress MU?
+Interviewer 32:17	Yes.
+Interviewer 32:19	Did a lot of the code go from B2++ into it, or how did that work?
+Mullenweg 32:26	Absolutely. Yes. I mean that's all it was, MU was just B2++.
+Interviewer 32:32	That's interesting. I didn't know that. I knew that they were related. I didn't know that it was just the same thing.
+Mullenweg 32:42	The thing was that he was working a lot on his multiple units and templates and everything. We were working a ton on interface, and so he wanted the interface on WordPress. All the features we were at.
+Interviewer 33:00	So that's why he came on board?
+Mullenweg 33:04	I don't know if that's why. You should ask him why he came on board.
+Interviewer 33:08	He is on the list. So at what point did the kind of structure start to change? It began with Mike, and you, and Don Doogel, and Alex, and Donica they were just committing to whatever they wanted. It seemed a little haphazard, and obviously now of days things are much more structured. What point did you start to move in that direction or did you start to think you need to get control of this?
+Mullenweg 33:45	I don't recall.
+Interviewer 33:49	Did you know at what point you commit access with revoked for the other developers like Mike and Donaco or-- did Donaco still go commit? Alex and Dougal.
+Mullenweg 34:07	It would've been probably years after their last commit. All of those guys just kind of jerked it off - their real jobs became busier or they just had less time to participate.
+Interviewer 34:20	And Ryan Born came on board?
+Mullenweg 34:23	Yeah, Ryan was a force of nature.
+Interviewer 34:26	At this certain points on the commit logs, it's just him. It's amazing. When did he come--
+Mullenweg 34:33	A lot of it was just that he was bugging me with so many patches. I was like, just do this yourself.
+Interviewer 34:40	How did he come on board? Did he start on the forums?
+Mullenweg 34:48	I don't know. You should ask him.
+Interviewer 34:49	I will. I'm going to see him next month. I think the only--let me just look. The only thing I'm wondering about is, the version numbering in the early days kind of seems quite different to how it is now. Like you had a big, 1.0 release [crosstalk]
+Mullenweg 35:12	All the versions are in place.
+Interviewer 35:18	Why did you change the approach to what it is now?
+Mullenweg 35:22	Because I was worried we would - it was arbitrary. We would skip releases to say this is a middle release or a major release or that it took so long because it is excellent. I'm just anti-economics background, anti-inflation.
+Interviewer 35:42	Okay, that's good to know.
+Mullenweg 35:45	[inaudible] Had a fixed monetary supply. We have a fixed version numbering scheme. It just removes all that ambiguity and everything around it.
+Interviewer 35:54	When did you introduce that?
+Mullenweg 35:59	I don't recall. Whatever the version starting growing in [inaudible] Let me look.
+Interviewer 36:03	Okay.
+Mullenweg 36:06	Let's see. I guess 2005.
+Interviewer 36:13	That's quite late.
+Mullenweg 36:17	In 2008?
+Interviewer 36:18	Yeah.
+Mullenweg 36:22	Well, because if you look at it, in 2003 and 2007 there were 8 major releases.
+Interviewer 36:28	Yeah. On that page--
+Mullenweg 36:34	And in fact in 2006, there was no release in 2006.
+Interviewer 36:39	Why was that?
+Mullenweg 36:42	We just took a really long time on 2.1
+Interviewer 36:45	All right.
+Mullenweg 36:50	Then we were all like never - we could've released it any point but kept trying to get one more feature in.
+Interviewer 36:57	Okay, and you try to avoid feature creep now?
+Mullenweg 37:01	By trying to limit releases you automatically avoid some feature creep.
+Interviewer 37:09	Yeah. Okay, I think I've asked you everything for now. There's some mailing lists that are missing, mailing list archives. They're hosted on textdrive.com. Do you know who the person is for that?
+Mullenweg 37:29	So that's now Dean Allen. That used to be the guy CC, Jason. I guess that was Otto on that email, but-- were you on that email, too?
+Interviewer 37:40	No.
+Mullenweg 37:42	The text drive stuff is a bit of a cluster now. Even a year or two ago it would have been better, but since they transferred it back, it seems like it's been very disorganized.
+Interviewer 37:55	Right. Anything on the-- you haven't heard anything from Michel or Isoldo, about the forums?
+Mullenweg 38:02	No. [inaudible] that host, because they do have old backups-- or they should. But, if they - like I said, they seem pretty messed up. [chuckles] Not terribly incompetent.
+Interviewer 38:17	Okay. That's okay. I can work with what I've got. Okay, that will do...

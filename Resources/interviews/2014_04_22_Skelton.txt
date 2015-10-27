@@ -1,0 +1,491 @@
+Interviewer: So I’m speaking to Andy Skelton on the 21st of April, 2014.
+
+Skelton: 22nd?
+
+Interviewer: 22nd of April. Yeah, 22nd of April. Okay. Can you tell me first how you got involved with WordPress?
+
+Skelton: Sure, I was using Blogger. It was 2004. And I was editing my template, I knew a little bit of HTML and Blogger had these template tags. And I did not want any of the date formats that they offered, for the posts. I wanted year, month, day. Because that is the one true sortable way to write a date. But that was not offered. And it did not respond to my request. So that was when I went looking for something else. WordPress 1.5 was in beta, and pretty much that and Movable Type were the search results. So I tried WordPress, it set up easily, so I didn’t even try Movable Type. So now I’d got into WordPress as a user, I wanted all my stuff from Blogger. There was an importer but it left the comments behind. So the first thing that I did, that I contributed back to WordPress, was I patched up the Blogger importer so that it would also pull comments. I didn’t know PHP, I didn’t know what I was doing but I had enough scripting to realise that I could copy and paste the big posts loop into the post loop and make it a comment loop so there would be two loops, and fiddled with it for a few days, made it work, figured out how to contribute it back, and then I had a new hobby after that.
+
+Interviewer: What were you doing at the time, did you have a job?
+
+Skelton: I did, I was working for Lockheed Martin on this imaging contract for the social security administration. So it was basically I’d go around plug in scanners and computers in, in social security offices, which they have in every state. And, and then I would sit there for like two weeks and make sure nothing went wrong, and nothing ever went wrong, so. I had like two days of work every two weeks, and that afforded me lots of time to learn WordPress, and PHP, and come up with crazy projects to do. And that didn’t really have any long term potential for me, that job. They wanted me to move [3:00] to this tiny town in Kentucky where I would not live, that town I mean I could live in, liveable, but not London. So I was looking for something else, and I had met Matt at a WordPress meetup in Seattle. He recognised my name, and asked me about the projects I was working on. We chatted a bit, Scoble was there, Scott Berkun was there. And then a couple of months later he pinged me on AOL Instant Messenger, out of the blue, asked how it was going, was I interested in joining this stealth startup that he was doing, and pretty quickly we made it happen.
+
+Interviewer: How long had you been learning PHP at that time?
+
+Skelton: Just a few months.
+
+Interviewer: What sort of stuff had you been building?
+
+Skelton: Well after the importer, I worked on themes and my, my big idea for a plugin was a popularity contest. I wanted to know which blogs were getting more visitors. So I wrote Blogs of the Day.
+
+Interviewer: Oh, yep.
+
+Skelton: A plugin I realised in 2005. This was before Matt called me. This thing, it was sort of, the original self-hosted stats plugin. It would keep track of, of your hits. But in order to have a popularity contest, you had to centralise the recording of all that stuff. So I set up a server, I put a little script on it that would, that would, that would serve a little file every time, just like the, the pixels that, that do stats all over the web. And it was a dynamic script, so the script would load PHP and run every time there was a hit on somebody else’s blog and that scaled for a little while. It scaled up for, I don’t know, a couple of hundred sites. And when I saw Matt in Seattle, I was telling him about this, and he said well why don’t you just parse the, the access logs on the server? And so that’s what I started to do. And our big project together later that year after I was hired, was we wrote the WordPress.com stats system over a few days here in Austin. And we were reusing lessons from, from that project Blogs of the Day [6:00].
+
+Interviewer: Which were, parsing?
+
+Skelton: Parsing, and what I had learned about database queries, doing inserts and updates and batching things so that you can count some stuff up before, before inserting or updating, so you touch fewer rows. And you get fewer round trips. That Blogs of the Day system was actually Automattic’s first acquisition. 
+
+Interviewer: Was that an acquih-ire?
+
+Skelton: It was sort of an acqui-hire, yeah. It was, and I’m, I’m still very happy with it. It’s, we’re, we’re using some of that technology still, the Blog of the Day stuff. Really the, the only thing about it that’s in any way proprietary is the, the little snippet of trigonometry to figure out the score that a post gets. And it’s a function of how many views they got over how much time and how old the post is, and stuff like that. Every sort of time series ranking algorithm has all these crazy factors and does crazy things, and you can’t read about them because they’re all secret. And this is like that, it’s, it’s just a few functions strung together, and, and that’s still in use kind of on the system. For a while the, the front page of WordPress.com featured Blogs of the Day results, for years. Because that was the best we could do.
+
+Interviewer: Yep. I remember seeing that, and for, like Matt’s and stuff would be at the top, so after a while you guys had to get rid of, you know, the lead developers.
+
+Skelton: Yes, we did, we, we blacklisted ourselves, and we blacklisted Scoble, and eventually when we got the VIP system rolling we blacklisted the VIPs because they really didn’t need the boost of traffic. We wanted it to be more organic.
+
+Interviewer: How many WordPress.org users were using it?
+
+Skelton: When it was the Blogs of the Day that I hosted it, it was all .org, there was no .com yet.
+
+Interviewer: Yep, did you have many users?
+
+Skelton: I think it got up to a few thousand before people started to game it and I pretty much gave up on it. Because I can’t, I can’t control what people do. If they want to duplicate the, the tracking pixel ten times on their site, then they’ve just gotten around all of the, all of the security.
+
+Interviewer: Yep. That sounds like pretty easy to get around?
+
+Skelton: Oh yeah, it was super easy to get around [9:00]. So it had no long term prospects, but it was a great learning project for me, and it did land me a whole new career, so I’m glad I did it.
+
+Interviewer: Yeah. What other stuff, were you working on any Core development?
+
+Skelton: Sure, sure. I did, I did an early iteration of the uploader. 
+
+Interviewer: Yep.
+
+Skelton: Way back. And people complained and complained and complained about that. 
+
+Interviewer: Why?
+
+Skelton: Well it had all kinds of problems, as all uploaders will. It was the first revision, we were just starting, we didn’t really know. But it did some new stuff, it did, it did show you what was happening, uploading multiple files, and showing you that they had been crunched and now you could edit the, the titles and things. And I had to design the whole thing myself, the, the UI, all the animation and the server side and the client side. That was a one man show. So I retreated into my code cave, and, and I would come out with little bits of progress here and there, and show it to Matt and get some feedback on it. And then go back for a few days and work on it. So we wound up with something and it worked and it was a good, it was good first try. And now it’s been through many more iterations, it’s gotten much much better. And I don’t know how many people have worked on it now but I would imagine that at least a dozen people have, have worked on that some way or another. So the uploader was one, widgets was another, which was a plugin first. And the crazy thing that happened while I was working on widgets, was I actually made it more of a theme framework. So your theme was a container widget and then that could contain layout widgets and sidebars and, and headers and footers and content, and each of those could contain widgets. So it was really widgets all the way down, as they say. And I had that working, and I had a theme ported into it, and I thought it was pretty cool, and maybe one day we can have like drag and drop moving all these widgets around, and, I think it was four or five years later when that actually came to pass, and other people did it. Widgets, as you probably know, didn’t ever [12:00] turn into any sort of nested tree of widgets, it was always just multiple distinct containers that could be blocked on a page in different places. So it, it never became self aware or anything like that, but, and I don’t even think that any of that code that did the nesting is still in existence anywhere. I wasn’t very good with version control, and I didn’t save snapshots of my work. So I can’t prove that this is true, but a lot of your drag and drop theme frameworks had some prior art way back when in widgets.
+
+Interviewer: Why didn’t you go for that, do it that way?
+
+Skelton: Matt didn’t like it. That was it. I was very much working under and for Matt, and, and I was more interested in giving Matt what he thought was needed, rather than going off on whatever tangent I thought was cool. I, I don’t think I fought with him on that one for more than thirty seconds, because I had spent all of maybe a day working on this tangent. And it didn’t seem really worth fighting about.
+
+Interviewer: What was the, what were you trying to do, I mean was it for WordPress.com users? It started out on WordPress.com, so?
+
+Skelton: Widgets?
+
+Interviewer: Yeah. Is that right? I’m pretty sure it did.
+
+Skelton: Well I think we took advantage of WordPress.com users to launch it to first, before we made it a plugin.
+
+Interviewer: It was quite a long time before it ended up in Core.
+
+Skelton: Oh yeah, it was a plugin for a long time.
+
+Interviewer: But had you decided to make a plugin first, or did you decide, because it was launched on WordPress.com… in 2006…
+
+Skelton: Oh I don’t remember whether it went out as a, as a plugin before it went out on .com. I suspect it went out on .com first because that way nobody could see the code and it could be sloppy and terrible.
+
+Interviewer: Yep.
+
+Skelton: Yeah, get it to market and then clean it up. But I don’t actually remember that story very well.
+
+Interviewer: Okay. Do you remember what users thought of it?
+
+Skelton: Well there was the standard mix of it’s amazing and revolutionary and everything I ever wanted, down to it’s the stupidest thing ever, it should’ve been done this way. There were always little bugs, and [15:00], and problems with things getting lost or when you change themes different widgets are available, and what do we do. So when you, when you take the cross product of themes and plugins and something like this, widgets, the, the complexity is just, it’s crazy, all the different permutations of things that can happen and go wrong. So we, I remember there being a lot of support tickets around widgets for a while, and when it went into Core that meant that there would be, a lot less of that burden would fall on my shoulders. And other people would fix it up better and improve it better. That’s, that’s my favourite part of, of the whole community software thing. If other people like it enough to use it enough to complain about it, then that’s great, and hopefully other people will like it enough to start working on it. And then I can go do something else. I like to, I like to kick them out of the nest, you know.
+
+Interviewer: What else did you do then, in WordPress Core? Let’s talk about that first.
+
+Skelton: In Core.
+
+Interviewer: Or sort of community, rather than .com.
+
+Skelton: Well there was the stats plugin, that came out in 2006. And that was originally for .com blogs only. And the stats plugin came out, and then a couple of years later it became Jetpack. So I was that guy for a while. And I’m still, I’m still pretty well tied to the whole stats system. Other people are working on it now, but it’s still pretty much on my shoulders to, to backstop anything. And to write the next version of it. Let’s see. There’s Batcache, which people are still using. But I think Jaquith is going to, is going to drive a hea-, a stake through the heart of Batcache. With pioneering  HHVM, and, and whatever other caching he’s doing in Nginx. 
+
+Interviewer: So where did Batcache come from?
+
+Skelton: Batcache, when I was first typing it, was Super-Cache. And the need for it [18:00] was the Gizmodo live blog, when they were doing the Apple events and whatever other events they could get into. That blog was killing WordPress.com. We couldn’t handle the traffic with all those dynamic page loads. So we didn’t have anything that would, that would cache it the way we wanted to. We couldn’t quite configure the existing caching software to work with WordPress the way we needed. So I just whipped up this, this cache in PHP and it saved us through the next Gizmodo event, which happened like a few days after I wrote it. And then I wanted to release it, and in between the time that I wrote it and I was going to release it, Donncha released his own plugin called Super-Cache. And so that name was taken, and so just to keep with the superhero thing, I called it Batcache. 
+
+Interviewer: Ah, I wondered why it was called that. So what made it different to the other caching plugins? 
+
+Skelton: It, it was made for, it was made for memcached, really. So it uses the WordPress object cache, it doesn’t use database, doesn’t use any files. It takes advantage of, of some of the nice things you get with memcached, you get, you get increments, you get atomic add, so with those primitives I made the caching in a way that was pretty different from how Donncha did his. And his also wouldn’t work on .com because it used flat files instead of a centralised cache. Like memcached used, so. We, we needed something that wouldn’t be stored on the hard drives, or just in the memory on the web servers. That’s why that was written.
+
+Interviewer: So Donncha was working, he worked on his just on his own, that was just his side project?
+
+Skelton: I guess so. That, for single server setups for many years, that was the go to cache, the Super-Cache one that he wrote. And Batcache hasn’t, hasn’t ever had much of a life on single host, single server setups like that.
+
+Interviewer: Why is that?
+
+Skelton: I think because most of them don’t even have memcached? So, if they’re, if they’re caching they’re using files or the database or, or local memory. Batcache was meant to be used on [21:00], on sites that are distributed across multiple data, multiple web servers. 
+
+Interviewer: Okay. What other things did you work on? Did you do Core development?
+
+Skelton: Oh Sandbox. The Sandbox theme.
+
+Interviewer: Oh, yep.
+
+Skelton: With Scott Wallick. So, I was really kind of just sitting on his shoulder for that, whispering in his ear saying hey why don’t you, why don’t you do this. And so I think the big things that we came up with were the dy-, the dynamic classes. So that, in CSS, you could, you could basically have access to information about the page like, is this home, is this a single post, is this a page. And it would even put IDs in there, so like, you could have CSS that only selected on a certain post, if you wanted to style a post differently you could, you could save that in your, in your stylesheet. Which was pretty hot back then. I don’t know how interesting it is now, but that was a pretty hot thing. 
+
+Interviewer: Was there a theme competition around Sandbox? Something like that?
+
+Skelton: Yeah I bet there was. Yes I, I admit and I ask for forgiveness for having been involved in theme competitions in the past.
+
+Interviewer: Did you take part in them, or run them, or?
+
+Skelton: The first one that I had anything to do with was on Blogs of the Day, and because the whole point of Blogs of the Day was it was a game to get your blog to the top of the list to get more readers. And also to be interesting enough to make the readers actually come and, and keep clicking through. So it wasn’t just a total spam fest but it was, it, it had all the right incentives to make a total spam fest and that’s what eventually it became. I, I couldn’t design. I didn’t like the look of it so I said hey, I tell you what, let’s have a design contest. And, and I’ll get a free theme out of it and you’ll get a link. And some, some Google juice. And it might have been, it might have been Nick-
+
+Interviewer: Nick?
+
+Skelton: Momrik?
+
+Interviewer: Yep.
+
+Skelton: It was either Nick or Alex. Who, who won that. I forget. I’m pretty sure it was one of those guys [24:00]. But I later learned how, how bad those competitions are. 
+
+Interviewer: Yeah.
+
+Skelton: So, so that’s why I asked forgiveness for-
+
+Interviewer: Well there was a lot of them. And I think, why do you think they’re bad?
+
+Skelton: Well I think they’re bad for the same reason that a lottery is bad. Most of the people who participate are, are going to lose. And they’re not going to get recognition. The only thing they got was practice. And they, who knows if they’ll be able to put their work in a, in a portfolio if you’re never going to actually put it on the site and use it so they can take a screenshot. That’s not to say that all design competitions are, are bad. But the way that this was structured, it, it didn’t, it didn’t have the marks of a good competition.
+
+Interviewer: There were a lot of them though.
+
+Skelton: Yeah, it was, it was a, it was a movement.
+
+Interviewer: There was loads! I mean there was Alex King, had like, even before themes had this CSS, this, had you know this sort of a CSS style switcher on his website and people submitted stylesheets.
+
+Skelton: Oh yeah, oh man.
+
+Interviewer: He had like [inaudible] won the first one.
+
+Skelton: Yep. Well the incentives are there for people to do it, because there’s some expected value and people irrationally discount the competition. It’s, it’s taking advantage of people, it’s a little bit of exploitation, it’s not the biggest evil, it’s not a huge bad deal but, but I think in most cases probably not the best way to go about getting a new design.
+
+Interviewer: There was, so I’ve read, seen this alluded to that people were upvoting in some theme competitions, I think the Sandbox one, people were like voting for their own themes or, getting their friends to go and vote for their stuff, and there was sock puppetry and things like that going on.
+
+Skelton: Oh yeah.
+
+Interviewer: Do you remember any of that?
+
+Skelton: Not specifically, I just know that every time I see any sort of online voting, I’m, I’m tempted to go in there and just pick something random and see how many votes [27:00] I can get registered for it. 
+
+Interviewer: Yep.
+
+Skelton: I’ve owned some competitions that way and then emailed the people saying hey this is what you need to do to, to fix this, and by the way fifty three thousand votes on that were all me. If you want to fix it. That stuff is really hard. You know imagine, imagine you were voting for something that really mattered. Like the president. You’re voting online, and you’re not going up and seeing somebody who can see that you’re a human being, at a table before you go and vote. You’re just sitting at home. That’s a super hard problem that has not been solved yet. So can’t really expect us, us web developers to figure it out.
+
+Interviewer: You said that you didn’t fight with Matt about the widget thing. Were there things that you did fight with him on?
+
+Skelton: I’m trying to remember other disagreements we’ve had that wound up one way or the other. I don’t know. I don’t know. I’ve jumped between so many different projects I don’t remember all their stories. No, nothing, nothing comes to mind. I’m remembering more things that I wrote, but they tend to be more WordPress.com centered and sometimes they’ll make their way into Core. Like the CSS editor. Which has really bloomed in the last couple of years, but for a long time was just a big text area.
+
+Interviewer: Yep.
+
+Skelton: And then it got revisions, then it became visual. There was that, so I had to do the whole CSSTidy integration. I did have a lot to do with integrating TinyMCE… way back when, not [30:00] choosing it, I didn’t choose it.
+
+Interviewer: Yep.
+
+Skelton: But I did, I did a lot of the work and I maintained a lot of the, I maintained that for quite a while.
+
+Interviewer: So did you think adding a text, like a visual editor like that was a good idea?
+
+Skelton: Of course.
+
+Interviewer: Yep.
+
+Skelton: Do people think it wasn’t a good idea?
+
+Interviewer: Yeah, lots of people didn’t like it.
+
+Skelton: Oh I can see not liking it.
+
+Interviewer: No but not, no they didn’t, they thought it should just be HTML, the standard, that there shouldn’t be a visual editor. 
+
+Skelton: Well, they’re, I can say flat out they are wrong when they say that there should not be one. They are right when they say they do not like it.
+
+Interviewer: Yep.
+
+Skelton: But they are wrong when they say that it shouldn’t be there.
+
+Interviewer: Yeah.
+ 
+Skelton: It maybe should have been implemented differently so that it would be easier to pull out, it was not really very effectively pluggable. So if that’s their point then I agree. But it needed to be included, it needed to be bundled, it needed to be the default in order for the software to be very learnable and accessible to the masses, who are spending most of their time in Microsoft Word and they’re used to that. So even though, even though it is just like most of it, at least at first, crappy software, I, I think it was definitely the right thing to do, I’m glad I had a hand in it, I wish I had done a better job of making it pluggable, but ultimately yeah, it was very important to the success of WordPress.
+
+Interviewer: So who chose TinyMCE?
+
+Skelton: I don’t remember that story. It’s another one of those, I don’t really remember. I remember looking at a bunch of different editors and that one being the most capable of those that I looked at. I had to learn a bunch of JavaScript just to trace that code around, and try to make modifications to make it get along with WordPress better. And I was in touch with the Moxiecode guys several times about patches, and sending things upstream to them. I remember we hired them for a bit, I don’t remember if it was, if it was just as consultants or how that deal was structured, but we did pay for some of the development of TinyMCE.
+
+Interviewer: Did it make it better?
+
+Skelton: I hope so, I hope so. [33:00]. We’re still using it, right?
+
+Interviewer: Yeah yeah yeah. 
+
+Skelton: Yeah.
+
+Interviewer: Yeah, but it’s, you know, it’s something people love to hate. 
+
+Skelton: And it, it, there’s a whole range of problems that are implied with a sort of visual editor dealing with HTML, and people are sometimes typing HTML, and sometimes they’re, they’re just typing and getting the editor to know which is which without explicit signals from the user, we worked on that. We tried to make it do the smart thing, and often it would turn out that people were just split down the middle on what they thought it should do. It’s, I think it’s always going to be a difficult area. I don’t work on it very much anymore.
+
+Interviewer: Is that good or bad?
+
+Skelton: I’m happy with that.
+
+Interviewer: Yeah. 
+
+Skelton: I’ve gotten, I’ve gotten less and less interested in writing the software that runs in the browser. And making any HTML or JavaScript or CSS and having to open all those browsers, all those mobile browsers, and test it seventy eight different ways, I, I just get really impatient with that.
+
+Interviewer: So what are you do, what are you working on now instead, stats?
+
+Skelton: Yeah these days I’m mostly working on backend stuff, stats, we did the notification system for WordPress.com over the past couple of years. [Interrupted]. TinyMCE.
+
+Interviewer: TinyMCE?
+
+Skelton: Yeah, that’s, that’s an interesting one.
+
+Interviewer: So what did you have to do to get it in WordPress? What does that involve?
+
+Skelton: Those memories are thoroughly buried, burned, and eradicated. I remember that we had to plug in some sort of pre-save function to get the encoding right. I’m sure it’s 100 times worse now, since we have [36:00] shortcodes like the code shortcode. 
+
+Interviewer: Yep.
+
+Skelton: But I don’t know how much of that is done server side versus client side now, for going between, between plain text mode and rich editing mode. I don’t even know how it works anymore. It could be very far from the way I last touched it.
+
+Interviewer: Okay. What about building the stats plugin? So that was from Blogs of the Day.
+
+Skelton: Yeah, so, the stats plugin was originally super simple, it was, it was really just putting an image tag at the bottom of your post, and that was all the plugin did, everything else happened on the WordPress.com side. But then we decided that we wanted to let people view their reports on their own blogs, and, and how to get that data back and forth. I’m still learning how to make good software, so it’s, there’s a lot of, a lot of software that I wrote that I would never write that way again. I think most people who haven’t been doing this forever experience that a lot. I wrote it that way because that’s the way I wrote it, and that’s what I knew at the time.
+
+Interviewer: Yep.
+
+Skelton: And I would never do it that way again. But I really don’t have time to go over and redo it. So it’s going to stay that way, sorry. Very common story I’m sure. On WordPress.com we have hundreds of database servers, and figuring out which row needs to be put where and where to go find it later, that’s done by HyperDB, so that’s another thing that I’ve been a main contributor to. And that evolved alongside the whole stats infrastructure too, but that was really mainly for the WordPress.com Multisite, and not doing them on [inaudible] tables. Let’s see. They have the domain registration, domain mapping and registration on .com, that was my project, the first [39:00] couple versions of it, I don’t touch it anymore. It’s in better hands. I made a lot of version ones of things.
+
+Interviewer: What, and then someone else took them over?
+
+Skelton: And then eventually someone was forced to take it over. 
+
+Interviewer: Yep.
+
+Skelton: And I tried so many times with so many things to say oh hey, that new hire, can that person be the person who takes over this project of mine? I got it zero times. 
+
+Interviewer: So what was the domain mapping like to work on? It must have been quite a big job, it’s, I can’t even think about how you would do it.
+
+Skelton: It was quite hackish. I was working with GoDaddy, Wild West Domains. Being part of GoDaddy. And I was working against their APIs which had weirdly inconsistent documentation and, and in order to certify our system to hook up to their production system, we first had to run it through a battery of tests on their sandbox system. And there was a big PDF describing all the calls that had to be made, and you could pass the test using Curl and just typing in all the requests if you wanted to. But that wouldn’t help us. So I, I implemented enough of a client that it could register domains but it didn’t actually work the way it was supposed to. It was sort of half way in between doing everything in Curl, and a proper domain registration client. But it passed, and it worked, and it started making money, so it got to live. It never got rewritten. I think it’s in much better shape now, people are working on it and improving it, and the main thing is to make sure that it doesn’t get in the way, and it’s easy for people to, to do their domains. And, so that team has once again gone and made something I made actually work, work well.
+
+Interviewer: So you added Quantcast to stats on WordPress.com at some point?
+
+Skelton: Oh not me, no I didn’t do that.
+
+Interviewer: Who did that, and why was it done?
+
+Skelton: Quantcast had a lot of abilities that we didn’t have. The know a lot about statistics that we don’t, and that’s their whole business [42:00]. I was one guy, and I could call on some other people a little bit, so it was, it was a team of one plus a fraction doing all that. So when we wanted to have more information, we would hook up Google Analytics or Quantcast or whatever. I think it was in Jetpack that Quantcast went out to the .org users. I’m not sure if that got put into the original stats plugin or if it was later than that.
+
+Interviewer: I think it did go, but, not that long before Jetpack. People were-
+
+Skelton: Yeah it was pretty close.
+
+Interviewer: People were complaining about why is there a Quantcast script tracking my site?
+
+Skelton: Yeah. And they noticed because it would say down on the status bar, now connecting and waiting for, waiting for data from whatever domain. Yeah I knew that was going to be a controversy when that went in. I might have, I might have hit enter on the commit but really just doing it because that was what was, that was what was required. Probably around stats is where I’ve had the most disagreements with Matt. What you can and can’t track, and what’s feasible and what’s not given the budget. But I don’t, I don’t remember so well.
+
+Interviewer: Why did you think that adding the Quantcast script would be controversial?
+
+Skelton: For exactly the reason that it was.
+
+Interviewer: Yep.
+
+Skelton: People, people didn’t want to be tracked by something that they didn’t choose to be tracked by.
+
+Interviewer: Yep.
+
+Skelton: It, it was a, it was a violation of some kind of privacy and trust. Not a huge one, but big enough for a lot of people to be vocal about it. Luckily the plugin is GPL and they can take out the Quantcast pixel if they want to, but of course people really want the defaults to be the way that they think they should be. That was one of those things that I was just following orders, I didn’t, I didn’t really like the way that it was done. But if it had been opt in, we wouldn’t have gotten the data, and I think the case would be made, I think Matt would make the case and I would agree with him, that the community has benefited from that data, and no-one was really hurt by it.
+
+Interviewer: What was the [45:00], what was the data you collected and what was, what was it used for?
+
+Skelton: Well Quantcast was good at counting uniques, which we didn’t start doing until last year. They had demographics, I think those were the things that, that I noticed the most that it could do that we couldn’t do.
+
+Interviewer: Yep.
+
+Skelton: And I think we also wanted to know if we were even in the ballpark of accuracy with the stats plugin. And yeah, we’re, we’re all sort of in the same ballpark, nobody ever gets the same numbers. Different ways of filtering out bots, and counting repeat visitors, and things like that.
+
+Interviewer: What did Quantcast do with the data? Did they have access to it then?
+
+Skelton: Well yeah, they, they were serving pixels, so they had everything that came across in those pixel requests. So they, they crunched it and served reports to us, and I’m sure that they also have other ways that they use it, like comparing networks in the aggregate. But as far as like, personally identifiable or potentially personally identifiable information, I don’t think there was really anything untoward happening. I think the complaints, even if they are tinfoil hat type complaints, they’re valid but they don’t actually point at any harm. And I expect that the data was used to the benefit of both Automattic and WordPress the project, and the community. Like to, to understand the difference between the audience of readers and the audience of users, things like that that help with making d-, design decisions about software.
+
+Interviewer: What other privacy issues have you, have you guys clashed over? [48:00].
+
+Skelton: I think that’s the one, for privacy. We’re, we’re discussing the next iteration of stats now, and how it can be totally different and be more about the user, and they can see more faces, and make it more social, and so we’ve been trying to sketch out some compelling new stats report. And one thing that everybody wants to know is, who’s actually reading my blog? Who is it? You guys, you, WordPress.com, you know who they are because they’re logged in, or you know their IP, or whatever cookies, you know who they are. Why can’t you just tell me who’s reading my blog. And everybody wants to know who is reading my blog. A number like, you got 120 views today, is interesting but if you could see that 40 of those people are registered users and they come back this often, and they’re from these countries and they scrolled this far on the page and you can really get down into all of the possible information we could expose about your readers, that would be really fascinating from a publi-, publisher’s perspective. But you can’t just track that about people and share that. People expect that when they’re reading a webpage, unless they’re interacting with it, they’re, they think they’re anonymous. And so we would really like to be able to track all those things and share them, but you can’t just opt people into that automatically. And there’s no disagreement on that, like we’re not clashing on, on that at all. Everybody agrees that we want it, everybody agrees that it’s creepy to, to track it without consent. So there’s no problem. We just have to figure out how to, how to entice people to let us track them and share that information.
+
+Interviewer: I wouldn’t let you track me.
+
+Skelton: You don’t want the authors of the posts that you read to know that you read them?
+
+Interviewer: Maybe in some cases but not all cases [51:00].
+
+Skelton: Right.
+
+Interviewer: And it’s just the one that you didn’t want to know that you were reading their post. Especially if you read someone’s post and it was terrible, like really bad, and then you met, you saw them, and they were like, oh did you read my post? And you’d be like no, didn’t read it. But then they would know. And they would know that you’d lied.
+
+Skelton: That would be awkward.
+
+Interviewer: That would be really awkward! So it’s a case by case thing. It’s a difficult one.
+
+Skelton: Yeah. But it’s too high a bar, the like button.
+
+Interviewer: Yep.
+
+Skelton: People don’t, people don’t click it just because they read something to acknowledge and, and let the author know that they read it. 
+
+Interviewer: Yep.
+
+Skelton: Like is a really high bar, so what do you have, an I read this button?
+
+Interviewer: Yeah, exactly.
+
+Skelton: I read this, and I want the author to know. And my blood type is O negative.
+
+Interviewer: Were you involved with Jetpack?
+
+Skelton: Very. Yeah. Jetpack evolved out of the stats plugin.
+
+Interviewer: Yeah.
+
+Skelton: I’m not so much now, still a little bit, but yeah I was, I was a pretty big player in Jetpack for a while there.
+
+Interviewer: Yeah.
+
+Skelton: The way that it synchronises data with, with WordPress.com, I had something to do with that. Well, that evolved out of the way the stats plugin synchronised its options. And communicated with WordPress.com about post titles and things. Mike Adams took that over and turned it into the sync engine it is now. And now he doesn’t even work on it anymore, some other team.
+
+Interviewer: So can you tell me the story behind it? I’ve read Scott Berkun’s, what he has to say about it.
+
+Skelton: Yeah.
+
+Interviewer: Is that pretty much how it happened, or is there anything you want to, you know you could flesh out a bit?
+
+Skelton: I don’t remember taking issue with that when I read it.
+
+Interviewer: Yep.
+
+Skelton: I know he put my name in the book a couple of times, which was pleasant. Yeah I think he pretty much got it, there’s, there’s the stats plugin, and then we’ve discussed for a long time internally what else we could put into the stats plugin, were we going to call it Stats Plus, or something. And then, I really didn’t want to be the owner of this new thing, whatever it was going to be, plus everything else that was going to get glued to it.
+
+Interviewer: Yep.
+
+Skelton: So I didn’t campaign for Stats Plus, I was happy to hear that stats would be a module in something larger that would connect [54:00]. I don’t remember at which point we came up with the name Jetpack, but there were long discussions about naming it and what to call all the different aspects of it. I do remember coining a phrase about it though, I called it ‘a Trojan piñata’. And I don’t know if anybody still calls it that, but Matt repeated that a few times. It’s, it’s like a Trojan horse, a bunch of, a bunch of stuff pops out once you bring it inside, but the way we see it it’s like a piñata, it’s a bunch of fun stuff, it’s toys and candy, and you like it all. So it gives us access to more stuff, not quite as much as VaultPress. VaultPress is, is like giving us root on your blog. Which is exactly what you want because you’re asking us to administer it, keep it safe and everything, and we can’t, can’t do it with less. Jetpack doesn’t quite go that far, and sometimes we wish it did. But I don’t think there’s anything controversial about what Jetpack does.
+
+Interviewer: What does it do? I mean, does it, what does it collect from your site, what do you save?
+
+Skelton: Well it synchronises a lot of the data, like your posts and your comments over to WordPress.com. So we maintain a set of tables just like the ones on your own site. And we do that so that we don’t have to look at your site every time we want to display, say, your stats report. Because it has post titles, we need those post titles to display the report. We’re not going to call your blog every time. So we synchronise that stuff. We need to be able to construct permalinks and so we need the slugs, so we need the posts synchronised. And what we can do once we have our own synchronised copy of your posts and your comments, we can start building cool services like search, and we can include you in search results that aren’t just on your site. We can stream your content to like Gnip, or Firehose that goes to Gnip, that’s the enhanced distribution module in Jetpack. So, if it didn’t do that, there’s [57:00] a lot of stuff that we wouldn’t be able to offer. We do, we do avoid synchronising stuff that we shouldn’t, like we don’t synchronise your passwords, and we don’t synchronise private stuff that shouldn’t be copied over. 
+
+Interviewer: So like private posts?
+
+Skelton: I think, I think private post content might be filtered out of the synchroniser. I don’t know all the details anymore but I remember there were checks to make sure that private stuff stays private. 
+
+Interviewer: Who designed the UI for it?
+
+Skelton: Who designed what?
+
+Interviewer: The UI?
+
+Skelton: For?
+
+Interviewer: Jetpack.
+
+Skelton: Like all the… the tiles?
+
+Interviewer: All the module buttons and tiles, [inaudible]. 
+
+Skelton: Joen was the main designer on that. So he drew the Jetpack guy that you see on things, that was his creation. He made a lot of those icons, he might’ve had Ben [inaudible] work on those too. But yeah that was mostly him. Now the, the part where it’s impossible to figure out how to disable the module, it’s still that way, right? 
+
+Interviewer: Yeah.
+
+Skelton: I don’t think he designed that. I don’t remember where that came from. But yeah there were some acknowledged faults in the user experience there.
+
+Interviewer: Yeah. 
+
+Skelton: Yeah.
+
+Interviewer: Does anyone do user experience work on it?
+
+Skelton: I don’t think that there’s any priority work on that. I think, I think right now it’s mainly fixing problems and auditing security and consolidating the APIs. But I don’t think that the pressure to, to redesign how that page works is sufficient to actually cause any motion.
+
+Interviewer: So why is it that you just, you guys made the decision that even in order to use modules that didn’t need a connection to WordPress.com, the site had to connect to WordPress.com?
+
+Skelton: Well [1:00:00] I could probably come up with a list of reasons to justify it. I don’t know though what modules work without any co-operation with WordPress.com.
+
+Interviewer: Well I’m trying to, what about Carousel for example. Like images, or galleries don’t need a connection.
+
+Skelton: Okay. So the, the sync engine is designed not to sync anything that’s not needed. So if you’re not running stats, if you’re not running enhanced distribution, and whatever else requests posts to be synced, then they don’t get synced. So the connection to WordPress.com is somewhat tailored to be minimal based on what options you’ve chosen, what modules you’ve chosen.
+
+Interviewer: But you don’t choose a lot of them because they’re on by default.
+
+Skelton: True.
+
+Interviewer: And most people don’t turn them off.
+
+Skelton: True.
+
+Interviewer: Yeah. So did you guys discuss that in a sort of, what to keep switched on, on by default, what should be off?
+
+Skelton: Those decisions are always going to be, they’re always going to include trade-offs between what the business really wants, which is everybody’s automatically opted in to everything and, and consume the data by default and everything. So on the one end you’ve got that, and on the other end you’ve got, you really shouldn’t be collecting anything that you don’t absolutely need to and that I haven’t opted in to. And neither end of the spectrum is sane. Neither one is going to result in success for the software or success for the users.
+
+Interviewer: Yep.
+
+Skelton: So it’s really arbitrary where you land on that spectrum. It depends on who’s arguing and what points get brought up, and who has what power, and who is ultimately going to, to make the change and who’s going to go and revert it if they don’t like it. So there’s no formula for deciding what it’s, it’s a bunch of opinions that get mashed up and they wind up in array of, in some array of defaults. I never really liked getting into a heated argument about that stuff.
+
+Interviewer: Yep.
+
+Skelton: I might go in and voice a concern, or soothe someone else’s concern, but [1:03:00] the factions are there automatically, they didn’t need me to be there to, to do that, so. I just try to avoid those.
+
+Interviewer: Most developers I speak to try to avoid those.
+
+Skelton: Yeah. Well they’re not pleasant.
+
+Interviewer: Yep.
+
+Skelton: They involve a lot of disagreement and compromise, and.
+
+Interviewer: So how have you managed your like, to balance between your .org stuff and your .com stuff, or have you found yourself [inaudible] more Automattic?
+
+Skelton: Oh very much more Automattic. Matt had me working on more .org stuff years ago when the team was smaller.
+
+Interviewer: Yep.
+
+Skelton: And I’ve, I’ve moved myself more toward small team projects that, that don’t intersect with the whole large community, and that’s just my personal preference not to be, not to be an identity in the larger community if I don’t have to be. So I don’t show up on the forums anymore, I, you know I used to follow the feeds for all the plugins I contributed to, and make sure that every time there was a forum thread I knew about it. But I’ve, I’ve withdrawn from that community…
+
+Interviewer: Why?
+
+Skelton: …quite a lot. 
+
+Interviewer: Was that a conscious decision, or just happened?
+
+Skelton: Well I can’t say there’s anything wrong about the community that would’ve appeared, no I think it’s just a, my evolving temperament. Sometimes I’m curious what’s going on and dip into wp-hackers, sometimes I’ll dip into a dev meeting, but I’m really not that interested in the larger [01:06:00] community, I’m more interested in just, the software. And so, one of my fondest memories of, of recent .org development, wasn’t even that recent it was a few years ago, at a WordCamp in San Francisco, there was something going on with, with resolving permalinks, WP_Rewrite, and the rewrite rules, and flushing them, and some kind of issue about when you had a whole bunch of pages that the, the whole site would perform terribly. And I was kind of floating around the discussion, there were tables full of developers working on it, talking about it. I popped in and tapped somebody on the shoulder and said hey, do this. And in three sentences I conveyed the solution and they wrote it, and I didn’t code it. But I was, I was able to contribute in a way that was easy and comfortable for me, and that had a big impact. And that was really ideal for me. I love that, I love just thinking to myself for a while, knowing I’ve got an answer at some point, and then sharing that, either by coding a prototype or just explaining it to somebody. More like a consultant. I’ve done consulting work a lot, and I love it.
+
+Interviewer: Do you do that as part of Automattic, or on the side, or?
+
+Skelton: No I don’t, I don’t mean that I’m a paid consultant.
+
+Interviewer: Yeah.
+
+Skelton: I mean that, that type of work where there’s a going project, and someone is brought in to be a fresh set of eyes and a new set of experience to apply to it. I, I like to keep my learning curve steep, when it flattens out I get bored and I want the project to go to somebody else.
+
+Interviewer: Yep, yep.
+
+Skelton: Or else I want to rewrite the whole thing so that I can have a steep learning curve again. 
+
+Interviewer: Yep. How has Automattic changed over time, like as a mem-, you know you’ve been there since the beginning til now? As an employee of the company?
+
+Skelton: Well in the beginning we, we all did support tickets, there weren’t tickets there were just emails, and we got copied on every single email. You’d fill out a support form and it would go to every employee in the company [01:09:00]. Straight to my personal email inbox. The alarm that my computer would make when somebody mentioned me in IRC used to be loud enough and close enough to my bedroom that I would wake up at 3 in the morning and fix something. But there’s a dedicated team for that now. So Automattic, has it changed? Obviously it’s completely changed, there’s nothing about it that’s the same. Except our preference to use blogs to communicate. That’s, our, our preference for blogging is very central to Automattic still. 
+
+Interviewer: Outside of the .org team and you know, people who do .org rotations, do, are people still interested in the free software project, is that a-? 
+
+Skelton: I’m aways tempted to do a .org rotation.
+
+Interviewer: Yeah.
+
+Skelton: I’m always involved with some other project so that I can’t really break off and do that for several months. But I have this thing going with Nacin where if there’s a release coming up, and I haven’t gotten any changesets in, then he’ll maybe dig up some patch that I submitted on some minor issue two years ago and put it in, so I’ll get my props.
+
+Interviewer: What about other people in the company? You get people, I guess now who aren’t even, who aren’t employed from the project.
+
+Skelton: In, in the team where I work, the data team, we have several people who have never contributed to WordPress Core. And I don’t know the current numbers but I think the majority of Automattic employees have not contributed code to Core. And they’ve, they’ve all contributed something by now, somehow, but the, the business requires so much more than just WordPress. So it doesn’t really make sense that, that everyone should be directly contributing to Core.
+
+Interviewer: Do you think that has any sort of affect on the culture of the company? [01:12:00].
+
+Skelton: Well the company is definitely its own company.
+
+Interviewer: Yep.
+
+Skelton: And there’s a lot of overlap, and there’s a lot of integration between the Automattic community and the WordPress community but yeah they are, they are very much distinct communities and personally I’m a lot less a part of the .org community than I ever was. But, I’m also not really that, I’m not that thick with the Automattic community either. I’m, I’m a bit toward the loner end of the spectrum. So I don’t know what’s typical.
+
+Interviewer: Okay, let’s leave it there, thanks!
+
+Skelton: Okay.

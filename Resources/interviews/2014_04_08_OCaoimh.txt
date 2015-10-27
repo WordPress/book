@@ -1,0 +1,267 @@
+Ó Caoimh: What I, my wife reminded me this, when Matt came here to Cork, this Tom Rafferty, do you know what Tom, he’s a Cork man. Anyway he, well, sorry, Tom used to have a technology blog and Tom interviewed Matt in my house.
+
+Interviewer: Oh did he?
+
+Ó Caoimh: So that interview may still be online somewhere.
+
+Interviewer: Okay. Tom Rafferty?
+
+Ó Caoimh: Rafftery? I might, I probably even blogged about it actually. Yeah, there we go, I blogged about it.
+
+Interviewer: Have you got a link?
+
+Ó Caoimh: And Matt, Matt did too, so. Let’s see. This is a link on my blog, I’m not sure whether… let’s see, pod leaders… hoping it’s still there. Oh, ok.
+
+Interviewer: I might be able to get it off archive.org. 
+
+Ó Caoimh: True, yeah.
+
+Interviewer: Yeah his website seems to have been turned over to spammers, maybe.
+
+Ó Caoimh: Oh crap. I hate that.
+
+Interviewer: I know. It’s so annoying.
+
+Ó Caoimh: Yeah it is.
+
+Interviewer: But let’s see, archive.org. Actually I’ve, I have been able to find podcasts this way.
+
+Ó Caoimh: Yeah, cool. 
+
+Interviewer: Yep, so I’ll, I’ll have a look for that later. It looks like there might be something there.
+
+Ó Caoimh: Yeah. So that was recorded in my, in my kitchen. 
+
+Interviewer: That’s funny.
+
+Ó Caoimh: Let’s see… Yeah. Here it is. Yeah.
+
+Interviewer: So… Let’s get, I wanted to ask you to begin with, what started you, at what point did you start working at WordPress.com?
+
+Ó Caoimh: It was, I guess, June 2005. 
+
+Interviewer: [Inaudible].
+
+Ó Caoimh: I think it was in, yeah, June 2005. I think it was the 28th of, the 20th of June, and I had been, I was, I was in between jobs, and I know Matt had emailed people on the WordPress security list asking if anybody was interested in, you know, having, creating a hosted WordPress site at WordPress.com. 
+
+Interviewer: Yep.
+
+Ó Caoimh: And, because I was still gainfully employed at the time actually although bored silly by the, the job so, got… I, [03:00] I was then after, after that job finished up, I had a few weeks of, well a week or two of not doing anything, and I was, there was a company in Dublin wanted to hire me. And I went up to meet them and it wasn’t exactly, you know, they had some issues with us and I rang Matt to ask him, or emailed him I think to ask him about, about those issues, about the GPL and contributing, contributing back code to the, to the Core, to MU basically. And Matt, Matt I think either he rang me or I said I’d ring him, and he offered me a job. So, he still hasn’t seen a CV for me. I really should give him a CV.
+
+Interviewer: But he had seen WordPress, well WordPress MU, b2++, and then WordPress MU, right? 
+
+Ó Caoimh: Yeah. Yeah, yeah. So. So that’s-
+
+Interviewer: And, how was he paying you though?
+
+Ó Caoimh: He was still working at CNET, so he was paying me out of his CNET salary. 
+
+Interviewer: That’s funny.
+
+Ó Caoimh: And, that, you know, the, it was in U.S dollars so I thought when he told me the salary, starting salary oh, that’s great, it’s like my Irish salary, and then when it actually came into the bank I was like oh yeah, U.S dollars are way, you know, sorry, what was it, Irish or Euros are worth a lot more than U.S dollars, like-
+
+Interviewer: Oh no.
+
+Ó Caoimh: But we sorted that out over the next few months, and.
+
+Interviewer: That’s good.
+
+Ó Caoimh: Yeah. But, yeah, he was, he was paying me out of the CNET, CNET salary apparently and he would have to go down to the bank to wire me the money every month. When of course I had just after, it was just after buying a house that year and, so I had a mortgage to pay so, first of the month every month I, I had, you know a big lump of, lump of money had to go out, so that money had to be there to meet that. Yeah, so. But so it was, it was very much sort of raw startup mode at the time. 
+
+Interviewer: Yep. And, and were you working on WordPress.com or were you just sort of working on WordPress MU or were you actually starting to build the infrastructure for WordPress.com?
+
+Ó Caoimh: Oh it was WordPress.com. But you see a lot, even, at that time WordPress.com really used a very, you know, there wasn’t much difference between WordPress.com and, and MU. We had a, it was basically I guess WordPress MU Trunk was running WordPress.com, with maybe some small, small changes, but any, any change went directly back into MU. But WordPress.com was still close at [06:00], closed at the time so you know, we didn’t ask people to, didn’t invite users in for a few months I think. So there wasn’t this you know, we, we were, we were working on two servers and we were live editing code, so there wasn’t any, we weren’t worried about users having their blogs taken down, you know.
+
+Interviewer: Yep, yep.
+
+Ó Caoimh: But it was, it was very much, anything that was in WordPress.com went into MU, anything at least that helped multi, you know the multi-blog part of it.
+
+Interviewer: Yep, yep.
+
+Ó Caoimh: Yeah, so. It was very, it was, it was, it was very very very quick development, very raw.
+
+Interviewer: Can you tell me about the process? Like you know did you plan it out beforehand or, you know, did you have plans for scaling, or-
+
+Ó Caoimh: Well at the time-
+
+Interviewer: I’m just interested in what the process was.
+
+Ó Caoimh: Well you see at that time, you know, there were, since there was very few users we didn’t have to worry about scaling, we, we did, like MU had used, like we, sorry. When WordPress.com first launched we used, sorry MU still used the blog name in the database tables. I think, anyway. And so I had to write a script that would convert the blog name to blog ID. Because now it, now it’s WP underscore an integer, and then all the different tables.  Whereas before it would’ve been WP underscore Donncha underscore table name. And so that was, well that was a bit of a, that was a huge pain for some users of, of MU, with the early adopters. But you know it wasn’t insurmountable because it’s just, you know, it’s just changing database tables, the names of tables. That was one of the, you know, we decided to change, make that change, because it would make it easier to separate out the databases sh-, into shards, so you know you’d have different, different numbers in different tables so you’d spread out the load on, into different, different database servers. And, I guess it would make it more consistent, it’s better to have numbers than English, you know, language t- that, sorry, you know having the blog names in the database tables, table names. 
+
+Interviewer: Why is that better?
+
+Ó Caoimh: Why is it better, because, you, you know that, you know that blog 1 is the first blog. Whereas blog one, o n e, might be the twenty thousandth blog. 
+
+Interviewer: Yep, yep.
+
+Ó Caoimh: And, but, like, if you’re, when you’re sharding stuff you can use a simple algorithm to split the [09:00], you know if you queued up every fifth blog, you could have, if you had five different database servers you could have blog 1 on server 1, blog 2 on server 2, you know blog 3 on server 3, stuff like that. Which is easy, then it’s easy to find, figure out where the other one is, its number. And, but, but I’ve lost my train of thought now. But, you know at the, when we started out, there was just a web server and database [inaudible] so there wasn’t any real issue, and something is beeping. Oh yeah. Google Hangouts. But it, you know, and at the, at the start it was just pure development, getting [inaudible] the users part of it working, building the, the network admin stuff, you know for administrating users. There was big changes that, thanks to some, some people in the MU community, you know put, they contributed big patches to clean up the, the admin side of it. And actually now like it’s, I think it’s a little, it gives me a, I don’t know, a nostalgic feel sometimes to see code in an, in Word, in WordPress Core that I contributed maybe, you know, well, I suppose almost ten years ago. Just to see it and like, oh hey, woah, that’s still running. Just because it’s, it might be the, it might be being the simplest thing to do, the simplest, I don’t know maybe, just it worked, it worked really well. I would never claim that my code is the best, because, but it’s, it’s, I, I like to think that it would at least work well. But, as for scaling let me see, well we brought on Andy Skelton, and I remember Bar-, Matt asked one d-, well, asked if I thought it was time to bring on an admin guy, a systems guy. And, because at the time we were spending quite a lot of time, well, after we invited users in, we were spending quite a lot of time answering emails and doing support for those users. And it was just, we were just using a mailing list, and replying to a mailing list to, to reply to them. And I found that I would spend half my day replying to users, and then being completely wrecked in that, you know, your mind is completely taken off the just of programming new features, or improving things, fixing bugs, just because you know, this whole thing [12:00] is so tiring. And, but once we took on Barry, Barry was able to work absolute wonders with the hardware, and this, and the, how the whole, you know, website was organised, well actually you know, the systems side of it. And we obviously eventually got more people in, but I remember when Barry came on it, it did help a lot just with the load of, of supporting people, and users. 
+
+Interviewer: Did WordPress MU have many users at the time?
+
+Ó Caoimh: Oh let me see, it did but I was still s-, I would always be surprised when people who were, who I would thought, have thought would know WordPress, the WordPress community quite well, were surprised that WordPress MU actually existed. 
+
+Interviewer: Yep.
+
+Ó Caoimh: And even up until WordPress 3.0 when the whole thing merged together, people were still like what? What the hell is this WordPress MU? You know, they didn’t even know it existed, like wow. But there, there was a few websites, there was a religious website, I think were possibly the biggest users of it, I have a feeling some spammers used it for spam, you know creating spam blogs or spam networks, as they always will. And, but the only one that really, the only one that really sticks out, well sorry there was, there was Linux [inaudible] which was the, the original motivation for creating MU, but also this, this other, somethingforgod.com or, I think anyway it was. The, the owner of that was in regular contact with me at the time. But I, yeah, I have no idea what they’re doing now. Yeah, so, yeah.
+
+Interviewer: So how did they feel about the, the features coming from WordPress.com into WordPress MU, was, were there discussions had, or were there, was it just, did they just arrive in there?
+
+Ó Caoimh: Well some of the features didn’t, didn’t suit WordPress MU, so occasionally I would put something in and that might be better suited to their plugin, or to WordPress Core and yeah there was things like, the, WordPress MU had a, had a really cool versioned theme editor. And that was pulled eventually, just because it was not a, you know an MU, it’s not an MU [15:00] feature. But I know, I think Matt was interested in doing something with that for WordPress itself, but it’s obviously never seen the light of day. I think possibly, the better idea is actually to have themes that can be modified and just make things easier for users, not, instead of having to, be edited in HTML. The, the other features like you know domain mapping, and what was it, global tags, things like that, don’t exactly, even though they’re, they’re an M, they, they’re, they only make sense on an MU site, not every MU website needs those features so we put them into a plugin, [inaudible] into plugins rather than having them in the, in MU itself. Part of the reason just because we don’t, like domain mapping can be complicated for people to set up, and they’d just get confused, if they don’t need it. And the same is like, with tags, that needs a bit of set up so, you know, there’s usu-, usually no need. Sometimes there’s no need for them. But I, I, I don’t know. The, but I guess we just tried, you know, just tried to keep it to MU, MU fe-, sorry sorry, we tried to get the features specific to MU. And oh yeah sorry here’s the, oh yeah okay [inaudible]. Although I’m not sure it’s the … oh yeah, here’s the mp3. Is it there, it’s there… yeah, the mp3 is there as well.
+
+Interviewer: Oh great.
+
+Ó Caoimh: Cool… actually I’ll just, I’ll just get ready to go.
+
+Interviewer: That’s WordPress.org. Oh, there it is. Great.
+
+Ó Caoimh: Yeah. But, yeah it’s, it’s ama-, like 2005 was such a different time for blogging. And even just social media, like Facebook was, was Facebook open to the public, like I don’t even remember it because-
+
+Interviewer: I think it was starting, I think it started in 2005?
+
+Ó Caoimh: Oh yeah yeah. Like it didn’t come to Ireland for quite a while like, so it was U.S only, or even colleges only. So it was a very different time because it was just so much harder to, to create content online. So definitely felt that, that we were making a big difference [18:00] to you know, getting people, letting people have their say online.
+
+Interviewer: Yep.
+
+Ó Caoimh: Whereas there’s so many choices these days, people can just rant and rave on Twitter or, or Facebook. It’s like that, it’s a lot harder to make a dent in the world.
+
+Interviewer: So when Matt, when Matt asked you to come and work on WordPress.com did he talk to you about setting up Automattic?
+
+Ó Caoimh: What do you mean, how, how he was going to do it? Ah no, no. He, he, like I knew that, well, sorry, the, the only thing we had to figure out was like that I had to figure out how to be self-employed. Because I was, you know, PAYE for, for, you know my previous job. And he, I think he got a shock one time when I told him that, you know PAYE employees get redundancy. And he went what, what’s that. I don’t know if, if they have that in the States.
+
+Interviewer: I don’t know.
+
+Ó Caoimh: Or is it a, a European thing. And, but, I guess if, yeah it was, I, I don’t know, he just, we didn’t really have to talk much about it because he, I, well, sorry, I think he sent me a contract and then there was another… I think when I went to the, the first meetup, I think Toni gave me a, an updated contract to sign. Just with more maybe formal language or something, but there was nothing, nothing fishy there. And, let me see, I can’t really think of anything that stands out to be honest, I guess just, you know, the whole running, him and, him and Toni having to run to the bank every month was kind of a, a funny image that sticks in my mind still.
+
+Interviewer: Yeah. So what was your role at Automattic? Did you have a role or was it just, you’re just here to, to develop stuff?
+
+Ó Caoimh: There wasn’t any role, at the start anyway, it was just getting the website up and running, getting the MU part of it polished, and you know fixing up any, we had to make sure that the, MU works on, basically we don’t, you, well sorry, with WordPress, you can trust your users to a certain extent, because you know you’re, you’re probably the only user on the site [21:00]. But on MU it’s a totally different model where it’ll be strangers that are using your resources. So you know we had to change that, we had to, we had to make sure that we cut all those things. There was you know presumptions made in code that the, the user, the admin user was trusted and you know, that just wasn’t the case so like even though on, on WordPress.com you could be an admin of your own blog, you don’t have, you don’t have admin access to any other blog. You have to be a Super Admin that’s a, so, all that was developed and fleshed out and it was only, like later on I was in charge of the, a lot of the billing, and the store but that, that was, that was much later on when we eventually got, got a store going. And people still ask how do we, how does WordPress.com make money. You know what I mean, we don’t charge users, so. Even my wife does, which is funny. I told you a thousand times. So, but, yeah no my, like I was just a, a developer I guess, I never really thought about roles, at my previous job I was just a developer as well so, you know. I, I’ve never, I’ve never thought about, about that, about headings and stuff.
+
+Interviewer: Yep.
+
+Ó Caoimh: So basically just working on anything that had to be done, I guess.
+
+Interviewer: Do you, do you remember what other people in the community felt about WordPress.com being set up?
+
+Ó Caoimh: I tried to avoid, like sorry I didn’t even, I didn’t participate in any of the whatever, I, I know there was name calling and there was some anger because of the, you know, it was, that it was obviously going to be some kind of commercial entity, but I just, I didn’t, I didn’t participate, I was too busy. I, I hate, I hate getting involved, in, in that, it doesn’t serve a purpose. Everybody has, you know everybody has an opinion, it doesn’t mean they’re right. You know, they might be right in their own mind but that doesn’t, you know, that’s fine for them. It’s, when it co-, I think when it comes to something like this, there isn’t any right or wrong [24:00], because  it, it, you know it depends on your perspective, if you think that all software should be free, with a capital F, you’re going to, you’ll obviously hate what Automattic is doing. Or maybe so you know, you hate WordPress.com itself because not all the source code’s free. But then, you know, that there is, so much of, of it has been given out as GPLed code, I think it’s a huge boon, boon to the, to the community. But there’s, you know what you’d describe as fanatics in every, every community and hopefully they’ll, sorry and from what I’ve seen people are fanatic about things that don’t really matter, and they don’t, they don’t get fanatic about like feature requests, or if, if you ask them to test something nah, all you hear is, all you see is tumbleweeds going through the forums, you know. But ask about a, a change to the GPL and oh god, you’re going to have like a hundred pa-, a hundred messages within a few minutes. So, but I, so I will try and stay out of any, anything like that it doesn’t, doesn’t interest me. Leave the politics to somebody else.
+
+Interviewer: Yep. Were you, were you involved in the process of acquiring the WordPress.com domain name?
+
+Ó Caoimh: I wasn’t, I heard from the person who owned the WordPress.com domain name and I know it got messy and I would rather not say anything because I’m sure Matt has told you as much as he’s, he can. I don’t even know-
+
+Interviewer: I haven’t-
+
+Ó Caoimh: Has, has he talked to you about it?
+
+Interviewer: Toni has, but I haven’t spoken to Matt about it yet. I plan to soon.
+
+Ó Caoimh: As far as I remember, there was, I don’t know, was it, it was like, there was lawyers involved, there was, [inaudible] was, had to be chased down to be subpoenaed, and I think the, I think the, I don’t know, I think there was either an NDA or there was, they didn’t want to talk about the, the previous owner didn’t want anybody talking about it afterwards. So.
+
+Interviewer: Right.
+
+Ó Caoimh: But it, apparently it was a huge waste of money. You know, just that the, well not waste, I mean, because obviously it came to a good end, but it was just a lot of, a lot of money and time spent on something that was rightfully that belonged to the trademark owner. Which was Automattic or the WordPress um, which was Automattic I guess. And that was at the WordPress Foundation or something. But I just remember [27:00] it was, it was nasty, it was nasty. I don’t even remember the name of the guy actually who, who was squatting on it.
+
+Interviewer: He was called Rick Johnson?
+
+Ó Caoimh: Rick Johnson. [inaudible].
+
+Interviewer: Remember he, he had a, a website called opendomain.org where he would, he would-
+
+Ó Caoimh: Oh yeah.
+
+Interviewer: Do you remember?
+
+Ó Caoimh: Yeah I vaguely, vaguely remember it. That I know he emailed me.
+
+Interviewer: Yep.
+
+Ó Caoimh: You know and just tried to get me to be an, an intermediary with Matt, to persuade Matt that he should you know, that he should launch WordPress.com even, sorry on his, on hi-, you know, even while he owned the, the domain. You know. That he could, he would do it, that he wouldn’t, you know double cross us or anything, and think, I think Matt was adamant that that wasn’t going to happen.
+
+Interviewer: Yeah.
+
+Ó Caoimh: Which in retrospect was a good decision.
+
+Interviewer: I think that was fairly wise.
+
+Ó Caoimh: Yeah, yeah.
+
+Interviewer: You don’t want your millions of blogs with a domain name owned by someone else, I guess.
+
+Ó Caoimh: Yes. Rick, Rick Johnson, god I haven’t even, I haven’t thought of that guy in a long time.
+
+Interviewer: Do you remember WordPress Inc?
+
+Ó Caoimh: WordPress Inc.
+
+Interviewer: Let me send you a link. So this would’ve been sort of, sort of briefly March 2005 at a party, Matt announced the formation of WordPress Inc. And, you know, brought onstage his first employee. Obviously the whole thing never came to anything really, but you were the first employee of Automattic, I was just wondering if you knew anything about it, and how it impacted on you.
+
+Ó Caoimh: No. 
+
+Interviewer: No?
+
+Ó Caoimh: Nope. No, I don’t remember that at all. But I guess March 2005 was around the same time that he emailed the security list about, you know, or maybe it was the Core list about, you know starting up a WordPress company. Ask Matt. That’s, that’s a really old page.
+
+Interviewer: It’s really old, yeah.
+
+Ó Caoimh: Oh my god. Fucking… woah.
+
+Interviewer: The video’s quite fun, if you watch it later, it’s just a couple of minutes.
+
+Ó Caoimh: Is that… oh, I haven’t even seen the video [30:00].
+
+Interviewer: Yeah. 
+
+Ó Caoimh: Okay. I’ll have a look at this. Yeah, I’ll definitely have a look at this. No, I, I don’t remember anything about that at all. Yeah.
+
+Interviewer: Who, who was on the security mailing list?
+
+Ó Caoimh: Well Ryan Boren certainly was, I wish I, I, I lost all my email about 6 years ago and it’s just like, I can’t remember to be honest. I may have an archive somewhere, but, but no.
+
+Interviewer: I’m going to see Ryan in a couple of weeks, so I’ll ask him about it. 
+
+Ó Caoimh: Yeah, yeah.
+
+Interviewer: So I noticed, I was reading through, I’ve read through the first sort of 6, 7 months of the WordPress.com support forums.
+
+Ó Caoimh: Really, wow.
+
+Interviewer: That was fun. So I was wondering if you could just tell me what some of the problems you had in the first few months, you seemed to have server problems, and other things that happened, I was just wondering if you could talk me through some of them and tell me what went wrong, and how you fixed them? 
+
+Ó Caoimh: I, I, I don’t know, I can’t remember. I remember there was a few blowups, alright, but you know, or if broken code was you know, [inaudible] the site might go down for a short while, but I, I don’t remember any particular incident I’m afraid.
+
+Interviewer: There’s, I’ve just sent you one.
+
+Ó Caoimh: Okay.
+
+Interviewer: [Inaudibe]. There’s quite a few of them.
+
+Ó Caoimh: Yeah. [Inaudible].
+
+Interviewer: What was your hosting set up, were you on TextDrive, or? Can you tell me about the hosting set up? Why there were problems?
+
+Ó Caoimh: I can’t remember. The, I remember I was, I had the guy who handled, who did our [inaudible]. I had the, the guy who did our support on Instant Messenger but, of course they’ve changed Instant Messenger over the years so I wouldn’t have any of those chat logs anywhere. But I really, I couldn’t tell you, Matt would probably know more about the, which posting service it was, because you know he would have paid the bills. And [33:00] their, their names honestly didn’t make, didn’t mean anything to me because they’re American companies, and you know. The… Oh, that’s cool… Woah… I have a vague memory of this, of that second thread, yes, Robert Scoble, saying thanks man I imagine it’s a frustrating day for you. Though-
+
+Interviewer: And here’s another one. Where’s the next one. That would’ve been another one a couple of weeks later.
+
+Ó Caoimh: WordPress.com [inaudible] one. What’s his name, Barry, would’ve been hugely involved in , the replication to the new infrastructure. Although I have a vague memory of it, that, talking about [inaudible] data being copied, and I think Andy Skelton was involved in the sharding of data, you know the separating out the data, I think he did, he did work on the MySQL code that read from the proper database. It was a, yeah I can remember the, that post, and creating that first mirror in Dallas. Yeah, that’s cool. 
+
+Interviewer: So, who built the first infrastructure, was that you?
+
+Ó Caoimh: Yeah myself and Matt. Like it was just basically two servers. One web server, one database server.
+
+Interviewer: Yep.
+
+Ó Caoimh: So, like, I think one of the servers had cPanel on it, it, I vaguely remember the MySQL server being hard, difficult to work with for some reason, I can’t remember why, but. Maybe the SSH was slow or something, or maybe the version of Linux on there didn’t have much, many commands, or maybe it was FTP or something. But, you know like the first server was just, you know, just two servers, it was very very basic, it wasn’t anything that would scale at all. Because we were, you know we were, we were working our damnedest just to get the, the site running. And getting the, like the admin side and the, you know as I said before the security stuff, and the concepts down [36:00] and we didn’t have to worry about scaling at the time, we, I think the, the front page of WordPress.com was just a, a simple graphic or something. It wasn’t, it didn’t require PHP even to run. So yeah yeah it was just a, you know, two servers, it was two better, better people than me to do the scaling and you know the getting… Barry, what was his name, Barry started the, the moving the infrastructure over to different thingamajigs. Data centres. You know.
+
+Interviewer: Okay. I’ll have to see if I can talk to Barry.
+
+Ó Caoimh: Oh definitely, if you haven’t talked to him yet yeah, you’ll-
+
+Interviewer: He’s on my-
+
+Ó Caoimh: He is a fountain of information.
+
+Interviewer: Yep. I have emailed him. I’ll follow it up and email him again.
+
+Ó Caoimh: Yeah, yeah.
+
+Interviewer: Okay, well you’ve actually answered all my questions, so we’ll stop there, thank you.

@@ -1,0 +1,659 @@
+
+Interviewer 00:00 	I have lots of questions.
+
+Little 00:01	And we're recording, all right. 
+
+Interviewer 00:02	 Great, okay.
+
+Little 00:03	Cool.
+
+Interviewer 00:05	 Hello.
+
+Little 00:06	Hi.
+
+Interviewer 00:08	 So this is my first interview, I've got loads of questions. Okay so the first thing I wanted to talk about was why you started blogging? Why did you set up your blog?
+
+Little 00:20	That's a good question actually. No specific reason-- I didn’t have any specific intent. I had a couple of pretty poor websites that were more just information or saying who I was. It was really-- I just saw this blogging thing was talking off and I was enjoying reading other people's blogs and diaries, online diaries. I kind of just started looking at it myself. Yeah, there was not great master plan or anything like that, it was just something I thought I was going to have a play with. I've always been interested in anything technical. I just thought "I can play with that."
+
+Interviewer 01:07	 So you don't have a specific thing you wanted to blog, you just wanted to write stuff?
+
+Little 01:13	Oh no at all. If you've seen the very first post on my blog, which was the "Random Synapse Firings" which was-- didn't know what I was going to talk about, basically. [chuckle].
+
+Interviewer 01:26	 So you were reading other blogs? Was there a kind of blogging community at the time?
+
+Little 01:34	Not specifically that I was aware of at that time. So there were-- I'm trying to think who I was reading at the time. The timeline of things is probably a bit vague for me. No, I can't-- I couldn't necessarily say anybody specific that I was following. But I'd seen the term, I'd started reading a few different-- and again nothing particularly regular, but started to just you come across more and more sites where this idea of a blog was there and that was getting quite interesting. And it was a time when Dave Winer's site used to have the-- used to be where the old blogging software could broadcast to say that you'd posted something new, and actually, that was a good go-to place at that point. To see what was new and what being broadcast because there was a time where you might see ten or twelve new posts an hour tops on that site. I think it used to display the newest fifty.
+
+Little 02:45	And, you know, you had a time to kind of look through and see if there was anything interesting as you look down the list. I do remember at some point before it shut down that if you constantly refreshed you wouldn't be able to see what was going on because-- you wouldn't be able to see your own stuff going on because it was more then fifty a second going up.
+
+Interviewer 03:07	 Wow, and was that then or later on?
+
+Little 03:10	That was later on but not that much later on. Perhaps, I'm going to guess that maybe around 2004?
+
+Interviewer 03:22	 So there were quite a lot of people blogging?
+
+Little 03:24	Yes. Yes, definitely.
+
+Interviewer 03:27	 But not to the extent that they are now.
+
+Little 03:29	Oh no, nothing like that. It was still very geeky, very much the techy people. Not really any corporates or anything like that even if there might be people who were-- worked for the major companies but still had their own personal thing they were doing.
+
+Interviewer 03:46	I had a blog on Blogger [laughter]--
+
+Little 03:50	This was pre-Blogger--
+
+Interviewer 03:51	Yeah exactly. Your first post was in 2002, so a lot of couple of years before I started, not that I would let anyone read my archives because they're [laughter] incredibly embarrassing. Reading through-- some of the posts that I read from the old blogs are really fun. Okay so you started blogging-- you started out with B2?
+
+Little 04:16	Yeah.
+
+Interviewer 04:16	 why did you choose B2?
+
+Little 04:19	I looked around what was available, so there was GreyMatter which was one, a Perl-based one. There was-- I vaguely think that there was a hosted one. I'm trying to think what is was...
+
+Interviewer 04:38	Is it LiveJournal?
+
+Little 04:39	Oh, yeah I think that's right. It's probably LiveJournal [inaudible], and a movable type, Perl-based. And then b2 and I pretty sure I did actually assess them all, and so I will have got copy of Movable Type and installed it, to try it. But I found one on b2 unzipped it, looked at the code because I was already interested because I'm a developer anyway, always have been, and was interested in what the code was doing and can it be improved or changed or even just how it worked. b2 was probably the best of the bunch at that time, and that's probably why I settled with that straight away.
+
+Interviewer 05:28	What was the code like? Was it good? I hear a lot of complaints about it [laughter].
+
+Little 05:31	It was yeah, it was, it was a typical, very typical one man project. So this was the essence, this was 2002. So I had been programming professionally, well sine 1990, so twelve years. Although I started writing my own code, just for me, and writing it my own way. My first professional job, within maybe within a week, I understood and grasped that working as proper team and writing code that other people needed to maintain or fix was a whole different ball game from writing code for yourself, and so I always-- and that's always been one of my strengths is managing code and trying to write design code that's usable by teams. In fact team even configuration control is a huge thing I used to be involved with. Very early on I could recognize the issues that people wrote into their own code that made it hard for teams to work on. I saw that all over b2. There's no question, there very much was a one man band. But it wasn't that bad; I'd seen a lot worse.
+
+Interviewer 06:58	 Could you contribute to it? In the way that you can with WordPress. Or did you just make hacks?
+
+Little 07:02	You could certainly contribute bug fixes, and even that was – part of the decision was quite a lively forum, phpBB forum around that. So bug fixes definitely went in there but it was still very much about hacking it. The theming, for example, was part and parcel of the whole thing, so although you had a layout in .CSS, as it was. The code itself, the index.php, so the index.php and the root of the your site was your theme.
+
+Interviewer 07:40 	Right.
+
+Little 07:42	A lot of the code that went on the forum was about how to make your theme do different things, how to change the way you site looks, and how to add things in sidebars and stuff like that. There was a lot of contribution in that way. I remember contributing to the calendar. The calendar that's still there in WordPress's widget. That's probably still got some of my original code in there from the B2 days, from all the way back from the B2 days, because that's actually quite difficult code to get that – the next and previous months and things like that. It was a few rounds about fixing around that and it's hard-- it had a hand-made plugin system, if you like. They were called hacks but because the menu system for the admin was driven by a text file, it meant that you could add your own PHP files and just an entries to this text file and you automatically correct the new menu item that called your PHP function. So it was very crude, but it meant you could add features to the back end of it. And so, you can contribute to that as well and I had a couple of add-ons for B2, that eventually made it into WordPress. So the links was one of the things. So the link manager. I also did a configuration manager as well that is still there in part in the settings, although it's very different from what it was. But the secret settings page is - although again, simplified - still there from code I originally put into WordPress from B2 days.
+
+Interviewer 09:28	 I saw you got cease and desist for your links manager.
+
+Interviewer 09:31	Yes. That was interesting. I'll tell you what was incredibly coincidental about that. One is that for whatever reason I was looking about on the public HTML directory of my Zed1 site. I found those - although I took them down, they were still on there, and if you knew where to look you could find them. And I actually read through it - bizarrely - I read through the five or six letters that were published. It's just an incredible coincidence. Within about four days, and it's been going on since, I start getting spam from the same guy.
+
+Interviewer 10:11	Weird.
+
+Little 10:12	Yes. So, he's got a big push going on his links manager, which is still going, it still productive. Probably a lot more than it was. Incredibly, it works with WordPress now, [laughter] but he's doing some hard-hitting marketing at the moment, and I'm actually getting two of everything and definitely one of the email addresses is one that I would have been using around that time, so he's still- basically he's added me to his mailing list. He's added every email address he's got to his mailing list.
+
+Interviewer 10:48	 That's funny. 
+
+Little 10:49	Yeah. What a coincidence, I mean, literally it's happened in the last two weeks. I just started getting them. I think he's got a WordPress plugin that interfaces between the links manager and the WordPress site.
+Interviewer 11:03	That's really, really funny. I need to write something about that. I'm going to put it out and write something about it on my blog because that's really hilarious. I'm trying to blog myself more, reading your blog and Matt's blog and Alex's blog and I’ve installed, I’m running trunk and I have Twenty Thirteen, and it just makes me want to blog.
+
+Little 11:24	Right.
+
+Interviewer 11:24 	Like the post format thing - it's great! It's really nice for-- it's just feels more-- less stressful.
+
+Little 11:30	Oh right, I just had the briefest look at it - I really haven't had a proper look at it yet.
+
+Interviewer 11:35 	It's really good. Anyway to get back to... So, what I find quite interesting, is that you and others-- you obviously were interested in blogging but that interest in blogging lead you to develop blogging software. Plenty of people would have been like, 'I just want to blog'. What was it that made you actually want to improve the software and share that with other people?"
+
+Little 12:03	For me, I'm just a geek. I've always been a developer so, even before B2, I contributed, certainly contributed, bug reports and bug fixes to MYSQL, to CVS - the old revision control system - and also a system called DJGVP which I don't think many people will remember these days, but that was a DOS 16-bit port of GCC GNU and what later would become Linux. What people know as Linux. With the GNU tools to 16-bit DOS, which was an interesting concept. In fact, I was using that pre-internet day. Pre my having an internet account. I was actually using bulletin board systems, if you remember those. I'm talking mid-80s now.
+
+Interviewer 13:02	 Were there USENET systems?
+
+Little 13:03	USENET was around but it was pre-web. It wasn't an Internet connection. It was basically you dialed up on your modem to an actual bulletin board, so it was somebody's individual computer or a company's individual computer. You just exchanged messages, but also they had files to download and things like that. I actually got this DJGPP system. Did I get it like that? I may even have gotten it from a CD on a magazine at some point. But then, started contributing, there was a mailing list or message board around that. And it strangely enough is why you've got things like PHPBB, the BB is bulletin board so pre-internet and pre-web. They were bulletin board systems and it was a message system and you dialed up to an individual computer so you have a phone line that you dialed up to. Used desktop software, green screen, DOS software to download your messages. You responded, you had an offline reader because it is expensive to be connected all the time. So you download your messages. Create new ones, respond to them, and then you connect again and it would upload them and then do all the responses and stuff like that. So it was an interesting concept. But I was contributing to open source in that era so, late-80s.
+
+Interviewer 14:30	 So did you study to be a developer-- did you go to university and study to be a developer, or did you just get into developing?
+
+Little 14:36	I just got into it, I didn't even go to university so I've not even got a university degree. Since sixth form, we started looking at doing a little bit of programming so we had a free period each week where we chose what we're going to do and bunch of us decided we're going to go down to our local college and have a try out on their computer. So that was my first experience with computing. I'm talking 1978. [chuckle].
+
+Interviewer 15:10 	I'm trying to figure out what age you are from that [chuckle].
+
+Little 15:14	And that was - and you didn't even have a screen then, so you typed on a keyboard and it came out on printed paper at the back end. And that lasted probably about half a term until one of the lads got caught smoking in the paper room, and so they banned us [chuckle].
+
+Interviewer 15:31	 Oh no.
+
+Little 15:32	And then I didn't touch a computer until probably '82 and by that time I had left school and was working in music. I say working, helping out a local band. Well, actually no I was probably working in the record shop by that time.
+
+Interviewer 15:47 	In Manchester?
+
+Little 15:49	Yeah, well in Stockport yeah, and the particular band that I was working with - and I was sharing house with some of the guys in the band - they were kind of getting all glam and really want to top their game and the band lead, lead singer decided that he wanted to have stacks of TVs on the side of the stage with some kind of graphics. He didn't really know what he wanted, some kind of graphics. I got lumbered with a borrowed ZX Spectrum--
+
+Interviewer 16:17	[chuckles] I had one of those.
+
+Little 16:17	--with a couple of programs typed in from magazines, so I had a program that could do 3-D text, and a program that could bounce objects around the screen. I managed to combine the two and get whatever words we wanted bouncing around on the screen. Unfortunately we could never figure out how to get that signal to go in all the televisions in one go. Nothing ever came off it but I really got hooked on programming. That was - I don't know if you'll remember it, some people will the original ZX Spectrum had an overheating issue. If you kept going for too long, you'll overheat and reset. If you hadn't saved on to your cassette, you lost hours of work. So a few issues with that. But that got me hooked into programming.
+
+Interviewer 17:09	 Then you just got into programming from that?
+
+Little 17:11	Yeah. So I actually went on to Atari then. 8bit Atari, did a bit of programming there and got a 16-bit ST and really started to program properly. I was actually, amazingly, using EMAX, or a variation of Emax on the old Atari ST. There was command line hidden underneath the graphical interface. And then I got my first PC, which was one, I was running a video rental shop by that time. We bought green screen PC, £3,000. This was the 640K green screen PC with a 20MB hard disc and it cost us three grand. But effectively we were buying the software and the hardware came with it. But, got myself a copy of Turbo Pascal, 5.25 inch floppies, installed that, and taught myself programming from that.
+
+Interviewer 18:12	 So did you just love it, did you just really enjoy it?
+
+Little 18:14	Yes, just love it. Yes, I still do. I still enjoy a challenge, solving problems, writing good code, writing elegant code, you know. I still even got some my books from that era. Yes, and then I got my first professional job in 1990, so I've already been coding for about five - or coding PCs - for about five years by that time.
+
+Interviewer 18:40	 What languages did you--
+
+Little 18:42	So I went from basic to 6502 Assembler, then Pascal. I taught myself Pascal including Object-Oriented Pascal, which seems to have died a death but there you go, and then when I got my first professional job, I then learned C on the job on production software.
+
+Interviewer 19:05	 Wow. [laughter]
+
+Little 19:07	Which is where I instantly solved the issues around working with teams and working as part of a team. Again this was pre-internet days so this was-- we used to use Novel Netware as a network used to share resources and basically we were all compiling code in the same shared folder. With all the nightmares that come from that and this was C code so somebody would change a header file and nothing would compile until [laughter] we sorted out the problem. This was still DOS-based and there weren't any revision control systems for DOS. There was RCS which somebody was trying to port. In fact PGGP had a sort of version of it but you had to a lot of work to try get in to work and that wasn't going to be acceptable to the boss on these work PCs and so, myself and a colleague created our own revision control system using DOS batch files and zips and a stack of copies. [laughter]
+
+Little 20:18	We actually kept control because the really interesting was the boss of the company was a developer himself, and he used to spend all day on the road out there taking to customers, I mean this product was in BETA for about six years. He would go out talk to customers and they would tell him the kind of things that they wanted his software to do and he would come back at six o'clock in the evening and start coding it, so you get in in the morning, and all the menus are changed and your module had been thrown out, because there was a new one, it was something completely different.
+
+Interviewer 20:48 	That's confusing.
+
+Little 20:49	And we really needed the revision control but we did not have a word for it, what we needed. The ability to figure out what on earth had gone on and so yeah, got it tooth and nail.. All that problem solving, just working as part of a team, I just loved all that. I mean I progressed very rapidly in that company. I actually started that company as an employment training scheme. So you start with video shop, and that went bust. So, I actually started with that company on the employment training scheme, they didn't pay me, but because I'd had my own company I actually couldn't play social or dole or anything like that. So for the first three and a half months, I think it was? It used to cost me to go to work.
+
+Interviewer 21:39	 Wow. Well, it was worth it obviously!
+
+Little 21:41	Yeah. And after three and a half months, I said, "Look, this is costing me money to come and work for you. I want you to employ me." And they just said yes. Okay. So that was good. And it's that love that still drives me to do it.
+
+Interviewer 21:55	And what do you think of PHP as a language? Lots of people seem to hate it.
+
+Little 21:59	Yeah. It's one of those languages that's grown. So, PHP, some would say it's got the best bits of C and the best bits of Perl in it. Probably a few other bits as well, but others would say it's got the worst bits of C and the worst bits of Perl in it. And it is a system that's grown. Around the time that I was kind of getting in to PHP and learning PHP and I'm talking probably the transition from PHP One to Two. I was also doing Perl, I was doing quite a bit of Perl. Perl went from probably from three to four around-- maybe around at same time. Larry Wall, who wrote the original Perl, knew that he had to grow he had to do things differently and rather than add on to what he already had, he literally rewrote the whole language from scratch. And then he did that again for four to five, and then he did it for five to six. There's not many that would do that, but despite the wonderful syntax that Perl has, and the numerous different way you can achieve the same end results in Perl, it's still an awful lot cleaner that PHP because it took a bold step of rewrite from scratch and PHP would definitely would have benefited from that I think.
+
+Little 23:33	I see it-- I know a lot of languages now, they're all just syntax for me. You can write equally crap code as you can write equally fantastic code in pretty much any language. Any modern language - so anything in the last 20 years - allows you to write good code. Many of them allow you to write really crap code as well. And yeah, I think people who complain about PHP as if it forces you to write bad code either don't understand that beginners will always write bad code no matter what language they use or themselves haven't got discipline write good code.
+
+Interviewer 24:19	 So if you had to write a new CMS from scratch or blogging platform would you use PHP or would you--
+
+Little 24:27	Right now, probably would simply because it's what I use day to day and I'd have to work a bit hard to get back into any of the more disciplined languages that I've used. The last day job I had, I used Java. The one before that I used C and C++. Both of which are much more disciplined languages of which you can still write crap code in but they can be slower to write stuff in. Although, particularly stuff like Java, there are some fantastic libraries that give you an awful lot functionality that you can have or could want. But the likelihood is that I wouldn't write one from scratch.
+
+Interviewer 25:16	 No, I know.
+
+Little 25:19	There is so much out there that you could use.
+
+Interviewer 25:20 	Yeah, I know. Around that time, in 2002, there was-- it's interesting reading through your blog and Matt's and Alex's. You didn't yet know each other, but there was similar issues that were arising around blogging and that nobody really-- B2, you kept having outages in the websites. People were taking about developing a new blogging platform. So whenever this sort of outages, cafe logs started happening, did that worry you?
+
+Little 26:00	No, I don't think it did because again, as a developer I thought, you know, I've got the codes, so I can fix my own bugs. It wasn't-- I didn't really look at it as part of a bigger thing until people started noticing that there were... "What's going on, where's Michel?' and so on. So no, not me, but that was just because it would not have been a big issue to me if, as Michel disappeared, I can fix my own bugs almost, it was that kind of thing. But yeah, it was noticeable because, by that time I was already spending a lot of time on the forums, helping people out, contributing to the add-ons and things like that and improving them. There was a lot of that went on. People would post some code [inaudible] sidebar and then a number of us would iterate through that and would make it better and fix bugs and make it have all the people's situations. That was noticeable, if the forum went down, you couldn't do that.
+
+Interviewer 27:10 	So was there an active community on the forums?
+
+Little 27:13	Yes, small as it was, it was definitely active and it was very much-- a lot of it, also the parts I contributed to it were developer orientated, so it was about fixing code and writing new code and stuff like that.
+
+Interviewer 27:26	 Do you remember any of the regulars?
+
+Little 27:30	I remember lots of female bloggers, surprisingly. So there was one called Layla maybe... if I could, if I had an old--
+
+Interviewer 27:51 	Matt has the archives, he's going to get them to me but he's being a bit slow.
+
+Little 27:54	They're all online. There were a few regulars probably can't particular remember names now but there were people who's blogs I started following just because you'd see them on the forum, you'd click through to their site and see what they were doing and there was quite a number of woman actually I would have to say, but they probably died off for a little bit for awhile. I think mainly because people were doing good-looking themes, even back in the B2 days and I think it became quite easy and there were a lot of creative types, [inaudible] and you had to do a bit of coding to get it to work. But I do remember there were a lot of good-looking sites, even on B2.
+
+Interviewer 28:37	 So did you meet Matt through the forums? was he active on the forum?
+
+Little 28:40	Surprisingly, yes.  Although I didn't know it at the time.
+
+Interviewer 28:43	 Right, okay.
+
+Little 28:44	So Matt had - I can't remember what his handle was now. But his handle on forums was not the same as his photomatt sites. So I--
+
+Interviewer 28:54	[inaudible]. Was it SaxMatt? Because that's what he used on--
+
+Little 28:58	It might have been SaxMatt, yeah. But I didn't connect the two. But at some point, I probably clicked on his profile and gone to his site, maybe even started following him. But, then sort of separately, independent of B2, I'd emailed him and asked him what gallery software he was using, because he had all these photos on there. I was interested in that. He replied to me and told me what it was and it was Menalto Gallery.
+
+Interviewer 29:30	 What was it, sorry?
+
+Little 29:30	Menalto, I think was the company, the group.
+
+Interviewer 29:33 	Would you care to spell it?
+
+
+Little 29:34	M-E-N-A-L-T-O. It's still going, it's just called gallery, again PHP based. Although he hacked it about to get it to do what he wanted. I did end up using that software. But I didn't connect Matt on the B2 forums with photomatt, because I was definitely following his blog before starting what became WordPress. But that's how I did get to see the--
+
+Interviewer 30:08	 I see. Which hacks did you develop? I have links manager and calendar.
+
+Little 30:15	Well, yes, I didn't develop the calendar. So calendar was already built in, but I did work on it and fix some bugs in it. So there was the links manager, there were some archive scripts that people were doing. So B2 didn't really do archives, you just paged through all the posts. And, somebody did write an archives script as it was, just single PHP, but I effectively re-wrote that and re-published that to do lots more, so you could list them in different orders and things like that. And, I've probably still got that code hanging about somewhere. I did post that to the WordPress at one point. And then I did the configuration stuff. So that was prompted by somebody on the forum asking if I wanted to let-- if I wanted to be able to basically add my own variables and then use them in my theme, how would I go about it? And I wrote an add-on for b2 that would give him that capability. Store it in the database and then a bit of an API to be able to retrieve that data. And that actually became the WordPress options screens as it was. [Chuckle] Incredibly. And yes, just a few other bits and baps and little-- I mean, often it was a function that you would paste into your theme somewhere to make something appear in your footer or your sidebar, stuff like that. So I think I remember I did a little stats counter - just a page view counter, at one point, just odds and sods - but they were the main two, was the links manager which was very popular and migration, a few people use the migration thing as well.
+
+Interviewer 32:09 	And in sort of early 2003, when people were starting to complain about b2, did you think about moving away to [inaudible] time or anything like that?
+
+Little 32:15	No, definitely.
+
+Interviewer 32:16	You were happy with it?
+
+Little 32:17	Yes, as I say, I was happy with it. The problems that other people could see because there were bugs and that they didn't want to do about it, they were my problem because [inaudible].
+
+Interviewer 32:28 	Did you think about forking it yourself?
+
+Little 32:32	No. I didn't. I can’t say that I did. No.
+
+Interviewer 32:37 	So, when Matt suggested forking it or doing something about it, did you instantly think that's a good idea?
+
+Little 32:47	Definitely, yeah. I mean I'm not sure what the time stamps would show, but as soon as I saw that post, I did respond. Believe or not, that was the only comment on the whole year.
+
+Interviewer 33:01	I know and now there's loads, it's like hundreds of comments in that post.
+
+Little 33:06	Yeah, as soon as he said it-- and I don't think he used the term fork.
+
+Interviewer 33:11 	No, he doesn't mention fork.
+
+Little 33:13	But that was my interpretation, and yeah, absolutely.
+
+Interviewer 33:16	 Then you said, "Why don't we fork it?"
+
+Little 33:18	Yeah, if you're serious about forking it, count me in.
+
+Interviewer 33:20 	Yeah. That was a good move. [laughter]
+
+Little 33:24	Yeah, so it was.
+
+Interviewer 33:28	 How did other people feel about you forking it? Was there any sort of issues that there are people pissed off.
+
+Little 33:33	No, I didn't see any of those. But probably within a couple of months I did see other forks.
+
+Interviewer 33:48	 Yes, I saw B2++.
+
+Little 33:50	Which was dodgy. But also the B2 Evolution probably came a bit later. But I think there were a couple of others that quickly died away, and they may have even started around the same time or even before us but it didn't stick until effectively B2 was in crisis at that point. But we still prevailed.
+
+Interviewer 34:22	 Any idea why?
+
+Little 34:26	I think we did a good job to be honest. I do think we did a good job. I know that-- actually, I think it was because we took small steps. I do remember that Donncha was adding a template to the system. We went straight running the template in the system to B2, and that was such a big step that it took a good while to get going. In fact, he may have dropped it before he got it really polished. So, that delays you. I don't if you remember the old Netscape Navigator or Netscape browser issue?
+
+Interviewer 35:06	 Yeah.
+
+Little 35:09	So, it got open sourced and they decided to throw it all away and start again. I think it took them four years to get a workable browser out about which time they'd lost the race. [chuckle] And it was almost out and yet-- what Matt and I was much smaller steps. Although, it was a radical change from the B2 lock and field to the first WordPress. It wasn't that radical under the hood on the first two-- at least the first two releases of WordPress still have lots of files whose names begin with B2.
+
+Interviewer 35:45 	Yeah I heard that.
+
+Little 35:46	[laughter]
+
+Interviewer 35:47	I read the post of the great renaming, or [inaudible] B2 to WP. [laughter]
+
+Little 35:52	That's right yeah.
+
+Interviewer 35:52	 The first patches that I saw on trac were just things like branding,  just changing the name to WordPress [laughter]. Without the capital P actually.
+
+Little 36:00	Oh, that's right. Yeah. [laughter]
+
+Interviewer 36:05	 First of all it was just you and Matt? How did you guys communicate? How you do work with each other.
+
+Little 36:12	It was mostly email. It was mostly email. The code was still on SourceForge at that time so there was a not equal tracker on there. Although, I don't think we’ve particularly used that.
+
+Interviewer 36:39	 Trac goes from early April, WordPress start--
+Little 36:44	No, that's-- the trac wasn't around for a lot, lot later than that. What happened was that the old CVS archives from SourceForge got ported into excessive versions so that's why the version history goes all that far back. Therefore from--
+
+Interviewer 37:04 	I have no idea. I knew it was on CVS but I don't really know how it works in the background.
+
+Little 37:10	Yeah. Matt-- I think we did a little bit… in fact no, Matt branched-- so, Matt managed to get access to, or maybe-- I don't even know how, where, at what point he got access to CVS and SourceForge but he branched to work on what would become WordPress, because we still issued-- so we did issue another version of B2 and fixed the most crucial bugs in it. So, yes it was that branch that eventually became WordPress but yes it was most important into subversion. That was probably two years later, at least. And prior to Trac, we had another bug tracking system. Because again, the SourceForge wasn't good enough, basically. It wasn't useable, really. So we did have another one - probably be able to find you the name of that at some point - but off the top of my head I can't remember. Yeah, before we went onto that branch, we had a different one. It was just an independent PHP script, and we were using that for quite awhile. So probably off the top of my head, I would say a good few hundred bugs went onto that, and we managed through that. I don't remember the name of it, but it will come to me. [laughter].
+
+Interviewer 38:36	 So how did you decide what went into WordPress? Did you discuss it or did you just stick in stuff that you wanted and it just kind of grew organically?
+
+Little 38:45	There was a little bit of discussion. Some of it was, yes, just sticking our own stuff in. And I have to say, some of it was driven by Matt as well. Matt would ask me to do something. And I do remember one thing that we got, which was a contribution from somebody else, which was geo-tagging. So early versions of the WordPress have a bit of geo-tagging in, and that was some code that somebody donated. I remember Matt passing that on to me and saying, “Can we incorporate this?” And even the excerpts, I remember that [inaudible]--
+
+Interviewer 39:16	 That was your first one.
+
+Little 39:18	Matt asked me to do that, yes. But that was from scratch. He just said, “Do an excerpt. We should do an excerpt sort of thing.” I don't know where he got the idea from. Yes, it was nothing formal, that's the odd thing, it was just kind of-- for me, it feels like we just bumbled along and did stuff, and I still think, how on earth did it get to be so big and so good [laughter]?
+
+Interviewer 39:45	 Were you adding things that you yourselves knew you wanted as bloggers, or were you also adding things that you could sense that other people who were blogging wanted, like [inaudible] kind of wider community?
+
+Little 40:00	A bit of both, I think. I think as bloggers, we probably have similar desires to what other people had. And yes, I think probably still-- I seem to remember still sticking around the B2 forums and looking at what people were asking about and what people wanted for them while it was still in B2 and just getting some inspiration from that and ideas from that.
+
+Interviewer 40:29 	And did you ever disagree about things? In the early days, anyway?
+
+Little 40:36	Probably not in the early days. But we did later.
+
+Interviewer 40:38	 Okay. We can get on to later another times. [laughter]
+
+Little 40:43	Let me just check how we're doing on space on that, should be all right I think.
+
+Interviewer 40:46	 Can I get you a coffee or a drink or something?
+
+Little 40:48	Yes, a coffee.
+
+Interviewer 40:50	 You can pause.
+
+Little 40:50	I'll pause.
+
+Interviewer 40:51	Recording? Hello.
+
+Little 40:52	Yeah. I put it back on. There we go.
+
+Interviewer 40:55 	Okay. So something I'm quite interested in is that-- because you forked B2, it had to be a GPL, is that something that you would have chosen for licensing anyway.
+
+Little 41:10	Absolutely. Yes, definitely. I've always been a huge fan of B2 to GPL. And it was definitely one of the contributing factors for going with B2 for example, over some of the other systems that were out there. So, although I did looked at Movable Type, I almost certainly would not have gone with Movable Type because it wasn't GPL. Yes, so I was already a huge fan of GPL then. Yes, definitely.
+
+Interviewer 41:41	 So that's something that's been important to you throughout WordPress?
+
+Little 41:44	Absolutely, yes. Definitely.
+
+Interviewer 41:45 	Why is that?
+
+Little 41:50	Richard Stallman. I won't go quite so far as to say he's a hero of mine. Although he probably is actually, but his story and why he started the GNU foundation and all the GNU software, it just made sense to me. It's one of those things. I hopefully do have quite decent morals. I think in my early software history, it was all about sharing code and it was-- as I mentioned earlier, in the old days, it wasn't about code that was in magazines that you could type in and adapt, but that was the point, that you got access to that other code that somebody else thought of and you got to adapt it and improve it and make it your own. Yes, I'd already been part of that, and even, I think, probably DJGPP stuff was first GPL stuff, and that's where I heard about GNU. I learned about Richard Stallman and read his story. And he instilled those four principles that just sort of inspired me, and still-- I go to great trouble sometimes to explain that to people.
+
+Interviewer 43:16 	I get that. Actually, I’ve been reading Stallman for this project and I totally get it.
+
+Little 43:22	I mean, he's definitely a marmite mind man, and there are people who hate him. But at the end of it, I admire his principles and his philosophy, and I certainly follow it where it counts. I mean, I’m not a 100% GPL man, so I do have a Kindle despite the issues around that. But I’ll avoid DRM if I can, and I will choose GPL software over and above an equivalent almost all the time.
+
+Interviewer 43:58 	And did you feel that Matt was on the same page as you about that in 2003 or was it not really on his radar?
+
+Little 44:04	It's probably not something we particularly talked about, although I do remember Matt saying - at some point, I can't quite remember when - that he got some of that from me. Some of his understanding of GPL from me. He might not quite said that I inspired him, but I think he did made some conclusions to saying that he picked up some of that from me. I tell you what, if I can find it, is the interview that Matt and I did in Cardiff--
+
+Interviewer 44:37	The video--
+
+Little 44:37	Yeah, the video interview. Yeah. I am sure he said something about that back then. I mean again... it's not something I would have consciously tried to promote to people, but I always would - particularly with people who got it wrong, got the understanding wrong - I would always…
+	
+Little 45:01	Oh, yeah [chuckle]. When something’s wrong on the internet, I would definitely [laughter]. So, I just will explain it as much as I could. And particularly, talking to people I will always try and explain and make them understand me. And, the hardest part-- for me the hardest part for GPL to get the across is that it's not a developers license, it is a users license and that is so hard. Because, most of the people you talk to GPL about are developers.
+
+Interviewer 45:32 	But, early GPL license was for developers so that they could work with each others’ license first, and WordPress seems to be for users?
+
+Little 45:42	Well yes, 2.0 was what Michel have chosen. And by that time, it was definitely a users license. But even the original one, the 1.0-- although it was all very much aimed at developers, but it was about making sure the developers gave users the freedom. It has always been about what freedom is. So 2.0 was probably a better version of that and made things more explicit, but yet for me, it's always been that-- it's developers as users. So as users, it’s a software they can then turn and develop and do more with it. I’ve always understood it was a user's freedoms.
+
+Interviewer 46:32 	It's funny - this is kind of off topic - I find it really interesting. I think the GPL is-- I'm 100% behind the GPL. And part of the reason I'm doing what I'm doing is because I believe in free software. And for me it's a very socialist exercise and very much feels to me quite left-wing. But when you get to America, it's very much libertarian. It's about capitalism and there’s just a tension between that ultra left-wing and a ultra capitalist/libertarian, but both very passionate about the same thing. And it feels almost a little bit Utopian in that they'll put these things aside for this one thing.
+
+Little 47:13	Yeah. I definitely agree with that. So for example, I'll say Richard Stallman’s probably, really, is a hero of mine and I admire the fact that he refused to take jobs with companies that only did proprietor software and so on, but I also in-- it might even have been one of his blogs or something on his sites - he also is a very much pro-gun person in his life. I don't want to know anything about that [laughter]. So it's not everything, but you're right. There are those conflicts in there and I think that is quite interesting to see.
+
+Interviewer 47:52	 Something I definitely want to explore in the book - we'll see how far we got with that - I just find that within the WordPress community the development, the user basis, the people who are building it, it's so varied and so people are doing it for such diverse things, but all towards things that one that affects everybody.
+
+Little 48:14	Yeah, and I think of some realize about that benefit for everybody is there, but for them it's reluctant. If they could get away with it not being there, that would be the case. I came across something yesterday, fire one of the marketing man in the [inaudible] where by somebody is selling a surefire way to make hundreds of dollars from WordPress sites. And basically, it's about how to search on Google for people running old versions of WordPress, and here's some marketing letters that you can write to them to tell them how insecure it is, and there's eights steps you can take to provide a securing service for their-- and it's just really, it's a horrendous exploit of people's fears, with all the words around it. But even the people who've written that stuff, don't know what they're talking about. And I think, I've not got it in great detail, but it looked like four or five of the steps that they're supposed to take - and that you're supposed to charge people $300 or $400 for to secure their site - don't secure anything at all.
+
+Interviewer 49:30	 Would that make a good community project, doing that searching on Google for people who have got outdated sites, contacting them and saying for free, this is how you fix your site?
+
+Little 49:38	Potentially, yeah, potentially. I mean, it's literally being marketed as a surefire way to extract money from people.
+
+Interviewer 49:46 	Can you forward it to me? Because I'd be interested to try and set up some sort of project that just undercut that. And, just involving WordPress community as, this is how you do it.
+
+Little 49:57	Literally, I came across it last night. And I paid the guy the $10 to get access to their stuff. And because it’s just-- I thought, what on earth are you doing there. And because of the ways he was pitching it to someone else, horrific.
+
+Interviewer 50:12	 Yeah? Forward it to me because I would-- I am sure people would be interested in doing that. If everybody emailed 5 or 10 people and said this is how you update your site, and this is how you do it for free, I'm not going to charge any money. That would be a much better thing to do.
+
+Little 50:28	Yes. Particular to say, some of those steps work-- I mean one of them for example, again it's--there's a lot of bad information, a lot of old out of date information about WordPress on the net. And one of them, for example, I think was making sure that an index.php to your plugins directory, your themes directory. That's been there for so long. But it wasn't there originally. So somewhere out there on the net, there is “This will make your WordPress more secure.” There’ll be some people who still do that. I mean I'm still in-- tech  heavy in a book at the moment. This is probably off the record. I shouldn't even talk about it.
+
+Interviewer 51:08 	No. You can stop if you want to. [laughter]
+
+Little 51:10	But, some of the technical stuff. It just horrendously [inaudible]. This is somebody who works day in and day out with WordPress who is quite-- you would expect to be up to date but actually the information that they wrote down, oh I forgot his name.
+
+Interviewer 51:31	Is it the UK? [inaudible]?
+
+Little 51:33	Yeah.
+
+Interviewer 51:34	Really?
+
+Little 51:34	Yeah.
+
+Interviewer 51:36	That’s disappointing.
+
+Little 51:37	It is, it is. But, I do see him. I still see him.
+
+Interviewer 51:42	I used to do this. When you called me out on the blog post [laughter], but I learned that you got to check dates on blog posts. And you've got to check with somebody else, double check everything before you publish it.
+
+Little 51:56	I tell you what, I find or what I've come across - in the couple of very clear examples - is that people who've been around it for a very long time, have their habits that work and they've not learnt anything new, because what they're doing still works. Whether it is using FTP or plugins or update WordPress itself, I mean I remember when I made my first little training video - a three minute training video - which was “How to add a category listing to a menu.” Cause somebody would state it and I meet a group and it was actually quicker to create a video and than it was trying to explain to them. At some point, I showed my son in law the video and he is being-- I mean he had a B2 blog on different reasons, first the presents was a domain at posting on the B2 blog [laughter]. And he's being hacking B2 and now to WordPress for all this time. And I showed him that, probably in the middle of last year, he said, “Oh, I don't know we could do that. It’s good.” [laughter] Because he just want every thing. He still edit his themes to make changes and put some stuff in and to fiddle about it.
+
+Interviewer 53:11 	I did that for longer than I should.
+
+Little 53:14	What your doing works so…
+
+Interviewer 53:16 	Yeah, Exactly.
+
+Little 53:16	Obviously, it can be difficult to--
+
+Interviewer 53:17	But then you can‘t update to different theme and it’s annoying.
+
+Little 53:22	Yeah, it does happen and I think that’s probably the same with--
+
+Interviewer 53:24 	I think that's quite the benefit to being actually active in the community. You do stay on top of what’s going on, what changes--
+
+Little 53:30	Yes, definitely.
+	
+Interviewer 53:33 	That’s helped me quite a lot of. Also I have-- before I post anything, I‘m [inaudible] I have people I asked to read it. I just want to make sure it’s right. By the time, [inaudible] stuff for me. People here I trust, they will tell me if anything is wrong. Anyway, I should probably go on, I've got loads of questions. Did you guys use a chat room or IM's or anything like that? Because if you had any chat logs or anything like that, that I can see.
+
+Little 54:01	I don't think we used anything at all, now that I think of it.
+
+Interviewer 54:05	 I can't even get old logs for that. Well, at the minute, I’ve asked Matt, but…
+
+Little 54:09	They should be there somewhere, I would hope anyway. Probably not the very first few. I’m probably was on the first few months maybe before they were being logged. No, I don't think we had-- there was a time when we did, there's a folder somewhere of--
+
+Interviewer 54:36	 You mean IM'ing?
+
+Little 54:38	Yeah, with Mike.
+
+Interviewer 54:38	 With Mike? [laughs] I saw your post about it.
+
+Little 54:42	Oh that's right, yeah.
+
+Interviewer 54:42	[laughs] I couldn't find the photo, I'm going to email Christine and ask her if she has copies.
+
+Little 54:46	It is there somewhere. I might even have a copy, if I'm not mistaken, although it might be a thumbnail. Yeah, so we did do a bit, that was probably on AIM?
+
+Interviewer 54:56 	AIM?
+
+Little 54:57	Yeah, it was AIM. I mean even those dates you have counts on all of them and I used to use-- again, you probably reviewed it on my blog…
+
+Interviewer 55:06 	ICQ?
+
+Little 55:07	Well ICQ we’ve had that as well but had MSN or whatever it's called at the time, ICQ, AIM, Yahoo. I can't think of a Window's software that I used that would basically keep you logged in to all of them, so you were just available.
+
+Interviewer 55:26	 This one called Trillian?
+
+Little 55:27	Trillian, that's the one. Which is amazingly is available for Mac and I've now got it on my Mac.
+
+Interviewer 55:33 	Oh really? I didn't know it was available.
+
+Little 55:35	Yeah, at some point. I mean, I stopped using it but at some point. Because, I went into Linux so I went off Windows for many years ago and so, I was using-- what's now Game, and before that it worked on a different name, or maybe, I don’t remember. It changed it’s name. Yeah, I used to use Trillian, so we would have been using one of those services. The off thing with that is that I almost never knew what it was, somebody would just start chatting to me, it was using one of the channels, that would just come up.
+
+Interviewer 56:06	 If you have any old logs or emails that you could share?
+
+Little 56:10	I’ll have a look.
+
+Interviewer 56:10	 I mean, obviously it’d go through them. You have to give me any if you don’t want to, but if you did have any that would be relevant in terms of decision making or anything that you feel would put me in an interesting direction, that would be really useful.
+
+Little 56:24	Yeah, I will, I will have a look and I'll have to-- I’ll find stuffs in my old laptop. I've got a bout a gig of old emails. And when I say old emails, I mean, probably, back to my first email, that I need to do something with. At some point, I'd love to put them into Gmail or something. But actually, my first Gmail account was in 2004.
+
+Interviewer 56:52	 Yes, you blogged about it. [laughter]
+
+Little 56:55	So, you know all of it. [laughter]
+
+Interviewer 56:56	I know [laughter].
+
+Little 56:58	So, I’ve probably got lost of stuff, Gmail—but I know I’ve got my old-- I’ve got from the word my old laptop.
+
+Interviewer 57:05 	Like if you had the email-- I guess, you must have commented to Matt about forking and then maybe he emailed you or you emailed him, and you might have some emails on him.
+
+Little 57:13	Yeah, I think I remember the account into that. Yes, I’ll check--
+
+Interviewer 57:16	If you could check on that, that would be really interesting. I’m happy like, with everything you could say, “You could put this in the archive,  you can use this, you can’t use this.” All right, when you get started with WordPress, what were kind of the essentials that you felt that you really wanted to be working on after forking the B2 platform?
+
+Little 57:41	Standards compliance was big and Matt was big on that as well. I mean, by that time I was working for-- I mean again, you may well, have seen the blog post that I did where the company that I was working for in Manchester just up the road had released their first standards compliant site, that had past all the tests-- and it was also accessible as well. So that was a big thing for me. And again, for the model reasons. That was important just to get WordPress standards compliant. And then, I think for me, it was adding features. Yes, it's all very-- the actual sequence of events, and the kind of things that we did in those early days is probably fairly vague and hazy for me. It didn’t-- the broad sweep life, and putting the links right in there. The WP cons example was something that I added in. Again, through experience of developing software over and over again and hitting that exact same issue is when you get the new version, it over runs the extention file, if you just don't zip it. And, already, I think multiple times with different companies I've worked for, I had to implement the equivalent of conflict set of example, or setting sample of whatever you wanted to call it. The program on languages was that equivalent. So, that was something that I knew, I had to go in there. Because that was classic, because you do things like-- you’re translation and such of it was-- like for the names of the months in the calendar, wasn’t yet to VP settings file. And your smilies were in there. And there was just these whole trashes of PHP code that you put in there, that were your settings, and if you just [inaudible], you’ll lost it and you have remember to handle that and anything new then. It was then an issue. People weren’t used to editing files. That was a problem. And then generally beyond that, was the setting to [inaudible] as well. So, I’ve overworked so it was very complex at first. I mean, you know why you've got your separate settings pages now? So you’ve got your reading, you’re [inaudible] and things like that. That was actually driven by the datary, originally. Follows extra fields forms and a table [inaudible] that said basically those options when, and which big ones were the smallest of those pages. And the fact that there's still one page that lists them all, if you know what the URL is-- yeah, that was just lack of program from the first developer. Still in there. [laughter]. Yeah, that was me trying to get a good-- basically, stop leading to heavy community settings or even there is a conflict beyond that and make sure what your database can actually stuff in. So, that’s something I wanted to make sure we're good.
+
+Interviewer 60:50	 Were there any major issues with forking B2?
+
+Little 60:55	No. Not really. Not that I recall. Not beyond-- just anything making major changes to any piece of software. Again, you see, for me-- that was just natural. It wasn't any big issue. I was already in my - still to this day - editor programs that in certain time will collapse along that, I've always kind of boasted allowed me to work probably editing finals - plain or text or anything - three times faster than any body else and swallow a bit. I've actually been using it for 20 years. [laughter] The same editor for 20 years. I wouldn't - I actually got a point where I said that I would refuse to take job that didn't allow me to use my programs editor. [laughter] Because it's so much a part of what I can do. I've worked with people for whom-- too much outplay where they are, the mechanics of editing finals-- and especially if your refactoring and change your function name and things like that. That was a big jump for them, and it was hours and hours of work and because they didn't have anything beyond the most basic editing skills. And refactoring a function name across, even a thousand files, takes a few minutes work for me, just because I have a decent editor and I know how to use it. [laughter]
+
+Interviewer 62:28 	Did you have a lot for refactoring to do?
+
+Little 62:30	Yes, particularly when we got to the renaming and trying to drop the B2 from everything. Yes, so there was a lot of that. Eventually, we started separating things into different areas of functionality. Because it was-- I’ve interest in, actually, to look at the old B2's zip, to see just how many files were in there, and how much was crammed together and not really separating in areas of functionality and things. Really sorting out and probably came along later, because we didn't want to make those massive changes that did stabilized the code and introduces mobile when you fix something. So, we did take it step by step. And, we tried to just as much to get the next version out without it being a big deal. So much smaller steps that we did, definitely.
+
+Interviewer 63:34 	Did you have much contact with Michel before the fork and after the fork?
+
+Little 63:42	Other than on the forum, the original B2 forum, no, not at all.
+
+Interviewer 63:46	 Have ever met him?
+
+Little 63:47	No, I never have.
+
+Interviewer 63:50 	And, do you know why he disappeared?
+
+Little 63:53	If I remember the story correctly - and I still tell people this although I'm not 100% sure it's completely accurate - as I was told he got made an adornment and had to give up his fight. And I think he may even have had to move back into his parents' house at some point who didn't have internet, and it was just as simple as that. I think it was a company fault that he had, because I do remember that people in France that knew him and had his phone number were saying, even his phone's not answering. We really don't know what's happened to him. And as far as I understand it, that basically is what it was. He was maybe doing an [inaudible] job in some way, and had to give up his fight and the real world intruded more. [laughter]
+
+Interviewer 64:38 	I'm hoping to speak to him. I've had some contact with him. And he did a presentation in WordCmp Paris a couple of years ago about the history of B2. One of the French, a French guys was translating it, and going to do some subtitles. I think we should watch. It’s quite interesting. Did you speak to him before he made WordPress the official--
+
+Little 64:59	I didn't. But, I've suspected about it. So, no. I mean, still to this day, I don’t really have much of the-- although, when he did join in and start contributing code which you did do at some point. But even then it was briefly, because I think he just wanted to move in some of the stuff. So, yeah, we probably exchanged email on the mailing list, even been in IRC chat, I'm not sure.
+
+Interviewer 65:24 	Do you know where in the mailing list archive?
+
+Little 65:30	Isn’t that in the footer of the WP hackers because it’s the mailing list. Does [inaudible]--
+
+Interviewer 65:37	And is it still WP hackers?
+
+Little 65:38	Yes, it's still WP hack—You know I still subscribe to the WP hackers.
+
+Interviewer 65:43	No.
+
+Little 65:44	I still do to this day.
+
+Interviewer 65:45 	I'm on wp-docs, but the docs isn't very active anymore and UK and that's it.
+
+Little 65:52	No. I just don't do with hackers just simply because-- and strangely enough among tools in mailing list and most of it goes into my Gmail archives. I don't even get to see what's there. For WP hackers, I leave in my inbox and I still look through them. A lot I'll just dismiss right away their conversations but I still learn stuff from WP hackers especially because every now and then Andrew Nacin will contribute stuff. And that implied, sort of the other good guys. And I do still learn stuff, from doing that. And that's what I think what you were saying before about keeping in touch with what's moving on.
+
+Interviewer 66:25	I should maybe subscribe.
+
+Little 66:27	It is very geeky.
+
+Interviewer 66:28	I’m fairly geeky.
+
+Interviewer 66:30	It's considerably less active than it was. Most of the starters of any of the conversations are from newbies. From people who don't realize it's not as active as it was. Or, people who've got specific problems. It's still interesting. There is somebody who came on middle of last year. English is not his first language. He's name Halix something or the other. Basically, he almost came on with this really bolshy attitude about, “Well I've started looking at this WordPress thing. Oh, it's terrible. It does this wrong, it does that wrong and I can't get it to do this.” And actually, reading the somewhat harsh responses some times, as he's gone on and keeps asking questions on the rest of it. It's almost like, “Well, now I'm using these API functions, how do I do this?” You can see his progression of learning the WordPress way. And all the bolshy attitude gone, and he still questions like “Why doesn’t this work?” or “Why does it happen that way?” But its interesting to see him completely much more reasonable. And, particular people come in, some special developers, strong developers, could be fresh to work right. Still see that it's not a ideally architected system, and there’s things that would probably in an ideal world, would not be done the way that they are.
+
+Interviewer 67:57	Like?
+
+Little 67:59	Oh, goodness me! So, one of the big things that comes up regularly on the mailing list is the absolute URLs and everything. So that's one of the things-- and I did see something from Ryan last year, it was either-- something on the mailing list that pointed to something on trial, that basically said, “Yes, maybe, one day we'll stop that.” - as in, “No, it's not the idea is it?” [laughter] Probably a couple of other bits as well, but the likes of [inaudible] are still making huge inroads in scaling it better, just making it better.
+
+Interviewer 68:37	Yeah, and when you-- so we started B2 and forked it. Were there any constraints that you have because of that? Is there anything you wanted to do but you couldn't do because you were working with this interesting thing?
+
+Little 68:58	The constraints were probably there. In fact, we’re not breaking anything but it was-- and I certainly felt it as a constraint, again it was just something that I wouldn't actually do would be to retain back the possibilities, and to not break stuff. And probably, nowadays, it’s definitely-- it's an issue and there's still some old crap in there that we really wish we could get rid of and even down to the old goals that have to exist to make some stuff work. Mostly the old stuff and yeah, you'd love to think you‘ll look good and would love to get rid of them. But, not again, it’s just-- I think it's me, I never saw it as a constraint but actually yeah, absolutely was working, we did the constraint to try not to break anything, actually that was the case.
+
+Interviewer 69:58	 So you decided in January to do the fork. And then you released it in May. How actively were you guys working when you working. Were you working on it on a lot. Was it just like kind of here and there?
+
+Little 70:12	To me, it was here and there. That time I was probably spending 4 to 6 hours a night, most nights on the computer, of which, far too much of it was on B2 forums. [laughter]
+
+Interviewer 70:28 	Right! Okay! [laughter] You're still helping people!
+
+Little 70:30	Oh absolutely! And that was sometimes getting frustrating is that I would log onto the forums just to see what was happening. Maybe, I was in the middle of conversation and things like that. And look at the clock and see that it was 3 hours later, and think, Oh no! I have to write some code.
+Interviewer 70:48	[laughter]
+
+Little 70:52	So, in terms of working on WordPress, or on B2 earlier today. Probably not as much as Matt. I certainly spent a lot of time on the B2 forums helping people with B2. What you were asking before about the kind of things that went into it. That was probably still some influence - the things people were asking how to do in B2, “Can it do this?” or “How can I make it do that?” Definitely, I am sure that fit into, even if not consciously fit into what went into WordPress.
+
+Interviewer 71:29	 That's interesting.
+
+Little 71:30	Yes, so in terms of time... it's hard to learn the language. I was... definitely spending that kind of time, 2, 3, 4 hours a night - almost every night - on the computer of which from day to day, would change from most of the bidding on the forums, to most of it to coding and anything in between. I did get the impression-- I still retain the impression, that Matt did spend more time coding than I did.
+
+Interviewer 72:07	 What was coding skills like back then, he was only 18, 19?
+
+Little 72:12	Alright, I think. [laughter].
+
+Interviewer 72:17	Is this an off the record thing?
+
+Little 72:19	No. Again, certainly not horrendous. And I didn't particularly, necessarily, look at these codes, it was-- because, originally, we very much worked on different things. Yeah, it’s quite interesting actually, and he was probably less disciplined than I was just from his own experience. I have been coding for whatever, 15 plus years professionally by then. So yeah, but it was probably more in the line of what was happening in B2 anyway, and the way B2 is constructed predisposed you to work with the concept of global template tags and that kind of thing. And even the backend stuff, was within the structure of how Michel had coded that too. To add extra many on it, or to change the way the code works, you are very much working with in the way it was already constructed. I think we probably both broke particularly poor code at that time. I mean, particularly, on the backend of B2. Because, almost every page you hit would have both the interface code, and the live functional code, in the same scripts. There wasn't a huge amount of separation. In fact probably, I'd go so far as to say that most of the PHP files have some kind of interface in them. There weren't any ones that were just pure functional libraries, maybe there was one, maybe there was two. And, that took a while to move away from. That's certainly a lot of the criticism directed at B2 code, was that it was horrendous mix of-- and that's one of the things people hate about PHP is it allows you to completely and absolutely mix up that interface, and code, and-- on the fly. And even the fact that it's got some extra functions is terrible to get you to these-- allows you to do some terribly wicked things. [laughter]
+
+Interviewer 74:40	Yeah. So, how did you feel when 0.7 launched? Your official launch of WordPress?
+
+Little 74:52	Great. I mean, it was almost - just in passing - it was almost-- “Here you go. Here’s the new thing.” It's not really new, it's just a continuation to improvement. I think I was certainly very casual about it. It was just-- I mean I was certainly-- I have to say, I was probably excited to be this involved in an open sourced project from that way. Prior to that, I really am had only been on the fringes. I remember that I even contribute a bug fix to My SQL, but it was just probably two lines of code on a mailing list. And, CVS and I got involved in some of the discussions on CVS. But really, a tiny, tiny person sort of thing in the grand scheme of things. So to be just the only other person other besides Matt, I think it was probably very exciting, definitely. But even just making that first release, to me it was just a aesthetical. We'll go for a release at some point. And again, the code went into CBS, it was available anyway. So, it was almost like the release was not a big thing because for the people who were looking at developing or looking for codes, they already have access to it.
+
+Interviewer 76:23 	At what point did it feel like a big thing? Did it ever?
+
+Little 76:30	I don't think for me it really did, up until-- you know what, not up until the first survey which was only two years ago.
+
+Interviewer 76:42	My God. [laughter]
+
+Little 76:44	Because it wasn't until-- it was at that survey came and it was the people making money from WordPress. I still - in my silly old head - still had it that it was a few hundred people around the world that might be making money from WordPress. I mean Matt and his huge success with Automattic and StudioPress or whatever they were at that time - they were probably still StudioPress two years ago - the few of those. But, they just seemed-- I've said, if anybody have asked me before that survey comes out, I'd have still said, “Yeah, there's probably still only a few pointers of people making money out of Word.” [inaudible] [laughter] But yeah, that was a real thing. I mean I knew there were millions of people using it, but I don't know if it's really all done. I never really appreciated it until that point.
+
+Interviewer 77:49	 That's interesting. Yeah, you’ve got a big economy
+
+Little 77:54	Yeah, I honestly have no idea.
+
+Interviewer 77:57	Well, it is. [laughter]
+
+Little 78:00	Yeah. And after that point, that was really-- and I probably thought about it again and just thought, “We might have played a little bit [inaudible]?”
+
+Interviewer 78:12	 Not even a little bit.
+
+Little 78:15	I still think it's a little bit, you know.
+
+Interviewer 78:17	 Yeah. But, you're not tired of it. And then you got-- [inaudible] other developers involved like…
+
+Little 78:28	So that was after that first release, I think there is a post on [inaudible] to all.
+
+Interviewer 78:34	Yeah, by Donncha.
+
+Little 78:36	Yeah, Donncha. But also --
+
+Interviewer 78:38 	There was Alex, and Dougal.
+
+Little 78:41	Yeah. Alex, Dougal, Mike as well.
+
+Interviewer 78:45	Yeah. Mike is Mike Tremolet...
+
+Little 78:48	Tremolet. That's right.
+
+Interviewer 78:50	Right. Because I can't find too much from him.
+
+Little 78:53	No. I can't remember what's it. I know it sounds weird, but then I cannot-- can’t remember what the others did, but he was certainly wasn't as prominent as the likes of Alex, Dougal and people like that. So, I have him move away some of the stuff that was going on, it felt like it would be intimidated from way up high and I know some people did fall out and moved away from approach after that time. But, sometime later, I saw the Jazz [inaudible]. Have you ever seen that video?
+
+Interviewer 79:40 	And I haven’t seen the video, Jazz quotes [inaudible]…
+
+Little 79:41	Yeah, it’s just that this video-- it wasn't a WordPress conference, it's something else that he was asked to speak at. I thought it’s Jazz covers, the [inaudible] covers that he did. I mean, those over his slides and then they had some [inaudible]--
+
+Interviewer 79:58	[inaudible] yeah, yeah.
+
+Little 80:01	And, that turned me around [inaudible], because I suddenly understood what had been going on. I understood the thinking behind all the decisions had been made but I just hadn't understood, and can’t see why. And the people argued about, I'm not certainly around really [inaudible]. I just didn't have the ability to be as involved as to [inaudible] have been at that time.
+
+Interviewer 80:28	So when was that?
+
+Little 80:29	So, that was most probably-- the real life intruding and having to withdraw from regular involvement was probably a little of 2005, I think. So it was quite early on, because I was looking at Trac my last regular contribution right at the end of 2005, I think, and after that it was dribs and drabs, almost. So yeah, it's probably in the middle of 2005. And also I think at that time, Matt just started Automattic.
+
+Interviewer 81:11 	That’s 2005? I thought it later? Or, maybe it was. I'm not that far along yet.
+
+Little 81:16	Yeah, I think [inaudible], 2005 Automattic started. And again, that seems to be getting a life of its own. It was quite new. It was quite [inaudible]. There was a lot of stuff going on around that time.
+
+Interviewer 81:39	Right, let‘s save that for another interview [laughter].
+
+Little 81:40	Yeah. [laughter]
+
+Interviewer 81:42	Well, I’m going to write a list.
+
+Interviewer 81:44	Yeah. [inaudible]
+
+Interviewer 81:46	If we need to rush off or anything…
+
+Little 81:47	Not rush, but I should probably be going there in 15, 20 minutes or something or so.
+
+Interviewer 81:53	Well I want to get back to mid-2005. I will ask you what [inaudible].
+
+Little 82:00	Okay.
+
+Interviewer 82:04	Let's see, okay. So, once you launched May 27th, was [inaudible] immediately obvious once you had started having new users that there were things that were wrong, that you needed to fix?
+
+Little 82:23	Nothing major. There were bugs in it, and I think fairly quickly we did get the other reported bugs. I also couldn’t remember the name of that bug tracking system we used, but that did start getting used. Yeah, it was- a lot of it seemed incremental. We want everything to be-- there weren't any major things that I recall. Now to say it was incrementally grouped, there was a small group that [inaudible] bug fixes and things like that. So, it was just [inaudible] settle thing on a day to day. There was just things to do. And, [inaudible] when support forums [inaudible]. That made the difference. The stuff being reported on the support forums, and again, if you look at the early days on the support forums, some of contributions are there, I mean that would be-- if somebody reports in a bug, and we might be responding to say, “Oh, yeah. It looks likes there’s issue there.” And, a couple of hours later they’d be, “That’s now in CVS. That would be in an actual release [inaudible].” And, I think a lot of it went like that. Certainly for me, that's what I felt I was working on. I was just fixing bugs where people found them and making improvements as we felt was necessary. All seemed so small, incremental stuff. Nothing major.
+
+Interviewer 83:59	 Once you got Dougal and Donncha and Alex on board, how was that working as part of a bigger team? How did you manage that?
+
+Little 84:12	I think, probably that point, I think Matt really starts to come into his own in terms of leading. Yeah, and that's my memory of it. I think Matt really starts driving things then. Although, his stuff is focused is inside. I think, [inaudible], it started-- this things with Matt drove in some way all instigated.
+
+Interviewer 84:39 	And was he a good leader at that point?
+
+Little 84:43	Was a good leader? He was a leader.
+
+Interviewer 84:45	[laughter].
+
+Little 84:53	I honestly don't know.
+
+Interviewer 84:56 	But, were you happy that he was taking the lead and do you feel that--
+
+Little 84:59	I was. Yeah, I think I was because again, it is really all-- I don't know how many great short comings-- I didn’t feel that there was any great short comings particularly with B2. And, that’s as much-- I’ll tell one thing, I think at that time, I still had my old B2 hacks. There were my own add-ons to make my site work the way  I  itwanted to, that I just automatically pulled into WordPress. And, although I didn’t start using WordPress immediately on my site - although Matt did - I did have improvements that I made, but-- that I just solved them as personal to me from rather than other people wanted to use. So, [inaudible] any great things that I thought needed to be added. And, I just was happy to go along with what other people-- what people are asking for, really, which is anything. I’m thinking from the beginning, probably, Matt was across what people were doing. A lot of people are asking for [inaudible] the same forum or things like that, or even on their own blogs and feeding that into his own direction. It just always feels like he's always done that.
+
+Interviewer 86:38	 And do you still have any challenges that came from working as part of a larger team as opposed to just you and Matt doing your thing?
+
+Little 86:49	 I don't think there were because even then-- certainly the early days when we first adding people on. There's only Matt and I that has committ access, so it was all marshalled. So it was-- that actually makes it an easy way to work with a team - with a growing team - although it's a burden, essentially, because everything worked effectively was marshalled through Matt and myself. I didn't feel that there were issues around the team growing really. And, although it’s big team now, it’s still essentially, one of the benefit of it is that, yes, people can contribute. People will contribute patches and all the rest of it, but at the end of the day, it's the people - who now, as a matter of prophecy - people who have earned the right, who's shown their own skill, who make those final decisions. And even though I made contributions to 3. 5, actually at least one [inaudible] bit was rewritten by Andrew, by Nacin, and yeah, I think that's still [inaudible] that still makes a bit difference. Although, I know a lot a people hate that. Hate the fact that it’s not on github so everyone can make pull request and all the rest of it, but I still think it's a superior product, because of that, the cathedral versus the bazaar.
+
+Interviewer 88:27	 Yeah definitely. Suddenly what was really funny, reading through all your blogs, everybody’s obsessed with your Google rankings. You and Matt, everyday were like, “Approve my points, [chuckle] Google.” And [inaudible], and Matt would say the same thing, and Alex did it…
+
+Little 88:45	Yeah, it was the-- that was this influence blogs. So the big thing was, as far as I understand it. So, 9-11 [inaudible] got cold shot in 9-11, people was searching for news of what was happening days after that, and Google had nothing because their system was so slow, all updating their indexes. And at that point, they changed the way they worked. Their emphasis was placed on frequently updated content. They automatically had a much higher ranking [inaudible] and so on. And, that was at the time blogs were becoming prominent. So for blogs really, it was really easy. If you had a blog, it was okay to regulate. It became easy to just get to the top of the search engine writers or whatever it was you are talking about. I remember the first one I did and you probably read that on my blog was the earthquake in England?
+
+Interviewer 89:47 	Yes, I remember [laughter]
+
+Little 89:49	And that was ridiculous. My blog post on the earthquake in England was ranking the whole BBC News, story [laughter] on the same event. And that was, for me, that was the start of it. And, it was just like-- I wasn't expecting this to happen but I instantly knew how it did happened. And, then it was just a case of playing with it and seeing what you could do. And, it was just a bit fun.
+
+Interviewer 90:16	It was quite fun watching you all fiddling around with [inaudible] keys. [chuckle]
+
+Little 90:21	It was, and it was fun. And, to this day it still amuses me that I was able to do that. Even more interesting, was that despite the fact that meant denying the punctuation and exact phrasing was important-- actually, I used to be able to prove that on that one story, The Earthquake in England was that if you didn’t include the exclamation, [inaudible] no, if you dropped it in, it was suppose to be an important word and didn't appear in the sentence.
+
+Interviewer 90:54	Right, okay
+
+Little 90:55	And that's still true to this day. It's the exact phrasing can have a..
+
+Interviewer 90:59	I love to see the geeks get excited about it, it's really funny. [laughter]
+
+Little 91:03	I know. But I learned a lot, I think. I learned a lot in those days. Because I was blogging regularly - and another point is it’s multiple times a day - you actually could see the effect of what you did, hard, on your own search engine. I know that at one point [inaudible] Google alerts on my-- well, I still have Google alerts on own name. So, I get emails when Google indexes something that’s got my name in it. And I used to get loads of emails, sometimes within 40 minutes of me posting a blog.
+
+Interviewer 91:41	Right, wow.
+
+Little 91:42	I would get an alert to say, Google thinks there's some new stuff about Mike Little.
+
+Interviewer 91:47	Yeah, yeah.
+
+Little 91:48 	Forty minutes. [laughter] Strangely, I never monitor that in any way.
+
+Interviewer 91:57	It's weird, you guys could have monetized so much stuff but you didn't. I think that demonstrates the ethos behind what you were doing, where as other people were just instantly-- like the guy who wants to just make money off of getting people to update WordPress. There's always been people like that and there's always people who care about the kind of ethos[inaudible]. Okay, let's finish there.
+
+Little 92:24	Okay, yeah.
+
+Interviewer 92:25 	I'd like to get another one at some point if that's okay?
+
+Little 92:28	Yeah.
+	

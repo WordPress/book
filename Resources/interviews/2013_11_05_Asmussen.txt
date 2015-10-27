@@ -1,0 +1,217 @@
+Interviewer: So it is the fifth of November. I’m speaking to Joen Asmussen. I’d like to start out by talking to you about how you first got into WordPress.
+
+Asmussen:  Oh, let’s reminisce. I actually started using Moveable Type way back in the day. I had a friend called Michael Heilemann. He had a… well, he wasn’t a competing blog, but his blog was better than me and I always envied that. Obviously, I had bet on the Moveable Type horse and he bet on the WordPress horse. And eventually I switched, so I guess he’d won that round. It was around the WordPress 1.2 era and just around the time where Moveable Type went closed source, I believe. And so everything I was able to do with Moveable Type, I tried to do with WordPress which eventually got me into developing things and themes and plugins and stuff like that. So, I guess that’s how it started. 
+
+Interviewer: Did you know Michael offline? You’re both from Denmark.
+
+Asmussen: I met him online. I knew some of his close personal friends in person, so they sort of introduced us through the internet. But eventually, well obviously, we met up and we’ve been good friends ever since. Still to this day.
+
+Interviewer: So what’s your background? Is it design? Or development? Or…
+
+Asmussen: Yeah, I have an education in print design. But eventually I found actually dealing with printing out stuff to be such a hassle when in fact you could present your designs before being printed. Eventually I switched to digital and web.
+
+Interviewer: And you would have been around then when the theme system was introduced in 1.5.
+
+Asmussen: Yes.
+
+Interviewer: Do you remember that? How did you feel about the theme system?
+
+Asmussen: There was a fair bit of controversy, I remember, because a number of people were big fans of how it used be. I believe Michael was quite involved in that process as well. Seeing his side of that conflict, the sort of discourse at the time, obviously I was quick to pick side. But I also saw the benefit of being able to customize your website beyond CSS only. Which in hindsight seems [3:00] completely obvious, but that was sort of the bulk of the discussion at the time. Should themes be CSS only or should we be able to customize the PHP as well. 
+
+Interviewer: So you like the theme system then?
+
+Asmussen: Oh, yeah. Yes, I love it quite a bit.
+
+Interviewer: I’ve being trying to get a handle on why it was controversial. Because for me, I’m just like whoa the theme system is great. And I remember Ryan Boren told me the theme system was really controversial. And I was like, really? I’m really trying to understand why that was.
+
+Asmussen: It’s been so long now so it’s hard to remember the exact details but I do remember a vocal minority really - I really do believe it was a minority - really screaming out for keeping it CSS only. I think whenever you change something from how it used to be, a number of people are always going to react negatively because essentially the change is forcing them to learn new things. And obviously that’s work. So I think there’s a natural change aversion. And I guess they couldn’t see the benefits of allowing PHP to be customized.
+
+Interviewer: So, prior to that was it just CSS. You just edited the style sheets?
+
+Asmussen: Yes. I do believe there was one template you could customize and by writing some rather elaborate conditionals you could tweak the design to be unique on a per view basis. So you could have a different looking permalink page and an index. All the details are a bit fuzzy. You’ll have to forgive me if I mis-remember some of these things. 
+
+Interviewer: That’s okay. That’s fine. So what did that do for the sort of theming and design community. Once it changed.
+
+Asmussen: The fact that themes were added?
+
+Interviewer: Yeah.
+
+Asmussen: Oh, huge. I believe at around the same time, Michael Heilemann was pegged to make a Kubrick theme. The first real default theme after the classic one, starting the whole trend. I think that was controversial in and of itself. [6:00] That’s a whole different story. But I think it was around the same time. But I was a huge fan because it meant that I could customize my design more and do it more easily. I remember starting work on a theme for my blog which eventually turned into… I eventually released it open source. And a bunch of people did so as well. There’s a huge amount of traffic given to people who made open source themes. If you just wanted traffic to your blog, just release a WordPress theme and suddenly you get a bunch of visitors. Very much pioneer era. And the early birds could get a big chunk of users for their themes by virtue of simply giving them away. So it exploded basically. Theming. 
+
+Interviewer: Sorry, I just got an electric shock from my headphones. 
+
+Asmussen: Technology isn’t quite with us today, is it?
+
+Interviewer: No, it’s not. So was there, then, much discussion about licensing themes? Or was it just accepted that they were open source? Or was it accepted that they were just GPL? 
+
+Asmussen: I can’t recall the details of the licensing discussion from that era. I recall one much later, controversy about GPL, but I don’t think that was related to the inception or the genesis of the theming system. It’s very possible there was a discussion, but I don’t remember it at all.
+
+Interviewer: Do you remember why Kubrick was so controversial?
+
+Asmussen: I think it all was a matter of jealously, essentially. A number of - and I really believe this was a vocal minority - had a bunch of code criticism for the actual markup in the theme, comparing it with the classic theme. And having looked at the mockup myself, I thought there was nothing at all wrong with it. It was just different. I think it was just jealously that Michael got to be the default theme guy for WordPress. I can’t really think of anything else, you know. 
+
+Interviewer: And he was for a long time.
+
+Asmussen: He was indeed. And certainly I was jealous myself. But I thought he was very deserving. I thought it was a good theme. Especially when it came out. Obviously, when it’s been default theme for half a decade or more, at some point it gets long in the tooth. Any theme will be. But right when it came out, it was gorgeous, I think. 
+
+Interviewer: I found this thread… about Kubrick. [http://wordpress.org/support/topic/why-using-kubrick-on-13-is-a-mistake?replies=132]
+
+Asmussen: Oh, wow.
+
+Interviewer: That one there. The WP Hackers want something totally, completely different. So I was reading around. I’m planning to speak to Michael, it’s just we’ve been having trouble matching up our schedules. 
+
+Asmussen: Yeah, he’s a busy man.
+
+Interviewer: Yes. So, yeah, we’re trying to get there. I noticed whenever you started using WordPress, you wrote a post about this sort of usability and user experience of some of the different elements in the admin.
+
+Asmussen: Yes, yes.
+
+Interviewer: Did you find that there were problems early on when you first installed it?
+
+Asmussen: Well “problems” is one way to put it. I didn’t think there were problems, per se. Perhaps it’s prudent for me to start this by saying that anything that I criticize is usually worth criticizing. If I don’t criticize it, it could be because of apathy. So the fact that I thought WordPress was worth criticizing means that I frankly loved it. And I believed that everyone else involved in this later redesign project, joined the project because of a love of WordPress. It was open source. It developed really quickly. So many features were added so quickly and it… everything just worked. And we saw huge potential in the admin interface. So with that rather large disclaimer, yes. I do think there were some issues with the admin. It’s been such a while, and WordPress has improved so much since then. But they were little things that at the time were what I considered usability issues. I did read a lot of books about usability at the time, including books by Jakob Nielsen, infamous usability expert. By most people, disliked for his staunch opinions. However, his approach was to test things and discuss the design based on that feedback, [12:00] which I thought was completely fair. And so it could be trivial things like underlining links, which I suppose is less of an issue today than it was back at that time. Tabs at the top instead of… white text on… or… I can’t even recall, was it black text on white… oh it’s been such a long time. Little things. Little things. 
+
+Interviewer:  Did you feel that your thoughts were listened to?
+
+Asmussen: Oh yeah. Oh yeah. I believe Matt Mullenweg even chimed in on some of my posts. There was a lot of agreement on some issues and disagreement on others, which is the nature of open source development. Right, there’s the link… Thank you for sending me a link to my own blog. 
+
+Interviewer: That’s okay.
+
+Asmussen: I can’t even recall all the details. But yeah. 
+
+Interviewer: So did that’s… can you tell me how the Shuttle project got started then?
+
+Asmussen: Well this was probably part of it. I think that the fact that WordPress 1.2 came as a really good release right around the time when Moveable Type had their huge closed-source controversy. Or at least that’s how I remember it. I may have the dates wrong. I remember there being a rather big influx of design savvy WordPressers at the time who loved WordPress for what it was, but also, like myself, had some desires for improving it. It was sort of an echo chamber at the time, so a bunch of us got together… I believe the exact genesis was Khaled, and I hope I pronounced his name correctly, he took the first initiative towards redesigning the admin and rethinking it based on some of the thoughts that a bunch of us had at the time. And I was invited to be part of that. Of course I jumped at the opportunity, because I believe Matt even invited us, or invited the critique, and said you can help us redesign it. And that’s kind of where you have to put your money where your mouth is, right? If you criticize something and are given the opportunity to improve it, then you have to work at it, right? 
+
+Interviewer: So is it quite separate to the sort of main development process?
+
+Asmussen: [15:00] Say that again, sorry…
+
+Interviewer: Was that quite separate to the main sort of development process?
+
+Asmussen: Right. It was a quite unique way of working. And once again you’ll have to forgive me if I get some of the details wrong, and especially if I offend someone. There is a huge talent pool, but let’s remember this was open source, and a bunch of us weren’t actually used to how that development worked. We had day jobs and hadn’t actually contributed to WordPress ever before. But the way I remember it was that we would email each other on this email discussion list that Matt had set up. So you’d email this one address with your mockup or your comments or your tweaks to previous mockups and everyone in the team would receive that email and be able to respond back. So classic newsletter way of working. That’s how I remember it working. So yeah, it wasn’t Trac based.
+
+Interviewer: Was it easy for other people to get involved?
+
+Asmussen: Great question. I wasn’t myself part of the, let’s call it the management aspect of Shuttle, the name for the project. I believe it was, yes. I think you just had to express your interest and you could contribute. I’m not 100%, but that’s my impression. 
+
+Interviewer: You guys spent quite a lot of time working on it.
+
+Asmussen: Yeah.
+
+Interviewer: Was it sporadic? I guess you guys were all working in your day jobs.
+
+Asmussen: Yeah, I think in the end Shuttle came out less than our ambition and there were many reasons. One of them were, as you just suggested, that this was open source, we weren’t used to how it worked. I think a number of us were… there was no paycheck in the end, but there was a deadline. Which you know, is completely fair, that’s how open source works. I don’t necessarily want a paycheck for improving the software I use in my everyday work. But I do think that once you get past the initial excitement of working on a design for WordPress the mockup phase, the we can make new buttons, we can make new tabs, we can do everything… [18:00] once you get past that initial phase, there’s a long, arduous phase of actually polishing and considering edge cases and considering things that are a part of WordPress for better or worse, you can’t necessarily remove them because WordPress is iterative software. And so, that phase requires a lot of stamina, but it’s also where a good idea meets with reality, becomes something good. And I think the team just dropped like flies when that happened, frankly. And that’s the most important phase, arguably. 
+
+Interviewer: Yeah, I noticed that Michael left and then I guess towards the end you were getting frustrated as well. 
+
+Asmussen: Yeah. Michael’s a passionate guy. He has a heart that beats for clean minimalism in design. And I think the fact that just such a thing as back-comparability requires that something take a long time to change in WordPress. Even if you know what a really good design decision would be, you might not be able to implement that in the next release, because you have to sort of phase an obsolete feature out. You can’t just kill it willy-nilly, you know. And I think that was frustrating to Michael because he had really good ideas, but they couldn’t all be implemented. And you know open source development can be frustrating. 
+
+Interviewer: Wasn’t there less of an issue with backwards compatibility in say 2005-2006?
+
+Asmussen: Oh yeah. Probably it wasn’t such a big… even so, there are a bunch of little things that you can’t simply change because you… it doesn’t fit with your design. You have to have a good argument for why you’re making a design decision and not just… I don’t mean to belittle the design process, per say. Some of the best designs are singularly focused and have some strong opinions about how it should look. Which rules out other features. But you know, even at that time, WordPress had a pretty big user base. Especially with a deadline looming [21:00] and iterative development mandating that you don’t necessarily uproot every past decision just because you want to. The show had to go on. And you have to sort of roll with the punches. 
+
+Interviewer: So did you feel, when you were developing or designing the user interface in Shuttle, were you under the impression that it would be implemented in WordPress when you were finished?
+
+Asmussen: I’m thinking back here on the exact emotions I felt at the time. I think I was was probably, personally, the least conflicted about the process. I personally felt completely privileged to work with these design geniuses and be part of the discussion. So I think for myself, I never even actually thought that far. However, I do think that… wow, it’s been such a long time.
+
+Interviewer: On the email I just pinged you, you seemed quite angry. 
+
+Asmussen: Yeah, I guess… I guess I did expect it to be implemented. Wow. Yeah. Time flies, huh.
+
+Interviewer: It really does. It’s fascinating talking to people about what they remember and then showing… you know, talking about emails that they sent and…
+
+Asmussen: Things really get a rose-colored view when ten years has passed, right? I do remember that there was genuine frustration, with myself as well, that Shuttle was seemingly piecemeal implemented in what became WordPress 2.0. In the end of our mockup phase, pretty much at the eleventh hour, Khaled presented a really nice design that sort of tied the whole room together. He’d taken many of the ideas we had, but essentially scrapped the mockups we’d worked on and started fresh. And what he came up with I thought looked great. And I used to have a copy of that mockup somewhere on my hard drive, but I couldn’t find it. And it’s nowhere to be found. I’ve been looking [24:00] past WordPress on Google for finding past pictures and the link I just sent you I believe is what was implemented but it was not Khaled’s design. The problem is that design came at a very, very late stage in the process. So it was, in hindsight, completely too late to implement it. I’ve certainly learned [inaudible] open source development since then that I did not know at the time, and I was frustrated that his really great design did not end up being the canonical WordPress 2.0 design, but instead piecemeal parts of the previous mockups we’d made became implemented. And visually it became quite a messy jumble. I think that must have been the blood pumping in my veins at the time of anger that that wasn’t implemented, but instead something that wasn’t  actually our vision was implemented. However, hindsight is 20/20 and I am certainly a better developer since then. And that was just not the way things worked. At some point you need to release a new version of WordPress. You have to keep the ball rolling. If we should have done anything differently it was to make sure we have a strong visual direction from the get-go instead of having it arrive at the eleventh hour. It’s just tricky… despite this huge tirade I have written in that list - wow, it’s such a blast from the past reading your past self. I even lowercased the “p” in WordPress. I mean, if that doesn’t tell you anything, what does? Yeah, you know. It didn’t quite work out like it was supposed to work out. And I think there was frustration because we weren’t familiar with the process. That was on us. That was on me. 
+
+Interviewer: So Matt or Ryan or … didn’t give you the sort of impression that you guys are going to redesign the admin and whatever you guys come up with is going to go in?
+
+Asmussen: Maybe they did. Maybe I read them wrong. Having worked on… I’m also a contributor to the MP6 project, [27:00] which is a modern day version of Shuttle if you will. But it’s run how it should be run. And the contributors are all, they’ve all worked on open source before, so they know what works and what doesn’t work. And that you can’t always get what you want just because you scream up on a mailing list, like I did. And so MP6 I’m extremely proud of. And it’s worked really well. And certainly the impressions from the start have been different. We’ve never actually been sure that it would be part of WordPress, but we’ve certainly assumed it. And we’ve also sort of been… I’ve certainly been humbled since that time you’re referring. And seeing it more as a privilege to be able to actually improve these things. And hopefully some of it will get implemented. So your question being whether Ryan and Matt gave us the wrong impression, I don’t think they did. I think we didn’t understand open source development, at all. You have to remember that none of the designers on Shuttle had worked on open source, really. And I think that was the summary of all the problems with Shuttle. We had… I suppose we expected our designs - our stone tablets from the mountain - to come down and bring order to WordPress, when in fact you have to release and you have to release often, and you have to iterate, and improve. And maybe just redesigning the whole thing under covers and then tearing off the curtains and saying “this is the new WordPress” maybe that’s not necessarily the way to go. 
+
+Interviewer: Did you feel frustrated that then there was the redesign by Happy Cog which actually did sort of completely change the UI and then later on the Crazy Horse redesign?
+
+Asmussen: No, I thought that was great. I thought some of the initial Happy Cog… let’s rewind here. I was frustrated with the version of Shuttle that were in WordPress 2.0 because I didn’t felt it represented the ultimate vision of what good came out of Shuttle eleventh hour design. In hindsight, as I’ve tried to elaborate here, I don’t blame neither Matt nor Ryan for that happening. In fact, the idea that anything from Shuttle [30:00] at all made it into WordPress, I think was sort of gracious considering that nothing consistent came into being until it was already too late. So when WordPress got redesigned again, I was not frustrated because hopefully it would be a more singular, unified vision of how a good WordPress would look. I had some initial concerns about the mockups as they were implemented, there were some curry colored links and some underlines that disappeared, but I believe the Happy Cog team implemented the design in a more open source aware way and they weren’t afraid of iterating and they were good at listening to feedback. And so the end result of the Happy Cog redesign was a substantial improvement, despite a few missteps. And I say that with 20/20 hindsight. Probably at the time I was more passionate about the link underlines. I’ve sort of mellowed up since then. That’s what 10 years will do to me.
+
+Interviewer: We all do with time. 
+
+Asmussen: And Crazy Horse, the redesign, I was all over it. I loved it. I thought it was great. I thought that was when WordPress really came into its own. It’s been the strongest identity yet. I still have a fondness for its cleanliness.
+
+Interviewer: Did you, while you were developing Shuttle, working on it, did you guys get a sense of the tension that the sort of closed nature of it was had on the community?
+
+Asmussen: Yes. Certainly.
+
+Interviewer: Here’s a thread for you. http://lists.automattic.com/pipermail/wp-hackers/2005-June/001403.html
+
+Asmussen: I certainly did. And I think that was fair. Especially since Shuttle wasn’t a success for a number of reasons I’ve mentioned already. I think one thing is looking at how Shuttle went. Another thing is looking at how good open source gets developed. It’s sort of a do as I say, don’t do as I do. If you looked at Firefox at the time. Firefox, I believe, [33:00] or Firebird I think was the initial name, was a spinoff of Mozilla that rather quickly gained traction. I believe that one of the great things about Firefox was that there were not too many designers involved in the UI design. It wasn’t completely open. However, it was open source still. So I do believe that when it comes to visual design, you can’t have too many chefs. You have to… especially when it’s radical redesigns. When it’s iterative design, you can make huge strides in a completely open Trac ticket. Don’t get me wrong. There are many ways to skin a goat - or what the idiom is. But I do think what made Firefox succeed was the rather focused, laser-focused closed team working on it. So I do think that is a good way for UI design to happen. But since Shuttle wasn’t the success I supposed us designers were hoping for and certainly not implemented in the way we initially had ambitions for, it wasn’t a good process. There are many things we can learn from what we did wrong back then. I suppose the biggest thing that was wrong was that us designers did not have open source development, to be frank. Experience.
+
+Interviewer: There seems to be some… there’s a thread like what’s happening with the coding. So I guess it was a not really happening. That part. How goes the coding? So can you tell me about the similarities between MP6 and Shuttle?
+
+Asmussen: Yes. Sure. I would say that MP6 does everything right that Shuttle did wrong. So it can be done. It can be done. MP6, the genesis of it was a Trac ticket where Matt had suggested that we reduce visual noise in the admin UI by among other things flattening all the icons. 
+
+Interviewer: Yes, I remember this.
+
+Asmussen: There were a bunch of mockups there taking the existing design of WordPress and just, you know, [36:00] flattening out the icons, making them single colored. No design really jived with anyone. It didn’t really fit. Thinking about how exactly… I think Matt Thomas, who is one of my heroes, he said to himself, I believe, what if I’m rethinking the whole admin, not just the icons. And he made some mockups where he blacked out the sidebar and increased contrast tenfold, which is something the rather gray admin has been in need of for a while. I’m a fan of gray. But I’ve always felt like there was too low contrast in many of the boxes in WordPress. And so the design he came up with is what I would call a very strong initial vision for how WordPress could look. A bunch of us were really excited about that, so we started a Skype chat where we worked on this. And eventually I believe Matt suggested this became a plugin that we could work on in parallel where everyone could had commit access. That’s another thing that’s certainly changed in my mind since Shuttle. I now strongly believe that all designers should code. I don’t think I had an opinion back then, but now I really think that’s important. You have to get in the trenches yourself when you’re working a design or things will just go wrong. And so everyone on the MP6 team had commit access and committed code and worked on the CSS and made huge sweeping changes because it was just a plugin. And rather quickly our mandate became to really modernize the WordPress UI and look at all the old CSS and rewrite it and improve it. And what we found out quickly was that there was a bunch of cruft that had not received CSS love in years. Because the UI was good enough. The design was good enough. And it sort of fit in with the whole gray look. But for MP6 we pretty much had to give all aspects love. And that freedom to actually be able to commit code yourself, the lack of a specific deadline, because like I said we assumed [39:00] that since Matt dug what Matt Thomas had initially envisioned, there was a real shot that some of this might actually end up in WordPress. And that was quite exciting. So I suppose to summarize, what worked about MP6 that did not work about Shuttle was that everyone coded, everyone had commit access so we felt some responsibility for this feature we had designed - that it was actually implemented. We wasn’t expecting someone else to come in and do it for us. We actually had to do it ourselves. Which would also surface all the challenges that actually implementing something has. And our expectations were tempered, and the deadline wasn’t the next release of WordPress. It was when when the plugin is mature enough and the community likes it enough that it has a shot at being merged. So I think those are the reasons why MP6 worked.
+
+Interviewer: What about something that’s quite similar between both of them, at least from the outside, and that both can come into criticism for is that the development is quite closed. Like with MP6 we just discussed… with Shuttle we just discussed that there was this kind of closed mailing list. You had the Skype channel for MP6.
+
+Asmussen: Yes.
+
+Interviewer: Do you think the criticisms that people have about that are valid? Or do you think it’s a necessary evil? 
+
+Asmussen: I don’t actually know. This is a really tricky question to answer because despite having contributed in immaterial ways to WordPress for years, I have only actually been involved in the whole Trac-based way of contributing to WordPress for the past year and a half or so. So I haven’t as much experience with that as the rest of the community, frankly, has. All I can say is my personal observations on this process. And I believe there are sort of two ways to look at it. One is that it’s a closed Skype group that is not using Trac for the development, which is non-standard and I can’t be part of that chat is the feeling, [42:00] the vibe I’m getting. Then there’s the other side, which is that one of the great things about MP6 was that first of all there was this singular vision, the initial vision for the design. And then there were a bunch of really engaged developers and designers that joined up around that. And we made posts on MakeUI every week. And I’m pretty sure we did invite contributors in that chat. I don’t believe we were as closed as many in the community maybe feel we were, because we did actually invite people to contribute if they wanted to. It was just a different way of working than using Trac. And we have been listening so much to the actual feedback on those Make threads, that I don’t feel like it’s quite as closed as it may seem. Certainly there could have been made greater effort into making it very clear that… how this process was working and why MP6 was developed in the way it was developed. Certainly some communication that you’re welcome to contribute and MakeUI is where that goes on. And if you want to, you can be part of the Skype chat. You can even have commit access to the plugin. So there are sort of two sides to that coin.
+
+Interviewer: Do you think it would have been less successful if it had been like on Trac, IRC chats, like all of that sort…
+
+Asmussen: Yes. For sure. I think WordPress 3.8 with the plugins as features development cycle is really exciting because the one thing that I think worked the best for MP6 was the fact that everyone involved had actual commit access. That makes everyone involved feel invested. It makes them take some ownership in the features they’re working on. And I believe that development happens much faster that it does on a Trac ticket. There’s nothing wrong with the Trac ticket approach. They’re two certainly viable approaches in their own rights. But for what MP6 was, I think it was really helpful [45:00] that everyone had commit. That we didn’t have to bounce patches. Certainly I’ve committed things that broke other things. But then I’ve had the ability to go right back in and fix that. And I feel like it’s much accelerated, the pace.
+
+Interviewer: And do you think that that’s applies to more sort of developer-focused as opposed to UI and design based sort of features of WordPress? I’m thinking of something, maybe something like OmniSearch, which is more of a sort of code… it more of a sort of development thing than a design thing, if that makes sense. 
+
+Asmussen: Yeah, that does make sense. Yeah, certainly I think for every project you want to tackle, you can go either way. You can go Trac or you can go make a Skype group and work on it in a plugin. For 3.8, when that whole phase started everyone was invited to propose a feature they wanted to improve in WordPress and then make a plugin to improve that. Well, we’ll certainly see when 3.8 comes out whether that was a success, but I really feel like it was. And so I believe the best example of what features work in that way of development, just take a look at what’s going to be implemented in 3.8. I’m certainly hoping MP6 and maybe the dashboard will get merged in. 
+
+Interviewer: Just on a few other things. One thing I’m interested in because you’ve been involved with WordPress since 1.2, how do you feel that the theme system has developed and changed over the years?
+
+Asmussen: For the better. Overwhelmingly. Open source development is like a waltz. You take two steps forward and one step back. But so long as you keep doing that, eventually you’ll end up with something great. I think there are… there’s certainly been a couple of steps back. Perhaps some context, in 2005, I think, I started my own little WordPress consultancy company and made WordPress themes for clients. And so I’ve certainly had [48:00] my gripes with aspects of how theming worked. But there pretty much not any of those gripes that haven’t been addressed in some way, shape, or form later on. I’ve had some concerns with how widgets worked, how they’re, they seem ephemeral, and if you switch a theme, you know, how do you back up the data and move it to a new theme, that sort of thing. But there have been strides made in all those aspects so I think theming is very much on the right track. It’s never perfect, no software ever is. But I think theming has really made WordPress what it is today. 
+
+Interviewer: Can you tell me just a few more of the things that you thought were an issue and how they were fixed, if they were?
+
+Asmussen: Yes, let me think. I believe there has been a desire for more complex menus for a while. The ability to add a category to your menu without using plugins and doing crazy hacks. At some point a menu system was contributed by, I think a theme foundry then merged into WordPress. I think there’s much good in that system. There’s also a bunch of usability issues when the fact that it’s… if you don’t use menus, your menu is built from whatever pages you have in your pages section. However, if you do choose to use menus, there’s a weird… first of all it’s a separate section, which means you have to look at a separate spot in the admin UI to find out how your menu is configured. I had a bunch of clients who were confused that they had deleted a WordPress page, but the menu still had the menu item, it just showed up 404 when you’d deleted the page because the menu item had not been deleted. So I think that’s still not really great, but it’s certainly fixable. Widgets hopefully can get some love. I know Sean Andrews has worked on improving that. Those are the two big ones, I would believe. 
+
+Interviewer: One final thing. [51:00] I was reading the early discussions about the logo. 
+
+Asmussen: Ah, yeah.
+
+Interviewer: Do you like the logo now?
+
+Asmussen: Oh yeah, I do. I know I wasn’t a fan back then. But I believe… everyone has taste, right? And taste changes. I believe right around the time the logo was made, one of my favorite designers from 38one.com he had made a WordPress logo suggestion that was fun and kind of kookie. It was a heart-based logo. I thought that was just great. I was completely enamored with that logo. If I ever expressed any concerns with the logo back then, it was because there was another submission that I preferred. You know what ten years can do to a mind, and I’ve certainly mellowed out since then. I do really dig the WordPress logo. I think it works great for badges. Especially if you use the single-ring version where you delete the… you invert the logo and use it with a single ring. Exactly, that's the one. I thought that was a great logo.
+
+Interviewer: It’s just interesting to read those discussions of what the logo… I think that is everything I wanted to ask you. Just actually, just to clarify, what were you… were you just working in your own consultancy then or did you work for a company…
+
+[Interrupted]
+
+Interviewer: So I was asking where you were you working? Were you just working doing your own consulting? Or did you have a job as well during that period?
+
+Asmussen: I had a day job. I worked at a Copenhagen-based company that made webpages and web games. Flash actually at the time. And I increasingly got tired of Flash as something that had you start over from scratch for every new project. Which is one of my… it was the genesis of my fascination with HTML and WordPress because you were given so much for free by using the software. Eventually I quit my job to only make WordPress websites. [54:00] And so I think, if there’s one final note to close out on, it is the fact that despite any controversy there might have been in the past, I’ve always been a fan of WordPress. And I’ve always loved it more than I’ve disliked aspects of it. Because it’s free. And I could make money making WordPress websites for my clients. And I was even able to contribute improvements to WordPress which would, in the end, benefit both my clients and other people as well. So I am a fan. Despite whatever reluctance I might have had ten years ago.
+
+Interviewer: Yes, I get that. People get very annoyed about things they are passionate about. If you weren’t interested or didn’t love WordPress you’d be like not passionate about it at all. So that really comes across. 
+
+[Inaudible]
+
+Asmussen: I think that’s an important thing to emphasize at least. 
+
+Interviewer: Ok, well I am going to… I think it would be interesting for me to… I’m going to write something up about Shuttle and particularly because of the way the development of WordPress is changing in that sort of direction, I’m quite interested to see. You didn’t do any coding of Shuttle, did you, like testing it, like in a plugin or anything like that?
+
+Asmussen: Yeah, I do think we did. Test in a plugin. Wow those are fuzzy details. I may be wrong there. I did not do any coding, no. But we did…
+
+Interviewer: Do you know who coded it?
+
+Asmussen: I think Ryan did. I think maybe he worked on a website where we could all log in and see the process. 
+
+Interviewer: Right. I will get in touch with him and ask him then. Because it would be interesting to see how that worked. If it was more than just mockups going back and forth. Or whether he’d actually built something that, say, I could install and it would change things.
+
+Asmussen: That’s one of the things that definitely worked [inaudible] with MP6 for sure.
+
+Interviewer: OK. Well thank you for your time. 
+
+Asmussen: Sure.
+
+Interviewer: I might ping you if I have more just clarifications. But that was really interesting. 
+
+Asmussen: Of course. I hope I haven’t made a…

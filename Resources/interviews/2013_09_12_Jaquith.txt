@@ -1,0 +1,237 @@
+Interviewer: So, I’m going to say with Mark Jaquith on the twelfth of September. Hi Mark.
+
+Jaquith: Hello!
+
+Interviewer: Ok, let’s start with way back in the past, I’m interested in knowing why you started blogging.
+
+Jaquith: So I started reading blogs probably around 2000 and really started getting into them, especially political blogs, current event blogs, in 2001. In fact, after the September 11th events. So I followed a lot of the sort of political, newsy blogs and I found that I had thoughts about stuff. Thoughts about current events. I had thoughts about - I was in college at the time - I had thoughts about that. And I wanted a place where I could put those. So I started a blog in 2003, was actually when I started a blog…
+
+Interviewer: Eleventh of February. I was reading it today.
+
+Jaquith: That sounds right. Yes. And I was using some really, a really weird piece of software. I believe it was just called Blog.exe. Because yes, it was a Windows program that ran locally. So it had its own internal database. You would put the articles in and then had templates with a sort of pseudo-templating language and it would use that to build out static HTML which it would then FTP up to a destination of choice. So that’s how I started.
+
+Interviewer: And did you go on to Moveable Type?
+
+Jaquith: Yes. Moveable Type was the next stop after that. I believe when I started out I wasn’t even using my own domain. A lot of the popular blogs I was reading at the time were using Moveable Type. And so I got a generic hosting account, I can’t recall who I was with. No one big. No one who’s still around. You know, some sort of $5 a month deal. And got Moveable Type installed. And I was on Moveable Type until, I guess around May of 2004. So I liked Moveable Type. The thing was, I started getting to the point where I wanted to start adding features. So at the time [3:00] like I had learned some JavaScript when I was really young. Like before it was called JavaScript. It was call J-Script when I learned it because it was this Microsoft thing. But I sort of, I’d like forgotten almost like everything. Because I was literally like… gosh this would have been like 1995 or 1996 probably, when it was just coming out. So I was like 13, 14. And I sort of dropped away from that. I still was… I’d stayed up to date on HTML, but in terms of actual scripting or programming languages, had fallen away. So I knew I wanted to get back into that and start actually customizing the functionality of my site. But I didn’t want to learn Perl. Because it seemed like it was a language that was a little bit archaic and on its way out. So actually… I actually wrote some… Moveable Type could run on multiple databases one of them was like a Berkley DB, it’s like a file system based thing. But I was actually running it on mySQL. So what I started doing was writing PHP tools to talk directly to the mySQL database. So just bypassing Moveable Type altogether. And I believe one of the first things I wrote was a thing that would allow, so like when you leave a comment, if you notice there’s a typo, it would give you a certain, like five minutes, where you could edit your comment. And it would submit it back. I had to do some tomfoolery to convince Moveable Type to rebuild the page when that happened. Because I was sort of bypassing it I had to tell it “Hey, something happened”. But I quickly realized that, that sort of approach was not ideal. It’s just a very hacky way to do it. And what I really wanted was a system that was using PHP. So I started using PHP. I just bought a book, you know a big 450-page PHP guide and that was probably in, that would be in 2003, by late 2003. So I did that Moveable Type project. I also did a project where I wrote a database for all my movies in my DVD collection.
+
+Interviewer: I saw that. 
+
+Jaquith: Wait. Please tell me you didn’t actually see the code.
+
+Interviewer: No, I didn’t see the code. I saw your post about it on your blog. [6:00]
+
+Jaquith: Oh you did. OK. Yeah. Gosh. I still have that code. It’s in my Git history now. It’s not actually live anywhere. It’s pretty terrible code. But it works. And I had fun stuff like sortable columns and search and stuff. So that was like my first big standalone project that I did myself. So by that point I knew that Moveable Type was not going to be a… cutting it for me. And that I’d have to look at something written in a language I thought I could grow with.
+
+Interviewer: So did you start writing code because you wanted to make your movie database or work on your blog, or did you sort of write your blog and make the movie database to learn how to code?
+
+Jaquith: The first thing was that I wanted to write. So like when I started my blog there was no real coding involved besides real basic HTML templates. Gosh, I’m trying to thing what my first color scheme was. It was like orange on black. Like really terrible. With like outlines around everything. Because you couldn’t… you didn’t have rounded borders back then, but if you used a fieldset, then the default styling in many browsers was to round those corners. So I was using fieldsets to lay things out, which is really weird. So it wasn’t the code first. The code came later when I wanted more control over how everything was presented and more control over how people could interact. Like that comment editing thing was something that like super annoyed me when I would leave a comment on a site and I’d notice a typo like exactly once I submitted it, then I’d notice the typo. So I wanted to do more stuff like that and add features. At this time blogs were… it was at this, say 2003 blogs were like starting to become a… like a word not just bloggers knew about. It was starting to go mainstream. It was a really exciting time. Especially around stuff like comments. There was a sense of like oooh we’re these rebels because we’re not afraid of letting people say stuff on our sites, unlike those newspapers. So there’s that basic philosophy there, the mechanics of it, of how the commenting worked, it was wide open. And very exciting. Like Technorati started doing stuff. There was a service called co-comment, I believe, that came out later that would track your comments across multiple sites. There were trackbacks and pingbacks, [9:00] all very exciting. So I wanted to sort of weigh in on that. 
+
+Interviewer: Do you think a lot of this was shaped by Moveable Type? At least in the early days?
+
+Jaquith: Yeah. Absolutely. Many people, many of the early people, came to WordPress came through Moveable Type and have a certain amount of fondness for it. At least I do. It kind of showed me what was possible with software running on your site instead of on your computer. And sort of what you could do with web publishing.
+
+Interviewer: So did you come when the license were changed in May 2004?
+
+Jaquith: Yeah. So the first time I tried WordPress was in late 2003. And I want to say it was version 1.0 or maybe just pre-1.0…
+
+Interviewer: 1.2? Oh, 1.0, yeah, yeah.
+
+Jaquith: It was not 1.2. At the time, I didn’t like it. I thought it looked kind of janky. And it didn’t quite have all the features I wanted at the time. So I sort of postponed the question then. And then probably around April-ish of 2004, April or May somewhere in there, there was the Moveable Type 3.0 announcement. Where they announced that it was coming out and then the big shocker was they announced the pricing. Because previously… it had never been open source, but it was free to download. So it was considered open enough. And that really shocked people. Especially because at the time, the way that they did it was that you were paying per site. Not meaning domain name, but actual… Moveable Type had the concept of you could have multiple sites, they basically had the multisite concept all the way back then, and the pricing was per site. And many people, myself included, had laid out their site using multiple “sites” in Moveable Type. So for example, they didn’t have a concept of like pages. You could either do a custom template or you could almost like lay it out like blog posts in another site and sort of target for that for things like a contact page or an about page. Another thing that was popular at the time was something called a subblog, [12:00] which would sort of be seen as like early precursors to Twitter, sort of a, the idea is you’d have your main blog in the main column, because these two or three column layouts were super, super popular, and they’d have the main blog in the main column, and then off in one of the sidebars they would have the sideblog and it would be very much Twitter-style, short, one-sentence blurbs, maybe with a link. And that was a separate site. It generally wasn’t done with like categories and stuff to split them up. So a lot of people were looking at like three or four licenses just to keep their current site running. So there was sort of backlash about that and they eventually recanted on some of it. Like they changed how the licenses were chopped up. But they lost a lot of trust, I think. And there was the very, very influential article by Mark Pilgrim called “Freedom Zero”. That came out shortly after that. And the main point of that article was it’s not about the money it’s about the freedom to use the software the way you want and not have them come around later and change things on you. And I believe at the end I think he decided that I think his site would have taken… was it maybe six or eight sites, that he would have needed six or eight licenses. It was several hundred dollars, whatever it was. And he ended up just donating that to WordPress and switching. And at the time I was sort of looking at WordPress and… let’s see, I was looking at WordPress, I was looking at TextPattern, and I was looking at Expression Engine. And honestly Expression Engine was… it was like the super sexy one that I was sort of salivating over. It had some really, really cool features back then. They still do. But like other software had caught up. But at the time it look really, really awesome. But the price for it I believe was something around like $250, and I’m a college student on a very limited budget and I just couldn’t justify that, so I was hesitating. And then that article came out and I was like okay. That sort of… that answers that question. 
+
+Interviewer: So did the…
+
+Jaquith: I really hadn’t thought about stuff like licensing issues and all that before.
+
+Interviewer: Did the license make up for the features [15:00] that you thought were lacking?
+
+Jaquith: It did. And also… and it at this time, it was right before 1.2 came out. So 1.2, I believe, was in beta and you could download that. And 1.2 was the release that introduced plugins. So the idea was that whatever WordPress was lacking, you could just add a plugin. And actually, I wrote and released my first WordPress plugin before I actually moved my site over to WordPress. I mean it was something I needed to do the transition. It was a URL rewriter for my old Moveable Type permalinks. To rewrite them to a WordPress-compatible structure. 
+
+Interviewer: Is that still around?
+
+Jaquith: It probably is linked from a post from the May 2004 area. I imagine it is.
+
+Interviewer: So do you… was that your first introduction to free software and open source?
+
+Jaquith: That I can remember. I’m sure I used free software before, but not necessarily because it was free. I really… the article by Mark Pilgrim was sort of my… was my big introduction to that concept. 
+
+Interviewer: So I guess WordPress is the only one you’ve contributed to? Or at that point? Had you been involved with other ones?
+
+Jaquith: I’m trying to think. I might have contributed like a little bit of code to Moveable Type? It’s possible that like a very small patch or something. It sounds like I might have done that. I was actually pretty active on the forums, Moveable Type forums, back then. They had a pretty good community going until they sort of messed it up with the licensing. But yeah, in terms of major project contributions, WordPress was definitely where I got my start. 
+
+Interviewer: Do you think the free software and the open source aspect is important?
+
+Jaquith: I do. One little weird thing that was in the Moveable Type terms of service, and this was even before the 3.0, so this was in the 2.6 days as well, that they forbade you to install the software for someone else, like I guess a commercial service. So you could write templates, Moveable Type templates, [18:00] but you couldn’t actually install the software. So hosts couldn’t offer a one-click installer without getting some licensing agreement with Six Apart. Just as a practical matter, WordPress licensing means that no one needs to ask permission to install it for anyone else for pay or for free or to make a one-click installer. And, yeah, I think that definitely had a practical effect on things. I think a lot of the early people, sort of the internet influencers who switched over, did so for reasons that were at least somewhat connected to licensing. At least acknowledging that WordPress couldn’t turn around and change the deal on them. 
+
+Interviewer: So what sort of impact you think that had on WordPress? Both on the software and on the community?
+
+Jaquith: I’m sorry what was the first word in that?
+
+Interviewer: What sort of impact did you think it had on WordPress? Both in terms of the software itself and the community? The Moveable Type changing their license and people shifting.
+
+Jaquith: Oh. Ah, yeah. That was… so a really, really fun thing to do is to, there’s a… what is it called? Google Trends, something like that. You can sort of see the popularity of search terms over time. Search for WordPress and Moveable Type. You’ll watch and you’ll see that the lines cross in an X and they cross in like May of 2004, like literally, there’s data that you can actually point to and say that’s when it happened. I mean there was very much that feeling that WordPress had this sort of… this upstart energy, and this  momentum that was going in a really good direction. So yeah, that was the moment. You could sort of call it the great Moveable Type exodus of 2004. And it just sort of seemed like just one after another, people were switching and it just sort of kept gathering steam throughout the rest of that year.
+
+Interviewer: So how come you started getting more and more involved in the community?
+
+Jaquith: So I had been involved with like the Six Apart forums, and there was a nice little sense of community there but less ability to get stuff done that affected the software. It was more about helping other people and sharing tips and tricks, [21:00] rather than actually helping build the software. Because obviously they had their own in-house people doing it. So I was sort of energized by the fact that there was this really vibrant WordPress community, but that you could also, not just like help people, you could actually help build the thing itself. And I found that to be sort of empowering. A little bit intoxicating. That you could so easily have that affect. At this time it was, I believe it was just Matt and I think Ryan had just got commit access fairly recently. And so it felt very small and intimate. And it felt like you could have a pretty good effect there. So I started submitting patches fairly quickly over that summer I believe.
+
+Interviewer: Were you learning PHP while you were doing it?
+
+Jaquith: Yes. So I’d learned a bit of PHP, but yeah WordPress was very much the learning experience for me. And to be fair, it was for a lot of us. It was for Matt as well. He might have had a couple years, maybe a year or two head start on me, but… yeah, it very much seemed like everyone was sort of in it together and learning things.
+
+Interviewer: Do you remember working with the code from b2? What that was like?
+
+Jaquith: You mean code that was legacy code from b2?
+
+Interviewer: Yeah. I mean, there must have still been quite a lot by the time you arrived.
+
+Jaquith: Yeah, I remember I wrote Matt an email probably in 2004 around the time I was switching. And it was… I could probably pull it up… but the gist of it was “yeah, WordPress is great, but… Why are all the functions name in strange ways? Like some things are something or some things are the_something. There’s not get_something functions for every the_something.” So I was talking about like all these things that just seemed like they weren’t very well planned out. And a lot of those things were because the were because they were b2 legacy. So we had a fair bit of legacy. We also had some freedom, a little bit more freedom, in like the 1.2 to 1.5 or 1.3 to 1.5 era to change some things because the plugin ecosystem [24:00] wasn’t that huge. And so there was a lot of stuff that happened there. Like our get_option function was originally get_settings, which is weird because it was a plural but you were asking for a single setting. So there was a lot of low level stuff that if it didn’t change completely it at least sort of got cleaned up a bit. Like our options API used to be, the one we inherited from b2 was pretty insane where every option would have a column that would say what type of option it was, there was a length thing, there were a whole bunch of flags and stuff on options. It was a whole lot more complicated than our current API. Ryan went through, Ryan and Matt went through and chopped a lot of that down.
+
+Interviewer: I noticed that you spent quite a lot of time - I can’t remember when it was, very early on - going through and doing things like fixing up the indenting on code…
+
+Jaquith: Yeah. I am sometimes very fastidious, except when I’m not. But I get on these kicks where, you know. I’m the same in my personal life, where like if I start cleaning I don’t start with the broad strokes, I get out a toothbrush and like start scrubbing grout or something, you know. I just start at the detail… as a high schooler, when I cleaned my room, the first thing I would do was organize all my popular mechanics magazines chronologically. Like that should be the first step to cleaning a room. 
+
+Interviewer: I’ve done that with my books a number of times.
+
+Jaquith: I think I just like being able to have a sense of order and cleanliness there. What Matt told me, Matt told me at the first WordCamp, so in 2006, he said that my attention to white space detail was actually like a huge plus. Because it showed that I could really look at all the details.
+
+Interviewer: Did you look at all the details or just the white space?
+
+Jaquith: No, I looked at details. Not just white space. My official title is I believe is Director of White Space. 
+
+Interviewer: That’s right, it is. I saw the post where you were trying to figure out what your title should be.
+
+Jaquith: I would do these patches where I would just pick a file and then I would just go through and sort of standardize the white space. And [inaudible] over to Ryan.
+
+Interviewer: Did that have an impact on how other people did it? Did people start to emulate you? [27:00] Or was… did you still have to fix…?
+
+Jaquith: Yeah, so at first the style was a little bit all over the place and I was trying to look at everything and figure out, okay, what are we doing generally, and apply that. But those things sort of had a tendency to drift over time. Like Ryan or someone would start doing something a little bit differently. And I would sort of see that and be like, actually that does look cleaner. And we’d go with that. Now this is like sacrilege in programming circles, especially in PHP, because there are these actual standards, like the zen standard, that you’re supposed to use and if you’re just doing it on your own, it’s just like wild, wild west to them. So yeah, we just sort of settled into… I mean it was sort of this weird thing where like someone would start to drift and then people would follow and then another person would take another direction. I don’t know, sort of just riffing off of each other’s coding styles, I guess.
+
+Interviewer: Did you ever feel that WordPress should move towards an object-oriented model?
+
+Jaquith: Yes. So when I started, I was not really savvy to object-oriented programming. And I got savvy and started to learn some of the theory behind it and yeah, there was definitely probably a year or two, if I’d been given the chance, I would have made it significantly more object-oriented. And I don’t know. It could have been a good thing in some ways, but it sort of… we still have this argument today about - it’s sort of a double-edged sword - where you want to make it as easy as possible for people to get in the door, but you don’t want the API to be cumbersome and really hard to work with for advanced developers. So we sort of now play it by ear. We try to make things object-oriented when it makes sense, but otherwise try to keep it fairly flat.
+
+Interviewer: Do you think the decision not to re-write had an impact on getting new people involved in the project?
+
+Jaquith: Yeah. I mean like I said, I’d only started probably learning PHP, I think it was in October of 2003 I started learning PHP and so October to May when I wrote my first plugin. So, yeah, it absolutely made it easier for people to jump on board. If I had to learn object-oriented [30:00] coding first, like before I could write my first plugin, it would have taken me significantly longer. I’m not sure it would have ultimate [inaudible] but I probably wouldn’t have done it as quickly.
+
+Interviewer: See, what I was thinking about is that as the project grew you got more experienced developers involved who did want to take that model, particularly some of the guys who moved to Habari. Did that cause, do you think that was one of the reasons for a rift to emerge? That there was this division between people who wanted to take it in that different direction?
+
+Jaquith: I think that was part of it. So this was probably in the 2005 timeframe. So at that time it was still Matt and Ryan with commit. And Matt had gotten the job at cNet and had a little bit less time to dedicate to WordPress. And some people, including myself, were frustrated that he was insisting that he make all the decisions. Like anything had to happen had to go through him. And he was becoming a bottleneck. A lot people were getting frustrated with that. And they sort of went into two groups. The one group that I was in sort of took the approach of talking to Matt. I did this a few times where I just sort of hit the wall on something and I’d just write him an email or talk to him and sort of slowly work from within to you know, get him to delegate more to other people. And not be the bottleneck as much. And then the other group, so that would be primarily Owen Winkler and Scott Merrill I would consider the two main people in that faction, they decided that they didn’t want to continue working from within they wanted to, not fork off, but start doing their own thing. So I think the initial problem there was more about, is more of a… like a workflow and personality clash - I don’t think it was primarily a technical thing. But I think once they got frustrated, [33:00] they realized that hey if we go do our own thing then we can also revisit all these technical decisions. And they went crazy. I talked to Owen a year or two after they started the project and he was telling me about their level of abstraction, and they were doing some really cool things, and I mean I was very much like wow that would be super fun to work with that. But I did kind of get the impression that they were more writing blogging software for people who write blogging software and it wasn’t as, like with WordPress we would sort of do things that would annoy us as developers, but essentially our desires as developers weren’t the primary factor for us. 
+
+Interviewer: It’s funny, when I spoke to Owen he said that Habari has six users. I think he was being a little, yeah, disparaging of himself. What sort of impact… what there was four guys who left? Then they took a few other people with them.
+
+Jaquith: Yeah, I’m trying to think of who the other people were. Michael, right?
+
+Interviewer: Yeah, there was Rich Bowen, who was involved a little bit.
+
+Jaquith: Ah, yeah. And Michael Heilemann?
+
+Interviewer: Michael Heilemann. Chris Davis, I think.
+
+Jaquith: Right.
+
+Interviewer: He’s the one I haven’t spoken to yet.
+
+Jaquith: So that’s five. I mean there are other people of varying degrees of involvement.
+
+Interviewer: So seem to have done quite a lot of stuff with Owen, I guess.
+
+Jaquith: What do you mean? In terms of…
+
+Interviewer: In terms of development stuff. He and you seemed very active at the same time.
+
+Jaquith: Yes. Yeah, he and I were very active and then I believe sometime in maybe late 2004 or early 2005, we … something started, like I was trying to convince Matt to delegate more, and we started something called bug gardeners. The idea was that there was so much coming in to the system, I’m trying to think… I think we were on Trac by then, and there was so much coming in that it was just too much to handle. You need someone to do triage. It’s very much like what Sergei does currently. So Scott Merrill and I, Skippy, we did a lot of that. And we would see new bugs come in, [36:00] we would write patches, we’d test patches, we’d clean them up. And when they were ready, we’d just pass them on down the line to Ryan. So I worked a lot with him on that. I worked a lot with Owen on more just code stuff, not as much Trac triage. 
+
+Interviewer: And what was the impact on the project when those guys just left.
+
+Jaquith: My personal feeling was like I was sad because [interrupted] I really liked them, enjoyed working with them. I thought they still had a lot to contribute. And I felt like we were, Matt was right on the verge of loosening the reins, [thunder] it felt like things were really starting to get good and they left. And I was like oh, if you’d just held on. But I don’t fully know what their motivations and thoughts were. So I personally was sort of sad to have them go. In terms of impact, we were… I mean it definitely had an impact. But we were also starting to pick up new people at a pretty good clip. But there were certainly systems that they’d worked on that we’d sort of… like we’d have to dive back into it and we were like oh, gosh, if we had Owen here he’d know exactly what this is supposed to do or how it should be fixed. 
+
+Interviewer: So what was your first feature? What was the first thing that you wrote for WordPress? Outside of plugins, I mean, for core.
+
+Jaquith: Trying to think…
+
+Interviewer: I need to get on Trac. I can’t seem to get it working. 
+
+Jaquith: Yeah, so I, from the very start, I was a bit of a floater, jack-of-all-trades. I’m trying to think of what I might have done in the early days that would be like a big feature. Oh, I know one thing I did in the 1.3 days - 1.3 was never released, it just got rebranded as 1.5 - but when we were in the 1.3 cycle, [39:00] I did a bunch of work on the concept of pending posts. For the contributor role. Because we had the contributor role, but it was not really fleshed out, at all. So I did a lot of work on that. On the flow and on the UI, so that it was actually realistic that you could set up a site, open up registration, and then have people come in as contributors and submit posts and then you could approve them. So I did a good bit of work on that. It was probably 2005 or 2006. Another big effort that I was involved in, this would have been probably 2007, was the canonical redirects feature. So I met Matt Cuts at the second WordCamp San Francisco. And I’d asked him like if there … if you could have us change anything in WordPress that would be sort of best practice for search engines, what would it be. And one of the first things he mentioned was having canonical URLs. And this was before you could have rel=canonical and designate a canonical URL, so you could only handle it through the redirection. And WordPress, the way it was set up, there was an infinite number of ways that you could get to a URL. You could tack on index.php, index.php/, ////, no /, like there are all these different ways and we would gladly just serve up the page. So I spearheaded an effort to write an engine that would figure out what URL you’d come to, what resource you were going to, and then do the appropriate redirects. And I’d probably wrote that three different times. I would get to the end and it would be either, well most of the time it would be too aggressive and it would break things. And at the end I had to do a really, really painstaking and sort of conservative approach of building up the URL and doing those redirects. It’s like something I actually want to revisit. 
+
+Interviewer: Sounds kind of painful. 
+
+Jaquith: Yeah, it was. And this was before we had unit tests. So like literally my unit tests were I had like two documents open, or like a document open with a left column and a right column [42:00] of this URL should go to this one, this one should go to this one, and every time I’d make a change, I’d go back and test them. But that actually, that ended up being a really good feature for WordPress. So WordPress in the years to follow became sort of know as being known as a good SEO citizen. Matt Cuts himself said it. He said WordPress does pretty much everything. And he had some good tips about choosing good slugs and good titles and keywords and stuff. But yeah, we were pretty ahead of the game.
+
+Interviewer: Do you think that contributed to SEOs, or search engine optimizers using WordPress and making it part of their armory.
+
+Jaquith: Yes. Also I mean WordPress is easy to install and to automate. Pretty early on we had these sort of robot installs where they would install WordPress on a bunch of domains and scrape it. Scrape in content that wasn’t theirs and… there were a lot of things that made SEOs like WordPress. You take the good with the bad with an open license like this.
+
+Interviewer: Yeah, that’s true. What about the full preview thing that Jeffrey Zeldman wrote about. You seemed very pleased about that.
+
+Jaquith: Oh right! Yes! Yes, so… let’s see. I’m trying to think how this worked. We had an iframe preview inside the write screen, so that every time you clicked save it would show you… you have to remember this was before tabs became like a really, really big thing in browsers, so having those open in the same sort of window was the big thing. But yeah, there was like a link you could click and it would sort of scroll down to the place where the preview was and you could click the link again and it would scroll you back up to editing. And that was a pretty big deal. Because you could see how the post was going to look, exactly, with all the formatting going, all the plugins that would be running, because it was actually showing you what… the output. That was something that Moveable Type didn’t have. Like they had a preview that basically just render the HTML and show you that, but it wasn’t like in your theme. You didn’t get the full preview there. And yeah, when Zeldman switched over that was one of the things he mentioned as sort of his whiz-bang of WordPress features. And of course Matt then removed it in the next release. But then we moved over to a different preview system [45:00] - launching it in a new window.
+
+Interviewer: So that why you removed it.
+
+Jaquith: No, I doubt… He removed it, but not for that reason. I sort of ribbed him about it. Zeldman embraces a feature that I wrote, and you yank it out. 
+
+Interviewer: So why did he remove it?
+
+Jaquith: I think it was the right call. Because we started to get, like tabbing started to be more popular, or more widely rolled out in browsers, and also monitors were getting bigger so you could actually do two windows side-by-side and just hit the preview and see it pop up over there. So having it in the same window would require you to like to that jump down and then you’d go back and you kind of lost your place where you were editing. I think probably the step beyond that, which we’ve not yet quite gotten to, is actually like editing it and seeing it wrapped with everything.
+
+Interviewer: Yup, that’s true. I’ve seen a few things. You took some stuff out from core and Matt put it back in. I was trying to find it.
+
+Jaquith: Yeah, so, at one point, he had the browse happy link in the footer. Yeah I remember why I got that email. One of Matt’s very stereotypical terse email. I remember I was at a PizzaHut when I got it. So the Browse Happy link was there and it said something, it only showed up if you were using Internet Explorer. So Internet Explorer 6, I believe, at the time and then 7 was probably just rolling out. And I believe what happened was that Internet Explorer 8 rolled out and I considered, they had like much better support for the more modern CSS and stuff. Fix all those box-model oddities of the early versions, and I, sort of in my mind, I considered Internet Explorer to be still sub-par, but good enough that we don’t need to be publicly deprecating it and saying it sucks go use something else. So I removed that link in the footer. What I didn’t know at the time was that Browse Happy was his site. I thought it was just this third-party thing that he [inaudible] oh, Internet Explorer sucked, you know. So I took that out and he says can you please put that back in. I don’t think he said please. 
+
+Interviewer: No, he probably didn’t.
+
+Jaquith: So I got that email, I was sort of oh boy, oh boy, he’s not happy about this. I remember I went to go put it back in and I’m like, jeeze why does he care about this and I did the whois on it and I saw that he was the registrant and I was like oh gosh! [Inaudible] at least without asking. [48:00]
+
+Interviewer: That made me laugh when I found it. I keep coming across these things that make me chuckle. 
+
+Jaquith: Matt is notorious for sort of his terse online messages. I remember another time I tried to… we had an RSS processing engine called MagpieRSS that had been abandoned and there was this new one, who’s name I’m completely… SimplePie, and SimplePie was up and coming. SimplePie is of course what we have now. But I sort of, I committed that, because someone, Ryan I guess, wrote a patch that would replace Magpie. But the problem was that it replaced it for some of our API function calls, but there were other like direct ways that people were calling it and we had no backwards compat, so we would like break those. And I put that in and I believe Matt’s Trac comment commit was “this is terrible, we need to revert this.”
+
+Interviewer:  It’s funny. I think I’ve found the thread. I’ll have to read through it. One of the things I did also came across which I guess is also happening now, was there was a long thread on WP Hackers about documentation, inline documentation. Do you remember that discussion?
+
+Jaquith: I don’t actually remember that one.
+
+Interviewer: So what happened, this was around the Habari sort of thing. Rich Bowen submitted an inline documentation patch to WordPress and Matt was like that’s not going in and basically told him it was bloat. And this got a huge… it resulted in a really long thread on WP Hackers, in which you volunteered to be the inline documentation person. 
+
+Jaquith: Ok, yeah, that’s ringing some bells. Yeah, so, we’ve traditionally been a little bit slow to adopt some best practices. Inline documentation is one. Unit tests is another. Proper build scripts is another, which we’ve only just, in the last month, started getting our act together on. So yeah, you’ll see these sort of common thread where someone says “hey, we should do this because it’s a best practice” and there can be years and years of pushback sometimes. 
+
+Interviewer: Why is that?
+
+Jaquith: I think it has to do with how many of us don’t come from traditional programming backgrounds. [51:00] And a lot of times we feel like these sorts of things are just overcomplicating the software and making it too scary. Whereas now, I see, like with inline documentation, we’ve had that for years now, but we’re making it better and we’re also documenting our hooks, now I’m excited because we can actually publish for new developers a list of all of our hooks and what they do fully documented. I mean, that doesn’t make it more complicated. That makes it easier.
+
+Interviewer: You did that in 2005? 2004? You made a website that listed all of the hooks.
+
+Jaquith: Yeah. I started doing it by hand. And yeah, it was actually sort of a cool, early use of WordPress’ pages feature to do a fairly big site. Because each of the hooks had it’s own page. And I would just do a few and I think I had a script that would search through the code base and grab them. And I had like my progress meter. And what I found was that the progress meter was going backwards because we were adding new hooks faster than I could document them. And so I started doing it and eventually I realized it was just not to scale. And then Adam Brown wrote a parser that automated most of it and that was just… could be kept up-to-date. It didn’t have as much of like the running commentary which I was adding, I thought was useful, but I knew that wasn’t going to scale. So at a certain point I set up redirects over to his site. 
+
+Interviewer: I see. That’s why it goes there now.
+
+Jaquith: Yup. And actually, not just the front page, but any… I tried to have the individual pages go to something that made sense as well.
+
+Interviewer: I should look at it on archive.org. What I find interesting is a lot of those things that you suggested in this thread about documentation is what they’re doing now. So what do you think has been the most significant release?
+
+Jaquith: If I… try and pick the big ones. 1.2 was a big one. I’m trying to think when themes came in. It was 1.5, right? 
+
+Interviewer: Yup.
+
+Jaquith: That… I tend to say that plugins were more influential, but probably at the time, the themes were, at least to non-developers. Because when users see plugins, like okay, it does this. [54:00] But a theme you can actually see what it does. It’s really visual. Like Moveable Type, if you’re switching your themes, I believe you’re copying and pasting into text areas and saving. Whereas in WordPress you can just switch a theme. And all your content is there will all the new decoration and images and CSS and whatever. So I think that was a really exciting point. And then the other big one would probably be, and this is probably my favorite release of all time was 2.7. [Interrupted] Looking back 2.7 was probably my favorite release. And 2.7… so in the previous releases we’d had an agency redesign the WordPress backend and we let them push us in some sort of new directions. We had them get down to like the nitty-gritty. And a lot of the stuff we weren’t sure about but we kind of went with them. And it was not, I mean it looked pretty nice, but it was not very well received. So we knew that like we had to do something big, but then we started to get the feeling like we can’t just call in someone from the outside who’s not been, you know, who doesn’t have that WordPress history and have that pre-existing connection with the community and have them just dictate the new stuff. That’s just not going to work. So we knew we had to do this big effort, but we knew it had to be an internal effort. And so that’s the time that Jane Wells got involved, and it just seemed like everyone was putting in their… everything they had. Like everyone was working so hard and we were examining things at a really, really low level. We started the Crazy Horse branch and Jane would run tests with users and Mike Adams would [57:00] code up new interfaces for… and we just were taking all these different directions. And it’s probably the hardest I’ve ever worked on a release. I would just spend like entire 10-hour days on it. I remember at one point, Jane and I were working on the publishing box interface and neither of us had a scanner that worked, so we were like sketching on napkins and just emailing photos back and forth.
+
+Interviewer: Why did you guys work so hard on that one do you think?
+
+Jaquith: It felt like… I dunno. The project was getting really big at that point, and it felt like we were all starting to grow up as developers and as a project. Like for the first time we were doing internal user testing. Actual formal internal user testing. We actually had, you know, Matt Thomas doing a full design of the entire backend. And it just felt like, whereas before we were sort of the rebels who were winging it. It felt like finally we had these resources that were people who like have known WordPress, like hadn’t been developing on WordPress, but she’d been using it for years, and she and Matt had talk a lot in prior years about it. Like we finally had these people who were experts at what they did - user testing, design, UX - and it felt like we finally had the resources to do a lot of these things right. Where before we were just sort of guessing and I don’t know give it 10 pixels more margin, who cares. It felt like we were doing it right. And it sort of energized everyone. It was just a very exciting time.
+
+Interviewer: So why do you think you compromised on the previous design? Was it happy cog that did it? So was it Zeldman, etc.?
+
+Jaquith: Yeah. Sorry, what was your question? Why did we compromise?
+
+Interviewer: Why do you think you compromised on the 2.5 one so you ended up with something that you weren’t happy with. 
+
+Jaquith: [60:00] We had great respect for them as an agency, and I think everyone just thought, okay, we’re a little bit out of our depth at this point. So let’s let the design professionals take a swing at it. I don’t know. I think that we sometimes can be more receptive to change than our users. A little bit more easier to get used to a new paradigm. And so I don’t think we quite knew that our users weren’t going to be as quick to get used to a new interface. A part of the problem was that… I think we did unit, or they did user testing before, but not really after. So we sort of got caught flat-footed there when it came out and people didn’t like it very much. 
+
+Interviewer: Do you remember what any of the feedback was? I should look…
+
+Jaquith: Not very specifically. The thing is it didn’t last very long. It changed almost immediately. And then again 2.7. That was like 2.5, 2.6, 2.7? Actually, I was at SXSW and I ran into Jason Santa Maria who did a lot of the work on it and he’s like “oh, you’re…” and I’m like “yeah, and you’re…” and I’m like so like yeah, you did a lot of the work on the WordPress redesign that we used for about five months. Sort of trailed off… He’s like yeah… 
+
+Interviewer: Did you think they considered it a failure as well?
+
+Jaquith: I honestly don’t know. 
+
+Interviewer: I’ll ask them. I’d be interested to know. OK, let’s leave it there. Because we’ve been going for like more than an hour and it’s after eleven o’clock here.

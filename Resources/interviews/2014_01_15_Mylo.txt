@@ -1,0 +1,354 @@
+Interviewer: So it’s the 15th of January and I’m talking to Jen Mylo. Hello, Jen.
+
+Mylo: Hello.
+
+Interviewer: So can you just tell me a bit about how you first got involved with WordPress.
+
+Mylo: Um, well originally I met Matt the first time he went to SXSW, which was in 2003. That was the year he released WordPress, he released WordPress a couple of months after coming to SXSW, so we all kind of knew it was being worked on and it involved following along and he later moved to San Francisco and we became friends. When he launched WordPress.com and formed Automattic a couple of years later in 2005 he asked me to do some sort of low-fi stability testing on it and give him some recommendations, which I did. Just kind of as a friendly thing it wasn’t like a hire thing. That was the beginning I guess. I hadn’t really used it before he asked me to test it because I was a pretty happy Movable Type user at that point.
+
+And I specifically remember telling him that I didn’t like it that you couldn’t have more than one Blog on an install of WordPress and for a while I had an iChat status that said “WordPress Themes Suck”. I don’t remember why I thought they sucked but I tried setting up a website with WordPress and I think themes may have like just been introduced or something, I can’t quite remember when those came out, but then I moved away to New York and I occasionally would see WordPress being used or something or I would contribute to a blog somewhere that was on WordPress but I wasn’t really involved in the project. [inaudible] some of those initial suggestions.
+
+Then in 2008, he had gotten that big round of financing from New York Times and True and those guys. 2.5 came out and there was a pretty big backlash against it from the user community I guess. Not all of it was negative, some of the response was positive, but there was a lot of negative response and it was not necessarily clear if the negative response was because the design actually wasn’t better than what they had before or if it was just a reaction to change because people don’t like change. I was running a usability testing and design center out of an agency in New York in conjunction with Ball State University and that did like the user eye tracking and usability studies and stuff [3:00] and when we had an opening because the TV network didn’t have their product ready in time for their test window I was told that I could offer the spot to anyone I wanted to at cost rather than the price markups that we would normally have charged the television networks and since Matt had gotten that investment money I asked him if he was interested because he had been interested in watching the lab get built and how the equipment worked and stuff. And we had stayed in touch and he was, so we drew up a little project to test WordPress.com and self-hosted WordPress installs running 2.5 although by that time we actually did it it was 2.6 — not that there was really much of a UI change. And then the way the project worked out was that we — first I did just a usability review myself and kind of came up with here are all of the sort of low-hanging fruit things that I think if you fix these it would just make it better. And then we kind of did a little prototype that incorporated those things that were sort of easy to throw together and we tested both of those and then based on that I did a bigger part with sort of grander, overarching this is what is kind of making it hard on people and here’s what I think would make it easier.
+
+Matt asked me to work on the design for something that would be better so I changed my role at the research center and came off of the testing team so that I wouldn’t be testing something that I had designed and I just focused on the design for WordPress and I worked with Liz Danzico on coming up with wireframes for our prototype and then we worked with I think Mike Adams and Andrew Ozz on getting it built. And we tested it and it kind of blew away the existing version even with a rough prototype state and at that point Matt said how about if you just come and work on this full-time and bring this into the next version of WordPress.
+
+Interviewer: So that was a tempting offer I guess.
+
+Mylo: Actually it was not. I don’t know that I necessarily want this part transcribed, you might just want to run it past Matt if he says OK then I’m fine with it.
+
+Interviewer: Okay.
+
+Mylo: I actually was in the process of applying to graduate schools, and had been planning to take a break from the web industry for a while, and I also told him when he offered me a job that I didn’t really want to work for a friend because I thought that it could have potentially a negative impact on our friendship. So I was actually not very interested, and he flew me out to San Francisco for the WordCamp [6:00] so Liz and I could present the results of the tests and study, and I stopped I think in Lake Tahoe and we drove down to San Francisco together. During that trip he basically showed me all the cool stuff that people at Automattic were working on, and he showed me BuddyPress, which at that point Andy Peatling was working on, and he had just joined Automattic, and so Matt was really excited about BuddyPress.
+
+And then I met more Automattic employees at the WordCamp, and after I had met more of them and kind of heard what they had to say I was more willing to consider it, and by the end of the WordCamp weekend I had said, “Okay fine, you win, I’ll come.” So I didn’t even finish my grad school applications, in fact I didn’t even graduate because there was a paper I was supposed to turn in, and since I didn’t wind up getting any time to take a break before I had to start I didn’t even finish college. [laughter] Which I had already dropped out of a million times before so…So I still haven’t done that. I still have to write that paper.
+
+So yeah, we kind of just hit the ground running and went straight into the 2.7 redesign.
+
+Interviewer: So why was there backlash against 2.5?
+
+Mylo: Well I don’t know for sure because I wasn’t a heavy WordPress user before, and I didn’t do any sort of objective interviews about what do you like the look of or not like the look of, I was focused when we did the testing very much on the usability of it. So when we asked questions about “ do you think this is easy or hard” but we really only cared about those answers in relation to what was actually shown. So if we said how easy or hard is it for you to upload a picture, we really cared whether they said it was easy or hard compared to how many clips and how many tries it took them to actually get the picture uploaded just because self-reports are usually not very reliable and what we were using that variants to see was how much the love of the brand kind of overcame [inaudible] that people were pretty forgiving of WordPress because they had such love for it.
+
+In terms of the negative response when you talk to Liz Danzico she might be able to give more information because she was one of the leads on that design and I know they did do a fair bit of research before they came up with that design. They did a presentation I think at the WordCamp the year before at San Francisco and there’s a slide deck online. What wound up being interesting is that if you look at that slide deck at that presentation, all the declarations that they made based on the research and sort of thinking that they had done about the user types and stuff, there were big declarative sentences around — like  [9:00]
+“people don’t thinking nouns they think in verbs” and all the kind of things that led them to the navigational structure they had then which was bright, managed, and designed [inaudible] create image and design I can’t remember. It was right managed and design because in one of my first reports I referred to it as the WMD of the WordPress design that was when obviously all that stuff was more in the news. It was really complicated for people — like if you’re writing a post and you clicked Publish but then you were editing it because you wanted to make it better, were you writing or were you managing? It was really hard for people to know where things were or where they fit in. When we did the prototype where we actually broke it out by, these are the content types, and then these are the sort of utility tools and activities, people just can go pretty much exactly to where they needed to go and they didn’t have any confusion about what they were doing or how to get back to it.
+
+So it’s interesting because when you do your research, who you talk to or what questions you ask obviously influence what the answers are, but what they found as their results that led to the design of 2.5 wound up being something that we kind of overturned when we did the research on the actual design of 2.7
+
+Interviewer: Why do you think you had such diverging results in your research? Were you doing different types of research?
+
+Mylo: Um, I mean….
+
+Interviewer: Or different types of users?
+
+Mylo: I think they mostly did contextual inquiry type stuff like interviews and talking, I have to look back. I honestly don’t remember what they did, but I remember looking at it at the time and it was pretty traditional user experience information/architecture type of research and they documented it pretty well.
+
+When we did my project which Liz observed the testing and like I said she and I worked together on the prototypes and she had the longer background I think that what we looked at, we looked at more objective data and didn’t rely on self-reports as much. And I think that when you could show like, one example would be, we tried a couple of things that were just kind of ideas, and one of them for example was having the publish button be persistently I think in the lower right hand corner or something. One of those fixed bars like a lot of websites are doing.
+
+When we tested it, we would watch people using it and we had the laser eye tracking system set up on them so we could see where they were looking, and when you look at the tests, I mean Dave Martin did some user tests and comm tests last year when he was working on the Core [12:00] and so he had that experience of, “Well you can see the video of their screen and kind of where their mouse is going when they’re talking and that just makes your gut kind of seize up if you can see they’re having trouble. If you can actually see where they’re looking and that they’re looking literally right at a button and they’re not sussing that they can click on it — like, that’s pretty big,” and things like where do you put the link to edit or reply to a comment. In the old version they were all the way over in a righthand column instead of right under the title of the post or the comment, all the action links were way over on the right, and people just weren’t looking to that side of their screen, because there was a lot of white space in between. 
+
+It was very pretty but it didn’t actually lead the eye from one thing to the action that would follow it. So that was what led the design after that was just trying to take advantage of natural eye trails and use patterns that we saw. And the report that we lodged had some little miniature screen shots and stuff that showed what the aggregate eye trails and stuff like that turned out to be.
+
+Interviewer: Was that technology being used a lot then?
+
+Mylo: It was if you had the money. It was, like I said, very expensive. Most of our clients were television networks that have a lot of money, so we did work for ABC, NBC, MTV, I mean all of those guys. Home Shopping Network, Comcast, just, you know, pretty big client names. So in that industry I wouldn’t say it was the most common because even at those levels it was still very expensive — I mean in a typical project if you’re doing retail pricing it probably would have been like $200,000.  Whereas when we did it at cost it was like a fifth of that or something.
+
+So because it is, it’s very labor intensive and it’s really specialized equipment and it has to be calibrated for every single user. But it’s pretty fascinating. Ball State University was definitely the leader in kind of taking some of that equipment and turning it towards evaluating internet experiences and media experiences in general. It was — the Center for Media Design was the department there that it was run through.
+
+The agency that was working with Ball State was called Schematic, although now they’re called Possible Worldwide.
+
+Interviewer: How did you end up there? What’s your background?
+
+Mylo: How I was there was because I had been an information architect and user experience director and I was the director of user experience strategy at Schematic in New York City and then when we formed a partnership with Ball State [15:00] around doing another “digital living room” was what they kind of called it because it was set up like a living room more than an office so they could do also research on TV based experiences and web TV.
+
+You know actually if I were to think back about it I remember Matt coming to visit the lab while we were setting it up and probably the thing that made him like it so much is that we had one of those big pictures of Audrey Hepburn from Ikea — in fact he has that picture at his apartment. So that could have been the genesis of all of it!
+
+But anyway, I was at Schematic and I was the person from Schematic who was working with Ball State when they were coming and doing these studies with us and we were doing sort of the design side and they would do the testing side and then when I started thinking about leaving Schematic the people from ball State asked me if I would like to run the lab and be in New York and kind of manage it from their side and so I did that for a while as the director of the Insight Digital Media Research Center I think was what it was called.
+
+So I was running the lab and design center and then when I left there that’s when I went to Automattic;
+
+Interviewer: So is that why you moved from San Francisco to New York? Was Schematic in New York?
+
+Mylo: Schematic was in New York, I was in San Francisco before that, and I moved to New York because my family was on the East Coast and it had been a while since I had really seen them much so I thought after three years in San Francisco it would be fun to be in New York again. I wound up taking the director job at Schematic within a couple of months of getting there but I didn’t go there for the job.
+
+Interviewer: Ok. So can you talk me through the process of the usability testing, like how you got started and what you do with the participants? For someone who would have no idea what you’re talking about.
+
+Mylo: So it’s a little bit different with the eye tracking element, so describing what happens in general usability testing leaving out the eye tracking element might be a little easier and more succinct. Basically the first thing you have to do is figure out what you want to know and what you’re testing and what the scope of that is going to be. What’s the audience that you want to test with? From there basically the work involves coming up with a test script of, “I want you to do this, I want you to do this, I want you to do this,” that can guide the test participant through using your website or application without you asking them leading questions or telling them what to do. [18:00] The idea is that in a realistic situation, how would they behave? In a realistic situation they wouldn’t have someone leaning over their shoulders saying, “Ok, click that button, click that button, click that button.” They would think to themselves, “Oh, I want to post a picture of my cat. I will try to post a picture of my cat.” And if it takes them 2 seconds because they can see that there’s a button that says Add Image and they click it and they follow directions and they think, “Great, that was easy,” then that’s one result. If they go clicking through twelve different screens trying to figure out how to do it that’s a different result.
+
+Usually in the process you will ask questions to get more information after they’ve completed the task. For example, on a scale of 1-5, how easy or hard was that? How do you feel about it? A lot of times going into it you’ll ask general feeling questions like how favorably do you view this website or this product — again that kind of depends on what you’re testing. 
+
+I remember with the WordPress tests asking questions about how they viewed WordPress almost as a personality because WordPress has that sort of community feel. I think I remember one of the questions we asked was if WordPress was a person you met at a party, what are three adjectives you’d use to describe it? It’s trying to get a sense of how they felt about the brand as well as how easy or hard the application itself was to use. And then at the end you kind of compare their feelings to their feelings at the beginning and most usability testing will also talk — a lot of protocol where you have the user talking out loud as they’re using it.
+
+“I’m trying to upload an image of my cat. I am looking for something that says ‘Upload’ or ‘Picture’ or that looks like a picture. I’m not seeing it so I’m going to go click on this icon that I think means help — oh, that means search. That’s not what I expected.” And etc., etc.
+
+After doing these tests they generally just aggregate the results and some of that will be statistical because anything where you’re doing time on task, how long did it takes them to do it, how many clicks did it take them to do that, versus the softer how easy or hard did they think it was on a scale of 1-5, where did they rate frustration or calm? That kind of stuff. And then whatever they said more anecdotally like, “Oh yeah, I totally figured out how to do that because of whatever.” And then pulling all of that together.
+
+Normally a lot of people will do tests of people in groups of 5, which goes way back to an article that Jakob Nielsen [21:00] a bunch of years ago who said, “You only need 5 to get insights.” And it’s not so much that 5 has any statistical significance at all because obviously it does not, it’s that things that are really egregious will generally come to light, if within five people three of them are saying, “Uh, this is annoying.” You’re going to keep hitting that so if you can clear that out of the way then the next 5 will get you one level deeper. So you don’t just keep hitting the top level of the things that are the most annoying, so that was the reason that we did a first pass where instead of even wasting time and money on users I just did a sweep of, “These are things that I think would be annoying to people or that would be hard to use, let’s do a prototype that just hit out some of these easy ones.” And it was easier, so that was good.
+
+But then for the second prototype that we were going to test, we did something fairly more radical. For the design of that, Liz and I basically sat down and I were like, “Ok here are the findings, these are the things that I want this prototype to address, that we want to test.” And when you test a prototype, there’s a thing where you don’t want to change all of the things, because you don’t know what people are reacting to. So, for example, when we did this prototype, it really didn’t have any design to it, it was basically like colored wireframes, which was one of the things that made some people react to, “Oh my god it’s so ugly!” until we actually put a design on top of it. And there was a reason for that.
+
+The reason is we want to keep it so that you’re focused and the feedback is going to be on how usable it is, not on whether or not you like the color blue, especially since there had been so much feedback around 2.5. So we brainstormed like 15 different interaction models that we could potentially test and we told Matt, you could pick any one of these and it would be an appropriate model within which we could test a different navigation system and media system and all of that, and he just said, “Pick whatever one you think is best,” so we picked the one that we thought would be the most familiar and also the easiest to build, which was Crazyhorse. Left hand nav, that opens and closes, try to get most of the navigation into one place instead of into 5 different menus around the screen.
+
+We were really surprised because it was pretty ugly to be honest and a lot of the features weren’t — you know it was a prototype, it wasn’t completely built out, but even so the response from the people that we tested was overwhelming and everyone just — everything went [24:00] faster and the satisfaction results were higher, and the anecdotal responses were all so positive, and 100% of the participants who had used both said they would rather use the prototype, even un-designed.
+
+Interviewer: So you tested the same group of participants on the first, and then on the prototype?
+
+Mylo: Yeah, so we brought them in twice, and so that way we could see the difference. We gave access to it before they came in so that it wouldn’t be a completely new experience so they would have a little bit of familiarity with it.
+
+Interviewer: What were the other possibilities that you brainstormed?
+
+Mylo: I want to say that there’s a sketch in the slides, bet I could find it right now actually. [clicking] So there was one that was based on front-end editing, there was one that was based on sort of accordion panes, there was one based on a top navigation, I mean there were just kind of all of the different kinds of things that you could think of that were going on in the lab interaction models at that time.
+
+Interviewer: It’s quite interesting because I guess that’s a junction when it could have become anything.
+
+Mylo: It could have, and we really — like I said, the reason we picked this one was because it was very basic and it would be familiar. It was similar to what Google Analytics was doing and other web apps. [clicking] Here I’ve got the thing. I’m going to find you that sketch because I know it’s in here.
+
+Honestly there were different models that we both thought would make better models for — like if you were going to actually do a real redesign, and especially, like I would have really love to have gone with front-end editing back then, but when we got those great results, Matt was like, “Well, if this is doing so well why wouldn’t we just use this? Let’s make this the basis of 2.7.” So that is why.
+
+Interviewer: Do you ever regret not doing one of the other ones?
+
+Mylo: No, because for testing it wouldn’t have been appropriate because people would have been responding to the format of that and they would have had to learn that and so I think that is why. So I just Skyped you specifically where the slide deck that shows a few of those models with when we were sketching out the group names, that’s the presentation.
+
+Interviewer: Ok.
+
+Mylo: And yeah. It would have been interesting to perhaps instead of just jumping right into 2.7 do a prototype in a different model and then compare those, but by then we had a functioning prototype [27:00] and you know how it is in open source, iterate, iterate, iterate. If the front end editor plugin team that’s working in Core right now kind of gets there in a couple of versions then that will finally happen. Going back to 2005 when I told Matt I didn’t like WordPress because you had to have separate installs for each blog and he told me, “There will never be multiple blogs on WordPress. You should always have separate installations.” By 3.0 multisite had been ruled in and anyone could do multisite. I figured that took 4-5 years so.
+
+Interviewer: It often seems to.
+
+Mylo: If we get front-end editing eventually, that will be cool.
+
+Interviewer: So the participants were all from the WordPress community, is that right?
+
+Mylo: There might actually even be something on here in how we got them. [inaudible] On WordPress.org you mean?
+
+Interviewer: Or WordPress.org. I just remember seeing the post from Matt saying, “We’re doing usability testing in New York.”
+
+Mylo: Oh, have you seen the actual test report?
+
+Interviewer: Yeah, I’ve read that.
+
+Mylo: It’s on .org. It has a section on there about the participants and where we got them. I think we posted — I think we put out a call through WordPress offering, I don’t know, $50 or $75 gift card or something. It was pretty typical. I used to use firms to find participants for network clients, but I kind of vaguely remember with the WordPress ones because we specifically wanted WordPress users and not random people. I think we did our own recruiting and I think we split them between people who used .com and self-hosted and we had a little bit of a mix between beginner and advanced.
+
+Interviewer: Can you tell me about the eye tracking, how that works and what that brings to it?
+
+Mylo: Well if you look at either the report or the slide deck that I showed you, you’ll see some of the take-aways. And we had lots of videos, but those are huge so they didn’t get posted anywhere. We didn’t have WordPress TV yet at that point for example, that would have been a great place to post them. I guess the thing that it brings is that you can see where people are looking, I mean that’s if you have a certain amount of screen real estate that you’re designing for, it’s a pretty well accepted precept now that designing for the web is very different than designing for print. [30:00]
+
+But at the time there was still a lot of web designers who were basically making things that looked really nice but didn’t necessarily take interaction into account. When we did the 2.7 design, the way I framed it to Matt was, “I want to take what you have, which is a website that does stuff, and I want to turn it into a web application.” And so that was kind of the goal with the eye tracking. We wanted to make it easier and because of how it was designed we needed to see: Were people not able to do things? Or did people think things were hard because it was poorly designed in that things didn’t work? Or things were labeled wrong, like they were looking at it but they thought it did something else? Were they not even looking at it because they were somewhere else? So being able to see where people looked, in addition to getting the outputs that show you what they’re looking at also can allow you to ask better follow up questions, like “You were looking right at this button that says Publish at the bottom of the page, and yet talking out loud and you said, ‘I just want to publish my post, where is this button?’ but you were looking right at it! Did you process that?” There’s a certain amount of time that you have to actually look at something for your brain to process it.
+
+In that particular instance I remember this woman who was a participant and she was like, “You know, I was looking at it, and I knew it was there, but I just, I for some reason just still thought it should be somewhere else, so I was looking for something that I thought was missing.” And that is not unusual. In the previous design it didn’t have that sort of side column with the drag and drops, so tags and categories were sort of below the fold. And a lot of people would write their post in the box and they would hit Publish on the right and then it would be published and then they would be like, “Ahh, I forgot to add tags and categories!” And then they’d be like, “I want to go back and do that.” But then they would go back to right, because that’s where they were, and then they would have to remember, “Oh, I have to go Manage, and then to Edit, and then to find the post.” So you could see where they were looking to try to find the word that they were looking for, and you could see them just kind of scanning, scanning, scanning if something was out there, and it’s like, what is the word that you are looking for? What is the thing that would have indicated to you that this is the thing that you needed to find?
+
+So having those gaze trails, it’s just really helpful.
+
+Interviewer: Did anyone from the community come to the testing? Like, any of the developers or anyone else?
+
+Mylo: No. No. Bear in mind that before this happened, I think there were maybe 2.5 million users worldwide, so it wasn’t the way it was now. There weren’t Meetups. There wasn’t a Meetup in New York. [33:00]
+
+So yeah, that wasn’t really a thing. If anyone had wanted to see they could have. Having Liz come was kind of intended to be that because she had been involved previously. She would be bringing a little bit of that perspective, but the way we talk about the contributor community now is pretty different because it’s a lot more cohesive now than it was then. At that point, it was very scattered.
+
+In fact, the group of lead developers hadn’t even all met each other in person. They didn’t meet in person until after I organized the first Core team Meetup. So they were — the people who were working on the prototypes we talked with a lot, and we talked with Matt a lot, but this was definitely a side project that was not part of the main Core. Because if it had turned out that everything was great and people were just complaining because they didn’t like change, that would have been the end of it. That would have been a result too. It just didn’t happen to be the result that we got.
+
+Interviewer: So was there any sort of complaints in the community that it was kept as a separate thing? Or did they just get on with it? Because I’ve seen complaints about the Shuttle group that were working in private and also about the Happy Cog work.
+
+Mylo: The Shuttle group?
+
+Interviewer: I don’t know if you know about Shuttle. That was prior to Happy Cog, there was a group of designers..
+
+Mylo: Oh, yeah, yeah, yeah. Shuttle. Happy Cog was definitely a private firm being hired. That was a pretty small project, that wasn’t a huge project. I think that it would be very different now to do something like this, because now we have designers and a group and structure for all of the contributor groups — we didn’t have any of that. We didn’t have those blogs, we didn’t have the kinds of tools we have in place, we didn’t have people organizing meetings. The dev chat at that point had kind of fallen by the wayside, we started that back up again after I came back — or, after I joined.
+
+I think that without knowing the full extent of why some people left or some people went forward, if some people went and did Habari, or whatever, I don’t think — based on what I heard when I came in — that there was really any problem with Matt having hired our group to do the research, because there wasn’t really anyone in the community that was active that would have done it. [36:00] There wasn’t a group set up for that. If there was any push back, it was that when we did start working on 2.7 and we kind of ported over the Crazyhorse prototype, like I had said it was very, very plain and not pretty yet. I specifically remember Aaron Brazell getting up on stage at WordCamp New York and in 2008 and saying, “I hate Crazyhorse! It’s the ugliest thing I’ve ever seen!”
+
+And I went up to him and was like, “Hey, we met about a month ago at Blog World, and I’m the person who’s working on that. Just so you know, there is no visual layer on top of that. This is basically live  wire frames. It’s going to be very pretty and I would love it if you would trust me, but I’d even bet you, once we actually put the visual layer on it, you won’t think it’s horrible. It’s going to look nice, trust me.” And he was like, “Yeah whatever.” And after we did put the visual layer on, Matt Thomas worked on it, and we made it all pretty and stuff, the next time I saw Aaron Brazell, he was like, “Yeah you’re right, it’s pretty. I like it.”
+
+Interviewer: Yeah, I saw his complaining on the WordPress Hackers mailing list about it.
+
+Mylo: Yeah, so I mean the fact that something went in that looked less polished than what was there — especially to the people that had gotten used to it and who really liked it — and doing another change so quickly, definitely caused comment. But we did a lot — or I did a lot to try to make sure people knew what was coming and why, so even though it was a very dramatic change, we didn’t get the kind of negative backlash that had happened with 2.5.
+
+Honestly, having done the work of reaching out and putting up the posts, and this is what’s coming, and here’s why we’re making the changes, so that people felt like there were good reasons behind it, it’s totally possible that if there had been more of a build up of what’s coming and why with the 2.5 design, people might not have complained. Because like I said, the brand loyalty really did give a lot of people — or tended to make people give WordPress more credit for being easy and quick to use than they actually experienced when we watched them doing stuff.
+
+Interviewer: That’s interesting. People really love it.
+
+Mylo: Yeah!
+
+Interviewer: Yeah, they really do. So can you tell me how the development process worked with the prototype?
+
+Mylo: It was a while ago, so… It was — I want to say Mike Adams and Andrew Ozz, and me in the Skype room, and — well, that might have been it actually. Liz and I did wireframes, [39:00] we split up the screens and then we got together and hacked them out, and there were a couple of things we disagreed on, so we divvied up who got the things they wanted to test on those screens, and we would just sort of see what tested better. And then I was the liaison with the devs and yeah we basically just said, “Here’s a deck with all the screens and here’s what we want it to do,” and I did some chats with Mike and Andrew, and as they had questions we answered them, or I answered them, but it was built pretty quickly to be honest. IT was only a couple of weeks with two guys.
+
+Interviewer: And then what about implementation? Was that after you started at Automattic?
+
+Mylo: [pause] It was probably right around the same time. You could — if you checked to see when they did that big merge, that, and comparing that date, there was kind of this lag. So theoretically, when Matt asked me to do the design and I said okay, well I won’t be part of the testing team now, I withdrew myself from the Ball State payroll just so that I wouldn’t have a conflict of interest, but I didn’t — and so, and Matt had said, “I will hire you as a contract designer for this period.” And then I could go off to grad school or whatever.
+
+I never actually invoiced Automattic for it, so I did all of that as a volunteer until I got hired full time in August. I know that the date of that contracting thing was in May because that is in my Automattic profile even though I wasn’t actually a contractor because I didn’t bill them. So I started at the end of August, and I remember specifically Matt, he just wanted to hit the ground running, and I think that the WordCamp was early August or maybe late July, and — no, I think it was in August.
+
+The switch over — normally when people start at Automattic they have to do 3 weeks of Happiness Engineering before they start their real job, and I was told I was not going to be doing that. I would be doing half and half, and I was a happiness engineer for probably longer, but he didn’t want to have to wait three weeks before we would start, he wanted to start right then.
+
+So I think Ryan and Mike and Andrew probably started merging pretty shortly after that WordCamp.
+
+Interviewer: And was there discussion amongst the lead developers or amongst the wider community about actually implementing it? Or did Matt just make the decision based on having such good results? [42:00]
+
+Mylo: You’d have to ask Matt because if he had conversations with the leads I wouldn’t have been privy to them yet. Once I came into play, I obviously had already been talking to Andrew and then I quickly started working significantly with Ryan Boren and Mark Jaquith and then also Peter Westwood, although to a slightly less degree because he had a day job at that point. But yeah, the 2.7 development cycle — a lot of it happened in IRC but also there was a lot of it in a Skype channel with me and those lead developers just because I was still learning about WordPress and I was very cognizant of not wanting to make any statement or ask any question or suggest any feature in IRC that would potentially start a big storm or backlash.
+
+So I would try to check with them first before I actually made a real suggestion. Everyone was really excited, if you talk to Boren or Jaquith, that we wound up all just working in the same hours, we would find we had stayed up all night and had gone two days without showering or eating. It would be just in the Skype all the time, we would be sketching things out, or taking pictures, and Skyping them to each other. So once I joined Automattic and we decided, yeah we’re definitely — this is the direction we’re going into, I started collaborating really heavily with the developers who were active.
+
+But how much input they had into the decision to do it at all, that I’m not sure of. I know that Boren was excited about it and he was just like, “You just tell me what to do and I will do it.” Jaquith wanted to have more of a say in design decisions and so we worked a little bit more, and some of the more fine-tuned details, but Boren was amazing. Like, I would say, “It would be really cool if you didn’t have to have all of these columns on this page, if you have a one author blog do you really need an author column so that you know that you wrote every single post on it? That seems like it would be great if you could have like screen options to turn these things off or change how many posts show on a page or whatever.” And within 5 minutes he would be like, “Ok I did it here go look at it.”
+
+So he was crazy, crazy prolific and every idea I had he threw in. In retrospect, I wish we hadn’t thrown all of those ideas in and had focused a little more on some of the other ones, but you know, I think it was a successful release and certainly looking at the numbers of how many people were using it, they spiked quite a bit during the 2.7 time frame.
+
+Interviewer: What things do you regret putting in now?
+
+Mylo: Well I don’t know so much if it’s regret…
+
+Interviewer: Or wish you’d done differently? [45:00]
+
+Mylo: Well if I had it to do differently now I would do a lot of things differently. At the time, I wanted to put in a lot of user control so that they could basically — so that the idea behind it was, we’re not giving them a built-for-everyone application, we’re giving them an application that they can make their own in terms of setting up how their screens would be, and dragging and dropping stuff, and deciding what would be there. There was stuff that we didn’t do around the dashboard. The dashboard has been considered pretty useless always. And then they did a little bit of work a few weeks ago to try to make it more useful, but it’s still pretty useless honestly. There’s some different things but it’s not appreciably different.
+
+But when we mocked it up, if you were to look at those wireframes, we had a communication system with an inbox and you could decide what kind of modules would even be on your dashboard, so you could make a dashboard that actually reflected what you cared about and what you checked on frequently, so if you’re not someone who cares about WordPress news, get rid of that. If you really just want that to be a mostly comment-moderation stream but also have quick links to a few things that you’d have frequent, like if you have to add users a lot or whatever that you could just have the things that were important to you, kind of like My Google or My Yahoo at that point. That was the idea and we kind of meant to get to it, but the problem with a bunch of people suddenly really reinvigorated to do all kinds of cool stuff, kept doing new features and we never really went back and brushed up any of the stuff that was sort of V.1. 
+
+We still have that problem today. You can look at a new feature that we have and a lot of the times it is a great V.1 and the intention is that there will be an even better V. 2, but by the next release, whoever was working on it is really excited about some other new feature, and so we don’t do the kind of polish that I wish we did sometimes.
+
+Interviewer: So what do you think that the real successes of the specific redesign 2.7?
+
+Mylo: I think people really liked it. I think they felt oriented and new exactly how to create content and what — where things were and how to get around the application. I think that comfort level influenced people to bring it to work and tell their boss, “Hey, we could use this tool to manage this website.” We saw a lot of businesses starting to use it.
+
+I think the design was beautiful and it really got out of the way. The focus was on your content, not on the application. [48:00] I do think, with the current design with the heavy black borders, that has shifted a bit. The application takes a little more focus than the content when you’re in the actual dashboard, so I kind of miss that a little bit. But yeah, I just think that it felt like a working tool and it felt like it worked and you could customize it enough to kind of make it work well with how your site was set up and it was just pretty flexible. Every release or two we would touch up the look of it a little bit more and try to make it better.
+
+Numbers-wise there was definitely a big growth in the 2.7 period.
+
+Interviewer: One of the things that I’m really interested in, in this particular chapter anyway, is design in an open source environment, which seems to be a challenge ongoing for lots of different people, and I was wondering if you could just talk about your experience with that because you’ve been involved with WordPress for quite a few years. So what the challenges of designing in that way are, and how they’ve actually changed.
+
+Mylo: Sure. So, when I came in there really wasn’t much open design. I had been [inaudible] before me, Happy Cog had been in a vacuum before that, everyone else had been in a vacuum or Matt had designed it originally. So there wasn’t again like a group set up for that. The challenge with design versus code is that the way designers are trained — and I was doing design, so I include myself in that, I’m not ragging on designers — but you have a vision or an idea or a concept, and there’s sort of a frame of mind in the agency world and even when you’re an in-house designer that the client or the marketing people or sales people or whatever are kind of the enemy, and they’re going to have bad taste, and bad ideas, and they’re going to try to get you to sell out, and your job as a designer is to stay as true to your vision as possible and not let them bastardize what you are going for.
+
+Also, because the design is — your work output is intellectual property, no one should copy it, no one should touch it, you should absolutely own it, and that is the end.
+
+When you go into open source communities, and you start looking at the way coders work — and you know, someone puts  a patch up, and by the time the code actually goes in, 50 different people may have touched it, and none of your original code is there, even though you were still an important part of the process to get that end patch to a point where it went in. 
+
+[51:00] That frame of mind — a lot of people being involved — in a design situation, the thing everyone will say is that the only animal ever designed by a committee was the camel. It comes up all the time.
+
+And to an extent that is true. I do think that open source design works best when there is someone who is in charge and the leader and who tries to keep a consistency of the design vision or whatever to make sure that there’s just sort of a through-line that keeps everything feeling the same. At the same time, trying to open it up and get people involved, the biggest challenge is asking people to let go of that frame of mind so that they are willing to let go of being the sole owner of this and no one can edit it or touch it, that it must be exactly the way I envisioned it, or I don’t want you to use it at all.
+
+Being able to take feedback graciously, being able to give feedback graciously…also, there’s this thing where when we tried to start the UI group and we tried to make it like, you’re a professional designer if you’re in this group, you’re not just someone who wants to be able to say whether you like red or blue, it’s very hard to moderate that and people —  when we opened the UI room I think we had maybe a dozen designers who expressed interest, and we checked their portfolios and we said, “Yeah, you kind of have experience that looks like you’re at a level that we would really value your work and input versus someone who is designing stuff but it’s terrible stuff.” We don’t have a good track record in WordPress — and probably not in a lot of communities, to be honest — of being comfortable telling someone, “We would really love you to participate but honestly you’re really just not that good, you need to get better first.” We don’t have a mechanism for that, so there are people who design things that are not very good.
+
+So you know, you would be in a position of having to tell someone, “Here are some things you could do to make” — we always try to spin it towards the positive — so “here are some things you could do to make that more in line with the brand we’ve established, or more in line with our usability goals,” or whatever. And if someone is just like, “No, I’m right and you’re wrong,” there’s not always a great way to get to that point where they want to actually collaborate — and we’ve had some designers who come in and they see that it’s different but they really like it, and so they really embrace doing collaborative design. And then we have others who come in and they’re just like, “Well, I’ll do it in the openness of the group but I’ll still do what I want and you’re either going to use it or you’re not, and that’s the way it is.” So it’s still definitely a challenge [54:00] and I’ll be honest there are some times things have gotten in that we probably shouldn’t have put in, they weren’t necessarily that great, but no one had come up with something better, and so because we have this point of view of iterative improvement, you know, if it doesn’t make it worse, it might make it better…
+
+When I was the UX lead, my rule of thumb was: we only put it in if it’s really going to make it better. We don’t change the UI just to change the UI because we might like it better. It has to make it better to use. Because every time you change the UI, that’s screenshots, just million of screen shots all over the web, in tutorials and training materials, our own documentation — which at that point didn’t have a cohesive group working on it, so it was always out of date — people writing books and publishing books with screenshots. Even today, they still don’t necessarily think about, if they make something and they’re just like, “Oh, it’s just a small change.” If it’s just a small change it’s almost worse. Is that small change going to make a big impact? If it is, then great! Make as many small changes with big impacts as you can because that’s a win-win, but I have tended to see recently more changes that seem to almost be, “This would be cool!” versus, “This is how this is going to appreciably make the user’s experience better.” And especially right now we don’t necessarily have someone acting as that gatekeeper, trying to keep one design thing like I used to do that, but since I’ve pulled away from Core, we haven’t really had that.
+
+We have Helen kind of doing that from a UI engineering perspective, and she has an eye for design, but she wouldn’t call herself a designer. We have Matt Thomas, who led on MP6, the new branding, and Mel Choyce work on that, but neither of them are full-time on Core. So we really don’t have anyone who’s labeled the lead designer right now, and I am hopeful that someone rides into that position at some point in the near future because I do think it’s a useful role to have when you’re talking about open source design.
+
+Interviewer: Definitely.
+
+Mylo: One of the first things that we did, that was open — because I had talked to Matt and the guys about wanting to make the design something that could be community-driven the same way the code was, and you know I heard some stories about how that had not been successful in the past, that it had caused strife and people feeling like their ideas were rejected and stuff and they were very cross about that. So the first thing that we did that was open was an icon content. In 2.7 we introduced icons to add another way to visually get you to where you were going quicker.
+
+We didn’t have an icon designer. We knew Matt Thomas was probably going to help with the branding of it, [57:00] but he was not an illustrator, so I said, “Why don’t we do a contest?” And there was kind of this thing going around at the time around why designers should never do spec work or enter design contests.
+
+Interviewer: Yeah, I remember that.
+
+Mylo: And it kind of fit into that whole, your design is worth whatever and these are just cheap people trying to get you to do work for free with the promise that maybe you’ll get paid if they like what you do. And I was like, “We can’t get tarred with that brush because we’re not going to pay them even if we like what they do!” Everyone is working for free on the WordPress project, except for the people that are getting paid by a company to contribute to it, but there is no guarantee of anyone writing a piece of code that it will be used. The benefit is never monetary in terms of contributing to the project. 
+
+So I convinced them on that, and then Matt said, “But what if we get really ugly icons and there’s nothing good that we want to use?” And I said that that’s a risk, that’s possible. I don’t think it’s that likely and it’s not as if we have to take something and say, “Hey, we will give you — we’re going to use whatever you give us without touching it, just straight up we’re going to take it, assume it’s perfect.” Part of this thing is showing how you work in a collaborative process and so if the one that wins isn’t that great, but it’s the best we’ve got, then that’s the starting point. We do revisions on it, whether with that person or someone else, it doesn’t matter.
+
+We offered — I don’t remember what it was, maybe a trip to SXSW or WordCamp San Francisco, something like that — I’d have to look it up. You probably have read it before. So we did it and we got a bunch of applications and I wrote up a design spec that they could use so they would all be working from the same information about what are the categories that you need to make an icon for, and what are the brand of locations to keep in mind, and what they should be like. And then we had voting, and it was very clear in the post that the tally of these votes is to inform us of popular opinion and it’s not to choose the winner. The lead developers will work as a group to choose the winner. That will be one input.
+
+As it happened, the ones that got the most votes turned out to totally be the ones that we picked anyway. We wound up picking two — one that was grey based by Ben Dunkle and one that was blue by a woman in France. So we had one each for each of the two admin color schemes.
+
+When we did the voting, one of the things — there’s a guy, I can look up his name for you for the sake of the transcript, [60:00] but he was teaching open source design [inaudible] Parson’s, I think.
+
+Interviewer: Yep.
+
+Mylo: I’ll check his name and I’ll check the school, I have it in an email archive. And he was teaching a course and he actually used our icon design contest in his class as an example after that. He actually had his class create an entry and enter the contest. But then he included it when he taught. One of the things he said he really liked about the way we did that was that the way the voting survey phrased it. We had people rate them in terms of preference, the ones that made it into the top round based on the look of them, like the look and feel, but then also the metaphors that they use. If we had said you need that for an icon, we didn’t say what that should be a picture of. In some cases we might have made some suggestions, but they were free to choose whatever they wanted. So it was possible that someone could win based on the look and feel but they might have had an icon or two that we didn’t like the metaphor they used so we would choose something else.
+
+Ben might have been [inaudible] so I think we might have had him use a different metaphor for media. It became that camera and musical note, that might not have been in his first submission, I’m not sure. But it may have been in the original post, because the voting was on the WordPress.org blog.
+
+Interviewer: Yeah, I’ve got it up. The dashboard I’m pretty…was the dashboard different slightly? And the links maybe? The links I think was…
+
+Mylo: Yeah, I think we had him change a couple of them. And we had the woman in France edit hers as well so we wound up with the same metaphor for both color schemes, but they each had their own feel. And then that way Ben got totally hooked on being a contributor and then he offered to do a free icon for any free open source plugin for WordPress that wanted the icon for their menu item to match everything else.
+
+Interviewer: Oh wow.
+
+Mylo: Now he’s the go-to guy for anything related to icons or illustration. We also sometimes hire him at Automattic to do things for .com.
+
+Interviewer: Yep. You wrote a post about 2010 about open source design on WordPress.org and you listed some things that you wanted to do. One was to have a mailing list, and then another was design challenges, another was distributed user testing, and another was having your own chat.
+
+Mylo: Write them down, each of those, in terms of what happened?
+
+Interviewer: Yeah!
+
+Mylo: So we started a list, and it was super annoying, and it wound up kind of being not what we wanted it to be. Just like hackers has devolved into a list that most of the Core people don’t spend a lot of time reading because… [63:00] now we have blogs, right, and if you subscribe to the blog, and enter the comments, it’s kind of almost like the mailing list if you get it in the mail, and it’s a lot easier to track conversations, and so we made the UI blog right around, or right after that. I was like, “You know what, this list is not working out, Cory, it’s not giving us a community feel.” And so we went to the blog and were like, we’re not going to use this list anymore.
+
+Interviewer: What is it about mailing lists that just…they always seem to descend into uselessness?
+
+Mylo: I think that for us, for this, for one, sending images around is not great. You know, everyone has to download it, and if you’re on your phone, it won’t read it, and all that kind of stuff. But also once there’s just a link somewhere, and people just subscribe to it, and if someone who is an active member of the team asks a question, and a bunch of people reply who are not professional designers who are active in the team, they just feel like they have an opinion on everything and they want to tell you what it is, that’s distracting.
+
+And, while wanting to keep things open, I also wanted to try to keep things focused. So that was the impetus behind focusing more on having the blog instead of the list.
+
+The design challenges, we did a couple of those. An example would be, I posted one, we want to change the grey in the admin header, whoever wants to mock up a couple, we’ll take a look, and we’ll — first one that looks good, we’ll take it. That wound up being John O’Nolan, he just, he did it almost immediately, he put up three and I picked the middle one, just sort of like, “Yeah, that looks good! We’re going to take that and put it up.”
+
+We did a couple of more and a couple that were a little more complicated, including designing a theme for a suggestions site that we would use to replace the ideas forum that would add to a GSoC project that Justin Shreve was working on. It became pretty clear that doing something more complex became much more complicated to adjudicate, and once we got into things that weren’t just making graphics but actually involved interaction design, trying to do it in that way became complicated [66:00] because it was difficult to feedback and cycle through things in a way that made everyone feel engaged and involved without everyone having to reiterate on their own versions and stuff.
+
+And, again, we at that point we started to run into the problem of: once it wasn’t just simple, here is the almost graphic production stuff that we needed, which that is pretty easy, you know they either have it or they don’t. It might be ugly but it’s pretty easy to say that’s really not up to the brand standard or whatever, and you point to the brand guidelines and say, “This is why.” Once you got into sort of more layouts and interaction design, there is not a good way to push back on something other than, “It’s not good enough.” And that’s an uncomfortable thing to have to say, and for some people it’s uncomfortable or impossible to hear.
+
+It got to the point where it was something that was draining energy rather than creating it, so it just sort of fell by the wayside. Also because we didn’t have many designers, a lot of people were actually interface engineers who were interested in design, which it’s a different skill set. So that kind of fell by the wayside, but I think that what it got replaced with, where we just made — or I, at least — made a distinct effort, like I started going to work and I was met by a meta designer and I said, “I want you to get involved in this,” and we just kind of made it part of Core instead of a separate group. I had this group and I was like, this is great. The problem is that these people should be part of the Core team, not part of a separate team. So that they’re contributing design ideas from the very beginning of discussion about features.
+
+So that’s kind of where it has wound up. They’ve used the UI blog for stand-alone UI things, like working on the MP6 plugin and stuff, that was sort of bigger where they didn’t want to distract from Core activity of a current release, but I think for the most part designers are just really more embedded with the actual Core feature developers and I think that’s the way to go ultimately.
+
+Distributed usability testing — the main reason we didn’t have that, we started and I put out a call for people who were interested, and I got back a bunch of people around the world who were interested — the problem was that we didn’t have the infrastructure at that point for getting videos and stuff like that. We had a way to distribute scripts to run tests, and we had some grand plans around adding profile information into the WordPress dev work profiles where people could opt-in if they wanted to, [69:00] to say, “Yeah, I’d be willing to participate either in-person or via web usability test, or QA test or whatever” and would fill in their platform, what kind of computer they had, and all that kind of stuff, so that if we said, “Oh yeah, we want to test this, and let’s have all of our testers run a query for people in a ten mile radius of them who are using this platform and whatever so that we would get a good spread.”
+
+So we had very grand ideas, and then when we went to do the pilot, we’re like, “Huh. How are we going to get these videos to someone who can evaluate all of them and who will do that? And Matt kind of said he thought I should do that [laughter], and reviewing lots and lots of videos, or even having the local people write up a standard report, and then having to collate all of the repots, was a lot, a lot of work, and I didn’t have the time because at that point I was still running a Core team. I really had wanted to start another contributor group for testing, and that would incorporate usability, QA, and extensibility kind of all rolled into one, and make that a program, and have someone who was a full-time employee kind of in charge of that. Whether an employee of Automattic, or some other company, I didn’t really care, but someone who was dedicated to it, and really wanted to do it. We just kind of never got there.
+
+I still would like to see that happen. If I had a magic wand and could create a couple of people to do whatever I wanted, someone should create that testing group, and institute a really awesome testing program, would be great. The fact that video uploads are so much easier than they were back then, and bandwidth is so much more available, would make this easier than it was at the time, because at the time really the only tool that would have made sense would have been for people to use Silverback. It’s just a little app you can use to record the screen while you’re testing with somebody.
+
+But now things like video Skype, Google Hangouts, that kind of thing would make it really, really easy for someone to observe other tests. We didn’t have that technology available at the time. Now that we do, doing a distributed testing program I think would not be easy in terms of the logistics of it — it would still require quite a bit of setup — but I think it’s definitely, it wouldn’t hit the same roadblocks that it hit when we tried to do that before.
+
+And then the chat, it was kind of the same thing. We would have it and there wouldn’t necessarily be that much to talk about, or the people who were there were all coders who wanted to talk about CSS, so I was like, “You know this is really a poor discussion.” So we have it, and they still use it sometimes, but it just kind of didn’t — it was an experiment, [72:00] and I think that it had a good result in that it brought more designers into the project. The way we tried to bring it in — or I tried to bring it in — was this sort of multi-tiered plan. We’re going to have this, and this, and this, and this. You know, some of it took but I think that in the end we definitely do have a lot more designers who are contributing to the Core now for sure.
+
+Interviewer: I just have a few small questions for you. Why did you call the project Crazyhorse?
+
+Mylo: I did not, and I wish we hadn’t, because when Liz and I got on stage to present Riding the Crazyhorse in San Francisco, where there’s a strip club called Crazyhorse, that was uncomfortable. It was called Crazyhorse because of the way Automattic had their servers set up. At that point they had subdomains for experiments on projects and stuff. I think that you know how when you’re doing tech stuff, you kind of run through, “These are all the names of science fiction movies that I love,” or “These are all of the characters from Donnie Darko,” or whatever. I think they were doing Native American chieftains or something. And Crazyhorse just happened to be the server, and that’s what it came to be called, and Liz named the presentation that.
+
+It…it…yeah. Because Barry picked that name for the server.
+
+Interviewer: Do you have a copy of the first usability review that you did for Matt in 2005?
+
+Mylo: No. That’s many, many computers ago. That would have been super casual. It might have even just been, I might have even just sat there with a piece of paper and told him what I thought. It wasn’t a job, it was just a, “Hey, you’re a friend and you do this for a living. Could you do me a favor and look at this?”
+
+So it was very informal.
+
+Interviewer: Do you have the — all of the videos and the research and screenshots and prototypes and stuff that you did for Crazyhorse? Will I be able to have access to those?
+
+Mylo: I don’t know. They might be on a hard drive somewhere. There wasn’t any place that — no one wanted them, so I kept them. I don’t know if I still have them. Definitely they’re not on any of the lab tests that I have currently because none of them are that old. It’s possible that I have them backed up on a hard drive that’s in a box somewhere from my move. If I come up — are you thinking that you want to look at some of it to possibly include it?
+
+[75:00]
+
+Interviewer: It would be really good. I mean, it’s not — I could include it at a later date, so if you come across it…
+
+Mylo: If I come across it, I will let you know. I am not willing to even give a percentage of the likelihood of that, because I honestly have no idea if I kept it or if at some point I might have just said, “Matt, do you want me to do something with this?” And if he said no, I might have overwritten it. But I will poke around. I’m still unpacking stuff. And certainly you could get the graphics that are in that report that is posted.
+
+Interviewer: Yeah, I’ve got those. They’re quite little. It’s a PDF, isn’t it?
+
+Mylo: Oh, right. 
+
+Interviewer: I mean, like I said, it’s not urgent, but if you did come across them that would be good.
+
+Mylo: I am — I will poke around. I do vaguely remember seeing a folder when I was packing that had some of the print-outs of the sketches and the printed wireframes that Liz and I did during the design of it, so I know I kept a bunch of stuff it’s just a matter of whether I still actually have that hard drive or I might have even given it to someone else. I might have given it to someone who needed a hard drive at Automattic or something.
+
+If I find it though, I will let you know.
+
+Interviewer: Thanks. Would you prefer to be referred to as Jen or Jane?
+
+Mylo: Pretty much everyone calls me Jen.
+
+Interviewer: Okay.
+
+Mylo: Although it’s Jane for everything before this year, so it’s…
+
+Interviewer: Exactly, so that’s why I’m wondering.
+
+Mylo: I don’t know!
+
+Interviewer: I’ll figure it out. I can refer to you as Jen throughout with a footnote saying, prior to… I’ll figure it out somewhere, I just want to make sure you’re happy with how you’re referred to.
+
+Mylo: Yeah.
+
+Interviewer: Okay, well that’s the end of the interview. Let me just stop this first.
+
+Mylo: Okay.
+
+I’m trying to think of what computer I even would have had that I would have had that stuff on at some point, if I might still have it…
+
+[Recording ends]

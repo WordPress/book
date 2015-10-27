@@ -1,0 +1,459 @@
+Interviewer: So, I’m speaking to Mark Riley. Good morning, Mark.
+
+Riley: Good morning, Siobhan.
+
+Interviewer: How are you doing?
+
+Riley: Good!
+
+Interviewer: So, can you tell me how you first got involved with WordPress? 
+
+Riley: I first got involved in 19…, 2002 or 2003 when BlogSpot took off. I had a Blogger blog, lost my password, and Google has no help, no support. Couldn’t get back in. So, bought a domain. Started doing some HTML on there. And then every once in a while I looked round to see what state of play was in these new programs that were coming out. Things like MoveableType. In January 2004, happened to find WordPress. Was very pleased with the size of the download. I looked at the website and found I was very pleased again that the developers were posting in the forum. So installed it, and that was that really. I really liked it.
+
+Interviewer: Why did you like it?
+
+Riley: From having used, or tried to use, MoveableType. When you clicked, when you wrote what you wanted on MoveableType and clicked publish, you waited and you waited and you waited and it chewed the words around and eventually it might put them on the website. With doing HTML it was just hard work. With WordPress just click publish and it was just there. It was your words on your website. We’re not going to interfere with them. 
+
+Interviewer: So how did you get into blogging?
+
+Riley: Oh, there was a good friend. We met up on Usenet. And somebody there got a blog and somebody else got a blog and then we all got blogs and then we got domains and it just sort of started. A friend did it so I did it. 
+
+Interviewer: What did you write about?
+
+Riley: Anything. 
+
+Interviewer: Is it still online?
+
+Riley: The domain I started then tamba2.org.uk, no, I took that offline about a year ago, maybe? I’ve got everything. Everything’s still there. Nothing’s been erased. It’s just not online anymore. 
+
+Interviewer: That’s right. Because I was going through the codex and there was lots of links to it. So I’ve been getting rid of them. 
+
+Riley: Yes. The links happened because it was one of the first WordPress support resources. But when I moved to Automattic I… the workload I had there meant that I couldn’t keep up with the world of WordPress outside, the WordPress.org version. [3:00] So as that raced along and changed, and changed hugely, all my pages became old. They became old very, very fast. And it was just wrong for people to go from one set of problems they’ve got to look at some old stuff. And by last year, the amount of WordPress help resources online - just tons. So mine just wasn’t needed anymore.
+
+Interviewer: Your tutorial on installing WordPress locally with XAMPP. That was my… that was one of my favorite tutorials. 
+
+Riley: Cool.
+
+Interviewer: That’s how I learned to do it. So, yeah, I missed it. Back to the early days, what’s your background? Are you a developer?
+
+Riley: I’m a nurse. 
+
+Interviewer: You’re a nurse. OK. So you were a nurse…
+
+Riley: Well, I wasn’t… I was a nurse from 1985 until 2002. I was a registered nurse for people with a learning disability. Then it sort of gets complicated. But I left in 2002 intending to still nurse but in a slightly different area. But then my wife has got multiple sclerosis. She was diagnosed in 2000. She had a car accident which exacerbated the MS, so I ended up being at home. It’s almost because she had the car accident I’ve got this job. 
+
+Interviewer: Right, okay.
+
+Riley: It’s one of those sliding doors things.
+
+Interviewer: Yeah, yeah, sure.
+
+Riley: So, yeah, I ended up being at home. So, no. Developing, no. I could write 8-bit code, years and years ago, but… Around 1990 I could write 8-bit code. But, no. I still don’t write PHP or anything like that.
+
+Interviewer: So where did your interest in computers come from then, if you were…? Because Usenet is fairly niche.
+
+Riley: But Usenet was all we had. 
+
+Interviewer: Yeah, yeah, sure.
+
+Riley: Back then. Usenet and IRC. So there’s no Facebook. There’s no blog. There was no… I mean, when I started there was no Google. So, you just learnt how to do it because there was no other choice. And computers, well, if you got a computer you could play games. You can play music. You can sit and talk to people. You can… I’m a news junkie. I love news. Constantly watching news. So the internet is fantastic for that. It’s a toy.
+
+Interviewer: Yeah, it is. [6:00] So how did you go from installing WordPress to starting to get involved with the community?
+
+Riley: It was really, really simple. I had a question about WordPress (I have got no idea what that question was) back in January 2004, just after installing WordPress. So I went back to the forum and asked my question. While I was there, I was looking, and somebody had asked a question to which I knew the answer. Because by then I’d got a bit of a clue about CSS and HTML and sort of basic stuff, not the code but the bits. Somebody asked a question, so I answered it. Then I went back to check to see what they’d said, and somebody else had a question. And I happened to know the answer to that one too. So it was, okay, I’ll answer that one. And then… it was just nice. Because all of a sudden, I had the answers. If somebody’s got a question and I had the answer, well then, well tell them. It’s really basic stuff. It sort of went slowly from there. It got interesting and I was learning about WordPress as I’m doing it. And I’d got the time. I did have the time to sit and do things. Install it a dozen different times and try this that and the other and… the world, the blogging world, was very different back then. It was…
+
+Interviewer: Yeah, I had a Blogger blog in 2004, I think? It’s weird to think that now. 
+
+Riley: Yeah, it is. It’s very different. It’s different I found with the people, the expectations of the people coming in to write, and what they’re writing about, and how they’re writing. It’s a completely different landscape. 
+
+Interviewer: Yeah, that’s true.
+
+Riley: But that was basically it. Somebody… Matt asked me this. When I first met Matt in 2005 when he did his all world tour, and he said why did you ask, because I’ve got the answer. Nothing more complicated or… than that really.
+
+Interviewer: So support’s like the gateway drug. 
+
+Riley: Yes. Well, you’re a hero to somebody every day, aren’t you? There’s nothing like somebody saying thank you. Yaay, you fixed it! It works! You’re thinking cool. I’ll remember that. That was cool. I like doing this. 
+
+Interviewer: Do you still do that, is that what you do at Automattic?
+
+Riley: I work in Akismet, [9:00] so no. This week I’ve been doing some support. And I think I’m doing some in a couple of weeks. Because I can’t make it to the meet up. But no, I’m just dealing with the spam. So I just find the spam and shut them down which is a shame. I like… at some point I want to get back to doing more support, because that’s… that’s what keep… that’s what I like. I don’t mind answering something for the twenty millionth time. Because they still don’t know the answer and I still have the answer. 
+
+Interviewer: That’s so nice! So was there many people, kind of non-developers, who started to get involved?
+
+Riley: Yeah, there were people… there were names I recognized a lot when I was in the forums. So there was Carthik, there was Seenid [?], there was Nuclear Moose, there was a guy who now runs TechWhack, sushubh, I think his name’s sushubh. I’m not entirely sure how you pronounce that. I’m sure he runs Techwhack.com. He helped a lot at the time as well. Then later on there were people like whoooo, or whoami, I think the name is, she came in and did stuff, somebody called techgnome appeared and then disappeared. If I go and browse back the really old posts, the really old stuff, I can sort of see names and think, yeah, I trusted what you said, I didn’t trust what you said.
+
+Interviewer: Yeah, that would be interesting.
+
+Riley: It’s just sort of… the way something happened, you’d see somebody and you’d read their answers so many times, you just knew that what they were saying was good, so you didn’t bother… so you read it to learn, you didn’t read it to correct. Because there was nothing worse than seeing answers that were just completely wrong being told to somebody. No, no, no, no, no, that’s not how you do it. This is how you do it.
+
+Interviewer: Did that ever result in kind of arguments? Like if someone said… if someone put the wrong answer down, would people be snarky about that? Or would they…
+
+Riley: There were a few. There was one thread between two, well one prominent person… they were both prominent at the time, one’s sort of dropped off the radar, I believe one’s prominent elsewhere. They were having an argument in a thread, and I emailed Matt and said you really should have a moderator in this forum because this has got nothing to do with WordPress and it’s gone off the rails a bit. Or words like that. And then thought nothing of it. And I think it was the next morning I got an email from a friend in the forums who just said [12:00] you know, what’s the view like from up there. Something like that. And I’m… I’ve no idea what you mean? He said, well look at what you are. So I looked at the sidebar, all of a sudden Matt had given me the moderator title. Which he hadn’t said, he hadn’t told me. He’d just done it.
+
+Interviewer: You just were.
+
+Riley: Well, I suppose he thought well if you’ve asked, you’re concerned enough to be… you know, you’re bothered enough. So, there you go, have at it.
+
+Interviewer: So who were the people that were arguing?
+
+Riley: One was the guy who designed Kubrick.
+
+Interviewer: Oh, Michael Heilemann?
+
+Riley: Yeah. And the other guy was one called “Root”. 
+
+Interviewer: I don’t know him. I’ll have to look through my…
+
+Riley: Yeah, Root was very outspoken. He still… he appeared a while ago. Sent me an email a few months ago saying “I’m back”. But he sort of drops off the radar for a couple of years at a time. Yeah, they were having a… that was the first thread I moderated, ever, I think, on any internet forum. I actually emailed them both direct and said “I’m really sorry guys, but…” 
+
+Interviewer: I’m going to find that thread.
+
+Riley: Yeah, it’s a very old thread.
+
+Interviewer: I mean I’ve been reading all the really old threads, so anyway… 
+
+Riley: So it was Root and Michael Heilemann that… they were the first ones.
+
+Interviewer: So were you the first moderator of the forums?
+
+Riley: Yes. I think I was. 
+
+Interviewer: And could you give other people moderator status then? Or was it just you for a while?
+
+Riley: I think, I was actually Keymaster. I’ve forgotten how… I don’t know how the other mods came about. I can’t remember how it happened. But yes, I had the power to do stuff, but I didn’t. I was just… just didn’t.
+
+Interviewer: So you used it wisely. 
+
+Riley: Well, I hope so. I don’t know. I mean, I would say yes, if nothing else, because the forums did well. 
+
+Interviewer: Yup
+
+Riley: It was kept… it was a lot of work done to keep it positive. Keep the language positive. Not just send people off on random searches. And say, you know, you should have searched before you asked. If they’ve asked the question, just give them the answer. 
+
+Interviewer: So was it mostly support questions then? Or was there other sort of forums and discussions and feature requests, that sort of stuff?
+
+Riley: No, back then it was just support. 
+
+Interviewer: Which is pretty much how it is today. [15:00]
+
+Riley: Yes, but… I’m going to WordPress.org now to have a look at the forums. I don’t often get back to the forums. Back then we had How To and Troubleshooting. And your WordPress, maybe requests. That was about it. There was hardly anything else. There was no reviews. There was no alphabet. There was no themes until the WordPress version came out that required… that was themed. When Ryan split it all up in 1.5 or whichever one it was. Installation, didn’t have it’s own one at that point. So they… things like advanced multisite, local hosts, they just didn’t exist. Your WordPress existed. I think that’s been around for quite awhile. 
+
+Interviewer: Yeah, that’s going to be going I think. 
+
+Riley: It’s fair enough. I mean at the time, it’s how the forums go, isn’t it? Back then when it started, it was probably quite a good source of traffic. Now I bet it’s… it just isn’t, because of how things are. 
+
+Interviewer: I think… people do use it, but it also is subject to spam and things like that, and there’s so much stuff coming in, I think the moderator’s just don’t see it as necessary. So did you hang out in the IRC chatroom as well?
+
+Riley: Constantly. I really like IRC. I’m going to hang around in IRC these days, but not in WordPress, but in Reddit. 
+
+Interviewer: Right.
+
+Riley: Yes, constantly. And it was very, very, very geeky. Super geeky. I was, there may have been twenty people in there, but I was… and I’d be the only one who couldn’t code. 
+
+Interviewer: Right.
+
+Riley: But IRC was… lots of people used IRC then. You’d have people joining the channel who would ask questions and they’d be ignored by the geeks, because geeks don’t answer questions from people who don’t know. So I would do my best. And a couple of times I’d deliberately, very deliberately, started answering them wrong, but very slowly, because then I knew, I KNEW somebody there knew the answer and they just weren’t saying. So I thought if I say the wrong answer, they will make it right. And they did. 
+
+Interviewer: Why do you think that was? That people wouldn’t answer?
+
+Riley: Because there are certain… because they’re geeks. It’s beneath them. They weren’t given answers. They had to work it out, so therefore everybody else can. That’s why [18:00] when WordPress started… it’s a constant source of irritation to me, even now, that if you go and look in the WordPress credits for instance, you wouldn’t find my name. You wouldn’t find the name of all the other people who’ve helped. Hours, and hours, and hours, and hours in the forums. For some very clever people it takes maybe an hour or two to write a patch, to put a patch in. Bingo they’ve got their name in the credits. Other people can spend days helping in forums and really putting some effort in, and it’s not written anywhere. And that’s always annoyed me about the geeks.
+
+Interviewer: We’re trying to change that. I’m really, really trying to change that. Because I hate that. That makes me really angry too. 
+
+Riley: Yeah, it’s just… it just does. Even now. Even now it annoys me in Automattic. When there’s documentation to be written and it’s almost… it has been in the past been a couple of occasions where I’ve read where a developer said “well, there you go, that just needs document text.” Well you wrote it, write the documentation then. It’s not beneath you. It’s part of the… There is something else though. There is something else. Which is that some people have got, some developers have got all the answers, they just don’t know to say it.
+
+Interviewer: That’s true. Yeah. It’s because some developers find it hard to communicate to non-developers, or novice developers.
+
+Riley: Yes. There was a couple of times on the WordPress.org forums, back then, when I would look at an answer and think “that’s perfect”. But they’ll not understand a word of it. I know what it means. So you’d have to just say it again in the language they understood. Because geeks spoke geek.
+
+Interviewer: So has there always been this sort of… it’s not a split, but it’s kind of a split between the development side of things and then the sort of support and documentation side of things?
+
+Riley: Yeah, because support isn’t cool. 
+
+Interviewer: OK. Do you think that’s objectively true? Or do you thinks that’s just something that’s been kind of actively, sort of promoted in the WordPress community?
+
+Riley: No, no, no, no, no. I don’t think that was… I don’t think there’s been any promotion at all. I think it’s just… WordPress the product has got one set of people and WordPress the CMS, WordPress the code, has got another set of people. I think it’s just the way it is. I’m sure it happened with other things. It’s been… no there’s never been any, as far as I’m concerned… Matt and all the others have always been incredibly helpful when it came to getting the word out about how to… [21:00] how to make stuff happen. No, I think it’s just the way projects go. I’m sure there’s people who are deep into Linux who have got their own little niche in there. It’s just they way, you know, what we’re good at. 
+
+Interviewer: Something someone, I can’t remember, it might have been Carthik, said that, or NuclearMoose, said that there was resistance to the codex and to documentation from Matt. Don’t know if you remember that.
+
+Riley: I don’t know. I wrote… I don’t know. Right at the very start… because I was doing so much support, I emailed Matt asking if he… I either linked the pages or I packaged them up so he could put them on the website, or did something to say look, here’s the support stuff. We’re getting asked this a lot. Can you please put it on the website? And nothing ever happened. Which is why I created tumblr2. It’s not why I created it. It’s why the WordPress subdirectory and started just throwing stuff in there. Because I couldn’t get it published on WordPress.org which is where it was needed. MediaWiki, well there was one before that, PHPwiki, which I did some stuff with. I wrote the first how to rescue your password if you’ve lost it thing.
+
+Interviewer: That’s important for you after your Blogger experience. 
+
+Riley: It was important for me, because what happened was I somehow I lost it. And I went into the IRC channel and I said to the IRC people, these are the geeks who know WordPress, yeah? They’re writing the code, I said I’ve lost my password, I’ve got no idea how to… and they just said scrap your blog, you have to start again. Hey, whoa. 
+
+Interviewer: Wow.
+
+Riley: That’s exactly what I was told to do. It’s like, just… no. So I just somehow, I don’t know how I did it, somehow I went in, I found where the password was stored in PHP myAdmin, I found if I wrote a word and then did the md5 and then saved it, and then, it worked. Bingo. Right, I’ve found it. That was one of the first things I did because it was like super important. Because I can’t remember if we got password reminders back then. Probably didn’t.
+
+Interviewer: Probably not.
+
+Riley: Yes, that was very… that was one of the first things I did. I can remember them saying “tough. Start again.”
+
+Interviewer: Wow.
+
+Riley: Because I had to write lots of warnings when I did it saying this is PHP myAdmin, this is really scary, be REALLY careful. 
+
+Interviewer: Yeah, that’s… that is interesting. Because obviously WordPress they’ve always wanted to be easy to use [24:00] for anybody. But then if you lose your password, it’s like get rid of your blog.
+
+Riley: Oh yeah, back then, with my hacks PHP, there were no plugins and things. It was… it attracted a different kind of core audience. I suppose. Domains. I doubt many people had their own domains. Things like that.
+
+Interviewer: Yeah, that’s true. So do you remember the codex being set up? Do you remember, kind of, the intention of it?
+
+Riley: Vaguely. I remember it taking off. I remember it being on MediaWiki and people being unhappy about it being on MediaWiki because of the security issues, or whatever else. Something to do with MediaWiki. I can remember… I did… I think I had some… I moved quite a lot of stuff over there and just, yeah, put it all in once place so people could find it. But I don’t have any huge details. I don’t have huge recollections of it. Mainly just the forum. And even then, to be honest, I mean the forum was, once 200… once April 2006 came along, because that’s when I started with Automattic, I just didn’t have time. Literally. Just. Did. Not. Have. Time.
+
+Interviewer: That’s sad. I mean it’s good for you obviously, but it’s sad for the community.
+
+Riley: Yes and no. I’d been there a while. People move. People do move on. And it’s important that people do. 
+
+Interviewer: That’s true. So did you deal much with Lorelle? On the codex side of things?
+
+Riley: No. Lorelle… we collided… not collided. We crossed paths the the forum. But from what I remember, I think my… I was… I think Lorelle was very much into this is what you do… this is what you can do with WordPress, this is how you can use WordPress. Whereas I wasn’t particularly caring about that. I just wanted to make sure that you COULD use it. So if you had a problem, I’d fix it. But if you asked me about the stuff that Lorelle does, and still does these days, I don’t really care. It’s not something that excites me. She saw the potential I think for what WordPress could be. I just saw that somebody had a problem and if I’d got an answer, I would fix it. I don’t know if that makes sense.
+
+Interviewer: That makes sense. That’s why we have so much codex stuff now, that’s not really documentation. It’s like very long pages [27:00] of stuff. So do you remember on the forums anything that, any new features, or any releases of WordPress that caused major influxes of problems.
+
+Riley: Yes.
+
+Interviewer: Yes?
+
+Riley: Yes, yes, yes, yes. Kubrick. 
+
+Interviewer: Why?
+
+Riley: The code for Kubrick was horrible. My main problem with Kubrick is that… that theme what had got designed by Michael Heilemann written on it. And he actually wrote in his blog, I designed it, I don’t support it. And I got absolutely fed up to the back teeth of answering questions that he… that I felt if you’re gonna… if you’re getting all the career… if you’re getting all the kudos for designing it, and I’m seeing all the people who can’t work with what you’re design. Who see it as broken and can’t fix it. Then I think you owe it to the community to come in and help. He obviously had a different view. Which is fine. I don’t know if I’d hold that same view today, but back then it… 1.5 and Kubrick was horrible. 
+
+Interviewer: So was it just specifically Kubrick? Or was it the theming system?
+
+Riley: It was Kubrick in particular. Because Kubrick came in, it had rounded corners, and it had the big blue header, and it had… when you looked at a single post it didn’t have the sidebar, so people wanted the sidebar. And couldn’t understand why they couldn’t do it. And there was… it was… I obviously didn’t like the thing…
+
+Interviewer: Right.
+
+Riley: But I didn’t, and I don’t… and I never have found it attractive. I remember when he very first posted this is a theme I’m working on when it was still huge Photoshop files, it was still a huge download, I remember looking at it, seeing it in the forums people go “wow, that’s great” and I’m thinking it just looks boring. I didn’t get Kubrick at all. I didn’t understand why people found it attractive. I still don’t. I don’t like it. As a theme. 
+
+Interviewer: And it’s been on millions of websites. 
+
+Riley: Yeah, I know. That big, blue header. Kubrick was the one that sticks out. Plugins… Matt, one of Matt’s first plugins called Post Times…
+
+Interviewer: Blog Times?
+
+Riley: Blog Times? Post Times? It could be Blog Times. Pretty sure it… bar code. That took me a lot of getting going. 
+
+Interviewer: [30:00] Why?
+
+Riley: I don’t know why. It just took me quite a long time to get working. So that I could support it. Because obviously Matt just says there’s the code. There was something else that just sprung into my mind. Matt Asides. 
+
+Interviewer: Oh, yeah. Because he does those on his, he did them on his personal blog.
+
+Riley: Yeah, he started… this is when Matt stopped blogging and started aside-ing. The world went that way. Almost Twittering before Twitter. 
+
+Interviewer: Yup.
+
+Riley: Yeah, because he wrote, it’s quite an obtuse little blog entry where he’d just written how he’s done it. And I in the end had to translate that into… I mean, it wasn’t just me, this is everybody. Trying to write this is exactly how you do it. Trying to spell it out, bit by bit. 
+
+Interviewer: I think there’s still something in the codex about it. About how to do asides. 
+
+Riley: Oh, there probably is. 
+
+Interviewer: Do you remember why Kubrick was chosen?
+
+Riley: No.
+
+Interviewer: For the main theme?
+
+Riley: No.
+
+Interviewer: Was there any controversy around that?
+
+Riley: There probably was. But I can’t honestly… that was stuff that went on in the IRC which I wasn’t particularly following, probably. Again, my focus was pretty much on just if you’ve got a problem, I’ll fix it, rather than what should we do with this, what should we do with that. 
+
+Interviewer: Yeah.
+
+Riley: When themes happened, I was in contact with Ryan a couple of times. And he went through the work I’d done and said yes, that… what you’ve described is the perfect way to go from the original WordPress to the theme WordPress when that came out. Which was good enough for me. 
+
+Interviewer: Yeah, that is still on your WordPress user page. 
+
+Riley: Is it?!
+
+Interviewer: Moving to 1.3 and themes. Oh, has it got text? No, it’s just a blank page. You’ve got a list of things on it that says not sure where I’m leaving this, but I may need it at some point. 
+
+Riley: Yeah. Wow. I haven’t been out the the codex in ages. 
+
+Interviewer: That’s your user page. So do you remember any, like I’ve heard about obviously controversy around like MoveableType and all that sort of stuff, but I was wondering if there was any sort of controversial stuff that happened specifically in the forums or anything that caused problems within the sort of support community.
+
+Riley: [33:00] Not… I’m just looking down that list of stuff I did in the thingy. It’s like, oh wow. I did quite a bit of stuff back then, didn’t I?
+
+Interviewer: You did. I know.
+
+Riley: Controversy. I don’t think so. In support?
+
+Interviewer: Yeah.
+
+Riley: Nothing rings a bell. There was antagonism. There was some people - people like Root, whoami -who were slightly sharper with their words, maybe, than other people. Which I never had a problem with, because they were never wrong. I know Matt didn’t like whoami, but she… because she used to criticize security issues and bits. But she was never wrong. Ever. So you couldn’t criticize what she… you could criticize how she said it, but you couldn’t criticize what she was saying. And I never saw the forums as being sort of sickly sweet, you know, we’ll help you forever and ever sort of… you’ve got to use your language and you’ve got to structure it and write it in such a way that you, that people don’t see you as… if you’re too nice, then people won’t make the effort to learn. 
+
+Interviewer: That makes sense.
+
+Riley: So, you have to use your language and think well, you’re coming back to the forum quite a bit now, so I’m going to change how I’ll reply to you. I’m going to start referring you off to other places because you should be able to do this. Somebody else you might give a lot better answer to because it’s obvious from the words they’re using that their completely lost. So, you have to be nice to them. The main thing was just keeping the thing happy. I’m sure if I went back through the mailing list, there would be little bits and bobs which popped up. I can’t think of anything huge that happened. Unless you want to remind me of something I’ve completely missed.
+
+Interviewer: No, no. No, I mean I don’t know of any. Like I’m just kind of interested in all this sort of dynamics of the community because I think it’s quite fascinating.
+
+Riley: The community was really, really good. But there was a lot of effort stayed in the forums to keep it, to keep it positive. [36:00] I used to bang on at people don’t say to somebody “go search”. And there’s at least one person I can remember who would say “go search” and it led nowhere. And I actually said, this goes no where, how… don’t do that. And I would start, I’d link somewhere, because I started creating a lot of ready answers I sort of linked to a big list of answers which I’d got, you know, use this. You know, if you want to come in the forums, great, brilliant, come and help. But you’ve got to give the right answers and you might want to start here. Or something like that. Yeah, the community… I think there’s a lot more argument in the code than there was ever in the forums. 
+
+Interviewer: Do you remember how things like, how the MoveableType license change, that kind of changed the dynamics of the community and the forums? Did you get a big influx of people?
+
+Riley: Yeah, yeah. That was funny for a couple of reasons. Partly because as that sort of took off, as it started going off, there was the anti-WordPress people saying well you can’t use WordPress because you don’t know PHP. Which was funny because if you don’t know Perl, you can’t use MoveableType then, can you?
+
+Interviewer: Yep.
+
+Riley: But they never said well if you can’t use Perl, you can’t use it. Which always struck me as funny. And used to make a point of saying in the forums, I don’t know PHP and I still don’t know PHP, but I can fix your blog and you can fix it too.
+
+Interviewer: Yup.
+
+Riley: Just trying to get rid of the “it’s geeks running the show” type thing. Maybe it was geeks running the show, but there were lots of non-geeks who are helping run it too. MoveableType, yeah, it took off. That’s when people really wanted a, oh why can I have only one WordPress does one blog. There aren’t any plugins and all that sort of thing. That was very definitely the tipping point. If they hadn’t done that then I don’t know where WordPress would have gone. 
+
+Interviewer: That’s interesting. I spoke to Anil Dash from MoveableType a couple of days ago, and he said, that like, for them it was like it happened and then they got over it pretty quickly and then they kind of realized wow, this is like kind of a major event for WordPress people. 
+
+Riley: It was. Again, it just came down to the fact that they wanted to move or import or whatever else and how do I do this, and how do I do that. We just got on and did with it. The politics behind it, I couldn’t particularly care. I mean I like WordPress. I can make WordPress do what I wanted. So I stayed with WordPress. When I tried to install MoveableType, [39:00] I had to actually speak to the girl who was hosting my site and asking for what’s a path? I didn’t know what I was doing then. WordPress install never failed me. 
+
+Interviewer: I find that fascinating there’s a blogging platform that you had to get like a consultancy agency to install it for you because it was so hard. Doesn’t seem to make sense. But I guess that’s now it doesn’t make sense.
+
+Riley: But even now it’s weird. I’m looking now at some cPanel, Plesk, and vdeck and stuff like that and the places I’ve installed WordPress since. It’s bizarre sometimes the way hosts set things up. GoDaddy and Dreamhost. Bleagh. 
+
+Interviewer: I know. Awful.
+
+Riley: Weird.
+
+Interviewer: I hate thinking about hosting. I’ve changed hosts so many times. What about the plugin system? Did that change the dynamics at all?
+
+Riley: It did. Because it opened it up. And in the end we had a plugins forum, which we’d never had before. And all of a sudden you could start making your blog do all manner of different things. Which was really, really cool! Oh, look new shiny plugin. Let’s install this, see what happens. Let’s install this one, see what happens. That just… I think that marked the splitting of the forums into… when plugins came along, because that became more code help. So if somebody is stuck and there’s a code error, I wouldn’t be able to help. I wouldn’t know. Unless it was something I’d actually hit and solved myself. Whereas other stuff, I was installing and breaking WordPress enough times and in enough ways that I knew what it was doing. But with plugins, that’s when you got the likes of Lester Chan who started writing plugins… I’m pretty sure techgnome wrote one back then. There was a group. Carthik wrote one. MountDewVirus, Nick Momrick, he was writing plugins.
+
+Interviewer: Did they support their own plugins? Or did a…
+
+Riley: Some did. Most did back then. Yeah.
+
+Interviewer: That’s good. And what about themes, did you start getting more design questions? CSS sort of stuff? Or…
+
+Riley: Yes. Again, that took off pretty rapidly. And back then CSS was a complete mystery to a lot of people. Which is why I had to go… which is why I did the weird stuff on my website. [42:00] Where I explained bits, and broke it down and tried to explain what CSS was and how you do it. Really basically. And it was basic. I didn’t know any more than anybody else, really. I just knew the WordPress bit. So yeah, that was another sort of split. I never went into the themes forum. Because, talking about colors and things just didn’t interest me. Those conversations were about creating and plugins were about troubleshooting code, and I wasn’t into creating and I wasn’t into troubleshooting code. I was just somebody says they can’t install it, I’ll install it for you. My focus just wasn’t there. It just didn’t… themes bore me to this day. They really do bore me.
+
+Interviewer: Why?
+
+Riley: My view is, it may be GPL but theme authors have made them far too complicated now with functions and everything else. It might be GPL but nobody knows what to do. To alter the footer, for instance. Way back when, it was footer.php. Now you’ve got to dig through functions to find the line credit that the GPL says you can take out, but they really don’t want you to do it. 
+
+Interviewer: Yup.
+
+Riley: And plus, it’s so many pictures and this and that and the other and… 
+
+Interviewer: Too much?
+
+Riley: I just think blogs are there for writing. To actually put words on, not pictures. Even though I’ve got a blog that just does one picture every single day. 
+
+Interviewer: Yeah, I’m just looking at it.
+
+Riley: Oh, my god. Why that one? That only came about because I… if I find a picture I like on the internet, I keep it. And I just got a folder with far too many in, and I thought well I’ll stick them on a website then. It just so happened that I do one a day. And then I only intended to do it for one year, which was all of last year, 2012. So pretty much last year, I did one a day. And then I stopped because it wasn’t 2012 any more. And then I realized after going back, I realized that people were still looking at the thing. And I thought, well, I’m still seeing pictures. So I might as well go back to posting one a day. 
+
+Interviewer: Is that automated? Or is it like a…
+
+Riley: No. No I’ve got two folders. One’s called blog. The other’s called blogged. And if I find a new image, then I put that into blog. Once I’ve blogged it, I put it in blogged so I don’t crossover. So I hopefully don’t repost much. So, yeah, I mean that’s just… there’s no automation at all. If it isn’t there, it’s because I’ve not done it. 
+
+Interviewer: Well, I’ll keep an eye on it. Do you remember any other things [45:00] other than themes and plugins and MoveableType stuff that had that sort of, that caused a sort of sea change in the community? At least in terms of like the of support stuff that you were getting. 
+
+Riley: I don’t… think… so. I remember, you must have covered the bit about the hidden links on WordPress.org. 
+
+Interviewer: Yes. Which? The one’s that Matt put on there?
+
+Riley: Yes.
+
+Interviewer: Yes.
+
+Riley: I remember finding those, quite awhile before it all surfaced. And I actually emailed Matt and said we’ve got some really strange stuff on the site. And he just emailed back and said yeah, I know. Don’t worry about it. It’s something I’m experimenting with. Or something I’m trying. Fair enough. Just left it. And then it all blew up a few months later. Or a few weeks later. Or whatever else. I’m looking at it thinking, yeah I knew that. Why is everybody… what’s the big deal? I didn’t see… I do see the deal. But I didn’t… I think there’s probably good and bad for WordPress. But overall good, because the amount of time and money that was going into this free thing at the time. It was a lot. … I can’t remember a huge amount. That little patch of me there was only sort of 16 months. It was only a really short space of time. From January 2004 to March - April 2006, because then I went to Automattic and then I was just swamped. Absolutely swamped with that work. So I had no time.
+
+Interviewer: So you joined Automattic in 2006, so that was not long after it was set up? 
+
+Riley: Yeah.
+
+Interviewer: And what were you brought on board to do? 
+
+Riley: Support. 
+
+Interviewer: So you were supporting the WordPress.com people?
+
+Riley: Yes.
+
+Interviewer: OK. Were you the only person? Or was there…
+
+Riley: I was the only person. I was the only person for a good couple of years. 
+
+Interviewer: Oh gawd.
+
+Riley: There were more than 3 million users by the time they took on somebody else. 
+
+Interviewer: Oh wow. And now they have like 45? Or something?
+
+Riley: I don’t know how many are in. I don’t know how many are in. I don’t. But you could look at… then it was early adopters and stuff like that. People who were prepared to sort of see what happens [48:00] and not care if it breaks and things like that. The expectations are a lot higher these days. Yeah, I started in 2006. When I started, all the developers got all the support emails. 
+
+Interviewer: Right. They did.
+
+Riley: And pretty much, soon after… because I found a security hole one day in something, this was before I was employed, and I sent an email in and it was fixed in like two minutes. It was like, yeah, that was quick. Yeah, then once they realized I was there and I was answering, obviously they stopped. They’re developers. They develop. 
+
+Interviewer: Did Matt ask you to join? Or did you…
+
+Riley: Matt asked me. He’d done… he’d obviously seen what I was doing on the website. But we’d never met. He did some sort of world tour in 2005. Where I think he… looking back now, it was probably the start of the setting of the company, but back then it was just Matt’s on a world tour. And I blogged it and said, oh, Matt’s in London let’s go meet him. So a few of us met him. That’s where he asked my why I answer people. Why I help. Because, I said, because I’ve got the answers. And at some point in IRC, after one weekly meeting, he just said would you want to be paid to do what you do? Well, yes. Really? That would be very nice. And that was it. Thought no more of it. And then sometime in March 2006, again he popped up in IRC or Skype, and said would you like to give it a try? Come on board for two weeks, see how you feel and that was that, really. And after a couple of week it was official. He blogged it. He put it on a post. I think the post was “A Little Funding”.
+
+Interviewer: Ah! Yup.
+
+Riley: I think he wrote that and said Podz has come on board, or whatever else. And that was that.
+
+Interviewer: And what was Automatic like back then? It was small and…
+
+Riley: Tiny. It… just small. We had one IRC channel. We didn’t really use Skype that much. Everybody was constantly talking. Things were breaking. One day that sticks in my… I did all… when I was doing support, then I used Thunderbird. It was all email. So every 10 minutes it would reload, so I’d have that little 10 minute window of no new stuff coming in to answer it all, to get it all coming through again. [51:00] The very first week, I think I was looking at about 30 supports a day. 30 support emails a day. There was one day… there was something like 450 emails arrived, all at once. Literally. And I said in the IRC channel, something’s broken. And one of the devs said no it’s not. I said I’ve got 450 people that say yes there is. And that was really funny. Because back then there were no systems in place, monitoring everything like there is now. It was user feedback. So it was one of the developers had broken something, so I got an absolute ton of email coming in saying help, it’s broken. So I replied to them all don’t worry we’re fixing it. Then I got an absolute ton back saying great you fixed it, thank you.
+
+Interviewer: That’s nice. You got the thank you even though you didn’t have the answers. 
+
+Riley: Well, yeah. I think it was Ryan who said if you’re feeling down, just break the site. And when you fix it again, people say thank you. Yeah, the site used to break. Not regularly, but it did. It did all used to go away. And themes… a couple of themes. It was really basic. 
+
+Interviewer: At what point did it really start to feel more like a business? Rather than a bunch of guys doing stuff.
+
+Riley: For me, it’s as late as last year.
+
+Interviewer: Wow, okay.
+
+Riley: Because the first meet up we had in 2006, there were, what, seven of us sitting around a table. 
+
+Interviewer: Yeah.
+
+Riley: And I’m the only non-geek. I’m the only person who doesn’t code. I’m the only person who didn’t have the sandbox, who didn’t have this that and the other. Then, I went… there was a meet up… oh there was one at the beach, Stinson. There was one in Arizona. And the company was getting bigger, it was still very code. It was still very geeky geek. At it’s core. And then for a variety of circumstances, I wasn’t able to get to the meet ups. So I didn’t go to the one in Canada. I didn’t go to the one in Florida. There’s another one somewhere that I didn’t go to. So I actually had two or three years where the company size shot up. So I’ve got here, back here in the house, I’ve got a photo from Arizona. There’s about, sitting or standing near a band, there’s probably about 16 of us. The very next photo with me in it is the one from San Diego last year when there’s a 120 people. 
+
+Interviewer: Wow.
+
+Riley: [54:00] So going in last year, and people are saying hi, I’m new. And I’m saying, well, I’ve been here forever, but this is really new to me. There’s so many people. I’m like wow. You know. It’s… that, last year it really hit home when I was there that wow this is… this thing makes money. This thing it’s a company. It still somedays doesn’t feel real. Because I tend to think back up to when it was just, you know, a couple of dozen guys. It was all code, code, code. Back then Arizona, I think, which is 2007, so that was before flash talks and before all that, you know, the Nintendo Wii used to go to the meet ups. And Matt’s really good a Wii tennis. 
+
+Interviewer: OK.
+
+Riley: we had Wii bowling, Wii tennis. There was something else. See, I mean support stayed open, so I’d be doing support and then discussing bits and stuff and other things. 
+
+Interviewer: So who was the first other support person, the next support person to get hired? Do you remember? 
+
+Riley: Oh, there’s a collision of names. It was either Mary Ann or Heather. Or Hanni. I think. I know Nick Momrick came on board to do support in 2007. I can remember Matt saying to me in Arizona that he was going to offer Nick the job. And me saying great. Really, really good. I think it was one of those three girls. So it was Hanni or Heather or Mary Ann. 
+
+Interviewer: I mean Hanni’s still there. Are Heather and Mary Ann? 
+
+Riley: No. Mary Ann left. And then Heather left some time after that. Heather went to… I don’t know where Mary Ann is working. Heather left to go to work for some other San Francisco startup type thingy. 
+
+Interviewer: OK. Well, I think I’ve asked you pretty much everything I needed to ask you. Do you mind if I, if anything else comes up, can I ping you?
+
+Riley: Oh yeah. Ping me. By all means.
+
+Interviewer: That would be great. And if you think of anything that you’d like to share, just let me know.
+
+Riley: I’m just looking at this long list that’s still open. My user page. And thinking I’m must… it’s just crazy the amount of time I put into WordPress then was just absolutely crazy. 
+
+Interviewer: Yeah, but you got a job out of it, so…
+
+Riley: Absolutely. Yes. It’s… yes. Absolutely.
+
+Interviewer: Worthwhile, definitely. Ok, I’ll let you get one. Thank you so much for speaking to me. 
+
+Riley: No problem at all. And good luck with the work.
+
+Interviewer: Thanks very much. Thanks Mark. Bye bye.
+
+Riley: Cheers. Bye. 

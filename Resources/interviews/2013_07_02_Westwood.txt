@@ -1,0 +1,787 @@
+Interviewer: It’s Peter Westwood and it’s the 2nd of July 2013. Hello
+
+Westwood: Hello.
+
+Interviewer: Did you start off blogging before WordPress? 
+
+Westwood: Sort of. So I wanted to have a website, more than a blog. And ended up installing WordPress because it was quick, easy. And then I think my second blog post was about WordPress.
+
+Interviewer: I’m just making sure this is working… [...]  …blog posts, WordPress, what?
+
+Westwood: So, at the time I was using gen 2 linux 
+
+Interviewer: I don’t even know what that is.
+
+Westwood: So, it’s a linux variant where instead of installing ready-built software, you compile every piece of software yourself. 
+
+Interviewer: That sounds very nerdy. 
+
+Westwood: It was pretty nerdy. And I wrote the first, the install scripts for packages called e-builds. And I wrote the WordPress e-build. In the beginning. And convinced Matt that he needed to change the way they were naming the download files on WordPress.org.
+
+Interviewer: So when was this?
+
+Westwood: This was 2004? I think.
+
+Interviewer: So can you tell me about the thing? What was it to achieve, the WordPress thing that you wrote?
+
+Westwood: It was just to have a website running. Just to put stuff up on. 
+
+Interviewer: No, but I mean the linux thing that you wrote.
+
+Westwood: Oh, so that was just to install WordPress on a server. 
+
+Interviewer: Ok, I see.
+
+Westwood: So that you could easily install WordPress on your server. And set it up.
+
+Interviewer: So kind of like a Fantastico sort of thing? Like a script?
+
+Westwood: Yeah, sort of. Basically. It just downloaded it and unzipped it and created a database and stuff like that. 
+
+Interviewer: OK, I see. And what was wrong with the naming conventions on WordPress?
+
+Westwood: The file was just called wordpress-latest. And the way that gen 2 works, is that they mirror the different versions of the files and expect a version number to be in the file name. 
+
+Interviewer: I see.
+
+Westwood: And if you ask for like wordpress-1.0.2, the file didn’t exist.
+
+Interviewer: I see. So that was 2004? Do you remember what version it was?
+
+Westwood: I think it was 1.0.2.
+
+Interviewer: And that was because you wanted to install WordPress on a server. You wrote that script.
+
+Westwood: Yeah. [3:00] 
+
+Interviewer: Why did you want to install it? To set up a blog? 
+
+Westwood: It was just a website really. I guess a blog, but more a website just to having something on my website. 
+
+Interviewer: What was it for? Just Peter Westwood?
+
+Westwood: Yeah. Just for me.
+
+Interviewer: And what were you doing at the time, were you working in programming?
+
+Westwood: Yeah, so at the time I was working in kind of desktop software programming. Doing PV6 code for configuration tools for booting control systems.
+
+Interviewer: So your background is in computing. Did you a degree?
+
+Westwood: Yeah, I did a Masters in Software Engineering MEng
+
+Interviewer: OK. What did you do your Bachelors in?
+
+Westwood: It was a four-year Masters.
+
+Interviewer: Oh, I see. So the whole thing… that was your Bachelors and your Masters.
+
+Westwood: Yeah. You did it all in one go
+
+Interviewer: And then you went straight into this desk job…
+
+Westwood: Yeah, I went straight into that job which I did two, as part of my degree I had to do two ten-week placements. And it’s the company I did my placements at. And they were the company that, in the summer before going to university, I worked for a company that installed the equipment that this other company made. And that’s how I got into the contacts to get the placement work. Because where I did my placement, the usually just took on gap year students.
+
+Interviewer: Yeah, I think my brother did a placement like that. Like when he was doing his computing degree. He did like four years, the year placement thing. 
+
+Westwood: Yeah, it seems to be quite common to do a whole year. If you do the four-year Masters, you were meant to as part of that, do twenty weeks in industry. To get the credits. You had to write a report on stuff on what you’d done. It was kind of bizarre, because the second summer I was responsible for the other placement students. 
+
+Interviewer: OK. So you were like the senior placement student. 
+
+Westwood: Yeah. Which was a bit weird. 
+
+Interviewer: And then how long were you at that company for?
+
+Westwood: About eight years. 
+
+Interviewer: So you started getting involved with WordPress about six years into that?
+
+Westwood: No, probably three years in. 
+
+Interviewer: OK. So you were involved with WordPress for five years before Automattic, before you joined Automattic?
+
+Westwood: Yeah.
+
+Interviewer: OK. I see. And how did you get sucked into the community? Like from writing this script.
+
+Westwood: So, after writing the script, I think the next thing I got sucked into was the Codex. And updating documentation. And just helping out there, because that was kind of easy to get involved in. [6:00] It was open and your contribution was instantly… there was no barrier in your way of contributing at all. As soon as you made a contribution, everyone could see it. And after that I think I started on kind of finding bugs and fixing them. Reporting things in Trac. 
+
+Interviewer: Did you have much PHP experience? 
+
+Westwood: Not really.
+
+Interviewer: So you were like everyone else, learning PHP.
+
+Westwood: Yeah. I had a little bit from university, but not much. I tend to pick up new computer languages quite easily. I’m really bad at spoken languages. 
+
+Interviewer: Is that why you started out with the Codex? 
+
+Westwood: Yeah, my English is amazing. 
+
+Interviewer: So it’s your fault - the Codex.
+
+Westwood: Yeah, the Codex is all my fault. All the bad spelling is my fault. I think it was at the time, the Codex was somewhere where it was kind of wild, wild west and there were lots of spammers. So a lot of it was dealing with spammers and blocking accounts and stuff like that. Which was kind of interesting. 
+
+Interviewer: Who else were you, was working on that?
+
+Westwood: I’m trying to remember who else was around then. Probably, I think, Lorelle was probably around then. And Michael H. I think did quite a lot then. 
+
+Interviewer: Yup, he’s still around. 
+
+Westwood: I’m trying to remember who else …
+
+Interviewer: Was Carthik Sharma
+
+Westwood: He was in the beginning, but kind of disappeared pretty quick, from memory.
+
+Interviewer: What about Craig Hartel?
+
+Westwood: Nuclear Moose
+
+Interviewer: Nuclear Moose
+
+Westwood: Yeah, I remember Nuclear Moose
+
+Interviewer: I spoke to Nuclear Moose. Yeah, he said he had a bit of a meltdown. 
+
+Westwood: Yeah. I think a lot of people did.
+
+Interviewer: Yeah, that’s one of the ‘um… I mean this is an interesting project to do. But a lot of times you speak to people, and the reason they got out of the WordPress community are often kind of sad. Like they’ve had some sort of melt down or it all becomes too much for them. And I think he was one of those people. 
+
+[Interrupted by dog :-) ]
+
+Westwood: Yes. So I think lots of people were. And also a lot of people that were a lot younger than I realized. So, you kind of… they were teenaged and then disappeared when they kind of became more interested in other things apart from sitting in front of the computer all day. 
+
+Interviewer: Who do you remember like that?
+
+Westwood: Well, kind of like Hanni, is one of those people that was around and kind of just vanished.
+
+Interviewer: Because she was like 14?
+
+Westwood: Yeah, something like that. It’s kind of scary. [9:00]
+
+Interviewer: Yeah. I mean I remember getting involved with the internet when I was like 14, and being involved with all sorts of online communities and then just like… just disappearing when I went off to university.
+
+Westwood: Yeah. I randomly found some software I uploaded to the internet when I was like 16. I was like, ok. 
+
+Interviewer: Was is secure?
+
+Westwood: I don’t know. I was all amateur radio stuff. Because I was into that quite a lot at the time. But yeah, I think it was a lot of people… and there was the whole kind of Habari thing.
+
+Interviewer: Yeah, but that was a bit later.
+
+Westwood: Which is a bit later, yeah.
+
+Interviewer: I’ll definitely get on to that. I’ve spoken to Scott Merrill and Rich Bowen.
+
+Westwood: Cool. They’re all really nice people. 
+
+Interviewer: They are nice.
+
+Westwood: I don’t have anything against them. I think they kind of went off and did what they wanted to do and are doing great at doing that.
+
+Interviewer: Yeah, they seem quite happy doing it. They haven’t got any animosity, I don’t think. Not anymore anyway. 
+
+Westwood: Not anymore anyway. I feel what was sad that they’ve not managed to go further with where they wanted to be.
+
+Interviewer: Why do you think they haven’t?
+
+Westwood: I think… I’m not sure, really. I think maybe… sometimes it feels like they… because some of their underlying goals about always being at kind of the bleeding edge of everything make them much less user-friendly. A bit like Drupal. They’re very developer-friendly and not very user-friendly. So I think that is probably a contributing factor. 
+
+Interviewer: Yeah, what do you think about the name?
+
+Westwood: I think it’s an interesting name.
+
+Interviewer: Like one of the things that Boren said to me, and I think he was right, he was part of WordPress’ success is it’s name. Because who wants to install Drupal? Or Joomla? Or Habari?
+
+Westwood: But I think part of that is what you associate with the name more than the name. And I think we’ve done a good job of fostering a positive image. Of simplicity.
+
+Interviewer: Well, we’ll talk more about Habari because it’s interesting that I’ve been talking to people about it and reading the kind of different threads around why they left. I mean one of the things they said was that, both Rich and Scott said, they had submitted documentation, inline documentation patches [12:00] and they got ripped out and called bloat. 
+
+Westwood: That was a big battle. It took a long time to get agreement.
+
+Interviewer: Why was it a battle?
+
+Westwood: Matt didn’t see that it was necessary for it to be in the code. Didn’t get why it was better for it to be with the code. He thought it could just be in the Codex. And so I think that might have taken three years. To get to the point where it was acceptable to start putting it in the code. 
+
+Interviewer: What did you think?
+
+Westwood: I thought it was eminently sensible. But also I don’t think…
+
+Interviewer: To put it in the code?
+
+Westwood: To put it in the code. Yeah. But it’s also not something that I would feel strongly enough about not happening. Although it was eminently the right thing to do, it also, there were also, there were a lot of other important things to do. I can’t remember exactly what version that was when we fought about that - it's all so long ago.
+
+Interviewer: I guess it would have been not long before the Habari thing happened. And did that happen a lot, that kind of… if Matt didn’t want something, or didn’t see something that it wouldn’t go ahead.
+
+Westwood: It did in the early days. Because he was much more… had a much stronger leadership role in the code then, and the direction the code went. And was much more involved in the day-to-day writing of code. And removing of code. Or adding of code. I think at the time… it was one of those things where although there were a lot of people that thought it was a good idea, there was also a significant kind of bottleneck of resource in getting things committed, so something that wasn’t a… something that all it did was increase the size of the download and therefore make downloading it take longer over adding features that would make more people want to install it. I can see that there is a strong benefit to do one over the other. Even though, as a developer, adding the documentation is obviously the right thing to do. 
+
+Interviewer: And is it… does it really increase the size of the code, the download, that much? Like adding docblocks?
+
+Westwood: It’s significant when you start adding them to every function. 
+
+Interviewer: Right. OK. Do you guys add them to every function now?
+
+Westwood: We try to. Yeah. [15:00] 
+
+Interviewer: I hope so. Nothing like code reference maximizer. So what was the thinking that eventually led to them being added?
+
+Westwood: I think enough people, there was enough resource to do it, in terms of developers with commit access. And a strong enough will from those developers to make it happen. So there wasn’t going to be, as far as the consensus of the community of committers, it was in that was the right direction to go in so we were going to do it. 
+
+Interviewer: And you don’t think that kind of the guys who ended up going off to do Habari had enough… they could have done it, they could have taken it forward?
+
+Westwood: I think that it was… it was not the right battle to fork on. And I think there were other things that meant they wanted to fork, that were probably interrelated to that. 
+
+Interviewer: Yeah, one of the things that Scott said was that he’d been involved with WordPress for quite a long time and had been doing lots submitting of patches and lots of stuff, but he didn’t feel that… like he was never given any more responsibility. He felt he never would be. 
+
+Westwood: I seem to sort of remember that. There was a definite kind of atmosphere of expectation of more responsibility that wasn’t coming. There wasn’t more responsibility being handed out in terms of commit access or anything, but there was definitely an atmosphere that people felt like they were entitled to it. Maybe entitled is a strong word. 
+
+Interviewer: Well, I think almost it’s the right word, because like he was saying, other open source projects the ethos would be that you would just, having done your time, you would naturally get more responsibility. But that didn’t happen in WordPress.
+
+Westwood: Yeah. 
+
+Interviewer: Why do you think that was? Or do you think it’s a good thing? Or…?
+
+Westwood: I think it’s been a strength and a weakness. I think it’s been a good thing to control the rate at which new people are added such that there is definitely, it’s not just that you’ve shown a commitment to contributing, but you also have shown an understanding of the ethos of the community and their shared beliefs, and their philosophies. And I think if you hand out solely on the merit of having provided so much work or effort you aren’t necessarily… you’re possibly or potentially driving to [inaudible] the philosophies. So it’s held us back, [18:00] because we’ve struggled to kind of open that community up to more people. Trying to have a framework in which we can do that and feel comfortable about doing it. Which is why we now have more of a kind of… it used to be you had commit access or you didn’t. And it was kind of a for life thing. Whereas now we kind of bring people on slowly with like commit access for like a release. To give them the chance to move up to that next level, but still have an understanding that we really think they understand the community and the philosophies, and we really want them but we’re… they still have to show that they can take things to the next level. Because it’s an added level of responsibility. 
+
+Interviewer: So you think things have changed in that respect?
+
+Westwood: I think so. It been kind of a tough process because you also have by giving people that level of responsibility they become ambassadors for the project in the community, whether willingly or unwillingly, and so you kind of get this whole other level of PR, being asked things by reporters and knowing when to say no, which when you’ve moved from being a prominent member of the community that is… a contributor and therefore what you say is your own opinion to when you become kind of a… have an official role in the project, you then become in the eyes of the press, a representative of the project. You have to be much more careful about what you say.
+
+Interviewer: That makes sense.
+
+Westwood: Because they just twist your words quite effectively.
+
+Interviewer: Can you think of any instances of that happening? 
+
+Westwood: I think what can happen is… especially around reporting on security issues that is not favorable and is incorrect, trying to get into that discussion and correct it can be kind of a bad idea. 
+
+Interviewer: Right, I see.
+
+Westwood: And I think that’s something that people have fallen into the trap of getting into a discussion with a reporter about something and then you’ve got no control over which of your words they quote. 
+
+Interviewer: Yeah, they can just take whatever line they want. So when has that happened?
+
+Westwood: I’m trying to remember. It’s not happened often. Because we’re much more aware of it. I think [21:00] I may have been quoted in the Register once. I think everyone’s probably got their horror story that they didn’t think enough before they replied to the email and now they would ever reply.
+
+Interviewer: That makes sense. So when did you get commit access?
+
+Westwood: It was… I can’t remember the year. It was… such a long time ago.
+
+Interviewer: And do you remember how much you’d been contributing before that?
+
+Westwood: So I’d been contributing quite a lot, mostly bug fixes, mostly pestering Ryan to commit things on a regular basis because there’s always so much, there’s always so much there that could be committed that it’s not just enough to… you need to show that not only have you made the change, but you’ve got commitment in pushing it to the next level, to get it actually fixed. Bring it to people’s attention.
+
+Interviewer: I see. So it’s not enough to just submit a patch, you also have to bug people.
+
+Westwood: Well, you don’t necessarily have to bug people, but making people aware that you would like their feedback. I mean I think it’s got better now because there’s more people actively reviewing things on Trac, and there’s more people bug gardening, but for a while I think, especially after the tranche  of people left for Habari, we had a deficit of people kind of active in Trac because they were the people that were active in Trac. 
+
+Interviewer: How many left?
+
+Westwood: I want to say four or five people.
+
+Interviewer: I know there was four who founded Habari.
+
+Westwood: Because there was Rich, there was Scott, there was Owen, and Chris, and then… Yeah, I think they were the core four. But I think there were some other people that went with them. Shortly afterwards. And there was… Khaled, the design guy? He did a new admin theme or something and then we didn’t like it and he got pretty grumpy. I seem to recall. 
+
+Interviewer: So when they all went to Habari… so how did you guys feel? We’re you guys upset? Or did you just get on with it? Because I mean the software wasn’t forked, [24:00] the community kind of was.
+
+Westwood: The community was, but the software wasn’t. And I think it gave us an opportunity to reflect, but also I think we just got on with it. Because there was, you know, we had a direction we were going in and I think because they had, before they officially announced it, they’d been spending a lot of time working on it anyway. I think they’d already kind of slowly extracted themselves, rather than it being a kind of overnight disappearance.
+
+Interviewer: Did they have any effect in terms of things changing? In terms of Matt’s leadership? Or other people getting commit access? I mean, did you have commit then, or was it still just Ryan and …
+
+Westwood: I think it was still just Ryan and Matt, from memory. So I don’t think it had any… there was no instantaneous significant change in direction. But I think there was a slow change over time. With more people getting commit access and kind of things being expanded.
+
+Interviewer: Do you think that also was to do with Automattic? Having… growing… and Matt and Ryan’s time being sucked by Automattic?
+
+Westwood: I’m trying to remember where Automattic fits in this kind of picture, in term of time. 
+
+Interviewer: I think it was 2005. So it would have been before Habari. Habari was 200… end of 2006…
+
+Westwood: Habari was like September-October, I think. And WordPress.com was September, I think.
+
+Interviewer: That’s right. That’s the other thing that Scott said that they weren’t happy with how the WordPress.com was dealt with.
+
+Westwood: The whole domain name thing was kind of interesting.
+
+Interviewer: Why was it interesting?
+
+Westwood: There was some guy who had bought WordPress.com. And he claimed to… his intentions were to buy up domain names that related to open source projects and then donate the usage of the domain names to the project, but keep ownership. 
+
+Interviewer: Oh, I see. That sucks.
+
+Westwood: Which kind of sucks. And so, I think Matt had long discussions with him and convinced him to sell him instead of give him the domain name, and he thought that was for the WordPress project and then it got used for WordPress.com.
+
+Interviewer: Oh dear. Who was the guy?
+
+Westwood: I can’t remember. He was someone not in the community at all. Just kind of appeared from nowhere with the domain names like…
+
+Interviewer: I must find out his name. I’d love to talk to him. 
+
+Westwood: But yeah, that was kind of interesting. [27:00] 
+
+Interviewer: So how did that like… how did it go in the community kind of the WordPress.com thing? Did they kind of see it coming? Or…?
+
+Westwood: I don’t think we really saw it coming, necessarily. I suspect there’s a lot of people like me that didn’t think it was going to take off at all. 
+
+Interviewer: Right. Why did you think it would take off?
+
+Westwood: At the time, I didn’t think there was a demand. And I didn’t really see what you were getting. Ok, it was free, but apart from that. It seemed to be not something that was in demand.
+
+Interviewer: Did it annoy you? 
+
+Westwood: It didn’t really annoy me, no. I thought it was… it was kind of… it was intriguing from a way in which it seemed to be… there was a specific group of people that… I don’t quite… it was some dividing line between the people that were heavily involved in the community that became involved in it, Automattic, early on, and the people that were heavily involved in the community and didn’t. I don’t know what that kind of line was, but there seemed to be… certain people were brought in and other people weren’t. But I don’t have a problem with that. I’m intrigued by how that process happened.
+
+Interviewer: So you weren’t… Ryan Boren, Donncha…
+
+Westwood: Donncha was employee number one, I think. I knew that Donncha was employee number one a long time before kind of Automattic really officially existed. Skelton.
+
+Interviewer: Skelton. Was he one of the first? 
+
+Westwood: And Mike Adams. 
+
+Interviewer: That’s right. And they all… you know, formed, I guess the core, of Automattic. I’ll ask Matt about it. But you weren’t like… you weren’t annoyed that you weren’t brought in?
+
+Westwood: No.
+
+Interviewer: Were other people?
+
+Westwood: I don’t know really. I don’t think… if people had frustrations they weren’t kind of vocalized publicly, I don’t think. 
+
+Interviewer: But what about frustrations about WordPress.com?
+
+Westwood: I think there were possibly more frustrations about Akismet than about WordPress.com.
+
+Interviewer: Why Akismet?
+
+Westwood: Because of like there being this paid service that’s shipped in core. Kind of that thing. 
+
+Interviewer: I mean, that continues… today.
+
+Westwood: That continues, yes. We still struggle with it.
+
+Interviewer: What do you think about it?
+
+Westwood: I am in the camp of people that would love to remove it, [30:00] but I know that we can only remove it in a way in which still provides it. Because without it, without some form of comment anti-spam there out of the box, we’d be screwed.
+
+Interviewer: Yeah.
+
+Westwood: People would go elsewhere. 
+
+Interviewer: It’s a difficult one, isn’t it? To be honest, I don’t always even activate Akismet for my sites. They don’t get very much traffic. 
+
+Westwood: I mean for a long time I was very anti-Akismet. And I used SpamKarma to… and helped Dave develop Spam Karma. And I only switched to Akismet because the development of Spam Karma died. When Dave gave up on it. 
+
+Interviewer: This is Dave…
+
+Westwood: I can’t remember his name. … Dave Druer or something. But yes, that was kind of Akismet, but ran on just your site. So weren’t kind of benefitting from the central service, but also you weren’t sending all your information to some service somewhere.
+
+Interviewer: What information do you send via Akismet? Do you just send spam information or do you send other stuff?
+
+Westwood: You send the whole, pretty much the whole request. The comment that comes in. So all of the headers and stuff. All of the metadata.
+
+Interviewer: So you send a lot of stuff.
+
+Westwood: You send a lot of stuff, yeah. But it needs that stuff in order to know whether or not it’s spam. So it’s kind of… The less information you give Akismet the harder it’s got to work. 
+
+Interviewer: So at what point did that start being bundled in core?
+
+Westwood: I think Akismet was pretty early on.
+
+Interviewer: And that annoyed people
+
+Westwood: I think it annoyed people a bit. I mean at one point we bundled a load of other plugins…
+
+Interviewer: Yeah, I remember.
+
+Westwood: The backup plugin, I’m trying to remember what else. I there was like Textile, Markdown, and a load of stuff we removed because so few people used them. And like the backup plugin at times, we had to do security releases just for the backup plugin. At one point.
+
+Interviewer: Yeah, that was Scott Merrill's plugin. He was not happy.
+
+Westwood: Yeah. 
+
+Interviewer: I read his blog post about it. 
+
+Westwood: I kind of nearly took that plugin over, but somebody else did instead. I still use it. 
+
+Interviewer: I don’t really back up my site. 
+
+Westwood: I use VaultPress as well. Doubly paranoid. 
+
+Interviewer: So when Akismet first went into core, did that cause a stink? 
+
+Westwood: I don’t think it caused a stink because there was always the free, the free tier.
+
+Interviewer: Right.
+
+Westwood: But I think over time it’s become more of a problem. [33:00] But it’s really hard to untangle. 
+
+Interviewer: One of the other things that I found quite interesting was the sponsored links thing. In the theme directory, do you remember that?
+
+Westwood: I remember the sponsored links. Oh! I so felt sorry for Matt. 
+
+Interviewer: Are you thinking of the one’s on WordPress.org or the ones in the themes? 
+
+Westwood: On WordPress.org I’m thinking of. 
+
+Interviewer: Ah, ok. There was two sponsored links things. I guess, which are different. Yes. Do you think Matt knew what he was doing? 
+
+Westwood: I think he was truly naive. I can see that it’s quite easy to… when you’re in a situation where you think you need to raise some money and there’s this easy way of raising some money and someone… I think he gave someone access to do whatever they were going to do rather than do it himself and that was the kind of naive mistake. And then the situation compounded itself because he wasn’t available to deal with it. 
+
+Interviewer: You would have been around then.
+
+Westwood: yeah.
+
+Interviewer: Did you get annoyed about it or did you just…
+
+Westwood: I could see that it was wrong and… also I kind of trusted that Matt would do the right thing about it. And if he hadn’t done the right thing about it then I would have been annoyed. But I think the fact that the right thing happened is kind of a lesson for everybody to learn from. 
+
+Interviewer: It was interesting to read about it all. It must have been… it must have felt horrible for Matt. 
+
+Westwood: Yeah, I can see that completely. 
+
+Interviewer: Do you think that that… it’s kind of related to the sponsored links in themes, them all getting pulled from the theme directory. Do you think there’s any kind of correlation between those two things?
+
+Westwood: I think that there may be a correlation, but I think that is more about trying to set a good example. And so maybe because of his past experiences he was more aggressive in doing that than people would have expected, but I think that… I remember when we used to have like the default blogroll that linked to people’s sites, and I always felt that was a bit, kind of, wrong.
+
+Interviewer: Yeah, it’d link to Matt’s and Mike’s. Then they got really high rankings. [36:00]
+
+Westwood: And so, I think you have to be really careful with the responsibility and the power you are given. And it’s again, everything that we let somebody do in something that’s downloaded from WordPress.org we’re sanctioning. 
+
+Interviewer: I guess… I mean the links in the sidebar, they seem to be kind of… I guess when you start out with a project and it’s just like your pet project and it’s this small thing, that just seems like well, why wouldn’t you do that? And then it grows and it grows.
+
+Westwood: Well, I think a lot of other projects did similar things and probably still do similar things. It’s kind of this was meant to be some default content that you then changed. But people didn’t change it. And it kind of got just a bit out of control. 
+
+Interviewer: Because it had quite a number of people on there, didn’t it? 
+
+Westwood: I think there were about eight links.
+
+Interviewer: Because when I spoke to Carthik Sharma he said that whenever he backed away from the project he had asked to get his removed. So if even he was on there, there must have been tons of people. Were you ever on the link list?
+
+Westwood: I can’t remember.
+
+Interviewer: Do you remember when it got pulled out? 
+
+Westwood: Not really. 
+
+Interviewer: Do you remember… I guess something I’m quite interested in is how the sort of project management model has changed over the years. Like in terms of deciding on features and that sort of stuff. From the people I’ve spoken to, like back in the day, it was just kind of Matt and Ryan would come up with features and then they would go in and people would work on them. 
+
+Westwood: Yeah. I remember at one point, I think it was 1-point, because at 1-point we were sort of doing, it was something like odd numbers were development and even numbers were releases, I think. And so 1.3 just went on for so long.
+
+Interviewer: Yup, it turned into 1.5 didn’t it?
+
+Westwood: Yeah. Everybody, EVERYBODY was running trunk. Because like 1.2 was just so far behind. Everybody was running trunk. And then it just got ridiculous. And then we released it at 1.5.
+
+Interviewer: So why did that release take so long? Was it the taxonomies release?
+
+Westwood: It may have been the taxonomy war. 
+
+Interviewer: Right. So what was the taxonomy war?
+
+Westwood: So there was… it was we were going to add… there tag [inaudible] and tags were really popular, so we wanted to add tags. And then there was the do we just do we just duplicate categories and have something like attributes in the same table and the tags, which was like the simple thing, or do we introduce the concept of taxonomies so you can have categories, tags or anything else you might want just in two tables or three tables. And the discussion went back and forth on the Trac ticket, for weeks and weeks and week, and I think [39:00] Matt on a plane basically copied all the categories code and made tag versions of it, committed that, and said let’s ship it. And then after more he did discussion and Ryan reverted that. And removed it all. And I think that was like the last time Matt made a significant commit. 
+
+Interviewer: Right.
+
+Westwood: And then we ended up with I think Ryan and Mark worked on sorting out taxonomies. And we have something that is pretty good, but we also dislike. 
+
+Interviewer: Yeah Ryan says he hates it. He says that’s his biggest like failure with WordPress.
+
+Westwood: I don’t see it as a failure, I see it as a learning experience. Because at the time it seemed like the right thing to do. We discussed it to death. And yeah, hindsight is wonderful but… you can’t always get things right the first time. 
+
+Interviewer: No. That’s true. But then you’re stuck with it. And you’ve got a bunch of legacy code.
+
+Westwood: Yeah. But I think we have a route to some sanity now. It just takes about five releases. 
+
+Interviewer: So that was… 1.5? Taxonomies?
+
+Westwood: I remember taxonomies as 1.5 
+
+Interviewer: It might have been a bit later. So did Matt kind of stop… I mean what was his coding like? Was it…
+
+Westwood: It was good. There was nothing wrong with his coding, it was just… I think that was the like, that was him trying to exert a decision from the top. That wasn’t the direction that the community of people involved thought was the right direction to go. And so Ryan, as the representative of that community had to step up and…
+
+Interviewer: So did you guys feel that that was… that Ryan was the representative of the community and Matt was like…
+
+Westwood: I think Matt was trying to be a representative of the community as well. But the balance of decision went with… the other way. But I think Matt was also trying to get us to a point where we could release something. Because whenever you kind of get stuck in a deadlock like that… it’s almost… by him pushing one way, it made us solidify the decision the other way that maybe would have taken weeks longer otherwise. 
+
+Interviewer: I guess whenever I read interviews with him from kind of a number of years ago, he and other people describe him as, you know, as the open source terminology of “benevolent dictator for life”. 
+
+Westwood: It’s a strange title, that.
+
+Interviewer: Yeah, I know. But people seem to buy into it. At least the benevolent dictators. [42:00] Did you work with, I mean I guess you worked with both Ryan and Matt back then.
+
+Westwood: Yeah.
+
+Interviewer: And how was that kind of different to work with them…
+
+Westwood: I think Ryan has always been that I’ve worked with more, because we have more similar backgrounds. And kind of coming from a corporate environment and the kind of software we developed and stuff like that was much more similar then where Matt had come through They’re different people, and different to work with.
+
+Interviewer: In what way are they different?
+
+Westwood: I think Ryan is much more about kind of the technology and the way things work internally. And Matt is much more about the kind of higher level view, I would say. 
+
+Interviewer: At what point did other people officially start being kind of lead developers?
+
+Westwood: So that was when Mark and I were made lead developers. 
+
+Interviewer: When was that?
+
+Westwood: I can’t remember. 
+
+Interviewer: I should look it up online at some point. So you and Mark were made lead developers. So why was that decision made?
+
+Westwood: I think that was… Mark had already stepped up to do the, like maintain the legacy branch, when we tried to maintain a legacy branch. For the 2.0 branch. He’d already stepped up and volunteered for that. And I’d been doing lots of bug fixing. And so I think we were the people that were contributing the most and the… were thought to be the right people, I guess. 
+
+Interviewer: Were you at Automattic at that point?
+
+Westwood: No. Way before Automattic.
+
+Interviewer: Ok. And did it change the dynamics of the community at all? Did you actually get more say in the direction of the project? Or…?
+
+Westwood: Was definitely more involved in the direction of the project by virtue of having kind of direct control of the direction of the project. By being able to make change. But so were we tended to… it’s been very rare to not have a consensus of direction anyway. Because of the kind of shared philosophies and beliefs. We may have passionate discussions about things, but they don’t tend to be passionate extreme opposites. It’s more variation on which direction. [45:00]
+
+Interviewer: I know was there… So you haven’t had any sort of major disagreements about features or development or community stuff?
+
+Westwood: Not really. No. 
+
+Interviewer: And what do you think the biggest successes of the project have been? In terms of development? Are there any things you’re particularly proud of?
+
+Westwood: I think that the way we’ve managed to expand the feature set and like the range of things it could be applied to without making it more complicated to use for the original use case. I’m really proud of that. The way we’ve kept, trying to keep the initial install and the basic user experience as simple and as obvious as possible. Trying to make those decisions for people. 
+
+Interviewer: And what about… is there anything you just think oh, why did we do it that way? Things that are like causing problems for you now.
+
+Westwood: I think that… I don’t know. The thing that winds me up the most is using JavaScript for everything. 
+
+Interviewer: Is that not a new thing?
+
+Westwood: It’s not a new thing, but it just winds me up the most. 
+
+Interviewer: Why does that wind you up?
+
+Westwood: Because I find those kind of things frustrating to use and slow. 
+
+Interviewer: OK, and is it… Matt was saying it’s going to move more towards JavaScript even though you don’t have any JavaScript developers really. 
+
+Westwood: Yeah. Which is kind of interesting. It seems to me that there’s a big push for everything to move towards more JavaScript. Because theoretically it makes things more responsive to use, and easier and easier to use. But in my experience it makes things harder to develop. More likely to have strange failure modes that people don’t test for. And it also can be really slow and frustrating to use. 
+
+Interviewer: OK. So were you involved with open source at all before WordPress?
+
+Westwood: A little bit, but not really. I mean… I’m trying to think. A little bit with the gen 2 stuff. Just like reporting bugs [48:00] and like fixing the odd thing. But nothing major really. 
+
+Interviewer: Do you… what about the GPL? Do you think that’s something that you think is an important aspect of WordPress?
+
+Westwood: I think it’s a very important aspect of WordPress. I think it kind of acts as a safeguard and a balance as to the way that the project has to behave towards the community of people and the users. The fact that as a user you’ve got the freedom to go and take everything and go elsewhere. But also with that freedom comes with a responsibility you need to give back. I think it kind of encourages… it encourages you to do the right thing. It’s also been kind of controversial and frustrating to deal with, but I don’t think that any other license would have made those things easier.
+
+Interviewer: So you don’t think a more permissive license would have been …
+
+Westwood: I think a more permissive license might have made those things… those like confrontations not happen. But I don’t think that those confrontations not happening would have been good for the community. I think that the fact that they have happened and there has been a push towards the kind of inclusivity and giving back and that kind of sort of mutual respect is a significant part of why we’ve done so well. 
+
+Interviewer: So what sort of… which of the confrontations stick out for you around the GPL? 
+
+Westwood: So I think the whole kind of… the confrontations around themes in general, and licensing of themes. And often I think those have turned into very messy discussions which… they’re kind of bad publicity, but then they also seem to have in the past been in some sort of yearly cycle where every year the discussion comes up again. And hopefully we’ve broken out of that cycle, maybe. Now? But I’m not sure.
+
+Interviewer: Thesis isn’t GPL anymore. So…
+
+Westwood: Yeah. Well. 
+
+Interviewer: I guess we’ll see. 
+
+Westwood: Yeah. But I think also there’s… although some people are sticking to their guns about kind of [51:00] not wanting to accept it, but there is significant adoption within the community of people that are wanting to accept it and wanting to be involved. And seeing, reaping the benefits of being involved. The groundswell is going in the direction it needs to go in. So, there’s always going to be someone that disagrees. That tends to happen when you’re doing the right thing. 
+
+Interviewer: Yes. Well, I guess they feel they’re doing the right thing as well. When two groups think they’re doing the right thing, then you get a confrontation. So you got involved with WordPress 1.0.2, so a lot of the code base was still b2, I guess. 
+
+Westwood: I think all of the b2 naming had gone, but it was pretty b2-ish. 
+
+Interviewer: Do you remember what the code base to work with?
+
+Westwood: Not really. No.
+
+Interviewer: People who have said say different things. I mean people have said it was very simple and it was about… Michele would just come up with ideas and the code and then it would appear on the screen. And it wasn’t logical or structured or anything like that. Which Alex King said was a good thing because it actually made it easier for people who were learning PHP to be able to follow it along. But I guess, particularly with like the Habari guys they wanted to move toward object oriented programming. So lots of people didn’t like it for that reason. 
+
+Westwood: Yeah, that’s one of those kind of developer-y things that doesn’t really make sense. 
+
+Interviewer: Why?
+
+Westwood: You can be on either side of the direction, and feel like you’re in the right, going in the right way. And I personally am not sure that… we’ve done a lot to make things more object-oriented and I think it may be a detriment to us bringing on more lower-skill developers and giving them that leapfrog. 
+
+Interviewer: What is the benefit to object-oriented? I mean I don’t even really know much about it.
+
+Westwood: In theory, better encapsulation of your code means that it’s easier to make change in the future because less of your internals are exposed for like a plugin or a theme to have assumed that its are always going to be there. So it makes it easier to do optimization of things in the future. But also it makes the code potentially more complex. And potentially use more memory. [54:00] So there are benefits, and costs. 
+
+Interviewer: So why does it make the code more complex?
+
+Westwood: Because of the extras. Because you’ve introduced the separation of two bits of code that were working together very tightly and may need to work together less tightly. 
+
+Interviewer: I see. Is it you separate the… can you just explain it to me? I do read about it, and then I forget.
+
+Westwood: So it’s mostly about having objects to represent individual things and have a specific class of object for each kind of responsibility. So like an object to represent a post. So rather than calling individual functions to get information about a post that’s stored in a global variable, you ask the post for information about itself. So you’re more tightly coupling what you’re talking to. But also you… and that allows you to optimize things like maybe you don’t load everything from the database in the beginning until it’s asked for. So you can save some memory there. But also you might end up using more memory if you keep these all hanging around.
+
+Interviewer: I see. So it’s like having LEGO with each bit with it’s own thing. 
+
+Westwood: Yeah.
+
+Interviewer: I see. That makes sense. But WordPress is just like a big like every thing’s woven together.
+
+Westwood: Yeah, most of WordPress is just a sea of functions. Which makes it much easier to do things in themes. Because it’s much easier to use just… if you are just using functions then it’s much less like you’re using a programming language and much more like you’re using a templating language. 
+
+Interviewer: I see. That makes sense. 
+
+Westwood: Which makes things easier. 
+
+Interviewer: And do you think that’s made it easier for people to extend WordPress? 
+
+Westwood: Yeah. I think the fact that most things… the thing that’s really made it easier to extend WordPress is the actions and filters. Because it’s very easy to hook into the flow of things in a really simple way so you can affect a particular thing in a really simple way without having to write a lot of code. And one of the benefits, normally, of doing object-oriented programming is if you’ve got an object that represents a post and you want to specialize that even more, you can derive behavior from that and create like a specialized type of post. Which sounds like it would be a good thing, but then it’s much harder to inset that new object type into the rest of the code. Whereas with actions or filters you can insert that behavior much easier. So I think [57:00] that that thing that would be a benefit of using object-oriented programming isn’t really a benefit.
+
+Interviewer: OK, that makes sense. 
+
+Westwood: Because although it’s feasible it doesn’t really fit into the way WordPress works. 
+
+Interviewer: So you won’t be doing like rewrites? Or do you do much kind of moving toward object-oriented stuff? Or…?
+
+Westwood: We’ve done a bit. Most of it is around things like very simple things like the post object. Just bringing together… making it easier for people to access… that was kind of a bit abound of having to load less stuff in the beginning. And give people a simple way to get access to all of the attributes of a post whichever table they come from. 
+
+Interviewer: Do you remember when actions and filters came in? It was 1.2 I think.
+
+Westwood: I don’t remember them coming in. It feels like they’ve always been there. 
+
+Interviewer: Well, the plugin system came in in 1.2 
+
+Westwood: It’s a bit like themes. It feels like they’ve always been there even though it was only a stylesheet in the beginning. 
+
+Interviewer: Yeah, the stylesheets are still online from Alex King’s style switcher competition. So you don’t remember the arrival of plugins. 
+
+Westwood: Not really, no. I remember the existence of my hacks. And have maybe still used it occasionally. 
+
+Interviewer: Not now?
+
+Westwood: Not now. 
+
+Interviewer: OK, good. Sometimes in the Codex I find stuff about hacks. I’m like oh! No!
+
+Westwood: But I have been known to have an MU plugin called MyHacks.
+
+Interviewer: But they are just your hacks, are they? They’re just like little plugins?
+
+Westwood: Little plugins, yeah. 
+
+Interviewer: One thing Ryan said was that there was a lot of resistance to the theme system. 
+
+Westwood: Yeah, I think there was a lot of discussion at the time about using a more official templating language. I know Matt tried every single one he could find. There was a series of blog posts about trying…
+
+Interviewer: Yes, I’ve read them
+
+Westwood: …all these templating languages, but I think people didn’t really… people didn’t get and still don’t get that PHP is a templating language. There’s someone recently that’s just kind of published their how to write wonderful themes… called Twig or something, a templating language, at one of the theme shops and its like here’s our templating language for writing WordPress themes. And you like look at it and you’re like, so everything you’ve done I can do in PHP just as simple and obvious for someone that doesn’t understand PHP to use. 
+
+Interviewer: So they just duplicated work. 
+
+Westwood: And because, like, every example they had was an example of - when they did it in PHP - of poor encapsulation. So they’d got like five lines of code that they said if you did it in PHP you’d have to put these in your theme. [60:00] Whereas if you use that templating language, you can just call this one line of code. I’m like, well, if you take those five lines of code and put them in the functions.php file, in a function, and then you call that function from the theme - oh, look, they look the same now. 
+
+Interviewer: So is that what encapsulation is? That’s taking like a bit of code and grouping it together and making it into a function? And then calling it?
+
+Westwood: Yeah.
+
+Interviewer: Huh, I’ve learned something. Yeah, one of the things that Ryan said that there was resistance because people thought it would be too easy for people. And that wasn’t a good thing. 
+
+Westwood: Yeah, yeah. This was sort of the whole kind of… some people would think like… if you make it too easy then there will be no work for designers because everyone will be able to write their own theme. Even though just being able to code the theme doesn’t mean you can design. As my site shows. 
+
+Interviewer: Yeah, and as the theme directory shows very well. Because I… Donncha was using Smarty on his b2++, but Ryan said that was kind of insecure. Or did Donncha say it was insecure. One of them did.
+
+Westwood: Well, it’s kind of like you’ve got a templating language and you’re going to write a templating language in it. O.K.? It feels like you’re going to be doing too much work. To begin with. Let alone trying to worry about security. 
+
+Interviewer: So did you get involved with the WordPress MU's merge?
+
+Westwood: A bit. Yeah. I was involved in helping out with that. I mean a lot of people did most of the heavy lifting. 
+
+Interviewer: Were you lead developer at that point? You must have been.
+
+Westwood: Yeah. 
+
+Interviewer: And why did you guys come to the decision to merge WordPress MU?
+
+Westwood: It was kind of… it was inevitable that it needed to happen, because it was inevitable that WordPress itself needed multisite capability, really, to move forward. And it would have been silly to try and write it all from scratch. And therefore kind of tell these people that had been using MU that they were stuffed because we decided to do things differently. So, there was enough good there to deal with clearing up the bits that we didn’t think had been done in the right way. In a way in which people could still migrate to it readily, easily. 
+
+Interviewer: Yeah, Donncha’s workflow sounds painful like having to merge all of the WordPress stuff into WordPress MU. 
+
+Westwood: It’s like Ryan’s workflow now. 
+
+Interviewer: Yeah, I know. Ryan was telling me about it. I was like aaagghh I would be incredibly stressed out by that. [63:00] So once it was merged did that mean then… so Donncha did all of the merging and did the WordPress.com stuff before that. Did Ryan have to take over?
+
+Westwood: I don’t… I think Ryan was doing the merging before. I’m not sure. I’m not sure who was doing the merging before. Because it’s before I started with Automattic, so I don’t really know who was doing what.
+
+Interviewer: I see.
+
+Westwood: But ever since I’ve been there, Ryan’s been doing all the merging.
+
+Interviewer: When did you start at Automattic?
+
+Westwood: Two and a half years ago.
+
+Interviewer: That’s less time that I thought.
+
+Westwood: Everyone thought I already worked there. 
+
+Interviewer: Yeah, well, people do. Like people think I’m with Automattic now. 
+
+Westwood: Everybody thought I already worked there. And the people who knew I didn’t were really surprised that I didn’t work with WordPress full time. 
+
+Interviewer: Did you think about ever like freelancing? Or…?
+
+Westwood: It was really attractive to freelance. I didn’t really want to have to go through kind of working on my own, finding work. The kind of stress of that. It’s not appealing.
+
+Interviewer: So you never once go down the Mark Jaquith $350/hour thing?
+
+Westwood: Well, I think that I… I’m sure like working at a small company doing that, like two or three other people would have been fine. But on my own, no. And kind of all of the people that, at the time I decided to jump, everyone that I knew that I would work with, was at that point working on their own. So was I to be in that situation now, I might make a different decision. 
+
+Interviewer: Did you apply to Automattic? Or…?
+
+Westwood: Yeah. I did.
+
+Interviewer: Once you started there, did you feel that you got to spend more time on WordPress, or less time?
+
+Westwood: In the beginning it was really about the same. It’s become less time. Because working for Automattic is… it sucks up all of your available time. And you have to work much harder to create the free time to work on core stuff. I looked at… I made some horrible analysis of the numbers. It was not very nice. Like the number of commits per year. It’s a very bad downhill slope. 
+
+Interviewer: Would you like to do like a .org rotation?
+
+Westwood: I’m not sure about… I’ve never… I don’t know. It’s kind of hard to know whether it would be a good idea or not. Because, I came to the conclusion after [66:00] the revisions stuff, that if I’m going to lead another project within a release, I need to be doing a .org rotation. Trying to do that and trying to work is really hard. Because you feel much more like a bottleneck. And you kind of are a bottleneck. So it’s kind of really hard. 
+
+Interviewer: Is that your number of commits?
+
+Westwood: Yeah. Here we are. It’s kind of scary. So, 2010 like 70% open source, 30% Automattic. 2011, sixty and eighty-four. From like 500 to 200. 
+
+Interviewer: Yeah, so it’s kind of going in the wrong way.
+
+Westwood: But it’s really hard because… part of it that WordPress has grown so much in the number of people involved, that it’s impossible to keep up with everything, which makes it much harder to just dip in and spend an hour. 
+
+Interviewer: Yeah, it is.
+
+Westwood: Because you can spend that hour trying to work out what you should spend that hour on. 
+
+Interviewer: It would be useful if there was a list of kind of things that people could do.
+
+Westwood: Which I think is the same problem that new contributors have. You can spend that hour trying to work out what you should spend that hour on. Which is immensely frustrating. 
+
+Interviewer: Yeah, that’s the problem with documentation. If you want to write in the Codex, you go and try and find out how to do it and there’s like five pages telling you how to write the Codex. It’s impossible to get started. 
+
+Westwood: Ah, that’s just reminded me what I used to do mostly in the Codex, was paste the welcome message on people’s personal pages. 
+
+Interviewer: Doesn’t that happen automatically now? Michael H. does it.
+
+Westwood: Yeah, I think there’s a few of us like new users we’d paste the welcome message. 
+
+Interviewer: Doesn’t he just do it automatically?
+
+Westwood: There’s a tag for it. But you have to go in and edit that page. 
+
+Interviewer: Oh, I see. I guess he still does that. Because I see it a lot. Ok, I think we’ve covered everything. 
+
+Westwood: Cool. 
+
+Interviewer: Unless you want to add anything?
+
+Westwood: I don’t think so. 
+
+Interviewer: Any fond memories of WordPress? Or nightmares?
+
+Westwood: I don’t think so. 
+
+Interviewer: Well, thank you. 

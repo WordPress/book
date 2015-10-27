@@ -1,0 +1,593 @@
+Interviewer: I’ve been reading through Trac and you basically built WordPress.
+
+Boren: Pretty much, I guess. At least the early days.
+
+Interviewer: So how did you first get involved?
+
+Boren: I was working at Cisco at the time, working a bunch of hours, and wanting to do something different. I’d been blogging on Greymatter, and Blogger back when, I’d contributed to the Pyra server fund when they were trying to keep the lights on with Blogger, oh wow that was a while ago, and I just wanted something new, something a little nicer. Self-hosted. Moveable Type was an impossible thing to install, well I can install it, but after I did, I was kind of like, I don’t want to go through that. I don’t want to use something that makes me do all that. So I moseyed over the road to WordPress, I was actually able to install it and that became one of our things that we really pushed was making that install as easy as possible to get all those Moveable Type people away. Had some decent markup in CSS at the time which was pretty novel to actually use CSS and have something like a theme. And I installed it and ran with it. I started submitting patches, and Matt gave me commit because he couldn’t keep up. That’s the way it usually goes.
+
+Interviewer: So why did you start blogging?
+
+Boren: Just for something to do, really. No particular reason. Some of it was wanting to move out of the server closet because I had always done like real-time embedded stuff with telecom and datacom hardware and wanted to move above the stack and do something a little more visual and public-facing. I just kind of picked it up.
+
+Interviewer: Because you were blogging a couple of years before WordPress?
+
+Boren: Yeah, probably a couple.
+
+Interviewer: And you were, what platform did you use?
+
+Boren: Greymatter and Blogger. I can’t remember which was first. I used them both. One of the first things I wrote for WordPress was a Greymatter importer to get all my stuff over. And then I started contributing. I used to contribute to GNOME and the Linux kernel and some other stuff before that, but then WordPress somehow took over all my contributions and that became the main thing I did.
+
+Interviewer: So is the open source aspect important?
+
+Boren: Yeah, back then I was all open source. I only ran Linux. I’d never run Windows in my life. I’ve been running Linux since the very earliest days, like the first Red Hat distro, and all that stuff. You needed a calculator to install it. The good old days.
+
+Interviewer: Why was that important, the open source aspect?
+
+Boren: For one, I just like doing things myself. And benefitting from each other. Especially when you’re a college kid, or whatnot, out of money, so try the free stuff, see where it takes you. But I’ve been contributing to open source my whole career. And WordPress just happened to be the one that kind of took off for me. Because I came in at the right time. 
+
+Interviewer: I think so, yeah.
+
+Boren: They were about to do like 0.72 release or something when I came in, they were talking about it. So I wasn’t there from the very beginning, but pretty much. Even then, it was pretty much just Matt then, some of the other guys who are listed as founders weren’t contributing as much, they’d kind of been doing their own things. So it soon became just me and Matt. 
+
+Interviewer: After a few months, it was just you and Matt. And then just you for a long period of time. 
+
+Boren: Yeah, I was a lonely guy for a while.
+
+Interviewer: Did people give you code and patches, and did you commit them? Or did you end up just doing a lot of stuff yourself?
+
+Boren: Both. I can’t remember the mix, but there was a lot when I just had… pretty much each release we committed to doing something I knew that I’d probably end up having to write a lot of it. So you can blame for a lot of stuff. Neither Matt or I are really designers, you can tell on some of those old releases. These guys aren’t designers. But we finally got the people in. And did a couple of UI refreshes before hitting 2.7 and had the one that everyone remembers, the one that Matt Thomas did the visuals on. That first one that everyone’s like “aaah that’s nice.” 
+
+Interviewer: I haven’t seen b2, I’ve been meaning to get a copy of it up and running. Did you try out b2?
+
+Boren: I played with it a little bit, but by that time WordPress was already starting, so I figured well I might as well go with the one that’s actually maintained. But I investigated a lot of the history there when I started contributing and seeing what was going on. Those were different days. A lot of people were new to PHP programming and hadn’t been around that long. A lot of the Web in point-two-dot-oh?[5:48] was pretty new. So it was a heady and wild time, if you could call writing blogging software such. 
+
+Interviewer: Well, maybe. Did you have PHP experience?
+
+Boren: Barely. I’d done some other projects to get started, but was true of a lot of us. We were learning it with WordPress. We also had inherited everything that b2 already had, so there were some things that weren’t my style, but you work with it because from the beginning we’re not going to break back-compats. One of those things about bootstrapping from b2 is that we have a base, we have some code, we’re not going to reinvent it like so many people try to do, “let’s just do over…”, so we avoided the do-over.
+
+Interviewer: I think a good thing. I read a post on the forums, Dougal had said are you basically just gonna rewrite the whole thing and make it object-oriented? And Matt was like - no. But it was interesting to see those discussions happening, even very early on.
+
+Boren: Or like Jamie Zawinski’s[7:01] opinions on that were pretty popular back then because he was critical Mozilla not for doing the whole rewrite thing, it took them forever to get it out. We’re like, we’re not gonna rewrite, and it ended up being good because we enough of a product that was usable enough for people to migrate when Moveable Type had their whole licensing kerfuffle. We picked up tons of people that way. We had something that was easy to install, that was fairly standards-compliant, that ran on everyone’s host, because we’d put the effort to make what was already there work instead of start over. So we might not have been there, the right place at the right time, which I think was a lot of WordPress’ success. That luck of timing. 
+
+Interviewer: What was the code like in b2? In terms of you as a developer coming in and working with it.
+
+Boren: I think it was pretty typical procedural style, but with too many globals, which PHP kind of encouraged back then. So not the cleanest, but I’ve seen a lot worse. Every project that I’ve been on, you kind of get that drift and things lose focus. You make it work. And a lot of our projects were just working around the bugs. Bugs we found, like problems in hosts, they’re all different. Just trying to put the portability glue over everything was a lot of time, and you lose that when you rewrite.
+
+Interviewer: Yeah, Matt wrote a post in 2004 or 2005 that you linked to, I think from your blog, where he talks about Netscape rewriting, and they just lost the market. So, probably a good thing. Do you think there were things that you did then, or that other developers did then, that have caused you problems now? Can you think of any?
+
+Boren: Oh yeah, there are lots of things I would like to do over. Like I remember when taxonomies came along, there’s the whole categories versus tags debate and how we wanted both because each had their place. Then there were lots of arguments over schema and how flexible it should be and whether the slugs should be economical and shared, and we ended up with what we have now. We ended up with is kind of compromise. Before the release, I was kind of “Man, I don’t like this.” I wrote like three or four different derivations on it trying to use all these suggested plans. None of them really felt good to me. But the one we ended up with, well I don’t know, it’s got some problems and we’re trying to work through those release by release now. But I really just wanted to just delay the release at one point and do over.
+
+Interviewer: So what are the problems with it?
+
+Boren: Basically our terms table that has all the shared slugs makes it hard to have multiple parents without having to stomp on slug names or something like that. We get lots of complaints about that. We’re going to try an break that apart in the next few releases. But it’s such an ingrained part at this point that it’s hard. That taxonomy rollout was one of the worst things we had to endure on .com. It was a hard, hard rollout to get all the schemas in[10:49]. We were upgrading people’s old structures on the fly to the new. Yeah, those were bad times. It created a little bit of schism over the schema and design trying to get through it.
+
+Interviewer: So who did it create a schism between?
+
+Boren: Matt wanted like a really simple approach. But when I was trying to do it, it wasn’t working out, especially with some of the requirements we had. I went through several different designs and tried them all out and was trying to build a consensus. Eventually we got consensus on this. But at the end, it was kind of like there’s this one little fatal flaw that we hate, but we’ve spent so much time getting to this point that we just went with it. It’s served well enough, I guess.
+
+Interviewer: I guess that’s the problem of when you have to make decisions by committee. Sometimes you end up with a compromise that no one’s that happy with. 
+
+Boren: Most of the stuff I’ve liked the least, has been the committee ones. 
+
+Interviewer: Can you think of other ones?
+
+Boren: I’m trying to think off-hand… The menus UI was kind of like, you know we adopted it from a popular plugin, but once you pull it into core you have to do all kinds of stuff. It has to work without JS, it has to be fully get_text for internationalization, trying to do accessibility, and all that stuff. So by the time you do that, you’ve got something pretty much different than the plugin. And then we start saying well it needs to do this and it needs to do that, and think it was trying to do too much. Part of that is because the plugin was also trying to do too much. We wanted to retain compat with it. We’re kind of having some of that now with post formats, because it’s also based on a popular plugin. Once you start bringing to the core things change, but we want to maintain compat with that plugin because it’s so popular, so it becomes a back-compat issue for something that’s brand new. We also, what else do we have that with… venues, post formats, there’s a couple others like that…  where we’ve pulled in a plugin… like when we did taxonomy, there were lots of popular plugins, we pretty much went a whole different direction than that and had to write importers for it all. I think that left some people not happy because they had all these tags in the old way and they didn’t like doing the importer. They just wanted them to keep working and stuff like that. It made the situation all the more tense. 
+
+Interviewer: Oooh, I wonder when this was the categories and tags things. I can’t remember off the top of my head.
+
+Boren: One of the most controversial things we ever did, at least at the time, was introduce themes. There was so much pressure against it. So many people saying we don’t need it. That it’s not the right thing to do. That we’re dumbing it down. 
+
+Interviewer: Oh they were so wrong!
+
+Boren: I know! They were completely, terribly wrong. Matt and I, we know this is what we have to do. But we’re getting all this… the vocal minority saying that “No, you’re wrong, this is deeply wrong. This is not the way to go. This is the end of the world.”
+
+Interviewer: So how did they propose that people theme their site then, just using a CSS?
+
+Boren: Just CSS, or they pretty much should all be developers or something like that I think. I was like, really? Really?
+
+Interviewer: Glad you didn’t do that, right?
+
+Boren: Because that was not what we were trying to do at all. It was not the philosophy of WordPress at all. It was supposed to be easy and accessible. You can install it. You can get your stuff done. You can switch the theme. And go on your way. We wanted to be more user-oriented, not developer-oriented. We’ve always made it so that, you know.. One reason we keep back-compat is because we’re there for the users, not the developers. They can work around these problems so that users can just keep going. 
+
+Interviewer: Do you think that there’s people who have gotten involved with the community who have been frustrated by that?
+
+Boren: Oh definitely. Especially like PHP 5, it took us forever to migrate to it. That’s because we by what hosts had installed and what people were actually using. A lot of them wanted to just ditch it all and do PHP 5, object-oriented all the way, MVC and do all the nice, clean, new paradigms and pretty much start over. And that’s when Habari[15:28] and some other people who wanted to do that went and formed Habari. I thought that was pretty healthy actually. People who just obviously aren’t a fit for the community, they have a totally different philosophy, go pursue your philosophy because we said up front this is our philosophy. This is where we are going with it. And that’s not something that’s gonna change. 
+
+Interviewer: Do you think that’s contributed to it’s success?
+
+Boren: I think so, a lot. We kinda just kept that momentum going and didn’t do any wild head-fakes, you know, and make people wonder what the heck we’re gonna do. We kinda had a reliable, consistent philosophy that we tried to make as user-oriented as possible.
+
+Interviewer: I’ve got a lot of the different functionality stuff that I want to ask you about. Particularly, I want to start with the plugin system. You were quite involved with setting that up, weren’t you? With writing that?
+
+Boren: Yeah. 
+
+Interviewer: Where did the idea for it come from? Because it was hacks before that, wasn’t it? You had to like to do all sorts of hacky stuff.
+
+Boren: I think that was just Matt and I talking out… I’m often asked like, where did the actions and filters come from? Who thought of that first? I can’t remember if it was Matt or me. I think I’m the one that did the first implementation though. He was probably…
+
+Interrupted…
+
+Boren: I think it was just a conversation between me and Matt. He was like “Let’s do something event-y.” So there it is. 
+
+Interviewer: So I think it was Mike. I was talking to Mike about it, and he was saying you’d implemented it and when he saw that, he was like “oh, WordPress is in safe hands.” 
+
+Boren: Mike Adams?
+
+Interviewer: Little.
+
+Boren: Mike Little. Oh, okay. Yeah, I don’t know if Mike Adams was in there yet. He’s been around forever, but I don’t remember when he started. 
+
+Interviewer: He was a little bit later. He was kind of after the Moveable Type thing. So that would have been post- 1.0, 1.2? Was there any resistance to the plugin system?
+
+Boren: I don’t think there was. That I recall. Everyone was kinda like “OK. Cool.” And they ran with it. Unlike themes, which was an epic battle for some reason. And taxonomies, which was just a discussion over schema for a long, long time. 
+
+Interviewer: Do you think the plugin system had any sort of effect on the wider community, in terms of… one of the things I talked to Alex King about was that he said once you can make a plugin you didn’t have to bother you so much about getting stuff into core. It was easier just to make your own plugin and distribute that. 
+
+Boren: It opened things up and we became less of a bottleneck I think. It allowed us to do like the 80/20 thing from then on. 
+
+Interviewer: The what? Sorry.
+
+Boren: The 80/20 is like, is this useful to the 80 percent of our users. If not, try it in a plugin. And it allowed us to do things like, you know, all these taxonomy plugins that did their own thing that kind of paved the way and then we later adopted. That was nice. 
+
+Interviewer: Is there a lot of plugins that have been integrated into core? Menu, post formats, and …
+
+Boren: Bulk editing, and quick editing was some of the Summer of Code plugins. We pulled that in. I prefer that things be in plugins first. Test the waters, and see if they can build an audience and determine whether we should pull it in. And we always try to get the author of the most popular plugins to sort of, to help out, and be cool with taking the plugin. Menus came from WooThemes. I’m actually remembering some of this stuff. I was uncertain how much I’d be able to remember. 
+
+Interviewer: I’ll try and jog your memory as much as possible. 
+
+Boren: You’ve talked to lots of other people about this already, so it seems like… you can fill in the details.
+
+Interviewer: When I spoke to Alex, I was like “so what happened to that hack section of WordPress.org that you were going to build?” And he’s like “What?” And I pointed him to some blog posts that he’d written, both on WordPress.org and on his blog post about setting up this hacks thing on WordPress.org before the plugin system happened. And he’d just completely forgotten about it. He was like “I have no idea what you’re talking about.” I’ve spoken to Alex, Mike, Matt, Dougal, Michael Adams, a few other community people like Craig Hartel, Carthik Sharma, and Lorelle. So quite a few people. I’ve been really focusing on the stuff up to May 2004, because after that point there is just an explosion of people involved because of the Moveable Type licensing change. It’s frustrating. I was looking at the stats for the increase in May 2004 of people using WordPress, and because it coincides with the release of 1.2, it’s hard to know which one had the… was the tipping point that caused all those uploads whether it was the introduction of the new plugin system, localization, or whether it was the Moveable Type thing. Probably both. 
+
+Boren: Localization. There was a… that was an epic thing too. 
+
+Interviewer: Yes, that was another thing I wanted to ask about. I was…
+
+Boren: That was a lot of work. Marking up all those strings. I think I did the initial, first, second, and third passes marking up all those strings. It was very tedious. I spent a lot of time…
+
+Interviewer: So what’s the process? Do you have to add… I have no idea how you did that.
+
+Boren: You have the get_text functions that you wrap around the strings. And I had to go find translatable strings, wrap them in these functions, and do them in a format where, you know, you’re given a full string with all the context. You’re not breaking it up into pieces and then gluing them back together. Because concatenation of strings doesn’t work very well for internationalization. So I had to go fix all those strings. It’s just going through the code, one line at a time, finding every thing that should be translated and marking it up. And yeah, that was mine. That was no fun. 
+
+Interviewer: That doesn’t sound like fun.
+
+Boren: Even back then. We had a lot less strings back then, but it was still enough that I was at it for awhile. 
+
+Interviewer: Could you not get someone to help you?
+
+Boren: I think I just busted through it. It was like here’s the first round and we discussed and decided well we won’t write any more functions and what we want to do, so I just went through and did them all. 
+
+Interviewer: Yeah, sometimes it’s just easier to do stuff yourself. 
+
+Boren: Yeah, and then after that it was kind of like “patches welcome.” If I missed something, or for new strings, here’s our process.
+
+Interviewer: So the Japanese, a Japanese developer created a kind of multilingual hack prior to you doing that, but you decided not to adopt that method. Do you remember anything about that?
+
+Boren: All I remember is wanting to use get_text because it’s pretty industry-standard. And at the time there were some others that were kind of homebrews, but I was like “I wanna use get_text.” Of course we couldn’t use the get_text PHP module because it didn’t have very good distribution across hosts, so we went with someone’s PHP-only version… gah, I forget who that was, I think it was some known developer who also did this and we ran with that and we still use it today as opposed to the module, still because of portability things. Even when they have the get_text module their server might not have all the locales we need installed. A lot of them only had English-US or something, nothing else. I kind of remember that competing one, but I was so familiar with get_text from GNOME and other open source projects that pretty much all used it, especially the ones in C. I just went with that. It has all the tools and everything already made for extracting the strings. I didn’t want to have to write all that stuff.
+
+Interviewer: Yeah, so that’s tedious enough already. I can see the blog post, not the blog post, the forum-thing in my head, where the guy is talking about the multilingual hack which was actually, I mean December 2003 was not long after WordPress had come out. And then you wrote something about not wanting to cause a split. Probably didn’t really know what you were talking about in terms of a split.
+
+Boren: So there was like lots of competing multilinguals for doing posts in different languages and serving them up and whatnot, which we still don’t bake in, that’s because there were just so many different approaches to it and each one had their user base and their approaches were different enough, we’re just kind of letting it settle to see who’d win, if any. And none of them really have, even now. It’s kind of been left like that. Perhaps it’s been neglected you could say, but some of those things where no one can make up their mind, the best way, I kind of just leave it to the market to decide.
+
+Interviewer: Yeah, we’ve been talking about… we need a multilingual plugin. Because if we are doing a lot of documentation, maybe not on to .org instead of the Codex, we need kind of a way so that people can have translations of pages. And none of the plugins are really ideal. And any developers that I talk to about it, they all have a completely different approach for how they want to do it. 
+
+Boren: And if we adopt one in core, then everyone else is going to be aggravated. “We’ve got all this stuff here, and now you’ve ticked the standard, so we’re just going to ignore you.” The politics of it all get very exhausting. 
+
+Interviewer: There seems to be a lot of time spent on discussions of things. 
+
+Boren: That’s part of open source though. It’s healthy to some extent, and sometimes it just gets crazy. You just have to have an editor, like Matt, just say “We’re going with this. I know half of you are going to hate it, but we need to pick something.” 
+
+Interviewer: So has that been Matt’s role throughout, just to say “This is what we’re doing”?
+
+Boren: Yeah, he’s kind of the editor. He crafts the direction. He has the vision. I’m not really the best for the vision, I’m more the implementer. I leave that to him. And for putting out the big fires, taking the heat in the hot seat. See a lot of people don’t know who I am, and I’m fine with that. I say “talk to Matt.” Of course then we had other people come along who, more diplomatic than I am, better at wading into that stuff. I kind of like to wait until people know what they want, and then just go make it. But I was doing… I guess I was the lead/project manager forever. I don’t think I was ever particularly good at it. But I guess I didn’t screw it up too badly. 
+
+Interviewer: Yeah, WordPress is doing pretty well. 
+
+Boren: It was never a natural fit for me though. I’d like to be an individual contributor who just writes code. I got into all that politics and stuff… it’s stressful. I’ve been… the last two releases, I’ve, you know, this one Mark and Aaron are doing, the last one Nacin and Koopersmith and that’s been nice to not have that to worry about. 
+
+Interviewer: So you won’t be volunteering for 3.7…
+
+Boren: I’d like to have another release off, I really would. It’s kind of hard though, because I’m one of the ones who’s like pretty much full time. I spend a lot of time at WordPress.com, it was pretty much my job was to make WordPress releases happen. The other guys have so many other things they’re doing. So I might get back on that role soon. I don’t know if I can handle the stress. I’ve been doing it, what, ten years? 
+
+Interviewer: You have been doing it nearly ten years, yeah. 
+
+Boren: The longest I’ve ever been doing anything. 
+
+Interviewer: In the early days, pre- the Moveable Type stuff, I’m trying to think if there were any flash points or drama. I can’t really think of any. It seemed to be fairly affable between, it was mostly you and…
+
+Boren: Yeah, it was so small, there wasn’t too much grief that I recall. The first big kerfuffle was really the taxonomy stuff, that I remember. Well, I think themes might have come before that, but most of the people who were working on WordPress everyday were fine with it, it was just that the growing community-at-large had a lot of people who really, really disagreed with it. And it was really surprising. Because to me it was an obvious thing we need to do. Like I took the Kubrick theme and turned it into the first theme theme where they used the template loader and all the redirection stuff and the template tag. And that’s another thing, Matt and I were just talking about it one night when I came up with that idea. And then the politics started, but we went with it and it turned out well I think.
+
+Interviewer: I saw early on Matt was talking about using Smarty. Why did you decide not to go with that?
+
+Boren: It had it’s charms. I think we thought about it. Or even something like Markdown and stuff. Smarty was a thing back then though. It ended up just being raw PHP was fastest and easiest at the time and there was already plenty of stuff out there that used it that way, so we just kind of codified it a little bit and ran with that. Thinking with the option that, you know, we even have the post content filtered field in the database, it isn’t really used, and I was thinking if we ever went to Markdown or something we’d want to save that filter to output there. We even shipped with Markdown plugin for a long time. It was the default plugin. Maybe even Smarty, I can’t remember. Was definitely a Markdown, Markdown and Textile, or something like that. Those shipped for a long time. But ended up getting rid of them and just going with what we have now. I guess it was because it was cheap and easy, and well-known and portable, so…
+
+Interviewer: So tell me about the drama then around the theme thing. Why were people annoyed?
+
+Boren: It’s hard to remember now, but I think just people were fundamentally opposed, I dunno, to convenience, it seemed. They just didn’t want it. It was like they were trying to spell it out as the doom of everything when you make something too convenient. I don’t know. I’m like, “What could be wrong with this?” When you have a bundle of things together that you can switch between easily. Nooooo!
+
+Interviewer: It’s so weird. Alex said when the theme/CSS switcher plugin, were people using that sort of thing to switch their CSS? 
+
+Boren: Yeah, and he ran the CSS theme competitions, which he made pretty popular. But once we tried to take it, a lot of people said there should just be one and it’s customized with CSS or those that thought it shouldn’t be that easy to get your theme, you should have to know what you’re doing or something. I’m like, really? We’re trying to make a product people use. Not some hobbyist’s tinker toy. [33:00] Which is fine and all, but we wanted a little bit more than that. 
+
+Interviewer: That’s like when…
+
+Boren: I never really understood most of the opposition. I could see where they were coming from, but I was like, you’re not coming from a really good place.
+
+Interviewer: So who was opposed to it?
+
+Boren: I can’t remember the names. Most of them kinda just fell away out of the community after that.
+
+Interviewer: Did they disappear to Habari? Like Owen Winkler. Was he a…
+
+Boren: I don’t don’t know if the Habari folks were necessarily the anti-theme folks. There was probably some overlap. Habari folks just mainly wanted to move with the times faster with PHP 5 and object-oriented programming. And they just wanted something they had more control of. Understandable. And we did go through some times when we were slow getting releases out, slow on patches… we still are slow on patches, there’s so many coming in that I’ve never been able to keep up with them. We’ve even tried releases where we said this was going to be a patch release where we clear out all these patches, buggiest releases we’ve ever made. There’s only so much you can put in a release. And I’ve been trying to tell people that since… like there’s only so much we can put in a release. When we try to slam it full of bug fixes, we usually end up creating regressions. Because a lot of those changes are to things that people rely on whether they’re bugs or not. That’s an established behavior. One of those releases, 2.8 or something, was like that - a bug fix release that ended up needing a maintenance release almost immediately. And two or three more after that. And it was almost all just bug fixes, small bug fixes. I didn’t really understand the themes opposition. I was kind of mystified why someone would want to build something so inconvenient and just unfriendly.
+
+Interviewer: Do you think people were just being oppositional for the sake of it?
+
+Boren: I think there were a couple like that. I don’t like to speculate on people’s motivations, because you’re often wrong. You don’t know what’s motivating someone. But there did seem to be some that just wanted to be contrarian. Just for the sake of it. It is the Internet, a lot of that goes around. Open source is great, but sometimes all that politics right out there, being just chewed over all the time… it chews at the soul. And I’ve had some times I’ve been really disillusioned. You have to have a very thick skin as they say.
+
+Interviewer: So what sort of things disillusioned you?
+
+Boren: Just, there’s just a lot of hate sometimes. Criticism of every little thing. People who don’t realize that the code is only a small part of a project, and they’re fetishisizing all the latest coding techniques and whatnot. I’m like, I’ve done all that. I’ve programmed in Small Talk, I’ve programmed in Java, I’ve been in a [36:00] pure object-oriented shops, I’ve done it all. And they’re just tools to me. But some people were very religious about it. Just totally philosophically opposed to what we were doing. Then they question your intelligence and your motivations and everything else. Pretty soon you become drooling puppy killer, stuff like that. I’ve been called some pretty horrible things. Matt’s been called much worse than me. That’s why I never wanted his job. The spew of hate can be pretty bad sometimes. But then there’s all the cool people that make it worthwhile. 
+
+Interviewer: It’s a shame. People are like that. They just are.
+
+Boren: I remember the guy who started Dogster at South by Southwest once on the panel. He’s like sometimes I gotta remember it’s just dogs on the Web. I was like, is it really? It’s just dogs and cats on the Web. It’s just blogging software. It’s pretty cool and all and people have made their living’s off of it. But in the end, it’s a piece of software. 
+
+Interviewer: It is a piece of software, but… I also think it does a lot more than that piece of software. Lots of pieces of software do, in that they have an impact on people all over the world that don’t even care that it’s a piece of software. They don’t care that it’s WordPress. They don’t care about community. They don’t care about anything else. But it’s given them a voice that they wouldn’t necessarily have had. 
+
+Boren: That’s one thing that’s been kind of weird for me to accept. That it’s become such a big thing. And that people use it for something very intimate. And something potentially very powerful and important to them. It’s interesting to see how it’s perceived by different people and what it does for different people. 
+
+Interviewer: Yeah, I think it’s quite a powerful thing that something quite small and a very small community can have such a big impact all over the world. In very different ways for different people, like whether it’s writing your business or having an activist blog or being the Middle East and actually being able to get your voice heard. 
+
+Boren: I worked with like a… all the translators in Iran and Iraq and whatnot and even [inaudible] some of those bonds to get cameras to them, so they could take pictures and put them in their blogs. You know, encouraging them… putting their voice out there. I thought that was really cool. That was one of the most rewarding parts of this whole trip for me. It was really nice. [39:00] 
+
+Interviewer: To be in touch with people out there. The translators.
+
+Boren: It’s kinda… it’s been years really since I kept in close touch. Some of them went their own ways… the ones I talked to the most. People come and go. And I’ve moved on to other parts sometimes. But for a while there, I was talking to those translators in various countries a lot, especially when I was first getting the translation in. They were all giving me feedback and working on right-to-left support and all that stuff. I talked to them a lot. And I got to messaging with them pretty well, and what they were going through in their countries at these various rough times, without getting into politics. 
+
+Interviewer: So the internationalization aspect, do you know if that was quite important in terms of
+
+Boren: Yeah, that was very important to me, to get that done and in and spread it. And make sure that language was not a barrier to someone having a tool to publish themselves.
+
+Interviewer: So how does someone create a translation then? I know the… early ones were on the wiki. People would put their translations on there.
+
+Boren: Yeah, I think we just have them put there .PO and .MO files up on the wiki or something. It’s very informal and kind of cluttered, but we didn’t have much infrastructure back then. We had almost nothing back then. We had like a server, trudging along… I think Matt was paying for it all. That slowly evolved as we got GlotPress and other stuff, but that took years to get, I think. So yeah, everyone just stuck them on a wiki page. That was one reason I went with Git Text because we had all those tools that were pretty well know for creating those .PO files and .MO files and shipping them around and editing them. I think that was a good decision. To choose something that had a standard toolchain.
+
+Interviewer: Do you remember what the first localization of WordPress was?
+
+Boren: I’m not sure. It could have been French. I know I talked to a lot of those guys at the time. They seemed to help a lot. It was probably French and German. Those were the… people from France and Germany were the most active, if I recall, at getting it going.
+
+Interviewer: So the ones that you and Matt posted to first was a Hindi translation.
+
+Boren: I can remember that. 
+
+Interviewer: You remember it?
+
+Boren: Kinda remember that. I always thought the non-Latin was were cool to see, because you know it’s like… it’s beyond my familiarity, you know, the ones I could actually [42:00] kind of read. So it was like something… and seeing those cool scripts, and going right-to-left. I was like, this is WordPress just… right-to-left, and this totally different script, it looks lovely and foreign and mysterious to me. That was awesome to see WordPress presented like that.
+
+Interviewer: How did people download it then? How did that work? Did they download a package which had the translations in it?
+
+Boren: They pretty much just, I think off that wiki page, downloaded that
+
+Interviewer: Oh so they’d have to manually go in there…
+
+Boren: We’d stick the .POT file. I think they’d get the .POT file and make their .POs and .MOs and upload it and other people would just have to find that page. It was pretty… pretty messy. But we eventually got it organized. They were kind of left on their own. They could always come ask me for stuff, but they kind of just did their own thing. And we’d say hey French speakers, there’s the French translation team. Go talk to them. Have fun. Because we didn’t have all the stuff yet to really support everyone. We didn’t have the localized forums on .org or anything.
+
+Interviewer: Yeah, there seems to be a flurry of activity around, for 1.2, of translation stuff. People getting really excited about it.
+
+Boren: Yeah, that was cool to see… people take that up and run with it. It made all those hours of going through one string at a time through the entire code base worthwhile.
+
+Interviewer: Yeah, that sounds like a tedious, but… sometimes its fun to do tedious things. I’ve been going through all of the pages in the codex and categorizing and organizing them in a spreadsheet so that I can get an overview of what everything is. It’s taken ages, but it’s just something quite meditative about doing stuff that’s totally like copy/paste…
+
+Boren: I actually like doing the janitorial stuff on WordPress. It’s one of my favorite things. I like it better than features these day. I like going back and cleaning something up. Because, you know there’s lots of things that have been neglected, that we had to rush out, and that I’d like to spend more time with. 
+
+Interviewer: So are you able to do that at the minute? Or are you focusing on features for 3.6?
+
+Boren: I’m focused on stabilizing post formats and getting it launched on WordPress.com because we like to launch things early on WordPress.com, like beta 1 arrow, which we did most of the features. Most everything launched around beta 1 to .com, except for formats. Because I don’t like to put UI up that’s going to bounce around and we knew that it was going to bounce around a little bit. I don’t like it when we know the UI is going to bounce around in beta, but it happens. Often because WordPress.com we get so much feedback as soon as it goes live, that we’re like, okay this UI has some problems. We’re going to have to change it.
+
+Interviewer: Is it stabilized now? The UI?
+
+Boren: Yeah. [45:00] I think we’re sticking with what we got now. Just fixing, this isn’t Matt’s but, I’ve been using it a lot for my personal blogging. I think it’s something I’ll stick with. A lot of features we add to WordPress I never, ever use these days. I’m pretty simple in my requirements. But I think I would stick with that post formats UI. It’s handy for some things.
+
+Interviewer: I’ve been using post formats as well, ever since I stared running the beta. It’s actually… it kind of… in some ways eliminates the pressure of blogging. Because you don’t feel that you have to write something. You can just post an image or a quote or whatever.
+
+Boren: I’ve found it even just for images, because if you just drag and drop on to that little box now, you’re not… you don’t see anything asking you for the title or the alt or the caption… and you know, I like to put things in there, especially for accessibility purposes, so if someone’s using a screen reader, but it also… it’s just another thing to do when I’m trying to blog. And sometimes I just want to throw something out there. It helps to just throw something out there and not feel guilty about not filling in every dot and having a nice title and making it as accessible as possible.
+
+Interviewer: That is nice. I hope people enjoy using it.
+
+Boren: I hope so too. Because it’s not… it’s a different model than the Tumblr and the Tumblr’s posting interface and WordPress.com front pace poster which is kind of Tumblr style as they click it. And then if you want to switch to a different style, you start a new post. Whereas with this, your post just kind of comes along with you as you switch the formats. That difference is a big and important difference. And I’m hoping people will like it in the context of our posting post editor. We’ll see. I’ve gotten used to it, so… I was kind of skeptical of it at first.
+
+Interviewer: It takes up quite a lot of room.
+
+Boren: It does. I used to be one of those ones who’s very much about reducing the vertical space and getting your content as far up as possible. But I’ve kind of mellowed on that, to where sometimes it’s worth the screen real estate to have some big, obvious UI that you think is convenient. They can hide it, so…
+
+Interviewer: Can you hide it with screen options?
+
+Boren: Yeah. Oh there’s some bugs with that because once you hide it, there’s some other things on the page that need to come back into being, once you hide it. So we have to fix that. That might be a blocker for a .com rollout of… I’ll decide today. Sometime.
+
+Interviewer: I was excited about this release, because I like… obviously I like the content, the autosave. Oh god I’ve lost posts. You forget that you lose posts in WordPress and you’re like… write a whole post. And then it crashes and you lose the whole thing. And so the autosave is the…
+
+Boren: I like the better… the heartbeat detects when you lose your cookies or whatnot and you have to re-log in. That’s really nice. That’s… really trips a lot of people. That’s actually been [48:00] handy for me a few times. Especially since I go to WordPress.com through a proxy for security stuff for employees, and my proxy will usually drop out every time that my laptop goes to sleep or I shut it or whatnot. So I open it up and there’s that little warning that says “Hey! You lost connection.” Oh yeah, well, re-do.
+
+Interviewer: That is nice.
+
+Boren: It is nice. 
+
+Interviewer: So let’s talk about Moveable Type.
+
+Boren: Alrighty. I tried to install it. I succeeded and then gave up. 
+
+Interviewer: Well everyone says that… well not everyone… WordPress people say there’s lots of problems with it. Like when someone would comment, you’d have to regenerate the whole page. It made things really slow. So it had hundreds and hundreds of problems.
+
+Boren: It was kind of like the last of that era where they wrote out things to files and it was static. And then they kinda made it dynamic later on, but… then the whole licensing thing. I didn’t really use it that much. I remember trying it at the time I was trying WordPress and some other things out. And for one, all the dependencies to get it installed. And I’m like, you know I’m a hobbyist and I like a challenge, but this is getting a little ridiculous. I don’t want to work this hard for it. And then I started using it, and I’m like do I really want something that’s generate five files, and at this point in time, you know, things were kind of moving on from that. 
+
+Interviewer: So the licensing change, do you think that had a big effect on WordPress?
+
+Boren: Well, one reason I didn’t really go with Moveable Type is because even before they decided to change it was a gray area. It wasn’t really… It’s kind of like free, but not really free. It wasn’t under an open license. And at the time, I was really into open source and contributed heavily to GPL projects and that was important to me. So that was a big factor in moving my efforts to WordPress. And if I had picked Moveable Type and they did the licensing change, I would have abandoned it too. I would gladly have given them money but I want a license that makes it somewhat mine.
+
+Interviewer: So do you think the GPL… has that been important to WordPress’ success?
+
+Boren: Yeah, it’s been important. It’s not my favorite license of the open source licenses though. I tend when I write stuff to just say public domain. I don’t care. You don’t have to put my name on it, you don’t… it’s yours. Take it and use it. Make something cool. You want to give me props, thanks. If not, no sweat. So virality of it is helpful, but it’s also created a lot of politics and grief. And I tend to prefer, like the MIT license or saying public domain.
+
+Interviewer: Do you think that, say… we had a license that someone could use WordPress to make proprietary stuff like Thesis, or whatever, do you think that would have had an effect on the wider ecosystem and had an impact on users? [51:00] Like I say, WooThemes could make all of their themes proprietary.
+
+Boren: I’ve wondered. And I don’t think it would matter all that much to most people. Most people don’t care. And it would still be in the WordPress ecosystem, adding to the number of themes. I never really got too uptight about that stuff. I guess being a guy who’s like public domain, I don’t care. So when the whole GPL kerfuffle with Thesis came up, I was like, yeah, it’s nice to obey your license. It’s the one we picked. You might not like it, but it’s the one we picked. I think we would have been good either way. I don’t think any of these open source projects that have licenses that allow proprietary suffer for it. 
+
+Interviewer: Well I guess you guys didn’t have any choice. Since it was b2’s…
+
+Boren: Yeah, we had it. If I was starting a new project, I would probably have picked something more permissive. For one, just because I hate the arguments that come with it. And everyone wondering what’s allowed, what’s not. Because we had that exact same discussion happen in the Linux community, well before WordPress went through it, and I was kind of feeling deja vu. I was like, you know, I just… I wish it was all at least dual-licensed or something. Then again I have no problem running a company on top of GPL, like some people did. I don’t think it really matters in the end as long as it all gets out there. And that any contribution to WordPress is always going to be open. The platform is open even if someone wants to close off their themes. And it’s still PHP. So you’re going to see the source code unless you go through steps to obfuscate it.
+
+Interviewer: Yeah, that’s one of the things that I think… Dougal said, that the GPL didn’t really make sense in that an open source context and to do with something with like WordPress where the PHP is accessible anyway. Like the mess you’re going to do some sort of… lots of obfuscation, which people don’t tend to do.
+
+Boren: Where it’s made things a little hard is, we’ve always have to make sure that we have a GPL-compatible license on anything we pull in. Which can be a little pain. And a lot of people don’t put licenses on… they just throw it out there without saying what it is. And it’s like we want to use it, we hunt down the author and say “hey, would you be cool licensed under GPL?” Even if it’s a dual license or whatever. That can be a little bit of a pain. It’s more politics you know. 
+
+Interviewer: Yeah. I mean, I like the GPL. I like the… I’m not a developer, but from a user’s perspective I can see how it [54:00] protects users. Because it forces developers to be more than just creating code and selling that code to people. But also having to do all sorts of other stuff like support and custom service and all that sort of stuff which is really important for people who are using the product. 
+
+Boren: It’s nice in that it’s forcing people to go the open source way. If you want to be in this ecosystem and show and share what they do, who wouldn’t otherwise do it, and then they realize, oh this works just fine. I don’t have to hide it all. I don’t have to worry about getting every last dollar out of it. I don’t know. I don’t know if that’s a fair way to characterize it. But you know, just worrying about so much control.
+
+Interviewer: I guess some people are all about the dollar. But a lot of people aren’t. They just want to do something cool. 
+
+Boren: Yeah, I can understand just wanting to make a living. I don’t begrudge them that. When you’re sitting there railing against the GPL all the time, I’m kind of like… you knew this going in, that this the way. Even at the time we had the Thesis discussion, all these GPL discussions happened all over the open source world. All over the web and tech that… you should have been at least a little bit aware that this is what you were getting into.
+
+Interviewer: And it’s kind of a pointless discussion to have anyway, because of the nature of the licenses. You’re stuck with it. WordPress can’t change. And none of the things that kind of hook into it can avoid it.
+
+Boren: I think that might have… I can’t remember what Habari picked as their license. But I think some of them are just not liking the GPL too. It can be a little bit of a pain to worry about all that stuff, and dealing with all the different interpretations. 
+
+Interviewer: I think Michel put some BSD, was it BSD or MIT, license code into b2. I think it was an XMLRPC thing. I seem to remember him telling me that. But before it went GPL. He said that now he would choose a more permissive license. No choice about that anymore.
+
+Boren: Yeah, that’s done. Well and done. I think that has all settled down now, hasn’t it? Or is there a new…
+
+Interviewer: There was earlier this year, the Themeforest thing with the split licensing in the WordPress.org.
+
+Boren: But they switched or something, didn’t they?
+
+Interviewer: They… It’s now possible to sell on Themeforest and you can choose your license. But Thesis is not GPL anymore. They’ve changed. Like very kind of under the radar. They just changed their license.
+
+Boren: Yeah, I was wondering if some of these people just wait for things to die down [57:00] and then, you know, do the switch. 
+
+Interviewer: Yeah, yeah, I think that’s what they’ve done. I wonder if that will kind of raise it’s head again. It’s interesting to listen to the discussions. I’m glad I wasn’t involved in all of that politics. I hate that stuff too. It’s not fun. Especially when people don’t… listen. I like the GPL. There will be a chapter about it. I mean… the Moveable Type thing, people at that point seem to think that was an important aspect, that the GPL was important. Did that affect the community? Having a lot of people, kind of having a big influx in.
+
+Boren: We had a lot of people who were like known developers for Moveable Type suddenly switch over and I think they brought a lot of people with them and then they started making plugins for WordPress that were versions of ones they made for Moveable Type. So they could bring over some of their conveniences. And that all just kind of added to the ecosystem. And that was pretty cool. And just the influx of users. And then thus the influx of feedback. And some hard parts because you were trying to accommodate people who were used to something else, coming over. It was like we wanted to accommodate them but we don’t also want to just turn ourselves into Moveable Type. 
+
+Interviewer: You wrote a post on your blog about a week before 1.2 was released that it’s great that this has happened, this Moveable Type thing, but we’re trying to get a release out and we’ve got all these people that are migrating. 
+
+Boren: Yeah, I remember helping a lot of people do that, while trying to figure out what the next version of WordPress was going to be. And thinking about how we could make that version palatable to the new folks. Give them some things that they needed to be happy and retain them.
+
+Interviewer: So, did you… there was quite a big gap between 1.2 and 1.5 wasn’t there?
+
+Boren: Is that like the one year release or something?
+
+Interviewer: I think there was like a… it kept being pushed back. Do you think that contributed to the delay?
+
+Boren: I don’t know if I remember thinking that at the time. Looking back, I think so. It was just so much at once I think. And also, none of us were doing that for a living at the time. I was working 60, sometimes 80 hours a week at Cisco and then trying to do this on the side and it was starting to chew up a lot of time. I mean I’d pretty much come home from work and work. On WordPress. And I’d be sitting there going why am I working so hard [60:00] on this? I have no free time. I tend to dive into my hobbies when I pick one, but yeah, that was a little excessive at times. I was trying to have a life too. All this stuff was happening, and it was like … oh, we don’t like these other people, they have a bad license, we’re going to come over here. And there’s all the politics and drama and huge numbers of users coming in… and I’m like, I’m just trying to write code over here. Just trying to write something cool that I want to use. Because it was still pretty much like itch scratching for me at the time. I was still adding things that I wanted. These days, I like some of the cool stuff we add, but it’s not things I want. WordPress has been what I wanted for awhile.
+
+Interviewer: I love that aspect of WordPress, and I guess open source as well, that it’s often… people build something for themselves that just grows and becomes popular. When the Moveable Type thing happened, did you guys actively kind of promote people moving over to WordPress?
+
+Boren: I think we like advertised our easy install, because to get them in the door you have to get them to install it. We tried to make some decent documentation and make sure that was a nice flow and that it worked like it should so that they wouldn’t have to go through what they did with Moveable Type. And make the transition easy, get an importer ready, supporting Moveable Type-style permalinks so people wouldn’t lose any of their links and all that stuff. I think I’ve rambled on past the question.
+
+Interviewer: That’s okay. I was asking if you promoted the… because I know Matt did. There was a lot… Matt was on the Internet like saying move from Moveable Type… move to WordPress.
+
+Boren: Yeah, he was the main promoter. I was just the guy trying to make their links work and stuff like that, you know. I often didn’t have the best head-up view because I was always head-down in the code. So some things that happen in the community would escape me at times. I relied on Matt to know what we needed to build. 
+
+Interview: That sounds like quite a good dynamic. Having someone with like an eye on the community and someone actually much more focused on the code.
+
+Boren: He’s always much better at that, much better at the communication. I was just kind of like the… here go, go code this now guy. He did a lot of coding too. But he also did so much… he was the guy who did the community management and who did promotion and who really made WordPress a name. 
+
+Interviewer: So as… when that also happened, I guess you were writing the plugin system. Was that a big job?
+
+Boren: I don’t recall it being a huge job, just because we kept it at such a simple level. It’s like, we’re just going to have these actions and filters [63:00] and sprinkle them where we need them and then plugins can… we didn’t even have much documentation, it was pretty much, you know, you had to go in there and discover. So often it was like we’d fling it out there and say what can you build and tell us what hooks you need. So I don’t recall that being terribly difficult.
+
+Interviewer: So how does that work? Is there kind of actions and filters kind of throughout the code and people can kind of hook into those…
+
+Boren: So they’re pretty much just hook points. Say give us a callback and we’ll call it from here and let you insert whatever and do whatever and it’s up to you. So it was very easy to implement, but it also… it opened up the guts of WordPress entirely. You could do anything. You still can just do anything, it’s not a sandbox. You’ve got full control. You can pick any of these points and do virtually anything you want with them.
+
+Interviewer: Did you have many hooks to begin with?
+
+Boren: I think it was mainly just around stuff in the loop. If it even existed as “the loop” back then, I don’t know. Yeah, there weren’t a whole lot. It was kind of a little bit at a time thing as people told us what they needed, if I recall. Which I might not. It’s hard to remember all that stuff. I vaguely remember Matt and I’s conversation where it came to be.
+
+Interviewer: Can you tell me about that? Was that a chat conversation, or…
+
+Boren: Yeah, I think it was Matt who said let’s do something like this… action. I just kind of ran with it from there. The idea was to keep it really simple and we weren’t going to make some big plugin architecture. We were just going to fire some events and people could listen in and do what they want with them. And that was it. It was very simple. It was something two guys could implement. And it’s worked out pretty well. Judge by… we’ve got quite a few plugins coming in pretty quick if I recall. And I think it grew pretty quick.
+
+Interviewer: I did see the first one the other day, and I can’t remember what it was. Well, the first one that wasn’t Hello Dolly. I cannot remember. Matt boasted about it in the forums… “oooh, the first plugin!” How were they installed then? Was it a similar sort of install system or does someone kind have to manually add plugins to their site.
+
+Boren: It was all manual. You had to FTP it over. There was no auto-install for any of that. That was a… speaking of auto-install, that was an upgrade, that was a big push… ***later live***[inaudible] that… it was one of our strategic things. It worked out well. [66:00] 
+
+Interviewer: Which? What was that?
+
+Boren: Auto-upgrade. Auto-install. Because Matt wanted that for a long time. And it took us many releases to get it the way we wanted it. But that was a big emphasis. He was like people should be able to push button to upgrade, be able to push a button to install plugins. And that took awhile to navigate that around all the different hosts and their different requirements. It was a really big pain. 
+
+Interviewer: So was that more of a kind of… was that a code issue? Or a politics issue? Or a community issue?
+
+Boren: That was mainly technical. I think a lot of people wanted it. There was some who was like… you should try to auto-upgrade it, it should all be by hand and whatnot…
+
+Interviewer: Like the themeing thing.
+
+Boren: We will always have some like that. 
+
+Interviewer: Lorelle said that you went round all of the hosts. I mean the way she painted the picture was interesting. She said that you and Matt went round to all of the hosts and kind of talked to them about installing. Having one-click installers I think? Or was that the auto-upgrade thing?
+
+Boren: I know Matt’s bit would go around and… like some of them have their own auto-installer stuff and get them to have their own one-click so that someone could sign up for that host and just click a button and have… Because we can’t auto-install WordPress from scratch. Someone has to install it once and then we can auto-upgrade after that. He’s the main guy who… I didn’t really help with that much at all except for being there in the wings to support any questions this host had. He was the one who went out and drummed up the support to get them. I was “click” so they could install WordPress. 
+
+Interviewer: I like the way that Lorelle described it. I just have this image of you and Matt going around the country like bullying web hosts into having one-click installers.
+
+Boren: I was there for any technical questions they had, but he’s the guy who launched the campaign. 
+
+Interviewer: So when was that?
+
+Boren: I don’t know. In some ways, it still goes on. So that was kind of like a tenuous thing when a host would come on.
+
+Interviewer: So did you have to go see them in person or did you…
+
+Boren: I never did. He might have. Most of my stuff was over email and not actually talking to them. 
+
+Interviewer: That ruins my kind of image of you and Matt driving around the country, going to see web hosts…
+
+Boren: Matt and I had never seen each other until years after we worked on WordPress. We finally met in San Francisco for a meetup.
+
+Interviewer: I guess none of you guys met in the early days. Matt and Mike met… quite late.
+
+Boren: The first time most of us had seen face-to-face is when we happened to all go to the Orlando meetup in like 2010, 2009? I can’t remember what year it was. I guess that was the first time I had seen Peter Westwood, maybe even Andrew Ozz.
+
+Interviewer: Do you think that… you’ve got these relationships that are online as opposed to in person. [69:00] Do you think that kind of affected kind of… dynamics? Or kind of created specific dynamics within the community?
+
+Boren: I don’t know. I’ve always kind of treated the online relationship as… at the same level as person-to-person even though I’m not seeing them. I’ve always been a geek who likes to communicate with text. I love that. So, to me, it was all the same and good and my preferred way of talking most of the time. I don’t have a skewed view of it perhaps.
+
+Interviewer: I also like communicating online, on text, as well.
+
+Boren: I like to have time to think, instead of having to blurt out something. For me, I guess it makes it more considered. Even though a lot of people take it the other way and just be total tools. I thought it would be… you know, very considered. It was like that for years, then we went face-to-face and it was cool to do that. But then we’d go back and pretty much just use it to improve our vision of the person when we were typing to them, and all that. I don’t know how different it would have been if we were in an office together. 
+
+Interviewer: Well, I mean, interviewing… like talking to you like this, is… or talking to someone in person about things is obviously better, for me, in terms of…
+
+Boren: Yeah, I don’t like talking on the phone…
+
+Interviewer: Yeah, no, I hate it.
+
+Boren: I like either text or one-on-one kind of thing. 
+
+Interviewing: I’ve been enjoying speaking with people, but it is definitely easier in person. So I’ve spoken to Mike, in person, because he lives not far, well a few hours, from me. And you. When I talk to people on Skype, they find my accent difficult to understand, so I spend a lot of time repeating myself.
+
+Boren: I’m a chronic mumbler, so… And I’m the reticent sort. It’s hard to get words out of me sometimes. So in text I don’t have to be so awkward. So it’s liberating in that way. 
+
+Interviewer: I guess for other people, it’s a shield where they can be whoever they want. 
+
+Boren: And sometimes it’s a shield so they can be an ass. But most… the people who stick around and contribute all the time are all cool. Matt’s one of those who are a great articulator and communicator in person. He’d probably have a much different answer than me. 
+
+Interviewer: I shall ask him about it. So you did a lot of the early stuff with IRC chat rooms? [72:00]
+
+Boren: Yeah, I think we’ve had a chat room almost the whole time. There was a lot via email at first too. Back in that day, most open source seemed to… development seemed to happen in email lists. Like all my Linux kernel development stuff and GNOME and whatnot, it seemed the main drivers were email. We had a pretty active list back then. It still is, although I don’t check in nearly as much because most of the people I talked to are sitting there in IRC, and it’s all still open and anyone can join in, so that’s nice. I find that a little better than email. That’s my preferred way of talking WordPress development, and it’s all logged now, so.
+
+Interviewer: There was an interesting discussion on the forums before you became a core developer, or our main guy, it was a discussion on the forums about whether you should have a mailing list, because at that time there wasn’t one. And you wanted to have a mailing list because it would help facilitate development discussions, but other community people were like, you’re excluding us from your discussions around development, and that sort of stuff. So there seems to be like a little bit of drama around that.
+
+Boren: Everything in the early days created drama. Yeah, I think I wanted an email list just because it was pretty standard operating procedure.
+
+Interviewer: Yeah, that’s what you said. Rather than putting patches on the forums and things like that. Kind of didn’t seem to be ***
+
+Boren: And plus there, a lot of our infrastructure then was borrowed to nonexistent. And anyone can go into mailing lists. I can’t remember what went down with that argument. I’d probably be surprised to hear some of the things I said back then, if I read those emails. 
+
+Interviewer: You were quite measured actually in that. Matt responded and said that he had like a small mailing list that Mike and him and I think Dougal and Alex were on, so I guess you became part of that eventually? I don’t know.
+
+Boren: Yeah, I think I got added to that eventually. But it was never particularly active back then. Pretty much once we had the hackers list, it was all on there and then IRC. I don’t remember that one with the others, the founding folks, being that active. 
+
+Interviewer: So did you have much to do with the founding guys?
+
+Boren: I really didn’t know them much. It was mainly Matt I talked to. I talked to Matt all the time, but those guys not so much. A little bit here and there. I knew who they were and what they’d been doing and whatnot but almost all my interactions were just with Matt.
+
+Interviewer: And they kind of just drifted off?
+
+Boren: It seemed to me. Maybe there’s more to the story behind it, between those guys, but, yeah, it just seemed like [75:00] they drifted off and Matt and I were the ones running with it.
+
+Interviewer: I think life took over in most cases.
+
+Boren: Yeah, I think so. 
+
+Interviewer: And at that point, it was just such a little blog script…
+
+Boren: I just happened to be some crazy guy who was willing to put lots of time into it. I sometimes still wonder what drove me to work that much.
+
+Interviewer: It paid off. I mean, what did drive you to do it?
+
+Boren: Well part of it was I was tired of the industry I was in. So I was like, so well, this WordPress might not go anywhere, but I could learn some things, and it’s always nice to learn things. But it did kind of become a consuming… not consuming, I wasn’t eating and breathing it, but I was spending a lot of time on it. Seeing it grow. I guess that helped me to stick with it, seeing that it was actually becoming something and people were actually using it. I was like whoa. Because most of the other open source stuff I contributed to was already more established when I got to it, so that’s kind of… in early on something was helping us shape its direction more than I had previously. I had done startup companies where I’d done a lot to shape the direction, but open source things I’d contributed to were all more established.
+
+Interviewer: So do you think… do you at that point think that it would become big?
+
+Boren: I kind of left the possibility open that it could. But I don’t know if I really expected it. This whole like running close to 20% of the Web stuff, I never really expected that at all. That’s something to think. WordPress is just this little, still I think, this little thing I worked on. You know. It’s a cool little piece of blogging software, but then I see it as… when I step back and look, it’s running a lot of stuff. And I guess it is a big deal.
+
+Interviewer: I think it’s a big deal.
+
+Boren: It’s hard for me to see it as a big deal sometimes, I guess because I tend not to see things as big deals. I guess I tend to want to be humble about it. 
+
+Interviewer: It was interesting speaking to Mike Little as well. He was, had no conception of it’s impact until they did the survey a couple of years ago.
+
+Boren: Yeah, that was kind of an eye opener for me too. I didn’t realize. I knew it was pretty popular. But even seeing that compared to the main competition is like this one and then the others. I’m like, how did that happen? I’m not really sure how that all happens. We had some good timing… we had really good timing with the Moveable Type thing and with the decision not to rewrite everything so that we were there at the right time with something useful. And it’s got a good name. I mean, a lot comes out of the name. So many open source projects have horrible names. B2? C’mon. 
+
+Interviewer: Do you know what it’s named after?
+
+Boren: I forget. 
+
+Interviewer: It’s named after… [78:00] it’s funny… Michel really liked this song Song 2 by Blur, so he called it Blog 2 and shortened it to b2. But yes, I think the name is important.
+
+Boren: I think I remember that story, but I’d completely forgotten. Lost to history for me. One reason I picked WordPress, was like, someone actually took the time to make a pretty decent name. Because so many of them are just such nerdy, geeky… trying to be clever? I don’t know.
+
+Interviewer: Drupal? Joomla?
+
+Boren: It’s like… Word. Press. That’s beautiful and simple. And that’s an important part of a project. And people keep going on about code, I was like, timing and a good name, meant as much to WordPress as any code.
+
+Interviewer: Also I think it’s interesting that the issue of rewriting the code… because people still go on about that sort of stuff, but that kind of iterative approach of just fixing things and adding features as you needed them seems to have worked really well.
+
+Boren: I’ve always tried to be a practical programmer and not get too religious. Because code is just one part of the project. And you can build something on whatever. I don’t fetishize it very much. I guess because I’ve worked in so many different languages and seen it all. I’ve gone from assembly, real time embedded stuff on up the stack and just kind of like, yeah, there are all kinds of different ways to do it, as long as you get something users actually want to use. Because that was what it boiled down to me, do users want to use this thing? Who cares what it looks like underneath. Somewhat, because you want to attract developers as your come over platform but, I think we kept it simple and good enough.
+
+Interviewer: Yeah, Michel as well, when he was writing b2, he writes on his blog about wanting to keep things easy so that anybody can do it. So that seems to be kind of baked into WordPress from the very beginning.
+
+Boren: We try to resist too much chasing trends. We want to look forward without chasing trends. Especially when they come to programming and whatnot, because when it gets down to it, the things we’ve been doing for decades work pretty well. You don’t have to get too crazy. You don’t have to have the latest shiny. I think too many developers are obsessed with shiny. I just want to make something that people use. Because that’s the best reward, someone actually using this thing that you made.
+
+Interviewer: People are developing with it in interesting way now. Like using it as an application framework…
+
+Boren: And we have plenty of warts, but people navigate them well enough and still manage to make cool stuff. You know, if I was doing something from scratch [81:00] I’d do a lot of things different, but I don’t feel a need to do anything from scratch. Works for me.
+
+Interviewer: Do you think that kind of… that usability in term of users, the user focus, do you think that’s been a big contribution to the success?
+
+Boren: I think that’s why we’re more popular than Drupal and some of the others, because they did have kind of a more developer or admin focus, builder focus, versus someone who just wants to start it up. They kind of went big and they’re trying to simplify whereas we kept it simple and now we’re trying to buildout. And I think that approach has worked alright for us.
+
+Interviewer: I guess because the developers can work around any issues, whereas if you give users a an admin like Joomla they’re going to just be like aaaaaaahhh.
+
+Boren: We long ago decided that the burden should be on developers. There’s the risk that you’ll never get people on your platform because they just don’t want to deal with it, but that was never the case. And we’ve always had pretty good uptake. So we’ve been going with that. 
+
+Interviewer: I like that notion of the burden being on developers and I think that that as well as… I mean I think that’s part of the GPL as well as that the burden is on developers as opposed to… and the freedoms are going to users.
+
+Boren: I know with Linux it often is because they’ll break things driver level and whatnot because they say… well, that’s a little different case, because they’ll… we don’t often throw it back and patent it. They will at driver level because the modules they kind of consider… it’s part of the kernel you have grow with the times. So they’ll put the burden on developers there. But it’s a little different because they can kind of break things for users sometimes. They’d be a bad example. But we really try to really maintain back compat for that reason. You can still put certain themes from long ago on WordPress and they’ll work. Might throw some warnings and whatnot, but they’ll truck through. In some ways that’s been an especial burden on developers, especially core. It can be a pain to maintain all that legacy. And you have to write unit tests for all of it to make sure you’re not breaking any little thing because someone’s going to be relying on any given behavior even if you think it should be changed because it’s wrong. But that’s all development, that’s all writing software, right? 
+
+Interviewer: So is the code base getting like… big?
+
+Boren: It is pretty big, especially as we add more JavaScripting, client-side stuff. That can make leaner interfaces for the users, but bigger code for us. The media modal looks pretty clean from a user perspective. I love that thing. It’s really shortened my flow and blogging my pictures and I drag and drop and then start and it’s all good. And it looks pretty clean and simple to the user, at least in my opinion. [84:00] But yet the code is pretty complex. So, we’re going like that. But a lot of it’s, you now, not ballooning the whole thing with… adding certain parts. But I would like to slim some stuff down.
+
+Interviewer: What would you like to slim?
+
+Boren: Like the basic amount of stuff that gets loaded for any given page load. We’ve got… our dependencies are kind of like this needs this and this needs that… I’d like to minimize that profile I guess. Slim it down a little bit. Because all that stuff has to be loaded, interpreted, and ran and it gets a little slower each time. If you add stuff indiscriminately.
+
+Interviewer: That was one of the things that Matt was saying too, is that it is getting slow.
+
+Boren: It’s one of his big issues. He’s got a point. 
+
+Interviewer: When he launched the first version, no WordPress 0.72, he said it was 300 times faster than b2. So he was like how do we get to do that again.
+
+Boren: I don’t know. So much of what we load is for plugins. And once it’s out there you can’t move it or you’ll break somebody. 
+
+Interviewer: Are there any features that you guys would like to…?
+
+Boren: I would like to just have a release or two of just polish. But those are hard to sell. And people say they want releases that are just like that but people want the new sexy. It shows momentum, I guess. They want to see that WordPress is doing something. And sometimes… like this release, I pretty much did just janitorial and gardening stuff underneath that no one is ever going to notice, but it makes me feel good.
+
+Interviewer: Do you guys ever… I guess we’re going to have a new UI soon. And some of the people I’ve spoken to who’ve used WordPress from the very start have said that now WordPress is just much bigger than they ever needed it to be and they think that it’s become too much, trying to do too many things for too many people. 
+
+Boren: Perhaps. Especially when you compare it to like Tumblr and more microblogging oriented sites. And now we have Ghost who’s kind of like getting back to basics or whatnot. I think WordPress can still be a pretty basic blogging tool. That’s how I use it. But I would like to see the admin become a little less. Like we’ve been removing some options that have kind of popped up here and there. Because we never liked adding them in the first place, but they still happen sometimes. We removed several, like 3.5, Mason did. You worry about looking old and creaky. [87:00] But then you worry about over correcting and losing your base. It’s hard. I let Matt make those decisions.
+
+Interviewer: As a writer, I sometimes, I’m looking at things like Medium or Ghost and just… having just the functionality to write sometimes is attractive, but then I think, but oh but I like plugins, and I like themes, and I like all these other bits and pieces.
+
+Boren: Medium is pretty cool, if you just… I like the notion. I just got this one thing to say right now and we’re going to put it up there and see who notices, right? That’s the core of wanting to publish yourself. It’s just you’ve got something to say right now and here it is. I can understand wanting to get away from the reverse chrono obligation, I guess. I have to put out something now. 
+
+Interviewer: Yeah, yeah. This pressure. 
+
+Boren: I kind of like that. A lot of my blogging, I enjoy it because I just do my food blogging and my kind of lifestyle stuff, and I’m not real serious about it. Sometimes I kind of do it just because I’m testing WordPress and dogfooding. There are times when I’d probably take a rest if I wasn’t testing my tool, you know.
+
+Interviewer: I mean the post formats thing actually, although it adds more functionality, it does remove a barrier towards posting. Maybe not writing, but certainly posting, like images or video or… which is a good thing. 

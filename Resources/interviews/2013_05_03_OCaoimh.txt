@@ -1,0 +1,337 @@
+Interviewer: So I wanted to start by asking you why you started blogging in the first place? 
+
+O'Caoimh: I think it was just to record some of my programming stuff. And I started blogging on a website called xoom.com and I used a Perl script that generated text files on my Linux machine. And it would FTP the files up automatically then to the server. I think I possibly edited files in VIM when I was… yeah, I definitely edited posts in VIM and then the Perl script and then just generated the whole site and uploaded any changed files. So that was probably back in 1998, I think. 1997, ’98 but then got into using PHP and I think what was it, b2, you know. But the start of blogging was just simple Perl script and text files.
+
+Interviewer: That sounds like a pain. 
+
+O'Caoimh: It wasn’t too bad once you got into it. 
+
+Interviewer: So were you an experienced programmer already then?
+
+O'Caoimh: Yeah, yeah. I had been. Well, I had just got out of college, but I’d been programming stuff for at least… probably almost a decade. Doing Commodore 64 stuff in the early ‘90s. So I’d been… I’d done stuff for quite a while.
+
+Interviewer: Did you learn programming in college?
+
+O'Caoimh: Well, I started learning before I went to college. But I a programming course. A degree, yeah.
+
+Interviewer: So you do have a degree in programming?
+
+O'Caoimh: Yeah.
+
+Interviewer: So what languages did you learn?
+
+O'Caoimh: Oof. I college I think we started off in Pascal, then C++, and god I can’t remember what else. But we did those artificial intelligence languages. I don’t really recall. 
+
+Interviewer:  That’s okay.
+
+O'Caoimh: This was like, I think, Java wasn’t on the scene, I think, at that stage. Because I graduated in 1997, no ’98, and was… [3:00] what was the other… I think Java was first being taught around that time. But I don’t think we did any Perl or PHP. I did those languages off me own interest. 
+
+Interviewer: So where did you go to uni? Was it in Ireland?
+
+O'Caoimh: Yes. The CIT, Cork Institute of Technology. Yeah, it’s one of the universities here, or colleges here, in Cork. But it went through [inaudible] it was called the RTC, the Regional Technical College when I went there first, but renamed halfway through, which apparently it’s a more… people abroad recognize ITs more than regional technical colleges, so it kind of more brand awareness.
+
+Interviewer: Right. And you’re from Cork?
+
+O'Caoimh: Yes. Born here and live here still.
+
+Interviewer: I love Cork.
+
+O'Caoimh: Oh!
+
+Interviewer: It’s beautiful.
+
+O'Caoimh: It is. It’s a great place. 
+
+Interviewer: So you set up a Linux blog network? Is that correct?
+
+O'Caoimh: Well, I was helping with Linux… the Linux users group. When I had a lot more free time I set up blogs.linux.ie and said that was running b2, the predecessor to WordPress. Because I wanted everybody to be able to blog, I made a [inaudible] user. You’re probably familiar with dm, so that’s actually still there. And I added extra features that b2 didn’t have. You got themes and it would store revisions of the themes so it could go back and forth, if you made a mistake, you could restore an old version. 
+
+Interviewer: Of the theme?
+
+O'Caoimh: Yeah. 
+
+Interviewer: Oh, I wish we had that in WordPress. 
+
+O'Caoimh: So, yeah we would store 10 versions and I think Matt thought that was one thing, one feature that WordPress really should have. But I also, I think, all smart-e (?) templates which is a bit more powerful than regular just HTML, but then its got a bit of security issue because people can execute code in your theme. So you want to be… you have to have very, very trusted users. Although I think you can lock it down but I haven’t used that in [6:00] god, 8 or 9 years, so I’m not sure what it’s like nowadays. The Linux users group was the reason that b2++ came about. 
+
+Interviewer: Why did you get involved with the Linux users group? Were you interested in open source? Or were you more interested in software?
+
+O'Caoimh: Oh yeah. I was very interested in the open source aspect of software. I remember when I was going for a job interview and an employer told me that this Linux thing will never catch on, it’s only Windows. Windows is the only platform you really need to program on. I was just so depressed. Because I was just out of college. I thought oh my god if I have to use this… you know, Windows desktop. And I find the idea of sharing source like that agrees with me. I guess going back to my Commodore 64 days when if you have the right tools you could look at the source code for any game or demo or anything else running on your machine. It’s in assembler but if you like the source code… I’m sorry, assembler, like machine code, so it can be very arcane. It’s not very readable, but if you’re willing to put in the time and effort you can understand it. That’s how I learned a lot of programming before I went to college. Just by looking at the source code. So when I found that people were sharing source code and making it readable and easy to use, I thought whoa this is amazing. So even now, well I’m using a Windows desktop mainly because of games, but I still prefer having a Linux machine and being able to [inaudible] have access to the source code, if only I had the time now to hack on things. 
+
+Interviewer: So why do you think that makes software better?
+
+O'Caoimh: Well, I think it’s the old adage about having many eyes on a piece of work. It doesn’t always lead to better software. Like my own plugin, my SuperCache plugin, had a major security hole for the last six years and nobody ever noticed until about four weeks ago. 
+
+Interviewer: I saw that, yeah.
+
+O'Caoimh: That was kind of awful. And some… this guy published it on an open forum and it was three weeks before I noticed. So, yeah. It doesn’t always mean that software will be better, but you’ve got a I think you possibly have a much better chance of improving the software if you have other people looking at it and hacking on it and [9:00] you know, there’s smarter minds out there than me. And it’s great if they can hack into it and improve it. And it certainly happens. Like I’ve gotten contributions for my plugins from lots of other people who have improved it. It’s great.
+
+Interviewer: It’s good. So, you had a Linux users group, so was that people you met up with in Cork? Or was it a kind of wider Ireland thingy, met online?
+
+O'Caoimh: Well, the Irish one is mainly Dublin people. But there was a Cork Linux, there is, well there was and is a Cork Linux users group, but we hardly ever meet up. We haven’t met up in a long, long time. I’m not even sure what the Linux, the Irish one, probably isn’t as active as it used to be, just because it’s so much easier to find information online nowadays. Google anything about Linux and you’ll probably find a reasonably good answer. You won’t have to go on mailing lists and ask a set of experts. You know?
+
+Interviewer: Yeah. So you used b2, did you try any of the other blogging tools?
+
+O'Caoimh: I’m pretty sure I did. I know I tried a few, but I can’t remember what they’re called now. But I know I did try a few. Their names escape me.
+
+Interviewer:  There was Grey Matter was around and Moveable Type.
+
+O'Caoimh: I didn’t user either of those, but it was other PHP-based open source one. I think I used PHP Nuke on a website. And I think it was… I really don’t have much of a memory of them. I think with PHP Nuke, I remember configuring modules for the screen or something. I dunno. So I can’t really offer any opinions on any of them. 
+
+Interviewer: That’s all right. And so why did you choose b2?
+
+O'Caoimh: It seemed to be fairly basic. And it was small, so it would be easy to modify. Also the… I think it was just the fact that the way it was laid out would make it reasonably easy to… how to say it… force it to do what I wanted it to do. And it had the multi-user aspects to it. Because it was very basic… I think it was quite popular at the time. [12:00] But it was basic, so it was easier to get us into a multi-user environment and get it reasonably secure. 
+
+Interviewer: So is that what you started off… did you start off with the intention of creating this multi-user environment?
+
+O'Caoimh: Yeah, yeah. That was the whole idea. That was my motivation. Because I had a blog on Linux that I… and I wanted to use the tools I was using. So I was able to, which was great. And I had the time to do it. 
+
+Interviewer: What did you have to do to b2 to make it into mult-user?
+
+O'Caoimh: Now you’re asking technical questions. God, I think I had to… I know I added the smart-e template thing, was the big thing. And the revisions of templates was a big thing. 
+
+Interviewer: Was that necessarily multi-user related?
+
+O'Caoimh: No.
+
+Interviewer: That was templating?
+
+O'Caoimh: Yeah, that was just making it easier for the users. But also, to make it multi-user I had… I think I possibly had to add… oh yeah, first of all, I had a separate set of tables for each blog. So that kind of thing had to be set up. I had an installer script that would do that. It had a signup page. It changed the SQL so that it would look at the right table. I think it was probably just the change in the wp, well, what is now wp_ prefix and the right table. I remember noticing that stuff I was doing, I think Matt… well, when b2 became WordPress, Matt and the other guys were probably looking at what I was doing and I remember thinking a long time that changes I was making, I [inaudible] made easier by stuff that Matt and them were doing. I can’t give an example, but… sorry, going back to b2…. Let’s see, I probably had to add stuff like a blog ID to a table or a user ID, just to separate. You have to abstract…. Probably have to have a blogs table, users table, stuff like that you know. It was a long, long time ago. 
+
+Interviewer:  Did you… were other people using it?
+
+O'Caoimh: Oh yeah. [15:00] Yeah. One of the big websites that used it at the time was, there was some, God something or other. It was a religious website. And they were actually a very early adaptor of it. And they started using it… they had lots and lots of blogs. And they …. Sometime into development I changed, I had to change the database table names. They used to be named say b2_blogname_posts. Then it was changed to b2_1_posts. So the blog link link to blog ID was a major, major, major hassle for some people. And I think this Gods website had some issues with that, but eventually they did convert over. Then I think there was Blogs Own, which is an Irish website, I think they’re still around. I think they used b2 and they started to… were using WPMU for a long time. Offering blogs. It’s kind of like a WordPress.com site. But there were lots of other. There were quite a few others sites [inaudible] I just don’t remember them off the top of my head.
+
+Interviewer: That’s okay. So was it a fork then? Officially a fork? Or was it just you made modifications to b2?
+
+O'Caoimh: A fork kind of raises, kind of gives the impression that I was competing. 
+
+Interviewer: Yeah.
+
+O'Caoimh: There wasn’t any competing because it was, you know, most of the things I was doing was just adding multi-user aspects to the project. Like when b2 became WordPress, I just renamed b2++ to WPMU. And then piggybacked on WordPress, on WordPress development to add features to WordPress, sorry merged every release. I think it was on version… was it on WordPress 3 where WordPressMU and WordPress merged?
+
+Interviewer: It was three, yeah.
+
+O'Caoimh: Yeah. So that made life a lot easier. 
+
+Interviewer: So were you basically developing WPMU kind of in parallel to WordPress?
+
+O'Caoimh:  Yeah. It was just scratching an itch that I had, you know, to [18:00] power blogs for linux.ie and that was the main reason really.
+
+Interviewer:  So what was… sorry carry on.
+
+O'Caoimh: Yeah, I added other features to it, but those… some were minor, some were big changes, like the templates, but you know once everything got merged back in then, once everything kind of worked… once WPMU… sorry, whenever they became WordPress orientated, it became more of a WordPress, I guess, I got rid of a lot of those features, like the template stuff, and just used WordPress’ features because they were probably better. 
+
+Interviewer: So whenever b2 was updated, could you update you b2++ stuff? Or would you have to kind of go through a process of merging it from b2 and then distributing an updated version to the people using b2++?
+
+O'Caoimh: Well when b2… I think b2… b2 didn’t update very often. 
+
+Interviewer: No, that’s true. 
+
+O'Caoimh: When it did, I presume I probably just merged. I know I posted on my blog announcements of new versions. So I think I just merged any changes into b2++. I think I was using probably CVS at the time. And just released a new version on my website for people to download. A lot less formal than things are nowadays with WordPress. But that was just very simple. People I guess subscribed to my blog for those updates. 
+
+Interviewer: And did you get involved with the b2 community?
+
+O'Caoimh: No. I didn’t. There was a form on the b2 cafe log website, I think, but it wasn’t, I don’t think it was ever very active. 
+
+Interviewer: It went through periods of activity. 
+
+O'Caoimh: It did. Okay.
+
+Interviewer: When Michel disappeared, it kind of got a bit quieter. 
+
+O'Caoimh: Yeah. I don’t know. I always felt that b2++ was very separate anyway from the b2 thing. So I didn’t really… I didn’t think I would ever have much of an influence on whatever happened in b2 so I didn’t, I never tried.
+
+Interviewer: And what did you think of the b2 code?
+
+O'Caoimh: Well, some of it was a mess. It’s not as bad as… WordPress itself [21:00] has kept, you know… it’s renamed its include directory. It’s got the admin directory. So we have kept some of the conventions, but its, you know, it was very flat, it was flat line. When there was no classes it was a lot simpler. And it was a lot more basic. There was security holes in it, so that was not good. But it worked at the time. I don’t know, I think it was just simple that that was one of the beauties of it. But again, I can’t really remember any… I don’t remember any specific examples of how it’s nice or how it’s bad or how it’s ugly or… it’s a long time ago.
+
+Interviewer: Can you think of any kind of sort of incidents later on that… maybe issues within the code that were caused by things that were done earlier? Legacy things that were left over?
+
+O'Caoimh: Well, my, I guess, what I mentioned earlier, changing database tables from, I think that was possibly my own choice. I probably used the database name… sorry, the blog name in the database tables and then I had to change to blog ID. So yeah, that was one big change. It caused a lot of headaches. That was my own fault, so…
+
+Interviewer:  And that was a specifically WPMU problem as opposed to…
+
+O'Caoimh: No, it was a b2++ problem. 
+
+Interviewer: A b2++ problem that was inherited into WPMU?
+
+O'Caoimh: No.
+
+Interviewer: Or you fixed it before then?
+
+O'Caoimh: Oh yeah, it was fixed before then. Long before then. I think. I’m pretty sure it was anyway. But I have no idea. I’d have to go look at the b2 [inaudible] category on my blog. Just to see what people were talking about then. I guess I could look at the comments and say oi! No, you broke this! So, I joke. I don’t know really.
+
+Interviewer: It’s okay. OK, when you joined WordPress, did Matt email you? Or how did that happen?
+
+O'Caoimh: When I joined WordPress or Automattic?
+
+Interviewer: WordPress. When you decided that b2++ and WordPress would…
+
+O'Caoimh: I honestly can’t remember. And unfortunately about three years ago, I lost all my email. 
+
+Interviewer: Oh no!
+
+O'Caoimh: Which really, really sucks. 
+
+Interviewer: That really sucks.
+
+O'Caoimh: Yeah, yeah. I keep backups of everything, but I had just changed PCs [24:00] or I’d copied all my email onto a laptop because I was going traveling, and the laptop hard drive died on the way back. Which really sucks. So I didn’t have any backups because the backup had been moved off my home directory on my PC at home. So I had removed it. But, yeah, I think he’d been in touch to talk about I think the naming of it. I can’t remember who came up with WordP… the MU. It might have been Matt, but I honestly can’t remember. MU? MU? Who came up with it. No, I don’t remember at all. But yeah, we were in touch. We were in touch at the time. 
+
+Interviewer: I mean it seems… sorry.
+
+O'Caoimh: Yeah, he, like I said before I think they were doing stuff on the WP site to make my life easier. Make putting the… making it multi-user. I think possibly adding user IDs or blog IDs to tables and stuff like that. That’s just the recollection I have from the time. I don’t remember what exactly they were. I should have blogged about it I guess. 
+
+Interviewer: Did you discuss it in IRC chats, do you think?
+
+O'Caoimh: Probably not. Because I didn’t really hang out on #wordpress. I would have been more active on the linux.ie IRC channel. And most of that would have just been complaining about adding new features and stuff. It was mostly a solitary thing from my perspective.
+
+Interviewer: So you didn’t get to involved with the main development of WordPress. You were just kind of beavering away doing the WPMU thing. 
+
+O'Caoimh: Yeah, I was. I would have been more concerned about the multi-user side [inaudible]. I left the WordPress stuff up to Matt and Ryan and everybody else.
+
+Interviewer: So when you joined the project, when you posted about that, you said you were going to merge b2++ changes with WordPress. But instead you created this own, this other sort of separate thing, which is WPMU. Why did you decide to keep them separate?
+
+O'Caoimh: Oh, I vaguely remember that. I think it was just the fact that… [27:00] I remember there was talk about… I think maybe it just wasn’t a good fit? Maybe at the time, there was probably so much to be done in WordPress itself that adding the multi-user part of it could have been a [inaudible] headache. Like nowadays, even now, a multi-user side of it is… can be hard for people to get working. But it’s a lot more mature than it used to be. It used to be a lot harder with rewrite rules and all that kind of stuff. And database tables, etc. I think it was just felt that they should be separate projects because they were entirely different sites. Like the single users thing is most people just have one blog, they don’t have half a dozen blogs running on one server. On one hosted server. So it wouldn’t have been a requirement for most people. But nowadays, possibly WordPress is a more mature, being used by more sites, and more people are doing exactly that - running lots of websites on one host. I certainly am, so it’s a dead handy. There’s one source code, or one archive. 
+
+Interviewer: And so were you happy for your… I guess, your pet project, to sort of become part of Matt’s project and the WordPress project rather than being your own separate… I mean it was a separate thing, but it was still part of WordPress. 
+
+O'Caoimh: Oh, yeah, yeah. You mean in WordPress 3.0?
+
+Interviewer: No, I mean in terms of… I mean you could have just continued with your own development and made it your own project of b2++ but it very much became part of the overarching WordPress project. 
+
+O'Caoimh: … well, I benefitted because I got all the new features of WordPress. So it’s like it was a no-brainer adapting the name of b2++ to WPMU. Because b2++ would have stagnated and someone else would have simply forked it and called it, you know, would have made a WordPress multi-user… multi-blog WordPress, what’s it called, project. If I hadn’t done it. Actually there was one other one, I can’t remember what it was called, but they had… they ran multiple WordPress blogs from one set of tables. And they had to modify every single SQL table… SQL query in the code, in the project, and I can’t remember what it was but it stagnated just because of the fact that they had to change so much. 
+
+Interviewer: It wasn’t b2 Evolution, was it?
+
+O'Caoimh: I don’t think it was that. [30:00] Yeah, I can’t remember now what it was. But it was a really interesting idea of it. Especially with mySQL and myICM tables. Large tables would have just gotten unwieldy anyway, so. It’s just better off spreading the load to different tables. 
+
+Interviewer: So I’d like to talk a little bit about the development of WPMU. So it was done kind of separately to WordPress, but you merged all of the changes in. Did you have Trac for that or something like that? Or was it on CVS? Do you have a…
+
+O'Caoimh: It would have been… It was on CV… well I was… WordPress MU eventually got it’s own Trac in CVS on WordPress.org. But b2++ would have been running on the CVS on my own server, or [inaudible] desktop machine. And power linux.ie, oh, [inaudible] I see you got it running on linux.ie and like 90% of the time I did my development through SSH and a VM and using VIMP it’s because I find it’s easier to do than local development. So at the start it would have just been CVS, no bug tracker. My bug tracker would just be my blog people posting comments. But then it did eventually get, there was a Trac on WordPress.org for WordPress MU and it had it’s own SVN, but it was kept separate from the main WordPress thing. So if there was… occasionally bugs were posted to the WordPress MU Trac that should have gone to WordPress.org and things were moved back and forth when needed.
+
+Interviewer: I’m just gonna open a list… the timeline’s not as good as the WordPress one. Did other people get involved with the development? 
+
+O'Caoimh: Yes. Lots of people got involved with WordPress MU and a couple got involved with b2. Unfortunately I don’t remember most of their names. Actually about a year and a half ago I got an email from a person who I can’t remember his name again - doh! - looking for a reference. Asking if he could use my name for a reference for a job interview. And I was thinking, ok who is this guy again, dammit! Who the hell is he? When I was talking with him then he reminded me [33:00] that he did, he actually submitted some patches and stuff to WordPress MU. I think he modified a huge amount of the dashboard. The admin network dashboard. But it was just so long ago that it completely escaped my mind. It’s like uh oh.
+
+Interviewer: It’s okay. I forget people from a few weeks ago. 
+
+O'Caoimh: But yeah, loads of people helped with WordPress MU, which was great. And I think stuff was even submitted to WordPress, that I saw, when I merged, oh yeah that fixes that bug, you know. That helped. So anybody who helped WordPress helped WordPress MU obviously.
+
+Interviewer: Was that difficult to manage? Like did you ever merge things in and they would just screw everything up for you?
+
+O'Caoimh: Yeah, oh yeah. Occasionally, well every time you’d have to do a merge I would use this thing called VIM diff which basically it loads up two files, sorry, you have to merge each file separately. I had to use this thing called VIM diff which hosts the two files in one window side by side so you can compare changes and you can push changes from one window to the other. So it made it very easy actually to merge changes, but like I had to keep track of the changes that were made in case they clobbered anything important, or broke anything. So in the back of my mind I’d be going OK, did that change that I made five files back, will that affect this change? So it was a bit of a pain, sometimes, merging. Especially as WordPress got bigger and bigger and bigger. 
+
+Interviewer: I can imagine that being a bit of a nightmare.
+
+O'Caoimh: So it was really fun when WordPress 3.0 came around. 
+
+Interviewer: It seemed that people wanted for ages for it to be merged with WordPress. I saw a lot of things on the forums. People saying when is it going to be in WordPress. 
+
+O'Caoimh: Yes, that’s right.
+
+Interviewer: So, why did you eventually merge it?
+
+O'Caoimh: Why? Well I think it was Matt’s idea to merge it. He obviously saw there was an opportunity to go make things easier, make development easier. [36:00] At the time I remember - what was I working on? I can’t remember what I was doing in Automattic - but Ron Rennick he did a lot of the merging. Have you talked to him yet about…?
+
+Interviewer: I haven’t yet. Not yet, no. He’s on my list.
+
+O'Caoimh: Yeah, he did most of the merging. But I guess it was just the right time to do it because WordPress.com was doing well, and people wanted to create their own WordPress.com. And it would have been a… I guess they merge every time a new version of WordPress came out, having to wait a day or two then for WordPress MU to catch up was possibly just not… it was something we didn’t need to do any more. But it was part of… it was a WordPress idea. It was Matt’s idea. 
+
+Interviewer: So was WordPress.com WordPress MU? 
+
+O'Caoimh: Yeah. Yes. It has been WordPress MU from the start. 
+
+Interviewer: Well, I’m going to be doing… I’ve got a whole section on Automattic. So once I get on to that I’ll probably have to hit you up again to talk about WordPress.com. I’ll leave that for another time. So Ron and Andrea were involved with development of WordPress MU? Ron particularly?
+
+O'Caoimh: Yeah, they were. And I honestly can’t remember how much they did, but they did loads. Ron did a pile of stuff with the domain mapping plugin which is… which probably every WordPress MU website uses. Between himself and myself, we keep that plugin going. Andrea was doing a lot. She’s pulled back quite a bit from the coding. She does more support and ebooks now. But I met them in Canada. They’re nice, nice people. 
+
+Interviewer: They’re great. I met them last year. They’re lovely. I’m a big fan of them. 
+
+O'Caoimh: They’re really, really nice people. I can’t remember what they were doing. I’m sure Ron will fill you in.
+
+Interviewer: I can ask them. 
+
+O'Caoimh: Please do. I’m so embarrassed.
+
+Interviewer: No, no, no. You’ve actually remembered quite a lot. Which is good. I also wanted to ask you about the smarty templating system. Because that was your first commit to WordPress itself. It was an import of smarty templating support. [39:00] Let me you… 
+
+O'Caoimh: … I don’t remember this. 
+
+Interviewer: Where can I find it…
+
+O'Caoimh: Shift + Cntrl + t will open 
+
+Interviewer: Shift + Cntrl + t?
+
+O'Caoimh: Yeah, it will open tabs that you had closed. 
+
+Interviewer: Oh here it is. Got it. This was your first commit to WordPress. There you go. And Matt as well had been writing on the WordPress.org development blog about smarty templates. He seemed quite keen on them at one point.
+
+O'Caoimh: Oh, yeah.
+
+Interviewer: So I’m wondering why it got rejected and did this stuff that you put in, did that get pulled out of core?
+
+O'Caoimh: Let me see… it’s loading… hang on… I think it was just the fact that… god I can’t even remember doing this. Nine years ago. Wow. Actually it’s the 11th. We’re just shy of, you know, it’s anniversary. 
+
+Interviewer: I know.
+
+O'Caoimh: Wow, that’s amazing. Yeah, I think it was just the security aspect of it was the biggest hassle. I know I had created a shell script that went through the b2 code and WordPress code searching for function names and converting them to smarty template functions which you could use then in your template, in the smarty template. With using that you could lock down other, you could lock down the security somewhat but it was still a bit of an unknown. I think a lot of people… sorry, some people’s complaint on performance as well, but smarty templates could be cached so I actually thought they were quite fast. I loved using it. I thought it was a really great system. But even with that shell script creating the template tags, I guess it was duplication of effort, you know, duplicating the function names. It was just too much of a hassle. Maybe the security issue was probably a huge, huge reason not to use it.
+
+Interviewer: So what was the security issue? Can you remember any of the details?
+
+O'Caoimh: Well, you could use smarty to execute PHP code. So you like you could probably have [ PHP and then, you know, [42:00] RM - F4, blah, blah, or RM dir something or other. Or readfile wp_config.php. And then it would spurt out your config file. So things like that. You could lock some of those things down with a PHP [inaudible] with smarty configuration, but… it’s just a risk having code like that in your project. I’m sure… it can be solved. Nowadays all the momentum is towards using HTML and WordPress themes so there’s no need for that kind of thing. I know that most people don’t really want to hack HTML, even though they say they want… people say they want theme, they want flexibility. But they really… a lot of people just really want a selection of nice themes and a nice interface to customize them. You know, you don’t want to be putting in div tags and changing CSS and having to execute PHP to get the date. You just want a date template tag. 
+
+Interviewer: Did you get involved with the theme system whenever it was being developed?
+
+O'Caoimh: No, I didn’t. I didn’t. I took a backseat from a lot of the WordPress stuff. Once Automattic took off, I was working on different… on the bidding side of Automattic, of WordPress.com. So I just took a back seat from a lot of WordPress development then. Concentrated on my plugins, SuperCache and other domain mapping and stuff like this. So I left a lot of the core stuff to other people. 
+
+Interviewer: What about the plugin system? That was quite a bit earlier. Do you remember where the idea came from? 
+
+O'Caoimh: I do not. I can’t even recall if b2 had a plugin system. It probably had.
+
+Interviewer: It had a… so it had a hack system where people would make hacks…
+
+O'Caoimh: Oh, yeah…
+
+Interviewer: … and then you would edit a text file so that it would appear in a menu.
+
+O'Caoimh: Right. See I don’t even remember that. I don’t remember who created the plugin system in WordPress.
+
+Interviewer: Do you remember [inaudible] system had a big effect on WordPress MU? 
+
+O'Caoimh: Oh, it certainly did because we were able to create the domain mapping plugin. [45:00] I remember for the domain mapping plugin, we had to modify, I had to modify WordPress core because it hooks in so early in the WordPress initialization. I think I had to create the sunrise constant. If it finds that, I think it short-circuits the WordPress, so it doesn’t load all of WordPress before executing the domain mapping stuff. But since domain mapping is a plugin, well that [inaudible] it had a WordPress MU. Also the fact that users couldn’t allowed trusted, untrusted users in WordPress MU to execute code. We had to create the super admin user so in WordPress MU only trusted users could have access to things like the themes page, plugins page, anything, you know, that can modify system files. Or for admin-ing the website. So the users of the site, even [inaudible] blogs, wouldn’t have access these. Because there were possibly strangers on the website. So the security and trust were issues when plugins were introduced to WordPress. So they had to be dealt with in WordPress MU. Just because of the untrusted users. 
+
+Interviewer: Yes. How did you deal with them?
+
+O'Caoimh: At arm’s length. Well, as I said, the person who set up the website, who maybe administered the website would be a super admin. And he or she would have access to every blog and they would be able to login to any of the websites hosted. Plus have access to this extra admin pages where they can mess around with the plugins and themes. Of course, you’re going to know this. We have to… the super admin could activate plugins and themes site wide so before plugins and themes were visible to users, they have to [inaudible]
+
+Interviewer: Why did you not [48:00] put domain mapping into WordPress MU?
+
+O'Caoimh: I think it’s because of how sites like WordPress.com work. The ideas that the blogs on the site are a part of… are identified with the main installation. So like my blog on WordPress.com is donncha.wordpress.com. I used to have a domain map but I just let it lapse. So I think also, I guess, for simplicity as well because maintaining the domain mapping plugin is sometimes a challenge when things like… certain permutations of hosting and DNS. I remember doing some really odd DNS issues came up last year, that we’d never thought about before and we had to add, okay, fixes for that. So you know, where this feature might only be a small part… might only be needed by a small number of users, you’d have to pump out a new version of WordPress if it was part of core. So it just delegates some of the complexity to a plugin rather than having it in core. Keeping core simple. 
+
+Interviewer: The first time I learned what domain mapping was, I was like wow. One of the… I’m trying to remember now, I can’t find it, but I seem to recall reading that you were one of the first people that was paid to work on WordPress. Is that right? Well, you were paid to work on WordPress MU. Was that prior to Automattic?
+
+O'Caoimh: No, I was the first employee of Automattic. No, I was never paid to work on MU before I joined Automattic. Working for a small startup in Cork and I would work on MU in the evening, hacking on stuff. Yes, so then I was the first employee of Automattic. Myself and Matt working on two servers… with WordPress MU on it and possibly… I think WordPress MU on one server and mySQL on the other server and possibly then we’d put my SQL on both servers because the extra load, juggling those things. So it wasn’t until I joined Automattic that there was any payment. [52:00] 
+
+Interviewer: OK, well, I have talked to you about all the early development stuff that I wanted to talk to you about. I would love to speak to you another time about kind of joining Automattic and the early days of that. But I think that’s probably a whole other discussion.
+
+O'Caoimh: Yeah, it probably is. Honestly, I need to get a cup of tea my tummy’s rumbly. I’m just starving. 
+
+Interviewer: Yeah, yeah, I know. So let’s wrap it up there. That’s been really useful though. 
+
+O'Caoimh: Good.
+
+Interviewer: I’ve been writing a little bit about WordPress MU, but it’s great to speak to you and be able to get that a bit more fleshed out. So I will… once I get going with the Automattic stuff, I’ll let you know and we can chat again, if that’s okay. 
+
+O'Caoimh: Ok, alright. If you need any more, just email me and I promise I’ll get to you more quickly this time. 
+
+Interviewer: Ok, I’ll hold you to that. 
+
+O'Caoimh: Alright.
+
+Interviewer: Alright. Thanks Donncha. 
+
+O'Caoimh: Alright. See you Siobahn.
+
+Interviewer: Bye. 

@@ -1,0 +1,183 @@
+Interviewer:	We’re talking to Brad Williams. It is the 10th of November, 2014. Hi, Brad.
+
+Williams:	Hello.
+
+Interviewer:	Can you start off just by telling me first of all how you got involved with WordPress?
+
+Williams:	How I got involved with WordPress from the start?
+
+Interviewer:	Yes.
+
+Williams:	That’s going back a little bit. So I guess my first taste of WordPress was in 2006 and I actually used it to start a blog. Shocker, right? I went to a conference at my previous job and everybody there had a blog except for me, so I felt a bit left out. So I decided that night to figure out, set up a blog. So in my hotel room I ended up installing WordPress for the first time and started a blog that night. That was kind of my first real experience with WordPress. 
+
+Interviewer:	How did you get more involved with the community?
+
+Williams:	I think it was a natural progression. I’m a developer, so as a developer, and any time you’re working on a piece of software and you know it can be tinkered with you always want to kind of tinker, right? You want to know what’s under the hood. How things work. How to change things. Extend upon different things, so I just started digging in the plugins, the themes and getting a sense of how I could modify my blog and do different things, plugins, and kind of go beyond just installing plugins but actually modify them to do what I wanted.
+
+	That was probably 2007. I just started diving in and learning. I think that was how I really got involved with the community because a lot of my early learning was done online through channels like on IRC and the WordPress channel – I’ve learned a lot in there. Or in the support forums or in various communities like WP Tavern and some of the other early on communities. Just really seeking out knowledge and answers from people that were much smarter than me in the WordPress – knew WordPress inside and out, where I didn’t.
+
+	I think it was more just me seeking knowledge and reaching out, and then it ended in that change where it went for me always asking questions, to me starting to help people and answer the questions, because I was learning and I could help answer questions that people were asking. So a kind of natural progression of being the question asker and then evolving into the questioner answerer for people.
+
+Interviewer:	What was the first Word Camp you attended?
+
+Williams:	The first Word Camp I attended was Word Camp Mid Atlantic in 2009 and I actually spoke – the first Word Camp I attended and first time I spoke at a Word Camp, so I spoke at that Word Camp. If you’re not familiar that was actually in Baltimore.
+
+Interviewer:	Word Camp Mid Atlantic? Wow.
+
+Williams:	Yes, Word Camp Mid Atlantic, so it was kind of like before Baltimore and Philly and DC and this whole kind of area. There were no Word Camps in that area so they kind of made one that encompassed all those areas. That ran for a few years until things like Word Camp Philly started and then now it’s back to Word Camp Baltimore. I actually just went to Word Camp Baltimore a couple of weeks ago and it was my fifth time, and I’ve been to every single one, which I actually didn’t realize until I did the math, so it’s pretty cool.
+
+Interviewer:	What was it like, that first Word Camp you went to in comparison to what they’re like today?
+
+Williams:	From my perspective certainly different, I think mainly because I didn’t know anybody. I didn’t know anybody; nobody knew me. So that aspect, going to a conference, especially going by yourself – I don’t think anybody was with me – was interesting because I didn’t know anybody so I kind of had to get out of my comfort zone and talk to people and interact with people and get to meet people in the areas. 
+
+	So now, obviously, if I go to Word Camp I’ve made a lot of friends over the years so it’s as much a reunion as it is a Word Camp event. That’s probably the biggest difference, just not really knowing anybody. But it was kind of cool because I was able to – I remember I met Mark Jaquith for the first time so it was like actually meeting a big community rock star, or whatever they call them these days, was exciting. It was fun to meet Mark and chat with him a bit and realize that these people are very approachable in this community, which I think is another reason why I really kind of stuck around and grew because it was a very approachable community, and it still is.
+
+Interviewer:	Was there anything different in terms of format or presentations or was it pretty much the same as they are now?
+
+Williams:	I think somewhat the same. The presentations, general 30 to 60 minute type of presentation with a QA at the end. I think the biggest change is probably around topics because back then you didn’t have things like the business topics really. You didn’t have things like the commercial side of WordPress topics. That stuff was just getting started. People weren’t really talking about it, at least not in a presentation sense.
+
+	There were topics being presented on nonGPL, which obviously is not really kosher anymore. In fact, I presented on – don’t shoot me – but I presented on a theme that starts with a T that is not [unintelligible 00:05:15]. It was like the Wild West; you could just talk about whatever you want.
+
+Interviewer:	Yes.
+
+Williams:	I think it’s been different in that aspect, and also just the growth of WordPress as a whole because originally, like I said, people weren’t talking about the commercial side. They weren’t talking about the business side. It was very much like how to install plugins, how to work with themes, caching, it was very kind of high level talks.
+
+Interviewer:	Was there stuff focused on users do you remember, or not?
+
+Williams:	I’m sure there was. I don’t necessarily remember because I was always more on the dev side so I would gravitate towards those sessions. I do remember other Word Camps I went to earlier on where they had a strong focus on users, writers, how to use WordPress, things like that.
+
+Interviewer:	Why did you start organizing Word Camps?
+
+Williams:	I think it was, again, back to that natural progression. I was in New Jersey at the time living and started a meetup group. There wasn’t really one around. There was New York but that was kind of far away. There was really nothing close. Brian and I, the other founder, we started a WordPress meetup group just to see if anyone was around, if there’s an interest. It never got big but it was kind of nice because it wasn’t big. We usually got maybe ten people so it was a very informal kind of gathering of people that were interested in WordPress and it was kind of fun. 
+
+	I did that for a while and I ended up moving to Philly about a year later and Philly had no meetup group and hadn’t had a Word Camp, so I immediately started. They actually had a meetup group years past and it kind of dissolved or disbanded and no one had really stepped up to do it again. There were a lot of people there interested in WordPress so I started up the meetup group again and we grew very, very quickly because there were a lot of people that were interested in WordPress in Philly, and Philly is a big city. 
+
+	Also, at the same time Word Camp Philly was in early planning stages. There wasn’t a meetup group but there were a few people that were organizing Word Camp Philly. There wasn’t a lot of detail other than when it was going to be so I reached out to them and said, ‘Look, I just moved to the city, I don’t want to step on any toes, I’m obviously not from here but I would love to help if I can’. It was actually Anthony Bubel, who works at Automattic, who was organizing it and he said, ‘Absolutely, I’m actually having trouble because organizers aren’t really being responsive; it’s me running this thing right now’. 
+
+	So I dove in and Anthony and I, and I think Doug was also part of it – Doug Stewart – ended up organizing, helping organize the first one. It was just good timing because our meetup had just started, we had a Word Camp a few months later so it really kind of jump started the Philly WordPress community.
+
+Interviewer:	How many more have you organized since then?
+
+Williams:	That was 2010, was the first one; we’ve had four, total. So we did 2010, 2011, 2012 – we skipped ’13 because we moved from the fall to the spring. It was either do one in six months or do one in 18 months type of thing, and we knew six months was just going to be cutting it way too close to try to pull it off so we skipped ’13 to just kind of push it to the spring. So we had our fourth one actually June, so early summer; this June. We’ve had four, total.
+
+Interviewer:	What was it like that first time organizing it? What sort of experience did you have?
+
+Williams:	Nerve wracking; I’d never done it before, like I’d never organized a conference, I’d never done any of that stuff before so it’s like we didn’t have that history or that experience. Now it’s much easier because we’ve done it four times. We know generally what works and what doesn’t work. Early on, the first one, you don’t really know so you’re thinking up all … you want to be the biggest and the best thing ever but sometimes you’re thinking a little bit too big, you know?
+
+Interviewer:	Yes.
+
+Williams:	So you’ve got to kind of keep it obtainable. That first one you don’t need to have 1,000 people at it; just do it based on the size of your community. Get a good group of people together and have fun. So we organized the entire thing using P2, which was cool; it worked well for that, and it went off pretty well. I think we had around 300 people, 250 to 300 I think. There were some hiccups, but overall there weren’t any major issues, then the little hiccups and stuff you remember for next year. 
+
+Interviewer:	Do you remember any of those hiccups at the first one?
+
+Williams:	Yes. I think registration is a big one because if you don’t have the registration area set up correctly it’s a huge bottleneck, so I remember our first one there was a line out the door of people. We were trying to do too much in one spot. Get them registered, get their Tshirts, get their badges; it was just too much in one spot, so we learned from that. 
+
+	In all the Word Camp sense we’ve always separated it, so you register, you move on and there’s a whole other section set up for things like shirts and swag and all that stuff. We tried to eliminate that bottleneck. If there’s a separate Wi-Fi thing you need to do we moved it to its own little place, people could go and get their Wi-Fi later. Little things like because you want to get people in the door as quickly as possible. They don’t want to be in line for an hour. I remember that was one of the bigger issues I think we ran into, which was an efficient registration process.
+
+Interviewer:	What sort of support did you have from the project for that first Word Camp?
+
+Williams:	I don’t know that we had a lot of support, and I don’t know that we asked for support, you know what I mean? Not to say that they weren’t willing to give us support; I just don’t think we necessarily knew to reach out and talk to anybody. We were just kind of like, ‘All right, we’re doing a Word Camp so we’re just going to kind of figure this out’. Yes, I honestly can’t remember if there was involvement from the WordPress project at all during that first one. If there was I think it was pretty minimal because it doesn’t stand out, so we were kind of on our own, doing our own thing.
+
+Interviewer:	Do you remember what you thought a Word Camp was?
+
+Williams:	In terms of what type of an event I thought it was?
+
+Interviewer:	Yes, what type of an event. You knew it was a conference but did you have any idea, any guiding ethos behind it, or was it just like we’re going to put this event on?
+
+Williams:	I don’t think I had any real set expectations, other than just people that were interested in WordPress, getting together and talking about WordPress. Again, earlier on, it was like they were interesting topics but they weren’t really specific topics around maybe a certain feature. Now you might have a presentation on the meta box API or something like that. Back then they weren’t really that specific; they were more like basics for building a plugin or whatever, or the basics for building a theme, and now they’re talking about doing things with backbone and very specific ways to do themes. I think it was a little more generalized and that's kind of what I expected. It’s just this general WordPress conference that hopefully has topics that interest anyone that’s going to be there, in some way.
+
+Interviewer:	I think around the time you were organizing the new Word Camp, guidelines were introduced, do you recall what your reaction was to those guidelines?
+
+Williams:	I think initially I was not happy with them. I definitely understood why some of the guidelines were in place but they were kind of forced on organizers in a way that I thought could have been handled better. It was not like, ‘Do this or you’re out’ type of thing. I think it probably would have been more beneficial across the board for some more open conversations between the Foundation and the organizers to make sure, one, that these guidelines make sense and that we're all on the same page and if there was any concerns get those out in the open.
+
+Interviewer:	Sorry; just give me two seconds. My phone is ringing; hang on. Sorry, my husband doesn’t have his keys. I’m just letting him in. You said that you didn’t think that it was very well handled – can you say a bit more about that?
+
+Williams:	At least for me, and maybe there are some conversations they had and I wasn’t a part of, but it kind of came out of nowhere and, again, it was kind of like you had to follow these rules or you can’t organize a Word Camp. So it felt very, I don’t know, a bit standoffish in the way it was presented, so there wasn’t like an open, ‘Okay, let’s discuss this’. It was kind of like, ‘Just do it’. 
+
+	Like I said, I certainly understand why some of those rules were in place and I think, ultimately they’ve made Word Camps better, but I think the way it came down – and to be fair it was a new thing so sometimes that happens. You introduce new policies or changes. When things change sometimes the initial reaction is, ‘Well, I don’t like change’, right, so we see this in just the WordPress project itself. Any time there’s a major change there’s always a lot of resistance. I think that might have been it. It was handled a bit – I don’t know, it was a bit strong for me when it first came on the scene and I first learned of it.
+
+Interviewer:	What were the discussions like amongst organizers, because you talked to other organizers about it?
+
+Williams:	I think it was kind of the same across the board. The organizers that I spoke with, and I’m friends with quite a few Word Camp organizers, just didn’t agree with some of it, and some of the policies in place. Didn’t agree with how it passed down to everybody. Again, I think we all knew what the goal was, which was to make these events better, but it wasn’t necessarily something we all agreed with. Yes, some people stopped organizing after that. They decided they weren’t going to down that road and that was it for them.
+
+Interviewer:	Why did you continue to organize?
+
+Williams:	For the community here in Philly. We have a really awesome WordPress group and we have one of the biggest meetup groups, sizewise in the country. We’re all good friends and we’re all very much a part of the WordPress community and we like to help each other out and get back. It’s just a good group of people. So to step down and not do a Word Camp in Philly I think would be an injustice to the community here, so it was more of let’s work and figure out how we can make this work together because we don’t want to not have a Word Camp.
+
+	I also would hate for someone else to pick it up that maybe isn’t going to run it as well or just kind of doing it more for their own selfpromotion purposes, things like that. We do it – and when I say that I don’t mean it’s my baby and I’m the only one – we have a really good group of organizers and volunteers so we very much organized it in a way that it’s a group effort. It’s not any one person, and it was something the organizers sat down and we talked about extensively. 
+
+	We all agreed we didn’t want to step down and maybe Word Camp disappeared in Philly, maybe somebody else took it over that really wasn’t a community member. Who know? Maybe somebody takes it over and does an amazing job but it’s a gamble, right? We want to keep it going in Philly. We really enjoy our group. We want to keep it growing and so that’s why we’ve been working with the Foundation and the Word Camp Central for the past few years, with the guidelines to make sure that everyone is staying within those guidelines and keeping everybody happy.
+
+Interviewer:	Were there any of the guidelines that you were particularly unhappy with?
+
+Williams:	Yes. I think one – I don’t necessarily love using the cookie cutter website – that’s one I’ve been pretty public to gripe about just because I feel like all of the Word Camp websites are starting to look the same and our hands are a bit tied on what we can do. And as a developer, when you put me in a structured environment I just want to break free because I know I can do things differently if I can just get to the code. It can be a bit frustrating from that angle, so that’s one area.
+
+	I think the bank account was a tough one to get past as far as using the Foundation’s bank account versus our own. I definitely understand their reason behind it. There’s a lot of protection. If we’re using a personal bank account and for whatever reason we were to get in a lawsuit it could come after our persons, right, the organizers. So the Foundation is a layer of protection there, which is definitely very nice. 
+
+	The other one that I’ve had issue with in the past, and we’ve talked about, is kind of what happens if there’s overages and the goal is not to make money on a Word Camp, and we know that and we respect that, but in years past when we’ve had overages you certainly don’t want to lose money, so you do what you can to make sure you’re not going to lose money; you’re going to have a little bit of overages, just a buffer to be safe.
+
+	We’ve taken that money and donated it back into the community through nonprofit computer – there’s a couple of nonprofits that focus around building and getting computers into the hand of the people that can’t afford computers, so we like to donate back to that charity and keep it in the community. Currently that’s not an option with the way they’re running Word Camps and budgets now. 
+
+	Unfortunately, it is what it is, but that was one that I would like to see it, hopefully down the line, tweaked in a way that as long as it’s something that’s approved by the Foundation or whatever, because obviously it’s not WordPress directly related, but getting kids into computers is a good thing. WordPress and for anything else on the internet or just computers in general, so it’s a charity that we’ve always enjoyed supporting. We still support them through the meetup; we’ll do meetup events and stuff that of a larger scale sometimes, and when people pay five bucks then we’ll donate money. Things like that I think could be – it’s all about keeping it local, right, with Word Camp, so if you can give back to your community in more ways I think it’s better for everybody.
+
+Interviewer:	How did you feel about the one abroad, the guideline about promoting the philosophies behind WordPress, which is basically the one which says that only people who create GPL, 100% GPL products can speak at Word Camps?
+
+Williams:	I like that. At the end of the day the GPL is a license behind WordPress, it’s the freedoms that or the reason why we’re here doing what we love day in and day out. For my job I’m working with WordPress every day and it’s because of that it’s the GPL license that allows me to do that, so I’m all for that. I really like if you’re a part of this community and you really want to be involved and you have products out there or whatever it is, if you’re not in line with what WordPress is doing from a licensing standpoint, it just seems very counterproductive. It just doesn’t make sense to me. You’re using WordPress for your business but you’re kind of going against what WordPress stands for. It just doesn’t make sense to me, so anything we’ve ever done has always been released under GPL, opened up for the world to do with as they please because we’ve gained a lot from the community, and similar people doing that for us. So yes, I’m all for that one.
+
+Interviewer:	Were there any others that you were happy with at the beginning? We’ll forget about now.
+
+Williams:	I think it had a little bit more structure, it was a good thing I think because part of the guidelines too is not just around GPL, but also around keeping it on topic, right? Don’t come to the event and talk about something that has nothing to do with WordPress. Things like that I think were good too, to keep it kind of focused, and I don’t think it was rampant problem but there were Word Camps coming out that were much more focused on promoting the organizers and potentially even the speakers, above the actual there to help the attendees and help the community. They were getting a little more commercialized in that sense of it. There’d be Word Camps that were all about SEO but they weren’t really WordPress at all. 
+
+Interviewer:	Did you go to any of these?
+
+Williams:	I did not but I saw a few and I know they happened, and I think a  lot of that was why these guidelines were put in place, because they were using the Word Camp name for whatever they wanted.
+
+Interviewer:	Yes.
+
+Williams:	So I think squashing those, and it really has because you don’t see those anymore; I think that’s a really good thing that’s come out of it.
+
+Interviewer:	How did the guidelines directly affect your organizing of a Word Camp? What changes did you have to make?
+
+Williams:	With any decision we always had to make sure that this is something Word Camp Central are going to be okay with, or is this something we’re going to have to talk to them about, or they’re not going to like this? So there was always kind of that voice in the back of your head making sure that whatever decisions you’re making are not going to draw fire on you or something from Word Camp Central. 
+
+	That’s probably the biggest. You always have to think about stuff like, ‘All right, so and so wants to donate whatever it is, this product or this thing, is that allowed? Are we allowed to do that’? Well, they need to be a sponsor, so it’s like we always have to kind of circle back to those guidelines when we’re making decisions and hope we’re making the right ones. We’re not going to find out after the fact that it was wrong, so that’s probably been the biggest one. Just every decision we had to make we had to kind of think about how that’s going to be looked at by the Foundation. 
+
+Interviewer:	Do you think that’s positive or negative?
+
+Williams:	I think early on I thought it was negative. Now that I’ve done a few Word Camps, working with Word Camp Central I think it can be positive for the most part, because again it kind of keeps you in check. Rather than just making rash decisions and your event turns into a spam fest for anybody that wants to do whatever they want, you’ve kind of got to think about that stuff ahead of time, when before you wouldn’t really think about it at all. I don’t think it’s necessarily a bad thing; I think for the most part it’s a good thing.
+
+Interviewer:	And what has that process of negotiation with Word Camp Central been like?
+
+Williams:	For the most part they tend to leave us alone. If we ever have questions they’re pretty accessible; they’re on Skype or a quick email. It’s been better over the years and I think as Word Camp Central has brought in people dedicated to Word Camps. Early on when the guidelines came out it was difficult; sometimes didn’t even get a response, and that was when I think there was one person doing it along with five other jobs they were doing, so they weren’t dedicated to it. As far as their focus they were all over the place, and no fault of theirs. It was just they’re wearing a lot of hats. 
+
+	Now they have people that are focused. Their entire job is around Word Camps, which makes it super easy to reach out if you have a question, if you need some assistance or they need to pay an invoice, whatever it is. We get responses very, very quickly, which has made a huge difference. Because if you’re looking for an answer, and a lot of times when you organize an event, sometimes you need to come up with an answer pretty quickly. Or if you’ve got to pay somebody so that they’re going to cater your event by a certain time, you need to make sure you’re getting responses and they understand there are deadlines. So knowing that there’s a fast response has definitely made it easier over the years.
+
+Interviewer:	How do you feel about the Word Camp guidelines now?
+
+Williams:	Overall, I’m okay with them. I think it took a while to get used to them. There are still, again, some areas that I think could be improved, like around the theme and things like that, maybe trying to give back to local charities, stuff like that. Overall, if I wasn’t for them at this point I wouldn’t still be organizing Word Camps. I would probably still be doing an event; it just wouldn’t be called a Word Camp, so I kind of made that decision. 
+
+	It took me a little while to get there but we kind of made that decision as a group and decided that we’re going to keep moving forward with Word Camps and working with the Word Camp Central to do the best we can. We’re very open with letting know our ideas and suggestions. We’ve told them that stuff in the past. Overall, I think there’s more positives than negatives with it, and having seen it for the past few years, I think most people would probably agree with that. Like with anything though it always needs to be reviewed and altered over time to make sure it still makes sense.
+
+Interviewer:	Yes. Can you tell me what sort of impact Word Camp Philly has had on the community there?
+
+Williams:	I think it’s had a pretty big impact, not just for WordPress either. So Philly – most people probably don’t know this – but it’s as very big Drupal town and there are some big Drupal agencies in town. They do a Drupaldelphia event every year. They do meetups consistently every month and sometimes more, so it’s a very big Drupal town. 
+
+	We joke about WordPress versus Drupal; at the end of the day we’re all on the same team, right, which is the open source side, but it’s still friendly rivalry. It’s been fun to see WordPress grow in the town in the past three or four years. It has a much bigger footprint in Philly now. You’re also hearing it talked about more outside of the WordPress community, so we have various news outlets that talk about tech and just the business side within Philly, and there’s a lot more WordPress content coming out now than there was.
+
+	I think a lot of that has to do with the community that we have. At last count I think it was over 1,200 members in our meetup and our Word Camps are averaging about 400 people, sometimes a little bit more. I think it’s grown a lot in our community and just in the city as a whole; like WordPress is something that people are really taking notice of in Philly and really weighing it as a good option for their projects.
+
+Interviewer:	What sort of impact have Word Camps had on you personally?
+
+Williams:	A very good one. Early on, when we first started WebDev Studios, I think we viewed Word Camps as a place to learn but also a place to try to get business, and that was not the right mindset, which we learned over time. When you first start a company you’ve got to be very hungry and aggressive to kind of get out there and get some jobs and grow your name and your business, so that’s what we did.
+
+	We’d go there, we’d learn, we’d meet people, but we also always looked at it as, ‘All right, let’s try to get some business’. Well, over the years we kind of realized that’s not actually the right mindset to be in. Go there, learn and meet people; don’t worry about the business, don’t worry about landing projects. That stuff will come. Just meet people, just hang out, talk to people, talk about what they’re working on, what kind of projects they’ve got going on, what’s cool on their side. You’re going to learn some stuff; I do every Word Camp I go to.
+
+	Walk up to those people that you’ve only seen online, like Mark Jaquith after his presentation and go and say hi, shake his hand, talk to him a bit. People like you, people who have been in the community for a long time, just talk to them. It’s a very approachable community, like I said. So over the years I think we realized just go out there and hang out and have fun and learn, and that’s had a huge impact. Not doing the hard sell, not doing the push. 
+
+	It’s had a very big impact on just friends we’ve made over the years. Like I said, if you’re going to Word Camps it’s like a reunion at this point. I probably know more people than I don’t at most Word Camps. So you’ve going to see friends. You’re going to catch up on what they’re doing. You’re going to see what kind of work they’re doing, what kind of jobs, what cool stuff are they building? Maybe there is some overlap in clients that they’re working and we’re working with. That happens. 
+
+	Then ultimately, if you’re out there and giving back and presenting or talking, or whatever it is that you do, I really feel like it just pays off; indirectly it pays off long term to be a part of that community. So it’s Word Camps and just being in the community has had a huge impact on our business.
+
+Interviewer:	Great; okay, well I think we can leave it there. Thank you.
+
+Williams:	Cool.

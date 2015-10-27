@@ -1,0 +1,267 @@
+Interviewer: Hello, Om Malik. Nice to meet you. Again.
+
+Malik: Nice to meet you. Yeah. OK. What’s going on?
+
+Interviewer: Well, I wanted to start talking to you first about how did you meet Matt? How did that happen?
+
+Malik: It’s pretty weird. And I’ve been trying to think of like the exact sequence of events and it was… when I think about it, it was more like… a long time ago I was looking for an alternative to Moveable Type, not because it was a bad product, it just was… their commenting system was kind of weird and I had a lot of traffic and my site would basically crash because people commenting was a bottleneck of sorts. And I didn’t quite understand it. Like I’m not quite technical enough to know that. So I started looking for other options. So, I looked at many options. And one of them was this thing called b2. And there was Text Pattern. And I was looking at all these other more databased driven projects, which were not like CGI and Pull and everything. I was playing around with b2 and then one day like on the site they said they were shutting down. And then I saw… I think it was a comment by Matt, that he was forking it and he was going to start something called WordPress. And I emailed him. I said hey, if you’re ready, send me the code, I’m going to try it out. And I just essentially got the early alpha version of it, and I installed it. I in fact immediately ported my Moveable Type site over to a very alpha version of WordPress. Which Matt helped me do that. That was it. That was how I met him and we stayed in touch and I became, like most people in the community, involved in it. And I would send him like long emails of like… not really long. From my standpoint they were long, emails of like product suggestions and what he could do. Because I was actually using it a lot. And I would always find bugs, so I would let him know. That’s how we communicated for the longest time. I had no idea who he was and what he did and like, you know, they say on the Internet, the guy you’re talking to could be a dog and it’s pretty much how it was with him. And then he [3:00] told me about himself. And blah, blah, blah. But not in a lot of details. Because I didn’t really… I mean I don’t like talking to strangers, per se. And even if I know them really well, I never ask people about their personal life. The context of our relationship was WordPress. So he emailed me one day and said hey, you know we are growing, and etc. etc. And like at some point I just said that’s great you know, you can grow it from wherever you are in Houston or Texas, or you can just come to San Francisco and meet the right people and get more people using it, and not just me and like a few others. So my idea was that if he came out here, evangelism of the product would be great. I just thought it would be also cool for smart guy like him. Like the more I emailed him, the more we became close because I could understand how thoughtful he was about things. And it was pretty interesting because a lot of there is a lot of always anxiety and politics around every product, whether it is blogging software or the smartphone or whatever, any technology which touches people always brings about a certain level of passionate people and they have a certain level of regression. And at times certain things can get a little hot and heated and I always felt that if I could talk to people and if I could influence them in a more positive way, it would be good. So Matt and I would talk about that a lot. And I would say look, if you want people to, you know, believe in you, you have to make them believe in you. And you can’t do that by being like crazy and rant-y and rave-y. You have to show why you’re better. You can do that by building a better product. At that time, you know, it just didn’t look like that there was a better way of doing blogging than Moveable Type. Which I still thing is a great product. Just the commenting system wasn’t very good. It didn’t scale. Like the publishing, the way the backend was, all the user interface… they were just so much more cleaner and simpler and elegant. It just… I always felt that the performance could be a little better. And that they didn’t really focus on. And I don’t know why. Anyway, that’s long story, which is forgotten. But anyway, once I got in I kept pushing him to kind of try and you know make products which people would make things better. [6:00] You know, you would give him 20 suggestions and one of them would make it into the final product like a year later. So sometimes you forget that you actually offered up that suggestion, so… That was it. And like when he… so there was a little conversation about him coming to San Francisco, and meeting people here… and like… and so he came out for a job interview at Cnet. And he came out, he got the job, he was moving here, his mother came with him, and Mrs. M. said he’s my boy, I’m putting him in your hands. If something goes wrong, you’re responsible. It was almost like her being [inaudible] mom and like and supporting the onus on me to make sure he didn’t go off the rails. We’ve been friends since then. We talk a lot during that time. We still talk. I don’t talk to him that much now, mostly because you know he has a much bigger business and he’s more successful. And he’s got a lot more people to worry about. A lot more things to worry about than then. I would say like he’s pretty much… how I work with many people I respect and like, I’m pretty candid in my feedback. When they mess up I’m not afraid to tell them and when they’re doing well I’m the first one to celebrate with them. He and I have been friends because of that. I have come to enjoy his company. He’s very thoughtful. I always get educated every time I’m around him. And it’s the same way. Like I’ve talked to hundreds of people and every time he has some question I make sure that he has a better, the right, well-researched answer. 
+
+Interviewer: So how much traffic were you getting on your blog when you moved to WordPress? Do you remember?
+
+Malik: At that time, I don’t know. Maybe it was like 100,000-200,000 people a month. I can’t remember the page views but… 5,000, 10,000 pages a day? 
+
+Interviewer: And as it grew even more did you ever have any problems with scaling?
+
+Malik: In WordPress?
+
+Interviewer: Yeah.
+
+Malik: Occasionally we would have some challenges, but not that many. You know, I had the best support person. I think he realized that I was one of the uber users of his product, so he had to keep me happy. [9:00] 
+
+Interviewer: Absolutely.
+
+Malik: Yeah. Whatever. I wasn’t doing it for that reason. I just liked it so. There were some times when as blogging grew in popularity like, 2004-2005 time frame, things were starting to heat up. There were some challenges like security issues, and like… but I had good people working with me who made sure that we took care of those problems. I’d hired Chancy Matthews as a way to, as a person who could help me with the management of the blog. I was still working for Business 2.0 at that time, so it wasn’t really a business then.
+
+Interviewer: So you think that WordPress had an influence on the direction of blogging? Or do you think it went the other way? That it was more responsive to kind of what people were demanding?
+
+Malik: I think it was more like it just felt a natural progression from, you know… a lot of people… the essence of blogging hasn’t really changed. Like the meaning of blogging. It’s getting lost a little bit these days. Like when Dave Winer started writing his blog and he started his company Useland and the products they build rely on Frontier. And then Blogger came about. And then Moveable Type. And there’s a whole bunch of others. Blogsun, b2, and Text Pad. The idea was the same. The idea was to kind of talk as a great way to write and communicate. It was like a creation and communication platform. They just improved a little bit every single time. I think what WordPress did right was essentially came in at the time when the scale was very important. Like things were going on the internet at a much faster speed. And it came out at that time, and it was the right product at the right time for people who were looking first came. And it got popular because of that. I mean let’s just face it. It was the dashboard of WordPress was pretty ugly.
+
+Interviewer: Yeah, I know.
+
+Malik: And like Moveable Type’s code… If Moveable Type was 100, these guys were like 2. But it allowed me to scale much faster. And publish much faster. It just was more efficient program at that time. 
+
+Interviewer: Looking back, do you think there were any serious competitors that could have… like Text Pad or something like that?
+
+Malik: [inaudible] I think the number one competitor [12:00] they still have and they, and everybody still has, is Blogger. Regardless of the attention of lack of attention from Google, it’s still a massive platform. You know there’s a lot of blogging platforms in Asia which are big. So from that standpoint I don’t think it’s an issue. But I think what happened was it was like also right place, right time just when the market was looking for how to scale these systems. 
+
+Interviewer: What do you think differentiates WordPress from Blogger? Do you think there’s different types of people? Or do you think people just unthinkingly Google for a blogging platform?
+
+Malik: You know I haven’t got the idea.
+
+Interviewer: Yeah.
+
+Malik: I mean it is adaptive. I mean Blogger is a blogger platform. And WordPress has become a different. It enables companies. It enables people. It enables different kind of user behaviors. So it’s evolved as a… It just went from being essentially a plain vanilla blogging platform to what it is today. So that’s the good thing. That’s why Blogger is exactly the same. I mean nothing has changed, maybe security and comments. That’s blogging. Pure blogging. WordPress has more like CMS, apps, you know. It’s almost like a container. I use it like as a local install on my desktop. I use it as just a personal container. Mostly just kind of keep posting notes mostly. It’s just easier to do it like that than try and do it in like some Word document.
+
+Interviewer: So you use that on your computer for everything? 
+
+Malik: No, not everything. Just like when I’m doing an interview, when I’m writing something, I’ll just post it in my local install. And the reason… and it’s just like… it’s like a P2. Running locally, I’ll just keep putting it in there. Easier to search and easier to export into HTML when I need it. And it can easily, if I want, I can just take it out and copy and paste it into the [inaudible]
+
+Interviewer: Can you think of like any particular challenges that stick out in your mind that were faced along the way?
+
+Malik: Right now? Or?
+
+Interviewer: No, like kind of… in the past. As it’s progressed.
+
+Malik: I think the challenge has always been the ease of use. I think the company, the entity was very slow in reacting to the demand for themes. [15:00] You know, making it easier. I think Tumblr was a massive challenge. Didn’t pay enough attention to Tumblr in the first three years. And it’s mostly I think because Matt had a very different vision of the world. Like he thought WordPress and Tumblr should co-exist. But I did feel that it took away some of the attention from the platform of people who were casual bloggers. Or who were casual creators of content. Like that whole behavior of remixing is like a big behavior and I think WordPress totally missed that one. 
+
+Interviewer: Do you think they can catch up on it? No?
+
+Malik: I think the future for WordPress is going to be essentially an enabling platform for all kinds of delivered media. Publishing. I don’t think trying to be Tumblr is the answer. The answer is being the… you know how the Amazon website evolved? They enable hundreds of other start ups. WordPress should be enabling hundreds of other online apps which have content as one of their core, you know, entry points. You know whether it is e-commerce stores or whatever it is. Wherever there is need for content and publishing, I think WordPress has a role to play there. It like, yeah, just like it’s evolved from belong like it was a very small little idea and now it’s like a giant opportunities. So the key is to making sure that WordPress embraces the new web services at faster speed. Like whether it is Twitter or Instagram or whatever is coming, WordPress should be embracing those. I think that’s the key thing. If it doesn’t do that, then it loses it’s importance. The way I think of WordPress which is very different than how Matt thinks, and everybody else, like I was just completely blown away by my own view of WordPress versus the whole WordCamp. I think of WordPress as the information router. It takes all social inputs in and it’s also a social input out mechanism. It’s an I/O for your content. And it just is not close to being that just yet. It just is like a lot of work in progress.
+
+Interviewer: So do you think Matt is going in that direction?
+
+Malik: I have no idea. You should ask him. [18:00]
+
+Interviewer: I will. I have a list of things to ask him. 
+
+Malik: That’s my view of the world is that’s where… because the scale is already there, there’s a lot of new web services which are coming up, people want to publish through those, but there is no permanent record for that information. And I think, and it’s not… when I think of the dashboard, I think of the dashboard like can I use the dashboard in and out… Ok, bring in, bring out. It’s like there are companies like If This Then That which do a lot of this stuff which is cool, except you want WordPress in the middle to do in and out, in and out. And it’s like make it easier. That’s the funny thing I would like to point out. That’s like that thinking needs to come into the community. Because the value is… the container is still very valuable, right. Like I still keep going back to my blog. I don’t go anywhere else. I’ve tried everything. Pintrest. Tumblr. And whatever. But I still like to have my own blog. I just feel like it gives me a permanent identity. I think that’s also very key part of WordPress. Like the permanence of your identity. 
+
+Interviewer: Do you think that’s changing now? Do you think kind of people are not so much starting blogs but using Facebook and Twitter and their less interested in having that kind of permanent home on the web? Particularly like young people who have like who have grown up just immersed in social media and the kind of instant kind of communication?
+
+Malik: I think the challenge is just that. Like the behavior of the web is changing. So you asked me what was the… but WordPress has already figured out like that is an issue. So that’s why it is becoming more of a platform for other things, right? This is why I think being a router of information is good. Eventually people wake up and say, shit, I need to keep my information in one place. It doesn’t happen for a couple of years and then they start saying, wait, where is… who am I? Like where have I put all my pictures. And at some point you do get that realization and it’s not… that’s why people love using Tumblr. That they can take their Instagram photos and their blog post and whatever and put it on Tumblr. Right? Who knows whether it’s the right place. But at least there is a curation aspect to your own life.
+
+Interviewer: Do you think people are being conditioned to not care so much about that? 
+
+Malik: Eventually. Yeah, people don’t care. The young people don’t care about the little content they create [21:00] but then some people like not everybody, like if everybody could make movies nobody would go see movies, right?
+
+Interviewer: Yeah, exactly. 
+
+Malik: So it’s the same thing. It’s like… people do do that. And I think that’s the key thing. There’s a lot of people who do want to curate. Like it’s becoming increasingly important for one place to exist. And is WordPress that place? I hope so for your sake and the sake of Matt and everybody, hundreds of millions of people who work on it. If not, there could be something else. But there is a need for this information in and out system.
+
+Interviewer: You introduced Matt to Tony Schneider? Is that correct?
+
+Malik: Yeah.
+
+Interviewer: How did that come about?
+
+Malik: I think it was more like Tony and I met when I was working on a story. And Tony and I just hit it off so well. And Tony introduced me to Tony Conrad and Phil Black and all these other people who are like at True Ventures now. And Tony and I would just like hang out. I was like… I took a long time. It’s like the magazines stories are like that where you get to know people really well because you have to spend a lot of time learning about them. And he was leaving Yahoo, and we talked one day. And I said hey, you should meet with Matt and see if the two of you get along. You have the same kind of low key sensibility. You’re not like attention-seeking people. And so I made the introduction. And I also made the introduction with Tony Conrad through which Phil Black. And Tony Conrad too is like hey you should meet this guy. He’s in Texas but you should talk to him because he comes out. One day he’s going to start a company and you want to be involved in it. Tony was a VC for some other firm at that time. That was like mostly like I felt Tony Schneider would be a great influence on Matt per se. Just because if you’ve met Tony you know why. 
+
+Interviewer: He’s lovely.
+
+Malik: I’m mean he’s a genuine human being and he doesn’t bullshit, but he’s very civilized about being honest and direct. And you know, Tony Conrad was Tony Conrad. Like I mean, I’ve known Tony for a long time and you know, he’s a happy person and it’s good to know those kind of people. So that was it. There was no specific reason. And it seemed like those two hit it off.
+
+Interviewer: So how do you think they complimented each other? They seem to have worked well [24:00] with Tony as the CEO. 
+
+Malik: Tony is very Swiss. He’s very much about getting things done. On time. And being very honest and direct and careful about how he goes about doing things. And Matt is a young founder. So the two of them complimented each other really well. It was like he’s the grown up without… who didn’t suppress the creativity of Matt and it was… and Matt was the precocious young person who didn’t disrespect the elder guy. So it kind of worked. At least you know from the outside I think it worked. I don’t know from the inside. That’s just like who knows what happens inside a company.
+
+Interviewer: We’ll Automattic’s done pretty well, so. At the WordPress party, where Matt announced WordPress, Inc. Do you remember that? It was prior to founding Automattic. He announced like WordPress Incorporated and then a few days later had to say no that was a mistake. 
+
+Malik: I don’t remember that. Was it? 
+
+Interviewer: Yeah, there’s a page on the WordPress Codex in which he writes about it. And sort of talks about it. So I think it was like May before Automattic was founded. Just wondered if you’d kind of talked to him about setting up a business? What shape that should take?
+
+Malik: I have no idea. I can’t remember. I don’t even know. 
+
+Interviewer: Do you recall having conversations with him prior to Automattic being set up?
+
+Malik: I remember having a couple of conversations like what do you want to with? Do you want to start a company around this? Or do you want to just keep doing it like the way you’re doing it? And just go pursue whatever you’re doing? It was clear that he wanted to do something. Whether it was a company, I don’t know. I didn’t say. Which is why I said you should talk to Tony, maybe he can help you. Give you some advice there. And eventually when he did start a company… it was clear he had bigger ambitions, even back then. Like once, you know, I think when WordPress hit like half a million users he knew that he had something big [27:00] on his hands, he just didn’t know how big. 
+
+Interviewer: Did you have any idea how big it would get? 
+
+Malik: No. But the funny thing is, during those early days - I forget a lot of names now - but I got to meet pretty much the ten or twelve people who worked on WordPress. There was like this guy in Ireland.
+
+Interviewer: Donnica?
+
+Malik: Donnica. And there was another guy who lived in South Bay somewhere. I forget his name. He moved out here. And eventually I met Barry. 
+
+Interviewer: Did you see them as a group of people who could take this somewhere? Or do you think Matt really drove it?
+
+Malik: I think they were just like they were all, they were all really awesome people. I think it was a very collective effort. I don’t think you can single out one person or the other. It was a united effort. It felt like there was a lot of collaboration at that time, which is why it became so big so fast, because all these people were pretty involved in like making it better. The good news at that time I remember, like Matt used to talk about like how much coding he does, and I think the other guys were just better coders. 
+
+Interviewer: Yeah, the b2, the guy who was developing it was learning PHP as he wrote it. I think when I spoke to Ryan and Alex and the other early developers, they all said that were learning PHP as they wrote it.
+
+Malik: It was a great little group of people. 
+
+Interviewer: Did you get much involved with the community? Or were you just kind of more of an observer?
+
+Malik: No, I would go to all the meet ups and hang out. There weren’t that many. Whenever there was something going on locally, I would make time. 
+
+Interviewer: Did you follow any of the issues around the GPL and licensing and those sorts of issues?
+
+Malik: I had my own company and my own life to run, so I kind of didn’t get too involved in those things. I think once it got going and once it became like a company, I kind of became less of… I paid less attention. 
+
+Interviewer: Why is that?
+
+Malik: Just because I like… I don’t know. I just had my own things to worry about. I literally had… I didn’t have any down time for doing anything. And then also Matt travelled a lot at that time. [30:00] That also was one of the things which kept us from like meeting up often.
+
+Interviewer: Do you think the fact that it was open source contributed to it’s success?
+
+Malik: Yeah. 100 percent. Goes without saying.
+
+Interviewer: Why’s that?
+
+Malik: Because it just made it better. Anybody can come in and contribute… and these guys were like… It improved a lot because of it. I don’t think it would work otherwise. It would slow down. 
+
+Interviewer: Do you think that was one of the issues with Moveable Type? 
+
+Malik: Nah, I think Moveable Type was just… it became very successful and became really big really fast. I don’t want to talk about Moveable Type. I think they were like at a moment in time, and they did what they did. And it was pretty awesome because they made it easier for a lot of people like me to publish. Even more. And build communities. So I wouldn’t say anything negative about them. Just they didn’t put out a product that which scaled for me. 
+
+Interviewer: Yup. I mean, they contributed massively to the growth of blogging.
+
+Malik: I mean there’s other people who still love using them, you know. Boing Boing loves using them. And they were like hundreds of times bigger than I was and so clearly… But I didn’t have the… I guess I didn’t have the best experience. So I guess it’s one of those things. Look.
+
+Interviewer: So how do you think blogging has evolved from then? 
+
+Malik: I think that blogging has become a little bit different than what it used to be. A lot of people at that time had… blogging has lost a lot of personal touch. It’s become… we have started conflating publishing with blogging. I published something versus blogging. Blogging is a continuous stream of posts and there is a reason and logic to it. And it was essentially that idea which has been taken and now being broken up into many parts, like blogging, movies, we used to blog photos, and we used to blog the name of our friends or the people we read in our blog wrote. And all those things are just like now, you know, something is… how am I feeling, my status is Twitter, the link sharing is Twitter. You know blog quotes are Tumblr and photographs are Instagram and video is Vimeo. So all the core components, the functionality, [33:00] is being stolen in a way and being put into other services. And I think now Medium and LinkedIn are even trying to take the blog post out of the blog and just put it into like… or make it just a stand alone piece. Eventually, this is like the aggregation and disaggregation of everything. We do that all the time in the valley. We go through an aggregation phase and a de-aggregation phase. We do it in telecom. We do it in networks. We’re doing it in services. But if you really have… if you really understand what blogging is, all those things don’t really matter. Those things are in addition to what blogging is. Which is like a way of looking at the world and just kind of sharing it, right? Like how you feel about certain things and sharing it. Blogging has to have a lot more human touch. And instead it has become publishing and page views and advertising and posing, like all those things. 
+
+Interviewer: So do you distinguish between your personal blog and GigaOm?
+
+Malik: Oh yeah. GigaOm is my personal… it’s my publishing platform. Where I publish my well thought out, researched long form pieces. And yes they are published in a very bloggy format, in that you can hear my voice. You can hear how I feel about certain things. Where on my personal blog, I’m just kind of random. Like sometimes it doesn’t even make any sense why. But I don’t need to make sense. It’s like my diary more than anything else. I’ll share a video. I’ll share music. Like they have no coherence on… for anyone except this is… all those things mean something to me. But at a very personal level. And it’s not… I mean I haven’t updated it in like seven days. And I don’t feel the need to update it. Like I once put on GigaOm, I feel that there is expectations of people, and like… it’s a more professional job. 
+
+Interviewer: Do you think then that like blogging’s had like a personal, a positive influence on publishing? Like you were saying that there is your voice whenever you write for GigaOm.
+
+Malik: I have believed that there is… had it not been for blogging, we wouldn’t have had people like Michael Harrington or you know people like M.G. Siegler become like major players in tech. If we didn’t have blogging, we wouldn’t have had a lot of other people get discovered. Like essentially blogging is very important for, [36:00] you know, creativity. It’s just unleashed a level of creativity from a writing standpoint at least. Which has not been there. Blogging resulted in Gizmodo, and Gizmodo brought to us people like Brian Lam and Matt Buchannan and Matt Honen who have become like such massive rock stars because of that. So from my standpoint, yup, I’m all for blogging. More blogging is better. 
+
+Interviewer: Do you still think there’s space then for people now to say get from being Om Malik blogger to Om Malik GigaOm?
+
+Malik: Yeah.
+
+Interviewer: There’s so many blogs around.
+
+Malik: So what. If you’re good you’re just good. That’s the beauty of internet is. You’re only as good as your last blog post. 
+
+Interviewer: You know, that’s true. 
+
+Malik: And there is this kid who writes this blog called Stratechery, it’s like an Apple blog. And I don’t think it was around until like a year ago and now it’s like a must read for everyone. And its… I think from being me to being my company, that’s just a sequence of events which happened in my life. At the end of the day, where it really is my blog, it is my blog. That’s it. I mean there are days when I write on my personal blog something, and you know, ten people link to it, and we have like massive traffic spike, you know. Like Freshly Pressed picks up something I write and they publish something of mine on the front page, it was something to do with like the importance of writing and why I do it, and it was just like, okay. So from that standpoint you’re just like a link away. And that’s the beauty of the… Just what the difference is that you just have to be good. Not just good, you have to be very good to have a consistent following. That… you can’t just be like average and think you’re going to be successful. That luxury is gone. 
+
+Interviewer: At what point did you set up om.co?
+
+Malik: A couple of years now? 
+
+Interviewer: Did you just feel the need for a space away from GigaOm?
+
+Malik: I met a lot of people who write there and I can’t post the music I’m listening to or the shoes I like and the socks I’m wearing. It’s like nobody gives a shit about that. Except me. And my like 50 friends. It’s just a little side project for me. 
+
+Interviewer: Where do you think we’ll be in like five, ten years with blogging?
+
+Malik: I’ve no idea. [39:00] I’ve really, truly no idea. I think the meaning of blogging has been lost a little bit and I kept experimenting with different format designs. I do think that I might… I’m coming around to the idea of commenting coming to an Android now. And I’ve seen it more and more. Like I really have to work very, very hard on commenting to make sure that comments on our sites are good. At least on my personal blog posts on GigaOm I spent a lot of time essentially replying to everybody who comes there, answering their questions and so on and so forth. It’s very important. It’s really hard too. 
+
+Interviewer: I guess a lot of comments are going to social media. 
+
+Malik: And a certain level of… comments are become very vapid and like people use comments for not really having a conversation and more about having
+
+Interviewer: A rant?
+
+Malik: No, it’s more like a way to get attention for their own content. 
+
+Interviewer: Yeah, The Guardian comments on The Guardian website in the UK, they’re just… they’re always awful. Comment threads can be really horrible places. 
+
+Malik: Yeah, I think you can do a lot by just bringing up your own. Keeping clean and making sure you’re answering the comments correctly, and keeping people involved. And in doing so you can keep the comment aspect of your blog clean. My two cents. 
+
+Interviewer: Do you think mobile… how is WordPress answering the challenge of mobile? Do you think it’s doing a good job?
+
+Malik: I think it’s… no. 
+
+Interviewer: Do you think it could do a good job?
+
+Malik: I’m sure it can. It needs to move at a different speed now. 
+
+Interviewer: Yes. There’s not a huge mobile team working on it.
+
+Malik: Yeah. I would be… I think it’s a huge… Like I said, WordPress has a container for, or a backend for, all publishing. For all kinds of publishing. It’s a massive opportunity. Now the opportunity is how quickly the team can get that. 
+
+Interviewer: Do you think we need a development model that Matt has…
+
+Malik: I have no idea. I haven’t talked to him about it. [Inaudible] So those are like things like I’m not that close to the company now as I used to be. [42:00] I see Matt socially. I come for WordPress WordCamps. But I have very clear ideas of where blogging itself is going. And blogging and publishing and mobile. And I’ve shared those thoughts with anyone who would listen, including Matt and Tony and Renan and whosoever finds time for me.
+
+Interviewer: So where do you think it’s going?
+
+Malik: I just told you.
+
+Interviewer: In relation to mobile. 
+
+Malik: I think mobile means that WordPress has to go from WordPress to being TinyPress. It’s like doing one or two or three things really well on mobile. It should become not like a blog writing platform, more like a photo and video publishing application. Like for a different kind of an audience. I think the way I see it is that WordPress becomes the backend for twenty different applications. 
+
+Interviewer: Yeah. Somebody’s developing an application for like an Instagram thing with WordPress. I think that’s happening more and more. 
+
+Malik: Yeah. There is somebody who’s… didn’t the company buy Poster?
+
+Interviewer: Posts…
+
+Malik: He’s a pretty talented developer. He should make some amazing things happen on WordPress. I mean I paid for that app. It was pretty awesome. You know I would love to see like WordPress have like a really good iPad app which connects to like my media library and all those things. Drag and drop. And like… there’s not like it is, it’s just like, ah what do I do here, type?
+
+Interviewer: Yes.
+
+Malik: So that’s the thing where WordPress needs to evolve with stop being type-centric and become more like touch and media centric. And I think that’s when the opportunities explode for the service. This is what I mean by information in and out. So pictures on your camera and pictures on your Facebook account, merging them all. Like If This Then That. That same logic put on your WordPress. By connecting to various social accounts and putting them into your stream. WordPress has a stream for collecting information. I think that’s where the value is in the long run. 
+
+Interviewer: That’s interesting. I guess that the way we’re inputting data is changing like physically. What about something like Medium, which is actually trying to provide something for writing that’s quite different to WordPress. 
+
+Malik: Yeah. Well, is it? They just have a better dashboard to write. [45:00] 
+
+Interviewer: Well, I mean in terms of editorial. The commenting system they have on the paragraphs and that sort of stuff. 
+
+Malik: I mean why hasn’t that been done on WordPress I guess. Like I said, commenting is broken. And it can be fixed. The thing is, if they’re saying that’s one way of doing it, I think the guys from Branch were trying to do that, right? And there is only so many people who are going to comment like that too. Trust me on this one. So it’s like before it starts devolving into like the minute they open it up to people and just… things just devolve, right? Like that’s the thing. The thing is, this community is like it’s like a full-time job. So, if you want to write something and you… so if you’re writing one blog post and there is comments on that easy to curate whereas if you have a blog and you have like 50 posts and you have to curate those. You get like, you know, it’s like… so from … you can’t have comment systems exactly the same as work as that they have on Medium and they’re on other blogs is because there is different way of consuming information. People who consume information on Medium, they’re just looking at one blog post at a time. One Medium post at a time. So they’re communicating with somebody on that and you have to be part of their social infrastructure. So like there’s a lot more barrier to entry and it’s like more defined. So it’s a cleaner, simpler way of doing conversation. You start having that threaded conversations on like say 20 blog posts, things start to go, holy shit now wait a minute. Like how do I deal with this. Right? And I think there is… it goes without saying that they’re doing with comments is interesting. The blogging platforms have completely dropped the ball on comments. Period. I don’t think there’s one place which would get like C- from me would be the comments on WordPress.
+
+Interviewer: Well, how would you like to see them improved?
+
+Malik: I have no idea. Not my job. 
+
+Interviewer: That’s a tough one. Because your blog is meant to be your home for… and you have discussions there… and about…
+
+Malik: Yeah, there’s like days when I just kind of like shut down on my personal blog some posts I write. I just turn off comments. Just easier not to deal with it. 
+
+Interviewer: Whenever I…
+
+Malik: And now I make people register. You cannot comment without registering. And I make sure if I approve you. But again, I can do that at the scale om.co is, right? Like 100 people. All those 100 people are my friends. Literally. Those hundred people ARE my friends. I’ve not checked traffic on it, that site once. It doesn’t… [48:00] I just even when one of my hundred people are not commenting or not coming to the site, that’s when I get bummed out. Like where did they go? Because they’re supposed to be my friends, right? 
+
+Interviewer: So do you think your blog is like… blogging is a place for your friends? For creating a community? 
+
+Malik: Blogging is your… you know, there is the concept of the tea shop in India or in the Middle East or in Turkey. It’s my tea shop. Where people come, we have tea together, we talk, we discuss, sometimes we get angry, sometimes we laugh. We bring our newspapers together and we look at stories. That’s what blogging used to be. That’s the future of blogging. And it will always be blogging to me. Like that ideology. People keep forgetting that basic stuff. And everybody confuses it with like long articles they write as blogging. That’s not blogging. 
+
+Interviewer: Yeah, it’s something I think about. I write a lot of long articles, and they never seem quite appropriate for my blog. 
+
+Malik: Oooh, I have to go. 
+
+Interviewer: OK.
+
+Malik: I have a TV thing…

@@ -1,0 +1,345 @@
+
+Interviewer:	It is the sixth of June, and I'm speaking to Mika Epstein. Ep-steen, Ep-stine? 
+	
+Epstein:	[00:07] I prefer Ep-steen, but I answer to both. I'm only particular about Mee-ka. 
+	
+Interviewer:	Okay. Mee-ka, not My-ka. 
+	
+Epstein:	[00:13] Yes. Thank you. 
+	
+Interviewer:	How did you first get involved with WordPress?
+	
+Epstein:	[00:20] I first got involved with WordPress because I had been using Movable Type to maintain a blog, just to practice writing, and they changed their license structure. And I was one of the many people who were part of that mass exodus. 
+	
+Interviewer:	Why were you annoyed about the license change?
+	
+Epstein:	[00:39] It struck me -- I don't' really like it when people say, "You're going to be able to have all of this for free -- oh wait, now we've changed everything, and we're no longer going to help you." If it had been that way from the beginning, I would have been ready for it. But it always strikes me as like a switch when they say, "And now you have to pay for support." Just ... all the really great people that I knew from Movable Type said, "Well, this is stupid. I don't want you to take my stuff and resell it without giving me anything back. If I'm not getting anything, you're not getting what I'm giving you." And they left. 
+
+	So one of them was a friend of them who told me about WordPress, and he said, "I'm going to try this out. I heard also that it doesn't rebuild your entire website when you want to update something. It's dynamic." I'm like, "Oh god, that sounds great." Because back then the way that Movable Type did things, I don't know if they still do, is that when you saved a page, it would actually write to HTML and edit all of those pages for you that linked to it. Which was cool, because you had a static HTML site which loaded much faster than dynamic PHP in many cases, but at the same time, god it was a pain when you wanted to update your theme. 
+	
+Interviewer:	Yeah. What did you find attractive about WordPress?
+	
+Epstein:	[02:00] The first thing I really liked about WordPress was that I understood the code. I'm sorry, I was closing my door so the cats stop wondering what's going on. With Movable Type, I never really managed to get my hands around how the templating was supposed to work. It was always kind of guessing. And when I went to WordPress, and the first thing I said was, "I don't understand this," and I went to the forums, there was someone with an answer already. I was like, "Oh." This is a community I like. These are people who want to come and help, and can show me the nice examples. You do this to get x. Here's an example in a different way. And all of a sudden I found myself able to take the programming classes that I had kind of dozed through a few years before, and put them into some sort of application. 
+
+	It felt natural. Like, the coding flavor was something that my brain really understood already. 
+	
+Interviewer:	What was your background?
+	
+Epstein:	[02:57] At the time? I was working as an intern for my friend's web company. It no longer exists. But before that, I had been studying anthropology and creative writing in university. 
+	
+Interviewer:	Did you complete that?
+	
+Epstein:	[03:13] I did not. I ended up dropping out for various dramatic life reasons. 
+	
+Interviewer:	So you started getting involved with WordPress. What was your impression of the project?
+	
+Epstein:	[03:28] At the time, I had already started understanding how grown-up software -- that's what I thought at the time, I called it "grown-up software" -- how traditional software was developed: a bunch of people got in a room and decided this is what it's going to do. You will write this, you will write this. And WordPress was just sort of like: hey, here are a whole bunch of cats who know how to code. We're going to throw them in a room -- or not, actually. We're going to throw them in different rooms and then once a month we're going to get together and talk about what they've done and merge all these things together. 
+
+It looked insane. I couldn't fathom that anybody could get code written this way. So I started reading the IRC logs. Around that time, I'd started working for the bank. Oh no, I was working for the bank at that point. I started reading the logs to figure out how they are coming to any sort of a decision. And what I saw was the people just really wanted to work together to make something. And they would argue their points in ways that wasn't, "You suck" "No, you suck more." It was, "Well, we should do this because it will improve x, y, z, and it will not cause a problem to a, b, c." And they talked about all this stuff, and it was just brilliant to see -- I could watch the development and go, "Okay, if this is changing, I'm going to have to watch out because I do this thing over here." And so I was no longer blindsided by changes. All of a sudden, I knew what was coming and I was ready for it. 
+	
+Interviewer:	Did you get involved with the dev chats?
+	
+Epstein:	[04:54] I did get not get involved with the dev chats seriously until I stopped working at the bank, because the bank blocked IRC. So I was always ipso post facto, reading the logs and then handling the forums because of that.
+	
+Interviewer:	Did you get involved with wphackers?
+	
+Epstein:	[05:14] I lurk on wphackers. I call it my popcorn mailing list because most of the time it's pretty chill, but every once in a while, it just blows up and people get really, really passionate about what they're doing. And I just sit back and watch them argue it out.
+	
+Interviewer:	Can you think of things that it's blowing up around, that stick in your mind?
+	
+Epstein:	[05:33] Oh my god. GPL. It blows up around that fairly regularly. It also blows up on best coding practices, which is really fun to watch people saying, "No, you should this." "No, you should do that." Tabs versus spaces was the first one that I remember watching and thinking, "Why are we obsessing over this?"
+	
+Interviewer:	What was your first contribution to the project?
+	
+Epstein:	[06:03] I would say that it was answering a question over htaccess. Someone was having a problem with htaccess and ModSecurity, and it was a problem that I had already had and solved. So I told them how I fixed it, and it fixed it for him. 
+	
+Interviewer:	What were the support forums like when you first got involved?
+	
+Epstein:	[06:29] Less strict in a way that sometimes I wish we could go back to. Threads just sort of flowed onward, and you could -- there was no, we didn't used to say, "Look if you have a similar but different topic, you should make your own thread." And that sound in the background is my cat, who has decided that this is much more entertaining than bothering my wife. 
+	
+Interviewer:	You're talking about WordPress, so it must be. 
+	
+Epstein:	[06:59] Yeah, well, my cat behind me is trying to mess with me. With WordPress, we were so much more -- it was much gentler in a way, but it was harder to get anything done because finding and answer meant you had to read through a whole thread that might be five or six pages, because everybody who had a similar problem would ask about it. So we very slowly started saying, "You know, this is similar but not the same; maybe you should make a different topic for yourself to make it easier for us to help you." And it slowly started moving into a more mature format, where we treat it less casually and more seriously. It feels like now we care more. We know that this is your job, that you're working on something very important to you, and we care greatly about that. But at the same time, we want to help you come to a place where you can solve your own problems next time. It's become much less loosey-goosey friendly, and more serious-friendly. Less coffeehouse and more co-working.
+	
+Interviewer:	Andrea described it as a snake pit in the early days.
+	
+Epstein:	[08:18] She was involved in the wpmu forums, mu.wordpress.org, before I was. She was the forum maven. I knew who she was before we started talking. So yeah, when it first started, I saw a lot of ... "snake pit" would be a very apt description. Right when I started being a little bit more active because my job kind of opened up this period of time where I would have a couple of hours in a day watching code compile, and they said, "Well, you should use this for self-training in other software." And no one said I couldn't do WordPress, so I'm going to. It's their own fault. 
+
+	I saw how she was handling people and kind of took a page from her book. She'd be like, "Well, I get that you're very upset. But you need to be calm and understand that we can't help you if you are crying, kicking, and screaming in the back of the car." And I thought, "Oh, there's somebody who's got kids." And she does. I can't believe she's a grandmother. That's so weird. 
+	
+Interviewer:	I know.
+	
+Epstein:	[09:27] I think today, I would say it's not so much a snake pit as probably an animal trap, where we've got some animal who's trying to gnaw their own leg off to find a solution. And we're like, no, let's open the trap and release you so you can keep your leg and have your solution. But they are very insistent on going things the hard way.
+	
+Interviewer:	Why do you think "snake pit" is an apt description?
+	
+Epstein:	[09:53] Have you ever seen "Raiders of the Lost Ark"?
+	
+Interviewer:	Yes, but I have a bad memory.
+	
+Epstein:	[10:03] Okay. It's okay. So there's a bit in Raiders of the Lost Ark, where Indy goes into a pit to try to see where is the Ark going to be found, and he's doing all this crazy stuff. And he realizes that the pit is full of snakes. And he hates snakes, and he's terrified of snakes, and he just wants to get out. That's kind of the feeling that you used to have, which is that you'd go to the forums and you'd want to help somebody, and you'd want to get an answer, but all these other crazy people are running around you, trying to bite you when you didn't understand what they wanted. And really, all they wanted was the same thing you did. They wanted an answer. They wanted to feel warm and fuzzy, but they were going about it in a way that just was scary. 
+	
+Interviewer:	One of the complaints that I read in the very early days from the wphackers mailing list was that there was a division between people who were doing development and people who were helping out in the support forums. Did you feel that?
+	
+Epstein:	[11:00] That's very true. I totally felt that. That's actually -- so when WordPress 3.0 came out, it was this massive merge between MultiSite, which was a separate product up until then, and WordPress core. And that was the first time we made what I now call the OMG WTF BBQ post in the forums to say, "Hey, everybody. This is what's going on, this is what's changed. This is where you can get information about what's changed. Here is the plugins and the themes that we know are having problems." 
+
+	The reason that I did that was that there was a disconnect with what the developers had done and what they told us. And I would never say that they did it wrong; they did it exactly the way that they'd always done it. And it really was informative. The problem was that it was spoken to people who understood what the code was in the first place. And that was not the majority of the forums. It'll never be the majority of the forums. The forums are going to be where the people who aren't copacetic with the dev talk go. And that's fine. That's exactly where they should go. 
+
+	So I wrote this post trying to bridge the gap, and said, "Look, when they say this, they mean this. This is how it affects you. No, WordPress isn't broken." Since then it's really improved. Like twice, I didn't bother to make a post like that because the way that they explained everything in the About page and the release posts covered everything. And it was great to see that now the developers see that what the community needs is explanation in a different way. We can totally provide that. And also now, people like me come to the dev chats, and say, "Okay, when we're talking about the About page and the release posts, these are the things that we really need to talk about. These are the things that we need to explain. This might be a problem if it is, do this." 
+
+And now, what we didn't even used to do then, but we did the last two releases, three releases, has been to email plugin developers, and say, "These are the big changes. If you haven't been paying attention to beta, and you should be, here's what's going to happen, and you may break." I think my complaint with that is I wish we sent that out as soon as release candidate 1 hit, we should send out that email and say, "Hey, here are the big changes. Here are where they may be problems. Please come and test as soon as possible." 
+	
+Interviewer:	Do they ever get annoyed with you?
+	
+Epstein:	[13:31] Surprisingly few people get annoyed. For the most part, the only angry emails we get are, "Oh my god, I can't believe people still use my crappy plugin." And then they ask us to close their plugins, which is fine. 
+	
+Interviewer:	Has the project historically acknowledged non-code contributions? 
+	
+Epstein:	[13:53] Weirdly. It very weirdly acknowledges non-code contributions. I mean, I know that the majority of devs know who I am because of the support forums, and that is really where I'm best. I can dev. I can write, I've submitted patches for WordPress. I don't enjoy it, so it's not generally what I do. And I always like to tell people, there's nothing wrong with not being able to code like they do. But very often you kind of feel like a second-class citizen because you didn't write the code. How do you know that this is what WordPress does? I tend to reply, "Just because I'm not writing the code doesn't mean I don't understand it." "Just because I'm not writing it doesn't mean I don't know how to tell you how to use it." 
+
+	But you do feel like there's a lack of recognition when you look at things. However, people who have been updating core to fix the in-line documentation have their names and faces now showing up in the About page, which I think is phenomenal. It says, "Hey, you know what? They didn't write the code. But they have fixed core in a way that's going to help people for years to come, and this is awesome and we'd like to ..." Oh look, there's Kim. It was really great to see Kim's face there at one time. I was like, "Yes, we've made it."
+	
+Interviewer:	What areas of development have you got involved with?
+	
+Epstein:	[15:23] Primarily plugins, and I'd like to say I do beta debugging, which is when I see -- I'm always using WordPress trunk. It updates twice a day. I get the latest version. I'm happy. When I see problems, the first thing I do is I check if someone already fix it in trunk. So I go to track. And if they don't, I like to give it a shot to see if I can fix it myself. I like to do that because I think it keeps me more connected to how all the code comes together in WordPress, and even if I can't solve it -- and most of the time I can't -- I can then explain it clearly to say, "Hey, this is why this a problem; let me explain how I think, conceptually, we would fix it."
+	
+Interviewer:	Do other people do that who are involved in support?
+	
+Epstein:	[16:13] I think so. It's difficult to encourage people to do that because there is a fear that if I make a track ticket and it's BS, and then they're going to close it and think I'm a bad person. And I'm like, "Nah, half of my tickets get closed by Mason, saying, 'Never mind'." But I don't care. But getting to the point where you have the self-confidence to be comfortable being told, "No, that wasn't a bug, don't worry about it" and accept that as not a value judgment is really hard. 
+	
+Interviewer:	Do you think the project does enough to prevent people feeling like that?
+	
+Epstein:	[16:52] It's hard to say now because I've been so involved in the project for years. I think that it's definitely getting -- we're lowering the bar for the nontraditional developers, people who don't spend all day writing code, to come in and assist with code debugging, but it's a problem that's bigger than WordPress. I made a post recently on my site about how we should be polite when we're interacting with support because if you're mean to support, you're probably going to get really bad support. I mean, it's insanely logical, right?
+
+But at the same time, that comes from places that are outside of WordPress. It has to do with the way we are treated when we call in our ISP and say, "Hey, my DNS isn't working, can you help me fix it?" And they ask you, "Did you reboot your computer?" We're trying to make a small place on the net easier for people to step into joining development without having to be Ottos and Jaquith and Lauren and Mason and Helen and it's hard. Because it's not us that the primary issue; it's the rest of the world being mean. If I could just be nice ...
+	
+Interviewer:	Who else has been significant on the support forums?
+	
+Epstein:	[18:17] Things that are significant through the years?
+	
+Interviewer:	People. People who you think have made an impact on the support side of things?
+	
+Epstein:	[18:26] If I look back and think about the people who were very active when I started, only two are still really around today. That would be Esme and Pods. He's finally come back. I'm so happy. But he took a break for a reason that is understandable; he shifted job positions. Made sense. Even Andrea doesn't get to spend as much time as she used to in the forums, which is sad, and I miss her. But I understand that her roles in her company have changed, and what she does has changed, and so she spends time elsewhere. 
+
+	Right now, the names that pop up that I can think about are the people who just answer questions quietly, simply, directly, and move on. Some of them aren't even forum moderators. They're just people who do good. And I was telling one of them recently, when I asked if he wanted to be a mod, and he said, reminded me, "Hey, you know I asked you about this like a year ago, and you said when I look ready, you'll let me know." He says, "What made me look ready?" And I said, well, WordPress 3.9 came out, and people were losing their minds like they always do, and you just simply said, "Hey, here's how you fix it." And you kept saying that and you were calm and you were patient, and you answered so many tickets in different ways, you weren't copy pasting. And I said, "That's the kind of person I want to see. Someone who just does this altruistic support favor out of the kindness of their heart." 
+
+	But it's really -- it's very cyclical. About every eight months to a year, Otto and I go through the list of everyone who has moderator access, and if they haven't posted in a few months, we'll turn them back down to members because if they're not able to help out, that's okay. But let's see if we can keep things kind of sane so we have an easy way to say who are the moderators from the back end. Like -- I'm trying to think of somebody. So there's Andrea. She's still a moderator because when she does come in, she does come in to help in a very significant way. But there are other people, like people who have quit working for Automattic who used to be -- well not really quit working, but changed roles, and they no longer come to the forums. We've stepped them down and we told them, it's not because we don't think you're contributing; it's because you're not able to do all this. If you want to come back, let us know, but right now, let's just keep it to a controlled number. Otherwise we'd have like 600 moderators, and some of them haven't logged in in years, and that's just silly.
+
+Interviewer:	How do you decide who's a moderator?
+	
+Epstein:	[21:15] Magic. Seriously, it comes in a few ways. One is, "Hey, this person keeps reporting problem threads over and over again. For god's sake, can we just make them a moderator so we don't have to answer their emails anymore?" But even then, it's very rarely a case where someone says, "I want to be a moderator." And we say, "Okay, you're a moderator." We're constantly watching. It sounds so creepy when I say that. But we are always watching how people interact with others. Their behavior, their tone. How they reply. And when somebody does a really good job, it stands out in a huge way. And I know that's weird to say, to say, "If you are doing good work, we'll see you. If you are doing phenomenal work, we'll grab you." 
+	
+Interviewer:	When did you become a mod?
+	
+Epstein:	[22:07] Let me think. I have to count back by apartments. It was four years ago on a Wednesday. And please god don't ask me why I know it's a Wednesday. But it was a Wednesday afternoon, and James, his login is MacManX. He works for Automatic as a happiness engineer. I think he's working on Jetpack right now, I could be wrong. But he emailed me, and he said, "Hey, how do you want to be a mod?" And I replied, "What does that actually mean?" And then he and Andrea explained to me how all the stuff came together. And I said, "Let me think about it." And I thought about it for a couple of days, and then I said, "Yeah, okay, I'll do it." 
+	
+Interviewer:	What did they say?
+	
+Epstein:	[22:45] What they said is, "Basically, it's doing what you've been doing. Now you'll have the ability to delete spam instead of having to tell us, 'Hey, more spam.' If somebody loses their blog, they can edit their posts and take their swear words. But for the most part, we're giving you great power; please use it responsibly to be helpful." And when somebody posts code that they don't put in code tags, fix that.
+
+	And really, for the most part, being a moderator is that mundane. The only time it changed was when we decided to do the whole community thing and vote in community reps and all of a sudden I found myself with a new job.
+	
+Interviewer:	Is there ever any support forum politics?
+	
+Epstein:	[23:27] Oh, always. If you got people, you've got politics. I hate politics. There are two things that I hate more than anything else in live, it's money -- I really do, I despise it -- and politics. Because people use money and politics to further their own desires in a non-cooperative way. I'm kind of like an ethical socialist. I really believe in sharing everything. So for me, when I see people who want to abuse the system and campaign to get things changed, not because they think the code is going to be better for the masses, but because they want it, it drives me up a wall.
+
+	When Matt put in the capital_P_dangit thing, I was ticked off. I still think I wish he hadn't done it. But I mean, but I accept that it's his -- it really is his baby; whether or not it has moved on beyond what he envisioned and become this behemothly larger thing, it doesn't matter. At the end of the day, he's the one who forked it, and it does make it his project. But that doesn't mean I have to agree with everything that he does. 
+
+	I do support his right to make that change. And I will until my dying breath. But I saw what as a very political-ish move, where he said, I'm just going to fix this. I was like, "Okay, I get why we're doing it, but I don't think it's a good idea for all things." Like if I want to write code, and use a lowercase p in my WordPress folder, it did weird things. We have fixed all those bugs since then, and now it's not a problem. But at the time it was frustrating and I didn't feel like the community had been a part of a decision that we traditionally were a part of, and it bothered me. 
+
+	But at the same time, it seems like things have been -- lessons had been learned since then. I have to take things with a grain of salt and understand that we're still a growing community. We're not done developing ourselves and changing and becoming bigger. 
+	
+Interviewer:	Can you think of other examples of that, where you've been annoyed?
+	
+Epstein:	[25:50] I've disagreed with -- very rarely do I disagree with a decision. If somebody makes a code change, I generally trust that it's for a reason. Most of the time when I disagree with the changes, it's with the information given regarding the change. So if we go back to this latest release, there were some major changes to how code was going to be behave, and developers of plugins were emailed, I think, less than 24 hours before 3.9 dropped. "Hey, by the way, you should know this." And that bothered me, and I said so multiple times, and I had been nagging people, can we please send that email earlier? Because first off -- I also do plugin support for people who have no idea what I'm talking about. So I review plugins and I handle requests for people that are having problems with plugins. Developer problems, not user problems. 
+
+	And when we send out those mails, the first thing that happens is that we get about 600 bounced emails in that plugin queue, and I've got to trim through those. And so doing that on release day is kind of a pill. But also, it's -- it just didn't seem nice to not give people advanced warning, when it's not like we didn't know that was going to be a problem. We had a problem where we had changed the way that some JavaScript wasn't queued because of tinymce4's upgrade, and we had removed some things, and found out the hard way, during beta that some people had not accommodated for the fact that they should always in their JavaScript require the components that they're going to need. They were just trusting the fact that WordPress had them. So when we removed them, unless their plugin said "And I require this" it wouldn't bring it back in. It was kind of a weird thing. And we found that there was no real way we could test for it. 
+
+	So what we did is we ended up writing an error code, so that when you tried to debug it, you could see what had happened. But the problem with that was that the people who saw the error weren't the developers, they were the users. And that didn't go over well. It didn't go over badly. We've done dumber things in the past. There was one where we added a parameter to a function and Mason ended up having to make a blogpost to say if you see this error, here's why. It's not you, it's the plugin you're using. Relax. 
+	
+Interviewer:	Can you think of other examples in the past when that's happened?
+	
+Epstein:	[28:35] Examples of things that we've done wrong?
+	
+Interviewer:	Yeah. And that have particularly bothered you. 
+	
+Epstein:	[28.44] You know, it's funny. When they first said that they were going to try to do these auto-updates for minor releases, I was really opposed to it. And in the intervening year and a half, two years, that it took us to get there, I became a huge champion of it. And the thing is, that's how most changes in WordPress sort of go. If they're big, dramatic changes to behavior, not functionality, and they're very different things  -- I mean, I love the new dashboard. I can finally read -- I have horrible vision. My glasses are ultra light and they're really heavy. I got my new glasses, and they're frameless, which means they have these spokes that go in on the edges, and they said, "Your glasses will be delayed; we don't have spokes that are long enough to attach the arms to your glasses." I have thick lenses man. 
+
+	I need the retina display on my iPad to be able to read things on it. So for me, the way the old dashboard was, I had to always increase the size of it, just to read it, and it drove me up the wall, because that messed up all the formatting in it, and it just didn't look right. The new one is so much easier to look at, and I don't even need to adjust anything code-wise. I'm happy with it. But if I had to pick something about it that I hated, it would definitely be the inclusion of Google fonts. I cannot stand that we did that. It makes things weird when you're testing in a non-web environment, or worse, if you're testing in a location that doesn't allow you to contact Google. 
+
+	My father was in a remote place in China. He logged into website. He had all sorts of weird things. He finally pings me on Skype and he says, "it looks wrong." When I looked at it, and I was like, "It looks right to me." So he took a screen shot and he sent it to me, and I said, "Oh, you're in China. I see." And so I ended up turning off Google fonts for him and included them on his server so he could just get by wherever he was. But it's one of those things that seems like a great idea, "Let's not make WordPress larger by installing this large font and having to adjust for everything" but in reality causes unforeseen problems to non-Americans. 
+
+	You know this because you're often not in the US when things happen, and things are very US-centric still. And that does bother me because we're really not as cognizant of the international distributive nature of WordPress yet.
+	
+Interviewer:	Has that always been the case?
+	
+Epstein:	[31.19] Yeah. I think it has. 
+	
+Interviewer:	Why is that?
+	
+Epstein:	[31.26] Because we're Americans. I wish I had a better answer. I mean, it's funny because who were the first two people that wrote WordPress? They were an American and a guy that lived in England. But time zones are a really messy thing. There is no perfect time for everyone, and we know this. That's why when we were doing support talks, we were discussing having a rotating time where every few months we'd change it by a couple of hours to catch different people. But it's hard to do that. 
+
+	It's not to do with WordPress specifically, or even the fact that the primary maintainer for a very long time was an American. It just has to do with people who are running things will just try to run them so that it's convenient for them. And I see nothing wrong with that. You kind of have to. But it does make it awkward. And I don't know a fix for that one. I can't even dream up a hypothetical fix because my thought is yeah, if I live here, and you live 12 hours away, and I say "Let's meet at 8am," and you say, "It's 8 pm for me; I have got to read my kid a story and go to bed." Yeah, that's a small problem. 
+	
+Interviewer:	Can you tell me how you went from answering questions on the support forums to being more involved in the community?
+	
+Epstein:	[33:00] I kept answering questions on the support forum. Seriously. So what was it, two years ago, we did the community summit?
+	
+Interviewer:	Um-hm.
+	
+Epstein:	[33:09] So two years ago, we did the community summit, and before that we had stared to, I think it was a year and a bit before, just a year before that, we had started to isolate people in the community who were standout people for whatever reasons. So we started calling them the representatives, so that people didn't think, "Hey, this is Matt's baby" all the time. Which is it, but Mason is the lead of this release, therefore he is the core representative. Helen is the lead for the 4.0 release; she is the representative for core. That's her job. 
+
+	It gave people a point. When you were a representative, your job was to keep tabs on what all the other groups were doing, bring it back to your own groups, so that everybody was aware of what they need to know, or what they didn't need to know, and kind of make sure that the lines of communication kept flowing. So what I had done initially, with the barbecue post in the forums, I now did year round on the mailing list or on the main support site. 
+
+	By doing that, I got invited to speak at WordCamp in San Francisco -- sorry, that was the other way. I was out to speak at San Francisco, and then we did the thing. It went San Francisco, got a new job, and support rep, because I said I can't really do the support rep easily when I'm working for the bank because I can't get to IRC during the day time, so we'd have to go meetups on certain days when I could. So I just couldn't go to the meetup and Hannah handled it. So at the time I was kind of the rep and kind of a co-rep with someone else. But what happened then was because I was doing all the support stuff, I was asked, could I come to word cape San Francisco and talk about doing support and using that to be involved in the community. 
+
+	When I gave my talk, which you can see on WordPressTV, it's a WordCamp San Francisco 2012, I said one of the things is, "You know something that somebody else doesn't." That's just a fact of life. You always will know something that someone else doesn't. so take the time out of your day and answer one question. You've made one person's life easier. And then I just kept doing that, and then one day I complained at my job, and I said, "You know, my office is really dumb. They've blocked Google Docs." They did it for a legit reason. They didn't want people to paste private docs into google docs and then steal them, which makes sense, bank. Although, I'm like, okay, given all the things that they've done, I can still ftp my damn documents to a server and steal them that way, but okay, whatever. And yes, I did explain that to them on my exit interview because I'm a nice person. they now whitelist who you can ftp, which drives people crazy, but hey. You know what, whatever. 
+	
+	But I had posted that I really wished that I could just spend my day helping people with WordPress questions, and being able to help on the support forums at the same time. And Mike Schroeder, DHShredder, he pings me, he says, "Are you serious?" And I said yeah. And at the time, I had actually had interviews with other WordPress companies but had not found the right fit. And he said, "Well, if you're serious, email me. I want to hook you up with our tech support guys." And I kind of dithered about it, then my mum hit me in the back of the head and said, "Don't be an idiot," and then I contacted them and had an interview. I spoke in San Francisco and got the job offer. That's my kind of awesome success story. But the thing is that just because I knew that I had an answer and somebody else didn't. Let me help. 
+
+	And actually, that's primarily what I still do. I know an answer that you don't; let me help you. I also teach people how to answer questions, how to talk in the same language that somebody asks you the question in. And I don't mean, am I talking in Swahili, because I can't. What I mean is listen to the tone that they're writing with, and come back in the same way, because that tells you everything you need to know about what they already understand. 
+
+Interviewer:	Do you think the team representative system has been successful? 
+	
+Epstein:	[37:49] Yes, and no. Yes, it's been successful because we've successfully brought other people to the forefront, because Jan Dembowski is the current support representative, and it kind of has brought him into the limelight a little. Also it's nice for me to not in it for a little while because I needed a break. But in some ways, it's not successful because it's not really a job. And you don't really have any extra power, but people think you do. And that's really kind of the main problem with being a moderator in the forums, or of doing anything of regard in the WordPress community. You don't actually have any more power than anybody else; it's just you know a few more people, and you have more responsibility. It's not like if somebody complains to me in the forums and says, "I hate this about WordPress, it's not like I can magically go over and say, "Matt, you will change this." I could, but he'd probably laugh, or just delete the email.
+	
+Interviewer:	Why do you think that's a problem?
+	
+Epstein:	[38:55] I think it's a problem because people don't really understand that this goes all the way back to what I understand about WordPress and how it was developed. It's insane. People don't understand how the community can possibly develop a product together and work together. And to tell someone, well, I get that you really are into this one aspect of WordPress; most people aren't. It needs a champion to take it forward. And frankly, I don't want to be the champion for everybody. I don't always agree with what they want to do. 
+
+	There's somebody who wants to champion -- when you disable comments on your sites, it turns them off for everything. I would be happy to champion that one. But on the other hand, people who want to revert to the old image editor. No. I like the new one. I don't want to be champion, and I understand why they're upset. But then we take other things like, when you go to image editing -- when you upload an image you used to be able to change borders and padding dynamically per image by editing it, and you can't do that anymore without a plugin. I never used it, so I didn't really think about it as a thing. I didn't know it was a thing until people complained in the forums. And we said, "Look, here's a plugin that kind of does the same thing. We can't revert, because it would mean taking out all these other things that were done for performance, and blah blah blah. However, if people can figure out how to make it back to simplerish the way it was, with a plugin or maybe with core, they made do that, but it needs someone to champion it and to take it forward." 
+
+	And people would rather complain. This is the problem with the reps, because they'll go to the reps themselves and complain and say, "You're the rep for the support forums. You should be able to push and make these things happen." I'm like, "Yeah, but if I did that for everybody, I wouldn't have time to do anything." You need to take some ownership within the community with which you are involved. And people don't always take that well. 
+
+	And the other problem is that I still get emails from people saying, "Will you delete my posts in the WordPress forums?" I kind of ignore it -- anybody who hears this. If you send me an email to say, "Can you delete my post in a WordPress forum?" I just delete the email. 
+	
+Interviewer:	So can you not delete them?
+	
+Epstein:	[41:55] Oh, I can totally delete the post in the WordPress forums. The thing is, it very clearly says, "We will only do it if there's an extreme reason." For example, a woman was being stalked. And the guy had used the forums to find her. And she said, "Can you please delete my posts?" And we said, "of course" -- that's a very serious thing. There was someone who posted a link to illegal content and we removed the link, but we left his post, because the rest of the post in the forums detailed how to find a problem, how to solve a problem, which was useful for the community. And that's why we don't delete the posts. 
+
+	What we absolutely can't do is that we can't delete your user account. And I'm really sorry, but the system is kind of weird. 
+	
+Interviewer:	What improvements have there been to the support forums, in terms of technologies used over the years?
+	
+Epstein:	[42:06] The tech in the forums is still old. And what it's hooked into -- the biggest change has been how we manage to tie in the support forums with plugins and themes. I love that. The problem is that we're all still using bbpress 1.x -- and yes, I did say 1.x, not 2. It's not the plugin. We have a lot of special plugins. There are lots of things that we can't do that we want to do. And Otto has a great huge list of things that we want to do, and he's slowly working his way through some of them. 
+
+	What people have done is they have made things like Chrome extensions that let us manage the forums differently. I can click on someone's IP and it will automatically bring up all of their posts, so I can just mass-delete them if they're spamming, which is great. But those are kind of add-ons. What the forums, sadly, really need is to make everything read-only and start over. When you think of how big of a problem that is, because if we do that, then we have to fix the plugin forms so that they point to the right places, and Otto gave me a dirty look. 
+	
+Interviewer:	Yes, I can imagine. 
+	
+Epstein:	[43:29] It's something that we do want to do and we are discussing it, but it's something that you have plan out the game play before you even start to do this one. It's just big. 
+	
+Interviewer:	When did you start getting involved with the plugin directory?
+	
+Epstein:	[43:52] Let's see, it was before I started working for Dreamhost, so this would be -- two and a bit years ago, Mark Jaquith wrote this thing called a Directory Slurper, which downloads a whole mess of the plugs to your desktop via UNIX script. And what it does is it lets you have a copy of all of the code, which is cool. And what I was doing with it was I downloaded it and it's got 1000 plugins, and I have to update it every day. But what I was doing was I was searching via ack and grep, which are Linux command-line tools to search through multiple files, to find people that were doing things wrong -- either violating copyright or licensing or calling a code that no longer existed, because report in the forums, "Hey, this plugin is having this problem." And I would look at it and go, "Okay, it's because they're doing this code that I know changed in WordPress 3.x." And I kept mailing in the plugins list and saying, "These guys are doing it wrong." And finally, Otto said, "You want to join the plugin team?" it would mean reviewing new plugins. So he added me to the plugin team, and he and Mark and Mason sat me down and explained what they wanted out of me. 
+
+	Originally, I would review the plugins and the ones that were small and easy and I could readily understand them, I'd approve, and when I wasn't sure, I'd ask questions. And as time goes by, I'm pretty good at reading through the source code of a plugin and spotting the major problems. And we've actually improved that process, but it also is running a version of bbpress and desperately needs love. The work flow is kind of weird. So what I do with it now is that I review new plugins, add them to the repository if they're okay. Tell them why not if not. Reject them out of hand if they're using wrong things in their names. If I see that you say, "I want to make a plugin called 'Archive Wedgit' but you spelled W E D G I T" I will reject it and say the word widget is spelled this, you need to resubmit it. 
+
+	If they put "plugin" in their plugin name, I'll probably reject it and say, "Hey, you don't need to put 'plugin' in your plugin name; it's redundant." We outright ban anyone from using WordPress in your plugin name because for crying out loud. 
+
+There are some exceptions of course. There's a thing called Plugin Manager. Well, naturally I'm going to approve that because it manages the things for multisite. But at the same time if you put in "User Management Plugin" then no. You can have "User Management" but not "User Management Plugin". Since we can't rename them easily, we have to reject them and you resubmit. 
+
+The other thing I do is when people have found security problems or repository violations in a plugin. They email the plugin email list and I catch those and email them and say, "Hey, you guys have got to fix this" or so "No, that one's not right." 
+	
+Interviewer:	Was there a review process in place when you first got involved?
+	
+Epstein:	[47:10] Yes. And really, all that's happened with it is that it's evolved to re-look for other specific things as well. Like we used to say, "You included your own jQuery, that's fine." Now we say, "You may not include your own jQuery. Stop it." We used to warn people when they would do things wrong; now we make them fix them before they get in. 
+
+	So we have kind of taken the original methodology and made it more precise. Part of it is -- I use a tool call atext, which has all of my commonly used replacement plugins so that I can just whip it off really fast. And one of the things says, "We don't enforce developers to adhere to the WordPress coding standards. However, when someone has code that is done in this way, and we recognize that it can cause significant issues with people non-standard installs of WordPress, we do push back and require you to fix them before we approve your plugin." 
+
+	I did that for someone recently who was recreating short codes, and he does not delete the short code before he creates the new one. I was like, that's going to break stuff. He didn't really understand why. So I've been trying to explain it to him in different ways. 
+	
+Interviewer:	What about plugins that you approve but then go out of date?
+	
+Epstein:	[48:48] We leave them alone right now. If you go to a plugin that's out of date, and it hasn't been updated in two years, you'll see the little yellow warning bar that says, "Hey, this plugin hasn't been touched in two years." That's basically all we do. They also don't show up in the searches. So if you do a search for that plugin, it won't show up. Unless you search for it specifically by name. 
+
+	We sent out an email saying, "Hey everybody, remember to update your plugins. All you have to do is update the README to say that it's compatible with the current version of WordPress and you will not have this nasty little yellow bar on your site." I wanted to take all those emails that bounced, and yes, we did make a list, and just close all their plugins. Because if they have a plugin that they don't have an email for anymore, we've got to stop. You're clearly not a part of the community anymore, for whatever reason may happen. And it's potentially dangerous to leave those sitting out there. 
+	
+Interviewer:	And what decision was made about that?
+	
+Epstein:	[49:55] No, at this time. 
+	
+Interviewer:	Who made the decision?
+	
+Epstein:	[50:00] It was a group decision. Basically, we couldn't come to a consensus about it. And we decided that Matt needed the final call. Matt hasn't made a final call on it yet. He's thinking about it, which means not now. But if he changes his mind, or comes to a complete decision, then it'll go from there. It's a big decision because it's a non-insignificant number of plugins. 
+	
+Interviewer:	How many?
+	
+Epstein:	[50:30] I'm checking right now. It looks like over 150.
+	
+Interviewer:	150 plugins.
+	
+Epstein:	[50:37] Yeah, not 150 users, 150 plugins. And that's -- yeah, you'd think, you've got 30,000 plugins. How is that non-insignificant? There are a lot of plugins that people are using, and also we really don't have a way to say, "Hey, this plugin's out of date. You should use something else." As we improve the WordPress auto-updater, we get to a place where we might be able to handle that. Those two things are directly related in my mind. Until we have a way to auto-update someone and say, "Hey, you are using a hacked, and insecure version of a plugin that has a new version, we've updated you for security reasons." 
+
+	It's kind of a pipe dream. I think it would drive some people insane if we did that because, I didn't want to update my plugin. You had an insecure version that would lead to you getting hacked. Are you nuts? But I don't really get -- it's not like I get to say, to make a call on that yet. I do think it's a good idea. And I'd like to do it, but I think we also should wait until the dust settles a little with the whole security updates with 3.7, 3.8, and 3.9 because I still see people who are, "Why didn't my WordPress update?" I'm like, how did you miss it the last few times?
+	
+Interviewer:	Do you know when the plugin review team was set up?
+	
+Epstein:	[51:58] I don't. Otto might know. 
+	
+Interviewer:	I'll ask Otto. 
+	
+Epstein:	[52:03] Yeah.
+	
+Interviewer:	What improvements have there been to the technology in the plugin directory? Any?
+	
+Epstein:	[52:16] Well, they're all weirdly cosmetic things. Well, we used to -- so one of the things that Scott Reilly did, which I adore him for, is that we have a very complex check on your user account when you submit a plugin. And if you come from certain places; it's partly based on your IP, it's partly based on things I really don't want to make public, because the people who do this would then abuse it. But suffice it to say, it takes your past behavior, looks at it, and flags your account if you might be suspect. It checks to see if you're a bozo -- okay, the word "bozo" means that you are being mod-watched in the WordPress support forums, and all of your posts have to be approved. It is not an insult, but it's one of things that makes sense in English and doesn't make sense in other languages when you translate it. 
+
+	So we check to see if the people account is blocked or restricted in some way in the WordPress support forums, we check the idea forums, we check other places. We check their email address. What have they been doing? What IPs are they using? Things like that, and it all comes together -- we also check, what other plugins have you submitted? What's their status? Have we rejected them? Have we approved them? What? 
+
+	It kind of gives you a score that says, "This plugin author looks like they're okay. Go ahead and review the plugin." And we have a few people that are, "This plugin author is known to do malware and horrible things. Based on this information, please do not approve this plugin." 
+
+	We also colorize things. That sounds strange. It used to all be black and white, and you couldn't tell what plugins were pending a reply and which ones weren't until you clicked on a thing to see a drop-down, and now they come in a different color. If someone's replied, they're yellow. If they haven't replied, they're white or grey. So you can see what the status is at a glance. We've added a bunch of tools for checking on users, doing quick things that we used to have to check -- I'm going to look here, then I'll look here, then I'll look here. Now we have master tools that do that for us, which we quite love. 
+	
+Interviewer:	Have you had to deal with any major security issues with plugins?
+	
+Epstein:	[54:23] Sure. All the time. 
+	
+Interviewer:	Can you tell me about ones that stick out in your mind?
+	
+Epstein:	[54:28] wpsupercache and wptotalcache had a problem where you could read the database. It had to do with how it was caching things, if you did a dbcache. And normally, when someone has a security issue, what we do is we close the plugin, and say, "Hey, you've got to fix this, and then we'll reopen it." The problem with that, and I'm sure it will crystallize for a lot of people here, is that when we do that, it almost sends up a flag that says, "Hey, something's wrong with this plugin."
+
+	Now closing a plugin can happen for a number of reasons. You're using jQuery. We don't actually close them for jQuery; we just warn them. But let's just that you're doing a few things that are violating the WordPress plugin repository rules like putting in a poweredby: link. That is just not permitted. Don't do it. We can close your plugin for that. 
+
+	We could also close your plugin for being broken and crashing sites. We can close your plugin for security reasons, or we could close your plugin because you've been massively abusive to people, and yes that's happened. People who have used specific four-letter words that are not polite to call anyone have had their plugins revoked because clearly, you're not going to be nice in the community; we don't want you here either. It's mean, and I hate that, but at the same time, nobody deserves to be treated like that. And if you're not willing to work with people; we're going to block you.
+
+	Now one person has actually managed to come back from that very recently. He apologized. We discussed things. We explained what the situation was, why this had happened. He accepted this and we've been slowly giving him some plugins back to say, "You know, let's go forward." At the same time, we're not deleting the nasty comments that he made. 
+	
+Interviewer:	Why?
+	
+Epstein:	[56:14] He has to live with what he's done. He's fine with that. So a security plugin like wpsupercache and wptotalcache -- those are huge. The number of people who use that is insane. And if we were to close it, it's like -- there's a law in Illinois that says a bank cannot be closed for more than three consecutive days. And they have that law because of what happened during the Great Depression when they closed banks and everybody went batshit. Closing a plugin can have that impact, and thus for some plugins, unless it is a serious flaw, we may not close them, but it's really touchy and really case by case. 
+
+	nextgengallery got closed once, very recently, because they had a major bug in their code. They released a new version, and it went rampant right into the database. This is not a security bug, this is just a regular bug. We closed it because we didn't want anybody else downloading it. We didn't want anybody upgrading to it. The only way we could stop that was if we closed the plugin. And Mason had to help them rewrite the code to get it working right, and they figured out everything that was wrong, and it works much better now, but that was big. That was big because generally, if they have a small problem, we'll tell them, "Hey, we noticed this small problem, you should fix it." But to say, this is a big major really well-used plugin and we've got to close it because keeping it open is going to cause more problems? Ugh, it's hard.
+	
+Interviewer:	Do you ever rewrite codes for plugins that face a major security issue, and it's a plugin that lots of people use?
+	
+Epstein:	[57:55] Sometimes. For the most part, I try not to rewrite the code for the developers, because if it's at the point where we've had to close it for a major security issue, I may not know how to fix it. If it's stuff like they're not sanitizing their variables in their input, I can tell them how to fix that. But I won't rewrite the code for them personally. Twice, we've actually sat and rewrote the code for the developer, and taken it away from them in order to do that. But those situations were much more than just, "You've written insecure code." It was, "You've written insecure code and you're refusing to fix it, and this is a big problem." For the most part, when you tell somebody, "Hey, your plugin is insecure, we've determined x, y, z." They fix it right away, because the email that says "There's a violation of the WordPress plugin repository rules and your plugin has been closed." That's not a happy email. That's like the worst email a developer ever gets from us. And it's mean. 
+	
+Interviewer:	What changes to WordPress have had big impacts on plugin developers?
+	
+Epstein:	[59:11] There's the one that I mentioned where we changed a function to require two variables instead of one and it threw errors. But one of the biggest ones that I love is that you can no longer overwrite jQuery on the wpadmin pages. You can if you work hard, but by default it doesn't happen anymore. Because that caused so many support headaches, and now it just doesn't. I quite love it. But you'd have to actually go through all of these change logs for WordPress, and things that are like -- oh, adding in the short code attribute enhancer. Okay, I just had a chance to play with this the other day, and I love it. You can add new attributes to existing short codes. So like if I wanted to add in a special attribute to the gallery short code to say full screen yes. And then it would run my own special code, I can do that. And some of that is some of the most brilliant stuff -- that means I no longer have to write a plugin that says, "Okay, I want to replace the gallery and add in these new features. I'm going to have to tell my plugin to remove the old gallery short code and then reinvent the wheel." I don't have to do that anymore. I can just filter that sucker. 
+
+	It's great. When you do stuff like that, that makes development faster, because I don't have to rewrite things. I just have to add on to them -- oh, I love that so much. It's like Chanukah all over again. For those who have no idea, it's like having Christmas every day. 
+	
+Interviewer:	Can you tell me how the community has changed over the years from when you first got involved to now?
+	
+Epstein:	[1:00:55] The community has matured. We're no longer seen as -- it used to be WordPress was just blogging. And now it's, WordPress can do anything you want it to do. But in the process of that, the community has had to grow up and change some of our preconceived notions of what WordPress is and isn't. It's also a lot less -- this is Matt Mullenweg's WordPress. I mean, it still is, don't get me wrong. But it's much more of a community collaborative development lead effort than it ever used to be. We change the leads all the time now for core development. So Mason did one, and now Helen's doing one. We don't even know who's going to be next, and that's okay. But it lets us bring fresh perspectives and fresh points of view. And people come to WordPress now from many more locations and points of -- people come to WordPress because they want to run a blog. People come to WordPress because they want to run a wiki. People come to WordPress because they're running a gallery. People come to WordPress because they're running their own kind of Facebook-y thing using bbpress and BuddyPress. 
+
+	What are the sites that they're making? They're making a news site. They're making a site for a family reunion. They're making anything you can think of. And the exponential possibilities of what you can use WordPress for has changed so much that we're now embracing all these new thought processes. Because the way I use WordPress, and the way you use WordPress, could be totally different. 
+
+	I run a store on WordPress for crying out loud. And because of all those things, though, we've had to come together as a community and firmly remember that there isn't one way to WordPress. So we have to embrace all these other things and keep that in mind as we're developing, and I think we do a very good job for it. 
+	
+Interviewer:	Who do you think has had the most impact on the project outside of the codebase?
+	
+Epstein:	[1:03:02] The most impact on the project outside of the codebase? Jen Mylo sure as heck was a driving force in changing a lot of things. When I first ran into her, she was spearheading the design change, I think it was for 3.2 when we got the new icons. That's kind of the codebase, but it was really taking WordPress to a place where you were not testing things with people before we released them to figure out what worked and what didn't. It felt so grown up and awesome at the same time, that it felt very WordPress-y. 
+
+	Andrea Middleton, she's running the WordCamp stuff, is just amazing, because that and the meetups and bringing everybody together, and making it so that everybody and everywhere could have a WordPress -- there are more WordCamp. Anyone can have a WordPress -- you have a WordPress, you have a WordPress. I'm like Oprah. But making it easier and more understandable for people who don't really get all that stuff to have a wordcamp in their location and bringing as less of the software over there to this community here. It's awesome. 
+
+	Some of the things that we're doing -- I was about to say her Twitter handle, @littlejimmy, and then I'm like, "Wait, what is her real name?" I call people by their handles all the time, and you don't think about their names. Tracey who lives in Philadelphia. She's doing the videos for WordPress to do training. I need some training. Basically anybody who handles your meetups. Anyone who handles a WordCamp. People who volunteer and do that stuff, they're the ones who are changing the face of WordPress, because they're becoming a face of WordPress. And as time goes by, the more I see of them, the more I'm delighted, because it shows the developers where to go because the users are telling them, "This is what we see. This is what we like. This is what we don't like." And it's way better feedback than the impersonal ones many times. 
+	
+Interviewer:	Yep. Well, you have answered all my questions. So we can leave it there. Thanks for talking to me. 
+	
+Epstein:	[1:05:39] Sure. 
+	
+
+

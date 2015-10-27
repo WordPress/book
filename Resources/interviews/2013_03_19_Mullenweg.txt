@@ -1,0 +1,376 @@
+
+Interviewer 00:00	Okay. So, I wanted to start off just talking to you about blogging in general, kind of back in 2002 when you started. I'm interested to know why you started blogging.
+Mullenweg 00:19	I had always - I liked blogs. I was following a bunch of blogs on economics, like Brad DeLong and Marginal Revolutions. And, yeah, I thought I could do this. I like Slashdot, I like Kuro5hin, and I like the Anil Dash and Kottke. Yeah, I liked blogs and so I wanted to start one.
+Interviewer 00:47	Did you have any idea of what you wanted to write about?
+Mullenweg 00:52	I mostly wrote about economics, politics, and technology. I actually recently imported my super old blog post and so before my first blog post is now about a couple dozen older ones.
+Interviewer 01:11	Yeah, is that the ones with the puns?
+Mullenweg 01:14	No, it’s Pre-Puns.
+Interviewer 01:16	Pre-Puns?
+Mullenweg 01:17	It would depend on the ones from 2002.
+Interviewer 01:20	Yeah, I think I have read those. Let me just have a look. So you just wanted to get your voice online?
+Mullenweg 01:33	I think yeah. I like it to be tagged. I just did this like a few weeks ago actually. Oh, not two weeks ago, it was two months ago.
+Interviewer 01:43	Yeah. So these are the Movable Type posts?
+Mullenweg 01:47	Yeah.
+Interviewer 01:48	So how come you started with Movable Type?
+Mullenweg 01:56	Because that's what all the cool kids used?
+Interviewer 01:57	Yeah. Did you like it?
+Mullenweg 02:03	Yeah, I did.
+Interviewer 02:05	So, how come you--
+Mullenweg 02:06	One thing that was a pain was like the permissions. For example, you have to put certain files in cgi-bin. I don’t like the templating engine. You have to rebuild every time, restart it. I got a lot of spam. It was kind of heavy on the server.
+Interviewer 02:23	Yeah.
+Mullenweg 02:24	But the interface was very clean. I used a bookmarklet for most of these posts and it looked good as well.
+Interviewer 02:33	Right, but you moved to b2, why?
+Mullenweg 02:40	Yeah, I preferred PHP because you didn't have to deal with permissions; you could just put everything there, like chmod’ing files and things. And I had more experience hacking PHP than Perl.
+Interviewer 02:54	How much experience did you have with PHP at that point?
+Mullenweg 02:59	I had hacked on phpBB Bulletin at that time and Gallery--
+Interviewer 03:06	Yeah.
+Mullenweg 03:07	--which was PHP Gallery Scripts that I used until WordPress 2.0’ish or 1. 5'ish. Yeah, all of those, particularly gallery; I went pretty deep into the photo gallery.
+Interviewer 03:24	So that's what you used for your gallery on your blog?
+Mullenweg 03:27	Yeah, that used to be on photomatt.net.
+Interviewer 03:29	Right.
+Mullenweg 03:29	Was the Gallery.
+Interviewer 03:31	Okay [laughter]. And what did you use phpBB for?
+Mullenweg 03:37	What I used phpBB for? Forums. I had some forums for-- also PHP-Nuke. I ran this Houston Palm Pilots Users Group.
+Interviewer 03:47	Oh yeah.
+Mullenweg 03:49	And I feel like we had forums there - maybe in someplace else. At one point, I had like four or five phpBBs going on. Forums were apparently big thing at that time and I was really into forums. There was a site called davidcaceres.com.
+Interviewer 04:04	Yeah.
+Mullenweg 04:05	He was a saxophone player. He was my teacher and we had set up forums on his site. I don't know why, but [laughter] this saxophone player ended up being kind of a hotspot of Houston of my friends. We all kind of hung out there and talked. Another big one was Jazz Houston, which wasn't PHP-- it actually was still using Java stuff, but we all hung out on those forums a lot too. I spent a lot of my time on forums.
+Interviewer 04:37	Was that like local people who you knew personally or like did you meet people online that way?
+Mullenweg 04:45	David Caceres and Jazz Houston were local people.
+Interviewer 04:47	Yeah.
+Mullenweg 04:48	Although some of them I met through there. The other forums, I was on Site Point, the palm pilot stuff, newsgroups, any of those were more new.
+Interviewer 05:01	Yeah. So why do you think people moved from forums to blogs? So why do you think they-- it seems to me that forums are not as popular as they were, I mean people use them, but--
+Mullenweg 05:22	In absolute levels, they’re probably more popular than they were, but in relative terms--
+Interviewer 05:28	Yeah.
+Mullenweg 05:29	--obviously blogging is way larger. So I think that forums are continuing to grow ever since then, but just that people enjoy having their own space on the web, own blogs, survival of their own versus - forums also typically have a pretty complex social and etiquette structures. I mean they’re given WordPress forums, right? So they usually know how to post, then there are rules about where ethics go and there are moderators and that sort of a power hierarchy and I think it’s also people like not having to deal with that.
+Interviewer 06:06	Yeah.
+Mullenweg 06:07	If you are on the inside, it’s great, but if you are not, I think forums can be a little off-putting.
+Interviewer 06:12	We’ve got a kind of hierarchies emerging in blog communities as well, don’t you?
+Mullenweg 06:18	There are more communities, but on your blog, you’re boss.
+Interviewer 06:21	That's true--
+Mullenweg 06:21	And no one’s going to come on to your blog and tell you what to do. If you’ve been told WordPress software structure, the comments are sort of at the pleasure of the blog owner, right? Like as a WordPress administrator, you can edit comments, delete them, and do whatever you want.
+Interviewer 06:38	That's true. You get to be--
+Mullenweg 06:40	Everyone else is a guest in their space.
+Interviewer 06:43	Well that kind of leads you on to another question. There’s probably lots of interest to this, but I’m quite interested in why people want to go online and publish stuff, their thoughts their-- I mean it’s much more need to know, I guess. Back when you started, it seemed to be just anything that popped into your head ended up on your blog. So why do you think people want to do that?
+Mullenweg 07:11	I think it’s fun to share. People will share anyway even if they don’t have blogs. You tell your friends something interesting that you found, you know you at dinner and you talk about a video you saw or a TV show. Like it's nice to have a shared cultural understanding and so I think people would do that whether blog exists or not.
+Interviewer 07:31	Do you keep a diary?
+Mullenweg 07:34	I probably tried, but blogging was kind of the first - I took to blogging more than I had journaling, because I just enjoyed the more authorship part of it and an audience. And I think I aspired to have an audience.
+Interviewer 07:55	Yeah. And--
+Mullenweg 07:57	I also had a LiveJournal at that time. LiveJournal - it's hard to understate or overstate the influence LiveJournal had on all these other systems.
+Interviewer 08:05	Did you-- were you on LiveJournal ever?
+Mullenweg 08:08	Yeah, absolutely.
+Interviewer 08:09	Is it--
+Mullenweg 08:10	I have friends who, to this day, still update through LiveJournal.
+Interviewer 08:13	Do you have a link to your LiveJournal? Is it still around?
+Mullenweg 08:18	Let's see. If you note that there, I actually distinguished a blog from the photo log like they were two independent entities.
+Interviewer 08:37	Wow. This is quite old school.
+Mullenweg 08:40	It is. I use LiveJournal more for following other people's blogs and blogging myself.
+Interviewer 08:50	So journal archive, let's see - did you actually write anything on here? No?
+Mullenweg 09:00	It might be if I have a post, I have to log in. I don’t have a login saved on one password, so who knows how I could get in here.
+Interviewer 09:06	[laughter] It’s fully--
+Mullenweg 09:08	It’s probably some kind of post.
+Interviewer 09:10	Yeah, well if I can read, then that’ll be cool, but I guess it’s their private you might want it to stay private [laughing]. Okay, so did you enjoy writing?
+Mullenweg 09:23	Oh yes very much so.
+Interviewer 09:24	Yeah, do you still enjoy writing?
+Mullenweg 09:27	Yeah, looks like I created this account in 2002.
+Interviewer 09:30	Okay.
+Mullenweg 09:31	That was even before WordPress.
+Interviewer 09:37	I wonder if you should get your login details and see [laughter] what’s in there. I’ve archived my old blog and I’m not sure if I could read it [laughter]. Okay, so which were the most significant bloggers that you followed at that time, like who do you think had big influence on you, you mentioned Anil Dash, you talk about Zeldman quite a lot on your blog.
+Mullenweg 10:07	Yes, Zeldman is pretty huge.
+Interviewer 10:08	Yeah.
+Mullenweg 10:09	This is the other super old school friend that you might find interesting. I was a big SitePoint user. You have to register to see the profile though. Those go back to 2001.
+Interviewer 10:24	So this is PHP and dates before 901, 1901. So are you--
+Mullenweg 10:30	Oh that's just a specific thing, but--
+Interviewer 10:32	Oh I see. That's you, is it Allusion?
+Mullenweg 10:36	Allusion, that was my nom de plum.
+Interviewer 10:39	Okay, I'll have to check that out. Thank you. So were you doing quite a lot with PHP already? I guess in this sort of mullenweg.com - was that PHP?
+Mullenweg 10:55	Yeah.
+Interviewer 10:56	Yeah. I mean, were you helping other people out quite a lot?
+Mullenweg 11:03	Yeah. I was getting to help a lot and I always enjoy helping other people.
+Interviewer 11:10	And what else were you doing in your life at that point, kind of offline?
+Mullenweg 11:18	In 2001, I would have still been in high school and so playing a lot of saxophone and then working on the Fed Challenge Competition, which was an economics competition. Have we talked about that before?
+Interviewer 11:33	No.
+Mullenweg 11:34	Oh, so Fed Challenge is probably the best point that summarizes it. So in 2002, a year that Maggie Walker Governor's School for Government, etc., won. We were basically the runner-up, so we made it through. If you know it was like Texas won for a lot of years.
+Interviewer 12:03	Yeah.
+Mullenweg 12:05	Well, it’s the Texas district, so that was the hardest district in the country.
+Interviewer 12:09	Okay.
+Mullenweg 12:10	So most-- the first year, we got eliminated in the first round, which was just Houston. The second time, we won Houston, we won the region and then we went to nationals. It was pretty exciting. I think we actually might have been number one.
+Interviewer 12:26	[laughter] Okay.
+Mullenweg 12:28	The person actually announced us as the winner, and then she said “Oh, I’m so sorry” and the high school name was on it, “And the winner is, High School for the Performing and Visual Arts,” and we all got up and we were crying and like cheering and everything because it was pretty intense. Probably the most intense academic thing I've done in my life. And then she said, “Oops, I’m sorry, actually the winner is so and so.” But basically what it was is a competition around macroeconomics, so you would prepare as a committee in the United States that decides the interest rates. It was headed at that time by Alan Greenspan, and then sort of representatives from these Federal Reserve banks around the country. It's kind of a bizarre structure, but they basically run anything.
+Interviewer 13:16	Yeah.
+Mullenweg 13:17	And so we would simulate that meeting and then for the second 15 minutes, you are actually sort of questioned and quizzed by Federal Reserve bank presidents. Like one of our judges was Ben Bernanke, who’s the current head of the Federal Reserve. So it was a pretty fun competition. The teacher there was this guy Scott Roman, who then did the summer program in Washington, DC that I went to, which is where I started my photo gallery and my blog.
+Interviewer 13:48	Okay. So did that have a big influence on you?
+Mullenweg 13:52	Huge, because that's where I started blogging because I was in DC.
+Interviewer 13:54	Yeah.
+Mullenweg 13:56	And also it pulled me a little bit away from the music, because it was so overwhelming in terms of the amount of time we were starting the practicing and everything. I just had less time for music. It was the first and to my knowledge only academic competition the school or academic award this school has ever won.
+Interviewer 14:19	[laughter] it didn't win. Came runner-up [laughter].
+Mullenweg 14:22	Well, we won the first level.
+Interviewer 14:24	Oh yeah.
+Mullenweg 14:25	Because it's very much an arts-focused school. They're very proud of Beyonce and everyone else who went there, but not really lot of academics.
+Interviewer 14:33	So you had Beyonce at your school?
+Mullenweg 14:36	Yeah. Beyonce, Robert Glasper who just won a Grammy, lots of musicians and actors and actresses.
+Interviewer 14:45	Do you miss it, the music?
+Mullenweg 14:48	Well, I do miss performing; it’s more about the school.
+Interviewer 14:54	Okay. Thanks.
+Mullenweg 14:58	I think I'm on the notable alumni list, which is kind of fun.
+Interviewer 15:02	[laughter].
+Mullenweg 15:08	Yeah, I miss playing a ton. I still pick up my saxophone every now and then, but I listen to a lot of jazz now, and most of my friends stayed in musical jazz, so I'll check out their performances when I’m in Houston or New York.
+Interviewer 15:22	Because you talk about performing on your blog from time to time.
+Mullenweg 15:27	Yeah, I made a good amount of my money from gigs.
+Interviewer 15:32	Do you ever think about doing it?
+Mullenweg 15:33	I made majority of my money at that time. Yeah, it was my plan to be a full-time musician.
+Interviewer 15:37	Yeah. You don't think now you would just do it for fun?
+Mullenweg 15:44	Yeah, I could totally do it for fun, but not a lot of time.
+Interviewer 15:47	Yeah. So--
+Mullenweg 15:51	It requires at least a few hours a day.
+Interviewer 15:54	You play a few hours a day?
+Mullenweg 15:56	I did. I would need to be decent again.
+Interviewer 16:02	Yeah, fair enough [laughter]. So at that point, first of all I guess you wanted to be a musician, and then you got into the economics, did that kind of change what you wanted to do?
+Mullenweg 16:20	Yeah, a little bit. Well, I decided I wasn't going to go to school for music.
+Interviewer 16:24	Alright.
+Mullenweg 16:27	I would go and study political science and economics and things like that. So it was a big change. But obviously at this point like I was really doing a lot of web stuff and that was taking up the bulk of my time.
+Interviewer 16:44	Were you making money from web stuff?
+Mullenweg 16:47	Yeah. So between web stuff and - I moved out when I was 18 and got my own apartment.
+Interviewer 16:52	Yeah.
+Mullenweg 16:52	And between web stuff and music, that’s how I paid my rents. I could still design from-- I had a couple of businesses back then.
+Interviewer 17:02	Do you have any-- are any of the websites you made still running?
+Mullenweg 17:08	I've put lots on archive.org.
+Interviewer 17:10	[chuckle] Have you got any links?
+Mullenweg 17:12	Here's one.
+Interviewer 17:18	You like orange [chuckle].
+Mullenweg 17:21	I was really into orange things.
+Interviewer 17:22	[laughter] Your LiveJournal is orange as well.
+Mullenweg 17:26	If you go to my portfolio, you can see some other links there.
+Interviewer 17:30	Oh they’re links
+Mullenweg 17:31	Yeah.
+Interviewer 17:34	So this is your, is this your company? Your thing--
+Mullenweg 17:39	Yeah portfolio. And that's the David Caceres site if you click on portfolio.
+Interviewer 17:47	Yeah.
+Mullenweg 17:48	And you can see it’s also orange.
+Interviewer 17:49	Also orange [chuckles].
+Mullenweg 17:50	But he had a kind of an orange thing going on already. The background of that photo was really orange, that’s why I kind of had to take it, so--
+Interviewer 17:58	He didn't just save orange for websites he liked particularly.
+Mullenweg 18:03	Perhaps.
+Interviewer 18:05	And 2013 is orange, was that you?
+Mullenweg 18:07	Yeah.
+Interviewer 18:09	[chuckles]
+Mullenweg 18:10	It's kind of amazing, this still works on archive.org.
+Interviewer 18:12	Yeah.
+Mullenweg 18:13	Imagine it in like a 640x480, you kind of make it smaller it looks better.
+Interviewer 18:22	Yeah, I'll try that. It's looking kind of big on my iMac. Yeah that looks better. SWC design, what’s SWC?
+Mullenweg 18:32	It was short for – perhaps you can click on the forums there. That was the forums we talked about. SWC was short for Spider Web Computers.
+Interviewer 18:41	Yeah.
+Mullenweg 18:44	That was, let me see one sec [silence]. This is going to blow your mind.
+	Interviewer Wow [laughter].
+Mullenweg 19:16	So some of that doesn't work, but there used to be a gradient. I think this is when I discovered some Photoshop or something.
+Interviewer 19:23	[laughter].
+Mullenweg 19:25	The Spider Web Computers obviously provided web design and web hosting.
+Interviewer 19:30	Yeah.
+Mullenweg 19:31	A number of interesting services.
+Interviewer 19:32	[laughter].
+Mullenweg 19:34	If you click on web design, we're fully versed in the complexities of HTML, PHP, MySQL, Java, Perl, Python.
+Interviewer 19:40	Wow. These guys look good. You should hire then for Automattic.
+Mullenweg 19:45	Yeah. As you can see later, the company forked into two and it became SWC Designs and Spider Hosting, which was a web host.
+Interviewer 19:57	And that was you too?
+Mullenweg 19:58	Yeah, it was more like $8 a month you could get 20 MB of space.
+Interviewer 20:06	Wow [chuckles]. I love these old sites. They're great.
+Mullenweg 20:12	Thank you. And I designed all of these.
+Interviewer 20:15	They're beautiful. I just loved that the orange is 2013, it’s brilliant.
+	Mullenweg [laughter] I guess some things never change. Well, how many colors are there?
+Interviewer 20:28	Yeah. Orange is probably one of my least favorite colors; I would say I like red.
+Mullenweg 20:32	Yeah.
+Interviewer 20:33	Yeah, I don't know why I never really liked orange. I guess it's got political significations in Northern Ireland. So that's maybe why, but it's never been my favorite. Well, I like these. I'll save them and put them on the archive. Okay, so did you decide while you were doing this, did you think, "Actually, I could get a career in this," or were you still thinking, “I'm going to go and do something with my degree or--"
+Mullenweg 21:09	I was spending pretty much all my spare time on these things.
+Interviewer 21:14	Yeah.
+Mullenweg 21:15	At one point, I partnered with a designer.
+Interviewer 21:17	Yeah.
+Mullenweg 21:19	And we did-- let me show you [silence]. We started what’s was called Verve Creative Partners. If that would have been – now unfortunately these graphics don't work anymore, but definitely the older ones do. This is when I started using CSS for design.
+Interviewer 21:59	Right.
+Mullenweg 22:00	So they don't really work anymore, but we build websites that work. It's funny that 800 number is-- just hold on. What happened? [silence] Oh, never mind. For a while, that 800 number was the same one that our mag used, but we have a new one now apparently.
+Interviewer 22:43	Okay, good. So when was this? When were you doing this one?
+Mullenweg 22:51	It would have been around the same time, 2003.
+Interviewer 22:53	Okay.
+Mullenweg 22:53	Basically before I went to CNET. Once I started college, I was paying all my bills and things through this, but then I kind of mapped all up and I went to CNET.
+Interviewer 23:10	When did you go to CNET?
+Mullenweg 23:14	I don't know, whenever it says in my blog.
+Interviewer 23:17	I don't think I've actually got to that point yet, so was it post WordPress?
+Mullenweg 23:24	Let me have a look. Yeah, here you go [silence].
+Interviewer 23:40	So it’s always been--
+Mullenweg 23:40	So this is one I said I was going to move and this is where I announced the job at CNET, and it was also the first ever picture article on the WordPress which was this one written in October 2004.
+Interviewer 24:01	Yeah. I haven't got that far yet, that is--
+Mullenweg 24:07	This one has probably some pretty good early things.
+Interviewer 24:13	The blog-age article. That’s really long, great.
+Mullenweg 24:17	Yeah.
+Interviewer 24:18	Okay.
+Mullenweg 24:18	Because it was I think the first mainstream press coverage of those early days.
+Interviewer 24:24	Okay.
+Mullenweg 24:26	In fact it cover most of the things I just told you that looks like I haven't read this in forever though.
+Interviewer 24:38	I will read this. So I mean-- and for the stuff for the anniversary I'm doing up until the Movable Type license change because once that happens, the amount of information goes crazy. That’s just so much stuff going on the internet related to it and actually there's a lot to already cover up to that point in terms of blogging, stuff around b2 and then the stuff around Fork and your early developers. And I think the Movable Type license changes the good cut off point. So we'll get onto that later. So did your offline friends get involved with your blogging or was it just--?
+Mullenweg 25:35	Yeah, the first four or five blogs were sort of my first four or five friends from high school. I had basically tried to switch them from LiveJournal.
+Interviewer 25:44	Okay. Did you succeed?
+Mullenweg 25:47	Yeah. In fact some of those sites are still up and let’s see. I mean this one is now password protected, but my friend Julie was a really, really talented writer.
+Interviewer 26:08	Yeah, that’s all protected.
+Mullenweg 26:08	And if you look in the sort of links on the side there, I mean that's some of the early sites.
+Interviewer 26:20	Yeah.
+Mullenweg 26:22	I Feel Like Night's, This is Your Girl, Techo Ferret, those were all the earliest sites.
+Interviewer 26:33	I saw her--
+Mullenweg 26:33	And This is Your Girl was really good because she was really funny, but she ended up passing away really young.
+Interviewer 26:40	Well, that's sad. The blog was up to 2010?
+Mullenweg 26:50	I think.
+Interviewer 26:52	That's someone else?
+Mullenweg 26:56	Yeah. I think it – yeah, I think she restarted-- no, that can't be right because she passed in 2004, so that must be an info book.
+Interviewer 27:05	Right, okay. I saw some of the ones-- I've seen some of these that you've linked to on your blog already. Some of the comments, discussions are quite fun. Okay, I want to talk now a little bit about b2. So you started with Movable Type and then moved to b2. There's a post where you talk about it and you talk about a chart that had a comparison between b2 and other platforms, but the post is not there anymore. So I’m kind of wondering what features made you want to move to b2, other than the PHP, I guess?
+Mullenweg 27:54	I really love pingbacks.
+Interviewer 27:56	Yeah.
+Mullenweg 27:57	I think they’re certainly cool and the kind of comments were in line on the post page were Movable Type, comments are always in popups at that time.
+Interviewer 28:08	Yeah.
+Mullenweg 28:09	Those were main things.
+Interviewer 28:12	What were the other options that you had other than Movable Type?
+Mullenweg 28:19	Blogger, LiveJournal and TypePad, I think were launched at that time. What was that called Text Data?
+Interviewer 28:35	Yeah.
+Mullenweg 28:36	Was obviously really, really important.
+Interviewer 28:40	Did you ever think about I guess going with a hosted option like Blogger or was being able to develop the software part of it for you?
+Mullenweg 28:49	It's funny, Blogger at that time was-- a big part of it was FTP stuff.
+Interviewer 28:56	Right.
+Mullenweg 28:56	So it was actually still kind of self-hosted, but that just seemed so up kick to add FTP static files to your site. So I never really considered those. I was really more on the PHP side. Probably what I considered more would have been like a PHP-Nuke or some of those - the predecessor to Joomla, I believe was called Mambo.
+Interviewer 29:20	Mambo.
+Mullenweg 29:22	Or of course Drupal.
+Interviewer 29:23	Yeah. You didn't seriously consider Drupal then or did you--?
+Mullenweg 29:29	Oh, of course I did.
+Interviewer 29:30	Yeah.
+Mullenweg 29:31	But it wasn't really-- there was some super cool feature. Yeah, see my Drupal username is very, very early. It was really more, it wasn't sort of making websites. All the Drupal sites kind of looked the same.
+Interviewer 29:58	Yeah.
+Mullenweg 29:59	Kind of like drupal.org does today.
+Interviewer 30:01	Yeah [laughter]. Okay, so that was really-- b2 was the main kind of option for you.
+Mullenweg 30:09	Or Textpattern.
+Interviewer 30:10	Or Textpattern?
+Mullenweg 30:11	If Textpattern had been open source, I probably wouldn't have started working on WordPress to b2.
+Interviewer 30:17	Yeah, you say, in the post where you talk about forking b2, you mention Textpattern, but you say that you can't politically agree with it. Was it licensed under them?
+Mullenweg 30:35	Just a proprietary license, I don't remember which one.
+Interviewer 30:37	Right. And you didn't want to be with the proprietary license?
+Mullenweg 30:42	No.
+Interviewer 30:44	Why?
+Mullenweg 30:46	Because I believe in open source.
+Interviewer 30:48	Okay. Did you believe in open source as much then as you do now?
+Mullenweg 30:56	Maybe even more.
+Interviewer 30:58	You think? Because when we talked at lunch the other week, I asked you if you would have licensed WordPress under the GPL if you'd had a choice, and you said, “Matt now definitely would, but the Matt then probably didn't think about it that much.”
+Mullenweg 31:24	Yeah, I probably didn't think about this much, but I mean you can see I was a pretty fervent Slashdot reader.
+Interviewer 31:31	Yeah.
+Mullenweg 31:31	And all that I had entailed. Prior to that, I thought Microsoft was the evil empire and open source was saving the world.
+Interviewer 31:38	Yeah [laughter]. I love your stuff about Microsoft being the evil empire.
+Mullenweg 31:44	[laughter].
+Interviewer 31:45	Have you changed your mind on that then?
+Mullenweg 31:48	Yeah, now they’re kind of a doddering old giant.
+Interviewer 31:52	Yeah, they’re certainly doddering [laughter]. Okay, so was there a community around b2 – I mean I haven’t been able to get access to the b2 forums yet as you know. So--
+Mullenweg 32:05	Very active, yeah.
+Interviewer 32:06	Yeah. Can you just tell me a little bit about what the community was like then, which of the early developers were involved with it? Did you guys chat on messenger or you just chat on message boards?
+Mullenweg 32:26	Lots of IRC.
+Interviewer 32:27	Yeah.
+Mullenweg 32:29	And then these forums were kind of the heart and soul of it. I mean there was a blog and [inaudible] blog ever had comments on their early days.
+Interviewer 32:40	They did, yeah. I’ve read through all of that.
+Mullenweg 32:44	Yeah, it goes back to 2001.
+Interviewer 32:45	Yeah.
+Mullenweg 32:48	So it’s definitely part of it and-- which you can see on SourceForge, there was like lots of people involved. It’s actually the WordPress SourceForge pages [inaudible].
+Interviewer 33:01	Yeah. So I tried to find an old copy of b2, but I couldn’t seem to find it.
+Mullenweg 33:14	You can download it from SourceForge.
+Interviewer 33:19	Let me see, from downloads? No.
+Mullenweg 33:24	Yeah, it looks like their downloads are hidden. So you might need to get it from the SourceForge. So it’s going to be this stuff.
+Interviewer 33:41	Thanks.
+Mullenweg 33:43	They’re done.
+Interviewer 33:44	So that’s not points. Okay, great. I’m going to try and install it until I get on. So did you meet-- where Mike and Dougall and Alex involved with the forums as well?
+Mullenweg 34:00	Absolutely. I’ve told you, we know each other.
+Interviewer 34:02	Yeah, so you guys already had kind of met each other via the forums.
+Mullenweg 34:07	Yeah. Did you talk to Mike at all about the forums?
+Interviewer 34:10	I did. He said he used to spend a lot of time helping out people. He said that your forum name was different to your other name, your blog name and he wasn't sure if he had even met you before.
+Mullenweg 34:23	Yeah, it was-- I think I used Allusion then on the forums as well.
+Interviewer 34:28	Okay.
+Mullenweg 34:28	That was my forum name. So I used that for the original WordPress forums as well, but I switched it at some point to be Matt.
+Interviewer 34:35	Okay. So did you-- were you asking questions or do you help people out with things?
+Mullenweg 34:44	Both if I remember.
+Interviewer 34:45	Yeah. So around November 2002, Michel seemed to disappear, Cafelog kept going down and the forums kept going down. Did that kind of start to concern you?
+Mullenweg 35:02	Yes.
+Interviewer 35:04	In terms of personally and in terms of, I guess the software.
+Mullenweg 35:08	Yeah. We had tried to get in touch with him, but he wasn't responding to emails and we didn't really have any - I think we tried to contact the Whois information, but he dropped off the map pretty cleanly.
+Interviewer 35:18	Yeah. And I saw his sister posted on the forum saying he was in Corsica?
+Mullenweg 35:29	Oh, he always lived in Corsica.
+Interviewer 35:30	Yeah. Okay. So at that point, were you starting to think, “Well, I need to fork this or I need to do something about it?"
+Mullenweg 35:39	Yeah, that's kind of exactly what I said in that original post.
+Interviewer 35:42	Yeah.
+Mullenweg 35:44	The software element one.
+Interviewer 35:46	Yeah. So it wasn't a spur of the moment thing that you'd been thinking about it?
+Mullenweg 35:53	Actually I had-- they had code in b2 and at some point, I think he had given me access as well to the SourceForge page. I was one of the people with access there, although I don't remember what - it's probably in the blogs in there. Yeah, I kind of had a responsibility for it.
+Interviewer 36:27	Yeah. So you didn't want to keep developing it as b2, you saw, “I’m just going to fork it.”
+Mullenweg 36:36	It's not polite, right?
+Interviewer 36:39	Yeah.
+Mullenweg 36:40	So it's okay to fork code, but to call out the same thing is impolite.
+Interviewer 36:44	Okay.
+Mullenweg 36:47	Because Michel wasn't there to really say whether we could use the name or not, and we were checking that we were doing. There were several forks at that time. There was b2++ which was Donncha fork. There was B2 Evolution, the guy Francois, it’s actually still going.
+Interviewer 37:04	Yeah.
+Mullenweg 37:05	He'll be interesting to talk to.
+Interviewer 37:06	Yeah.
+Mullenweg 37:09	There was at least one other.
+Interviewer 37:17	When you come across b2++ and B2 Evolution so far, I'll have a look and see what else we can find. So--
+Mullenweg 37:27	I think Dougal had a different blogging system altogether that wasn't a fork of b2, but that was like his own thing called like PHP Weblog.
+Interviewer 37:37	He talks about creating his own weblog system. A lot of people at that time seemed to be talking about needing something because a lot of blog posts kind of towards the end of 2002, start of 2003 from Dougal and others saying, “It's time to get a new piece of blogging software,” so it seemed to be kind of part of this eye catch at that time.
+Mullenweg 38:02	Yeah, this started in 2000 and turned up these to weblog.
+Interviewer 38:06	Yeah.
+Mullenweg 38:07	So they’re older?
+Interviewer 38:10	So who was that, was that Dougal? No?
+Mullenweg 38:13	It’s like he used it. He might not have been the founder and b2 was started in 2002, so it was at least two years later.
+Interviewer 38:23	Yeah.
+Mullenweg 38:24	Which was entirely an internet thing.
+Interviewer 38:25	Yeah. You didn't think about using PHP Weblog then?
+Mullenweg 38:34	No, I wasn't. When I consider, I never think it kind of helped me.
+Interviewer 38:36	Okay, alright. So you forked it. Can you tell me about how that works, like you make a decision to fork it, what do you do?
+Mullenweg 38:53	I don't remember it entirely. I think because I had access like I commit on the SourceForge, I just started a new root directory.
+Interviewer 39:05	Alright.
+Mullenweg 39:06	And copied over the code and started working on it there.
+Interviewer 39:11	What did you call it to begin with?
+Mullenweg 39:14	Must have called it WordPress.
+Interviewer 39:16	Yeah. You didn't--
+Mullenweg 39:19	Although we can look in the CGS history and see if that directory was ever called anything else. I don't recall.
+Interviewer 39:29	So did you discuss other names other than WordPress?
+Mullenweg 39:33	No, I don't remember.
+Interviewer 39:38	And you found Christine come up with a name?
+Mullenweg 39:42	Yeah.
+Interviewer 39:43	Do you remember how she came up with it or did she-- was she just off thinking and she came to you and said, she came up with it?
+Mullenweg 39:52	No, you probably ask her though.
+Interviewer 39:53	I have emailed her. I haven't heard back from her yet.
+Mullenweg 39:57	Let me know if you want her number or anything.
+Interviewer 39:59	Okay, I'll give her another few days before I bother her. I sent her an email from her personal website. Okay, so you already knew Mike. How did you guys agree what went into WordPress? Were you just working on things separately, did you just put stuff whatever in you wanted, how did that work?
+Mullenweg 40:31	I think we chatted on IRC, and just kind of, yeah committed to whatever we wanted. If I recall, he had a pretty popular hack for b2 called Link Manager or Blog Manager or something?
+Interviewer 40:44	It’s Link Manager.
+Mullenweg 40:45	And it was popular. So I was like, “Let’s bring that in,” and I was going to merge some of the hacks I had for like clean URLs and work on the installation.
+Interviewer 40:59	Do you have the IRC logs?
+Mullenweg 41:06	Somewhere, I’m sure there are IRC logs.
+Interviewer 41:10	It would be very useful.
+Mullenweg 41:12	Really?
+Interviewer 41:12	Yeah. Of course it would be useful.
+Mullenweg 41:16	That would be rather tricky.
+Interviewer 41:20	Yeah? If you have them, they would be very useful. Anything that you have that I can have would be useful to read.
+Mullenweg 41:32	I also used AIM a lot at that time.
+Interviewer 41:34	Do you have old AIM logs?
+Mullenweg 41:38	Of course.
+Interviewer 41:40	Can I have some of them?
+Mullenweg 41:42	Definitely not.
+Interviewer 41:43	[laughter].
+Mullenweg 41:45	IRC was more public.
+Interviewer 41:51	Well, it would be good--
+Mullenweg 41:51	Yeah, I mean I still have all those computers archived. It would just be a matter of digging through it.
+Interviewer 42:00	Yeah. And you seem very busy?
+Mullenweg 42:06	I think I could look. I have about 10 more minutes.
+Interviewer 42:13	Okay [silence].
+Mullenweg 43:17	Okay, here we go [silence]. It looks like it’s probably in some archives.
+Interviewer 43:57	Yeah.
+Mullenweg 44:00	Yeah, if you can remind me when I’m back in San Francisco.
+Interviewer 44:06	Okay. When are you back?
+Mullenweg 44:09	It will be in April.
+Interviewer 44:11	Okay. That will be great. Anything that you have that I can look at in terms of chat logs or messenger logs, that would - it doesn't have to go public or anything.
+Mullenweg 44:32	Good.
+Interviewer 44:33	But it would be really useful for me to have to look at, just to know kind of thought processes, any sticking points, things like that.
+Mullenweg 44:46	Sure. I kind of like digging these things up, so--
+Interviewer 44:49	Yeah, it's quite fun [laughter]. Okay, so I will ask you-- let me put that in my diary [silence]. And if you might have emailed around the time about the fork and discussed things or any logs around then would be particularly interesting.
+Mullenweg 45:31	I don't know if I still have any email logs from that far.
+Interviewer 45:36	Mike said he would look for me. He said he does.
+Mullenweg 45:41	Cool.
+Interviewer 45:42	Yeah, I'll chase him up on it. Okay, I think let's leave it there.

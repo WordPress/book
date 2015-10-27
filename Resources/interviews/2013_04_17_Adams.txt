@@ -1,0 +1,255 @@
+Interviewer: Okay. So when did you first get involved with WordPress?
+
+Adams: Actually I'm just looking that up now. Let's see. It would have been sometime in probably early 2004. I think I'm kind of right on the cost of what you're looking for?
+
+Interviewer: Yeah.
+
+Adams: And, at first, my first foray into WordPress was, well, into the community, was the support forums.
+
+Interviewer: Yeah.
+
+Adams: So, I'm trying to see if the forums go back that far. And now, at one point in 2004 or 2005 Matt changed the forum software and we lost some data.
+
+Interviewer: Let's see. I think there are, stuff going back ten years. This stuff is going back nine years. So I'm guessing that would be the old stuff.
+
+Adams: 	Yes.
+Interviewer: That looks to me like some good--?
+Adams: Here is my oldest forums interaction that I can find.
+Interviewer: How did you find the oldest one... of you?
+Adams: So, I'm right here and then at the bottom of the page, for me, anyway, maybe it's just same me. I mean, maybe it's just that it's my account. I can click on the last page.
+Interviewer: Yes. This is what I need, because we have user profiles and then we have Codex profiles.
+Adams: [01:44]	Yeah.
+
+Interviewer: I was looking at that the wrong profile that was support-forum profile. Looked for files at WordPress. God, that's really confusing. Why have we got so many profiles?
+Interviewer: I don't know the answer to that question.
+
+	[laughter] 
+Interviewer:	Okay, that's great. That's really, really useful all ready, thank you. And, that would have been eight years ago?
+Adams: This was eight years ago, yeah.
+Interviewer: So, that wasn't 2004. That would be 2006?
+Adams: Who can say?
+Interviewer: I think you were involved doing there a lot. I mean, you could tell me I'm wrong, but--?
+Adams: Well... let me look at the - maybe I'm useless to you. Let me look at the released timeline, because I think I can pinpoint some of my - anyway - involvement based on version numbers.
+Interviewer: Don't worry, even if you're not useful to me straight away, you're definitely useful to me.
+	[laughter] 
+Adams: I cannot find anything. I would download, it's the giant big button. It's not like anything else so you should be able to see it. Okay, I get it.
+Interviewer: 03:00	Release archive. Did you get it?
+Adams: Yeah, I did. Are there dates?
+Interviewer: No, that's useless.
+Adams: Obviously there's not dates. Why would you want to have dates?
+Interviewer: I should ask for dates for this, because that would be useful for people.
+Adams: There used to be dates on that page. I've got another idea. I started it using WordPress in the 1.2 time frame. I'm pretty sure. And, I got heavily involved in the 1.3 time frame. A little bit of trivia - 1.3 doesn't actually exist it got renamed to be 1.5 version was actually released, and...
+Interviewer: So, I haven't--
+Adams: 	So, 1.5 was released in May-- no, April, 2005 looks like.
+Interviewer: Yeah. Where are you seeing this?
+Adams: I'm seeing-- well, I'm guessing this at here and if I hover over the eight years text on the first rather.
+Interviewer: Yeah, that's where I am.
+Adams: Right, I remember the great CVS to subversion. Is that what's called, CVS?
+Interviewer: It was CVS, yeah.
+Adams: Yeah. I guess, I predate Trac but probably not by too much.
+Interviewer: Yeah.
+Adams: I was definitely using WordPress in 2004 but I guess I was not contributing much in 2004.
+Interviewer: What were you using it for?
+Adams: Just personal vanity blog.
+Interviewer: Yeah, vanity blog [laughter]?
+Adams: 	This site that's down that I-- probably down, pretty too, much about anymore.
+Interviewer:	Aren't all blogs vanity blogs?
+Adams: [laughter] I had just... in 2003, I entered graduate school, and was kind of sick of communicating with people individually, like my family [laughter], so I wrote a blog, and that's where the magic started.
+Interviewer: What were you doing at graduate school?
+Adams: I was... in 2003, I was a PhD candidate in chemistry, but in 2004, I switched to the physics… we called it option but department.
+Interviewer: Yeah. Did you complete it?
+Adams: No, I left with a Masters in 2006 or 2007 to work at Automattic.
+Interviewer: [06:00]	Okay. Like everybody does [laughter]. Okay, what sort of stuff have you been doing with WordPress in terms of development? Like, were you doing branding plugins and contributing to Core before you were Automattic, I assume?
+Adams: Yes, I was. So, I feel like I have a boringly typical open source timeline with WordPress, and that is in 2004 or 5 or whenever it was. I had some questions about how to perform X or do Y, or whatever. And so, I found the support forums and asked a couple of questions, and it was amazing to me that I got answers. That doesn't make sense. So, I said, "Well, I should look around and see if there's anything that people are asking that I know how to answer." So, pay it back, right? And so, I started answering some questions here and there. And, in particular - and that sort of gave rush to two things for me. Like I said, I hit my stride right around the 1.3 mark, and so, me and Nuclear Moose - Craig Hartel. He might be an interesting one to track down.
+Interviewer: Is he is someone I have... let me check my list.
+Adams: I don't know how involved he is in WordPress community these days, but he definitely has a lot of early knowledge especially with the forms.
+Interviewer: Let me recollect. I recognize username, so I went through the Codex thing of all the first people we looked at on as copyright holders.
+Adams: Interesting, yeah.
+Interviewer: And that has your name loads of... you can amuse all sorts of people on there.
+Adams: 	Yeah. It's funny.
+Interviewer: 	Let me see the contents. Craig Hartel, no, I haven't got him. Excellent. I have his username but not his actual name, so that helps. Okay, so were you involved... I think I'm suppose to be-- I know I'm looking on the forums.
+Adams: 	That's what I figured so I...
+Interviewer: So you got involved... I don't see it in print, I'm trying to get the time of--
+Adams: Yeah, it's a little confusing to me too, because I - so this claims to be - I see, okay, here's something, remember I said data loss, here is something obviously data loss. This is a post I wrote and it was not a question, it was an answer. I said something like, "Hey, you're having this problem, this is what I did and it worked for me", but that post is gone; it's just these couple of replies that are left.
+Interviewer: I see, that is definitely data loss. Well, hopefully you haven't lost something too, useful, but it's just kind of... it's gone.
+Adams: This is probably around the time - this is probably in the... say... two to six months after I started being involved in the forum setting, probably this post, that's a total guess, but this is what my profile claims as my first post, which could be true. I don't know.
+Interviewer: [09:49]	Okay. You wrote some plugins?
+Adams: Right. Sorry, we were talking about Nuclear Moose. He and I, we sort of - this is during 1.3 - we were sort of in-charge of the beta forums. There was a forum specifically for the beta. That was 1.3, and then turned into 1.5. Because we were both following the development, and so, we were answering questions about the new fanciness and so forth. And, that got me - this is the next step in the open source track for me. I felt like I was answering the same questions over and over and thought, well, this is-- there's got to be a better way or more useful way to contribute, and that got me into the Codex, and was moderately involved there for, I don't know, sometime, a year maybe.
+Interviewer: So, who set up the Codex?
+Adams: Good question.
+Interviewer: Lorelle said it might have been a guy called Carthik.
+Adams: I bet it was. Carthik Sharma.
+Interviewer: Yeah, so I emailed him. Well, I emailed like I found an email address for him. I don't know if it's the right email address.
+Adams: Yeah. I haven't... Carthik... I don't remember is username was. This... I think this is him.
+Interviewer: Yeah. That's the guy. Yeah.
+Adams: Yeah. He's an old-timer too, looks like.
+Interviewer: Yeah, his blog isn't working. Or no - let me just see. Yeah. No, it is but why couldn't I get in touch with him? He hasn't got an email address on his blog. But I got his email through his thing. And--?
+Adams: I might have him in my inbox somewhere actually.
+Interviewer: [11:58]	Okay, you got-- you were helping out with support and how did you guys get made responsible for a forum? Was that just, did naturally, you were doing it, so that's what happened? Or did Matt or someone come to you and say--?
+Adams: 	Yes. It was all kind of self-serve, I guess. We were volunteering a lot, and so we sort of just put ourselves in-charge, I don't remember it.
+Interviewer: Yes.
+Adams: And, there were-- I mean there still are. I think there was the WP forums mailing list at that time. I know there was the WP documentation, or WP Codex, or whatever it was mailing list. I'm pretty sure there was some form of mailing list at the time, too and it was all very organic. Just the people who would volunteer some time everyday will just sort of become in-charge of something.
+Interviewer: Yeah. I am trying to get a sense of how it grew. I have the original developers, it was a small group, but it just kind of more people trying to start to appear on this scene, I guess. And, I'm trying to get a sense of... I guess, the kind of social structures and hierarchies in place.
+Adams: Sure. I wonder if it is possible. I don't - s o the person I felt was always at this time was in-charge of the forums as a whole was Mark.
+Interviewer: Mark Riley?
+Adams: Mark Riley
+Interviewer: Yeah. He's on my list, and why didn't I get in touch with him, yet? Because I emailed his Tamba2 email address but that didn't work. So, I was going to get his automatic email address.
+Adams: Yeah. I can do that. I will just search Mark.
+Interviewer: [14:12]	Yeah, and I thought it might be Mark, but there's quite a few Marks there so...
+Adams: There are some Marks, yeah. I'll find it for you. Find it, and there is it for you.
+Interviewer: So, he was the forum guy?
+Adams: Yeah, and the early in here, picture, is great, because he was-- he devoted a ton of time back in his Podz days.
+Interviewer: Yeah.
+Adams: And, he was also a pretty prolific blogger, too. So he was really using the software quite a bit. And... I don't know... like I said, I think the way it worked was - not quite the it worked - the way it happened was that you just... as a hobby, I devoted some time to the forums every probably most days, and that just accumulated social capital basically. I don't think there's any sort of official process or a word or anything like that. It's just... you show up, you do some work and people remember your name basically.
+Interviewer: [15:43]	Yeah. Kind of like it is now, I guess, but there's a little more structure now. I--?
+Adams: 	There is more structure now for some things, but I agree, there's nothing - I don't think it's changed that much , and from there I was following the development and then documenting things about news tag, and I from there I started finding, first finding, and then patching bugs.
+Interviewer: Yeah.
+Adams: [16:26]	And, then it was all down hill from there.
+Interviewer: [chuckles]
+Adams: I got more and more involved from fixing random bugs to writing new features. Matt eventually asked me to - I don't know when. I could quite find out - asked me to... take over development of bbPress, which is a project he started in 0.5 time frame, I guess, maybe. And, at some point, I started contributing more and more to WordPress and less and less to bbPress, and then that's kind of where I am now, I guess.
+Interviewer: What do you think were the most significant changes to WordPress, particularly in the early days in terms of the code base and in terms of, like, features.
+Adams: In terms of features, I think... the big ones were, and I don't know where this one started, myhacks.php was a file you could put. This was before themes and plugins really--
+Interviewer: 1Yeah.
+Adams: You could put a file called myhacks, myhacks.php just in the root of your WordPress and it would-- WordPress would load that code, and so you could sort of modify things how you saw fit.
+Interviewer: [18:06]	Yeah.
+Adams: And I think that was really important because it set the sort of expectations that you could change things with code.
+Interviewer: Yeah.
+Adams: And that kind of set up the plug-in eco-system we have now, I think. And, then the next one, I think through the features was the Theming system.
+Interviewer: Yes.
+Adams: Which, I think has sort of obvious repercussions and--
+Interviewer: So, what were the repercussions?
+Adams: So, before I think I started WordPress-- started using WordPress - right after themes were introduced, but, it was all about customization, right? I mean, myhacks let you sort of alter some behavior, and then the Theming system made it way easier to have something that looked different than anybody else's WordPress. And, I mean, if you look at the theme ecosystem in WordPress now, there's 100 companies out there, more, that just make their money on making WordPress themes.
+Interviewer: [19:22]	That's true. Yeah.
+Adams: So... I mean, I think it was an obvious thing to happen. It's not like anyone or make anyone should be surprised that people thought, "Oh, we should have some better means of customizing the look of your site", but I think it was a big step.
+Interviewer: What do you think about the code base? The early code where, obviously, it's from b2, and were there kind of improvements around security, and kind of more API stuff?
+Adams: Those [laughter] Thanks. Have you got a good answer though?
+Adams: No.
+	[laughter]
+	[silence] 
+Interviewer: Let me rephrase it in a slightly different way. So, Michelle developed B2 just as like a hobby and was learning PHP at the time, and then once Matt and Michel-- not, Matt and Mike and the guys took it over they were all working on their own things. Just committing wherever they wanted and I am just wondering at what point do you take a bit more to structure to that in terms of who was allowed to commit what? What direction there was? And, kind of looking for issues, like security issues and each of the code?
+Adams: I see. I think that might be-- I think the answer you are looking for might be just before my time, actually.
+Interviewer: Okay.
+Adams: But, if I had to. Instead of.. . naming a thing. If I named a person, I would say Ryan Boren was the solution to any of these problems.
+Interviewer: [21:20]	[laughter] I have heard this from somebody else as well.
+Adams: I think he probably... he quickly became the main committer, and I think he explicitly or not added a fair amount of structure to how things happened.
+Interviewer: Okay. And that was before you?
+Adams: Yes.
+Interviewer: So, whenever you came aboard, how was it run?
+Adams: So... I think-- so, how was committing run, is that what you mean or...?
+Interviewer: Yeah. And, how did you decide what would go in or features-wise. it's very structured now. At least in the past few releases it's become structured. I just wonder what--?
+Adams: Much more structured now than it was then.
+Interviewer: Yeah. [silence]
+Adams: I think it was mostly Matt and Ryan, who would just kind of look around at what people were suggesting and complaining about.
+Interviewer: Yeah.
+Adams: And, kind of decide to prioritize those things.
+Interviewer: Yeah.
+Adams: That's my impression anyway. I don't know if that's the reality.
+Interviewer: Okay.
+Adams: They would ask me to work on certain things sometimes or I'd say, "Oh, that's a neat idea. Let me see if I can work something up." And, then as for - so, I don't think-- I think what features were going in was pretty, a little ad hoc, probably. I mean there wasn't the structure there is today. So, there were still the dev chats as I recall.
+Interviewer: [23:26]	Yeah.
+	[silence] 
+Adams: And, committing itself was a little... less. There wasn't-- so now, there's a bit more - I guess I should call it testing - there's a little bit more sign-off on things that-- on patches that come in. Back then it was mostly just... does Ryan know who you are and he'll look at your code. He'll glance at it, and then commit it, assuming he thinks it makes sense. Matt, I know was crazy, in that the patches that he would apply, he would re-write each patch, character by character, rather than just do this command that just let's you apply a patch to the code base. Rather than just running that command, he would actually re-type everything.
+Interviewer: Why?
+Adams: And, he wouldn't change anything, or usually wouldn't change anything. He would do this - why does he do this - he do this because it was his way of reviewing it, I think, and probably also his way of learning a bit, because we were all kind of - well, I think we all still are kind of new at things.
+Interviewer: I see. So, he'd re-write other people's patches, not his own ?
+Adams: Right, sorry.
+Interviewer: I thought he was re-writing his own.
+Adams: No. I can see the confusion. I would like to put a patch on track - I guess we were always using track - and he would look at the patch in his browser and then re-type it in his text editor.
+Interviewer: That is a good way to learn.
+Adams: [25:17] I mean, he would edit the code base to match the patch. He was reviewing and learning. Actually, I think it is a good way. I can't imagine actually doing it, and he may have only done this for the smaller ones, I'm not sure.
+Interviewer: Yeah. Did he tell you he did this, or did you see it?
+Adams: Yes, he told me.
+Interviewer: That's interesting. I'll ask him about it next month, I speak to him. Okay, that's how - so, it's just Ryan and Matt that had commit access, but did the guys still have it or did they have it revoked or... because there was Dougal, Alex, and Donncha, and Mike, all have commit access?
+Adams: Yeah.
+Interviewer: And, maybe Michel did, too... possibly?
+Adams: It's possible. Some of these people still do.
+Interviewer: I don't think they do. Well, Matt still does, but I don't think any of the other early guys do still have commit access. I can ask Matt.
+Adams: Yeah, I don't know when... it's easy to find out when people got commit access or not easy necessarily, but it's possible. You don't know how to figure out when people lost it if they did and I don't think Matt did either.
+Interviewer: I can find out though.
+Adams: I don't know the answer to that.
+Interviewer: I'm pretty sure that they don't.
+Adams: Pretty sure they don't, either.
+Interviewer: But I don't know when they lost it, or how the circumstances around that, or any of that sort of stuff, but I'll find out.
+Adams: I don't know. I have actually been both... Matt, Boren, and Nacin have all tried several times to give me commit access to WordPress, but I don't want it, so... [chuckles].
+Interviewer: [chuckles] Why not?
+Adams: Too much time-sink. [chuckles].
+Interviewer: Yeah.
+Adams: Sets expectation.
+Interviewer: So, did you just teach yourself to be a developer?
+Adams: Yeah, for good or for ill. I claimed that writing this blog was my means of communicating with my family, which it was, but it was also a way to sort of tinker and learn how all this stuff worked.
+Interviewer: Yeah.
+Adams: And, so I'd done some software development in college, but in Fortran.
+Interviewer: Yeah.
+Adams: And this whole Internet thing sounded kind of interesting.
+Interviewer: Yeah.
+Adams: So, yeah. WordPress was, I think this is also typical of WordPress folks. WordPress was how I-- where I learned PHP in particular, and more generally, software development.
+Interviewer: [28:39]	It's quite interesting that b2 was where Michel learned software.
+Adams: Yeah, that is interesting. I didn't know that.
+Interviewer: Yeah. He says, if there's any problems in WordPress, it's because I was learning PHP as I wrote b2. But I think all of the developers were doing it too, the early ones particularly. Okay, I'm trying to think whether I've got really all the other relevant stuff to ask you, but I think what would be useful would be if - can I just fact check stuff with you?
+Adams: Yeah, absolutely.
+Interviewer: Because that's always--?
+Adams: About WordPress features, early WordPress features? You should-- I'm sure you do, but you should understand that my answers are biased by when I started using WordPress. The themes was still pretty fresh. So is this, pages, as opposed to posts, I think because that was kind of... I don't recall the sort of politics involved, but I recall it being some kind of response or one-up-man-ship or something with movable type. Like, look how easy it is to do this or hey, we have that too - I forget what the respective timelines are.
+Interviewer: Yeah.
+Adams: But, I think that was important for two reasons. One, like I said, either it got us feature parity or it got us one ahead of movable type at the time, and it was sort of the first step into a long series of WordPress isn’t just for blogging kind of topics.
+Interviewer: Yes. As few people have said to me that they think WordPress pages was like the significant moment for them.
+Adams: Interesting.
+Interviewer: Yeah. People who kind of used or have used WordPress for a long time not necessarily like Core developers and stuff.
+Adams: Sure.
+Interviewer: But they think that the ability to out pages was just the turning point.
+Adams: Yeah. I guess, at least in part because it meant that WordPress - if you are making a website you could build the whole thing in WordPress as opposed to just your blog and then have a bunch of static stuff that wasn't managed.
+Interviewer: Yeah.
+Adams: So I think that's a pretty key development.
+Interviewer: Yeah. I will put that on my list. I think some of the other stuff is the Hook System, which I think Ryan Boren introduced pretty early?
+Adams: That sounds plausible [laughter].
+Interviewer: I get to see him in a couple of weeks, so I'm going to ask him about that. Cool, okay. The Codex, you know I'm working a lot on the Codex at the minute. How is that in the early days? Did you get many people to contribute?
+Adams: Yeah. You know it will be cool... I don't know what chart would be interesting, but it would be neat if Nacin or other could crunch me some numbers about the number of contributors per month or something like that. Number of unique contributors per month, over the course of the Codex history.
+Interviewer: That would be cool. Although it was like--
+Adams: Do we keep it?
+Interviewer: [32:24]	Yeah. They all hate the Codex, so getting them to deal with anything related to is really hard.
+Adams: [laughter]... yeah, you are right in that. Carthik was kind of the main person for a while but, right around when I started doing stuff... the power structure had shifted entirely to Lorelle.
+Interviewer: What? Why was that? Was that a...?
+Adams: I think... I'm sure she was passionate about it.
+Interviewer: Yeah.
+Adams: And, was willing to make... spend a lot of time making big sweeping changes. I don't think that there was any... I have no idea. I can't imagine there was any bitterness between Carthik and Lorelle because of that. I think Carthik was just like, "Oh, here is a thing that helps WordPress, and now someone else is spending a lot of time on it. That's what I imagine but...
+Interviewer: Yeah.
+Adams: Yes. In all of my contributions, there's always sort of Lorelle who's the main person in-charge, and again just sort of not by decree. She just took everything on.
+Interviewer: Yeah. I saw Lorelle last week.
+Adams: Cool.
+Interviewer: I've spoken to her already.
+Adams: [34:07]	How's she doing?
+Interviewer: She seems good. Her teaching is going really well, so that's good.
+Adams: Yeah, I haven't spoken to her in about two years.
+Interviewer: It was interesting. I mean, it's... I'm trying to think what she said about the Codex. She said a lot.
+Adams: [laughter] I'm sure she had a lot to say.
+Interviewer: But, it wasn't-- so, she was the person who suggested about looking at the copyright holders page.
+Adams: Interesting.
+Interviewer: So, that was used, and that's where I got everybody's name from, for the early people. Yeah, she seems to have had some drives towards getting work done on it, but she also that, at that time in the early days, there wasn't - I'd say- there wasn't enough support from people who would be considered to be official.
+Adams: I see.
+Interviewer: She didn't feel there was much support from Matt.
+Adams: Yeah, and that's true. I don't think that's because Matt thought that it was invaluable, but just because he didn't have a lot to say about it - like it was not his area of interest, or expertise, or anything. But you know Matt, it can be hard to communicate with him sometimes or it's hard to interpret his communications sometimes.
+Interviewer: Well, he just seems to like people to get on with it so...?
+Adams: [chuckles] But, no, I agree that that sentiment was there.
+Interviewer: [35:53]	Yeah. Did a lot of people feel that?
+Adams: I think it was probably-- well, I think naturally, it was mostly Lorelle because she was doing the most, most stuff, and she was basically in-charge, and so if she were to get direction from anybody it would be from Matt and that didn't happen. I think the rest of us was just like here’s some shit in his documenting, let's just write something up.
+Interviewer: Yeah.
+Adams: The other kind of... did you ask about her book? Because she wrote a book--
+Interviewer: Blogging tips.
+Adams: Pretty early on and I remember there being some, I don't know. I guess, bitterness there from other people, "Hey, you have been contributing to all this open documentation and now you are writing a book and--"
+Interviewer: I see. Well, because of licensing type of things?
+Adams: Yeah.
+Interviewer: Right. I didn't know. She didn't mention that but she-- I didn't know she had talked to Wiley about WordPress for companies, but she has a blogging tips book. I didn't realized that there was--
+Adams: I don't know how widespread it was. I didn't care, and I don't think Matt did either. But I do remember there being some... and it might actually be too, strong word, but--
+Interviewer: Right.
+Adams: Raised eyebrows, at the very least.
+Interviewer: Do you know who would've raised eyebrows? Almost it just--
+Adams: That's a great question. When you talk to Mark, ask him about it.
+Interviewer: [37:46]	Yeah? Okay.
+Adams: 	I don't think that he actually cared, but maybe he thought it a little [inaudible] that she did.
+Interviewer: Yeah. I will ask him about it then. Okay.
+Adams: Because he was pretty involved in documentation, too. He was kind of-- he wasn't sort of contributing - directly, a lot - but he was kind of... I feel like he was seen as an authority figure in the documentation world, too.
+Interviewer: Yeah. Okay. Yes, Lorelle spoke very highly of Mark. I'll talk to him about it.
+Adams: I don't know anyone who could possibly think otherwise of Mark.
+Interviewer:[38:32]	I don't know. I've never had any interaction with him, so... yeah.
+Adams: He's great.
+Interviewer: Okay. Well, I'm going to hit you off if I need any sort of fact-checking and stuff done, and if you think of any sort of interesting and trusting anecdotes for me, feel free to send these through to me.
+Adams: Yeah, totally.

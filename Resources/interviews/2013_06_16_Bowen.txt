@@ -1,0 +1,347 @@
+
+Bowen: It must have been 2005. There were particularly four of us at lunch, and it was myself, Scott Merrill, Owen Winkler, and Chris Davis. And the three of them had been involved with the WordPress community for quite some time. I less so. We were talking about our grievances with the WordPress community and how the community was managed. I’d been involved with the Apache community since 1999 or so. So, I have very firm ideas of the way that open source is supposed to work. And I recognize that not every community works that way. But I kind of have this idea of the way open source is supposed to work. One of the things… one of the core beliefs that I have is about meritocracy and about consensus based decision making and what I saw in the WordPress community was a very small group of elite members who were making all the decisions and marginally discounting the opinions of everyone else. As I mentioned before, I’m not sure that this entirely a fair opinion of the community, but I perceive that now this has changed largely. But anyway… Several of us told stories around lunch of how we had submitted patches and they had been rejected out of hand because they were not according to the vision of some of this elite group. And that a later date a similar change was made, initiated by one of those guys. So my particular story was that I found the code itself frustrating because it had no comments at all. None. And I submitted a patch to one core file including php.doc comments throughout that. Documenting all the functions. And that was rejected. And the reason that was given was that sort of thing was designated as bloat. Since then, that sort of change has been made across the board I understand it. And there’s internal documentation everywhere. That’s wonderful. But some of the other guys had similar stories where they had made [3:00] functional patches that had been rejected for similar reasons. So we were just kind of sitting around lunch, complaining, and we said, hey we should just go do our own thing. We were eating at Buco di Beppo in Columbus. As it often will, the conversation turned to what we should name this project. I grew up in Kenya. And I started throwing out names in Swahili, because they were unlikely to be already taken. And the name we came up with was Habari, which means news or colloquially “how’s it going”. It’s kind of a greeting, but it’s also what we called a newspaper, the Habari. So we kind of stuck on that. And the rest of it was the hard work of actually making the code function. But that’s kind of how the project started. There were a number of other members of the WordPress community that became part of the Habari community very quickly. Michael Harris was one of them, and I’m trying to remember some of the other… trying to remember who is currently involved that was formerly with WordPress, I know there’s a few of them. It was not a fork, strictly speaking. But it was, in a sense, a fork of the community. I see major changes in the community since then. I see a much more consensus-driven decision making process. It all turned out well in the end. I think Habari is an interesting piece of code. We have very few people actually using it, but technically it’s an interesting project. And I use it on my blogs. So that’s kind of the story from my perspective. I’m sure that if you talked to Owen he would put in some more color to that.
+
+Interviewer: I will talk to Owen. He’s on my list. I’m speaking to Scott Merrill next week. So I’m interested to see what he has to say too. So how did you first get involved with WordPress, and how did you kind of…
+
+Bowen: I got involved in WordPress as a user, looking for a piece of code to run on my blog. And a friend and co-worker at the time was Chris Davis. And he was involved in WordPress primarily from the theming side. And he said this is what I should use, so… I had tried several other blogging platforms along the way. I think I was a Moveable Type user at the time. [6:00] And Moveable Type is an interesting platform, because it generates static content. It’s kind of inefficient on the front end, but it’s very efficient at serve time. So an interesting piece of software. WordPress, I don’t know what the version number was at that time, but it was far less mature that it is today. And so there were things that I wanted to do with it. So right away I started hacking on the code. And I found the lack of documentation to be very frustrating. And so, as I figured out what a function did, I would document it. And that’s when I started submitting the patches. My involvement in the WordPress community was relatively short as compared to these other guys. Because I started feeling this frustration right away. It was very weird for me to encounter and open source community that wasn’t interested in documentation patches. That was a really unique thing to me. So, yeah, I started getting frustrated right away and that was what started this conversation with these other guys. 
+
+Interviewer: Related to that, so we’re building a code reference at the minute, which we’re building a… well we’ve built a parser that’s going to pull the PHP doc blocks from WordPress and generate our new function reference. 
+
+Bowen: Cool.
+
+Interviewer: And that’s going to show our doc blocks are actually lying.
+
+Bowen: OK.
+
+Interviewer: So we’re going to have like a massive push if we want a good code reference, we’re going to have a massive push on documentation patches to actually get everything up to the standard that we want to actually be a decent reference.
+
+Bowen: Cool. 
+
+Interviewer: So we’re kind of pushing things in that direction, but it’s slow. Do you remember who the people were, in kind of that core group at that time? And did they interact with the wider community? 
+
+Bowen: At that time it was, and again I’ wasn’t deeply involved, but from my perspective it was primarily Matt. There were one or two other people that were kind of peripheral but my impression was that Matt was the only one who could commit at the time. And that may not be the case. 
+
+Interviewer: The other committer I think at the time was Ryan Boren. 
+
+Bowen: Right, that sounds familiar. I was going to say Ryan, but I couldn’t think of his last name. 
+
+Interviewer: So he basically wrote WordPress for a long time. 
+
+Bowen: OK.
+
+Interviewer: Did they interact much with the wider community? Or were they mostly…
+
+Bowen: Yeah, they were both active on the mailing list. The WordPress community has always been very heavily populated by designers and theming people and artists, [9:00] which is really cool. It results in some great work. The actual coding side of things was a very small portion of that. So a lot of the conversation on the mailing list was related to theming and to a lesser extent, extensions at the time. 
+
+Interviewer: Very interesting. Because at the minute, I feel like we need more designers involved in WordPress. It’s very…
+
+Bowen: Oh, really?
+
+Interviewer: WordPress core is built by developers and they don’t have design sense and I think that’s to the detriment of WordPress. 
+
+Bowen: Interesting. Well that’s very different from how it was 6, 7 years ago.
+
+Interviewer: I guess they’ve attracted some really good developers who stuck around so… That’s interesting that it was… I guess theming around that time that you became involved would have been like, not long after the introduction of the theming system.
+
+Bowen: Yeah. The theming system was really new and there were dozens of themes being put out. I guess that’s been revamped a couple of times since them. 
+
+Interviewer: Well largely it’s like… there’s been improvements, but largely it’s the same thing. 
+
+Bowen: Oh, okay.
+
+Interviewer: But people… it’s easy for people to make themes I guess. Designers.
+
+Bowen: And I wrote a couple of extensions. I don’t remember now what they did. 
+
+Interviewer: I can probably find out if I looked in the code. Everything is still there. That’s our problem with documentation, everything is still there. I think you’re still listed as a copyright holder. 
+
+Bowen: Oh really? Interesting. 
+
+Interviewer: Like everyone who ever submitted anything up to 2006 is listed as a copyright holder. And so you have these really early people, like Mark Pilgrim, Eric Meyer, listed on there.
+
+Bowen: I had forgot Mark was involved.
+
+Interviewer: You don’t see any people here involved with it now who’ve been developing for a couple of years. So did other people in the community have similar issues?
+
+Bowen: Well, when we announced that we were going to do this, there were a number of other people that said, yeah, they had similar complaints. Some people decided to come join what we were doing and some didn’t. And there were still a lot of people that worked in both communities. We’ve taken kind of different philosophies of developing the code base since then. I’ve been less involved in the last two years, well three years I guess, since my daughter was born. There’s a lot of Drupal-ish things that have got into the code base since then.
+
+Interviewer: What do you mean Drupal-ish?
+
+Bowen: What’s the word they use? [12:00] I’m drawing a blank. But Owen’s been doing a lot of things in the code to make it much more generalizable, so it’s not just a blog engine but that it’s more of a content management system, more of an object management system. And I’m trying to think of the word he keeps using. Taxonomy. Building taxonomies. And that always makes me think of Drupal for some reason.
+
+Interviewer: WordPress has taxonomies and the taxonomies is like one of the worst… from a code perspective. When I speak to developers, they hate it. 
+
+Bowen: The trouble is that it introduces a lot of complexity that makes it very difficult for somebody new to the project to figure out what the heck is going on. That was my main opposition to it. That is really raises the barrier to entry.
+
+Interviewer: So why didn’t you just fork WordPress? Why did you decide to start from scratch?
+
+Bowen: We talked about doing that. At the time there was a lot of feeling that forking was a bad thing. This is something that Github has largely fixed for us. But that was still a large part of the open source culture at the time. But also, there were things about the code itself that Owen in particular really disliked and it was felt that just starting over would remove a lot of those problems. Some of that was to do with performance. We were doing some performance analysis where you load a page in WordPress and it does 72 SQL queries. There was also, from my perspective, from the Apache configuration side, the .htaccess file that came with WordPress at the time was about 80 lines long. Now it’s like four. 
+
+Interviewer: Yeah. It doesn’t come with anything anymore. Or maybe it’s just like a few lines… if you change your permalinks you get something…
+
+
+Bowen: It’s hard to imagine. But there were all of these rewrite rules. I’ve written a book on mod rewrite. And I would look at that file and… I’ve written the only book on mod rewrite. And I would look at that file and try to figure out what it was doing, and had no idea what it was doing.  And nobody seemed to know either. But at some point somebody just scrapped it and did it right. Which was another one of my frustrations, because I had submitted a patch to do it right. And it was… there were some edge cases it didn’t handle, and so the patch was simply rejected. So the decision was made to just make a clean start and of course that added a couple of years to things. It’s resulted in a product [15:00] that is totally different in every way.
+
+Interviewer: Some of the like early forum threads I read about WordPress were like why don’t you rewrite this code from scratch? Why don’t you make it object oriented? Why don’t you do this and that? Was that something that you guys were keen to do or were you more like… I mean WordPress came from b2, where Michel was learning how to write PHP, so it’s like a learner’s PHP and then Matt was learning how to write PHP so he was learning, and Ryan was learning PHP and it was very much like an experiment.
+
+Bowen: And a lot of that stuff… now I haven’t looked at the code in the last year or two, so I don’t know how much of that stuff is still there. But at that time the code was kind of an abomination. A lot of spaghetti. A lot of undocumented stuff. Totally confusing functions and inconsistent function naming. And it was just kind of determined that fixing would simply be too painful. So there was just a desire to have a clean slate. 
+
+Interviewer: I guess that’s what some people have said to me around Habari, stuff is… a lot of it was around actually wanting to write like coders code, rather than like people-who-were-learning-how-to-write-code code.
+
+Bowen: And Owen is an academic when it comes to coding. He believes in doing things the right way and he’s read lots of books about coding philosophy. And he wanted to do that right. He’s been kind of the lead of things all along. In retrospect, it would have been really cool if we could have stayed connected to the community and had this be a new version of things, but that was not in the cards. 
+
+Interviewer: Do you think that, like a fork would have been better? Or…
+
+Bowen: I think if it could have been perceived as a fork in today’s view of things, that that would have been really good. There’s no shame in forking. And there’s no shame in rewriting. The shame is that it resulted in a schism of the community. And, at the time at least, a lot of hurt feelings. That’s kind of sad.
+
+Interviewer: Did it cause bad feelings?
+
+Bowen: It certainly did. I don’t know how long that persisted. Because the disconnect between the communities was pretty clean. There was no more communication. I’m sure that some of those guys are still in touch with one another, but [18:00] I never was after that time.
+
+Interviewer: It’s like a divorce. 
+
+Bowen: Yeah. And that’s unfortunate. 
+
+Interviewer: What about… What was like Matt’s reaction whenever you guys announced that you were going to 
+
+Bowen: Well, my perception was that he kind of said screw you guys, go do your thing. I don’t know him personally. Whatever impressions I had of him at the time were not based on really knowing him. He’s a sponsor of the Apache software foundation, individually. That’s good in my book. He’s clearly built a really strong community. I’d like to meet him someday. 
+
+Interviewer: So what were your impressions at that time. I mean, he was what, about 20?
+
+Bowen: My impressions of him at the time were that he was the dictator of the project. That he wanted to control every aspect of it. And that he was kind of arrogant about that. He was really young; and I was a lot younger… I don’t want to make any judgements of him now. I don’t know him. 
+
+Interviewer: Oh, no. I’m interested in what people’s perceptions are of people.
+
+Bowen: Certainly my perception was that he just wanted to control every aspect of it. And that he didn’t want anything, that he had not-invented-here syndrome. He didn’t want anything that wasn’t his idea first. Whether or not that was fair, I really can’t say. 
+
+Interviewer: Do you think that a free software project needs that? You’ve got Linux…
+
+Bowen: I’ve thought a lot about project governance models in the years since then. And I think that a young… I think that a software project goes through many phases. And that early on in a software project it is important to have a strong personality who really knows what the roadmap is. And who makes everybody stick to it. I felt that the WordPress community at that time was more mature than that. Because it had already gone through the iteration of being another project and that maybe it was beyond that. But maybe it wasn’t. I don’t know. And then a project graduates to a phase where that person has to step back and let the community run things and increase the bus factor as it were. [21:00] It seems that WordPress has made that transition. 
+
+Interviewer: It certainly is. I don’t think Matt’s actually made a commit for years. There are other people who make the decisions about where WordPress… I mean he get involved in the discussions, but… Largely he’s involved with Automattic and other stuff
+
+Bowen: So I look at a community like Perl, where there is a clear top leader, but it’s the same sort of thing. He hasn’t made a commit in ten years and he arbitrates disagreements but that hardly ever happens. I never really felt that Larry was squelching progress. I kind of felt in those days when we were making that decision, I felt that Matt was actively rejecting things that were good for the community, but weren’t his idea. 
+
+Interviewer: Do you remember what… I mean there’s the documentation, lack of documentation… do you remember other things?
+
+Bowen: I don’t remember specifically the other things. I know that both Owen and Chris, and I guess also Scott, had major patches that had been rejected. And their perception was that same idea was implemented several months later, and was presented as being Matt’s idea. And that’s where some of the hurt feelings came from. 
+
+Interviewer: What about… someone said to me about pages, the WordPress pages, was something that the community for a long time had said to Matt that they wanted and he was like no, no, no, no. And then it was finally in it that year.
+
+Bowen: I do remember that conversation. I don’t remember any of the details. 
+
+Interviewer: I mean it’s interesting because obviously WordPress has changed a lot. Do you think that… do you have any sort of idea why it’s become so successful when it has, like, kind of crappy code in many places?
+
+Bowen: I think that it in large part it was being in the right place at the right time. There are a lot of really successful open source projects that are all about timing. And it filled a niche. It appeared at the time when the word blog was in every issue of every tech publication and there was really nothing else available that did it as well. The other thing was that it was practically trivial to install. The whole notion of the five-minute install, a lot of projects at the time claimed that, and WordPress was the only one that actually did it. And you could literally [24:00] have a blog running in five minutes. And if you’re just installing a blog and writing content and don’t care about the code, and your small personal blog gets a hundred visits a day, you don’t care about the performance, it was good enough. And then the WordPress.com thing came around at the right time, again. Whether it was genius or good luck, it was just a a lot of really great timing.
+
+Interviewer: A little bit of both. We do a survey now every year… we did it the past couple of years about 60% of the people, or maybe even more than that maybe now, they don’t use WordPress as a blog they use it as a CMS. It’s like hardly anyone uses it as a blog any more.
+
+Bowen: And I see a lot of websites where you think, ahh, kinda looks like WordPress and you dig a little bit deeper and it is, they’ve just done some theming work. 
+
+Interviewer: I think that’s… custom post types helped with that but also pages, which the community seemed to push for for quite a long time. Whether that could have happened earlier, pages had been pushed in earlier… I know people that I’ve spoken to were using it as a CMS very early on, but having to hack it to get it to do what they wanted.
+
+Bowen: Yeah, I do remember some discussion around pages and someone saying it’s our mission to be a blog, and everything else is a distraction. That was kind of the core of the argument against doing that. 
+
+Interviewer: That’s kind of changed now. It’s more about web publishing. Kind of blogging, but also about making your websites. But making that as easy as possible. I guess that’s the… as easy as possible. So how do you think an open source project should be run? 
+
+Bowen: Well, I’m a strong believer in consensus based decision and the project governance getting out of the way of people who are trying to get things done. The way that we do thing in the Apache Software Foundation is commit then review. If you have an idea, you go make it happen. And if there are objections then you make your objections on the mailing list, make a technical justification. But you can’t unilaterally veto something just because you don’t like it. The danger there is that somebody might hijack the entire mission of the project. [27:00] It’s good to have a strong idea of where you want the project to go and have some consensus on that. But I understand that this is opinion and not every project needs to run this way. There is a place for projects that are driven by a benevolent dictator. BSD has done it successfully for twenty years. There’s room for that. Linux is an interesting example where in theory there’s a benevolent dictator, but in reality there are hundred of people making stuff happen every day. And there’s no vetos of that going on. 
+
+Interviewer: But Ubuntu has Mark Shuttleworth? I don’t know much about it.
+
+Bowen: I don’t know how deeply he’s involved on a daily basis. I’ve spent the last two years working at Source Forge. And up until that time, I think that I believed in the Apache way of doing things to an extreme. And then I spent two years at Source Forge and I worked with thousands of projects that had hundreds of development models, governance models. It goes everywhere from projects that have one developer making all the calls… and that’s called open source, but I don’t feel that it really is because it’s not open development in any meaningful way. All the way up to projects that had thousands of committers. There’s this project that was actually mentioned in a talk today called Tikiwiki. And Tikiwiki is interesting to me not because of the code but because they’ve got six hundred committers… and how do they ever get anything done? I don’t know. I would seem like there would always be controversy, but there isn’t. And somehow they continue to make pretty rapid progress. The last couple of years have really opened my eyes as far as seeing project management models that seem weird to me, but work. So I guess the answer to the question you asked is it’s very individual. It depends on the project. As long as members of the community aren’t being silenced, or their ideas rejected out of hand, I guess whatever works for the community is good. And our objection with WordPress at the time was that smart people were being told shut up and go away [30:00] because even if a large portion of the community agreed with what they were saying, Matt didn’t.
+
+Interviewer: Do you think that he… that he was focused more on WordPress users than the WordPress community or that those two are the same thing or do you think it was just egotistical?
+
+Bowen: It felt at the time that it was just ego. Hard to know looking back.
+
+Interviewer: Do you think… you kind of fell into being an open source project leader… b2 was ticking along and then Michele stopped developing it and so he and Mike forked it, it was more just because they wanted to run their blogs on it. It was never, I don’t think their intention at the time, to become leaders of an open source project. 
+
+Bowen: Yeah
+
+Interviewer: Do you feel that he just didn’t have the experience of what an open source community…
+
+Bowen: Yeah, I think that that’s probably a lot of it with that. A lot of great open source projects are sprung out of people simply scratching their own itch. One of my colleagues and heroes is Brian Behlendorf who same sort of thing… he inherited a stack of code because he needed to run a website. The thing with Brian is that he recognized immediately that he was not cut out to be the lead of a project. So he gathered people around him and said, look I don’t want to be the manager here, I just want to coordinate and help things happen. The Apache web server came out of that. From the very beginning, he was just sort of coordinating. But it’s useful to note that before he took it over it was a dictatorship. It was two developers that were doing everything and calling all the shots. 
+
+Interviewer: Had he been involved with open source projects before that?
+
+Bowen: Brian?
+
+Interviewer: Yeah.
+
+Bowen: No. But at the time, really nobody had. 
+
+Interviewer: Even in like 2003-2004 open source had been around for a while, but it was still kind of developing as an ethos
+
+Bowen: Yeah, nobody had really given a lot of thought to how these things were supposed to work. Kind of making it up as we went along at the time.
+
+Interviewer: It’s interesting to see how it’s kind of progressed. I mean Matt talks about it’s consumer-oriented open source software, whereas Linux is for anyone, but it’s still hard to get up [33:00] and running it. Like my mom couldn’t use it, or my husband, whenever I’m writing documentation, the person I have in my mind is my husband. He’s an academic at a university and has a WordPress website, but I need to write documentation so that he can do whatever he needs to do. I guess… Matt is always very consumer, or user focused.
+
+Bowen: It’s interesting. So Matt was kind of thrust into the limelight by the success of the project. And he’s had the opportunity to give a lot of thought to this and he’s written a lot of thoughtful things about how open source should work. At the time, that hadn’t happened yet. I’ve often wished, looking back, that he had had some of that experience at the time and that the community hadn’t forked like that. 
+
+Interviewer: So do you think that the things he’s written about open source more recently… that reflects how he was acting then? Before the Habari split?
+
+Bowen: Oh, no. No. It’s clear to me that the open source community as a whole, and Matt in particular, have matured greatly since those days. I’ve read some of his blogs since then. I’ve read some of his conference presentations since then. It’s clear that he understands how the open source ecosystem works and that he understands software development theory and that he understands community theory and that’s he’s given a lot of thought to it since then. 
+
+Interviewer: Are there any decisions that he made back then that you think now, no actually he was right and we were wrong?
+
+Bowen: I don’t know. I didn’t know him well enough at the time to know if the decisions he was making about the code were simply ego driven as we perceived or if he had a long term goal in mind. We certainly perceived him as a kid with an ego. That could have been entirely unfair. I don’t know. 
+
+Interviewer: I don’t know either. I’m trying to figure that out. I think probably a bit of both. I always find it strange when… what must it feel like to be thrust into that. Like kind of unexpectedly. How would I at 19 or 20 have coped with that. I read some of my old blog posts and I’m like oh my god I was an awful person. How did I write that? So if I can cringe at thing I have written I’m sure that there would be things I did that I would cringe more. [36:00] I guess how that affected so many other people as well. Did you find people who were involved in community and support and documentation moved over to Habari and follows developers or was it mostly…
+
+Bowen: Yeah, it was people from all sections of the project that came over. I probably should have done some research before talking to you. I don’t remember who the initial group of people were beyond that four. There were maybe a dozen people by the end of the first couple months that were involved in it.
+
+Interviewer: And did they stick around?
+
+Bowen: Yeah. Most of the people that were involved at the beginning still are. Scott and I really aren’t very involved any more. My involvement, really from the beginning, was that these guys were asking me how things worked within the Apache community. And there was a time a couple of years in where there was a lengthy discussion as to whether Habari would enter the Apache Software Foundation.
+
+Interviewer: Yeah, that was the podcast you sent me. About the incubator?
+
+Bowen: Yeah. And the decision was made that no they didn’t want to. And I think that the reasons for that decision were not valid. I don’t know that the decision was wrong, but there was a fundamental misunderstanding of how the incubator process was going to work. I hadn’t been through the incubator process at the time and none of these other guys had of course. And I have now. I think it would have been a good fit, but you know. Like many things in this story you look back at it and wish it could have gone differently.
+
+Interviewer: Do you wish the WordPress thing would have gone differently?
+
+Bowen: Oh yeah. I wish that we had… So I hadn’t been involved in the community for very long. And it could be that some of these conversations had already happened. I wish that we could have discussed it some more and come up with some sort of compromise that didn’t involve splitting off some of the productive workers from the community. Because WordPress remains an important project and I think we could have done good things there. 
+
+Interviewer: Yeah, sometimes I feel that it… this is why I like coming to events like this [Open Help Conference & Sprint]. I feel like there’s a little bubble… maybe all open source projects feel like this… it’s in your own little thing and then you’re amazed… there’s like Linux, there’s Red Hat, there’s like all of these things going on out there. I don’t know if that’s a feature of open source generally [39:00] or more, kind of relationships between different projects. Or whether WordPress is… not purposefully… but just the result of it’s community and it’s dynamic has become like a bubble. I don’t know because I don’t have the outsider’s perspective. I’m so involved with it now. 
+
+Bowen: And I think that’s something that I saw really well at Source Forge, was how some projects are completely isolated from everything around them and then other projects really kind of stick their head up and look around. The guys that were here today from Open MRS, I don’t know if you are familiar with them… 
+
+Interviewer: I think I met one of them.
+
+Bowen: Their project is just amazing. And they actively look around to see who else is doing similar things and they strike up relationships with them and try to integrate what’s going on there so that they can do less work. They’re a really cool group of developers. 
+
+Interviewer: I’ve been trying to do that with documentation. Seeking other people and seeing what we can learn. 
+
+Bowen: Yeah, we tend to invent things on our own far too often. Events like this are important for that. Kind of looking around to see whether the problem we are looking at has already been solved. 
+
+Interviewer: So with Habari did you guys… did that sort of become it’s own little community? Did you guys get involved with wider open source projects?
+
+Bowen: I know that we’ve tried really hard to pull in things from other communities. There’s… I went to a talk several weeks ago about this sort of thing, relating to other communities. The guy was talking about how important it is to have dependencies. To not do everything yourself from scratch. But to find an existing implementation, a JavaScript library, a C library and have a dependency on that. Because it reduces the amount of stuff that you have to maintain yourself. And you immediately benefit from something that someone else is doing. We tried to do that within Habari. In fact this became one of the things that was a problem when we were talking about the Apache Software Foundation, was that we were relying on all these various things that were GPL and so couldn’t become part of an Apache project. 
+
+Interviewer: So what license was Habari?
+
+Bowen: Apache. From the beginning it was an Apache license. 
+
+Interviewer: And could… so could… I can’t remember. I don’t know all of the license compatabilities, but can Apache have GPL?
+
+Bowen: No. No, it can’t. [42:00] Licenses are not something that I’m real keen on, but the Apache license is extremely permissive and… you can take Apache licensed stuff and do whatever you want with it. Whereas GPL stuff has certain restrictions on what you can do with it. And so, it’s compatible the one direction, but not the other. And so anything that is introduced into the Apache Software Foundation, GPL stuff has to be removed from that. And there was in particular a couple of JavaScript libraries that we were relying on that there were not Apache-licensed viable alternatives for it at the time. 
+
+Interviewer: So is that… that prevented you becoming part of the incubator?
+
+Bowen: Well, it didn’t prevent us from becoming part of the incubator, but it was one of the reasons that was cited for saying we don’t want to do that. There’s lots of things that go into the Apache incubator that have GPL dependencies but prior to graduation that would have to be removed or replaced. 
+
+Interviewer: I see. So you go into the incubator and then you go on to being part of the Apache projects.
+
+Bowen: Yeah. The incubator has two main purposes. One is to insure that you can release under the Apache license. And the other is to ensure that the project is sustainable. And that’s kind of subjective, right? But one of the things is that it’s not controlled by one company. And has diversity of origins of code. And then there’s the legal aspect of ensuring it doesn’t contain anything that’s trademarked or copyrighted or patented. 
+
+Interviewer: So do you think WordPress is controlled by one company? 
+
+Bowen: That’s an interesting question. That wasn’t the case prior to the WordPress.com thing. I don’t have enough visibility into the project now to know whether that’s the case. It’s not necessarily the case that a project that has salaried employees working on it is necessarily controlled by that company. Red Hat for example. Pretty much every project that we get involved in, we end up being the majority committer. But that doesn’t mean we control the project. Because the decisions are still made by consensus in the community. Is it your impression that’s the case in WordPress?
+
+Interviewer: I’m more interested in what your impression is being not involved with the project. 
+
+Bowen: So there was a time certainly early on when Matt had first started the WordPress.com… there was discussion on the WordPress mailing lists that said that [45:00] decisions were being made about the code solely for the benefit of the corporation. That the people within the company argued very vociferously against that at the time saying that was not the case and that the community still had a voice. I don’t see anything particularly now that seems anti-community in the way that decisions are made. 
+
+Interviewer: There are obviously a lot of Automattic employees who work on the project, but there’s significant ones who don’t. And actually, the company I work for, I don’t work for Automattic, I work for Audrey, for Matt’s, he set up this company to, it’s his investment company, he invests in things, but he basically employs me and a couple of other people just to work on WordPress. So we don’t have anything to do with commercial side of things, we’re just employed to work on the open source project. Whereas the other, there’s like Automattic employees who work on the open source project but are Automattic employes, so part of the commercial side of things, whereas we don’t have anything to do with that.
+
+Bowen: OK
+
+Interviewer: I kind of got the impression that that’s part of the reason that was set up so these people could be separate from the commercial side of things. And we’re kind of… usually… we just go and do our own thing. It’s more like having a kind of patron than having a boss or anything. Go work on open source…
+
+Bowen: That’s cool.
+
+Interviewer: That’s quite cool. I’m always interested to know what other people, what their perception is… people… especially people who were involved with the project, however many years ago, whether they think it’s an Automattic thing or whether they know it’s kind of community generated.
+
+Bowen: Yeah, I think that outside of people that are closely involved that people perceive it as an open source project. And that WordPress.com is not a controlling interest in the decisions. 
+
+Interviewer: Did you ever get involved in any of the licensing debates around WordPress, like the GPL, stuff that flares up every so often?
+
+Bowen: I have posted to a few of those conversations saying that the Apache license is cool. But I never got very involved in the discussion. Licensing has never been something I’ve cared a whole lot about. 
+
+Interviewer: It’s a thing that flares up every so often. Not that we can change the license.
+
+Bowen: No, at this point, it’s kind of too late.
+
+Interviewer: You’d have to find every contributor and ask them…
+
+Bowen: That would be nightmarish!
+
+Interviewer: Yeah, it would be awful. And even if everybody wanted to, there would be one person who would be like I don’t want to. And that would be like, all that work… [48:00] I think I’ve asked you everything… 
+
+Bowen: Alright
+
+Interviewer: Well actually, why do you think… I mean Habari is an interesting project, but it’s not like successful on the level that WordPress is. 
+
+Bowen: No, it’s not successful by any particular measure other than that the people that are working on it are having fun. And that’s always been an important metric for me, but no it’s not successful by any measure outside of us. 
+
+Interviewer: Why?
+
+Bowen: I’m not really sure. I think that maybe it was just that WordPress had the spotlight already at that time. Habari has devoted an awful lot of time and energy to things that aren’t visible. A lot of code changes that have to do with how things are working behind the scenes, and optimization behind the scenes, and everything else behind the scenes. And there hasn’t been a lot of motion on actual user-facing functionality, in years. I’m running a blog on Habari version 0.7, the new version is 0.9, and I’m looking at the new version and trying to figure out what’s different. And asking… I was actually having this conversation two days ago on the IRC channel, trying to figure out what’s different, and everything that I’m being told is things that are  not visible. They’re these great optimizations and these cool object-oriented things going on in the code and it’s all very geeky, but when I install the upgrade I’m not going to see any new functionality. So it’s all very academic.
+
+Interviewer: That’s very interesting because one of the things when I talk to developers about release cycles and that *** refactoring code or working on like *** something like… unless we introduce new cool features, people won't upgrade it.
+
+Bowen: That’s right.
+
+Interviewer: You’re saying you wouldn’t as a developer, then the users certainly aren’t going to upgrade.
+
+Bowen: Yeah. And what I’m running now is… there’s no security holes in it and it does what I want. So what was appealing to me about Habari from day one was that it was simplistic. I’ve always been about content, in a blog. And I think that one of the things that turned me off about WordPress to begin with, in addition to the things that I’ve mentioned, was that everyone was about design and layout [51:00] and CSS and blah, blah, blah…
+
+Interviewer: In particular at the time you go involved. Just after the theming. That would have been ahhh everyone’s saying that. 
+
+Bowen: Yeah, that was THE thing. And was like I just want to write content. All I cared about was the content, and Habari, the initial release of Habari was just crazy simple, it was all about the content. Has since developed into something that’s more design oriented but I’ve always just cared about the content. So if there are changes to the code that are about design…. I don’t care. 
+
+Interviewer: So do you have a theming system in Habari?
+
+Bowen: Yeah. Chris Davis did that. He changes the theme on his website at least twice a year. And you know that’s great for him, I don’t care. 
+
+Interviewer: Is it still the same core people… like I know you’re not particularly involved any more, but still Owen Winkler and Chris Davis…
+
+Bowen: Owen Winkler and Michael Harris are the people that are most involved right now. 
+
+Interviewer: I should install it sometime. It funny, like in WordPress, occasionally someone will get annoyed and be like I’m not going to use WordPress anymore, I’m going to move to Habari…. But I always ***
+
+Bowen: Yeah it’s worth trying, it’s a cool system. 
+
+Interviewer: You never moved back to WordPress?
+
+Bowen: I have five or six websites, I think three of them I’m running Habari on and there’s two I’m running WordPress on and maybe there’s a couple Drupal sites out there, so I’m running a wide variety of platforms. 
+
+Interviewer: Do you think WordPress competes with Drupal as a CMS?
+
+Bowen: Yeah. I think that it does. Drupal… Drupal makes me crazy. 
+
+Interviewer: Yeah, I’ve installed it a couple of times.
+
+Bowen: The installation and configuration process just makes me want to rip my hair out. I have a site that I’m running Drupal on, that I’ve been running Drupal on for many years, and I feel kind of locked into it, so I keep running Drupal on it. I don’t think that I would put Drupal on a new site ever again.
+
+Interviewer: That’s interesting. I mean they’re trying to make their stuff more user-friendly, I guess.
+
+Bowen: And they’ve got some really cool stuff in there…
+
+Interviewer: They do.
+
+Bowen: ..but it just feel so complicated. 
+
+Interviewer: And do you think WordPress has got that right, in terms of simplicity?
+
+Bowen: Simplicity, yeah. The five minute install is a huge selling point. 
+
+Interviewer: Well now it’s like one second because practically every host has a installer script, and you just click it and you’ve got it.
+
+Bowen: And Open Shift [54:00] has a Drupal cartridge and so, one click and that’s pretty cool.
+
+Interviewer: I tried Drupal Gardens the tryout-wise Drupal site, but I was like, look at this UI, I mean I’d used Joomla for a site before, but yeah…  interesting to see how these things will develop. The challenge for Word Press is that people are less and less using web sort of laptops, PCs, and are using devices, and if you’ve ever tried to use WordPress, the admin, on a touch screen…
+
+Bowen: I have.
+
+Interviewer: Oh, it’s horrible. The apps are okay for posting content, but we have quite a small mobile development team. Like Tumblr has like fourteen (forty?) people working on their mobile app, and it’s really cool. We need people that can do iOS development, we need people who can do Android development, we need people that can do Windows Phone… all of these things. I’m going to work on an open source project that’s traditionally PHP, and actually attracting those developers is difficult because they just don’t think to come and work on a PHP project. Well thank you. It’s been interesting to talk to you. I’ll… Owen has been on my list of people to contact, because I’m sure he’ll *** …
+
+Bowen: Yeah, Owen is very opinionated and he’ll tell you what he thinks, so you’ll get some good stuff from him. Scott is very polite, tactful. It’ll be interesting to see what he tell you. 
+
+Interviewer: And Chris Davis, who I don’t know, but I’ll see if I can find him. 
+
+Bowen: So, Chris… I don’t talk to Chris as much as I used to. He’s down in Texas doing, I think doing web design stuff. I saw Scott last week. Up in Boston we were both up at the Red Hat summit. And he mentioned that he was planning to talk to you. 
+
+Interviewer: Yes, because he’s Skippy so his name is everywhere. Thank you. 
+
+Bowen: Sure.

@@ -1,0 +1,327 @@
+Keywords: Weblog Tools Collection, GPL, Spectacular, Mixergy, Software Freedom Law Center, Template Monster, Envato, Theme Forest
+
+People mentioned: Mark Ghosh, Carl Hancock, Drew Strojny, Dave Shea, Michael Heilemann, Justin Tadlock, Chris Pearson, Jake Caputo
+
+[Transcribed on 04/12/14 by Patrik Ward. Word count approx. 5,732]
+
+[Begin transcription.]
+
+Interviewer: I’m speaking to Matt Mullenweg on the first of April. April Fool’s day! I haven’t got any April Fool’s questions for you and it’s not April Fool’s yet for you, is it?
+
+Mullenweg: No, not yet.
+
+Interviewer: Not yet, okay. So I want to start off talking about sponsored links. So back in September 2006 you raised it on the W P Hackers mailing list that you downloaded Bartelm and you’d found I think five deliver links in the footer. It wasn’t until April the following year that it really became a major issue in the community. I’m just wondering why it took so long for it to become such a public thing?
+
+Mullenweg: I don’t know — how long was it between them?
+
+Interviewer: It would have been 6 months, 7 months.
+
+Mullenweg: I don’t know. It might have just been that it went from being something that one or two themes were doing to every theme in the directory.
+
+Interviewer: What was the theme viewer? I haven’t actually been able to see it.
+
+Mullenweg: The theme viewer?
+
+Interviewer: It was themes.wordpress.net
+
+Mullenweg: Oh yes! We had a theme directory originally on a separate domain. It’s just what it says — it was kind of a theme directory.
+
+Interviewer: Okay, but was it run by someone else?
+
+Mullenweg: I don’t recall who was behind it. Maybe Alex? Maybe, I don’t recall. It was working as an official domain. It’s just some place where we put some of the extra projects. I feel like the plugin directory was originally on another domain, too.
+
+Interviewer: What’s it? wpplugins.org or something?
+
+Mullenweg: Sounds right.
+
+Interviewer: So what happened with it? I read that it got filled with spam and things like that.
+
+Mullenweg: It was filled with perfectly [inaudible] they all had spam though.
+
+Interviewer: What did you think of that?
+
+Mullenweg: I thought it was terrible! Obviously, it was just very — it wasn’t very fuzzy was the best way to put it. When you download this theme it would be like free credit cards in the footer or refinance your mortgage. It just made all the sites using it look really cheap.
+
+Interviewer: Do you think that your previously experience with Hot Nacho gave you any insight into that ahead of time? [3:00]
+
+Mullenweg: Oh yeah, definitely was a red flag. It was tough because there were way more themes than we even currently have in the directory. Because the business model of — I guess they were paying per month per theme, so these guys were — there was a big incentive for them to make lots and lots of themes. So I think when we took it down, was it around Easter? They called it a massacre.
+
+Interviewer: Yeah, the great theme purge or something. That would have been July, so you announced in April there was two posts on Weblog Tools collection, you and Mark. Then in July Mark announced that he wasn’t going to put them on the Weblog Tools collections anymore, and later the same day you said they would be pulled from the directory. 
+
+Mullenweg: A lot of it was — I don’t recall exactly who — but a lot of the people who were doing it were also big WordPress contributors. It wasn’t like a sketchy thing so maybe that was part of the delay as well. Giving those folks a little bit of time to clean up or find an alternate income source or something like that. For a few of these folks it was pretty significant, like thousands of dollars a month. 
+
+Interviewer: I spoke to Brian Gardner and he said that he made a thousand dollars from theme sponsorship, which is quite a big deal. You said in your —
+
+Mullenweg: And there were some sponsors which weren’t bad. They were more like a sponsorship, and they didn’t require the links or half spammy links. The vast majority of these were really spammy looking, like…
+
+Interviewer: Like credit cards and flower delivery, they were quite random.
+
+Mullenweg: What did you think about credit links for designers?
+
+Mullenweg: Credit links started being abused, so we said, “Well it’s okay to have a credit link to the author.” All of a sudden now they pay people to say, can free credit cards be the author of this theme? So that was a thing that started being exploited as well.
+
+Interviewer: Did you go to Mark at Weblog Tools Collection about it, or did he come to you about the problem?
+
+Mullenweg: I probably went to Mark. Weblog Tools Collection was definitely the paper of record at the time, and Mark has always been a great counsel, particularly on community issues. He really has a good true north in thinking about these things. I would still go to him today. It hasn’t come up recently, but I’d be happy to go to him. 
+
+Interviewer: So you ended up posting about the sponsored [6:00] links and you said that you’d received some pretty nasty messages as a result of pulling sponsored themes from WordPress’ official directory. I was wondering if you could recall what any of these messages were or if you have any of them?
+
+Mullenweg: I definitely would put it in the top 20 events that got me the most hate in WordPress’ history.
+
+Interviewer: Really?
+
+Mullenweg: Oh yeah. Because there were people like, “My kids can’t go to school anymore and I’m not going to be able to pay my bills this month.” It was impacting people’s livelihood so they were very, very worked up about it.
+
+Interviewer: What did they think your motivations were?
+
+Mullenweg: I don’t know. Did you find any?
+
+Interviewer: The most common thing that you come across is, “Automattic doesn’t want me to make money.” That’s what people say all the time.
+
+Mullenweg: I think that history has proven the opposite of that. I mean, sure at the time Automattic was a lot newer and people could not be faulted because the history of companies coming out of open source projects is not fantastic so Automattic was more the exception than the rule in terms of the health of WordPress staying strong even as Automattic has grown and grown.
+
+Interviewer: What was your attitude whenever premium themes started emerging not long after the sponsored themes thing? In 2008 they really started taking hold.
+
+Mullenweg: I think there were obviously issues around licensing. But once we got the licensing issues cleaned up, I’ve always been very supportive of premium themes. In fact, many of those guys — I’ll give Brian credit for being the first to relicense his work as GPL — were very brave, because it was not clear if they would still have a business after they relicensed. It was an open question. We thought they would, but it wasn’t certain. I even talked to some folks and said, “Hey, if this goes to zero I’ll just — or Automattic will just pay you for what you used to be making for a few months while you figure it out.”
+
+Interviewer: That’s a good offer!
+
+Mullenweg: Well, it was — it did take some bravery to be the first person across the gate. Now of course we know that these companies can make millions of tens of millions of dollars while being GPL, and it’s amazing to be able to point to that. I love pointing [9:00] to the experience of those people who are GPL when people come to me and they’re scared about open sourcing their work.
+
+Interviewer: Yeah, it’s interesting talking to those people now. They all say that, “We just didn’t understand the GPL.” They just didn’t understand the license. People found it confusing, they thought free had to mean free as in beer.
+
+Mullenweg: I would say that still people have trouble understanding the nuances of the GPL license, but we seem to have reached a pretty good equilibrium in the WordPress community around these things. Where before they were highly controversial, and again you’re affecting people’s livelihoods — or they think you are! Now that it’s been a few years and everyone’s doing fine — in fact they’re doing better than ever, especially as we’ve been able to grow WordPress market share and user base so much. Some of the folks who were some of the loudest and biggest detractors. Including folks like Carl Hancock are now, I would say, generally supportive and understanding some of the tough decisions we have to make int he project leadership.
+
+Interviewer: One of the things you said in the WpHackers thread in 2008 was that, “If you take the arguments behind premium themes to their logical conclusion, we face a WordPress world where all new themes and plugins cost money. Feature development is stagnant because everyone just contributes their ideas to paid plugins and both become user-hostile as they attempt to cut down in piracy.” 
+
+We’ve talked before about how feature development can become stagnant because everyone contributes their ideas to their plugins, but why at that time did you think it also related to themes?
+
+Mullenweg: If I recall that thread, it’s a common anti-open source argument actually where people say, “Oh, no one wants to work on this for free. Great developers need to be compensated for the work.” Well maybe developers will do it, but certainly designers aren’t going to work on it for free. You know, it’s true. There are probably millions of people rout there who won’t. But as you and I know there’s lots of people who will and work on things without monetary benefits, be it a sense of accomplishment or building up a portfolio or building up your consulting business, just things that aren’t directly for money. It’s why all of us do it!
+
+What was the question?
+
+Interviewer: So my question was [12:00] why did you change your position on themes? Whereas in 2008 you didn’t seem to be all that behind there being themes for sale, but now you seem happy with it. Why did your position on that change?
+
+Interviewer: Well certain amounts of the position are similar. So, for example, there was a big push to have a store on WordPress.org where people could buy things. And we haven’t done that and still have no plans to do that. All of the commercial stuff happens off-site. We do point to commercial themes, and I’m fine with that. Basically as a way to promote — because there are still folks out there who aren’t 100% GPL, so we want to make sure that we’re pointing people to ones that are.
+
+In terms of — I’m trying to think what else. Something I talked about a few times before. There is a value to a design scarcity, where a design can be more valuable when fewer people have it. Again, if you take things to a logical conclusion, one way to make a design more scarce is to create a barrier to entry — so to charge more. I think that that’s still valid and so in a world where some themes cost money, I think we’ve shown that there are still lots of incentives to have free themes and the WordPress community will still be okay. And we try to lead by example as well. It was a few years later that we started doing the yearly default themes, and that’s been I think really fantastic. Including having folks like Drew who are noted premium theme authors who donate their time. Work for free, which people said no one would ever do. To really give something, give a gift to the WordPress community of a beautiful design that sort of sets the bar for that year.
+
+Interviewer: Why do you think themes —
+
+Mullenweg: That’s one of the things I still keep on my plate is being involved with the default theme and it’s always fun.
+
+Interviewer: What are we having next year, 2015?
+
+Mullenweg: I don’t want to pre-announce anything! But I have already had discussions with Lance and Ian about it. The main thing we do is just try to do something different than previous years. We have a pretty good magazine theme out now, we have a Tumblog theme that’s pretty good. We have some good basic blog themes. I think it would be interesting — I’ll just tell you what I think would be interesting since no one is going to listen to this for a while anyway.
+
+A really page-oriented theme. Kind of like a left-hand nav [15:00] page oriented theme. I guess that’s the easiest way to put it. In some ways, it might end up looking a little bit like — remember Classic? With the lefthand navigation and everything?
+
+Interviewer: Yeah, from years ago.
+
+Mullenweg: There was the version I had done and there was the version Dave Shea did. They both have six position lefthand nav. It might be the something closer to that but of course infinitely better looking.
+
+Interviewer: Interesting. Why did it take so long to change the default theme from Kubrick to 2010?
+
+Mullenweg: That’s a good question. 5 years right?
+
+Interviewer: A long, long time. Kind of sick of seeing that blue header everywhere.
+
+Mullenweg: I think that’s one of those examples where the diversity of opinions and open source community — the broader WordPress development community — really kind of grinds any progress to a halt. I would say it was one of those thankfully rare situations where I really had to cut the Gordion knots to get something moving.
+
+It’s similar to how [inaudible] works and how we went with MT. Part of the way we were able to get the default themes going is by setting ground rules and getting everyone to agree to those and advocating a little bit of the community involvement. It’s change for saying that something that a consensus or committee is not going to be able to decide well so let’s designate someone. I don’t remember all the rules but I remember one important one being that we were going to change it every year, kind of like the weather in Texas right? If you don’t like it wait five minutes.
+
+That removed a lot of the pressure because people were talking about the theme like, “Oh this is going to be the next five years.” So they want it to be a really good one. But if we tell them that it’s going to change every year, they’re like, “Oh well, if I don’t like this one it’s okay. I’ll like the next one or I’ll try to get the next one that I like.” And that was huge in resolving some of the arguments.
+
+I remember Jaden saying to me — I don’t remember which one of the themes it was, it was 20-something, well I guess they’re all 20-something aren’t they? She was like, “Yeah, I don’t care for this one very much. But it’s okay because next year we’re going to get a new one.”
+
+Interviewer: Yeah, it’s exciting to see what the new one is going to be every year.
+
+Mullenweg: One of the other things was that we said, [18:00] “It’s not going to try to be a framework or a teaching theme. This is a really important distinction as well. Because we found it difficult to make something that both showcased WordPress’ functionality and what we thought was a good looking theme that would be an attractive default, as well as be a good framework for other themes we built on or being a good teaching mechanism for another theme.
+
+When you think about it, a lot of those — I think those are maybe not impossible to create a theme that does all three well, but definitely a lot lot harder. The venn diagram of them overlapping is difficult, so we again reduced the scope and said, “Hey, this is going to be something that we like and that we think is an attractive default.” So someone just installs WordPress and they’re like, “Oh, this looks pretty good.”
+
+And I think that was getting easier and easier because Kubricks was getting so dated. I think that’s another example of how things have to get bad before they get better. The fact that Kubrick had been a default for so long and just felt so old helped cut through the Gordion knot.
+
+I don’t think it’s that we set aesthetics — what’s that?
+
+Interviewer: I was just going to say that Michael Heilemann still gets support requests for it.
+
+Mullenweg: It’s one of those things. If you could close your eyes and pretend you’ve never seen Kubrick before, and saw it for the first time, it’s nice. It’s one of these things where familiarity breeds contempt, because it was the default and because it was on so many spam sites and because it was also an aesthetic of its time. The radicals and the gradients. It just feels a bit older.
+
+On it’s own merits, if an alien came to the planet and saw that theme, I think it’s got some really good typography and it’s got a lot of good features. The final thing that broke the default theme gridlock was that we said that aesthetics are inherently subjective. Perfectly smart and reasonable arguments coming out of both sides, so it was just going to be something that I liked. Meaning that — not ignoring everyone or anything like that — but ultimately the aesthetic factor was just a decision that I was going to make and then that would be what we all agreed on versus arguing about it. Of course everyone will have an opinion on it, but we just can’t get stuck there, especially when you start to bring an external designer in. [21:00]
+
+Mullenweg: Sorry I have to mute because I have a little bit of a cough, I apologize.
+
+Interviewer: Oh I see! I thought you just had a bad internet connection.
+
+Mullenweg: If I make a weird pause it’s cause I’m caughing and I’m trying to mute so it doesn’t hurt your ears.
+
+Interviewer: Oh okay, thank you.
+
+Mullenweg: Especially with designers jumping in, it’s much easier for external designers to work with one or two people versus trying to please everyone. It’s impossible actually.
+
+Interviewer: So why do you think themes have been more contentious than plugins?
+
+Mullenweg: Do you think they have?
+
+Interviewer: Yeah, definitely. The major fault lines have often been around themes, around the GPL. It seems to be themes that really get people wound up. Occasionally, there’s a thing around plugins, but it’s not the same.
+
+Mullenweg: I feel like plugins still get people wound up, especially because people perceive me as not wanting premium plugin authors to make money or whatever. It seems similar arguments as there were around themes. I think that it was a culture thing. So where there were always thousands and thousands of plugins developers that really understood open source and we had a really great plugin directory from the early days, and there was a culture of — much like WordPress — open source around plugins.
+
+People coming from a design background or maybe not from a background of open source had this more proprietary mindset. In fact, often saying things like, “Well design is different from development.” Implying essentially that it’s more special, and that you’re not ever going to have high quality design or designers work like open source developers do. Which I obviously strongly disagree with.
+
+Interviewer: Just seeing if there’s a pause or if you’re finished.
+
+Mullenweg: Oh I was done!
+
+Interviewer: Okay that’s fine. So why did you remove 200 themes from the WordPress repository?
+
+Mullenweg: Oh it was way more than 200 right? It was thousands!
+
+Interviewer: In Christmas 2009 I think — let me just grab the link. This was not the sponsored links thing, this was the…let me find the thread. [24:00] It was Spectacular was the theme shop that posted about it to begin with. 
+
+Mullenweg: It might have been 200 of their themes, but I think the total was a lot more. I feel like — and there’s probably some posts about this, maybe on Weblog Tools Collections or my blog — where we went from having I feel like a couple thousand to just a couple hundred themes.
+
+Interviewer: So that was after the sponsored links, is that correct?
+
+Mullenweg: I thought it was because of the sponsored links.
+
+Interviewer: That was because of the sponsored links, but then there was another great purge from the WordPress theme depository where 200 themes were removed. Let me see…
+
+Mullenweg: Can you send me a link?
+
+Interviewer: Yeah, I’m just trying to find it.
+
+Mullenweg: What about this post from 2008. It’s a pretty good one. Sometimes I’ll read my posts and be like, “Oh, this guy.” And then sometimes I’ll read my stuff and say, “Oh, this guy was smart.” This is one of those.
+
+Interviewer: It’s nice when that happens. Let me just give you this link. There you go. There’s one. That was the one Spectacular.
+
+Mullenweg: This Jethro guy. 
+
+Interviewer: Yeah, the second one. Why were 200 WordPress themes removed, December 2008.
+
+Mullenweg: I don’t recall exactly. It does sort of ring a bell a little bit. It’s either one of these two things. It looks like it was 200 themes that linked to Spectacular, and we removed all themes that linked to it. Or maybe one of three things.
+
+They might have been sponsoring other themes and basically getting everyone to link to their site. Possibility 2, they had non-GPL stuff on their site. So this part from WordPress.org we try to only link to things that follow the WordPress.org guidelines in terms of providing the same freedoms to users as we do. Could have been that. Or, and this is the third possibility, it could be that on Spectacular itself they had sponsored links so we were trying to avoid linking to [27:00] bad neighborhoods as it’s said in the Google world.
+
+So it’s one of those three. Hopefully you can figure it out and find something else.
+
+Interviewer: Yeah I’ve got a few things and wanted to chat with you about it. WooThemes had stuff removed, all sorts of people had themes removed.
+
+Mullenweg: I’m guessing it’s because they weren’t GPL yet.
+
+Interviewer: Yeah. Yeah. So the policy is GPL themes on the repository, but not if they link to sites that promote non-GPL products.
+
+Mullenweg: Oh here we go! 
+
+“Thanks for emailing me about the theme directory, the other day I notice that a bunch of stuff had snuck in like spammy SEO links, themes whose sites said you couldn’t modify them, meaning not remove the links, and things the directory was meant to avoid. There were also a few that violated the WP community guidelines, like our domain policy. That would be themes linking to sites that have WordPress in the domain.”
+
+It looks like we accidentally cut Justin Tadlock as a mistake. So yeah.
+
+Interviewer: So what about plugins? Because plugins have to be GPL — to be on the repository they have to be GPL, but they don’t have to necessarily be GPL do they?
+
+Mullenweg: It gets into a technical discussion. How much a plugin is integrated or not, works or interacts with WordPress’ APIs so it’s kind of a subtle thing whether a specific plugin has to be GPL or not. But the vast, vast majority do. 
+
+Interviewer: And can there be plugins on the WordPress repository that are GPL but that on the author’s site, they’re not GPL? I’ve seen some threads discussing this somewhere.
+
+Mullenweg: So an author is allowed — they don’t have a copyright — they can make their code available under multiple licenses. That could be a GPL and MIT, that could be a GPL and a proprietary license. However, if they’re distributing it, depending on how the code works, it might be compelled to be GPL by the viral nature of the new public license. However, again that would be a case by case thing. There are ways to get around that or avoid it and there are some ways that you really can’t avoid it.
+
+The truth is that if someone really wants to avoid the GPL, there’s holes in it big enough you can drive a truck through. That’s why we’ve always said it’s less about the letter of it [30:00] — and this is something that I’ve been widely criticized for — it’s less about the letter than the spirit. And people are like, “What’s the spirit? There’s no spirit in law.” What it is is that we’re saying that users should have these freedoms. The four freedoms. The freedom to modify the software, to use it for any purpose, to share you modifications. These things are really crucial to a free internet and a free world. So we only ever want to link to and promote and certainly host software that ensures these freedoms. 
+
+Because we feel that a lot of people don’t understand this. It’s very important to the whole core development team that that’s something that WordPress is known for. Even if people don’t appreciate it, that freedom is there and we’re going to fight to protect it and we’re also going to try to engineer a community where that is at the core of everything we do.
+
+Interviewer: At what point did you decide to go to the Software Freedom Law Center?
+
+Mullenweg: I believe that was around our engagement with Mr. Pearson. I don’t know if it was before or after the Mixergy — our spirited online debate — but it was definitely around that time. I’m not a lawyer! I can read it and I can understand it from a logical point of view, but the Software Freedom Law Center is obviously the world experts in this and having them officially upon is the closest we can get to — it’s the next best thing to having a court case. 
+
+I was actually very excited that perhaps Chris would actually go to court, because as you know there isn’t a ton of case law around the GPL and normally, because no one is stubborn enough to actually go to court over it, and I thought, “Oh, we finally got one!” And I was looking forward to being able to discuss in the U.S. law system and provide the precedent for anyone who comes after us to protect the GPL.
+
+Because companies like Cisco and LinkSys and huge companies with billions of dollars in resources have opted to not fight it, so you really do need someone who is going to be stubborn enough to fight it.
+
+Interviewer: Thesis has changed their license now to proprietary license, would you be — yeah, Thesis 2 came out with…let me see. [33:00] Thesis 2 license. It’s not GPL, it’s not been GPL for a while. 
+
+Mullenweg: I have not seen that. So we’d have to do a code analysis again. As you know the Software Freedom Law Center that non-PHP, so non-linked code with can be CSS, images and JavaScript, isn’t required to be GPL. It doesn’t trigger the viral nature of WordPress’ GPL code. The stance of the WordPress community was that a theme without images or CSS isn’t much of a theme so, even though something could be legally compliant, if the entire package isn’t providing the same freedoms for users it’s not something that we want to link to or promote. 
+
+Because it doesn’t really follow the things that we hold dear and true in WordPress.
+
+Interviewer: Did you ever get in touch with companies like Template Monster, that sell themes without a GPL license?
+
+Mullenweg: Is that the — no, I’m thinking of Theme Forest.
+
+Interviewer: Template Monster started selling themes in 2006 before anybody else.
+
+Mullenweg: We got in touch with everyone that we could, and it was definitely — it was a lot of time. There’s times when WordPress core stuff is more than a full time job for me and now is definitely one of them. 
+
+I see your link to a [inaudible]. There’s always ways to word licenses around multi-site support where perhaps the code is GPL but the developer chooses to not provide support for more than one site unless you buy a special license. So sometimes people interpret those to be a GPL violation when actually they’re not.
+
+I’m not aware of what Chris has done and I’d like to think that he is supportive — he has done so well from the WordPress community that he’d be supportive of themes continuing to be GPL, especially since his business didn’t crash like he was worried it would.
+
+Interviewer: I’ll have to double check the interview I did with him, but I’m pretty sure he had lawyers re-write his license.
+
+Mullenweg: Well, maybe we’ll dive back into it.
+
+Interviewer: You never know! Good luck with that.
+
+So did you publish the full copy of what the Software Freedom Law Center sent you on the blog, or do you have anything else?
+
+Mullenweg: Yeah that was the full copy. They are obviously almost like a judge writing an opinion. They take their role very seriously so [36:00] they chose their words exactly and I wanted to quote it in its entirety because that’s really what tells the message.
+
+Interviewer: Was it what you expected, or had you been expecting the CSS or JavaScript also should be GPL?
+
+Mullenweg: The arguments that make CSS or JavaScript GPL — that it’s compiled and run in the browser — are pretty nebulous. Like some people do make those arguments, but they’re a little bit of a stretch.
+
+Interviewer: Okay. Did you contact Envato about going fully GPL?
+
+Mullenweg: Yeah of course.
+
+Interviewer: How did that discussion go?
+
+Mullenweg: Obviously they’re not fully GPL but they’ve moved from — before they were actively hostile to the GPL. You literarily could not choose GPL for the license. If you listed on Envato’s sites, you were forced to choose something different. They’ve been going in the right direction, even if they’re not in the place where I would like them to be yet.
+
+Interviewer: They were one of the first people to become compliant with the split license in 2008 or 2009. They became compliant.
+
+Mullenweg: Remember there’s no such thing as a split license.
+
+Interviewer: Okay, how shall I describe it?
+
+Mullenweg: They went for differently licensed files in the same package.
+
+Interviewer: Well you call it in a blog post “packaging gymnastics.” Which I thought was pretty accurate. Jake Caputo had already been allowed to speak at WordCamps and then all of a sudden the policy was enforced. Why did that happen so suddenly and why hadn’t it been enforced before then?
+
+Mullenweg: A lot of these things, there’s not a plan for why it hadn’t been enforced or whatever. It’s often just that we don’t notice, then someone raises it as an issue. Like you just raised Thesis’ new license. Like, thanks Siobhan! I need to look into this.
+
+Interviewer: That’s not an actual thank you.
+
+Mullenweg: That was a sarcastic thank you.
+
+Interviewer: Yeah, thought it might be.
+
+Mullenweg: Yeah, so obviously it’s a tough thing because the opportunity in front of us is so large, and myself and the entire community can often get bogged down in these things that are sometimes philosophically important, sometimes not. Regardless, it’s not writing code or designing things that provide a better experience [39:00] for our users, so they can be a distraction to the entire project.
+
+Interviewer: So 2007 you announced that there would be a theme marketplace on WordPress.com and it didn’t actually appear until 4 years later. Why did it take so long?
+
+Mullenweg: I think that announcement pre-dated the first premium theme, right?
+
+Interviewer: Yeah pretty much!
+
+Mullenweg: So, I do believe that Automattic unintentionally created the premium theme market because we reached out to a number of folks — including Brian and everyone like that — essentially they built themes to sell on this marketplace, and then we decided not to do it.
+
+Interviewer: I see, so you gave them their product.
+
+Mullenweg: They had their product and they were like, “Well, I guess I’ll sell this anyway.”
+
+Interviewer: Why didn’t you go ahead with it?
+
+Mullenweg: It’s one of those things where one of the many times I put the community interest of WordPress above what was in Automattic’s short-term financial interest. I think we know now that premium themes and the theme marketplace is a great business. It generates a lot of money. But it didn’t seem right to go into it when we hadn’t really worked out all the licensing issues yet, so if you notice the time when we did it was when all the licensing stuff was fully settled. Because technically as a service, WordPress.com doesn’t distribute things. Again, technically we didn’t need the GPL stuff, and that’s kind of what some of the authors were asking for. That didn’t feel right to me. So we wanted to work hard on everything to be GPL if we were going to sell it, but then it wasn’t really clear that if it was also GPL, would anyone buy it? It was just messy, so it seemed good to wait until the air was cleared and these issues resolved on the community side before we started pursuing a business there.
+
+And we did, and I’m glad we did. It’s been a great and growing thing ever since.
+
+Interviewer: Great!
+
+Mullenweg: And everything on there is 100% GPL.
+
+Interviewer: That’s what you wrote in your first post. “We wanted it to be all 100% GPL.”
+
+Well, that’s all my questions about themes, so we can leave that there. Let me stop my recorder, thank you. I’ve got a bunch next. I’ll schedule something…
+
+[Audio ends.]

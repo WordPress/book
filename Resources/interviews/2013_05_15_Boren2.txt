@@ -1,0 +1,565 @@
+Interviewer: So how did you get into coding?
+
+Boren: Pretty much just always knew that’s what I was going to end up doing. When I was in high school and whatnot, I knew I’d go into something technical. I thought about chemistry. I thought about some of the sciences. Then I decided to get my double E. And I got through much of that. But then I was like, you know, computer science seemed like the better gig at the time. Easier to get jobs doing that. Doing some cool stuff that I wanted to do there. So I turned that EE into Computer Science and did a major and minor kind of thing. While I was in college, I got a co-op job at a telecom company and started working full time while I was going to school. And started coding. A lot. Pretty much jumped straight into coding professionally.
+
+Interviewer: So did you finish your degree?
+
+Boren: Mmm hmm. A BS in CS.
+
+Interviewer: And what languages did you learn to begin with?
+
+Boren: Let’s see, C, C++, did lots of Perl, and Python, and Tickle, and SmallTalk. All of them my first couple, few years of working in the industry, mainly in telecom at the time. Probably C++ mainly.
+
+Interviewer: But you didn’t have computers at home?
+
+Boren: We got one like my senior year. We got some used one. So I spent some time with that. But, yeah, a lot of it’s like I didn’t have the stuff at home. Didn’t have internet at home because it didn’t exist then. And computers were expensive, so we had an old used one that I finally got in my senior year of high school. I learned everything I could with that. That kind of helped me decided that I’d do something in that realm. 
+
+Interviewer: Do you remember what type of computer it was?
+
+Boren: It was like some old 286 I think. 
+
+Interviewer: Where did you work? You said you were involved with startups? Were they tech startups?
+
+Boren: I started at DSC Communications, in town outside of Dallas. It was a telecom company. That got bought by Alcatel. And I stayed there for a while after the buyout, but not too long. Like six months, a year. Then I jumped to a startup called Monterey Networks that eventually got bought by Cisco Systems. That was pretty early at Monterey. There weren’t a lot of us there. We didn’t have any code when I started there. And I worked a lot, and I worked hard and got bought by Cisco. And the dot com bust happened. And a lot of that money that [3:00] was making me a paper millionaire evaporated. I ended up making some pretty good money out of the deal, but like the AMT stuff with the IRS, you know, exercising ISOs and holding them can get you into the same deep trap. I was one of the guys stuck in that paying money on, paying taxes on money you never made. And figuring out how to pay it off. But eventually, I got it… the stock was worth enough, I paid all that stuff up and actually made enough to put some money away. I stayed at Cisco for awhile, as all that played out. And eventually, Matt… there were some other little companies that were kind of things I played with, but those were the main things. DSC to Monterey to Cisco. Then Matt was starting to get Automattic together. And I started wanting to get out of Cisco. I was tired of it. Been there too long and worked too hard. So while he was trying to get free of Cnet, I think, I was trying to get free of Cisco. I was angling for a layoff package because they were shutting down parts of the project, one of the projects I was working on. So I was like, I was like going to try to get the package. I kept hanging out at Cisco trying to get the package. Eventually I got it. That was nice because it helped fund my entrance in Automattic because, you know, at the time there weren’t very good paychecks. We didn’t have payroll. We didn’t have proper withholding of taxes. We had to scramble to get 1099s and stuff out and whatnot. So that money plus whatever I’d saved from my dot com windfall that turned out not to be such a windfall. It sustained me while we got all that going. 
+
+Interviewer: So before that, you said you’d travelled?
+
+Boren: Yeah, when I was at DSC, for most of the time I was your typical cubicle engineer. But then I was like, you know, I want to get out and do some things. So I took on a field engineering role. And I’d go and stay places for months. Sometimes up to a year. I’d have to come back and forth for visa purposes and whatnot. But I pretty much lived in hotel rooms and was at the service of customers doing these big rollouts of their telecom networks. Big huge rollouts that would take years to finish and whatnot. So I’d be out there helping them with it. On the site. Maintaining our equipment. They liked having someone who had actually written a lot of the code, out there to help fix things that came up. So that was a pretty cool gig. I wasn’t the best at… I had to make myself do that because I don’t like doing the customer relations part too much. And you’re like, I was the point main, that gets you yelled at when things break. So, it was a stretch role for me trying to make myself be more than I was. But I enjoyed it. I liked the traveling bit. 
+
+Interviewer: Where did you go to?
+
+Boren: I spent a lot of time in Sydney [6:00] working with the AAPT, Australian Associated Press Telecom. I think that’s who it was. I’d spent some time out there, in Sydney. And we’d do some flyers out to Melbourne, and some of the other cities in Australia, to help support rollouts of new equipment and whatnot. Also in London and some places out in the West Country, I forget which town it was. Some places out by Reading and whatnot. I can’t even remember what contract that was for now. One of the telecom, one of the two big telecom companies there, I think. So I’d kick around here and the other thing, where I’d kind of stay for a few months at a time sometimes and be there to be yelled at and fix things and offer my suggestions and whatnot. So I did that for a few years. Then I went back, headed back into the cubicle.
+
+Interviewer: Do you like the cubicle?
+
+Boren: Hmmm?
+
+Interviewer: Did you like working in a cubicle?
+
+Boren: You know, it didn’t bother me. Because I just like being head down and ignoring things, so it was fine by me.
+
+Interviewer:  So that was like a 9-to-5, go to office type of thing? Not at home.
+
+Boren: Yeah, not at home. There was no telecommuting for that job. Even Monterey, once I went to that startup, it was all in the office. That was a really small startup at the time though. We all hung out at our little dinky offices and tried to make this thing we were hoping to sell to Cisco. Which eventually bought us. And that was a big hardware platform. We did our own custom A6 and everything. All the software for it. It was pretty cool. I was working pretty close to the hardware. It was kind of neat back then. I got tired of that eventually. But it was a cool experience.
+
+Interviewer: So with WordPress at what point did you guys, or Matt, think actually this is something we can actually build a business on?
+
+Boren: He’d started talking about it. Because there was almost like a previous company before Automattic. 
+
+Interviewer: Is Mobius?
+
+Boren: Yeah. Maybe. But he was going to start with someone else. And he was asking me at the time if I wanted to go, and at the time I was making some pretty damn good money at Cisco. I was making all kinds of bonuses. I was… it was worth the long hours at the time, so I was sticking with that. And I was still contributing to WordPress, but I wanted that cash. I figured I was working hard and banking it and putting stuff away, so that was nice. And had no idea what would happen with WordPress, you know? And I don’t think, that one didn’t quite pan out. So a little later is when Automattic came to be, and starting WordPress.com. Him and Donncha [9:00] getting it launched. And Andy Skelton coming in to help and doing blogs of the day and all that. And he finally convinced me. And also I was just ready. I was done with Cisco. I got the money. I got out of it. And it wasn’t a place I wanted to work. That was pretty much a “for the money” job. If they weren’t payin’, I wasn’t stayin’. So I made the jump. Me and Matt were both writing down our last days at our previous companies and then we both joined up. I think he’s like employee 3 and I’m employee 4, if we go by hire dates. 
+
+Interviewer: Who, Matt and…?
+
+Boren: Yeah. Matt and then me. Because Donncha 1, Andy 2. Yeah, we were like on contract, but the first technical Automattic employees were just doing that. Matt and I were working elsewhere. 
+
+Interviewer: So WordPress.com was set up before Automattic was around? A little bit before?
+
+Boren: I can’t remember exactly how it went down, but WordPress.com was already kind of up and running and then then kind of like a… it was really like here’s some stuff we got on the server. We’re starting to let friends look at it kind of thing. And at the time, that was running before even Matt was officially full time with the company because he was still a Cnet. And I was still at Cisco, and trying to decide if Automattic was where I was going to go next. And I was like, yeah. Especially once I got that layoff package and the extra money to play with and didn’t have to worry about whether we had a payroll or not. 
+
+Interviewer: So who came up with the name Automattic? Do you remember?
+
+Boren: I think that was just something Matt had around. At first it was going to be, like the reason our mailing lists were Automattic, on an automattic.com server even before Automattic came to be, is because I think he was thinking about it like some umbrella open source kind of thing…
+
+Interviewer: Right.
+
+Boren: Right. So I think he came up with the name. He already had that in his pocket. And then decided to make that the company.
+
+Interviewer: Because I was looking at… for the 100,000 downloads party, he announced WordPress, Inc.?
+
+Boren: Yeah.
+
+Interviewer: And had it’s first employee which was Jonas Luster. But that didn’t seem to go down too well. 
+
+Boren: Yeah. That’s something he’d asked me if I wanted to join in on. But that’s when at the time I was making a lot of money at Cisco and wasn’t willing to walk away from it yet. 
+
+Interviewer: So what was it like in the early days, with just you and Donncha and Matt and Andy?
+
+Boren: We were all half-assed sys admins. I remember that much. I’ve done a lot of sys admin work over the years and been… always run Linux and Unix. So we made do. But bringing on Barry who really knew the stuff was a huge improvement [12:00] and let us go work on things we were actually good at. That’s one of the things I remember most. Is us keeping those boxes going and whatnot. And finally getting Barry. Made a huge difference to the company. And then getting Toni. And starting to feel like a company then. That’s when I started to feel like maybe we can do something. Maybe we can make something that will last. But it was just still all of us in our own homes. At home trying to do something distributed. So, I guess you kind of miss some of the startup culture where you’re all there at your desk all day. Trying to slave away at something. Hitting the break room together. You didn’t have that. But it was fun.
+
+Interviewer: So were you guys like, you were working on WordPress.com, I guess, but also working on WordPress?
+
+Boren: Yep. There was a lot less difference back then. Well, that was before MU was integrated. So Donncha was kind of developing MU and putting it on .com. And I was doing WordPress. And it was kind of fairly separate. Because I’d do all the WordPress stuff, then Donncha would merge it to MU and then get it on .com and whatnot. But Donncha was the main guy keeping .com running at the time. In the very, very earliest days when we had two machines and 70 users, or whatever we had back then. And then we started handing out the golden tickets or whatnot and all that.
+
+Interviewer: So, did you get paid regularly?
+
+Boren: I started in like November or something? I think I got paid in January sometime when we… it was like we had to do 1099s. And we were writing it for money actually I hadn’t been paid the previous year. Because we were just trying to get everything situated. And I was like it doesn’t matter. I’ll get paid when we get everything figured out because that was part of the reason for angling for the layoff package from Cisco. They provided my seed money. 
+
+Interviewer: Do you remember how much you got paid?
+
+Boren: It was like six months salary or something like that? They had a pretty good layoff deal. From Cisco. And then my salary, it was, I don’t know, like half what I made at Cisco. It wasn’t for the money kind of thing. It was nice to have a steady salary and it was enough to support me and whatnot, when I included my savings and such. But yeah, we couldn’t afford to pay lots of money to people. It’s just c’mon and help us build something. No 401(k). No healthcare. We got that stuff set up fairly quickly though. Quicker than I thought we would. Because I was just living off Cobra for when I didn’t have insurance.
+
+Interviewer: What’s Cobra?
+
+Boren: In the US, since insurance is so tied to employment, [15:00] when you’re in-between employers, you can get on the same account, Cobra, to prevent you from having a lapse of coverage. But it’s expensive and annoying. You can’t just go out somewhere and buy health insurance. You have to go through…
+
+Interviewer: Can’t you?
+
+Boren: Not really. Because of all the employment regulations and whatnot.
+
+Interviewer: I didn’t know that. So what if you’re unemployed? 
+
+Boren: You can buy something like Cobra, but it costs an arm and a leg. And there are coverage gaps and whatnot. I would love to be able to just do it like car insurance plans. Just pick my favorite and stick with it.
+
+Interviewer: Do you know I actually kind of thought it was like that. I have no… obviously we have a national health service, so…
+
+Boren: It’s a mess. 
+
+Interviewer: Anyway. We can have that conversation later on. We do need to actually talk about WordPress. At what point did Toni come on board?
+
+Boren: Early of that year. January? Februrary?
+
+Interviewer: So not long after…
+
+Boren: Like him and Barry came in pretty early… there was some other, like developers or designers and that, that came in around the same time, but I can’t remember the order. But yeah, Toni was pretty early. I remember Matt telling me about him. And Toni and I met for lunch one day. That was the first time we went. That’s when I learned Toni was at like Yahoo and got in there through OddPost. I’m like this guys been around. He knows a little something. We might have a grown up at our company. We called him the grown up for a while there. It made me feel better about our fortunes that we were getting some adult supervision, you know. Someone who has some experience in industry. Had taken a company and sold it. He was a high level at Yahoo, and hopefully knew what it was about. And he did. So. That was nice. It gave me some hope that it was all going to go in the right direction and Matt was taking care of things.
+
+Interviewer: So do you guys have shares in the company or is it all owned by Matt?
+
+Boren: No, I’ve got, I’ve got a piece of it. 
+
+Interviewer: Right. I just assumed… Well, I don’t really know how it’s set up. 
+
+Boren: Matt has most of it, and he’s the one that made the company happen. So he owns the most of it. And that’s as it should be. But I’ve got a little chunk of it.
+
+Interviewer: So did Matt at any point plan to be CEO? Or did it always seem like a good idea to get a grown up?
+
+Boren: I think it seemed like from the beginning, at least as far as I recall, that he was going to get a CEO and Toni was the CEO. I think because Matt kind of [18:00] got things going to like Om, and Toni Conrad, and they all knew Toni Schneider, he seemed to be in that group and that seemed a natural person to pick.
+
+Interviewer: So how did it work in the early days? Did you guys have meet ups? Did you work in the IRC chats? You didn’t have P2, so I don’t know how you actually functioned. 
+
+Boren: Well, we didn’t have P2. I think it was mainly IRC. And some email. It was much less organized. It was pretty much same things we did with WordPress but just a different group come together to talk about Automattic. Trying to think, because it was a while before we had our first meet up or our first P2. I think P2, or Prolog as it was first known, came from our first physical meet up which I think was at Stinson Beach in, north of San Francisco. That was one of our first physical meet ups and there was like 12 people there, something like that. So it wasn’t big at all then. Then that was Barry, and Toni, and I think Demitrius and some others, Mark Riley. Mark Riley was like the first support person we hired. I can’t remember who else was there. We hired, Maya was there, the first admin to keep us organized. We needed that. We had some others. I think Alex Shiels was there for that. It was still pretty small then. 
+
+Interviewer: And were you all focused on WordPress.com? Or did you…
+
+Boren: Those meetups were mainly about .com. Yeah. But there was… .com was pretty much just MU at the time. So there wasn’t a huge distinction because we didn’t have all the various plugins and customizations and all the stuff that we do now. 
+
+Interviewer: That was mostly Donncha? Worrying about that?
+
+Boren: Yeah. And Andy Skelton. He was doing like blogs of the day and stats and stuff. You gotta have stats. People love their stats.
+
+Interviewer: They do. 
+
+Boren: So he was doing the stats angle and some of the bigger data type stuff. And they were doing things like probably… it was probably about the time I started doing the first object cache. I put in the object cache API and the abstraction, just because we needed it to run Memcache on .com. It was one of the motivators. Trying to scale things up on .com helped feed the WordPress scalability [21:00] with Memcache and whatnot. 
+
+Interviewer: So do you think that running WordPress.com has had a positive impact on WordPress software?
+
+Boren: Yeah. I mean it’s helped it scale up to that level. We had to make it so that it could handle the .com. And we’ve always, since the very beginning, used .com as a sort of test bed, a sort of beta test bed, for… usually once WordPress.org, the current release, gets to beta 1 area, we’ll start putting it on .com and it’s an important feedback mechanism. To get it out there. Because we can get so much feedback at once and especially for UI, it tells us what we are doing wrong. And what we have to fix. Like when we did the media redo for 3.5, some things with our new design became very apparently not working once we put it on .com.
+
+Interviewer: Do you remember what they are?
+
+Boren: Just some of the flows. We tried to simplify things down and cut some things out. And we knew there would be some pushback any time you take something out. But then you see the scale of it and you realize that this thing, this little thing was like some flow with the featured images that we didn’t think anyone would really notice and that they’d go like the new one better. Turned out to be a really critical thing that people used so much, they hated to see it taken away. So we changed things to accommodate. And then realizing that the way we were doing it was nice it you didn’t have plugins, but you have to worry… any time to add some new UI and core has a button there, plugin’s gonna want to put a button there too. And then another plugin is going want to put a button there. And we’ve got to okay, once we have plugins proliferating, what’s it going to look like. And we soon said said that’s not scalable. If it was just core doing this three workflows that’s the perfect way, the UI for it, but that’s not we’re going to have. So. 
+
+Interviewer: Oh, there’s so many considerations. Once you kind of bring all these different people into the mix. Why the media? Just this total tangent...
+
+Boren: It’s a saga. 
+
+Interviewer: Do you think it will ever be possible to like drag from your file browser on your computer and just drop it into the text editor?
+
+Boren: We almost had that working for 3.5, but we had to do lots of stuff to TinyMCE and then adding some stuff from init, and it was mostly working but any time you’re messing with that content editable stuff and supporting multiple browsers, it’s a pain. So we eventually ripped it because we knew we weren’t going to get it stable enough. And for 3.6 we just didn’t want to touch it. I hope some day, because I would really love that because other things, other software I use has taught me just, like I use Evernote all the time, just [24:00] drag it in the window, boom. The nice thing about the new image format is that we did add that little draggable part. That drop target that’s right there on the edit page.
+
+Interviewer: Although that did confuse me, because you can’t usually drag and drop, but you can there. So I was a bit confused. 
+
+Boren: But once you discover it, it’s nice. I use that a lot now. 
+
+Interviewer: But that was a total tangent. WordPress.com. Do you think that’s ever had a negative impact on WordPress? 
+
+Boren: I think some of the early days of MU, a little too much .com-isms got in. And some of them were kind of just shortcuts to get things working over there that shouldn’t have been mainstreamed. And we’ve had to kind of live with some of that. I think it has had an effect that way. I would have liked some of that stuff to have never gone in. 
+
+Interviewer: And when WordPress MU became multisite, how did that affect .com? Did it have a big effect? Or did you have to change everything over to WordPress?
+
+Boren: There were some parts where .com and MU had diverged. It had just kind of, like some of the signup parts had just kind of wandered off. They weren’t kept in tight sync. Because we’d customized signup forms especially a lot on .com and whatnot. And I had to bring some of that back together and make it all one. It was really two products for a while there. I had to make it all one. That took a lot of doing on… for 3 dot oh and .com, but in the end I was very relieved because then we’d had a lot of stuff that had started to fork on WordPress.com now running the exact same code we had for everyone else. And it was nice because we were actually running what everyone else was running so we’re dog fooding it and testing it for everyone else. We’re not going off on our own tangent. And it was more maintainable because I only had to do, maintain one thing. That was really nice. That was a big huge effort that was really worth it, I think.
+
+Interviewer: It’s nice to have efforts that are worth it. 
+
+Boren: Yes. And it was nice, that’s about the time Nacin came. And that was nice. He’s really good and works really hard. 
+
+Interviewer: So was he involved with that?
+
+Boren: Yeah. That was one of his first big things I think was working on getting multisite together and he helped a lot with that. It was nice to get that cleaned up. Because we knew it had been [27:00] kind of diverging and the two needed to come together. 
+
+Interviewer: So why hadn’t you combined them earlier? 
+
+Boren: Well there was like, what was that called, Lyceum. It was another approach to multi sites. I think it was just kind of a, once again, just seeing how things shook out. But then, you know, MU was the one we wanted to go with. And I think part of it, we just wanted to see how it would work on .com. You know, that would be the big test. Is this thing going to be something we’ll eventually want to roll into mainline WordPress, or is it always going to be really targeted to someone who’s running a big site and nothing else. It was a lot of waitin’ and seein’. Eventually we decided to go for it.
+
+Interviewer: Seemed like a lot of hard work for Donncha to merge the changes.
+
+Boren: Yeah, that was another emphasis, since we said we’ll we’re going to maintain MU. It’s what runs .com we’re going with it. That’s our thing. But right now it’s kind of mainly maintained by this one guy who’s adding it on to WordPress and doing all these merges to try to keep it together. But they’re always a little behind because he had his own schedule and we had ours. So it was a lot easier just to bring it all together. 
+
+Interviewer: It’s interesting to talk to Donncha. He’s just like, yeah it was just basically on my own. Doing my thing.
+
+Boren: Yeah, he was. He was all alone. It wasn’t a good place to be for a guy to maintain all of that by himself. So we brought it into the fold so that we didn’t break Donncha. 
+
+Interviewer: That’s important. I guess it kept him out of lots of the politics. Well, WordPress politics, not multisite politics which were probably a different thing. So you’d been working at Cisco, then you were working at home, was that a big change for you?
+
+Boren: Well, at the end of my Cisco days I was pretty much telecommuting all the time. Although before, one of the reasons I got out of there was to get…there’s always a reorg at all these big companies, and you’ll get one who says you’ll all have to come into the office now. I’m like there’s no way I’m coming to the office. That’s when I definitely knew that I didn’t want to work there any more. And when I put my hand up for the layoff package. But not too eagerly, because I didn’t want them to think I was about to leave anyway. Trying to play that right. I was so happy when they like… they would walk people from our regular building to the special building where HR was waiting for you and that stuff. So people were doing “the walk”. And here I am, I’m doing the walk and I’m like clicking my heels. People driving by waving at me. I’m like yeah! I got the package! I can go to my own startup now and do my own thing. 
+
+Interviewer: That’s nice.
+
+Boren: I was so excited getting that layoff package. And one of the guys walking me out there said I don’t think you’ll be sad to know that you got the package. [30:00] I’m like, I’m not sad at all man. 
+
+Interviewer: How long were you at Cisco?
+
+Boren: Oh god, if you include the time I was at Monterey, because they bridged employment for date of hire reasons, it was like six years maybe? Something like that?
+
+Interviewer: Yeah, that’s a long time to be somewhere just for the money. 
+
+Boren: I remember getting a desk compass for my five year anniversary. 
+
+Interviewer: A desk compass.
+
+Boren: A desk compass. I got my pick of things out of the catalog. And I was like, I’m going to get that desk compass.
+
+Interviewer: What’s a desk compass?
+
+Boren: It’s this big box that you set on your desk that’s got a compass in it.
+
+Interviewer: Wha? For all the navigating you do from your desk?
+
+Boren: I guess so. You know. I could put in on my dash of my car, you know. I don’t know. I had to pick something. That was it.
+
+Interviewer: I like that you picked something useless. 
+
+Boren: Yeah. It was all useless. 
+
+Interviewer: Well, those five year anniversary presents often are. 
+
+Boren: I would have been disappointed if it was something nice. I was like I want the junky trinket that everyone gripes about saying five years for this?! And I got it. Felt good.
+
+Interviewer: Did you get your WordPress laptop for your five years at Automattic?
+
+Boren: I got the W brand one, yeah.
+
+Interviewer: Oh you did. Yeah, they’re kind of nice.
+
+Boren: I remember my first laptop that Automattic paid for. It was sitting at Matt’s dining room table. He’s like, you need a laptop? I’m like, yeah. Yeah, I was running certainly Linux then, and I think we just went and got something off the Dell website. That was my first Automattic paid laptop.
+
+Interviewer: So when was that? How long had you been there?
+
+Boren: Shortly after it started. I can never remember what year Automattic, or WordPress, starts. I have to be reminded.
+
+Interviewer: WordPress is 2003. Automattic is 2005? 2004?
+
+Boren: I remember I started…
+
+Interviewer: 2005.
+
+Boren: … the November of the year that it kind of started. I don’t know if they count that, I guess they do, as the beginning. So it was probably around that time, or January or something. 
+
+Interviewer: So the WordPress, Inc. thing. I think that was like April 2005. And then Automattic would have been later that year. 
+
+Boren: I remember signing the papers where I got my share of WordPress at Memphis Minnies in San Francisco, a barbecue joint, of course. I think Toni was there too, Matt and Toni. And I just gave it a cursory glance and signed it and said “all right, let’s go do some more coding. East some barbecue.”
+
+Interviewer: So who else has a stake in it? Does Toni? Or Donncha? Or…?
+
+Boren: I’m not sure who has what. I assumed that’s kind of like a lot of startups where the earlier your in, the more shares you get then as you come in later you get little or none. I don’t know what the divvy is. [33:00] I don’t know how it’s all split up. 
+
+Interviewer: I guess because Matt’s name is in the name of the company, I just assumed that it was owned by Matt. I guess most of it is. 
+
+Boren: I think he still owns more than half of it, the controlling share at least. And then various employees have little bits of it. 
+
+Interviewer: So you were just all kind of one team, I guess, to begin with?
+
+Boren: Yeah, there was really just four of us at the beginning. Donncha, Andy, Matt, and myself. Just trying to get it going enough to support… to open it up to a handful of people from the WordPress community and seeing what they thought about it. People like Lorelle had one of the early sites. I think my main blog now is like number 78. I had some more before that. They were like test stuff, whatnot. But that’s the one I stuck with that’s the lowest number, number 78. There are actually some people in the community who’ve used WordPress.com before I ever did. Because Donncha was still working on it. And I was still busy with Cisco, and busy with regular WordPress. Some people got in there before I did.
+
+Interviewer: What was the response from the community when it was set up? 
+
+Boren: I think they thought that it was pretty cool, because there was finally a hosted WordPress that they didn’t have to worry about. I think that was the coolest thing of anything. And at the time it was pretty much just WordPress that we were serving up. WordPress on a machine that you don’t have to worry about.
+
+Interviewer: Was there any kind of pushback from people because it was being, I guess, moving towards being commercialized?
+
+Boren: Yeah, you always get the hand-wringing about that, about… we still get it about when Automattic’s going to go evil. And having too much control and whatnot. So there was a little bit of that. Of course at the time it was so small there wasn’t as much to fear, I guess. It’s like, ah, let’s see what happens over here. But yeah there were some people from the beginning. There are conspiracy theorists all around all the time, so. We try to keep that, I think we’ve succeeded in keeping that pretty separate. I’ve never changed anything in WordPress because of Automattic or money. I never would. I know that Mark Jaquith is the same way. It’s nice that he never joined Automattic and stayed independent because [36:00] for one you get the viewpoint of someone who’s out there doing their own consulting business. And that’s nice. Versus me, who’s just always working on WordPress full time. And I often don’t do plugins or themes any more because I’m just so focused on WordPress. I don’t get the customer view that he and others get, so it’s nice to have that. And he’s just totally independent. There’s no money going from Automattic or Matt or Roger to him, so. He’s the independent voice. And we’re sensitive about hiring too many people for a while. It was nice to get people jobs, because you know, they’re contributing to WordPress, it would be nice to pay them to do it. But then again, it looks like Automattic taking over the world, the world of WordPress anyway.
+
+Interviewer: Yeah. But you guys seem to be hiring good people from within the community like Mark Riley. Or Hanni. Or…
+
+Boren: People who are fiercely independent too. No one’s going to corrupt Mark Riley or make him do something that he thinks is not right. I’m that way too. Whenever I disagree with something, I just say it. I’m ornery. It’s just a paycheck. I can make money elsewhere if someone asks me to compromise my principles. 
+
+Interviewer: Yes. Exactly. Some people ask me, because I do a lot of writing for Smashing Magazine, people like… always trying to get me to like write nice things about them. One client actually offered me money to like promote them in an article. I said no way. No way.
+
+Boren: That’s your reputation, right?
+
+Interviewer: Exactly. 
+
+Boren: How much is it worth? 
+
+Interviewer: Exactly.
+
+Boren: More than that. 
+
+Interviewer: A lot more. I mean, it wouldn’t matter the amount of money, I think. You know. The integrity is more important than the money.
+
+Boren: Yeah. I don’t want to feel sleazy.
+
+Interviewer: Yeah, exactly. Has there been, you think, people involved with the project who have been…
+
+Boren: Yeah, you get a lot of people who just like push for WordPress to be certain things and what they’re really pushing for is to make it as customizable as possible so they can make their own white label thing that they can lock people into. I’ve always found that kind of sleazy. And I don’t have much patience for those requests. It’s like they want to customize the UI to the point that it’s something completely different than WordPress and I don’t think that ever benefits customers even though a lot of them will ask for that stuff. But a lot of it is also just people trying to roll out some white label thing and lock people into it when they could just be running WordPress for free. 
+
+Interviewer: WordPress.com doesn’t look that much like WordPress anymore, at least your dashboard. 
+
+Boren: That new front page dash?
+
+Interviewer: Yeah. 
+
+Boren: I kind of like that as a simpler version for people who don’t need all that stuff in the admin. I wouldn’t mind stealing, like that new posting thing for, [39:00] instead of the current quick post.
+
+Interviewer: Oh, Quick Press is so achh… It’s so rubbish. Why is that there?
+
+Boren: It’s just there. I’ve long wanted to get rid of everything in the dashboard and replace it with a nice…
+
+Interviewer: Yeah, the dashboard is like a redundant thing.
+
+Boren: I know. I’ve wanted to get rid of it forever, but it’s still there. I don’t get my way on everything. I don’t use the feeds on there. I don’t use the Right Now. I don’t care about any of it. I wish it had a quick posting interface, and a list of some posts that I can edit real quick all on that page, and I could do almost all my admin right there for day to days.
+
+Interviewer: There’s a bunch of crap on there. What is Right Now? 
+
+Boren: The summary of how many posts you have and comments. I never look at it. I hide almost everything. I don’t want to see the feeds. 
+
+Interviewer: That would be lovely to see that in a release. Because that would be like… this attempt to streamline things, like Ghost or whatever. A lot of that could be combatted by just redoing the dashboard. 
+
+Boren: I think a lot of it is like… Ghost, a lot of that is just what I wanted to do on the dashboard. Just make the dashboard a one stop shop for your most basic, everyday needs. Posting, with the post format style thing, .com’s new front page posting thing is pretty sweet I think. It’s cool for when you just want to do an image and a quick post on the side and whatnot. I really like that UI. And I wish it was just sitting there right at the top of dashboard, below that a list of posts to edit for when you need to go tweak something. That would be so easy. 
+
+Interviewer: Well, I guess that’s another… a political issue, though. We discussed at some point.
+
+Boren: Yeah. I wish, I don’t know why sometimes why we haven’t gone that way. 
+
+Interviewer: Has it been discussed?
+
+Boren: I bring it up every release, but it just never seems to happen. There doesn’t seem to be any momentum behind that kind of stuff. I’ve never been happy with the dashboard, with the feeds showing and all that stuff. It was just there to me. It was something you look at before you click on what you really want.
+
+Interviewer: Exactly. Yeah, yeah. Absolutely. That is what it is.
+
+Boren: So for people who feel like that, I feel the same way. I’m not oblivious to it.
+
+Interviewer: Do you think the MP6 will have any affect on that? I mean I haven’t really been following the development. I know it’s black and blue. Are they redoing any of the dashboard stuff?
+
+Boren: Well, for this, at least in this plugin incarnation, they are trying not to do too much moving markup around and that’s all mainly styling. But if we adopt it and kind of build on it for 3.7, hopefully, we can take bigger, bigger changes in mind and whatnot. [42:00] 
+
+Interviewer: That’d be nice.
+
+Boren: We try not to get too crazy when changing the visual style so that people have some continuity. They’re not totally shocked. So maybe some of that will come into 3.8 or something. I don’t know. But I think MP6 is looking pretty cool. And I think it would be easy to do some custom colors on it for people who don’t like the black. And it would even be like a separate color theme, it would just be you know, go in there and choose a color and apply it, and something like that. It’d be cool. But I kind of like the direction of MP6.
+
+Interviewer: I like it too, yeah.
+
+Boren: At first I was kind of like, well I like this black… every release, I have to settle into it. Even when people give me what I’ve asked for. Then i say do I really want this? Then I have to look at it awhile. Do I like that enough better than what was there? I eventually settle in. I remember when, what 2.7, with that first Matt Thomas designed visuals. I really loved that. It was worrisome at first because we’d hired some other people to take a stab at doing the visuals, and none of them felt like WordPress. And I was really worried we wouldn’t have anything that we would want to call WordPress. That we’d be satisfied with. And then Matt got in to take a stab at it, and it was beautiful. I was really happy then. That release was a lot of work. 
+
+Interviewer: 2.7?
+
+Boren: Yeah, I think that was 2.7. That release broke me. I’ve had some releases that broke my health and that was one of them. It was just so much work. That release was chock full.
+
+Interviewer: Did you have… you must have had your kids around then as well. Your first kid? 
+
+Boren: One, with one on the way about that time. I can’t remember what time of year it release in 2007. Yeah, I had new kids and this release from hell, and…
+
+Interviewer: Why was it from hell? Was it because of the UI change? Or…
+
+Boren: It was just so much work. We had so much in that release. We redid all the visuals. We did a lot… we introduced things like Screen Options. We introduced a lot of AJAX things that weren’t there before. And we were just… Ozz, Andrew Ozz, was epic in working and getting that stuff done. Because he’s the one that implemented most all the visuals that MT had designed. And I was doing things like bringing in Screen Options and hooking up a lot of the AJAX stuff. Wrangling. Just trying to manage it all. While Jane was doing UX and trying to figure all that… it was just tons of discussion on every single detail. Every single, like how many milliseconds this should last before this happens. We were talking constantly. [45:00]
+
+Interviewer: Did you have a lot of user testing on that one?
+
+Boren: I don’t know if that was a lot. Jane did some. But there’s only such we could do because we were changing so fast and trying out new ideas so often. Because I think, I think that was the Crazy Horse… started with that codename from when we were redoing, or trying to redo the UI. And at first it was just getting the sidebar versus the top rows, which was a big pain because our menu code was never meant to do that. Because it was usually you would click something and then you would build the menu that would come below it. But now we’re building every menu in every level at once so that people can click through it. And all that code just couldn’t handle it. And we had to bolt it on and that code’s been there since b2. A lot of it was globals and it’s a pain in the butt. So a lot of my time was spent there. And ensuring back compat for all that was a nightmare.
+
+Interviewer: So is that still like something you could do if you wanted to have a menu like horizontal in the dashboard? Could you use all of the old code? 
+
+Boren: I think it would still support it. Yeah. I think it… now that it does this way, it can still do the old way. It can go either way. Yeah, that was a big effort, just the menus. 
+
+Interviewer: Why was the decision made to go from the horizontal to the… 
+
+Boren: There was a lot of pressure from the community to go that way. Just because you could fit more stuff in. I don’t know. It just seemed to be the paradigm at the time to move towards that. And it was some of it was just going with the flow there. There were some different themes that had redone the admin and had it over there like that. Like I think Fluency was out then that had kind of put in on the side. And it was really popular. And that kind of inspired us to go that direction. And now with MP6, it’s becoming more app-like, like an iOS app or whatnot. 
+
+Interviewer: Yeah, that sounds like quite a big release.
+
+Boren: It was probably one of the biggest, until 3.0 came. That was a big one because of the MU merge and all the other stuff we put in it. And 3.5 with media was another big one. 
+
+Interviewer: What else came in 3.0? Because I vaguely remember that.
+
+Boren: There was so much stuff, I can’t remember. But my main focus of that was integrating MU and getting it on .com and ironing out all the differences. I was merging back and forth constantly. 
+
+Interviewer: It was custom post types, were easier to do then?
+
+Boren: Yeah, I think we fleshed that out. Because before it was kind of just like a placeholder that said “here’s what’s to come, you can plan to use it now.” And then we made it really become the CMS-y type thing that it is now. 
+
+Interviewer: [48:00] So, back to Automattic. Toni came on board, I guess five or six months after it was started?
+
+Boren: Yeah, something like that. 
+
+Interviewer: And what sort of effect did that have on the actual company? Because I guess before you were just like continuing more of the same really.
+
+Boren: Well, we had a business side then, so. I’m probably not the best person to ask because I always hide in my code cave. But yeah, he just started doing the business side. Dealing with partnerships and thinking about how to make money. And it was nice to have someone there with Matt thinking about how to make some money off of it and grow it and sustain it, while still being cool and true to the WordPress spirit and all that. 
+
+Interviewer: And it kind of morphed at some point into teams, a team sort of structure? Do you remember that happening?
+
+Boren: Yeah. It took a long time to… because before it was just like, we’re all just kind of very flat. There wasn’t really any hierarchy or groupings or anything. It was all just kind of we’d “what needs done? All right, let’s go do it.” But it was starting to break down a little bit. Things would kind of fall through the cracks, I think. So we started going into teams. I can’t remember how long ago that was. It seems like yesterday sometimes. We started experimenting with teams. And we’ve stuck with them. 
+
+Interviewer: Do you think that’s helped it to grow? 
+
+Boren: I think so. I don’t think we could have stayed that flat forever. It’s still pretty flat, you know. But it was nice to have some people focusing on a certain thing and making it better. And some things definitely needed just a group of people worrying about that thing. We’ve been pretty good about people can circulate between teams when they want a change up and whatnot, so. You’re not stuck doing the same thing all the time. But I think it helps. Gives us some focus in areas we needed it.
+
+Interviewer: Your focus has always been WordPress.org? So, you got on the .org team?
+
+Boren: Yeah. I’ve always been pretty much just there’s Ryan, over there. I’m like kind of the bridge between the two. Because I do the merges from .org to .com. And then I often take the stuff that .com comes up with that I think’s good for core, I open a ticket for it and put up the patch, then go to the discussion “here’s what we’re doing on .com, do we want this over here?” And some of it makes it in. Most of it makes it in because I only pick the things that I think are worthwhile and have a chance of having buy in. Because some things definitely shouldn’t go off of .com. Because a lot of it’s like you’re not running multiple datacenters with memcached clusters and eats [?]. So that’s not going to go into core and whatnot. Some of the cache stuff makes it over there to make it… so that people can upgrade to that level if they want to. [51:00] Because there really wasn’t a team that I was on for a long time. Because I was just the core guy…
+
+Interviewer: In your cave…
+
+Boren: Well it was like me and Ozz were the ones at Automattic who were paid full time to work on WordPress core. And we just kind of did our own thing. Because we’re sitting there talking all the core folks… and we were kind of like not really part of Automattic in some ways, because we were so out there and dedicated to .org. But we’ll get pulled in for projects on the .com.
+
+Interviewer: Is it still like that?
+
+Boren: He does more .com stuff now than he did back then. My .com involvement has been pretty much limited to the merges. Those are a big deal because we’re taking all this code from .org that is beta and I have to massage it over a piece at a time and make sure it’s not breaking anything and I have to fix anything that comes up. So I’m kind like on the point for all that. I’m responsible for anything core breaks on .com. So it’s been very stressful in the past. 
+
+Interviewer: Yeah. I guess it makes sense for you do it because you’re so close to the code.
+
+Boren: Yeah, I know everything that’s going on in WordPress development, because I sit there watching it constantly. It’s my life. So I know what things are looking safe and complete, and what things are not quite done. So I’ll piecemeal merge things over, which can be pretty tricky because there are lots of dependencies between all those change sets and I’ve to unweave them and put something on .com that doesn’t really exist on .org because it’s been pulled out separately. But in the end, before we release, 3.6 in this case, it all comes together and it’s running the same thing and then do diffs across everything to make sure we got everything and it’s all good.
+
+Interviewer: Have you ever brought anything over that’s really just ruined everything?
+
+Boren: Yeah. Plenty of times.
+
+Interviewer: When have you broken it? 
+
+Boren: Some are just like little bugs that have emergent effects on .com because it’s just so huge. Like some little, I think there was once some little problem with like an underscore getting stripped from key names that go to the cache, and it caused cache misses on everything on .com. Which means we were hitting the database. Which means we were melting servers down. Because of this dash. And I had to sit there while… we hadn’t gone down yet, but we were heading that direction and no one… everyone’s like what the fuck. So I’m sitting there digging through the cache trying to figure it out. Finally find out that this dash is getting stripped off the keys and saved it. But yeah, little stuff like that can kill your system. It makes me wonder how any site stays up sometimes. 
+
+Interviewer: That must be hard to find.
+
+Boren: It was hard to find. We at Cisco had to find stuff like that too. Like once where a bit mask [54:00] was extended from like 32 to 64 bits and the masking was now off and it caused all kinds of problems with these things that are supposed to survive cable cuts and switching and whatnot. And a little bug had this… gave the thing a totally unpredictable and completely new personality. Those are fun. And the worst is like when you screw up something that’s stored in the database and then you have to go and repair it everywhere. And that takes a long time on .com. Luckily we haven’t had any of those for awhile, but if you have some little thing go off. So every merge is nerve wracking. And that’s why I try to make them as small as possible and little pieces at a time. 
+
+Interviewer: How long does it take you to do a merge? 
+
+Boren: Lately, I… like once we open 3.7, usually the first things to go in are pretty tame. We’re just like, Nacin and I will do janitorial stuff that we wanted to get done. And I’ll kind of bring those over as they happen and test them out. That way those are sitting and have been tested early, early on in the release cycle. And we’re not getting them in the end with everything else. Then once we start getting into the big UI changes, I hold off on those because I don’t like changing UI on .com that’s going to change possibly 20 times during the release process. Then things get hard because all the changes start stacking up and it gets to a point where I can really merge any CSS or JS changes because they’re all in this one big ball. So, I end up trying to do as much of the PHP server side stuff as I can. So that by the time we hit beta, all the PHP particulars, all the server side particulars, and things that mess with cache and queries are all on .com and have been merged over a little bit at a time so that if I merged something over and said oh my query count just shot up then I know who to blame it on. It was that change that… or, you know, there was one recently where one small change caused a huge amount of cache traffic that didn’t exist before that change and it’s nice to get that in one change set that you can identify the problem versus a big huge merge of everything in 3.6 coming at once. Which we’ve had some in the past where I had to wait for big huge ones. So with this 3.6, I have… pretty much everything’s been running on .com as it hit trunk except for like post formats UI. 
+
+Interviewer: So if you merge something and then realize it’s going to cause you problems, can you then feed back into WordPress itself? And then make sure that’s then solved for other people?
+
+Boren: Yeah. So that one example of that one that caused all the extra cache traffic, I opened a ticket and we fixed it in core and fixed it in .com. That way we found it before releasing it and it melted down other people. So if there’s anyone running it, any amount of scale, like page.ly or something, would have seen that. It wouldn’t have been good.
+
+Interviewer: So you’re the guinea pigs.
+
+Boren: Yeah. That’s actually, [57:00] I wish more people appreciated that. That we take a good risk with .com and that we can do it because we have people like me that follow every single moment of development and are sitting there ready to fix anything that comes up as a result of these merges and get it fixed in core as soon as possible.
+
+Interviewer: Yeah, I think probably people don’t realize that. I mean even running trunk on make.wordpress.org, because I’m on there all the time, just having it on there makes me pick up on stuff that I can then feedback. 
+
+Boren: I liked it when we got it WordPress.org all set up with the… because before we had a 3 dot org drive right after 3.0, where I went and got like everything on a single instance of WordPress versus the scattered versions that we had. And it’s multisite, multi network, …
+
+Interviewer: What about WordPress.org?
+
+Boren: Yeah. WordPress.org. 
+
+Interviewer: Is the site install still various PHP files? Is what makes it…?
+
+Boren: There are parts of it that are still… they’re kind of one-offs. But like all the make and learn and everything, and even a lot of the front pages now are on this… the instance, we call it. And that’s multisite, multi network. Which you know, WordPress isn’t multi network out of the box. You can make it multi network though. I think Jay Tripp’s got a plugin that helps that for other people. We kind of do our own thing on .org. But it was really nice to get all that situated and everything running on one instance. And we’re doing more of that, because some things are still separate instances because of plugins… repo and their running the bbPress as bbPress plugins, so all that’s slowly coming into the instance. Using the ViewPress plugin for WordPress and then plugins on top of that for the repository, plugin repository stuff. That’s been a slow transition, but it’s getting there. But that 3.0 drive is when I made as much as possible run off of one instance of WordPress. And that’s a lot easier to deal with. And lots of dog fooding.
+
+Interviewer: Yes. It is good to dog food it. Yeah, that’s the issue with the codex, is that it’s a media wiki.
+
+Boren: I remember sitting at Matt’s dining room table again, working on Blicky. 
+
+Interviewer: Blicky?
+
+Boren: Blicky is a plugin for blog… a wiki plugin for WordPress. And that actually… I never really pursued that plugin to it’s extent, but I first wrote things that came into core like with some stuff I stole from Mike Adams, I think, with like the diff, revision diffs, and revisioning, and some page linking stuff and whatnot. All eventually got into WordPress. And it started as ideas in Blicky [60:00] at Matt’s dining room table. And part of the motivation there was to make something that would replace MediaWiki. Of course, we still haven’t done that. But, closer, I guess. And the handbooks were all in WordPress, so that’s nice. 
+
+Interviewer: Did you go to Matt’s house in Houston? Or did you…
+
+Boren: No, I’ve never been to his place in Houston, only to…
+
+Interviewer: So his dining table in San Francisco?
+
+Boren: I first met him when he’d already moved to San Francisco. 
+
+Interviewer: Of course, yeah. Have you ever moved any functionality, like features, to WordPress.com that users have just hated? Or that you’ve had really bad feedback on? Or they’ve just been really…
+
+Boren: Every UI change has a lot of pushback, whether it’s good or not. I’m trying to think of one that was just horrible. The taxonomy migration was pretty bungled. We didn’t do the best job of that. It was a hard one. And yeah, there were some unhappy people with that. That was pretty early in the history though, so there weren’t as many people to be unhappy. 
+
+Interviewer: So what was the taxonomy structure like before then? Because there was…
+
+Boren: We just had categories. It was like one table. It was really simple. Ok, two tables. One for the categories and one for the post category. It was really simple. When we added tags, it became complicated. More so than it needed to be.
+
+Interviewer: Why did you add tags?
+
+Boren: A lot of people wanted it. And they said these are separate taxonomical ideas, notions, than categories. They are used in different ways. And you know, I could see the point, but then again I was kind of like meh. I don’t get into that stuff as much. It was at the good enough point for me, that I would have just said, I would have just replaced category with tag in the code and said “hey, you get tags now.” But people wanted both. And we tried to accommodate that. While also trying to accommodate this idea of canonical slugs. That’s what really bit us, canonical slugs. So that when you have a category tag, they all reduce down to this one slug. That ended up causing problems with hierarchal stuff. And required some nasty hacks. And that’s the main thing we want to fix these days. It’s that one little decision that, you know, as I was coding it up towards the end of the release and finishing it up, it was like I don’t like the way this is going to work for these hierarchal categories. By then we’re stuck it.
+
+Interviewer: How does it work? 
+
+Boren: You’re sharing slugs, so. A category… so you have two categories and they each have the same parent or something, and tags can collide and whatnot because they’re trying to share the slugs. And then you end up having to do tricks to make any slugs and it kind of ruins the whole idea of them being canonical then. [63:00] It’s what causes some of the things where you edit one thing, one category, and it ended up changing something in another. Which some people hate, and I understand why they hate it. 
+
+Interviewer: I don’t really use categories.
+
+Boren: I’m very simple. I never use hierarchical… I still use categories just because I, my blog uses them at the time, but they’re pretty much just tags to me. I never use the hierarchical stuff. I was never into putting them in a big nest, but some people were so into that. 
+
+Interviewer: It was useful for creating… when I was building documentation sections for people, it was quite useful for creating a kind of hierarchical documentation section where you would have, you know, all of the things sorted into the right place. By user level or that sort of stuff.
+
+Boren: A lot of people like it because they wanted to see that hierarchy in their URLs and everything else. Reasons like that. And then tags were free forming. So we ended up with both. And then kind of compromised and we have a messy system for handling it, mainly because of the canonical slug. Attempt. And I think some of that was driven by WordPress.com wanting these global tag pages and we wanted it to support that out of the box. It became part of MU. This kind of canonical shared slug thing. And it didn’t work out very well for anyone. .com still uses it, but I’d love to undo all that. 
+
+Interviewer: What affect would that have on users? Would they notice anything?
+
+Boren: I could do it to where they wouldn’t even notice, except now they could edit slugs without grief. Because we ended up not using those canonical slugs the way it was originally envisioned. And .com ended up having a new table to kind of handle that kind of stuff. So in the end it wasn’t worth it at all. It’s one of my main regrets. There’s some things I’d like to do over. But, yeah…
+
+Interviewer: What else would you like to do over? 
+
+Boren: I would have liked for the admin menus to just… we’ve been bolting it, we’ve been patching the same old stuff from b2. It’s kind of like a mess of globals and whatnot, forever. That also kind of had like a half-assed security system, kind of built in, so that plugin authors could be a little bit lazy with how they do things. But that just ended up biting us, because they became too dependent on it and we couldn’t handle every single case, so then we had to try to hack in more code to try to handle the pace that we were handling, instead of just telling them you need to do a cap check. We tried to be convenient and provide a catchall that just ended up making things a bigger mess. And we should have just done a proper API on top of it long ago and avoided some of that grief.
+
+Interviewer: Do you think you’ll do it? Or is it too late?
+
+Boren: Scribu has got a patch that we, that’s very promising, that cleans much of it up. [66:00] Once again, the hard thing is going to be back compat, because we can’t break back compat at all for that stuff. So many plugins are reliant on it. So we’re going to have like this separate array access method that supports those old global arrays that maps it into this new API. And he’s got all the new API written, but we need to write some of the back compat stuff.
+
+Interviewer: Well, that seems to be what you spend a lot of time doing. 
+
+Boren: There’s a lot of it. One part of having such an open system is everything becomes API. And that makes it hard to change things sometimes. You have to worry about suffocating under your own weight at some point. 
+
+Interviewer: Do you think it could ever reach a critical mass? 
+
+Boren: I don’t know. I think at some point it was like deprecated.php and stuff. We’re just going to have to say everything older than a year is just going to go away or something. Because some of it’s getting pretty big. 
+
+Interviewer: At the start, about 4 months after the first launch of WordPress, Matt changed all of the names from b2 to wp, and reorganized the file system. And it was quite interesting reading about that. Because at that point he was just like, we’ve got to do this.
+
+Boren: Do it now, or we’ll never be able to. 
+
+Interviewer: And I guess sometimes, you’ve just got to make a decision to cause pain for short term. It’s just so big now.
+
+Boren: As the years go on, it’s hard to change anything. Like we were trying to change, for this release, how we strip handle slashing and whatnot, because that’s all the leftover from PHP having that setting to autostrip or not. And kind of early days of PHP, a lot of us weren’t aware of it as much as we are now. And various hosts didn’t know what they had it set to. They just kind of installed PHP and there it was. And some had it on, some had it off. So we ended up having to default to WordPress always making sure everything comes in slashed. Which we hate. But that was the back compat choice. And we’ve been trying to get away from that. And we tried to some work there on 3.6, but it was just too much grief for plugins. So what we’re going to have to do is pretty much fork a bunch of API, and then we’re going to have even more stuff that’s deprecated. 
+
+Interviewer: Can’t you just tell plugin lovers they have to deal with…
+
+Boren: There are so many plugins. We actually have, most of us have checkouts of the entire plugin repo. It’s massive. And we’ll [?] and grab and search across it for patterns people are using to see if we can realistically change a compatibility thing and… They do all kinds of crazy stuff. So we have to look at how many downloads that plugin has and see how popular these patterns are in terms of [69:00] how many sites they’re on, how many times they’ve been downloaded. So sometimes we’ll break things on purpose because we have to. It actually works out all right when we changed the slashing on the GET option and UPDATE option stuff. There wasn’t much… there wasn’t much blowback from that at all. So we’re hopeful we can do some more of that.
+
+Interviewer: I guess if a developer’s active, they’ll fix it and push out an update. And if they’re not active, well maybe the plugin should be broken anyway. 
+
+Boren: Yeah, that’s the thing, when we started doing this for 3.6, right off the bat it broke P2 and a couple of really popular plugins. And we’re like, we could get them to update, but this does not bode well. This is obviously not a little used pattern. The most popular plugins in WordPress are using this pattern and we can’t break it. We had to scale back on that a lot, and regroup. We have some plans for the future that will be nice, but it will mean putting more things in deprecated. And I think we’re going to have to find a way of letting sites say, I want to be back compat to this point. You can not load all this other junk. Like maybe try something like that. 
+
+Interviewer: Yeah, that would be good. Because I guess that would speed things up if you’re not loading all of the other junk.
+
+Boren: Yup. Although the deprecated functions are still not a big percent of what we’re loading, it’s all the other stuff. Like the includes is big. We do lots of stuff. We insulate developers from a lot of stuff, and that means code. We have abstractions for file systems. We have abstractions for each TPT. We have abstractions for image editing now, all in the name of portability. 
+
+Interviewer: So does that help developers? 
+
+Boren: It allows them to easily make a plugin that is portable. And they don’t… one thing we put burden on developers, but we like to help them be portable so they don’t have to jump through hoops to know if this is going to work on this host or not. So we try to take all the grief of knowing what’s on a host. So we can work with all the different image libraries. We work with all the different file systems setups. And permission setups whether we’re running SUexec type stuff or whatnot, so they don’t have to worry about it. Because that is something a platform should do. And it’s also a lot of code.
+
+Interviewer: Yes. So what else do you regret putting in? Or doing in a particular way?
+
+Boren: Let’s see, I mentioned menus. [72:00] I mentioned taxonomy. I think I’ve mentioned those a few times now, so those are obviously the big ones that I don’t like. 
+
+Interviewer: The menu is more of a UI issue? As opposed to a… 
+
+Boren: Well, menus is both… well there’s admin menus, which is the coding issue. Then there’s the nav menus. Yeah, that’s a little more UI thing. We just kinda got a little by committee on that one and we didn’t, none of us were really satisfied when it came out, but it went on so long. And also at that time we had a lot of people who were coming in and would drop out. Personnel problems. Which we have something like that every release, you know. People have lives. But that release, particularly, had some problems with that. It just felt compromised, and it still does. 3.6 makes some improvements there, but it still feels a little like it was trying to do to much. So that could have been better. I don’t know, just going back to big things like the loop and the main query and stuff, a lot of that was dictated by old stuff in b2, again. Some globals that are still there that make things hard to change. And sometimes I wish I’d just broken those back when. Because it would have been a lot more feasible to do it back then. 
+
+Interviewer: So like which ones? Can you give me an example?
+
+Boren: There’s a global called pages. And in setup post data it kind of goes rifling through the content looking for more and next page and that stuff, and kind of breaks it up into an array that has all the pages. And this is stuck in a global. And it sucks. It sets up these global reach posts, but it makes it hard to like, when someone wants to do something outside the loop then they have to worry about these strange, mystical, weird globals that are out there. And I’ve been trying to code around it to clean up some stuff for 3.6 that’s come up with post formats. In .com particularly, because they have like the global reader and lots of global things that go multisite, cross-blog and those globals really screw with them over there. So they don’t like it and I understand why. Yeah, nobody likes it. But they tend to have those problems more than others. So I sometimes wish that I had taken some of that loop stuff and just reinvented it a little bit more. Maybe broken it a little bit. It would have been hard back then even because there was enough out there that you wouldn’t want to break something, you wouldn’t want to break plugins messing with the loop. But now it’s impossible. 
+
+Interviewer: So these are things Michel had put in mostly? Or other early developers? 
+
+Boren: Yeah, I think… or whoever at the time. And I probably contributed to some of the mess too. You kind of work with what you’ve got. And kind of contribute to the mess sometimes instead of stepping back [75:00] and seeing how you can make it better. And also you try to be humble and not go in there and say “this is a mess, I’m going to redo it.”  Because that’s a bad developer to me. 
+
+Interviewer: And lots of people did say that. But they just came off as assholes. 
+
+Boren: Yeah. I mean I’ve known so many in my career that do that. They come in on projects and all they do is start rewriting stuff. And it slows everything down. And their stuff usually isn’t any better, it’s just different. Sometimes you get someone really talented who can make a nice improvement. But it takes time. And everyone else is often having to wait for them to finish implementing their grand vision before they can go back in, right? So I don’t like developers like that. I think they’re either too full of themselves, or they’re just not competent enough to work with what’s there. It’s a lot harder than just rewriting everything and throwing stuff out. 
+
+Interviewer: Do you think it was affected by the way development was carried out at the beginning? Like everybody just seemed to be doing their own little thing. They weren’t really, they were just kind of committing patches…
+
+Boren: There was of that. And also, it was early days back then, you know. A lot of this stuff wasn’t established. We were all making stuff up. It was all still pretty new. PHP had been around but, you know, there wasn’t a big application like WordPress yet. And we didn’t know a lot of things. We hadn’t established a lot of patterns yet. A lot of things didn’t exist. And looking back, you know it’s like we invented some things back then, you know. Without really thinking that we were being inventors. 
+
+Interviewer: So what did you invent?
+
+Boren: Well like see, like even the big indian permalink style. It was kind of, I think WordPress kind of helped make that really popular. You definitely saw it proliferate after that. And it’s something we kind of take for granted now, but you know, at some point someone had to say “hey this is a cool permalink”. Even calling it permalinks. It was like casting around for what to call it. Yeah, it’s a permalink. OK. You know, we’re trying to make terms for things. So we know what to call it to each other. And a lot of us were just learning PHP. PHP was learning itself in some ways. Like PHP 5 didn’t exist. It was only PHP 4, a much different beast than PHP 5. It was more innocent times. 
+
+Interviewer: Yes. Heady, innocent times. 
+
+Boren: I’m sure there were daisies and such going on you know. Discourse, even phrases on the lawn. 
+
+Interviewer: Oh, yeah. Let’s have another break…

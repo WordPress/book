@@ -1,0 +1,349 @@
+Interviewer: So I’m speaking with Mark Jaquith, and it’s the 9th of May. Can you tell me first of all how the security team works?
+
+Jaquith: How the security team works. We have a mailing list, where people submit [inaudible], where people submit security reports, we do get a lot of them, most of them bogus. People just not understanding how WordPress works. Some of them we self report and then we move them on to, we’ve a Trac instance that we use to manage the ones that are legitimate, we promote those  as tickets. There are, I don’t know how many people on the security list, it’s a fairly large number. We also have a Skype channel where we can do quick discussion… Is something wrong with your water?
+
+Interviewer: It’s really icy.
+
+Jaquith: Better than flavour surprise I guess.
+
+Interviewer: Yeah, definitely.
+
+Jaquith: So a Skype chat where we can just quickly discuss stuff. Either related to WordPress Core security or general internet security as relates to, like obviously like when the Heartbleed thing happened, we talked about that. So when a security issues comes in and we think it’s legitimate we first decide how much we care. Because there are some things that, like we could fix and it would be a security enhancement but it doesn’t really present a credible threat. So there are a few things we look at, first is how many people does this affect. Does it affect all WordPress instances, does it just affect WordPress on Windows, or with a certain PHP version, or some weird combination of things. The second thing is how serious the vulnerability is, meaning okay is it just a, like the ability for an editor to say, you know, become an administrator, or is it the ability for a subscriber to become an administrator. Is it, you know, SQL injection, or is it like the worst possible thing would be like, remote code execution. So sort of, how bad it is. Then the third thing is how likely it is to be abused. So there’s some things especially around cookies, security and password hashes, where there’s a probability of attack, like where we might see a, a, a crypto weakness [3:00] and we might say okay yes, this is possible but it would take someone really dedicated you know, ten years of machine hammering it to really do it so, we don’t care as much. So based on those three factors we decide when we want to fix it. Whether, you know, we’re going to push it out into the next security release or if we can wait for the next major release. I guess one of the other concerns, if it’s something that’s either, doesn’t affect many people or is sort of a minor concern, is also the impact of the change, like is it going to have potential side effects. And we draw up a plan, someone submits a patch from within the security team, we, we, we test it out, make sure our unit tests don’t fail, make sure it actually solves the problem. We, this is one area where, like we try not to make the rest of WordPress Core such that one person needs to see every bit of code that goes through a component, but we do feel comfortable doing that in security. So there’s certain people, you know Mike Adams, Jon Cave, are two people who we pretty much try and make sure they see everything security wise. Because they have a, a good mind for sort of playing devil’s advocate, and you know poking holes in, well what if they tried this, what if they did this. So then we generally, we have a, sort of a wider security announcement list that includes prominent developers, web hosts and the like, and will typically send out advance copies of patches, of security patches, so that they can test them out privately and make sure they’re not going to cause any issues. If it’s in the case where the host has a, like a cloud platform like WordPress.com where the users don’t have direct access to the WordPress Core, they can go ahead and even apply that patch, sort of protect their users. Then we, we schedule a date, give advanced warning to the web hosts, and push out a new version.
+
+Interviewer: Has that always been the approach?
+
+Jaquith: Not it is, it has evolved over time.
+
+Interviewer: And how did it start, and how did it evolve?
+
+Jaquith: It sta-, previous approach to security, say back in you know, 2000, the early years, 2004, 5, 6, even 7, was pretty haphazard as, as with everything else. And, we would, I’m just trying to think how we discussed this privately back then. 
+
+Interviewer: I, I read a post [6:00] that you wrote in 2007, that some guy had been really rude about WordPress’s security and said don’t ever use it, I think his name was Wincent? Do you recall this, 2007, and he made 4 suggestions about how it could be improved. One was to have like a security branch that you guys would work on, I can’t remember what the other things were off the top of my head.
+
+Jaquith: Sounds vaguely familiar.
+
+Interviewer: So I was wondering what you guys had been doing, yeah in 2007?
+
+Jaquith: Do you have the list of the things he suggested?
+
+Interviewer: I can get them.
+
+Jaquith: I can tell you how many of them we, we’ve done, and how many I don’t even-
+
+Interviewer: He was, he was pretty rude. Let me have a look.
+
+Jaquith: Yeah people can tend to be pretty combative about security stuff. Especially because it’s such a, it, it’s tied up so much in sort of personas, and status. Like people want to make sure they’re the ones who got the credit, a lot of these people are, you know they’re doing security consulting, they’re collecting bug bounties on security issues. So they have a big financial incentive to sort of find those issues and be the one to, to solve them. So sometimes we have issues where, someone thinks they’ve found a security vulnerability, and they’re just misunderstanding how WordPress works. Like for instance they’ve, they’re like, anyone can post a comment that causes cross-site scripting, when in fact they’re posting as an administrator and it’s, it’s probably protected against cross-site request forgeries so no-one can force the administrator to post that. And they’ll sometimes get really combative when we push back, and they’re like no this is a serious issue, this is a serious issue.
+
+Interviewer: So he said, adopt a regular public update schedule for security updates, something like the first Tuesday of every month. Have a Core team only security branch which is merged into public branches only just before releases, implement a mandatory review process where every single check in must pass through a security review, and then appoint a security officer whose responsibilities include co-ordinating regular pro-active audits of the codebase. 
+
+Jaquith: So we don’t have a private branch, and that may just be for technical reasons for, in Trac. So we do ma-, so we’re managing it via patches, which is, we have largely a patch based workflow anyway. So patches was the one thing, a regular security update schedule, we’re, it’s not [9:00] like we have a security vulnerability once a month here. They tend to come in, actually they tend to come in waves for some reason, I don’t know if that’s just a perception or there’s some actual reason for that. We do try to, this is less of the case now that we have, we can force push out a, a minor update, but we have in the past tried to avoid certain days of the week. Obviously holidays and certain times of day, especially because we, we want the supportive host to push this out. So we want-
+
+Interviewer: Do you, do you avoid holidays in all countries, or just US?
+
+Jaquith: Well a lot of these, l-, most of the hosts are, most of the hosts that we, well most of the hosts are, are US, Canada, and UK based. So it’s, it’s generally, it’s generally going to be the, the holidays that are recognised in those countries, which are mostly the same. Some variation. Although we sometimes do find out that oh woah, this is a Canadian holiday, you know, it’s actually a separate Canadian thanksgiving. So we try to avoid holidays, try to avoid Fridays, and try to avoid af-, late afternoons or evenings. You know, try and get it out in the late morning to early afternoon so people in more timezones are, are aware and can get it sorted that day.
+
+Interviewer: When was the mailing list set up?
+
+Jaquith: The, for the notifications?
+
+Interviewer: For the sort of, internal discussion about security.
+
+Jaquith: Internal discussion, I don’t know off the top of my head, I’d say it’s been going at least 3 or 4 years.
+
+Interviewer: Okay so not you know, as far back as like 2006 or something like that.
+
+Jaquith: No.
+
+Interviewer: And how were they discussed then?
+
+Jaquith: I’m trying to remember, I think there was more when the project was smaller, I think there was more public discussion of this stuff, I don’t know, there’s kind of the sense that I think a lot of these things were even just sort of coming to the forefront of, you know, people knew about cross-site scripting but it, cross-site request forgeries didn’t really get a lot of prominence until pretty recently. You know and there were, there were big issues with like Myspace had a big one, there was a, a so called worm that would go, it was sort of cross-site scripting, cross-site request forgery thing where you’d view someone’s profile and it would copy, it would post that onto your profile which then you would, and it would just sort of go through the network [12:00]. So like a lot of people, even major sites were sort of caught unawares on this issues. So there was a lot more open discussion of that. I’m trying to think, we, we did some private email discussions by person to person just copy in, you know, Matt and Ryan, and, and various other people on it.
+
+Interviewer: When did you decide to have like a proper security team?
+
+Jaquith: I don’t know the date on that, probably whenever the mailing list came about, those probably tied together.
+
+Interviewer: So what’s WordPress been particularly vulnerable to?
+
+Jaquith: I think it pretty much follows the patterns of other websites, cross-site scripting by far the, the most prevalent. Probably one of the less serious ones, although it, it can be used by a dedicated attacker to perhaps expand into something more serious. We’ve been fairly fortunate in terms of not having a lot of remote code execution bugs, which are the most serious. Had our share of MySQL injections but those have, those have tapered off since we, we implemented new, new ways of escaping SQL and of using API calls such as like we have, we have an update method now that we can just call that automatically escapes everything you pass in. The array of the columns that are getting updated and your, your where clause, and there’s just no way that that can be… So as we’ve moved more and more to those, those problems have faded, largely faded away, because we don’t do many just raw manual queries anymore. Yeah at one point, the entirety of WordPress was vulnerable to the cross-site request forgery so that you could, you could just create an HTML form on some random attacker’s site and, and cause, if a WordPress user logged in and visited that you could just update their password, you could promote another user, stuff like that. We’ve had some issue with like the ability to promote users, like a user could promote themselves to a different role when they shouldn’t have. I actually discovered that one, I was sitting in a church thinking about some code I’d looked at earlier that day and I, I thought it through and I’m like wait a second, we’re never checking to make sure you’re allowed to do that. Ran home and verified it [15:00]. One thing we’ve actually struggled with a lot is user capabilities, so stuff like, we sort of have a complex web of what determines who can update a post or delete a post or moderate comments on a post. The logic there is kind of complicated and there are a lot of routes to it. So that’s something we’ve, in, even in recent years or even the last year have been you know putting little bandaids on. Those issues are generally a little bit less serious because it’s generally like a user who’s already an author but they, they shouldn’t be able to edit another author’s post but in some weird circumstance they can. 
+
+Interviewer: Is that a problem with the roles in capabilities system?
+
+Jaquith: It’s not r-, no it’s not a problem with the roles in capabilities system I would s-, well, it’s not a problem with the, the main architecture of it, it’s sort of a problem with the, the logic that updates the post not checking the correct capabilities, or not checking them in the right way.
+ 
+Interviewer: Okay, what, do you remember when security became a priority? Has it, has it always been a priority?
+
+Jaquith: Yeah, I would say 2006 we had a pretty big shift. Because that was when I discovered that like, we had just cross-site request forgery issues up the, you know, everything was, was vulnerable. And then we kept having, we were having very frequent cross-site scripting vulnerabilities come up. And Ryan Boren and I, I think this was in 2006, decided that we were sick of, you know, having to sort of mortar over these issues every, every couple of weeks or so. And we, we took like the wp-includes directory and I, we, we, alphabetically we cut it in half of I, I looked down and I said okay here is the, sort of the middle file, and I said alright you take half, I’ll take half, and we can go through and audit everything that is, that is echoing in an HTML context to make sure it’s using the correct escaping. Because we had, sort of at the time, we, I think we had just introduced some proper like, an escaping wrapper to do the right escaping, but then we had to mix it that and sort of the raw calls to the PHP function. But we weren’t always calling it with the right arguments, like the arguments related to single quotes and double quotes, so there were some circumstances we were, we were using it inside single quotes but not properly escaping single quotes [18:00]. So he and I went through and this is, this process took many days probably over the span of several weeks, we went through and got them all standardised, produced some very very large changesets, we probably fixed a dozen to two dozen security issues in that sweep.
+
+Interviewer: So why does that, escaping that code make it more secure?
+
+Jaquith: So, it prevents, so say you have something you’re printing out in HTML onto the page and then part of it is variable, and it’s from user input, say like a post title, or a comment author’s name, or their email address or something like that. You want to make sure that that text that’s coming out can’t execute scripts. So first of all make sure it doesn’t actually have any script tags. But say if you’re in like a, an HTML attribute, like you’re printing out a URL, so it’s like href equals open end quote, close end quote and then in the middle of the quotes you’re echoing out some variable, printing out some variable. If they could get a double quote into that variable it would sort of end that attribute, and they could like do double quote space on click equals and then just put javascript in that context. So there are many sort of different contexts where you have to use the right escaping for, for the context. So essentially just to make sure that people who shouldn’t be able to, can’t run scripts on your site, and if you can run scripts on the site you can, you can sniff any cookies that are readable by javascript, you can, you essentially have control of the user’s browser so you can do things on their behalf. Like if you grabbed the profile page, you know, it would have the, the nonce key that protects them from, you submitting something on their behalf. So I mean essentially if you can, if you can script, if you can run scripts you own the user’s browser, and so anything they’re authorised to do you can probably figure out a way to do.
+
+Interviewer: What’s been one of the most major security issues you’ve had to deal with?
+
+Jaquith: We haven’t had a super big one in Core. I don’t think we’ve had like a serious remote code execution one in Core for a while. We did for a while, we were having a lot of issues related to XML-RPC exploits, I think [21:00] there was probably a code execution one in there. The, thing is like when those happened we had a much smaller user base, so I almost like, even though the, the security issues lately have been less serious, they affect more people, so we sort of take them more seriously. Jetpack actually, so this isn’t a WordPress Core thing but it’s a very popular plugin that’s in our repo, Jetpack had a very very serious issue recently that involved the Core security team since we wanted to, to be involved with getting a fix out to as many people as possible. I think over time our role’s going to have to expand you know as you have various plugins that are running on hundreds of thousands of sites, even if you have a small market share that could still be hundreds of thousands of sites. So we’re, we’re trying to ramp up our efforts to, to help plugin authors.
+
+Interviewer: What was the problem with Jetpack?
+
+Jaquith: Gosh I don’t know how much has been disclosed about, it’s been disclosed, I don’t want to say exactly like here’s how you exploit it.
+
+Interviewer: Yep.
+
+Jaquith: But it was, it was a, they weren’t verifying a security thing that they should have been. That’s very vague, that’s not very helpful.
+
+Interviewer: Okay, that’ll do. You can tell me about the worm that, in 2009 that affected versions prior to, was it 2.8.3, it was on like, it was on TechCrunch, Robert Scoble was hacked, bunch of people.
+
+Jaquith: It was a worm?
+
+Interviewer: That’s what was, that’s what I read. Let me find it.
+
+Jaquith: I don’t know that, I don’t know that I’m aware of WordPress having any worms.
+
+Interviewer: It was in like all of the big, I don’t feel safe, was it WordPress hackers broke in and dot dot dot, took things… 
+
+Jaquith: Like hackers breaking in is different from a worm [inaudible]. Yeah this doesn’t say anything about it being a worm. This looks, this looks more like, so the, the traditional tack that we see is someone finds some way in to a site or some-, something that allows them to con-, control the HTML output [24:00]. So because WordPress sites, WordPress sites are a very juicy target for a couple of reasons. One, they’re prevalent. If you’re, if you get access to a web server the odds are you know probably 30% or better that there’s an install of WordPress on it somewhere. Second almost all WordPress installs are publicly web facing. So it’s different from something like, you know, SquirrelMail or you know, something like that, where it’s sort of the backend apps that, because WordPress sites have huge SEO value, because they, they, they’re fairly well optimised out of the box, you know they’re content rich sites, so, they’re, they’re very appealing targets, and so the, the reason they do this is so that they can insert spam links to, pointing to spam sites that they control, say, you know, a site doing video poke-, poker or you know prescription drugs, or one, one of those sort of grey or black market sort of skeezy businesses. And by having all these like hacked WordPress sites pointing to that URL, it raises its, its rank in Google and gets them money. So I mean so it’s, there’s a real financial incentive for people to hack these WordPress sites. So that’s typically the pattern we see if someone gets access to the site, and they insert either like, the clever ones will deface it in a way that the user isn’t immediately aware of, so hidden links or links on certain pages, or the really clever one that I’ve seen is they’ll, they’ll make it, because WordPress is dynamic they can do this, they’ll make it so that the spam links only get output when the site is visited by a Google IP address. So that the user visits it and they see nothing, Google visits it they see the spam links and they count them. So that’s generally the pattern we’ve seen. And I’ve not seen anything that’s been like a self-replicating malware, most of it has been people just running scammers looking for WordPress sites and generally just blindly hitting every domain with here’s a, an attack against an old version of WordPress. It works or it doesn’t work, they move on.
+
+Interviewer: So do you know what the vulnerability was prior to 2.8.3 that was, that was patched then?
+
+Jaquith: I can’t recall.
+
+Interviewer: I’ll have a look to see exactly, I can, I have the post but it probably won’t tell you much. There you go, that will tell you what it- [27:00].
+
+Jaquith: That was not really a s-, no that, so this was, this was not a real, this didn’t allow any access, this was just, it produced a special URL to sort of trick the password reset thing into resetting the user’s password, but it wouldn’t email the password to the attacker it would email it to the account owner, but it would lock them out of WordPress until they realised hey, I’ve been set a new password. So it was just, something that was used to sort of harass people. So I don’t think this was the one that was talked about. Yeah, that was just, I mean we’ve had a few security issues where it, it doesn’t allow any access to the site, but it can, you can sort of, harass the user like by resetting their password for them. There was one where you could, you could point your own custom link URL to a site and get the site to think that WordPress had been migrated to a different domain, and get it to change to that domain, this was a long time ago, and then all of a sudden all their, all their style sheets are broken because they’re pointing to a broken domain. There was one where you could like, I think there was something related to getting themes switching or something like that. 
+
+Interviewer: How do they get in? Like security issues, are they just like the code’s not been properly reviewed, or is it related to bugs, or?
+
+Jaquith: So some of it originally was just ignorance, like sometimes, and this, this happens every, you know, maybe even like once a year, someone, and they’re getting more and more like fine-grained and focused, but security researchers discover hey, here’s a new method that people use to attack websites or web applications. So like cross-site request forgeries is one of those ones where, sort of, it’s alway-, always sort of been there but then the awareness kicked up. Clickjacking was one that came up, sort of within WordPress’s life cycle. Clickjacking is where you use an iframe which is like a way of putting a website within a website, and what you do is, so, say there’s something that, say that a WordPress user wants to delete a post, they have to like click on a button to delete that post. Only they can do it [30:00], and you can’t sort of like submit that request for the user, they have to actually click the button. You could sort of take advantage of the fact that you would know approximately how many pixels down the page that link, that delete link was, and you could, an attack site could present to the user an iframe of their WordPress admin, and then what the attacker would do was make that iframe transparent. So that, essentially you would be viewing your WordPress page but not know about it. And then in the location where the delete key w-, the delete button was, they would overlay some other button like click here to win a free iPad. And you’d click it, I’m sorry not, not in front of it behind it, but because it’s tur-, your WordPress iframe is transparent you would just see that button. So you’d think you’re clicking that button, you’re actually clicking something else on your WordPress backend. So that was one of those things that just, no-one even knew about this vulnerability until, until it came up and was disclosed. So some of it is stuff like that where we’re just unaware, or the entire web security community is unaware. Other ways they can get in are just through, just, individual contributors being ignorant of the correct security practices and the people who review it slipping up and missing it. Some, in the past we used to have less rigid ways of escaping things and making sure, you know, SQL queries were run safely, and it just, it made it easier to slip up. So we’ve, we’ve tried to make it so that we have safer functions that we can use that there’s no way to slip up. I would say that g-, a lot of the issues we find are with older code. I would, I, I would wager that, that we’re fixing security issues faster than we’re creating new ones, in the future, and that’s just as you get better and as you get better, get prac-, better practices, you should, you should do it less.
+
+Interviewer: Has there been any that have had you guys completely stumped? Like you just haven’t known how to fix?
+
+Jaquith: There have been some tricky ones that at first did not seem to have an obvious solution. I don’t know if I want to get into exactly what they’re, I mean like we fixed them [33:00] but they were, they were hairy. The ones that we really struggle with are the ones where the security issue happens on a layer that we can’t control. Such as in the PHP engine itself, or in browsers, or like with clickjacking there wasn’t really a really good solution to clickjacking until some browsers updated support for new security headers that we could send. Oh my god I think Facebook actually published a post about that, where they’re like here are some ways you can really minimise it but ultimately until the browser updates, the browsers update. Certain tricky, like certain browsers, especially older ones like IE6, are vulnerable to many many more cross-site scripting vulnerabilities, so something that wouldn’t be a vulnerability in a modern browser might be a vulnerability in an old browser and might, you might need a really rigorous test to fix. Yeah I don’t know if there’s been a time where, you know we were for like weeks on end. Well there was maybe one issue that, that definitely took weeks and several clever people got together in front of a whiteboard to fix. Again this is an issue, is a MySQL issue that was upstream, where it was sort of out of our control.
+
+Interviewer: What was the problem?
+
+Jaquith: It was, it had to do with a, a weird character set issue where a query could be truncated in the middle, just chopped off prematurely.
+
+Interviewer: So you, how did you learn about security? I mean you, you came to WordPress like most people, just hacking around on PHP.
+
+Jaquith: Yeah kind of naturally, I didn’t really like say I want to learn about security. We would get reports and I would, or I would see something happen on another site and I would be like okay, I wonder if you could use something sort of like that on WordPress, find out you could, and think okay how are we going to fix this. And later I started actually doing like formal research into these sorts of problems, but yeah a lot of my early learning is just sort of on the fly, figuring out what pr-, what vulnerabilities WordPress had.
+
+Interviewer: Who do you think has contributed the most to security?
+
+Jaquith: That’s a tricky one [36:00]. In the earlier history, I contributed a good bit in terms of, so I, I sort of sounded the alarm about the cross-site request forgery stuff. A lot of people didn’t think it was a serious issue so I set up a script where you would just go in and you would type in your, the domain of your WordPress website, and it would sort of, you’d click a button and you would just end up on Google.com but then it would have actually reset  the password for your admin user to something that, and there’s, there’s, I only gave this to people privately, just the people who didn’t believe me that it, it was a serious issue. So I, I’d sort of started that effort, but I was not as involved with the code, I think. I want to say Owen Winkler played a bit part in the, the cr-, cross-site request forgery prevention code. There is actually a really good discussion on wp-hackers about this, where we talked about how we wanted it to work. And this was, you know, just discussed publicly because it was, it was sort of an issue that we couldn’t deny that we had, the whole web’s sort of discovering that there’s something that needed to be fixed. That was a big one. I s-, I spearheaded a lot of the effort to standardise our security escaping functions, like the naming conventions of them and our consistent use of them. So that effort that Ryan Boren and I did to make sure that the, the cross-site scripting functions were being used properly, that was pretty big. In more recent years, I’m, I’m trying to think who helped us beef up our password hashing, I want to say it’s either Ryan Boren or Mike Adams when we moved to PHPass, which is PHP hashing security library.
+
+Interviewer: When did you do that?
+
+Jaquith: I don’t know. If I had to guess I would’ve said somewhere around 2007. It’s a guess.
+
+Interviewer: Okay.
+
+Jaquith: It’s, it’s public. So that was pretty huge. More recently as our security issues have gotten more esoteric and hard to solve, Jon Cave has been a huge, a huge help and has [39:00], has either crafted the solutions for or figured out the attack scenarios for, for various vulnerabilities. So he’s, he’s probably one of the sharpest security minds we have.
+
+Interviewer: Okay. Let’s talk about version numbers.
+
+Jaquith: Okay.
+
+Interviewer: Can you tell me why, just tell me about WordPress’s approach to version numbers?
+
+Jaquith: Right now, or historically?
+
+Interviewer: Let’s start with right now, and then go back.
+
+Jaquith: So right now the idea is that you can essent-, so the current version number is 3.9.1. So our approach is that the first two numbers, so 3.9, you can think of that as essentially a, 39. WordPress 39. And each new number is going to increase, increment that. So the next number after 39 is 40, so it’s going to be 4.0. 41, 4.1. So that means that there’s no great significance to 4.0 as opposed to 3.9, you know it could be as big a jump as from 3.8. Not everyone understands that and I- oh that bell almost goes on forever.
+
+Interviewer: Yeah it really does.
+
+Jaquith: I suspect as, so in the past, like, people have actually published books entitled like publishing with WordPress 3. Not 3.0, like this is when version 3.2 is out, but they’re calling it WordPress 3 as it was like a large [inaudible], when 3.1 and 3.2 were you know like, as different from each other as 3 0 to 3 1. So I suspect that we’re going to see the, Mashable or TechCrunch headline that says WordPress releases version 4.0 in huge milestone, you know, and, yeah. Not everyone gets that.
+
+Interviewer: Why do you go for that approach rather than, the sort of, major dot minor dot patch?
+
+Jaquith: We did that, and that, Matt was the one who really spearheaded this, was just to avoid the crazy version inflation. So just like how right now I’m running Chrome version 33 in a browser that’s, what 4 years old. I’m trying to think what other things have gotten crazy. Crazy high. Photoshop switched to different num-, like keywords, you know CS or whatever.
+
+Interviewer: Yeah, that’s right.
+
+Jaquith: At some point [42:00]. Firefox always is doing the same thing as Chrome, crazy version inflation. Adobe’s like Acrobat Reader is like some crazy high version number. And you get the problem where like version numbers in the 40s and 50s start to look absurd to people, they don’t even read as version numbers, people see like, I think if people saw, well you know Chrome is a little different because they sort of have a continuous update where the version doesn’t matter, but for other software that actually has like a, a meaningful update cycle, you know I don’t think we’re going to see Windows 47 ever, they’re going to find some new thing to call it, you know. You know OS 10 is actually having this issue because now they’re going to have OS 10.10 coming up which is, probably even that is going to confuse people. So yeah we wanted to just avoid the, the crazy ones so essentially this, this is a way of allowing ourselves to decimate the, as in, divide by 10 the r-, rate of growth of that version number.
+
+Interviewer: When did you adopt that approach?
+
+Jaquith: So we went, version 1, and then from there we went to 1.2 which is when I got involved I, so I wasn’t really aware of the reason for that jump. I don’t know if version 1.1 existed in testing, I know it did-, we were developing version 1.3 and decided that when we finally got around to releasing it it had been long enough that, oh heck we should just call it 1.5. And then we started working on version 1.6, and by the time we got finished with that like something like 2 years later we decided, oh heck we might as well call this 2.0. So in our mind, at that time, the, the version number was pretty significant, so we did consider 2.0 to be significantly different from the 1 dot series. And so that’s why we did that big jump. And I believe it was at that point that we decided, alright this is crazy we’re just skipping all these numbers, and we sort of saw where this was headed and I think from then on we, we had just done the- 
+
+Interviewer: So it went 2.0, then it was, 2.1, 2.2, 2.3, then 2.5. Seems to have been a jump there for some reason.
+
+Jaquith: Did we jump from 2 3 to 2 5?
+
+Interviewer: Yeah I looked at the release list, unless I’ve read it wrong but I think-
+
+Jaquith: Ah yeah. No I think you’re right. So we were good for a while.
+
+Interviewer: You were good for a while, and then you-
+
+Jaquith: Then we had another little tiny jump. And then let’s see we had 2 6, we had 2 7, did we jump 2 7 to 3 0 [45:00]?
+
+Interviewer: I, no.
+
+Jaquith: No, we didn’t. No, no, no we didn’t. So I, so maybe, so 2.4-
+
+Interviewer: I think 2.4 was the last one that was missed, 2.4, yeah.
+
+Jaquith: -was the last that was missed, so 2 5 onward we’re good, okay.
+
+Interviewer: Yeah.
+
+Jaquith: I want to say that there was some discussion about avoiding version inflation, before 2.5. But then we sort of maybe made an exception for 2.4? I don’t actually really recall.
+
+Interviewer: Was this discussed just, private emails, or on the mailing list?
+
+Jaquith: I think it was on Trac. Or on, sorry, on wp-hackers, yeah.
+
+Interviewer: As a diversion, why, what took so long between 1.5 and 2.0, why did it take so long?
+
+Jaquith: We didn’t have a release date, and we just, every time we would get done wrapping up a feature, another feature had started, and then it just kept leapfrogging, and we just, we didn’t have any goal. We were just, working on it and working on it and working on it and eventually we decided to say okay, stop work.  
+
+Interviewer: Yep. And it was 2.0 that you set up the legacy branch?
+
+Jaquith: Yeah we did a legacy branch, a, a long term support branch for 2.0. WordPress was accepted into Debian, in Linux, and they, so they were running the 2.0 branch an we were maintaining that, I was the maintainer for that. I’m trying to think. I think we said we were going to support it for 5 years?
+
+Interviewer: Up until 2010.
+
+Jaquith: Yeah, and we probably only made it 2 and a half years maybe. 
+
+Interviewer: No I think you got longer than that, I think it was like 2000 and, I think you were a few months off 2010. It was a while.
+
+Jaquith: Yeah. I mean I, I, I cut it off early. Essentially what happened was the pace of WordPress picked up so much, we, because we started releasing a little bit, you know, mo-, sooner. And we kept introducing new APIs, people would update their plugins to do that, so that almost none of the old code was, people weren’t wr-, writing code that was still working on 2.0. And another thing that happened was that the security changes were happening so quickly, like, I’m trying to think. I think that big Ryan Boren and I pass happened after that time. And it just became, it became at first a huge burden to backport everything, and then at some point it became almost an impossibility, because like the stuff that the new security things used didn’t exist in that old branch. And the backports would’ve become so huge that calling it a stable legacy branch would have not been very accurate because the, of the, just the bulk of how big the changes would have had to have been. And then the other thing we found was that people weren’t using it [48:00]. That we were being good enough about keeping backwards compatibility in the new branches that people were just, you know, generally keeping either with us or one or two releases behind. And so, at some point I put a post on WordPress.org on the news blog where I said you know, essentially we over-committed here and we can’t maintain this anymore.
+
+Interviewer: 2009, July.
+
+Jaquith: Okay. So I almost made it.
+
+Interviewer: Not too bad.
+
+Jaquith: Almost made it, but, but it, but also we were, like at, at the point that I cut it off, we were not, it’s not like it was completely caught up security wise, there were lingering security issues that we just couldn’t fix. 
+
+Interviewer: So what was the purpose of it?
+
+Jaquith: It’s, it was, I want to say that, that level of stability was required to be in Debian, which again ended up being not very important because people wanted to install the newer versions, that had the newer features. And it was at a point where people were starting to use WordPress for more serious sites, like professional sites, bigger companies were using it. And these companies had and still have some fairly stringent internal security policies, whereby getting a, a minor security update can be automatically installed but a more major update requires a big internal review process. So we wanted to provide a stable subject that they could feel secure running on those sort of longer term IT allowances. 
+
+Interviewer: Is that still a consideration now?
+
+Jaquith: It really isn’t.
+
+Interviewer: Yeah. I mean I’ve seen posts, when 3.0 came out there were people asking questions about whether you would do another one then.
+
+Jaquith: No, so, so we almost like, we regressed for a while in terms of we stopped backporting security issues, we have almost recently have gotten, well we have gotten better about it. Especially when it’s like a quick, small security fix. Because we have the, so versions past 3.7 had the ability to auto-update to, for security fixes, for minor releases. So the fact that we can just automatically push that fix out to people like if it, if it doesn’t take much effort to backport it, it’s, to us it’s sort of why not keep those people safe. So we don’t actually currently have an official policy. I floated a policy of, that we should backport one release back until we hit beta on the next release, or maybe it was release candidate on the next release, and we’ve been, it’s, inconsistent. We do that when we can. I think that matters, it didn’t really matter in the past because people running older versions didn’t, were prompted to update to the newest version always [51:00], and we didn’t have the ability to serve them a security update to an old version, they would essentially have go-, had to have gone to WordPress.org and manually download the zip file. So there were a few versions that were released for, for not current versions. But I imagine that almost no-one used them. Because they would’ve had to manually do it. But now we can, we can custom push a security fix to users of older versions.
+
+Interviewer: Okay. How was it maintaining the legacy branch?
+
+Jaquith: It was easy, and then it was hard, and then it was hell.
+
+Interviewer: Well how, why did that have that progression?
+
+Jaquith: Because the further Core diverged, the harder it was to backport. Also the, the, we didn’t really have good security policies around the CVEs, the consolidated version, vulnerability, something. It’s essentially a, a global way of saying here’s a unique ID for this security vulnerability in this project. And working with, we were working through the Debian team essentially, and I found that they were, they had a very sort of old school slow demanding approach to security, because Debian is, is you know very old school serious business of Linux, you know Linux distribution. And yeah I found it was just sort of hard to, they’d, they’d be very nitpicky too, like stuff that we wouldn’t really consider security vulnerabilities they might. Stuff like path disclosure and stuff that we’ve never considered a serious vulnerability. But then the, it, the real issue is that we just differed so much that it became difficult to backport, and then eventually impossible without, you know, essentially we’d have to upgrade major non-security portions of WordPress just to backport a security fix.
+
+Interviewer: Can you tell me about the relationship with Debian? How did that come about?
+
+Jaquith: I don’t think we suggested it, I think it came from them, someone on their side suggested that WordPress be integrated as a package. And we thought it was cool at the time because it was, you know, sort of a, a big boy recognition of that we’ve kind of made it in a sense, sort of, such a serious and respected Linux distribution would be including it. We had some thought that it might make WordPress increase its prominence and make it easier to install, but that’s not really the case.
+
+Interviewer: So it came packaged with [54:00] Linux and then people could install it from there?
+
+Jaquith: It was, so, so Debian uses something called apt-get, or Aptitude, which is a, just a package fetching and management system, so you could within Debian type you know apt-get install, think it’s just WordPress, and it would install WordPress somewhere on, on the shared server. On to the shared portion of the server. And it, it sort of became not very compelling because people want to run multiple WordPress inst-, instances, they want to run the more recent versions, the WordPress install process has traditionally been very easy and so this doesn’t really save them, save them much. So I, I, I doubt it got very much use over the years. 
+
+Interviewer: Is it still included?
+
+Jaquith: I honestly don’t know.
+
+Interviewer: So you guys-
+
+Jaquith: If there is, it’s, no involvement from us.
+
+Interviewer: Okay. How did your involvement with them end, did you just-?
+
+Jaquith: It sort of when I couldn’t back, couldn’t reasonably backport some of the patches it just sort of fizzled out. And that, you know that’s when I wrote that post, like this is just, it’s not being updated so we might as well just recognise it as, as such. 
+
+Interviewer: So a lot of people have been unhappy about WordPress collecting data from their sites. And the first sort of thread about it was in 2007, and you were concerned about.
+
+Jaquith: I was.
+
+Interviewer: Why were you concerned?
+
+Jaquith: So this, this was a new concept, the fact that WordPress would be phoning home to WordPress.org. I didn’t have any knowledge or control over the code that was running on WordPress.org so it was a black box to me. As it is still a black box to most people. We’ve expanded sort of the circle of trust there, and open sourced some of the code but you know it is still very archaic and hairy and not quite publicly releasable code yet. I mean we’re sort of driving towards that goal, but yeah it still is a black box to people. And it, it seemed a big step, that first step seemed a big step, once you breach that step, subsequent things become, you know, smaller. Because you know if you’re okay with data being shared, the fact that you know it includes, you know, it does the plugin update so it includes which plugins are installed, becomes, you know, it’s just an incremental concern. So I want to say that [57:00], I’d like to be able to say that there was some like big philosophical argument that won me over, but mostly I became closer and more involved with the Core team and got more access to the backend to see that okay, nothing nefarious is going on here. And it just became I think an issue of personal comfort. And I suspect that many of the people who had objections either, either maintained them or just became comfortable with it over time, to know that nothing evil was going on. And then after that it became clear that there were some significant advantages, like the data that it provided to WordPress Core could be used to make really important decisions, like the decision to stop supporting PHP 5, 4.0. Or 4 dot whatever. We had the data to really support that, and we felt confident making that decision. And we have other data like you know, browser usage data so we can say okay we can deprecate IE6, because it’s only this percentage. For security things it’s really helpful to know how many sites are running Jetpack, how many sites are running vulnerable versions. It’s helpful to know how many versions can auto-update, and how many people are going to be stuck and have to do a manual update, and does this, does this influence how we disclose this and the timeline of that disclosure. And we could do, like with the Jetpack thing we worked on, like with web hosts to get them to put blocks at the web host’s level, so that even the people who are still vulnerable, they would get blocked by their web host. So it was, it’s been very helpful to know that.And I would hope people would be more comfortable now that there are more people, especially more independent people, you know not, like, Automattic people moonlighting for WordPress.org, to see that code and you know, trust that not only are we not doing anything nefarious with it, while the data, we’re not doing as much as we could be with the data. You know or, or, like our usage metrics have been sort of, have gone up and down as we’ve realised wow, we’re just counting these all wrong.
+
+Interviewer: Why do you think people get so upset about it?
+
+Jaquith: About phoning home?
+
+Interviewer: Yeah.
+
+Jaquith: Because I think WordPress, WordPress embodies this sort of spirit of the independent web. That more and more is dying as people move more to centralised services and like, you know, Twitter, Facebook, where all of their information and all of the control is with these big central authorities [01:00:00], and I think people are more aware of the fact that their information is being shared, and that sometimes like the purposes don’t even have to be nefarious at the current time, but they create possibilities for abuse in the future. So a lot of it is not like people think oh you’re going to do something evil now, it’s just like I don’t know who’s going to be running WordPress.org in the future who might do something bad. And we’ve tried to, I think it’s like a lot of the information that WordPress, WordPress is journalling on public sites, a lot of that information is almost publicly scrape-able anyway, you could sort of by process of elimination figure out which plugins a website’s running by just hitting those URLs directly and just watching for the, the fatal errors or the blank screens. So I don’t, I don’t think there’s as much potential for abuse of that information because it’s not really very valuable information in terms of you know, your phone number’s not in there, you know it’s not your social security number it’s, it’s you know probably not even your name unless it’s your name dot com that’s running the WordPress site. And I think people have seen that there’s, there’s value to this, in terms of being able to do the auto updates, the, the notification that updates are available, and, and stuff like that.
+
+Interviewer: What about, so you get, as you say you get a lot of people from Automattic moonlighting in WordPress… I’m just formulating a question here [inaudible]. How do they keep their WordPress hat on when they’re working with data for WordPress.org and their Aut-, you know, Automattic separate from that? Because as employees to, as Auto-, as employees of Automattic they have access to all of the data that Automattic doesn’t have access to. Does that make sense?
+
+Jaquith: They have access… which, which way are you concerned about?
+
+Interviewer: That Automattic would have access to the data at WordPress.org.
+
+Jaquith: Yeah, we’ve been trying to make more of that public anyway. So like the, the PHP version usage, MySQL version usage, WordPress version usage, I think even language usage, now we have stats for individual plugins that are all public, that everyone can see. There was a time where maybe they would’ve known stuff that other people would not have known. I’m not sure how hugely valuable that would’ve been. There might’ve been a competitive advantage I guess if they’re, you know, building a plugin, they know, okay, we need to support these versions of WordPress because these are the ones being run. But we’ve also been, [1:03:00] even before we were publicly, we had like automated graphs published. We were pretty responsive to people asking, like people just asking okay what’s the current PHP 4 usage and, you know, 20% and dropping or you know. So I think it’s less of an issue now because most, most of those numbers are publicly shared.
+
+Interviewer: Why was the decision made to merge WordPress MU with WordPress?
+
+Jaquith: You’ll have to ask Matt.
+
+Interviewer: What did you think of that decision?
+
+Jaquith: I was kind of surprised by it, because the first time I heard about it was actually when he announced it at WordCamp. So yeah that was sort of an awkward reveal for me because people were like asking me like, oh really, and asking questions about it and I was like yeah, I guess we are. I, I don’t know, I, I think, I was hesitant at first. Because it was a lot of code for something I thought was in minority usage of WordPress, and really, honestly, it still is. Still is a lot of code, it’s still a lot of really archaic and poorly maintained code, it’s kind of a sore spot actually. You know, we keep talking every release, is this the one where we make Multisite awesome. And it’s the sort of thing like, sort of by definition it’s not something that, because it, it was really intended for more of the, the WordPress.com usage, where you have people signing up for sites that are distinct. And not as much designed for what people want to use it for which is sort of a loosely confederated group of sites, like say a university has colleges and they do actually, they’re, they’re not like separate sites as much as maybe different divisions in a company, each have their own WordPress site or network. So yeah I was, I was skeptical, it went off reasonably well. The thing that sort of, and still to this day insulates us from that is that u, the u, no user can just press a button in WordPress and convert to Multisite, you actually do have to edit code and we intentionally set, we put an intentionally high artificial barrier to sort of warn people off from this because it is not a, as fully fleshed out as we would like it to be. It is getting better, very slowly, and it’s getting better faster than it would have been if they had remained separate. 
+
+Interviewer: What are the problems with it?
+
+Jaquith: It’s, one problem is that it doesn’t correctly recognise the difference between [01:06:00] the two u-, main uses of WordPress Multisite, which are the sort that WordPress.com, anonymous people sign up for accounts and get their own blogs and are completely separate, and sort of university or business divisions model where they actually should be sharing some data. That’s an issue, a lot of the, the network admin stuff has not been given as nice a user experience as the rest of WordPress, it’s, it’s inflexible in terms of URLs, we don’t have domain mapping built in yet, it’s something we’re trying to build towards. Like you know, we’d ideally like you to be able to spin up a WordPress site and then say I want it to exist at this domain on this subdirectory, just you say where you want it and we figure out the rest, and right now there’s this really weird split between a subdomain install and a subdirectory install, and there’s a plugin that would add the domain mapping, so there’s a lot of sort of half finished things that really should be done, that really should, should exist in the Core. 
+
+Interviewer: Can you tell me about the process of merging them?
+
+Jaquith: Ryan would probably be the better person to ask about that, I didn’t have a lot to do with it, because I didn’t really work with WordPress MU much at all before they were merged. I believe Ryan had a big hand to play in, in, in the merge.
+ 
+Interviewer: What impact did that have on Multi, MU users?
+
+Jaquith: I think on the existing MU, or MU, users, it had a great impact because it, it really, first of all it gave them parity, so instead of having WordPress changes merged over to this separate fork, they, they were all in the current version of WordPress all the time, which is great. It also gave a lot more visibility to the code, so that even the people you know who hadn’t used WordPress MU much before like, like me, you know were more incentivised to look at it because it was in the main line.
+
+Interviewer: Okay I’m going to ask you just two quite broad questions, one is what do you think WordPress’s greatest strength is, as a project?
+
+Jaquith: As a project or as software?
+
+Interviewer: As a project.
+
+Jaquith: As a project. Greatest strength. I think its greatest strength is the, the resiliency and dedication of the community.
+
+Interviewer: Okay. And what’s its greatest weakness?
+
+Jaquith: Its greatest weakness as a community [01:09:00]? Or as a project as well?
+
+Interviewer: As a project.
+
+Jaquith: I’m not pausing because I can’t think of any answers. I’m choosing which answer to, to pick. Tricky. I think we’ve been, historically too cautious in adopting new technologies and better development flows. I, so that encompasses a few things, we’ve, we’ve gone a little bit into the, the not invented here syndrome. We’ve been slow, still are behind on things like mobile. We’ve, I don’t know just things that we do our own way and sort of get entrenched in them and are not paying attention to how development practices are advancing. And like, like our security stuff didn’t really get formalised and again I don’t know the exact date when that happened, but it didn’t get formalised until you know, like much later than it should have, like some of our policies around there. So I, I think that’s sort of almost a side effect of WordPress’s great strength, its community, it kind of creates, as you form all these internal connections, it can sometimes, you can become so inwardly focused that you’re not paying attention to the, like the greater publishing landscape or the greater web development landscape. So I think’s one of our struggles, sort of a broad answer, that encompasses a lot of things like you know development strategies, community organisation and hierarchy, adoption of new technologies like mobile, which is not a new technology but we’re still behind, yes.
+
+Interviewer: How do you formulate development strategies?
+
+Jaquith: Am I what?
+
+Interviewer: How do you formulate development strategies?
+
+Jaquith: I’d say we’ve done that very ad hoc. We sort of found, I mean some stuff comes external, decisions not options, stuff like an external philosophy. And then when we’re proposing like a, a shift, either a large [01:12:00] shift or a subtle shift we sort of think about the weaknesses, like the problems that we’re having with the current approach and then we just think very pragmatically, okay what, what would solve this, what are the upsides, what are the downsides, you know what impact is this going to have on people’s willingness to contribute.
+
+Interviewer: When have you had major shifts?
+
+Jaquith: One of the big shifts was switching to a more, a plugin first philosophy. So that we’ve started a little bit with 3.6 with the kickoff of the, the new WordPress admin which debuted in 3.8. I think that was one of the larger shifts we’ve had. 
+
+Interviewer: Any earlier ones?
+
+Jaquith: Earlier ones probably included are, are opening, being less restrictive in who was given commit access to the project, we were very worried early on about the, the too many cooks in the kitchen syndrome. We’ve actually found that like we’ve, we have more committers now I think than we’ve ever had, but we still haven’t hit that issue so I think we were unnecessarily worried about that. And maybe that, maybe our communications channels have evolved over the years such that it might have caused issues back then and it doesn’t now, but more I think just because you know not everyone is paid full time to work on WordPress Core, people sort of determine their own level of involvement. And people sort of float in or out as, as jobs or consulting work ebbs and flows. So that we, it never feels too crowded really.
+
+Interviewer: When did you start adding more committers like that?
+
+Jaquith: So I, so there were some, there were more committers very early on, and then it sort of contracted down to just Matt and Ryan, and then I think I was the third person added in 2006, and then Westi right after that. And then we had like a, we had a sort of little bubble there where we added some more people and that sort of stagnated, and then probably around the time that like Nacin and Daryl Koopersmith got involved we started really ramping it up and we started doing, having the idea of giving people non-permanent commit, so we would give them commit for a release that would automatically expire at the end, and then we would sort of review it and see how they did, and make a decision whether or not to add them on for another year or for another release. And then we decided that when we were [01:15:00] upgrading people to sort of permanent commit, to indefinite commit, that we would require a minimum of a year of, of temporary commit and that’s, that’s worked out very very well, and the vast majority of people who’ve been given temporary commit have graduated to permanent commit. And I think a lot of the times where someone hasn’t has been as much our failure as theirs, the failure to, to mentor them sufficiently and communicate the, the, our expectations and guidelines sufficiently. 
+
+Interviewer: Were there any earlier shifts?
+
+Jaquith: I don’t know, there’s a development methodology, but when Matt founded Automattic it changed the pace and resources available to WordPress pretty significantly.
+
+Interviewer: How did it do that?
+
+Jaquith: He, there were, essentially people could be paid full time to work on the WordPress Core. You know Ryan Boren, Andy Skelton, Donncha O’Caoimh, three, three of the first ones. Mike Adams pretty soon after that. So we just had a lot more people who could dedicate more time to it, which helped us, helped us pick up the pace, it wasn’t just sort of a bunch of college students and garage hobbyists in their, in their spare time. 
+
+Interviewer: Alright, let’s leave it there. Thanks.

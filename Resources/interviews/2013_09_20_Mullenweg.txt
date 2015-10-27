@@ -1,0 +1,469 @@
+Mullenweg: I’ve been really bad about typos lately. 
+
+Interviewer: Yeah?
+
+Mullenweg: Yeah, I don’t know why. Just like on my blog, like on the Tiger post, I said they “lead” the round instead of they “led” the round. Just little things like that. I’m having a lot of… where it’s the correct sound, but not the right word. It’s correctly spelled. But not the right usage.
+
+Interviewer: But spelt like “lead” as in metal.
+
+Mullenweg: Yes. As opposed to “led” like they led the round…
+
+Interviewer: They led someone. Well, I noticed it in your Ask Me Anything. 
+
+Mullenweg: Oh, yeah, yeah.
+
+Interviewer: But you were doing it so fast, I assumed it was a… it was hard to keep up. 
+
+Mullenweg: It was.
+
+Interviewer: OK. Well one person I spoke to is Anil Dash.
+
+Mullenweg: Cool.
+
+Interviewer: He was good to talk to. And we talked about Moveable Type and WordPress and that relationship. And he said that he met you in San Francisco. And I was wondering what your impression was of that first meeting.
+
+Mullenweg: I was always a big fan of Anil Dash. Because his blog was so awesome. Dashes. The first time I remember meeting him was at a party at Tom Tec’s (sp?). Was that the same?
+
+Interviewer: Yeah, he said you guys had lunch and Tom Tec was there. 
+
+Mullenweg: Oh, that might be different then.
+
+Interviewer: And you went to the Six Apart offices.
+
+Mullenweg: I did visit the Six Apart office. Oh, that might have been… I thought I met him before then. That might have been the first time. If you look on my blog, Other People / Persons / Anil Dash you’ll see photos of him from the early days. Yeah, I remember visiting the Six Apart office. They were incredibly small at the time. They had hired their CEO, Barak Berkowitz, I believe his name was. Or something like that. They had clocks on the walls for different time zones, because I guess they had a person in Japan that had a different time zones… I think there were maybe four people in the office. It was Ben, Mina, Barak was like nailing things to the wall, and Anil and maybe one or two other people. 
+
+Interviewer: And what was it like meeting them for the first time? Were they…? How did you guys get on after there’d been sort of friction online? 
+
+Mullenweg: I don’t know if a lot of the friction had happened then. Maybe it had.
+
+Interviewer: I guess the early… their licensing change had already happened at that point.
+
+Mullenweg: Oh, it had?
+
+Interviewer: Yeah.
+
+Mullenweg: Oh. Then I guess there had been friction. So everyone was very friendly at the meeting. There’s pictures of us together. 
+
+Interviewer: I have [inaudible]
+
+Mullenweg: Did you find the pictures?
+
+Interviewer: Yeah, I did. 
+
+Mullenweg: Oh. Do I get photo credit?
+
+Interviewer: Yeah.
+
+Mullenweg: I guess if I’m in the picture though, I didn’t take it.
+
+Interviewer: You didn’t take it, someone else took it. 
+
+Mullenweg: My camera though. 
+
+Interviewer: You’ll get photo credit on other photos. 
+
+Mullenweg: Yeah, that was fun. Tom Tec must have taken that one. I think that at the time, particularly including Six Apart, although we were competitors, we were all focused on making the web a better place. So even though we might disagree on our software, we’d agree on things like WordPress supported the trackback thing. [3:00] Which was a Six Apart created thing. We supported the… we were going to support the Moveable Type API so they had extensions to the XML-RPC API. We both supported XML-RPC and the Blogger API - those sort of things. I think we talked… and this was something that Anil was early passionate about, having an import/export format. I think probably at the time, WordPress could import but not export. So it’s obviously good to be consistent there.
+
+Interviewer: OK
+
+Mullenweg: RSS wars were ongoing. And in general embedding metadata in the page was a big deal. So there was a number of things there that… I don’t know if we talked a ton. I think it was a pretty short meeting. 
+
+Interviewer: OK. Anil said that he picked you up… what did he say…
+
+Mullenweg: Probably at a train station?
+
+Interviewer: He said he picked you up and as soon as you got into the car that he got the impression that you thought that he hated you, and that it was a little awkward. Do you remember this at all?
+
+Mullenweg: Huh. Of course I suppose it could be. I don’t recall if it’s accurate… if they had already been barbs going online, maybe I was nervous. But, I’m a big fan of them to this day. Mina still blogs. I think she has a WordPress-powered blog actually, somewhere. And she’s always been a super good writer. Anil blogs to this day. And Ben is obviously really, really talented as a technical person. There’d been… and around the same time, like [inaudible] really talented product people. And so there’s definitely… like there’s this guy I just hung out with in New York last week, named Brian Alvie. Brian Alvie is one of my favorite people in the world, because when we first met at SXSW, probably 2003, [inaudible] introduced us because they were working together on a CMS. And he geeked out on WYSIWYG editors for like, I dunno, like an hour and a half. Literally, there’s a whole party going around, and we’re standing in the corner, not talking to anyone, except each other, about WYSIWYG editors. It was 2004. 
+
+[Interrupted]
+
+Interviewer: OK, so we were talking about Moveable Type yesterday when we stopped. 
+
+[Stuff]
+
+Interviewer: So, Anil said to me that… he found, I guess the friction between the two of you quite playful. And it was kind of like pantomime for him. I was wondering if you felt the same way. He felt that were getting annoyed and frustrated by it.
+
+Mullenweg: There was definitely… probably where we got most heated [6:00] was the comments sections. So the comments on other people’s blog posts. But we would trade some pretty good blows. So there’s probably a few years there when there was probably less… we were less close, and then sort of, especially in his post-Six Apart career, we’ve been able to reconnect a lot. 
+
+Interviewer: So you have quite a good relationship now?
+
+Mullenweg: Yeah. I always throughout it all held him in very high regard. It just… for awhile there, it felt very David and Goliath like. Six Apart was this huge behemoth, hundreds of people, they were onstage at the TED conference. And it just seemed like… it was so hard. So we were very, very scrappy. Automattic was maybe five people, six people, at the time. And that’s probably why, on both sides, it got a little more personal. What I had heard from inside Six Apart was that Mina took things very personally. I was very unhappy about that.
+
+Interviewer: He said he found it fun. Did you ever find it fun?
+
+Mullenweg: I find all competition fun. So that’s part of why I do what I do. I really enjoy… because it’s like the best game in the world. Right? It’s multi-player.
+
+Interviewer: Massively online multi-player?
+
+Mullenweg: Online and offline. You keep score with market share and revenue. And you play as best as you can. 
+
+Interviewer: So whenever they changed the license, did you see that as a opportunity for you guys.
+
+Mullenweg: No, I didn’t. But it was. Luckily we had done the importer, almost right before then. It was prescient. It was… you know a lot of the blogs that I wanted to get using WordPress were on Moveable Type. In fact, some are still on Moveable Type today. Kottke, and the three that I’d really love to get are Kottke, Daring Fireball, and Seth Godin. 
+
+Interviewer: And none of them are on WordPress?
+
+Mullenweg: Moveable Type, Moveable Type, and TypePad. 
+
+Interviewer: Right. Okay. I asked Anil if he wanted to migrate to WordPress when I spoke to him.
+
+Mullenweg: Probably not.
+
+Interviewer: He said no. I said you’d help him. I’m sure you would. Ok, I think that’s all for Moveable Type. So I’ve been doing obviously a lot of reading about the GPL and open source. I was wondering, free software or open source? 
+
+Mullenweg: I use both. I know that there is philosophical reasons to use free software, but sometimes… open source has become a pretty mainstream term, and I believe for everyday people it captures the spirit of what we do as well. 
+
+Interviewer: But you think the ethos behind free software is important?
+
+Mullenweg: I always think that WordPress has more of a free software ethos, so where we fall philosophically is much more on the GNU, free software side [9:00] than on the more MIT, Apache side. 
+
+Interviewer: Yeah, I’d agree with that. I’ve been trying to figure out how to phrase it, whether I should be using free software and I feel very much that it’s free software. 
+
+Mullenweg: I would encourage that. I think it would be more accurate. 
+
+Interviewer: OK, that’s good to know.
+
+Mullenweg: Just when I talk sometimes, I use open source.
+
+Interviewer: Yeah, I mean it seems to be… it seems to differ across the project. People seem to… some people are really about the open source development model and some people are really passionate about, I guess the ethics behind open source.
+
+Mullenweg: Yeah. I would say among core there’s a lot of the passion behind the ethics of it. But really you should say “free libre open software” to really distinguish the freedom from the cost. And it just gets kind of wordy.
+
+Interviewer: It does. Open source is easier to explain to people. 
+
+Mullenweg: And I love the concept of open. 
+
+Interviewer: Yes.
+
+Mullenweg: Free as in freedom is powerful. But open is also incredible power. 
+
+Interviewer: OK, so how do you see your role in the project, as it began and I guess where you are now?
+
+Mullenweg: In open source more largely?
+
+Interviewer: No, in WordPress.
+
+Mullenweg: I do whatever needs doing most. And that’s been true from day one. From development, design - often badly - but was doing it. Lots and lots of posts in the forums. Many thousands of posts in the forums. Evangelism. Speaking. Documentation. Whatever needs doing.
+
+Interviewer: And has that evolved over time, do you think?
+
+Mullenweg: Of course. Better people than me have… probably the most important thing I have ever done, and continue to do, is just recruiting. It’s bringing people who I think will add something to the project. If not there right now where it could be made better. And so all of those things I just said are now infinitely better when I was doing them myself. Because now a) both the quality of the people you bring in and just having multiple people be working on things. Working together. 
+
+Interviewer: And some of the stuff that I’ve read refers to you as a benevolent dictator, which is obviously the open source term. Do you see yourself in that role?
+
+Mullenweg: Yeah.
+
+Interviewer: And some people… I’ve talked…
+
+Mullenweg: I think of myself more like CEO than a dictator…
+
+Interviewer: There’s a few times I’ve seen the BFD… BDF…
+
+Mullenweg: BDFL
+
+Interviewer: BDFL applied. And some people think that’s a real strength of the project to have you in that role. And some people see it as a problem.
+
+Mullenweg: It’s a strength and a weakness. You know. If I started making a ton of bad decisions, I would hurt the project a lot. And the project is not immune to that. If I made a lot of decisions that maybe were good decisions most people disagreed with they could split. Which it has in the past. And if I make a lot of decisions that are really good things go well. And that’s what’s happened.
+
+Interviewer: And do you think there’s any decisions you’ve made that haven’t been good?
+
+Mullenweg: No. Every single one is perfect. [Laughs] [12:00] Yeah. Many. Many. Many. Probably the big… hmmm… there’s been nothing that hasn’t been able to be fixed later. But certainly things that if I could do them again, maybe wouldn’t do them? Or maybe with time travel would do them again but learn the lesson to do it right. The good news is that, I and the project are very, very deliberate about what I would call existential decisions. So things that could affect the existence of the entire project. And we try to be quick in making non-existential decisions. Often, particularly in software, I believe that speed and agility is more important than pretty much anything else, and so while there could be very strong, and very valid opinions, on many sides of an issue, just picking one and moving forward is honestly better than waiting several months to figure out which one is 5% better or 10% better. Maybe even 20% better. Because it’s that usage is oxygen for ideas. That getting it into the world that’s more important. Because that will inform you more than any of the pre-shipping discussion you can do. I try to bias towards action as much as possible. That’s not the… some core developers aren’t that way, but I feel that’s something positive I can add to all the discussions.
+
+Interviewer: So can you think of anything specific that you look back and have gone… arghhh, why did we do it that way?
+
+Mullenweg: Technical or structural?
+
+Interviewer: Both. 
+
+Mullenweg: Well, Hot Nacho obviously was a mistake. I feel like recently we haven’t focused enough on internationalization. So that’s something I’ve been thinking a lot about. In hindsight, because of the trademark I put under Automattic, in hindsight I should have kept that into something else because it was difficult to move later. Although it ended up working for the best. It was just tricky. I probably would have called WordPress.com something else.
+
+Interviewer: Yeah?
+
+Mullenweg: Honestly, it’s been a blessing and a curse. I spoke with this fellow who used to be the product manager for Moveable Type and TypePad, and he said it was so frustrating, because he’d go into meetings and people would say, they would confuse them, and there was a halo effect, so he’d say oh TypePad can do this, this, and this. And they’d say yeah but WordPress you can run 20,000 plugins. And they’d be talking about WordPress when they’re really comparing to WordPress.com and then he’d say oh Moveable Type is so much more scalable. And they’d say but WordPress.com runs millions of pages a day. And he’s like ahhh. It was very frustrating for them. It frustrates us internally as well when people don’t get the noun exactly right. But I think it’s a little bit complicated so perhaps more [15:00] distinct naming could be good. But I don’t think I would ever change that now.
+
+Interviewer: No. It’s interesting speaking to people in the community, not everybody thinks it was necessarily a bad thing. I’ve spoken to people who actually think using WordPress.com actually helped the growth of WordPress itself.
+
+Mullenweg: I think it has a lot. Because people… WordPress.com has brought many tens of millions of folks who couldn’t start a WordPress.org blog. And it’s the halo effect. As long as it’s a good product. WordPress gets the benefit and vice versa. So, what else. Taxonomy.
+
+Interviewer: That’s what Ryan Boren said as well.
+
+Mullenweg: And user roles. That was actually… that was one of those things that caused me to pull away from development work. Because I had proposed a much simpler taxonomy system. But I committed it directly. So rather than discussing it or [inaudible] ticket as much as I should have or things like that and people took badly to that. And it got pulled out, the feature got delayed, and then we made this much more robust taxonomy system, which ultimately I endorsed, so it’s not like it was against my wishes, but in hindsight, too abstractive. 
+
+Interviewer: So you think you should have stuck to your guns on that one?
+
+Mullenweg: No, I don’t. I do think in hindsight it was a better technical decision, but ultimately having everyone involved with the decision is more important than the particular technical thing. And it’s not like the taxonomy database structure is going to make and break the success of WordPress. It’s one of many, many things. That maybe frustrates it a little and we wish we could do it differently, but ultimately users are relatively abstracted from it, developers can learn it, and we can make it better in future versions. There’s a pretty group of proposals on the table to simplify it, and they’ll get in there some day. Like I’m not worried about it. 
+
+Interviewer: So what did you propose? What was your original…
+
+Mullenweg: A flatter tag system. So it was basically we were adding tags and I wanted to add tags in a way that was similar to how we did categories. And it could have allowed for tags and other forms of tag-like metadata attached to posts, but there was no third, third-level of normalization for the data. So it was less flexible in terms that it was relatively flat. And there was a single combined namespace for it and a few things like that, that were not as good as a taxonomy system. And a lot of people at the time were looking at Drupal. And that’s where we looked, and we’re like ah, look at this… And in hindsight, copying Drupal in anything was probably not the best approach for the future.
+
+Interviewer: Yeah, okay. It’s interesting that that’s…
+
+Mullenweg: Well, at the time it was a selling point. 
+
+Interviewer: What?
+
+Mullenweg: That it had the same taxonomy system as Drupal. Because people loved Drupal’s taxonomy system.
+
+Interviewer: And then was it easier for people to migrate then from Drupal to…
+
+Mullenweg: [18:00] It actually ends up not having… Third-normal form is what it’s called, not third normalization. Third normal form. 
+
+Interviewer: Right. And what do you think was … something that you think hey, we did that really well. I’m really proud of that.
+
+Mullenweg: The vast majority of everything we’ve ever done. When I was working on development super directly, like writing the code for it, I’m very proud of the plugin system, very proud of the theme system, very proud of … those are the two big ones. I’m very proud of WordPress.org. I feel like we see all the warts of it, but it’s really, I think, still better than most other open source project websites out there. I’m proud of bbPress, blogPress [??], the majority of what we’ve done. It’s kind of a weird thing, because I see all the flaws in those - hundreds, and know how they’re terrible in so many ways - but it’s like someone you love. Like you embrace… you know all the things wrong with them, but you deeply love them anyway. Unconditionally. And you know it will be better in the future. 
+
+Interviewer: One of the things that a few people have said that I’ve spoken to was that there was a lot more kudos given to developers than non-developers within the community. 
+
+Mullenweg: Oh absolutely.
+
+Interviewer: And that non-developers felt that they weren’t valued by the project, particularly in the early days. I think that’s changing now, but I was wondering if you knew how and maybe why that was and why that culture developed.
+
+Mullenweg: I would say that’s very typical of most open source cultures. And it’s just that the… it’s less visible, you know. There’s so many hundreds of thousands of posts in the forums from volunteers, but it doesn’t show up on blog posts, it doesn’t change how my WordPress works. It’s a very behind-the-scenes work. But that changed. That’s also one of the reasons I wanted to bring Jane in. And she’s one of the people… someone who’s controversial, she was actually controversial, but at least once a year I bring in someone from outside the community entirely. Sam would be an example this year. And just kind of throw them in the deep end of the pool. With Jane I knew it would be good because I felt like we were weak on design and usability at the time, and also we were weak on female leadership. And so she was able to demonstrate both of those. And brought in a lot more of the non-tech side of it, to gain respect from people. And I thought that was super duper important to have. Because at the time we were more developer-centric than we are now. But the same thing… like I’d love to have… just like we have recent rock stars and things… that should recognize documentation and forum and every other type of contributor. 
+
+Interviewer: Why doesn’t it? 
+
+Mullenweg: [21:00] Why doesn’t it? It hasn’t been done yet. 
+
+Interviewer: We should do it.
+
+Mullenweg: It will. It will. I’m sure of that. I’m also, for example, there’s no… the core developers don’t put their names on functions. Things like that. So within the core core, although it might seem like there was a lot of recognition, we actually would not put our names out there. It wasn’t even in the WordPress source code until relatively recently, the past year or two, it was the credits pages. And I was opposed to the credits page. It was really just the WordPress.org about page had a few names on it and that was it. And that was very much the… it’s not about any one of us, we’re about creating this thing that ultimately is bigger than any of us. And let’s not… you know, graffiti our name all over it. 
+
+Interviewer: One of the other things… so I’ve spoken to everybody, not, almost everybody who was involved with Habari.
+
+Mullenweg: Cool.
+
+Interviewer: And then, I guess one of the… they were dissatisfied with a few different things. One was they wanted… they weren’t happy with the code base. They wanted a more object-oriented code base. And did you ever think about rewriting, or was that just completely…
+
+Mullenweg: Absolutely. Considered it a ton. Ultimately I think one of the under appreciated aspects of WordPress is [inaudible] over the years, has been that its code base, its plugin system, its theme system is designed to be accessible. And easier to understand for people who might not be as well versed in say object-oriented programming. And also when people first learn object-oriented programming, I think they get a little too excited about it. And they want to make everything super object-oriented. Including myself. I went through that phase as well. And when that discussion was happening, I had already been through that phase. So I had built things that were super abstracted object inheritance and things like that and I think that some people assume that I didn’t know how it worked. And so that’s why, if we were smarter developers we would understand how much superior the system would be. But Ryan and I, I mean Ryan has heavy, heavy development chops, but we’d been through that road before and I think it was just more like, we think this will be more accessible. 
+
+Interviewer: The other, I guess disagreement, they had with the project was that they… some people described it as autocratic, other people have described it as a bottleneck…
+
+Mullenweg: Both are true. 
+
+Interviewer: Both are true.
+
+Mullenweg: Yeah. 
+
+Interviewer: I did write down that they…
+
+Mullenweg: Ultimately they wanted a committee to be the final arbiter of decisions for the WordPress community. And I think that comes up every few years. 
+
+Interviewer: Does it?
+
+Mullenweg: Yes. Especially if I get like… if I get drawn away, let’s say more with Automattic stuff for awhile…
+
+[24:00] [Interrupted]
+
+Mullenweg: … and there’s entirely good reasons for it as well. 
+
+Interviewer: Which are?
+
+Mullenweg: If I died, there would be a group of people that could continue it. The theory that consensus builds better decisions than a decider. A single point of failure or decision making. It could be bottlenecks. I was in the Amazon for a month. And there was something that needed my decision to happen. That would be bad. Well if you look at it, while open source projects and non-profits attempt to create committee-driven leadership structures, the most successful organizations in the world to not do. And so that’s always been my belief. 
+
+Interviewer: So what was it like… you had quite a number of core developers leave. Did that have any negative impact on the project in terms of development and also in terms of… ?
+
+Mullenweg: Sure. But it also made room for new people to join.
+
+Interviewer: Did you talk to any of them about it? At the time? Do you recall?
+
+Mullenweg: I believe so. I don’t remember. I’m sure there were blog posts and comment threads…
+
+Interviewer: Yeah, there’s blog posts and comment threads.
+
+Mullenweg: Did they remember any conversations? There’s IRC logs too.
+
+Interviewer: Oh, I found a good IRC log where Owen kind of just stirred it up. That was good [inaudible] we looked at that one together.
+
+Mullenweg: WP Hackers threads
+
+Interviewer: Yes. There’s quite a lot of …
+
+Mullenweg: It’s a lot more active than the mailing list then.
+
+Interviewer: The mailing list was quite heated, actually. In 2005 or six, I think you either wrote on a blog post or on Hackers and you said you wanted to do away with all mailing lists.
+
+Mullenweg: Yeah
+
+Interviewer: It took awhile to get that point I guess
+
+Mullenweg: Oh, they’re still there
+
+Interviewer: Yeah, they’re still there. Why did you want to get rid of them? Why didn’t you like the mailing lists?
+
+Mullenweg: I feel like the medium of mailing list encourages more flaming and heated discussion. And people dig in more than they - and this is true of many discussions - but mailing lists in particular, people are more likely to dig in to their position rather than to consider others. And at that time, it was sort of the beginning of when WordPress came to [inaudible] and so people would want to argue, I felt, argue with me for the sake of arguing. Rather than on the merits. Because there was sort of a… there would be like a power thing, like ah! we proved the co-founder of WordPress wrong. You know, so there’s some, I felt like, the discussions had become very ego-driven. [27:00] So with that case, that plus the taxonomy stuff, I felt it would be better for me to be more behind the scenes and folks who both had more time to engage with those discussions, possibly more patience, to be honest, and maybe sort of less of the baggage of the power dynamics of things would probably be more effective for executing the vision of where I thought WordPress could go than if I were on the mailing list directly or committing code directly. 
+
+Interviewer: One of the arguments on the mailing list that I recall was around inline documentation. Do you remember this? And Rich Bowen submitted an inline documentation patch and he was told that it wouldn’t be going into core because they, you guys didn’t want any inline documentation in core. 
+
+Mullenweg: I don’t recall why. 
+
+Interviewer: He said, I mean, he put it that you’d said it was bloat.
+
+Mullenweg: Perhaps. We were very concerned with performance at the time. Also could have been a day [inaudible] on the list. There was a lot… Nah, I don’t wanna… I don’t remember. But it could have been, because I remember a situation like this, where there was a patch that added a lot of the PHP doc framework without actually filling out the information. In that case, it’s just a little… that is… it’s junk. We shouldn’t have the framework for it unless there’s actually a written thing for it. These kind of arguments weren’t against inline documentation. Now we’ve embraced it pretty fully. 
+
+Interviewer: Yes. It’s interesting to see it happening now, because a lot of things that were discussed in that thread are actually happening today.
+
+Mullenweg: And a lot of it… well maybe not always for the best, but…
+
+Interviewer: Well, perhaps not…
+
+Mullenweg: Sometimes the answer wasn’t no. It’s not… not like that or not right now. Or there’s something more important that we need to fix first. Maybe now that some of those things are out of the way, we can do them again. So it’s also, I think, to an extent that there’s some newer developers with less experience involved and they need to go through some of those mistakes as well. They need to go through their object-oriented phase. Before they come out the other side of zen enlightenment. 
+
+Interviewer: It’s nice to talk to Drew about the inline docs. He was saying that a lot of the people who really haven’t contributed before, it’s an easy way in for them which is great.
+
+Mullenweg: Which is kind of awesome to have.
+
+Interviewer: It is really awesome. So how did you choose who, who got commit access and who ended up becoming a lead developer?
+
+Mullenweg: People who were submitting lots of patches and I got tired of committing their patches. And so I just gave them direct. 
+
+Interviewer: What made them get to, say, lead developer status? Like Westi, or …
+
+Mullenweg: So that one’s kind of a, an unintentional newer thing. When Jane joined the project, she introduced a lot of more levels of hierarchy [30:00] and distinctions between them. That some of which I didn’t even realize until later. Like what a lead developer was versus as committer and someone who could speak on behalf of the project versus not, and then what was she, because she didn’t have commit, but it was [inaudible] I think we can probably simplify that now. But we can leave a lot of those sort of honorifics. 
+
+Interviewer: Do you think that having some sort of hierarchy is important?
+
+Mullenweg: I think it’s really important to have recognition for people. But I think it’s really dangerous to have honorifics in general. Because they tend to be [inaudible]. There needs to be a system for removing it as well as adding it, otherwise people just accumulate them forever. But by human nature, removing one is unpleasant. Or perhaps sad for people because, like they would be a lead if they had more time to work on it. But a new job came up or something like that and they just haven’t been around as much, or a reason to. Well, it’s like, you don’t want to take them off. But they’re not really fulfilling the role any more. So I prefer more to delineate things in terms of roles and responsibilities, which are more value-neutral. So responsibility is, I think, an honor. Because you are being trusted with something. And if you can give responsibility along with autonomy, it’s incredibly empowering and rewarding people who care what they’re doing. And it’s defined. So you can say, like let’s say you were responsible for something, and you weren’t able to do that task. It would be very clear. And you could remove that responsibility without feeling like you’d lost something. You’re just passing it on because you’re not doing that responsibility any more. That’s my thinking on it. And also it’s good to have hierarchy be contextual. So for example, someone who’s a lead developer, including myself, might not be the best final arbiter for decisions on documentation. Among other things. But in practice what happened quite a few years ago, until probably a year ago, was we ended up being a group bottleneck. And in fact, if there’s anything worse than a one person bottleneck, it’s a seven person bottleneck. Because there’s not a clear line of response… the lines can lead to a cloud. And no one in that cloud necessarily feels the power to make the decision without the consensus of everyone. But not everyone has an opinion on it, or if they do, [33:00]  if their opinion conflicts, there’s no clear way to resolve that. And so that’s, I think, committees at their worst. And that’s something I think we should endeavor to avoid at every layer of WordPress, from the top to the bottom. I like for there to be one person responsible for a given thing, and let them designate someone, or delegate the responsibility if they’re unable to fulfill it. So if I ever step down from my role as BDFL, I will choose a single person who will gain that role. And that will just be the next person to do exactly what I’ve been doing. Rather than picking a committee to replace me. 
+
+Interviewer: It’s quite interesting to me to think about distinction between how it’s seen sort of within the wider community. You know, everybody says it’s got to be democratic and consensus. [Inaudible] is the project.
+
+Mullenweg: Yeah, and I think we should try endeavor to make it be more meritocratic. And more inclusive. And honestly, sometimes hierarchies can discourage newer contributors. Because they feel like there’s a clique. You know the biggest, especially about a year and a half ago, the biggest criticism when I’d meet people at WordCamps who weren’t, who were really good developers, it was like… and I’d see the things that I had seen in like a Ryan Boren or a Nacin. Like they really should be involved more. Hey, how come you’re not? And they’re like Well, I feel like it’s like a cool kids club and I’m not part of it. And you know, you guys like travel the world and hang out in cool locations. And I see photos of you guys and you’re having a really good time. But like I don’t really feel that’s like something I could be part of. And so, it’s just… I think that’s iteration against being agile. I like way better the fact that we are able to travel and I get to hang out with some of the core people. And also, we built a better bot. And we communicate more. And we get a lot done at those in-person meetings. But fundamentally, if you’re having a conversation in a room, like you and I here are now, it’s not equally accessible, to someone in a country that might be on a different time zone, that might not be able to afford to fly to wherever we are. Or stay there. Or things like that. Or even if they, maybe we could sponsor them from the foundation, maybe they can’t take time off their job or time away from their kids, or… I think that we should endeavor for the access… for the project leadership to be accessible and responsibility to access to a, you know, full-time job mother of two. As it is to a single, unattached 18-year old, you know, developer. And if we keep that in mind I think that we will live up to our ideals.
+
+Interviewer: So you want as much as possible to be done online. 
+
+Mullenweg: I think it’s totally fine to do things in person. But that’s a decision. It’s a balance. You need to move. Quickly. Ideally. But you need to have decisions documented in a way that makes sense to someone who comes there and wasn’t at the dinner [36:00] where we talked about it. So there’s always a balance between that. And I think with all these things, sometimes we go too far to one end and we say, oh! a little too much, and then we go too far to the other and we say oh! we’re not moving fast enough, let’s do a little bit more. Same thing with leadership, hierarchy, responsibility, accountability, the way development is done, the way decisions are made. All these things kind of pendulum swing between a little bit too much of this, a little bit too much of that. And then we find the Goldilocks. And then we probably keep it for about four months, and then we go a little bit too far to one direction.
+
+Interviewer: So when did you meet your first person from the project? Was that Ryan Boren?
+
+Mullenweg: I met Ryan Boren pretty early, yeah.
+
+Interviewer: And did you feel that changed the dynamic at all? Did you discuss anything in private there that then people felt was happening behind closed doors? Or have you had any sort of negative experiences of that?
+
+Mullenweg: We definitely like, we just geeked out. We talked for hours and hours. 
+
+Interviewer: I can imagine.
+
+Mullenweg: And he was nothing like I imagined. I mean, I met him he was in like an exercise shirt. Arm were… his biceps were the size of my head. You know, he was an aerobics instructor in his spare time, in addition to being a firmware, you know, low-level, assembly code, hacker at Cisco. Yah, I’m sure there’s been phases in the project where, you know, maybe after a [inaudible] probably a lot of stuff happened that then people felt that they weren’t part of. I would say a lot more of that happened more later. Because Ryan and I are both kind of reclusive geeks. We prefer email and IRC as a method of communication. And trac. But when, like for example, the [inaudible] started happening, I feel like that was more of, you know, bringing in a lot more other people, but probably feeling exclusionary to the people who weren’t there. 
+
+Interviewer: I think that’s true. Yeah. One of the other, I guess, criticisms that has come up is that decisions appear to be made not in public at times. And that people did feel, I guess disenfranchised because that they weren’t at all involved with the discussion. They’d see like patches would go in and they’d be like where’s the discussion on this? Maybe if [inaudible] 
+
+Mullenweg: That was a completely valid criticism too. I think that with most of these things, I wouldn’t disagree with any of the criticisms. It’s almost like feelings. Like if you say I feel bad. You shouldn’t say, you shouldn’t feel bad. I’d say something, as a man, it took me a long time to learn. It’s a valid feeling. You’re feeling it. I can’t tell you how you should or shouldn’t feel. If someone feels disenfranchised, they feel disenfranchised. Maybe I disagree with the reason. Maybe I don’t think we should make a change as a result of it. But that feeling is completely valid. And I think that to be, to evolve intelligently, [39:00] you need to be conscious of what caused that feeling that happened. You need to understand it as well as possible. Regardless of whether you make a change based on it or not, you need to understand the feeling to really have the data to move forward. Because otherwise you’re flying blind. 
+
+Interviewer: So what do you think caused feelings of disenfranchisement among the community?
+
+Mullenweg: I think lots of things, valid and not valid, can cause feelings of disenfranchisement. I think… so I’ll say a valid one and an invalid one.
+
+Interviewer: OK
+
+Mullenweg: A valid one is like let’s say a discussion happens at a timed meeting that they can’t be at. Like our weekly chats. At you know, a meetup [inaudible] or a WordCamp, something like that. And there’s a real big discussion that happens. And there might be a chat ticket afterwards, but it probably doesn’t reflect the depth of like a two-hour conversation over dinner. It’s impossible to. That’s valid. Invalid. I would say that all of us, anyone who’s involved with WordPress is passionate about it, because otherwise  you wouldn’t do it. You’re not doing it for the money, we’re not [inaudible] It’s really like, you either care about the mission a lot or you don’t. And I would say a commonality between everyone - we cross demographics and backgrounds and political points of view - is that we really want to make the world a better place through this software. The downside of that is that we want to be involved in every possible project around it. And so then, that’s been something that happens, I can predict the cycle of someone going through. Where they kind of get involved in 15 different projects and then perhaps become a blocker on some of them. And then things stagnate. And then, if something starts to move without you, they’re like, you can sometimes object, and I’ve seen myself do this, I’ve seen, I’ve observed every lead developer of WordPress do this, is there’s an objection, which is probably valid at some level, but what’s really going on behind the scenes is you feel like something is happening without you. That you’ve been left out. So really, what you’re asserting is wanting to be part of it. And to make this thing better, because when it’s better we’re all going to, in fact, pop open the champagne and say wow this is so much better now. But you have to distance yourself from that emotion [inaudible] which is difficult to do. It’s not natural. 
+
+Interviewer: Have you felt like that before then?
+
+Mullenweg: Absolutely.
+
+Interviewer: Can you remember anything specific where you felt I’m left out of this? Because you’re the BDFL you can just say I want to, I want to have my say here. 
+
+Mullenweg: Also can any of the lead developers. I would say anything that appears to have taken longer than it should have, in the WordPress world, has had… that’s been a symptom of it. So, let’s say WordPress [inaudible] profiles, [42:00] as a good example - yeah, that’s a good one - I think that that’s something that has had iterations that have been done before, but then didn’t launch because we were like we think we let the great be the enemy of the good. In a perfect [inaudible] That’s a good example. WordPress.org probably has the most examples of that. And it’s particularly close to my… like that’s very close to my heart, is WordPress.org is something that I’m personally responsible for. And have strong opinions about many of the things on that. So I really have to be conscious about removing myself and giving more time because other people are working on it day to day.
+
+Interviewer: So is that why you, I guess, had Otto to begin with, with Audrey?
+
+Mullenweg: Absolutely
+
+Interviewer: To hire people to work on WordPress.org.
+
+Mullenweg: Absolutely. Otto and Scott Reilly. 
+
+Interviewer: They were the first… well Scott, Scott was much later, wasn’t he?
+
+Mullenweg: Yeah…
+
+Interviewer: He’s only been there like a year and a half…
+
+Mullenweg: I feel like he was a year later. I was only been there two and a half years, right? Maybe three.
+
+Interviewer: Nacin’s been there three.
+
+Mullenweg: Oh. And Otto was before Nacin.
+
+Interviewer: It’s quite a long time now.
+
+Mullenweg: I guess time flies. 
+
+Interviewer: It really does. Do you think if you had started the project when you were thirty, instead of when you were nineteen, that things might have been… like Matt now compared to Matt then.
+
+Mullenweg: Yeah, it would be totally different. I think my biggest asset at the time was time. I just had or made all the time in the world to the detriment of music, to the detriment of my academic career, to the detriment of relationships, personal, and just really it was my whole life. And still is to this day. But, again, the most important thing that I did, and do now, is recruitment. Bringing people in. And I would say that and being like a… a moral compass. But honestly, when you recruit the right people, that really never comes up. Because people say oh, you’re a bottleneck for decisions. It’s very rare for a decision, for people to come to me and say like, Matt, we need your decision to move forward on this. It’s super rare. 
+
+Interviewer: There’s other bottlenecks though. 
+
+Mullenweg: Many others. So that’s one of the things, I think, is a testament to the team though. And I feel like as the people that I brought on mature and evolve the same evolution will happen. As you mature as a leader, you understand that leadership is not making all the decisions. It’s making the team that makes all the decisions that you would have made anyway, faster and better than you would have made them. 
+
+Interviewer: So how did you learn this? I mean, at what point did you realize I can’t do this all myself?
+
+Mullenweg: Oh, doing the opposite. [45:00] You’re trying to do everything yourself. 
+
+Interviewer: Did that ever get you into trouble? 
+
+Mullenweg: Sure. That’s probably why Habari formed. You can’t be good at everything. 
+
+Interviewer: Do you ever write code still? 
+
+Mullenweg: Yeah, I do.
+
+Interviewer: Does it go into WordPress ever? Or do you do stuff for Automattic?
+
+Mullenweg: Most of the code I write is internal. 
+
+Interviewer: Right.
+
+Mullenweg: Because I really like committing things. You know, my bias toward moving things quickly? I just like changing things. But I also realize the responsibility on like on WordPress.com, I could take the site down very easily. And I have. So I prefer, when I code for internal things it’s… the freedom is greater and also the impact if I screw something helps. It’s much smaller. We have an equivalent at Automattic of MC that we have for .org. If I break that, there’s 200 people that it messes up. But you know, 200 people versus 20 million. 
+
+Interviewer: Yeah, it’s probably better.
+
+Mullenweg: And they’re all colleagues. I get a little bit of slack there, where our customers might not give the same slack. And honestly, I prefer, for the things we do with full WordPress, I prefer the process. And I prefer it when people go through that process for doing it. So what I advocate for many things behind the scenes, and directions and things like that, I never do it in a way that doesn’t… I never advocate for someone to bypass the process. I want them to go through and talk about it on trac and propose it and discuss it and debate it, because I feel like that process will create the best possible outcome. And I know that the result of that will be better. Whether we end up doing what my suggestion was or not, often I’m more interested in the user outcome, than a particular way of implementation. And so I’m relatively agnostic. Most architectural… most implementation details is a good way to put it. I have more opinions on architecture and a lot of opinions on the user experience. I’d say that’s kind of the thing, the ingredient. 
+
+Interviewer: Something that I discovered recently was Shuttle. Do you remember shuttle? I guess that was a featureless plugin that was like a UI redesign wasn’t it? As a plugin.
+
+Mullenweg: It was kind of an MP6…
+
+Interviewer: Yeah, exactly. An early MP6. I haven’t done too much reading into it yet, but I was wondering why it didn’t make it into core. Was it a completely separate thing? 
+
+Mullenweg: I don’t recall. I think that - again this is a vague memory - I thought that the problem with the WordPress dashboard wasn’t aesthetic, it was functional. And that’s why [48:00] I engaged with Liz Danzico, and Jane Wells, Jen Mylo, to really focus on the functional aspects of it. And that was probably it. I feel like Shuttle was probably more front end [inaudible] like MP6 is now explicitly. Because I feel like a lot of the functional things work pretty well in WordPress and we wanted to do an aesthetic refresh. And bundling it in would have taken twice as long. MP6 has already taken a year to get in, so. I would have taken three years, if we had bundled them together. 
+
+Interviewer: What about the happy cog redesign? How does that [inaudible] the interface changed fairly quickly after that.
+
+Mullenweg: I think what it was, Liz was part of the happy cog redesign.
+
+Interviewer: Right
+
+Mullenweg: So part of that was we did an aesthetic refresh, but it was also a functional refresh. But once we started using it, if felt like a step backwards in some ways. I think probably because WordPress users really value their flexibility, and we removed some flexibility. And so when we did crazy horse, a lot of what we added was drag and drop of the panels and adding and padding columns and things like that. That added a lot more customization, people loved. Because it wasn’t a one size fits all. Especially WordPress.org users tend to really value their customization.
+
+Interviewer: Isn’t that then going against decisions, not options? 
+
+Mullenweg: That is a balance. You know. Decisions not options. You could make some really bad decisions pointing to the decisions not options creed. And that’s something that I advise everyone involved with WordPress frequently. Smart people, which we have in abundance, can rationalize anything. That’s I think one of the most important things to remember and keep in mind in life. Because that means that you can probably rationalize a lot of things. So you have to self-recognize when perhaps you’re rationalizing something. And you might be really good at it and it’s really fun and you can win by force of argument or by force of rhetoric or by any number of ways, but it doesn’t mean you are right. 
+
+Interviewer: Yes. That’s true.
+
+Mullenweg: And some times I’ve been, I’ve won. And in hindsight I don’t think I was right. 
+
+Interviewer: Like when?
+
+Mullenweg: Any number of decisions. Early days of WordPress.
+
+Interviewer: And no examples?
+
+Mullenweg: [51:00] Maybe some of the early stuff we did with themes? When Kubrick came in. In hindsight, the code there is pretty messy in a lot of ways. And a lot of it was hard coded and things like that. And so there were objections to that. And, you know, I wanted to get it in. It was clearly better and the theme system would change how we do everything. And I think ultimately that was right. But the, and I’m glad that we put it in when we did and iterated on it, but some of the things that I advocated for… or advocated against, were things we later ended up doing. 
+
+Interviewer: In terms of the theme system
+
+Mullenweg: Oh, absolutely. In terms of how themes work. 
+
+Interviewer: I shall try and find some of these [inaudible]
+
+Mullenweg: If you ask me about a specific instance
+
+Interviewer: I’ll track down a specific instances. That’s my job. OK I think we should finish because 
+
+Mullenweg: Can we do rapid fire? Do you have any quick ones?
+
+Interviewer: Not really. I want to get on to Automattic and that’s probably going to take a while. We have three minutes. But that was good thank you.

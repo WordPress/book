@@ -1,0 +1,267 @@
+Keywords: Unique Blog Designs, Block Magazine, Your Revolution, GPL, Jetpack, WooDojo, JigoShop, WooCommerce
+
+People Mentioned: Brian Gardner, Tony Schneider, Jen Walls, Mike Jolley, Jay Koster
+
+[Transcribed on March 5, 2014 by Patrik Ward]
+
+Interviewer: It’s the 4th of March and I’m talking to Adii Pienaar. Hello, Adii!
+
+Pienaar: Hey, Siobhan!
+
+Interviewer: So can you tell me when you first started to use WordPress?
+
+Pienaar: It was 2006, and the start of it was literally — I wanted to have my own blog. All the cool kids had blogs. I can remember one of these sophomoric reasons, I was scrolling through trying to find a blogging platform, and I came across WordPress and I had a look and I thought, “Ah, this is going to be too technical. I can’t do this.” After cycling through so many of the other crappy alternatives I circled back to WordPress and that’s the one I picked and committed a large part of my life to. Yeah, that was 2006.
+
+Interviewer: So why didn’t you go for a hosted platform like Blogger or something like that?
+
+Pienaar: I honestly don’t know at that stage! I think part of it was down to the challenge — wanting to pick up a new skill. I’ve always been into dabbling in a bit of HTML/CSS/PHP. I think I’m trying to recollect memories, but it was partly the challenge and it might have been that I actually didn’t know about hosted platforms at that stage.
+
+Interviewer: So what was your background?
+
+Pienaar: At the time, I was actually studying accounting and I eventually did an honors in business management. But I had always been — my dad owned a computer hardware shop when I was a lot younger, so he’d always expose me to computers. He dabbled in a bit of code every now and again when he had time, and I can remember that he had developed his own carrier system for the store, so I had always seen him coding, and I’d always had a computer in my room, which probably made me a bit of a geek.
+
+I grew up dabbling, and DOS, just kind of programming my own menus and stuff. So I’ve always been intrigued about that — about computers — and I think ultimately, when the internet came along, or when access became more mainstream, in South Africa I was actually fascinated by this thing called the internet. I saw all the possibilities that surrounded it.
+
+Interviewer: So did you start with installing a pre-made theme?
+
+Pienaar: No. What I actually did is I downloaded about 2, 3, 4 free themes and I started hacking together my own theme. I actually didn’t go live until I had my own. And when I say hacking my own theme, I meant learning the template thing in general and copying and pasting from whatever themes, until it did what I thought it would do.
+
+Interviewer: Was there much documentation in the theme at that time?
+
+Pienaar: The answer’s probably no, but if there were I can’t remember consulting it. I was literally learning from trial-and-error and copying from other themes.
+
+Interviewer: So you’re like buying something from Ikea and putting it together without the instructions.
+
+Pienaar: That was about it I think.
+
+Interviewer: How did you find it? Was it easy, was it difficult? Did you have any major problems?
+
+Pienaar: All things considered, I think it ended up being much easier than I originally thought. It did take me a bit of time and it wasn’t the easiest thing I’ve ever done, but neither was it the most challenging thing that I’ve ever accomplished.
+
+Interviewer: So how did you then start to release your own themes for public use?
+
+Pienaar: This was late in 2006. My first blog that I created was something called the Cool Crowd, and it was around trends and stuff, and it never kind of worked. From there I actually created my own blog and I started writing about entrepreneurship, about freelancing — because that’s what I was doing at the time — and WordPress. It was within either late 2006 or early 2007 where I realized that I could release free WordPress themes and it would create traffic to my blog, which I could convert to actually doing freelance stuff like consulting on WordPress for clients.
+
+Interviewer: So was that the initial motivation, to generate traffic to the site?
+
+Pienaar: Yeah, totally. The biggest mistake I probably made was that I never archived anything about my old blog, so neither the live content [inaudible] but I can remember at one stage, I was pulling in 3000 unique visitors a day, which is a hell of a lot more than I have today, yet I have a bigger reputation or audience than I did seven years ago. That’s the thing: your free themes just created so much traffic at that stage.
+
+Interviewer: So how did they create traffic? Was it from people searching for themes, was it from the links?
+
+Pienaar: I wish I could tell you! Another one of my mistakes was not understanding analytics. I think it was literally a case of — there weren’t that many great WordPress themes around. Not that I necessarily think that the free stuff that I was putting out there was great but — you could literally build anything that floats. Even the shittiest boat. WordPress was already this wave that was going to be there, you just needed to get on the wave. And I think that was literally it. There was increased exposure. People were talking about WordPress themes.
+
+Yes, people just looking for great alternatives, whether that was via search engines or just via the literal interested ecosystem that was boiling around at the time that was just word of mouth. But it definitely worked. People came to the site, people downloaded, people used it.
+
+Interviewer: So did you include design credit links in your themes?
+
+Pienaar: I believe so. I believe the first themes definitely did. They linked back to my site. And again, I still don’t understand SEO or page ranking or stuff, but this was something that worked for WooThemes initially as well, which was that credit link. In hindsight, I can now see why the cool kids would actually growth hacking. My blog — and then as WooThemes eventually got so much traffic from those links, and Link Authority I think — and Google gave us a lot of credit in those first couple of years, for having those “Designed by Adii” and eventually “Designed by WooThemes” link in the footers.
+
+Interviewer: What did you think about people who were selling those links?
+
+Pienaar: I never considered that. I always felt that was spammy at least. It provided no context, and no value to the ultimate user who downloaded the theme. I definitely considered it a black hat practice.
+
+Interviewer: Some of the people who run theme shops, they started out by doing the sponsored themes thing, which seemed to be the first attempt to make money with themes, so I was interested to know if you tried your hand at that.
+
+Pienaar: Not at all, and as far as I can remember that never really was a consideration either. I can never remember that becoming very prevalent within the space. But as I said, the kind of people who were advertising through those links just seemed like so un-contextual and un-credible that I never thought that it was a viable consideration.
+
+Interviewer: At what point did you start to think that you could make money from themes?
+
+Pienaar: It mostly came down to — after Brian Gardner started making money with theme, I thought, “Well fuck that, I want to make money as well!”
+
+Interviewer: Was your first one premium use theme, or did you try with other themes first?
+
+Pienaar: There were two themes that I did before that. One was called a very sexy name: Block Magazine, and the other was Your Revolution, and both of those I actually didn’t even sell on my own site. I actually sold via a company called Unique Blog Designs. Those were the first ones, and they did nothing more than what the free stuff was doing that I put out there. The first real theme that I actually think I did was the original Premium News, in November 2007. 
+
+Interviewer: So your blog is still on archive.org, so I’ve been able to read it, and you initially were going to call Premium News theme “The WordPress Magazine”, but in a blog post you said that you’d been, “speaking to a prominent figure in the WordPress community over the past fews days, and he has alerted me to the fact that Automattic might not be too keen in allowing me to call my new venture The WordPress Magazine,” so I was wondering who you had spoken to and what they had said.
+
+Pienaar: The individual was Tony Schneider, but WordPress Magazine wasn’t actually a theme. WordPress Magazine was to be a kind of industry publication. If I remember correctly, the only thing Tony really said was that they prefer for people in the community not to use WordPress in such an obvious way within their own branding, just to separate the brands at least somewhat and not automatically tie and lump Automattic or WordPress into something that they ultimately have no control or influence or whatever over. So it was very amicable, and I totally understood it.
+
+The project that ultimately never launched — I don’t know why, I can’t remember — but that was the gist of the conversation.
+
+Interviewer: So it wasn’t trademarked at that point (WordPress), so were you not put out at all that Automattic was able to use the name and you weren’t?
+
+Pienaar: No! I can see and I can understand the reasoning for not wanting me to use the name. I’m sure if I wanted to — and I didn’t even check whether the name was trademarked for example — but I’m sure if I wanted to, I could have been that rebel. I was at the time, but this didn’t seem like a fight worth fighting, or even an argument that needed lots of evidence to substantiate any one decision. It was just obvious, or just amicable and civil, “Hey guys, what do you think of this? Okay, you don’t like this. I did ask for your opinion, now you’ve given me your opinion, we’ll stick to that. If I didn’t care about your opinion I wouldn’t have asked from the start.”
+
+Interviewer: So you asked him?
+
+Pienaar: Yeah, as far as I can remember.
+
+Interviewer: And what was a fight worth fighting?
+
+Pienaar: Initially the GPL was a fight worth fighting, but in hindsight not very many of the fights that I actually fought back then was worth fighting to be brutally honest. I think I was a little bit of a hothead, and I tend to like an online argument, which is the worst kind.
+
+Interviewer: If you could put yourself back in the head of Adii back in 2007, 2008, 2009, why was it worth fighting against the GPL?
+
+Pienaar: I think because there was a blatant and inherent misunderstanding about it in general, from understanding the economics of open source software to understanding intentions. For example, one of the things that I can remember over and over again, it doesn’t matter which words Matt would use when he was writing about GPL and WordPress and WordPress themes at the time, the message that I always got was, “Matt doesn’t want me to make money.” Again, in hindsight, that’s absolutely absurd, but it had that kind of defensive nature to it. So every time someone says something, you immediately take it onto yourself like, “This guy’s out to get you.” Which obviously wasn’t the case.
+
+I still maintain that there was a blatant misunderstanding and a big communication gap between everyone that was pro-GPL and everyone that wasn’t. I think that the biggest challenge was that we were actually saying things that sounded contradictory, but things that could (and would eventually) live mutually beneficially.
+
+Interviewer: So what kind of things were you saying, other than that, “Matt doesn’t want me to make money”?
+
+Pienaar: So from my side at the time it mostly came down to the right to protect your work and being able to say, “If I’m going to create something, and I’m actually creating my livelihood based on that, I should at least have some protection. I shouldn’t have to give this away for free, I shouldn’t have to make it easier for someone else to resell or redistribute my work, because it is still my work.”
+
+Interviewer: That’s an interesting challenge with people from a design background, who very much believe that their design is their own and their name should be on it and they own it, and then people from a coding background where it’s much more about sharing code. There seems to be various challenges around that.
+
+Pienaar: Yeah, so again I can totally kind of back up that statement. This is something that I’ve only learned much much later in my life, where I now understand these things. The GPL to me today is a non-issue, but hence why I say back then there was just this massive miscommunication around the issues at hand. I definitely think my age and immaturity sparked a few additional debates that didn’t end up being conducive to anything.
+
+I think how designers and how design and code just generally kind of differs, and how the people that create them, what their perceived value is to work and to share or give that away. I totally get that. At that stage, I would definitely classify myself more as a designer than a developer.
+
+Interviewer: Why do you think it was more of an issue around themes than around plugins? Themes seem to have been the battleground where many things were fought.
+
+Pienaar: I think just because themes were making money and plugins weren’t at that stage. Paid plugins, at least, came much later than paid themes. So I think that’s what it came down to: just natural, every day capitalism or greed or whatever it was. Livlihood. I can’t necessarily call it livelihood in much more than principle, because I was a student at the time so the money I was making from themes weren’t my livelihood, even though I was trying to create a business. It wasn’t like I was going to have to sit on the street and beg if this money just went away completely.
+
+I think that’s the thing. Once you are allowed or enabled to build a business, or once you’re enabled to have something, and then someone says you can’t have this anymore, you want to protect that. I think that was, very simply, why themes created that — or started that conversation at least.
+
+Interviewer: How did your sales grow over time from launch? How much money were you actually making from premium use themes anyway?
+
+Pienaar: I can remember making 5 or 6 sales on day one, which was actually fantastic. I think in those very early days, I think in the first month, which was a full month, I probably made $3,000, and then the months after that it definitely flattened out a bit, but it was always around that mark for that individual theme at least.
+
+Interviewer: That’s pretty good for a student!
+
+Pienaar: That’s incredible for a student in South Africa, with the exchange rate in my favor selling in USD! It definitely felt like this was something real, this was something that I could work with.
+
+Interviewer: Did you at that point think, “Hey, this is something I could actually build a business on”?
+
+Pienaar: No! No, no!
+
+So this was November 2007, and that was my final year at university, and earlier in that year I actually accepted a corporate job to start in January of the following year. I started the job, I lost it six weeks into the job, and all the while I was making money on the side from the themes. I had started working with Magnus and Mark, and we were collaborating on a few different themes, and this thing was growing. Even when I quit my job to spend more time working on these themes, and eventually rebranding and calling that effort WooThemes, I still thought that I was going to build a business around the custom design/development stuff, around consulting. 
+
+That’s what I thought the business was going to be, so I think in the first year at least I was serious about the potential, and serious about the opportunity around WordPress themes. I can’t remember when I realized that this is the business, and not that this is just a revenue stream, if that clarifies my thinking at the time.
+
+Interviewer: Why did you think that custom development was a more valid business?
+
+Pienaar: I think at the time — probably prestige. Being able to say, I have X, Y, and Z as clients. That still has a nice ring to it, and at the time I was still learning about online business and how technology changes the traditional. Consulting was a concept that I was obviously much more familiar with, compared to creating and selling a product. Maybe there was a bit of a disbelief in what could be possible with products. I don’t know. Consulting probably just had that prestige and safety, maybe even.
+
+Interviewer: Did you do any consulting or custom development? Even as freelancer or with WooThemes?
+
+Pienaar: So as a freelancer I did loads of it. This was one of the biggest reasons why I ultimately ended up releasing Premium News themes. What I learned from that year that I was doing consulting work, was that I was doing so many cool things specifically for clients, but stuff that I couldn’t replicate. The free themes I was doing was purely because the application wasn’t generic enough for someone to be able to use it as an off-the-shelf product. That was the initial idea and aim with the original Premium News: I want to build some of these things that I’ve been doing into a theme that I can actually distribute.
+
+I just had this notion at that stage that people would actually pay for it. In short, I did loads of freelancing, at least for the first two or two-and-a-half years.
+
+Interviewer: So why did people love magazine themes and news theme? Your theme was at the start of that period where everything was a magazine theme.
+
+Pienaar: I think it was different. I think it said something about people’s perception of blogging, something about, if, by purely changing the design of your blog to look more like a traditional or a mainstream online publication, you are adding a layer of sophistication. That’s what I think it did. I think it added professionalism and sophistication. And people liked that because maybe they felt that nobody’s going to take a blogger with a personal blog seriously.
+
+Interviewer: So in 2007, what would you say distinguished a premium WordPress theme from a free WordPress theme?
+
+Pienaar: If I use original Premium News by example, and if I just use and reference my own stuff, the difference between that and the free stuff was literally down to strategy, which was mostly throwing everything and the kitchen sink into at theme. The biggest differentiator was the original theme options. That was the first theme that I ever did that had theme options. It made the setup a little bit easier without having to touch code.
+
+It had a couple of nice jQuery stuff. Very superficial, very invaluable in hindsight, but it looked neat and people seemed to like that.
+
+Interviewer: How has that changed over time?
+
+Pienaar: Well just in terms of high-level strategy, initially it was all about how much I can get into these themes, whereas towards the end of my involvement with Woo last year, the strategy was complete minimalism in the theme itself, abstracting important functionality into specific plugins that’s there for a reason or purpose if you need it. So not forcing you to use it just because you want a theme.
+
+That’s the biggest evolution in a decent product strategy or picking features.
+
+Interviewer: Did you ever consider putting the functionality into plugins when you started out, or was that just not even a concern?
+
+Pienaar: I wouldn’t say it wasn’t a concern. It was probably more a case of my lack of skills. I just didn’t have the perceived development chops to put a plugin together. So, no. But I think in general, even within WooThemes, I can’t take credit for eventually moving functionality into plugins. That was the decision in a campaign led by the guys that were much more gifted than I was. 
+
+In those early days, no. Plugins were something that someone else did. It wasn’t something that Adii was ever going to do.
+
+Interviewer: All of the other theme developers did the same. Everybody was putting all of their functionality into the theme. I’m quite interested in whether that was something that just happened or whether someone started a trend and everybody else started doing it, or whether anyone actually considered putting the functionality in the plugins. Everybody’s doing it now.
+
+Pienaar: I think there was a bit of a sheep mentality around that. So as soon as someone does something that was successful, people at least in the short term adopt that exact same approach, especially if it pays off to do so. So they don’t even question the underlying considerations. Those considerations are indirectly validated by this person having success with it, so I think with those early years within WordPress — with the themes at least — whenever someone prominent did something that seemed successful, loads of other people would do it just for that fact, because it was successful.
+
+Interviewer: I guess that happens everywhere in life.
+
+Pienaar: Sure, exactly.
+
+Interviewer: Something that I wanted to ask you about was that you seem to have a very drastic change of opinion about Matt. In early 2008 you talk a lot about his genius and his kindness, but later that year you talk about his hypocrisy. What had happened to change your mind? Or if something had happened during Matt’s trip to South Africa?
+
+Pienaar: So 2008 was the first time I met Matt in person. I remember it was the first WordCamp Cape Town, and I can remember being asked to speak about premium themes. Obviously, having had these heated debates about GPL online for weeks, and Matt being involved with them, and knowing that — or at least my perception at the time — that Matt was definitely against this, and I was such a criminal in his eyes. And then having to stand up there with him in the audience was intimidating as hell.
+
+I can’t remember…so, meeting Matt in person for the first time, definitely didn’t make matters worse. It was the case of getting into an argument or anything like that. Instead, I think what’s helped — at this has helped me every single time I’ve met Matt since — in a face-to -ace conversation with Matt, I’ve always gotten a more realistic view of who this guy really is and how that influences the things he says online, the things he stands for, and especially at that stage how it influences his reasoning around the GPL. I think the timing in terms of having my perception of Matt go from bad to worse was again what we spoke about earlier, just having this massive gap in communication.
+
+Again, I was being defensive and trying to fight for what I thought was mine, and I don’t think that I was actually being either rational or reasonable in terms of at least trying to understand the merits of where Matt was coming from. Obviously, I turned that around and made Matt into the villain, which was absolutely ridiculous.
+
+Interviewer: I wondered that you had talked about there being hypocrisy, and I was wondering what that hypocrisy was, or where you perceived it to be.
+
+Pienaar: I’d be hard-pushed to remember the exact same thing. I’m happy to say this: not everything that Matt or Automattic have done and my whole involvement in WordPress has always been 100% congruent. There are definitely grey areas where things aren’t as obvious or transparent or democratic as they’re supposed to be.
+
+A great example is, and I can’t go into the technical bits, but the kind of stuff around the liberties that Jetpack has compared to other plugins that want to do similar things. That’s a grey area in my opinion. I think ultimately — I’m trying to proxy the way I see things now all the way back to 7 or 8 years ago — I think that’s what it came down to. There are just so many grey areas, and the perception that on the one hand you had someone or a group of people that could literally just use those grey — they were kind of benefitting from the grey areas, and bullshitting all the benefits that I was getting from the grey areas, rightly or wrongly. So I think hypocrisy in that since just came from that notion; having those unquantified areas that still just needed to be figured out, just needed to mull around for all patios.
+
+Interviewer: Can you tell me about one of those grey areas — not Jetpack, but from way back when, and maybe how it’s been resolved?
+
+Pienaar: Or not resolved, right?
+
+The one that immediately comes to mind is — I was with WooThemes about two and a half years ago, we started creating a plugin called WooDojo, which was — I need to pick my words here — somewhat kind of a gateway into other Woo products, kind of a catch-all. Trying to get that submitted onto the repo was just torturous. We couldn’t get feedback from any of the lead devs, we couldn’t understand who was reviewing plugins, why this wasn’t being approved, or any of that. The perception is, “But who approves something like Jetpack to go online? The same people who are telling us that we can’t get this approved.” 
+
+It was just one of those grey areas at the time. Now I can somewhat understand the intricacies involved and why that happened the way it did, because I’ve since had conversations — the submission guidelines got changed as a result of that situation. At the time, it was just a grey area and for six odd months, we were trying to operate within the grey area, but we got no transparency, we got no proper feedback, and we just didn’t know. That’s something that I think perpetuated itself often in WordPress, is literally where it is open source and it’s supposed to be transparent, and someone is supposed to be able to say what this person, or those five people decide that because the community voted for them or whatever the case is — but that’s not always the case. Then there’s the perception that somewhere along the line, there is a puppet master that just pulls strings in whichever way, and I think that notion — and again, it’s irrational, I definitely don’t think that Matt is a puppet master just pulling strings at all, even though he’s obviously got great influence, but back then in my mind, there was this evil puppet master, Matt was the evil puppet master, and there were just things beyond my control that were influencing things that were trying to force the GPL down my throat.
+
+Interviewer: So why wasn’t WooDojo allowed, but Jetpack was?
+
+Pienaar: So what Nathan eventually said, and the reasoning that I can settle on, was that WooDojo can be allowed if — well, firstly it needed to actually have functionality itself, so it can’t be just a distribution platform. Secondly, it couldn’t distribute code that is hosted elsewhere, so we wouldn’t be able to distribute paid stuff through it, because they needed to be able to audit and vouch for that code, so they obviously have a kind of repetitional management thing, or consideration there. So that was the reasons we got eventually.
+
+As I’m having this conversation, I totally get that. I think there’s ways around it, I definitely thought there were ways around it at the time, but at least now I know. That’s not a grey area for me. I don’t have to agree with it necessarily, but it’s not a grey area anymore. It’s not something I need to fight. It’s not something I need to get into heated debates about online.
+
+Interviewer: Okay, I’m going to ask you to think back to 2008 again. In December of that year, 200 themes were pulled from the repo. I was wondering if you had any themes pulled at that time. Do you remember?
+
+Pienaar: No, I don’t think so. I don’t know whether I actually had any themes — I never had any themes on the repo, or if I did I might have had one. As far as I can remember, WooThemes definitely never had any themes in the repo, so no. We were totally unaffected by that, and grateful that we were. This obviously just fueled the same kind of notion that, this is what happens when you GPL your stuff, which is a ridiculous conclusion to that situation. But no, we were totally unaffected.
+
+Interviewer: Did you have an opinion on it?
+
+Pienaar: I can’t remember the merits of the situation, so I probably wouldn’t comment beyond the fact that we were grateful for not having given someone — anyone — that kind of control over the stuff that we were putting out there.
+
+Interviewer: So in your post about going GPL, with WooThemes going GPL in 2009, you said that WooThemes would only do it whenever you felt comfortable with it. So what did it take to make you feel comfortable?
+
+Pienaar: I think mostly the realization that people were pirating and redistributing the stuff anyway. It didn’t even not have a significant influence on the business, it just had no influence on the business whatsoever. There was just no difference.
+
+Maybe it’s kind of the understanding that we had built something that is great to them, then the code or the license of that code. That just creates a sense of security and safety, which made the decision easier to go to, to freely adopt the GPL.
+
+Interviewer: Were you nervous about it, or were just totally like, “This is fine, we can do this now, it’s no big deal”?
+
+Pienaar: So by that time I would have probably said it was a decision that had been percolating in our minds for months. Eventually, announcing it was such a mechanical non-issue, almost purely because for months at that stage after having that realization about piracy, and the business we’d built, this wasn’t going to be an issue. That was literally what it came down to. From that stage onwards, the GPL again never was an issue. It was never something that I ever felt threatened about or concerned about in any which way.
+
+Interviewer: What do you think of your earlier opinion of the GPL then?
+
+Pienaar: It was uneducated and immature. It was uneducated in the sense of not full understanding open source and all the principles behind that and all the history. Not understanding the various cogs in terms of business models that’s involved with that, and holding steadfastly to the traditional notion that this is completely foreign, it doesn’t make sense in a capitalist world, all of those things.
+
+I was wrong. I had absolutely no idea what I was saying, and the things I was saying came from — the root cause being this feeling that something that I had had was being attacked, which wasn’t the case at all, but that was the feeling and that just kind of sparked this uneducated blabber about why the GPL is a really bad idea.
+
+Interviewer: How did it affect WooThemes whenever you went GPL? Did it have any impact?
+
+Pienaar: Nothing. Nothing. If I graph all of the various data we have, from revenue to traffic to online mentions to whatever you wanted, throughout the journey, you’d probably look at the months around that announcement at least, and you’d just see not even a shift. Not even a 5% shift. Nothing. Going GPL just had no impact on business metrics at least.
+
+I do think that what it did do, though, was something that is hard to quantify, at least directly, but it did change the mindset within the team. After that, we worked on menus, contributed that to Core, and that did spark a new culture within the team, which was to embrace open source. To that extent, I think that going GPL was the start of a new mindset, but in terms of the business itself — and obviously that mindset, in the longer term, obviously influenced the business, and did move the business metrics, but just adopting the GPL in the short term, that singular decision had no affect on the business itself.
+
+Interviewer: Can you tell me about the process of whenever WooThemes menus ended up in Core? Were you approached about that, or did you suggest it, or how did that work?
+
+Pienaar: We had started working on it, and I think we published it on a blog, and I think — if I remember correctly — Jen Walls had reached out, and said that they were working on something similar for Core, but they had hit a roadblock and not made as much progress as they had hoped, and they really wanted to do this. And she just asked whether we would consider contributing this to Core. 
+
+It was a fantastic opportunity. At the time, we were already pretty far along, even though the roadmap from there on in was kind of extensive as well. But we were definitely approached about it after getting at least a Beta version together at that stage.
+
+Interviewer: What was the process like of working with the Core team?
+
+Pienaar: Excruciating.
+
+Interviewer: Why?
+
+Pienaar: I think partly — and this became evident later in the process — so what we ended up doing eventually was to give the Core team and the lead devs (I can’t remember who it was) but basically give them the code and carte blanche to implement that in whatever way. The design committee environment, with many more voices and opinions in the room, just made it a bit of a tedious process, and a process that we weren’t used, at least on internal projects.
+
+So from our side it was a bit of a foreign thing, which I know made us frustrated. Again, I think that was just part of the learning curve of understanding how open source [inaudible] how it works and how you collaborate within such an ecosystem.
+
+Interviewer: Can you tell me about your decision to fork JigoShop?
+
+Pienaar: What do you want to know about it except that it was a no-brainer?
+
+Interviewer: Why was it a no-brainer?
+
+Pienaar: It ultimately comes down to two things. By that time, I had been working with Jay and Mike on some other stuff. I had gotten to know them, and this was literally just something — the notion of them joining WooThemes and working on an eCommerce plugin was something that popped into our conversations. I was infatuated by them at that stage. Very much so. Much more than I was interested in any line of code in JigoShop. So that’s the first notion, was saying that I had identified two talented individuals and I wanted to work with them.
+
+The second part of it was to figure out how to make that happen. That’s why, initially, we tried to — after convincing Jay and Mike at least of the merits of joining Woo — that’s why we offered to buy JigoShop outright. The creators didn’t agree to it obviously, and thereafter the only option — well, I guess we had the option of starting from scratch, but we also had the opportunity to use open source code to our advantage to build something of incredible value, especially considering that we had taken the Core team along with that dream of building something of incredible value.
+
+Interviewer: So I guess the GPL had a more beneficial impact than anything else?
+
+Pienaar: Yeah! If I had to kind of draw the picture in hindsight, then totally. Forking JigoShop and creating WooCommerce was a pivotal moment within WooThemes’ history. It created a new trajectory and a new direction for the company, so totally yes.
+
+Interviewer: What do you think about the future of themes? Where do you think the theme space is going?
+
+Pienaar: I think that companies or individuals that provide only themes, I think everyone will continue to struggle — not necessarily have decreased revenues or whatever but the theme marketplace definitely has very very sad traits, and it’s definitely become more of a  subjective thing. So, saying I can pick any one of about twenty themes, I know the authors of all twenty themes, code quality is similar, feature sets is very very similar, and the only real difference is down to the design. So that’s an interesting challenge to solve.
+
+I think if I were an independent theme provider today, starting something new, I would probably focus on integration and supporting integration. For example, I’m going to put a theme out there, I’m going to make it compatible out of the box with something like WooCommerce, I’m going to make it compatible with a membership plugin, I’m going to make it compatible with an [inaudible], I’m going to make it compatible with other SaaS solutions, whatever the case is. That will probably be the thing where I try and find a competitive advantage. Definitely not reinventing the wheel.
+
+I think there’s value in that. I think every website — every WordPress-powered website — you have the option of using so many of these different tools and stuff to augment whatever you’re doing. But integration is still not always obvious or easy, especially for non-technical users. So I still think that there is perhaps some space to explore that.
+
+Interviewer: Excellent. Well, let’s leave it there. Thank you very much. 

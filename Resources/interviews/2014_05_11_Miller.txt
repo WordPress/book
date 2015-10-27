@@ -1,0 +1,343 @@
+Interviewer: I’m talking to Cory Miller on the 11th of May, 2014. Hi Cory.
+
+Miller: Hey.
+
+Interviewer: So can you tell me first how you first got involved with WordPress?
+
+Miller: It was about 8 years ago and I was actually using Blogger to, I started a professional blog around my career at the time. And I was using Blogger for a couple of months, and this was like the summer of 2006 I believe. And I used Blogger for a couple of months and it was just limiting, and I found this thing called WordPress, stumbled on it. I, I don’t even remember how I found WordPress but it was obviously gaining some traction. And so I moved my site over to WordPress and never looked back.
+
+Interviewer: Yeah?
+
+Miller: So it started as a, a professional blog, and I was not a web designer at the time, I just wanted to blog and WordPress was so elegantly simple for me to use. You could just click write, I think it was the tab write, write post or something, at the time, and it was like one of the 2.0 dashboards at the time, and so elegant, so simple, it empowered me to publish my thoughts, opinions, ideas, on, on the web. 
+
+Interviewer: So what was your job at the time?
+
+Miller: I was a communications director for a church actually, at the time. And I was blogging around church marketing, and my, my blog was church communications pro dot com. I had my personal site since 2-, 1998 I think, and my dom-, domain cory miller dot com, and I was using Blogger for that and quickly switched over to WordPress too, but that wasn’t really, it was pretty, fairly stagnant. And, so, WordPress empowered me to, I got my blog, and shared my ideas with the world real easily, because my pain at the moment was, you know, I put a copyright thing in the footer, and if I wanted to change that I had to that on, you know 100 s-, 100 pages or whatever. WordPress had this thing called, you know, a database somehow would magically do this for me. Which was so cool. So I was doing the blog, I mean I was blogging like a crazy person at one time, probably 3 or 4 posts a day, got a lot of traction out of it, got some good links and tra-, you know, traffic coming in and things like that, and notoriety in my career field at the time. And I wanted to start to tweak my theme design, and so I had to learn, you know, I knew very basic HTML kind of stuff, but then really getting into CSS. And I’m a learner, I love to learn, and so that was just kind of spurred this interest in learning what, you know, I could do on the web. And WordPress made it so easy I could, I could hack stuff, you know, push save and if it broke my site I could fix it real quickly through ftp or something like that. And it was my tool for, for learning web design and that what’s I tell people, it’s like, it’s such a fun tool to understand how to do cool stuff on the web.
+
+Interviewer: What did you think of the theming system at that time?
+
+Miller: The theming system in WordPress was awesome, I thought, because you could just upload and activate [3:00] or whatever. But the, the theme market in general was pretty sparse. There was good themes out there, but there, there, there was few and far between. And so, you know you kind of got what you, you know, paid for, which is free, and so I just found a couple of themes I like and you know I think it’s like everybody does today, changes theme every other month, and I would you know pick the new flavour, and activate it, and tweak it and hack it, and mess something up and re-upload it. So the theme, the theme space for WordPress was pretty sparse in that the theme directory was the wild wild west. It was a mess, it was a true mess. And I found a theme, eventually, by a guy named Brian Gardner, who we all know, and I loved his theme, I loved his design sense, and really still learning, and I went to his site because I, you know I liked his work, and he continued to put out some new themes and stuff. And then I noticed that we had a lot of parallels, a lot of similarities and interests and stuff, and I think I just probably hit the contact form or found his email and emailed him. And we, you know, pretty quickly struck up this friendship. He was doing cool stuff way, you know, ahead of me, and I would say I want to do this, how could I do this, and he’d kind of help me out and stuff. Eventually I was like I’d really, you know, like to learn by just doing a free theme. And so I found a blank theme that someone had put, put up and I tweaked it and, you know with CSS, and zipped it up, put it on a theme directory, and announ-, and made a sus-, submission to Weblog Tools Collection by Mark Ghosh. Love Mark, Mark was critical to my first success in WordPress. And, so I would submit everything [inaudible] and that first one just took off, and I was amazed, I was like I got a thousand downloads of it or something, you know? And that just, people actually using my work, and I was like I’m not really a web designer doing this kind of stuff, but that’s how cool WordPress was, to allow me to do that kind of thing, and that’s really how I started doing themes, is learning, for myself. 
+
+And, and then when I, a funny thing happened. I had done freelance writing in the past, but a funny thing happened, I put that theme out, and then I, I was like I want to do this again. So that was a two column theme called Rockin Blue, and I wanted to do a three column, because people would say I want a three column, or I want the sidebar on the left, or the right, or whatever. And after I released a couple of themes and got traction from Weblog Tools Collection, and this is a different day too in the web, I mean it was primarily RSS feeds were how you got to, remembered to go back to sites and stuff. And a funny dynamic happened, people started hitting my contact form and saying will you customise this, or will you do this theme, or will you do all that stuff, and I was like I’m, I’m kind of a fraud here. And so I started charging for my work, Brian had already been doing that. And so I can’t remember what it was, it was probably like, I’d go Brian should I charge like 25 dollars an hour [6:00], and he’s like yeah, I’m charging like 50. And I was like well I’m not, you know, I’m not as good as him, so I’ll, I’ll do 25. And he’d be like, you know what, I think I’m going to charge 75 an hour. And so, okay, I think I’m going to do 50. And work just started coming in, and that just kept building and building. And I was making, at some point I kind of woke up and realised that I was making more money on that side job that I really stumbled on to, than I was my daytime full time job.
+
+Interviewer: What sort of people were asking you for customisations?
+
+Miller: All over the place, just somebody that wanted to blog, like I hit a, I hit a niche with internet marketers, and very very good awesome internet marketers, I think they get a bad rap and the people I worked with were so smart and sharp and everything. But they would want to blog, because they knew that if they put content out people would come, read their website, and buy their products and things like that. That was a big niche for me. I did a couple church websites, and then eventually one of my biggest clients was an author named Penelope Trunk. I followed her blog, loved her blog, she’s such a good writer, she gave career advice. And I, I think I commented on her blog, and she was so interactive with her community and still is, she came over to my site and started reading my stuff and said oh, you do WordPress? I’m getting ready to launch a book and I’d like you to, to run my site. And I’m like I’m not a server admin, I’m not, I can, I can do themes, and she’s like I just need somebody that can be on the call, essentially.
+
+Interviewer: Yep.
+
+Miller: And I was like okay, so I had a 3 month contract with her that was very, very good for me. And I think helpful for her. Things just kind of snowballed, you know. Where I kind of woke up and I was like, could I do this full time, could I do this for a living? And my answer was kind of, no. I was a very mediocre designer, I could recognise the good stuff and I could kind of get the good stuff out there, but I wasn’t, you know, there are so many people that are better than me at doing that. I was like I don’t know if I can get paid, can sustain a full time living being a theme designer.
+
+Interviewer: So when did you give up your job?
+
+Miller: So, that, that whole year there I met my now partners, probably around July or August of that year.
+
+Interviewer: Which year? 2007?
+
+Miller: 2007.
+
+Interviewer: Six? Seven.
+
+Miller: 2007, yeah. Six, summer of six is when I started the blog, came back around, 2007 summer, trying to figure out stuff. I, I woke, one day I woke up from bed and my back hurt so bad, because I was working a desk job and then I was coming home and doing that until 2, 2am in the morning. And it was just hurting, and I said I can’t sustain this, I’m not that talented to be in demand. And I mean I was getting plenty of work, I just didn’t feel like I could sustain that. And also I was, my body was telling me you can’t keep doing this. And so I met my partners through a friend of mine and pitched the idea that would eventually become known as iThemes. And so I, in answer to your question, January 1, 2008, I went full time.
+
+Interviewer: Okay. So before [9:00] that you were doing RockinThemes, can you tell me about that?
+
+Miller: So another way my good friend Nathan Rice at the time and I were kind of collaborating on projects, and, on theme stuff, and he was probably a step or two behind me, he had a lot more technical skills than I did, but. It was just a way to kind of do a joint site, and all my themes were called Rockin something, Rockin Redhead, Rockin whatever Blue, and we were like RockinThemes, let’s, RockinThemes.com. And so Nathan would release some and I would release some and they would just, we had this formula. Build a theme, put it on the repo, Get Weblog Tools to promote it, and have a tonne of traffic and custom work. And it started as a kind of joint promotional thing for us. And then I think Nathan had kind of lost his job, or quit his job at that time, and was like you know I’m going to, I’m going to really make a go at this. And I was like why don’t you just take RockinThemes, I’ve got other stuff going on, so it was a promotional vehicle for us.
+
+Interviewer: Yeah. You released a lot of free themes.
+
+Miller: Yeah.
+
+Interviewer: Yeah?
+
+Miller: I think 30? Maybe? Or so? I’m trying to remember back. I got busy, I loved it. It was so much fun to kind of like, people, you know it’s probably how Matt Mullenweg feels, and others that have contributed to WordPress, is when someone uses your work and delight, is delighted by it, they, their lives are made better, it’s pretty cool. And you know to see my, every now and then still, and I am embarrassed by this, every now and then somebody will say, I just saw this site still running one of those so out of date themes, and I’m like oh my gosh, Rockin Blue is still out there, huh. 
+
+Interviewer: Yeah they look pretty dated now.
+
+Miller: I thought Kubrick looked dated when I saw it on your screen a minute ago.
+
+Interviewer: Oh it looks dated too.
+
+Miller: Yeah.
+
+Interviewer: So tell me about sponsored themes?
+
+Miller: So along the way, you know, I was putting themes on the repo and I really didn’t understand SEO or anything like that, but you know, I obviously wanted the [inaudible] put designed by Cory Miller, or whoever it was, in your footer, and link back to your site. And I was like that’s brilliant, because every time somebody activates a site, they’ll wonder, if they like the site they’ll go back to my site and potentially order a custom job or whatever. And about the time I was, when I released my first one or two themes, I got an email saying hey, can we, can we help sponsor your next, I don’t know, 5 or 10 themes. And I was like huh, I, they wanted to pay me up front, and I was like well yeah, commission me to do 10, 10 themes that I’m going to do that benefit me, and help other people and stuff like that. So I was like yeah, and in exchange it was like just put, you know, I don’t know if the text, you probably know the text, but you know either brought to you by, or something, in the footer. And it was a visible link, it was not a hidden link or anything like that. People could go into their footer.php and change it, and so that, that first client, you know, said they want this. And I was like cool.
+
+Interviewer: How much did they pay you? [12:00].
+
+Miller: I’m going to guess I was paid about fifteen hundred dollars, for like 10 themes. And I was like holy crap, I, somebody’s going to pay me fifteen hundred dollars? And like, PayPal right then? Heck yeah, yeah, that was fun. They’re going to help commission the development of a theme that I’m doing anyway and it’s going to help people, yeah I’m going to do that. So fifteen hundred dollars was a lot, and I was trying to buy a house at the time, I was living in an apartment, and so I was taking my freelance money and everything I had and that big cheque was just kind of like, I could buy a house, you know. A downpayment on a house, excuse me.
+
+Interviewer: Yeah. So you did like 10 or 15 sponsored themes?
+
+Miller: I think so. I think almost everything I did after that initial client was sponsored. Commissioned, whatever you want to call it.
+
+Interviewer: Did you wait for people to come to you, or did you advertise on, [inaudible] advertise on things like Digital Point, and that sort of stuff?
+
+Miller: No, mine came from just, it was a, it was a unique time in WordPress because there was not a good repo, the theme directory was not like it is today.
+
+Interviewer: Yep.
+
+Miller: It’s so solid today. But it was really the wild wild west during that time, and so people were looking for good stuff and I think they recognised, plus I had the exposure with Weblog Tools Collection, you know being in the dashboard and, being a huge traffic generator, that they saw good stuff and would come to me. And I had no idea what, you know, SEO, I just knew WordPress was cool for it, links and all that kind of stuff. Technorati was big during that time-
+
+Interviewer: Yeah, I remember.
+
+Miller: You know, Technorati, you know 100? And so I had people in Oklahoma City, a couple of people in my field say, we want to take you to lunch. I’m like okay, I’d love that! And at lunch they’re like we want to, we want to buy the lunch of a guy that’s broke the Technorati 100. And I would be like, okay, okay, I don’t have a huge blog, that, it’s kind of a little gaming the system kind of thing, and I didn’t promote that where people would know, they could know my rank was whatever it was, there was a lot of guys that were at the one and two spot but not on the actual Technorati 100.
+
+Interviewer: Did you get a lot of traffic to your site?
+
+Miller: From Weblog Tools, absolutely. And then the links to the themes helped a tonne. But not from Technorati or anything like that. 
+
+Interviewer: Okay.
+
+Miller: WordPress.org, honestly I was tracking in analytics or something my site traffic, but I don’t even remember what the traffic from .org was at the time. I know, I know it was a simple formula, build a theme, put it on Weblog Tools, and get a tonne of traffic.
+
+Interviewer: What, and what was your reaction when Mark Ghosh and Matt decided that they weren’t happy about sponsored themes?
+
+Miller: You know, I wasn’t overjoyed about it because it was a good financial component to what I was doing. It was really easy money. But it didn’t put a dent in what I was doing because the bulk of my work was coming through freelance projects, so I, take it one, one way or the other. 
+
+Interviewer: I, I read a post [15:00] that you wrote around that time where the themes were just removed from the Theme Viewer?
+
+Miller: That, that irritated me. 
+
+Interviewer: Yeah?
+
+Miller: Because I didn’t have the opportunity to, or advance notice to take those links off. And so, yeah that, that for sure irritated me just because, it’s like, I was, I was not doing it maliciously, the links were prominent, they weren’t hidden, and there was that going on.
+
+Interviewer: Yep.
+
+Miller: And that was scummy, you know I didn’t like that, or they’d put some script in the footers, you know, stuff like that. For one I probably didn’t even have the technical chops to do that, but you know it was, it was visible and you know, people knew when they hovered it was, I mean it was, it looked like a link and when you hovered, you knew it was a link, so. 
+
+Interviewer: Was-
+
+Miller: But at that same point, I you know, I understood, maybe they don’t want to do that, but I, I still believe to this day I wasn’t doing anything wrong, so.
+
+Interviewer: So was there any sort of communication from the project?
+
+Miller: Man this is 7 or 8 years ago so I, I don’t think so. 
+
+Interviewer: Yep.
+
+Miller: The first time I heard from Matt, Matt, was 2008 after I started iThemes. And that, that whole stuff was way gone, you know they had come in and for, for, for very good reasons re-, you know, cultivated that theme directory in a good way, and it was starting to be get built up really strong, stuff like that, but I was already off and, I had enough mem-, momentum and name brand exposure that it didn’t really hurt me.
+
+Interviewer: So what was wrong with the theme directory?
+
+Miller: Well, you know, anybody could put a zip file up there, so like there was no, there’s a very tight review process on everything now. Back then there was nothing. I mean someone like me could zip a file and just upload it, you know. So no, I don’t think there was any really review process. I had to [inaudible] and so it was just not managed. And no-one was really managing it, that I remember. And quality of themes. You go to the .org repo now, there’s some really really really good themes.
+
+Interviewer: Yep.
+
+Miller: And that was not that, the case. There was just a few of us doing good work at the time, so it helped us stand out from the other mess that was up there.
+
+Interviewer: Yeah. It was, it was a different time definitely.
+
+Miller: Very unique time in WordPress, an exciting time, I loved being a part of it. 
+
+Interviewer: I’ve seen that people are still doing sponsored themes, I mean they’re not on the repo but people are still auctioning them on Digital Point forums and places like that.
+
+Miller: Oh really, with the-
+
+Interviewer: Yeah. Yeah, I read an interesting forum thread where a guy was, his website was being blacklisted by Google because a few years ago he had sponsored a theme.
+
+Miller: Yeah, yeah.
+
+Interviewer: And now he, he couldn’t do anything, all of the themes were out, the theme was out there on a tonne of sites, and there was nothing he could do about it.
+
+Miller: That’s the other component that came about, but that was a different force outside [18:00] of WordPress, that was Google penalising people for that stuff.
+
+Interviewer: Yep.
+
+Miller: And so that’s why that needed to be cultivated and we did that with our commercial themes as, you know, we, we always wanted to be very upfront on what that thing, it was a link and you could click on it and it would go to the site that it intended to. But the negative affects that I’ve seen with SEO after the fact are not, not super great.
+
+Interviewer: Yep.
+
+Miller: And they’re not, you know, those things weren’t relevant, it’s like an ad sitting in your footer, but that’s the way to approach it, it was an ad, you know? It was someone commissioning the work for me, paying me, to help continue to build good themes, but it was an ad that could easily just like the blogroll link in the early days that linked to Matt and Alex and different people, those could’ve easily be taken down. 
+
+Interviewer: Yep. Were you thinking at that time about selling themes?
+
+Miller: You know and we were talking about this, I got my timelines maybe messed up, mixed up a little bit. Ian Stewart is the archivist, he is the historian, he knows all the, where all the bodies are buried in WordPress theme stuff. But as I recall it was like Michael Pollock and Adii were doing commercial themes. I don’t, they weren’t doing them, I think the person that gets attributed probably rightly to pioneering premium at the time commercial themes was Brian Gardner. But the people that I saw were like Michael Pollock and Adii doing some cool stuff. Oh you could, you could sell a template, now I, connect the dots because I had bought years earlier Template Monster, Template, but it was so, you know, it was PSD, and then you had to cut, it was a mess, but I understood the concept. And I was like Template Monster’s been around for a long time doing really well, you know, seeing these guys do this, you know, that could happen for, for WordPress. And the need with the theme directory and the state of WordPress, just like plugins helped build the base for WordPress themes too, this opportunity to offer really high grade commercial templates for WordPress could be a viable thing. And obviously it’s been proved true by Brian and Adii at WooThemes, and Mark and Angus at [interrupted].
+
+Interviewer: Where were we?
+
+Miller: I don’t know.
+
+Interviewer: Okay well, what was the difference between a premium and a commercial theme. No sorry not, a premium and a free theme.
+
+Miller: Yeah. Commercial, you know in the early days, was a very in-depth design, rich design detail. The themes in some, maybe some to the point now to, to this day. Free themes are not, they’re probably very basic. Not just features but also design components so, the first themes we did at iThemes were very rich in detail. Took time. They were also for us, more business themes, not blogger themes. And so the other thing is, support. Every theme I released I’d get people asking me for customisation requests, which I didn’t do, I couldn’t do unless they paid me [21:00].
+
+Interviewer: Yep.
+
+Miller: This was a way to say, somebody might not want to pay a thousand dollars for a blog design, but they’d, they’d pay 80, or 90, or 100, you know, for a template that other people used. And obviously Brian, Brian’s success with Revolution at the time showed everybody it could be done.
+
+Interviewer: You released your first ones through RockinThemes did you, your first commercial ones?
+
+Miller: I, my first actual commercial one was that, that year, I want to say it was like in August, but it was, I thought, oh real-estate, you know, agents. Did you find that?
+
+Interviewer: Yeah I saw your, like when you started selling them on RockinThemes. It’s on, it’s on archive.org, so.
+
+Miller: Okay, yeah. See you’re helping me like remember. So I thought, you know, real-estate agents would want a nice design, and they tend to, I think they have money, you know. And so I put it out there, but I just, I just was not that good of a, my early, that work was not, I wasn’t a designer. I was posing as a designer. It may have sold like 5 copies.
+
+Interviewer: Okay.
+
+Miller: Revolution on the other hand, [inaudible] between Brian and I, he was doing very, very well. Where he replaced his income from his freelance stuff and he was doing really well there. So my, I just knew, he had this design sensibility and the technical chops to do everything, and I just didn’t have that attention to detail and good design chops that others had.
+
+Interviewer: How did you license your themes? Like the free ones, the early ones?
+
+Miller: The free ones were just, you know I don’t even know if I thought about that at the time because most of my work was, I just didn’t think about licensing that, I, I don’t know, if I did it, it was probably a br-, boilerplate in the CSS back, you know, back then. I, I don’t think, no at iThemes we, you know, we started out as, I read the GPL. Or whatever pa-, 11, 10 pages of that, and dense legal jargon, and stuff. I, I read that to try to understand it. My, my, not a lawyer, my belief was that you could have GPL themes and still protect the CSS. Because they would work with, outside of WordPress. I could, I could real easily just pop the CSS out and do HTML pages. So I, I believed after reading the, the GPL and not being a lawyer, that you could separate out, the functional stuff had to be GPL, the PHP that interfaces with WordPress I do believe that, I believe that for, for plugins. The CSS, I still believe that you can within the GPL separate those out. That’s how we started at iThemes, is, we were a split kind of, not split, I mean we were GPL themes with the, the CSS was copyrighted, you know, protected.
+
+Interviewer: So how did you come to set up iThemes, when did you start thinking I’m going to set up a company?
+
+Miller: Yeah, you know seeing Brian’s success and going along [24:00] and he was really gracious to, you know, help me along, you know the idea that this, all my life I had dreamed of being an entrepreneur, and I just got in, I tell people, I got in at the right time. I was at the right time, at the right place, with the right partners, and I was ready to push go on my dreams to be an entrepreneur. And so that window opened up for me that fall of 2007. My partners came in, I told them what I wanted to do, showed them the success I had had and others had had, and so they helped me get to start, what I would know, now know as angel, angel money. To start iThemes on January 1, 2008.  
+
+Interviewer: So you took investments, to begin with?
+
+Miller: Mmhmm. I’ve had partners all along, very good partners, that gave me initially about 25,000 dollars to feel confident enough to quit my full time job, stop my freelancing, and start this company and try to get it off the ground. And so they, they would give up to, they had kind of told me they would give up to you know, the first year of income for the business. So I was ready, everything just aligned for me and ready to push go and when I, that first, you know they gave me that first year of la-, of runway? To get, to prove I could make money doing this, which was at that time, only commercial themes for WordPress.  
+
+Interviewer: Yep. Who were your partners?
+
+Miller: Good, good guys named Scott Day and Jay Chapman. And they pr-, have always preferred to be behind the scenes and cheerleaders and never wanted anything, and been excited about what we’ve done, and as we’ve built the team and grown into WordPress just been cheerleaders. But they have a totally separate business, businesses that they run full time, and this is a really nice thing that they’ve invested in and been a part of, and enjoyed the success we have.
+
+Interviewer: And do they have any, do they have any background in WordPress, or?
+
+Miller: Not WordPress, but domain names.
+
+Interviewer: Okay.
+
+Miller: They go back, very rich history with generic one of a kind domain names.
+
+Interviewer: Okay. Nathan Rice didn’t come on board with iThemes did he?
+
+Miller: He did. 
+
+Interviewer: He did?
+
+Miller: So I contracted with Nathan to do a couple of themes and really realised I needed somebody full time, and our revenue started to come in where I could support another person. And so I want to, I’m going to guess with about March or April or June, I asked Nathan to come aboard full time as our first employee at iThemes. 
+
+Interviewer: What, what themes had an influence on what you were doing?
+
+Miller: What themes?
+
+Interviewer: Yeah.
+
+Miller: Themes?
+
+Interviewer: [Inaudible].
+
+Miller: Well obviously Revolution was killing it. Very much killing it. I don’t, I think Jason Schuller at Press75 came after iThemes sometime mid, mid that year, WooThemes sometime in that year, I don’t know their timelines exactly. But they were all doing very good work. And they’re ver-, they’re craftsmen, they’re designers, they know what they’re doing, they’re also business people but [27:00] that first year they obviously, I mean we’re all, all those guys and they’re still, still around doing good work, set the bar.
+
+Interviewer: Yep. Did you have any experience of open source projects before WordPress.
+
+Miller: No. I, I knew the term open source, I had no idea what it really truly meant. But WordPress, reading the GPL in particular, being in the community, really opened me up to that. I didn’t understand that free, you know you could download a free thing and then you could share it? And all that kind of stuff, but WordPress was such a great example. So, so no, not at all. But it’s been a life changing thing. And I think it’s a, the license and the philosophy has been a, something I’ve adopted in my life about being sharing, why I want to do this and share things and, with this panel here at WordP-, WordCamp Miami. Sharing things I’ve learned with other people. And that’s the spirit that I’ve seen in WordPress and open source software.  
+
+Interviewer: So there was, I want to talk about the GPL. I guess Brian Gardner was the first person to be GPL. Fully GPL.
+
+Miller: Sounds right.
+
+Interviewer: What was your reaction to, to that?
+
+Miller: Well I didn’t believe that he had to do that. I didn’t believe there was any infraction of the GPL license to go that way. But he had a very good point was that, aligning with Matt and the WordPress project as a whole was a, was a good thing. And that was pushed from Matt and the project to want to, all of us theme providers to go, quote full GPL. I understand it, I just felt like we weren’t doing anything wrong, and I still do, to be separate, like have the, pull the CSS and copyright it. But I understood why, so.
+
+Interviewer: Did you feel under pressure at all?
+
+Miller: Oh yeah, I mean I think we all did if we’re being honest, we all felt the pressure. Because we didn’t know what the implications were. I didn’t, I felt legally, we were fine. But what would the implications of, you know, making the leaders of the project mad? That had a huge influence, you know. You know you didn’t know what kind of things could happen to change and really, really make it, make a big dent in the business we were doing. And it sounded like, it seemed like the right time to make that move, just to get alignment with the project as a whole, and the leadership, to go forward.
+
+Interviewer: Did you have any conversations with people at the project?
+
+Miller: I did, Gardner you know, and Mullenweg had talked, and Brian was very, you know was moving in that direction, and was urging his friends, me, Jason and other people, to go there too. And so I sent, some of the people that started in 2008, you know Woo, me, Jason, Brian, were kind of all going it’s, this is going to happen, we’re, we’re, we’re all probably going to move this direction. And so Brian of course, but then kind of introduced me, I had met Matt [30:00] in 2008 at WordCamp but it was Chicago, WordCamp Chicago, I’d really never spent any time with Matt and of course I respect him, he is a brilliant young man. He’s younger than me so I say young. Brilliant young man who has, who has helped create one of the best pieces of software on the planet, in history. And I have mad respect for him. Even if I haven’t always agreed with him. But we sat down, he bought me a drink, and one thing you know from working with Matt is that he’s a very gracious guy. He’s very easy to talk to. And I enjoy hearing him talk too, he’s very, like he’s fluid, because he loves the project. This is his baby, and I get that. So we had that conversation and, and just okay, you know, this is probably the right time, and kind of letting him know we’re going to go in this direction. And as the leader of the project of course, just syncing up with his vision and where WordPress was and all that kind of stuff, it was, it was the right thing to do for our business. Ultimately it was a business decision. Philosophically I’m still in the same camp, and we’re not going back, we’re staying where we’re at, but. So that would be the, and then Jason Schuller and I had a lot of conversations, he’s become a dear friend over the years, so. Probably those 3 people.
+
+Interviewer: So what impact did it have on your business?
+
+Miller: My first like real fast reaction would be none. The pros were it was a, it was a community move, people understood we were doing this and leadership wanted to do that, and we, we understood and we, it was a good move it was a win for us PR wise in the community. Detriment was, the way we structured our license was different now, it was just, you know we were GPL, someone could take our themes and plugins and redistribute them. But you know, brand names and stuff like that are a different conversation but the code and everything, remarkably our fear, I think most people’s fear about the GPL is specifically with products, and I’ve talked to a number of people over the years because I was invested in that whole conversation. The fear is that someone will do that. What I’ve found is, people that, there will always be people that want to, even if you’ve got software that’s protected, let’s say like a Microsoft project or something that’s proprietary. There will always be people that pirate it. That redistribute and do whatever. We were just saying it’s okay. What we found was, people wanted to pay for valuable services and products. And they, they kept buying. If anything it pr-, it got better. You know obviously our team has grown over the years so you know. The negative perception that most of us in that commercial market had was, what’s it going to do to our business. That does not mean we have to give them a free download link somewhere, you know, on our site, but they can redistribute so, you know. I, [33:00] it hasn’t hurt us, it’s only helped us. 
+
+Interviewer: Yeah there often seems to be a lot of confusion, people think that free means that it has to be free. Like, from price. So a lot of the blog posts that I read are things like oh Matt and Automattic want us to give away all of our themes for free and not make any money.
+
+Miller: Yeah, I can’t speak for him, my impression is he’s obviously okay with it. Those conversations we had at WordCamp Chicago he was, he was okay with it. My perception was in the first year in 2008, he was not, he did not like the idea. And I saw some forum posts, you know, hacker posts or something, about his predictions and why he thought it wasn’t great for the community. Which I totally understand, again I respect that as a community leader of a software project, WordPress. I have a business interest that, about my family, I don’t have venture capital money, bootstrapped most of it beyond that initial round, we just tried to grow it on our own dime, so like those things have specific benefits. Now I have a 15 month old son, and family is supported by this business, that affects, those, those things affect my business and I take that pretty personally because you know we have, we have a livelihood to support that we love doing in this, in this space.
+
+Interviewer: Do you remember in 2007 Matt announced that WordPress.com would have a premium theme marketplace?
+
+Miller: Yeah, yeah I think it was after that WordCamp or something.
+
+Interviewer: He announced it I think in WordCamp Argentina.
+
+Miller: Oh, in 2007?
+
+Interviewer: Yeah. And then that disappeared. So I was just, because it was just after the sponsored themes thing, and then he announced the, that WordPress.com would have this premium theme marketplace where people could sell premium themes.
+
+Miller: I don’t, I, I know there was talk of that and everybody was just like why not have a, why not have a premium or commercial store on WordPress.org? Before I started iThemes if that had been made available I would’ve, I would’ve given them just like iTunes does with the App Store. I would have given them, I would’ve given the Foundation whatever you want to call it, a percentage of that happily because that’s a customer base, so. WordPress.org is important. The theme store just made sense, and you know that’s not any project I’m associated with as far as WordPress.com but, from a business sense outside in going, and obviously it has been very successful. And you know a lot of my friends are in the store, or whatever they call if for WordPress.com, and doing very well on it.
+
+Interviewer: They didn’t actually launch it until 2011.
+
+Miller: It was, it was, it was, it felt like a long time for it to finally happen. And I don’t know the dynamics of Automattic but for whatever reason it just took a long time to do.
+
+Interviewer: So from the conversations I’ve had with people at Automattic, they were sort of watching the premium theme market to see how it would stabilise, and you know get a lot of the licensing issues sorted out first. It’s quite interesting to talk to them about their perspectives [36:00], they  seem to have been watching all of you guys just to see what happened. 
+
+Miller: We proved the concept would make money. And I believe we were pioneers in that and I think that’s cool, because I respect that theme team in particular. Lance Willett, Ian Stewart, those guys are high on my list. And I don’t know if that was them, but I mean I know Ian’s been around for a long time. That would be a extreme compliment. 
+
+Interviewer: These premium theme sellers seem to get quite a lot of flack, like even Ian Stewart wrote on his blog about the death of premium themes, and how they would disappear. How did, how did that feel, did that set up like an us and them sort of scenario, or?
+
+Miller: Anybody, somebody tells you that you’re going to fail, you know I don’t think naturally we take that positively, and I sure as hell don’t. It’s, it serves as motivation for me to keep doing what I’m doing, to, to prove them wrong. There’s always going to be naysayers anyway, I don’t put these people in this camp but there’s always going to be people that criticise and want your impending destruction. I do not put those gentlemen and women in that camp at all by the way. But the people that want your destruction, you know, they’d probably be happy to see you fail. That just serves, and I’m not putting them in the camp, that just serves as motivation to me to keep doing what we’re doing. And you heard me say this and I believe this, on that panel is, what I developed o-, through some of these struggles, and I call them struggles, figuring it out within the community and our business model, is I realise it’s just about, it’s me, it’s about my team and my customers. And that’s it. Anything else is malic-, is no-, noise and bullshit. And it’s not easy, I don’t do that perfectly everyday, but me as an entrepreneur being hath-, happy, healthy, doing what I’m doing, loving what I’m doing, trickles down to everybody down, you know, to my team. They’re the ones that choose to invest their life and their talents in the, in the expression of the vision that’s called iThemes. And our customers who are trying to provide value that they want to give us money, because we’ll make their lives awesome. You know that equation is all that matters. And I can’t tell you I do that perfectly, in that context is that, through those struggles in those years helped me refine and define that concept. That philosophy, that belief that will change in me.
+
+Interviewer: What did you experiment with when you, once you went GPL, did you start experimenting with new ways to run your business?
+
+Miller: Yeah. The themes was hard, it’s like, we didn’t have an update system for things so how do you do a one site li-, you know, updates.
+
+Interviewer: Yep.
+
+Miller: Or one, there’s ways you can price that, and be creative, but you’re, is it a one site support, one year support, whatever it is, and so we were just trying to look anywhere there was to find examples of how open source software priced. Like and Red Hat, you know obviously is a huge open source making money off that, I wouldn’t say they were an example for us to [39:00] use, it, the context didn’t line up, but I mean thinking how would we do this and trying to put in all the components that we could potentially sell, without, not, you know we don’t want to be deceptive. But people just, what they want to buy is a solution, a result. They want their site to look as good as that demo site, in theme, theme specific contexts. So, we’re always messing with that but we all know, those of us, and I tell people that asked about the GPL, read it, I did, if you really want to know, read it. But I, my job isn’t to explain the GPL, I don’t believe, my job is to do right with it. That’s our license, to do right by it. But, you know. They can read it. So people know, you know, this debate that goes, not debate, this thing that happens almost every month in WordPress is, I’m going to take somebody’s themes or plugins, and we’re more, we’re a plugin business.  
+
+Interviewer: Yep.
+
+Miller: Themes are about 5% of what we do now. And that’s changed in 6 years. But every, every month it’s like this new site has popped up to release commercial themes and plugins for free, or even charge, or redistribute.
+
+Interviewer: So what was your reaction to the, all of the things that happened around Thesis?
+
+Miller: So as far as this Thesis quote debate or whatever, it was always interesting to look from afar because I had specific vested interests in that conversation. So you’ve got a guy who I’ve met in person, Chris Pearson, with very strong beliefs. And I think it’s part of what’s made him probably successful. And then a guy like Matt with very strong beliefs and very successful. Two pretty, pretty big, you know, personalities. And that, that escalated I think, it got out of hand a little bit. But, you know, somebody that has an opinion and what, you know, decided to die on that opinion, if, if it came to it, I don’t know how bad it’s affected him, I don’t think it, I think he still had a very successful business. But that whole debate was something I think all of us watched with big interest about, you know, he’d obviously pissed Matt off so bad. And Matt would say I will buy you, if you have a license I will buy you any other license, as long as you’re GPL. Quote full GPL, whatever. So, you know, StudioPress, and Headway, and whatever theme, you know I don’t know how many sales we got but I mean they benefit from the conversation. But we were all watching it with great interest. And I know I, I wouldn’t want to piss off Matt. And, I think to get to that far though it had to be pretty, pretty, pretty, to get him that mad for that whole thing to go, a lot of stuff happened. And I, I don’t have an interest in trying to purposefully make people mad, but it was an interesting, it’s an interesting thing within the GPL theme conversation, it’s a milestone you know, that whole, the whole Thesis stuff [42:00].
+
+Interviewer: How influential was Thesis?
+
+Miller: I think it was very influential. I don’t know if we all want to admit that, but it was very influential because he was doing some cool stuff. But what Chris had, and I should, I forgot, I should have put Chris into the theme conversation in the earlier stuff, even though he came a little bit after some of that first year people. Very influential because he knows typ-, typography, he’s a des-, he’s got such a rich awesome design component. And some of his features were cool but I kind of, I tried not to look at some of those projects [inaudible], but very, very popular theme. Because the base design just looked nice. I still see sites on it. And I loved his Cutline theme way back in the day, I loved it, he was so good at that typography. 
+
+Interviewer: Yeah I read a post on ThemeShaper from way back before all of the GPL stuff happened where Ian Stewart talks about the Pearson Principle in theme design, about, let me just find the exact quote, if I have it. 
+
+Miller: The Pearson Principle, that’s funny, yeah.
+
+Interviewer: I’m just connecting to the internet. Because he did seem pretty, pretty influential. So bloggers want powerfully simple design on equally robust framework. Do you think that influenced people?
+
+Miller: Yes, yes. He had design, and he had some cool functionality into that theme that did some really cool stuff. I’m trying to think back, who really led that features in the, in themes stuff, I don’t, I don’t really remember to be honest with you. But, he had the like big ass button, which I always thought was funny, I was like I’m never going to do that [inaudible], but you know, that’s Chris, he could do that. He had this, Chris has flair. You know? And people, he, he’s so strongly opinionated, very polarising? But people followed him, you know. And still do, I would say. I mean his design stuff, I haven’t seen his recent stuff but his design back in the day was so sharp. I respected it.
+
+Interviewer: Do you think that there was a trend at that time around having loads and loads of functionality in themes, and do you think Thesis was part of, you know, what instigated that?
+
+Miller: I don’t think so. My memory could be cloudy but I don’t, I think it was how to keep adding value to themes, and the best way you could do that beyond design was making it easier for customers to do things they wanted to do. And so, you know, Builder, iThemes Builder was released four and a half years ago, is because that basic conversation I mentioned to you that we’d put out a [45:00], I would put out a theme with a right sidebar and they’d say I want to do it on the left, and those things just became the requests that people would have, we built, we and others built functionality to do that. Because it was hard to tell somebody go into, you know, sidebar, footer.php, whatever it is and tweak code. So we tried to build, you know I think it’s, all of us tried to build functionality that achieved what they wanted, you know? And I think that’s how I kind of blossomed, I don’t know who led that, I don’t know, you know, we all kind of had some, some settings pages, and it just kind of morphed and grew from there. Now we’re seeing kind of a reversal, everyone’s pulling stuff out, but, it’s interesting, the trends.
+
+Interviewer: It is, yeah, there was a lot of functionality and now everyone’s pulling it out in the plugins, and that is a really interesting trend to follow.
+
+Miller: Yeah. Because when you switch a theme, and you know, do, does all those settings go with it, or if you decide to stop using the theme what happens, and yeah.
+
+Interviewer: When did iThemes start moving more towards plugins?
+
+Miller: In year 2. We actually had our first plugin called Billboard, it still exists, still being sold today. It came in, out in our first real theme framework, called Flex. And so we were doing plugins way back as far as like 2009. No, Billboard came out in 2008 late, because Flex was our first before iThemes Builder came out. Flex theme. And it came with, the functionality was you wanted to put blogs ads in your sidebar. And to do that still I think, you know, you can’t upload an image from the widget, you know? So Billboard was setting 125 by 125 ads that could rotate and link to things, so you could set up your images on your sidebar. So plugins back then, and that’s only just increased as we have, we’ve seen it. I’ll tell you that, if I probably started over today, I would have started with plugins. Well, started with themes that made money, but it helped us get into plugins. I would’ve started with plugins a lot sooner than I did.
+
+Interviewer: Why?
+
+Miller: Because of the market, you know. Everybody, I think now, themes are different. If I can do a theme, a lot of people can do a theme. And there’s a lot of good designers that can do themes. Plugins are different, it’s more backend heavy development, I can’t do a plugin. I can’t do a plugin like BackupBuddy, or iThemes Exchange. There’re full time people devoted to that project, and so its, its complexity and value and function. And I’ve seen some good plugins like Gravity Forms be very successful over the years, and I would’ve done it more there just because we could’ve camped out and really owned some spaces that we didn’t. And we’re having to come in too late to the game now. 
+
+Interviewer: Why do you think themes were more controversial than plugins?
+
+Miller: Because plugins truly in my mind did not start, the commercial plugin market didn’t start until a lot later [48:00]. BackupBuddy was our real first commercial plugin, and that didn’t start until 2009. Four years ago, no, 2010. March 2010. You didn’t see, you know, All in One’s SEO Pro was out there, and then Gravity of course was the leader in the plugin space, the most popular plugin, you know, premium, commercial. So that started later, so I think the conversation had already kind of flown around with design of themes. Just, more people were doing themes I think. That’s, that’s my guess, looking back.
+
+Interviewer: Yep. And what do you think about the conversations around commercial plugins, particularly I guess from Matt’s, like, he’s not a fan of commercial plugins.
+
+Miller: I respect his opinion, I just disagree. I mean we provide value for our customers every day, people want to pay because they want the support and the updates, and they want to invest in something that is going to keep working for them. So one of the things that came for us to switch gears in the plugins, was, I think it was the, the podcasting plugin. I can’t remember what it’s called. I think Blueberry has it now, or Burberry, or something. They, that was not updated for a long period of time, and it’s a free plugin. And there was no, no business model supporting it. It was people passionate about it, but I’ve seen one of the, GamerZ or whatever his name was back in the day, he, he put a [inaudible], and he had some of the most popular plugins in WordPress and he goes, I’m taking a job, I don’t know if these plugins will be updated. It was like, that’s why you have to undergird this, the long term survivability, sustainability, with a, with a business model. Obviously Automattic funds a tonne of WordPress development because they have WordPress.com that undergirds and provides for it. And is a win win. Code built for WordPress.org can be used on .com. So it, you know, I understand it but like, there’s got to be, Automattic can’t do everything. Free plugins out there, you talk to any developer, they said can, can you do this alone on donations, no. You know, we just got one of the most popular plugins in WordPress, Better WP Security now renamed iThemes Security, and he made probably 10,000 dollars last year on donations. That’s, that’s not a full time job that’s with benefits, and there was a lot more, that was a full time job for him to keep that plugin going and to add features that people had requested. It have to be, it has to be undergirded by a good solid business model. And donations isn’t it.
+
+Interviewer: Are there any events in the community in the project that have had a significant impact on your business, either positive or negative?
+
+Miller: Any what now? Projects?
+
+Interviewer: Just anything, any events in the project that have had like a, an impact on your business, whether that’s changes to the software, or you know things that have happened in the community like the Thesis thing, or?
+
+Miller: Yeah. We try to stay fairly close to the core development of WordPress, the beauty [51:00] of WordPress that made me a passionate forever user is so simple, my mum can have her reunion website on WordPress. She can keep that site up to date without me, she doesn’t have to have a Computer Science degree, and one of my concerns that has been going on how the dashboard changes, how functionality is built into the pl-, into Core, versus being separate plugins and stuff. And stuff has always affected me and our business. Because ultimately it’s about the users, and if we’re going, if we complicate that experience we’re going to lose what made WordPress really good, which is that, the mommy blogger, the eCommerce site using WordPress, whatever it is, you know. [Interrupted]. Positive or negatively, I have met some of the best friends in my life in WordPress, that’s a personal thing. I’ve been able to do things in Word-, because of WordPress, that have changed my lives and numerous other people in our teams, meeting some of my lifelong best friends, Lisa Sabin-Wilson, Jason Schuller, Grant Griffiths, Carl Hancock, Chris Lema, Syed Balkhi, I could keep going, Karim Marucchi, amazing, amazing friendships I’ve gotten because of WordPress. Negative is just, I think there’s always forces that can, you know, hurt our business. And you know we’ve dealt with a number of them, that’s part of what, you know, being in the WordPress stuff, the GPL stuff, the, knowing that the leader of the project, the CEO of Automattic doesn’t like commercial plugins, you know, that’s our business. Those are, those are down-, downsides but you know we’d have those, we’d have downsides in anything. It just happens to have those names attached to it at times in our business.
+
+Interviewer: Okay. Anything else you want to add?
+
+Miller: So here’s why I love WordPress, and I’m, I’m a fan. I’m a user. WordPress changed my life. And it changes, here at WordCamp Miami with 750 people, every single day WordPress changes people’s lives for the better. It’s a tool to help us deliver our dreams, that’s why I love WordPress, that’s why I want to continue to be in WordPress and hope that its success continues to thri-, thrive. Because it’s beautiful, elegant software that helps us do things. It’s so cool. So be here for WordPress for the next 10 years and beyond.
+
+Interviewer: Excellent, thank you.

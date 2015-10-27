@@ -1,0 +1,176 @@
+Interviewer: So it’s the 5th of November and I’m talking to Francois Planque. Is that pronounced correctly?
+
+Planque: Yes it is.
+
+Interviewer: Oh brilliant, okay. So can you tell me a bit about yourself, your background?
+
+Planque: Ah, okay. So I’m, how would you say that, an internet entrepreneur. I’ve been actually working on the web since 1993 when I was studying at the University of Pennsylvania. Along the way, in my different ventures, I started to work on this tool called b2evolution today. But I don’t know how much you want me to go into details right now, or if you have a specific questions.
+
+Interviewer: I have lots of questions.
+
+Planque: Ok.
+
+Interviewer: So let’s start with how you… did you start out using b2? 
+
+Planque: Yes, actually. It was 2002, I guess. I was thinking, okay I should start my own blog on my own web server. And so I looked around what tools were available at the time. And I found that one of the nicest and most interesting tools at the time was b2. Which you might have seen the website. It’s still online. It was cafelog.com, I guess. So it was a pretty nice open source tool running on PHP and my SQL and that’s pretty much what I needed at the time. And it did about 90% of what I wanted, so I decided to use that tool. And I started my blog at that time. But just a couple of weeks after I started using it, the author of that tool actually stopped working on it and went totally offline and nobody could get in touch with him. So, everybody actually wondered what was going on with him and also what was going to… how the project was going to evolve with no leader. And after a couple of months like that people started working on their own contributions and their own developments and their own evolutions of the product, the b2, open source project. And that’s how I actually started to develop b2evolution. I was actually me using b2 and making it evolve more towards what I needed. So it was evolutions on the b2 platform and that’s how I called it b2evolution. And so after a couple of months doing this, I was still on the b2 forums at the times, and I saw that people wanted, were desperately asking for features that I had added already on my own version. So I thought okay, [3:00] I’m going to release it so other people can use it. Ironically, at the same time, there was another person who did exactly the same thing with his own version, his own evolution of b2. And that other person was Matt Mullenweg. And that’s how he released what he called WordPress. Basically he was maybe just one or two weeks difference in the release time.
+
+Interviewer: So did you have much experience with PHP beforehand? 
+
+Planque: I had a little bit because I had already developed a couple of websites with it but I learned most of what I know today in PHP by working on b2evolution.
+
+Interviewer: So what did you need that b2 didn’t do?
+
+Planque: So at the time, the first features that I added was the possibility to have one blog post in multiple categories. And then also to have subcategories. Like a hierarchy of categories. And then I guess after that what I wanted was to have multiple blogs supported, which was I wanted to have one single installation of the software and wanted it to have multiple blogs which would run on the same website, but for really different things. For example, if you would have a blog about your professional activities, and then one about cooking, and then another one about, I don’t know, odd projects. And I wanted to have them really separated with different layouts and a different design for the whole section of the website. So I wanted to support this but still be able sometimes when one project would touch on two areas of my life, for example, it would be related to my work but also related to my personal life, I wanted to have one blog post posted in both blogs simultaneously. And then also share the comments if someone would comment on one blog it would also show on the other.
+
+Interviewer: And did that… was there anything… was it in any way similar to b2++?
+
+Planque: b2++ was yet another branch of b2. And I actually never spoke to the person who did b2++. As far as I remember, it didn’t live for a very long time. [6:00] 
+
+Interviewer: Well, he ended up… it became WordPress multisite. 
+
+Planque: Oh, okay. So he…
+
+Interviewer: He actually ended up joining with the WordPress blog project. So for a long time WordPress multi-user was just b2++ with a different name. 
+
+Planque: Ok, interesting. I didn’t know that. 
+
+Interviewer: So was it just you working on it? Or did you start building up a sort of community around b2evolution?
+
+Planque: Yes, it was a community. I was the main project… the maintainer of the project and also the main developer for a long time. And there have been several different contributors contributing to it over the years. Some would come, some would leave, depending on their… the events in their own personal lives. And today it’s basically a company behind b2evolution called Evo Factory which I work in. And we actually use b2evolution for approximately 150 different websites. And so it’s really a technical core of our business. So today we have paid developers contributing the most of the code we have today. There’s still a couple of independent contributors who submit a feature every now and then. But most of it today is driven by the Evo Factory. 
+
+Interviewer: And what have been the really important features of b2evolution? Other than the sort of first ones that you wanted for your blog?
+
+Planque: So could you rephrase that? I didn’t understand that.
+
+Interviewer: What have been the most important features of b2evolution?
+
+Planque: Beyond the one I already told you?
+
+Interviewer: Yes.
+
+Planque: So I would say… one… first off, I think I need to tell you about this - how would I say that - there’s a big difference in strategy of how WordPress evolved and how we evolved. Because WordPress at least from how I see it, from my side of the universe, is they package a pretty nice product with really nice designs, but it was… and they had really good marketing and really good social communication, so it really took off on this community and design aspect. b2evolution was… we had a very different approach because one of our first goals [9:00] was to make the product more robust. But we actually noticed pretty quickly after starting to use b2, on a more extensive scale, was that it was not really robust, which means that it had quite a number of security flaws on one side and also it wasn’t designed to scale very well for big numbers of users. So actually for me after probably after one year of using it, I decided that one of the most important things would be to recode everything from the ground up and make it super strong, give it some industrial strength. And this is how today, 10 years later, we arrive at this platform where we run 150 websites with a lot of traffic and we barely have to worry about maintenance. Which we’d not be able to do with WordPress. So, because of this focus on building a really strong core, we had a very different evolution from what WordPress had. And we did… we actually never focused on having a extremely nice blog designs, extremely nice skins, or themes, or whatever you want to call it. So for a number of years we were focused on that. And then also comment spam became a big issue, and so we had… we’ve spent considerable energy on automating anti-spam procedures and building in a lot of different techniques to discard comment spam as it arrives. And then finally in the last couple of years, the main trend of evolution for us was to go far beyond a simple blog tool, or a simple blog engine, and today b2evolution is more like a CMS. We actually call it a CCMS because it’s not just a content management system, it’s a content and community management system. And what I mean by that is that in addition to managing your content, it has community features such as, of course, forums for the users to communicate, but it also have user profiles and user directory, user groups. People can message, can send private messages to each other. And then also we have a very extensive support for emailing. [12:00] Which means like every user can receive notifications on different events especially when there are new posts, or new forum posts, new replies, when a post has changed. Administrators of course get a lot more notifications, even for new users, etc. And this is now moving towards also marketing, a marketing platform where the interests of each user can be recorded. Which means like if they visit a specific section of the website multiple times or they comment on certain posts or forum topics or products or whatever you want to have on your website, we will, the system will record the particular interest on this subject and then it will allow the site owner to send email promotions or tailored newsletters specifically depending on each users specific interests. So this… so you see how it basically evolved from this blog tool first forming multiple blogs, then becoming industrial strength, then having more and more features to handle, and it’s now designed to handle pretty big sites with a big community of users.
+
+Interviewer: So, I’m really interested in the fact that you rewrote it. You said it was about a year in. What sort of problems were you noticing with b2 that made you think that, oh, we really need to rewrite?
+
+Planque: Well, for one thing, at the time there was a very popular site called Slashdot. At some point I wrote an article and a blog post and it went up on Slashdot and went very popular and my website fell down almost immediately under the traffic load. Of course, at the time I didn’t really understand what to do with that. And when it actually happened a couple of times again, there was a second time on Slashdot and I think another time on Reddit, I don’t remember exactly in which order, but then I realized okay every time there is a lot of traffic this… my web server doesn’t handle the load and so I started to get more interested in [15:00] what causes that. And of course, many people would say you need a bigger server, but on the other hand I was thinking that maybe we could also optimize the code so that even with a small server it would handle more traffic. At the time, I was really interested in… there were not actually many powerful free blog solutions available. Even Blogger.com was, at the time, was very limited. You could not even have comments on blog posts at the time. You needed an external service. At the time there was a need to provide a cheap, effective solution for anybody to blog. Today it would not be… it’s very different of course. So I wanted people to have this free software and to be able to run it on an extremely cheap web hosting platform. And to do that, of course, the solution was to optimize the code. Not to tell people as soon as you have traffic just upgrade your web hosting. And even today, we’re still pretty proud to support very high amounts of traffic on slow and inexpensive web hosting plans. So, that was the first thing. Yes, we need to rewrite it for efficiency. And then the second thing was at some point we got hacked because of some security flaw in the way b2 was coded at the time. Well you probably know about that, there’s been so many examples. And so we, at some point we realized okay this particular flaw, we will find it and hundreds of different places of the code because of the way it’s been developed. There’s just no systematic approach to making it secure. So the only way to really solve the problem is to really have some more systematic handling of user input, and more systematic handling of the way things are displayed on the site and having some filters on that and some security checks on that. And this… when we came to this conclusion, we said yes, the only way to do it right is to rewrite the core of the product, which I think WordPress has never really done. And it’s why they still have problems coming up every couple of weeks.
+
+Interviewer: Do you recall what the issue was [18:00] that caused you to be hacked?
+
+Planque: Not really, but it was typically what today we would call… I don’t know. I can’t even say… I would say SQL injection, but actually it had to do with the user entering a quote or a double quote somewhere in some field, for example in their email address field, maybe let’s say in their name field when we entered a comment which would allow them to add some code that would get executed and…
+
+Interviewer: Right.
+
+Planque: But it was 9 or 10 years ago. I don’t really remember the details of it. 
+
+Interviewer: Did you have development chats, or mailing lists or anything, or forums? It would be quite interesting to track it down.
+
+Planque: Today we have… tell me again. Is your question about b2evolution forums or about security?
+
+Interviewer: I mean whenever you were discussing the security issues. Did you discuss it on the support forum? Or did you discuss it on a mailing list? Or is there any sort of public discussion about that?
+
+Planque: There might be some public discussions about that in the b2evolution forums. But we suffered a bigger hack later in the history of the product which led us to lose the first years of our forums archives so you might not be able to find the talks about the first one.
+
+Interviewer: Oh, that’s a shame. So what was your focus then, rewriting, was security and performance? Is that correct?
+
+Planque: And also anti-spam. 
+
+Interviewer: And how long did you spend rewriting it?
+
+Planque: Years. I think we were… the point where we said now we are done with the rewriting, we have only less than 1% of the original code left in b2evolution was around 2007 or 2008. And we started in 2003. 
+
+Interviewer: OK. That’s a lot of rewriting. 
+
+Planque: Yes.
+
+Interviewer: And was that something that the community was very supportive of? Were you sort of adding new features while that was going on?
+
+Planque: Yes, yes. Of course. We were also adding new features all the time. We were adding a lot of new features. This is why the rewriting took so long. [21:00] But the rewriting was not made at the expense of adding features it was more made at the expense of polishing the user interface and making nice designs and also maybe at the expense of making a nice website for our own project. Features, we’re pretty strong on features, I think. I think actually today we still… I believe we are, hands down, the one CMS that has the most built-in features. And requires as little external plugins as possible. It’s one of our current design goals is that you do not require any external plugins except if you want to do something very specific. And there’s a very strong reason for us to want that is that once you have fixed all the problems with security issues in the core of a product, they come back as soon as you add external plugins because those external plugins are developed by external developers who are just starting off, this is their first project, or they have little experience with security. So they built a nice plugin that adds a nice feature, but it’s full of security holes because they haven’t had the time to fix those yet and to learn how to do that. So every security… every plugin you add to your CMS is a potential risk to create new security holes. And this is one problem with the plugins, and the other problem is they are developed against one version of the core and they are very often not compatible as soon as you upgrade the core. And that’s, I guess, also a problem you have had quite a few times with your own WordPress’ when you upgraded many plugins stop working then you have to go hunt down for updated plugins. So, yes, the conclusion of that is yes we do have a lot of features, we want to integrate as many features as possible into b2evolution. That’s been a constant since the beginning.
+
+Interviewer: That’s interesting because that’s quite different to how WordPress approaches it.
+
+Planque: Absolutely.
+
+Interviewer: It’s kind of the opposite.
+
+Planque: Yes, exactly.
+
+Interviewer: And have you followed WordPress’ development then?
+
+Planque: Not really. I stopped following it a couple of years back. At some point when I started the company Evo Factory and we started building all our websites based on b2evolution at some point [24:00] it became clear that it was no longer important to me to see what WordPress does and how do we position WordPress… how do we position b2evolution regarding WordPress. At this point we shifted a little bit. We decided okay now b2evolution is actually for people who want to make big websites and who, maybe even make several big websites and who don’t want to spend all their time on maintenance. Upgrades, maintenance, security fixes, etc. We wanted to solve all those problems and let people focus on building the content of their sites and the business aspects around their sites. So we stopped comparing ourselves to WordPress and also to other blog tools. We started comparing ourselves more towards other CMSes and then actually we even said even the other CMSes are not really the same thing. They don’t really… they would not solve the problem that we are trying to solve. So we actually started to think of ourselves as our own little category of CCMS as I told you before.
+
+Interviewer: So you said, I was reading on the b2evolution website that Matt had gotten in touch with you  about joining b2evolution with WordPress. Is that something you considered? Or were you happy just off doing…
+
+Planque: Yeah, but that was a very long time ago. It was really at the beginning in 2003. And actually he contacted me and he was… we had a little chat on, I don’t remember, I think it was ICQ.
+
+Interviewer: I remember that.
+
+Planque: And so he was really nice. And he explained it to me that he wanted to build a team to develop WordPress and he offered me to join but basically he also explained that it would mean that all the work I had done already on my branch, b2evolution, I would have to do it all again to integrate into his own WordPress branch. And at the time I was doing it more for fun than for anything else and it didn’t sound as fun. It didn’t sound like fun at all to do those six months of work all again. 
+
+Interviewer: No. I know.
+
+Planque: And to do it just a little bit differently so it fits into the WordPress project. [27:00] So I decided against it. After… a couple of years later, looking back at how well he managed his project, I sometimes thought oh maybe I should have actually joined it at first. But of course, no surprise to that, like many years later, everything… you know about synthetic happiness?
+
+Interviewer: Yeah.
+
+Planque: Yeah? So, this… you know, there’s just no other answer for me today than to say it worked out for the best.
+
+Interviewer: Of course.
+
+Planque: It’s just how the human mind works. But so I’m very happy today to have it this way.
+
+Interviewer: It seems like your ethos behind the products are quite different anyway. So you may not have agreed in the end. With the b2evolution is very much about getting all the features in, whereas WordPress is about getting them all out to plugins. 
+
+Planque: Yes, but at the time I didn’t have this… I have a strong feeling on this, at the time. If I had joined Matt in the beginning and worked with him, I would also be very happy today.
+
+Interviewer: Probably, yes.
+
+Planque: … the exact same thing I did. I made the right choice.  
+
+Interviewer: So do you… how was the b2evolution an open source project structured? Was it you were the lead developer and people would submit patches and you would review them? Or how did that work?
+
+Planque: Yeah, we have tried a number of different approaches over the years. Which probably every approach in the book. At some point… some times people would send patch files and we would look at them and integrate them or not. Some other times we had a very open, centralized versioning system on SourceForge and anybody would contribute and we would look after fact as whether this was a good idea or not and then spend weekends on fixing the problems. And then we had some intermediary approach where only trusted people would have access to the centralized version system. And those people we would know would not do… at least we would know that things that they would contribute would not be too big of a problem, and they would be able to fix it themselves if we told them there’s a problem, instead of just contributing something and then disappearing and letting us deal with the issues. [30:00] And so in the end, today, we have a… we reverted to something a little more structured. Which is we have all the Evo Factory developers that have direct access to the, today it’s an SVN repository. They also have one external open source contributor who has access to it. And everybody else basically we ask them to send us patch files so we can review them before they put it into the SVN. Also, we have realized that… we have developers that have been working on the project for quite a long time now, who are very efficient. So a number of times it’s proven that actually easier for us, if somebody submits a feature request, it’s easier for us to implement that feature request ourselves rather than letting them implement it and then check that it’s secure, that it’s efficient, and that it doesn’t break anything. So, today we are more on a model where we are open source and the fact we give the source code to anyone, and everyone and anyone is free to tamper with it and redistribute it, but most of the changes to the source code is now made by a small team of experienced developers. 
+
+Interviewer: Are there other companies or agencies using b2evolution?
+
+Planque: There might, but we are not following that very closely. 
+
+Interviewer: And is there any code from WordPress in b2evolution? Or vice versa in it?
+
+Planque: So of course for a long time there was the common b2 code, that was in both for a long time. Today we have only traces of the original b2 code. Maybe actually it’s down to 0%, maybe, I don’t know. It’s a little bit complicated to check because all the file names have changed. We have on some occasions borrowed a little bit of code from WordPress on some very specific features. [33:00] One I remember was about some customization of the user interface of the CK editor, which… is it CK? No maybe it’s… no, hold on, it’s not CK, it’s… it’s Tiny MCE. 
+
+Interviewer: Tiny MCE.
+
+Planque: Yes. So WordPress had customized some of the dialog boxes of Tiny MCE and we really liked them, so I know we took those from WordPress at the time. But in between we have upgraded to new versions of Tiny MCE, which, so it… this has gone again. It might be a few little things like that. But again, I don’t keep track of this closely. And of course I don’t know in the reverse, if they use parts of b2evolution.
+
+Interviewer: I should find out. It would be interesting. Whenever you were rewriting did you ever think we’ll just write the whole thing again from the ground up? Or was it always just a matter of rewriting the code?
+
+Planque: Can you rephrase that, please?
+
+Interviewer: I was just wondering if you’d ever thought, whenever you decided that it needed to be rewritten, did you think then I’m just going to start again.
+
+Planque: All from scratch?
+
+Interviewer: Yeah.
+
+Planque: I have contemplated that a couple of times, but I’ve always decided against it. Because it’s… the first rewrites it was pretty clear that it was, we were able to rewrite it layer after layer. Without ever needing to start from scratch and make everything incompatible. Then later once most of the rewrite was done, I was… yes, I contemplated the idea of like, okay, maybe we should do it once more, from the ground up. With everything we’ve learned in-between maybe we should do it again. But then we’d just look at how many features we had and it would have meant that we would have to kill a lot of features and probably never implement them again. And some people would actually miss those features. So, yes, we thought it would work now without doing it again. Today, after several year later, again, after thinking about it, I do think it was the right choice not to do it from the ground up again. Because we did not have any [36:00] major issues with the current architecture. 
+
+Interviewer: Did you ever have any issues around the GPL? That’s something that WordPress, on and off, has issues with. 
+
+Planque: Not really. What kind of issues do they have?
+
+Interviewer: Oh, with things like theme shops selling themes that weren’t GPL. Or…
+
+Planque: Yes, okay, I’ve heard about that. Yes, we, I don’t think anybody is currently selling add-ons to b2evolution today. So there is no problem. Every… actually, there is. I think there is one person actually selling plugins that are not free. OK, so we might have the issue, but frankly I don’t care. As far as I am concerned, I don’t care.
+
+Interviewer: Would you have chosen a GPL license if you had been able to choose the license for b2evolution?
+
+Planque: I haven’t thought about that in a long time. I don’t know. Today… actually, today in 2013, I… my internal gut feeling is that everything about IP, intellectual property, is something of the past and it’s a problem of the 20th Century and some people are staying, still clinging on to that, but it’s just… it will die someday. I might be completely wrong, I’m not saying I’m right about it. I’m just feeling that it’s something of the past and there’s no point even trying to regulate it. So, in my mind today, yes, b2evolution is… we release it as free code. Anybody can do whatever they want with it. We hope they are nice with it, they just give us credit when they use it. And it’s GPL because it has always been GPL. But it could be anything. It could be pure public domain, it wouldn’t really matter. It’s like there’s so many alternatives, so many free alternatives, so many choices, and so many competent people who could develop something new if they needed a different license, that, I don’t know, it’s [39:00] I think, seriously, it’s… for me, it’s no longer a subject. I hope it will never be a problem and everyone who wants to use b2evolution will be happy with the way it is and with it’s historical GPL 2.1 license. And if not, maybe we’ll have to think about it again, but I hope we never have to. At some point, there was a question of… it was released under GPL version 2.1 I think, and then version 3 came out. And version 3 as far as I remember, and as far as I understood it at the time, was a little bit more restrictive because I think it requires that if somebody uses b2evolution on their site and they make modifications but they don’t release them in any other form other than for their own website, I think GPL 3 would require them to release the source code anyway. And I thought this was an additional restriction we don’t want to force on people, so we said let’s keep it how it is. 
+
+Interviewer: That makes sense. Yup. Ok. Well, I think you’ve answered all my questions. Have you got anything else you’d like to add? That you’d like to share about b2evolution? And WordPress?
+
+Planque: Well, no. I thank you for give me the opportunity to speak about many different subjects. However, I would be interested in your experience and your point of view of how the different blog tools or CMSes you’ve looked at compare to each other and which are the strengths and weaknesses of each?
+
+Interviewer: Hmmm. Good question. It’s… 
+
+Planque: At least, whatever comes from the top of your mind, even if it’s not …
+

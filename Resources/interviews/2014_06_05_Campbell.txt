@@ -1,0 +1,209 @@
+
+Interviewer:	It's the fifth of June. I'm talking to Aaron Campbell. Hi, Aaron. 
+	
+Campbell:	[00:04] Hey. 
+	
+Interviewer:	How did you first get involved with WordPress?
+	
+Campbell:	[00:09] I did mostly for client work at the very beginning. I looked around for the best of the existing options, and I guess what was available was a little different then than it is now, but WordPress was the way I went, partially because of what features it offered, and partially because it was written in PHP, and that's what I already knew. 
+	
+Interviewer:	Do you have a background in development?
+	
+Campbell:	[00: 42] I did. Not a lot at that time. I had been doing web development for a couple years at that point. I had sort of fallen into it because of another project, and ended up enjoying it and sticking with it. So when I came to the WordPress project, it was mostly at the beginning when I was really still learning as I went along. 
+	
+Interviewer:	So what's your background then? What were you doing at the time?
+	
+Campbell:	[01:17] At the time when I found WordPress, I was doing web development for a family company, my dad's company, building a web application that they used for dispatching their trucks. He owned a trucking company that shipped cars through the southwestern US. 
+	
+Interviewer:	Yep. So I looked on WordPress.org, and I think you joined around 2004. That's quite early on. Is that correct?
+	
+Campbell:	[01:51] Yeah, that sounds about right. 
+	
+Interviewer:	And what was your impression with the community back then?
+	
+Campbell:	[01:58] Obviously, it was a lot smaller back then, but when I first joined, I really didn't know much about the community, just the actual product, I guess -- just the actual software. I started getting introduced to the community when I submitted my first patch, really, which I think was a little bit later, although I don't remember exactly when that was. And that's when I ran into Mark Jaquith and was sort of -- he was the one that committed my patch. And that's sort of how I found the rest of the community. It was pretty interesting to have this free software that, honestly, also had a lot of support built around it because back then, I even think it was a little easier to get access to these guys that were writing it and that was really interesting. 
+	
+Interviewer:	Do you remember what it was that you submitted?
+	
+Campbell:	[03:07]  Yeah, I do. I remember that better than when it was. I had a client that did some really weird stuff with stock market tracking and ticker symbols, and a lot of his posts had, the titles were super, super long, and he ran into some problems with duplicate post titles. And back then, if a post title was over 200 characters, you could end up with duplicates and have one that you couldn't access. It could never be found. And it was a simple little patch to check the whole length regardless of character limit. I think it was literally a one line change. 
+	
+Interviewer:	Had you been involved with open source projects before?
+	
+Campbell:	[04:05] Nope. WordPress was my first.
+	
+Interviewer:	Your first. And your last?
+	
+Campbell:	[04:11] No, because now I actually help out with more open source projects than just WordPress. But the only one that I ever got really deeply involved in, but I contribute some to things like, mostly things that are related to WordPress in some way -- jQuery, and more recently, VVV for development purposes. Now that I've been involved in an open source project for a while, I try to be a good citizen with whichever ones I touch for any reason, to give back when it makes sense, when I can. 
+	
+Interviewer:	So you seem to get more and more involved with the projects. How did that happen?
+	
+Campbell:	[04:58] Honestly -- getting a patch put into a project that thousands, tens of thousands, hundreds of thousands, and now millions of people use ... it wasn't millions at the time, I don't think. I don't know what the numbers were in like 2007-ish, but it was almost like crack. Once I got a taste, it was something that I just really enjoyed being able to see some of my code go in and get used by so many people. And so yeah, after the first one landed, I definitely started ramping up and got more and more involved. 
+	
+Interviewer:	Has the community changed over the years?
+	
+Campbell:	[05:49] Yeah, definitely. In several different ways, I guess. Obviously, it's grown massively. So there's a little bit of a different feel to a really, really large community than there is to a smaller one for obvious reasons. But it's also diversified a lot. It used to be that the community, honestly, the community built around it was mostly the people building it or using it to build stuff, and that was pretty much like developers. And now this community is much, much more diverse, where you have the developers, and you have the designers -- you still have all that, but there's also ... it's related, but it's almost like it's a whole separate, much larger, community, that's the users because it's so popular that that community is definitely still integrated and sort of grew from the original one that I first was introduced to, but it's very different and much, much larger. 
+	
+Interviewer:	Do you know what the catalyst for that change was?
+	
+Campbell:	[07:15] Catalyst for the change? I guess the obvious thing is adoption of WordPress. The question that is really is -- what is the catalyst for that? And I'm not totally sure. I think that a lot of things came into line for that to happen. I don't think there was any one thing. I think that it was a good product, still is, but obviously there are other good products that never hit the kind of distribution that WordPress has. I honestly don't know. There was some magic sauce along the way, somewhere. 
+	
+Interviewer:	So one of the things I find your name associated with is the core plugins project, which everyone seemed to be talking about in 2010. 
+	
+Campbell:	[08:12] It was exciting, it just never quite happened the way that we envisioned it. 
+	
+Interviewer:	So what was the idea behind it?
+	
+Campbell:	[08:22] Honestly, first of all, I guess the reasoning was that we were getting a lot of plugins. Yeah, we have even more now, but we were starting to see so many plugins in the repository, lots of plugins doing the same thing, lots of poorly-written plugins sitting right alongside of well-written plugins. Some stuff we do still suffer from today. Some of it we've mitigated, because a lot of those were also out of date plugins that were no longer functioning with the newest version. Bigger plugins, like especially around things like podcasting and such, that were relatively large and complex and made basically the site function completely different, and then when support was dropped and no one was taking care of them anymore, all the users that had been using them were sort of stuck. 
+
+And we thought, "How cool would it be if we could have plugins for a lot of these big things that a ton of people need that are kept up a little bit more like WordPress core is?" Something where it's not a developer, it's a group of developers. It's maybe a small team helps decide what goes in and what doesn't. It's something similar to the lead team now for WordPress. Something that's open that everybody can easily contribute to and stop having ten SEO plugins or ten Google Analytics plugins and start having one that everybody contributes to that when a developer goes away, another one can just fill his shoes and it never gets lost. Something that people could always trust, I guess.
+	
+Interviewer:	So who else was involved?
+	
+Campbell:	[10:42] Let's see ... who all was -- most of the core team at the time was, they were behind it. I don't know if all of them were really involved in trying to ... like, there was just a small group of us. I don't remember who all it was, honestly. 
+	
+Interviewer:	What happened with it? Where did it go?
+	
+Campbell:	[11:11] Where'd it go? It sort of fizzled like several other good ideas that I guess have come and gone. We didn't have the toolset at the time to do it properly, I don't think, without stepping outside of the WordPress ecosystem quite a bit and relying on something like a GitHub or something like that, which we prefer not to rely on for things that are really kind of the core of WordPress. We also found that a lot of the people that had these plugins that we saw potential for combination and therefore collaboration, didn't really want to combine their plugins with other people's. They liked having their own. They liked retaining ownership. It was their baby. I guess I get that to a certain extent, but I was disappointed to run up against that because I would have rather seen the collaboration. 
+
+	I think there were several things that we ran up against. And the other one was also with the plugin authors, and it had a lot to do with whose plugin is going to be the one that's chosen to be this core plugin. Why would his be chosen and not mine, or those sort of more political things that really were going to make the process a lot harder. We were really hoping for more, "Hey, this is awesome, let's all put our plugins together and work together on it." It just didn't happen that way. 
+	
+Interviewer:	Did you consider what the knock-on effect would be for other plugins that weren't chosen to be core plugins that were the same?
+	
+Campbell:	[13:16] Yeah. You know, I think that our original thoughts were that the ones that were the same really should be combined and the authors of all those plugins should be probably part of the lead team or whatever it is for this core plugin, that they would sort of just combine into one. And any that didn't fit that would continue to exist for the purposes of filling whatever need that it -- it was so different to make them not part of it. I know that almost everybody has the same needs when it comes to Google Analytics, which is mostly just making sure that when you log into Google Analytics, all your data's there. 
+
+	Some people have needs that go beyond that, that are very specific to one small subsection. And if that was the case, then we sort of saw that there were still being plugins that, yeah, weren't quite as popular, but were specifically made for a smaller niche group of people. But again, I think that was very optimistic and not realistic, unfortunately.
+
+Interviewer:	How far along did you get with the process? Did you actually get things like tracks set up, or mailing lists or anything like that?
+	
+Campbell:	[14:54] We got a mailing list set up for a couple plugins. We were going to be pulling post by email out into one of those. That was going to be one of them that we could pioneers by pulling it out of our core instead of pulling other plugins together. And we got the mailing list set up for that. We didn't really get tracks set up for it. We did get an instance setup but there wasn't -- that was where we started to run into tooling problems. So that was when we came back with a list of needs, but also at the same time we were running into these other roadblocks that we were starting to see. Not all the plugin authors were as keen on it as we were and such. And that's about the point where it started to fizzle.
+	
+Interviewer:	Do you have the list of needs that you put together?
+	
+Campbell:	[16:05] Hm. It's entirely likely.
+	
+Interviewer:	Because it would be great to have a copy. I mean, it's not on the need core, I don't think, mailing list. 
+	
+Campbell:	[16:17] Probably not because I don't think that that was around at the time. It might have been.
+	
+Interviewer:	It was wpdevel. It was on WordPress.com. 
+	
+Campbell:	[16:29] Yeah, but it wasn't used quite in the same way.
+	
+Interviewer:	No.
+	
+Campbell:	[16:34] I'll look for that. Actually, let me make a note to look for that and send it to you.
+	
+Interviewer:	That would be great.
+
+	So you mentioned that something like GitHub would have been useful. Why was that? Do you need that sort of way in working distributed?
+	
+Campbell:	[16:54] Yeah. Really, the plugins repository, when it was originally built -- well, first of all at that time, Git didn't exist, much less GitHub. But it was definitely designed with a one author per plugin, which had been adjusted and grown beyond that. But it's still not quite as collaborative. So like if you were a developer as well, and you found a problem with my plugin, the way that you would go about giving me the fix is to either find my email address and email me a patch at best, or an explanation of what's wrong, or basically, we were stuck right there. There was no issues or pull requests. Now we do have some stuff that we didn't back then, like the ability to basically open a forum post which would be kind of similar to an issue, except that it's completely detached from my source code in any way. There's no way for me to close each issue with a committed patch or anything like that. 
+
+	So we still have that disconnect that something like GitHub would sort of solve, because if you're going to have a bunch of developers working on the same thing, and beyond that you're going to hopefully have other developers whose contributions you're open to, even if they're not constantly working on it -- you need some sort of system for them to be able to pass that in and converse back and forth about a patch, maybe even modify it, merge it in, that kind of stuff. The kind of stuff that GitHub does. The kind of stuff that we do for core with a combination of our scripts that we've build around our subversion repository and our modified track instance. But you kind of need that for every core plugin, and the way to spin those up, relatively simply, because the idea was to have a bunch of core plugins, not two or three. The idea was that we'd have 30 or so, growing as we saw needs grow and change. 
+	
+Interviewer:	Did you discuss actually building those tools for WordPress.org?
+	
+Campbell:	[19:52] Yes. We've discussed that many times. And during the core plugins time was definitely one of the times when we talked about building those. It's something that came up more recently as we've consistently got pressured to move to Git, and had the difficulties of having a lot of our infrastructure moved around subversion. And people said, "Couldn't you just fix it by moving WordPress to GitHub?" 
+
+	Well, I mean, yeah I guess, but really the right way to do it would be for us to have something that's as free and open as WordPress to run that. So the thought of building that has come up over and over. And I think that we are slowly and steadily trying to make our way that direction. Obviously, it would take a ton of man-hours and effort to just sit down and do it. And if we stuck WordPress developers on it, I think that there's a team that's more than capable, but it would also mean that WordPress would stagnate for a little while. So there's some difficulties there. 
+
+	But I think that as we slowly work our way that direction, where we've now split and we have Git and subversion repositories that are working sort of in conjunction, they're syncing back and forth -- that's kind of a step in that direction as we've gotten things like the support forums integrated into the plugin pages. That's a step that direction. Some of the components stuff in core that Nacin has worked on recently for being able to track certain components and stuff, that's another step in that direction towards really building our own tools that will hopefully -- one they give us everything that we need, maybe even someday to do something like core plugins if it turns out that we can get enough people behind it, but at least to continue to encourage open and free software being used to build our open and free software, I guess. 
+	
+Interviewer:	So did you bring the project to an end, or did it just fizzle out?
+	
+Campbell:	[22:35] It fizzled out. At least that's my recollection of it. 
+	
+Interviewer:	What other good ideas have fizzled out?
+	
+Campbell:	[22:50] Of course, now I'm drawing a blank. I don't know. I know that there have been, but yeah nothing's coming to mind right away. 
+	
+Interviewer:	That was the big one I wanted to ask you about because people seemed really excited about it. And you had the survey about what to call it -- the core or canonical plugins. So it seemed like a very big deal. 
+	
+Campbell:	[23:20] It was for a while. It was definitely a big deal. 
+	
+Interviewer:	Can you tell me about how the 3.6 release cycle worked?
+	
+Campbell:	[23:29] Sure. I guess you just kind of want an overview, or do you want anything in particular?
+	
+Interviewer:	How you got involved with the lead, and just the general overview of how you and Mark are running the cycle? 
+	
+Campbell:	[23:50] Yeah, so as far as how I got involved in being the lead, we had decided that we were going to try to put two people per release -- you know, have two leads. It's a lot to do for one person, especially if you're not full-time on that, which obviously neither Mark nor I was. So they wanted Mark to lead the release, and basically they wanted him to choose somebody to co-lead with him. He opened up a poll, like a Polldaddy poll for people to toss their hat in the ring, but ended up choosing me, mostly because I was well-known in the project, had been contributing very consistently and regularly, as well as having enough time to put into it -- or at least, that was the assumption. As it turns out, leading a release took way more time than I think I had ever imagined, but it was definitely a very interesting, and very different, experience trying to help lead as opposed to just help contribute. 
+
+	So really it just came down to Mark choosing based on what he thought he wanted in a co-lead for the release. 
+	
+Interviewer:	What were your responsibilities as the lead? What did you have to do?
+	
+Campbell:	[25:59] The first step was trying to decide what we wanted the 3.6 release to be about, if we had like a theme for the release. There's always the -- I guess usually the struggle tends to be what do you not put in a release because if you just try to put in everything that's currently sitting on track, you get those languishing releases that end up being very late, very far behind. And in order to avoid that, we would try to figure out what we wanted the release to be about. For 3.6, we were trying to -- we decided that we wanted to try to push, I guess, giving control to the user. Giving them the tools that they needed to be able to do the things that they wanted to do, which meant pushing out our handling of audio and video; taking care of things like postlocking in a much better way that gave teams actual usable controls around that; trying to give the user ways to really bring their visions to live in WordPress in a much more standard WordPress install as opposed to something very customized where anybody, given a budget and a decent developer can do that, I guess. But we were trying to push more of it into the more standard, everyday install for every user. 
+
+	Things that I did -- I helped run the meetings. We had the weekly dev meetings like we always do. We put basically a lead and a co-lead on every major feature that we were going to try to include. So a lot of what I did was simply touching base with them on a regular basis, and trying to make sure that they were on track, and that there wasn't anything that they needed from somebody else, and those kinds of things. It was very much administration, and very little code writing, but it was also very sort of time-intensive because it turned out that a lot of these features that had these leads still needed one of the release leads to be at each of their meetings, and that sort of stuff. So I found myself in six one-hour IRC meetings a week, fielding emails and lots and lots of Skype chats to try to clear blocks for people, and that sort of stuff. 
+
+	I think that it turned out really well. But it turned out to be way more time-intensive than I had expected, originally.
+	
+Interviewer:	So what happened with post formats?
+	
+Campbell:	[30:02] Post formats were developed based on our original thoughts about what we thought post formats should be. We kind of came up with our idea. We said, "Hey, this is going to be awesome. Let's do post formats like this. Let's really push them to the next level." We did wireframes that we all liked. We sunk a lot of time and effort into building post formats to meet those wireframes. And the team that was behind that with Helen and such, honestly, did a really good job. It's just that when they were finished, we ended up really not liking them. We came up with the specs, and we built them to those specs, but then it just, it wasn't right. We thought that that was what we wanted. But once we actually had it in hand, it just, it wasn't what we wanted. It's like ordering something from the restaurant that sounds great, but as soon as it sits in front of you and you smell it, it's like, "Ahh, definitely not what I was in the mood for." 
+
+	And it didn't turn out. And that was a tough one because having to make the decision to pull out something that not only had we sunk a lot of time into, but Mark and I had sunk a lot of time into a lot of meetings for that, and a lot of helping. And towards the end, we'd even sunk a lot of time into code and rethinking and trying to map out if this goes in, and is it what we want? Is it better than what we have? I did think it was better than what we had, but it was also a problem because we were like, "But where do we want to be? If we do this, is it going to -- have we gone a little ways down the path that's actually going to prevent us from being where we want to be someday?" Because when we look at having to keep up backwards-compatibility for what we currently have, we would be having to keep backwards compatibility for what we had built, but hadn't yet put in. If we put that in, whatever we had someday in the future would have to still support all three. 
+	
+	So we sunk a ton of time into it, and people like Helen and her whole team had been working on it, had all just sunk so many hours into it. It was painful to make the call to pull that one out, that's for sure. We languished on that a bit. 
+	
+Interviewer:	Why did it take so long to delay the decision? To pull it out?
+	
+Campbell:	[33:14] To pull it out? Well I think that a lot of the time was us still thinking that whatever it was missing just wasn't something huge. We thought it was still fixable and we would rework it and tweak it and get it to be just right. And then I think it took us a while to really realize that what we had was not going to become what we really needed. I think that there was, I don't know, sort of that time where we thought, "This is salvageable. We've just got to put our finger on what the thing is that's not right." And it took us a while to realize that we weren't finding what that thing is possibly because what it really needed was just sort of a complete rethink, and that would mean starting from the beginning. It took us a little while to come to that realization. 
+	
+Interviewer:	Do you think that that had any impact on the future development process?
+	
+Campbell:	[34:37] Yeah, I do because I think we realized that doing some of that kind of stuff in core, in our regular master branch or trunk branch of our code, can make it even more painful when something doesn't work because as much as you might say, "This is under heavy development, this isn't guaranteed to be in" -- people start using it, and some of them hate it and are happy that it comes out. But some of them loved it, and were really upset that it was missing at some point. Some people had even started writing code around it, even though our stance is that's not a good idea until we hit a certain point in the development cycle. But just because we say that doesn't mean that people actually do that in practice. 
+
+So I do think that having experiences like that is part of the reason that we now see in feature development in plugins because it's a way of keeping it outside core until we hit that part where it's right. You know, if we had done post formats that way, then when it got all done, and it was built the way we wanted it to be built, we'd have went, "Well, back to the drawing board; this clearly isn't ready for this release cycle -- let's see if we can reimagine it for the next." But we would have made the decision to not include it instead of making the decision to pull it back out, which, while they have the same end result, have a very different process of getting there. And I think that not including it is far less painful on people than pulling it back out. 
+	
+Interviewer:	What else have you been heavily involved with?
+	
+Campbell:	[36:49] I have been one of those guys that's sort of jumped around a bit in the project and sort of stuck my fingers in everywhere, partially because a lot of the way that I justified the time that I spend on WordPress is through my client work. And so I'm often sticking my fingers into WordPress core wherever it is that it benefits a client that I'm currently working with, wherever I run into a struggle there. 
+
+I was pretty involved in short codes early on, when they were newer in coming out. Again, that was a client thing. We used short codes on a client project, and it was very interesting, very heavy duty usage of them. So I got to be pretty involved in that, and that sort of carried through for quite a while. But yeah, I think I've stuck my fingers into a lot of places, but I haven't been, I haven't taken huge projects on on my own, I guess. I was pretty heavily involved in some reworking on widgets a while back as well. 
+	
+Interviewer:	How has the project changed since you've been involved? 
+	
+Campbell:	[38:23] I mean, obviously, it's grown massively. A lot of the code base has changed as the web technologies have pushed forward, and as usage of the web has changed. So from the geekier developers side, I see that a ton more of our code base is in things like backbone and jQuery, you know, JavaScript-based stuff, a lot less in PHP and that sort of stuff. But it's changed a lot more than just code-wise, too. I think that we've gotten a lot more structured and organized, largely out of necessity, because as the project has grown, and the userbase and contributor base has grown, it's been necessary. And I also think that having some of those policies in place, many of them from lessons hard learned, is really helping keep up from having to go through those struggles multiple times. You see things like features as plugins after having such a struggle with something like post formats. 
+
+That's great that we now have sort of these processes where after every release we sit down and go, "Okay. What went well? What didn't? What can we change?" As we get some of those processes in place, it's definitely changed the way the project looks and works. 
+	
+Interviewer:	Did you get involved as much with wphackers? 
+	
+Campbell:	[40:21] The mailing list you're talking about?
+	
+Interviewer:	Yeah. 
+	
+Campbell:	[40:28] I tried to be on there for a while. It was so, so, full of noise as far as the noise:signal ratio. I followed it a lot and kept silent a lot. You'll find me in the archives, but you probably won't find me that often, because it seemed for a long time there that everything, everything turned into an argument on anything. And I'm really one of those people that does not -- I do not thrive on that like many other people on the internet. So I tend to avoid it. I avoided it a lot more. 
+	
+Interviewer:	Why was the signal:noise ratio so bad?
+	
+Campbell:	[41:20] Honestly, I think the same reason it is in so many places on the internet. People don't feel like they need to hold back or care or whatever when it's just through text and it's people that you don't know. So our arguments get out of hand. Arguments start because somebody posts something, and somebody else, instead of being helpful, is destructive and it's because they're not standing there face to face with you. If they were, they would have kept quiet or said something constructive. But since it's through text, they just get aggressive. I still don't know exactly what it is in the human psyche that causes that, but it's very obvious, and wphackers is like any number of internet forums that slowly degrades because of that. 
+
+	And it's not -- obviously everywhere suffers from that; some overcome it through relatively heavy moderation, which we did not have. And had we had people, the manpower, and the tools in place to moderate the list pretty heavily, then it probably would have not gotten that way. But it did. 
+	
+Interviewer:	Is it still active?
+	
+Campbell:	[43:00] I think so. Active in that it still exists, but I don't think active in that -- I don't think it has a lot of traffic anymore. I think it has some, but I don't think it has near what it had at its peak. 
+	
+Interviewer:	Do you think that the MATE Core blog is a good replacement?
+	
+Campbell:	[43:23] Yes. Absolutely. It's much easier to moderate on MATE Core. It's also a little bit easier to access for people that are not web geeks, because you can simply go to a website like you do any other website, comment like you do any other website, as opposed to needing to understand mailing lists and how they work, and how you sign up, and how to reply to them, instead of just replying to the person that wrote the message and those kinds of things. So yeah, I think that it's been a much, much better venue for that kind of stuff. 
+	
+Interviewer:	Excellent. Well, you've answered all my questions, so we can leave it there. Thanks, Aaron. 
+	
+Campbell:	[44:16] Perfect. Thank you. 
+	
+Interviewer:	Will I see you at a WordCamp, possibly?
+	
+Campbell:	[44:24] All my WordCamps are kind of in flux until I figure out where I'm going to be working. But I'm sure you will, because I will certainly be going to them still. I just don't know for who yet. 
+	
+Interviewer:	Okay. Fair enough. Well, I will see you probably, maybe San Francisco I guess. 
+	
+Campbell:	[44:39] I will definitely be at San Francisco, even if it's on my own dime. So I will see you --
+
+[End of recorded material at 00:44:43]
+
+
+

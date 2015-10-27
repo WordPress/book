@@ -1,0 +1,257 @@
+Interviewer:	[00:00:00] It's the 30th of May and I'm talking to Ian Stewart. Hi, Ian.
+
+Stewart:	Hi.
+
+Interviewer:	How did you first get involved with WordPress?
+
+Stewart:	Oh, that's a long story, I guess.
+
+Interviewer:	We've got time.
+
+Stewart:	So it was a relatively long time ago now, some time around 2006. I had started a blog on Google's blogger platform and I really didn't like how comments were shown in Blogger. I can't even remember what it was. I think it had a common UI so it didn't look like it was on my website. It looked like it was on Blogger. And I looked around at WordPress and it had really cool comments. So it seems like it's just a little silly thing to want to switch platforms for but that was the very of me beginning wanting to use WordPress.
+
+Interviewer:	[00:01:02] Okay. What were you blogging about?
+
+Stewart:	So I had a really embarrassing personal blog which is still out. Right now it's at iandanielstewart.com but if you go all the way back to the beginning, it's super embarrassing. I was blogging about all the books I was reading. I read a lot so I thought I would do like book reports, write funny posts about books and reading. It was really terrible.
+
+Interviewer:	We've all got those. Mine is [unintelligible 00:01:27] So what were you doing at the time? Were you working?
+
+Stewart:	Yeah, so I was a graphic or print designer. I didn't know anything about web design really or the practice of it and I always wanted to so I thought that blogging in my spare time might be, you know, sort of like a sideways way into it which it turned out to be. [00:02:01] So, yeah.
+
+Interviewer:	So what did you think about WordPress? 
+
+Stewart:	I really...I really liked WordPress, maybe obviously. Of the many things that attracted to me, as a designer I really enjoyed the fact that there were so many themes around. It seemed pretty simple to use although at the time I started using it, that was when WordPress switched from having no tags and a plethora of tag plug ins to actually having tags which was the scariest update of my life, I think, when I switched. I was using something like Ultimate Tag Warrior or something like that and then I think that was the only update that actually scared me. I think it broke my theme because I had done something really dumb.
+
+Interviewer:	[00:02:58] So you'd already been building themes by that point?
+
+Stewart:	Sort of, I'd be using a theme called the Sandbox that I'd hacked up to sort of look the way I wanted it to look. I don't really think I'd built a theme. I'd sort of just, you know, hacked at them. Yeah.
+
+Interviewer:	Yeah. Sandbox was that theme that had a competition, didn't they? 
+
+Stewart:	They did have a competition which I did enter. 
+
+Interviewer:	Enter, did you...where did you come? I can't even remember who won.
+
+Stewart:	The person's name who won, I remember the name of the theme. It was called Clazh. It was like clash but with a zed instead of a S. I'm not sure how to pronounce that. The website's actually offline so this is like I'm in the process of buying it or buying the domain. 
+
+Interviewer:	Okay.
+
+Stewart:	This is like a secret so by the time this is public, hopefully it'll have happened. So Scott [Wallach??] who founded it, I guess he let it go. Anyway, I'm about to buy it so, hopefully, I can get the old site back up online.
+
+Interviewer:	[00:04:02] For what, Sandbox or Clazh?
+
+Stewart:	No, Sandbox. It's sndbx.org.
+
+Interviewer:	Yeah, I did have a look at the theme competition. There seems to be quite a think for theme competitions way back then.
+
+Stewart:	Way back then there was. Yeah.
+
+Interviewer:	Yeah. Why do you think that was? 
+
+Stewart:	That's a good question. The first one I know of is Alex King's [unintelligible 00:04:27] competition which I think was around WordPress 1.5. I don't know why there was such a...I think that was a big one but why was there? I don't know. There should be more theme competitions.
+
+Interviewer:	Do you think so?
+
+Stewart:	I do. I had a lot of fun when I did the Sandbox one. It was really exciting. The only reason I entered, I wanted to enter but I didn't initially and then Scott reached out to me, the Sandbox creator, and asked me to enter because I'd made a somewhat nice looking theme using Sandbox. So that was I thought really encouraging and I entered and had a lot of fun. 
+
+Interviewer:	So how did you learn to create themes? Is that just from hacking around? Was there many tutorials around?
+
+Stewart:	There was a bunch of tutorials around. Definitely from tutorials, I mean I learned CSS looking at blogger templates way back when. [00:05:30] I didn't know anything about CSS so I would read a tutorial that said, you know, scroll down to line 100 and you'll see some funny looking text, you know, that says this and then start typing there. So that was the level of tutorial that I was reading, yeah, especially WP designers who were around that had a big tutorial. Yeah, I was just definitely just googling around and breaking my local install of WordPress, you know, getting a white screen of death repeatedly.
+
+Interviewer:	Yep.
+
+Stewart:	I think that's pretty much how everyone learns.
+
+Interviewer:	I think so, yeah.
+
+Stewart:	Yeah.
+
+Interviewer:	You would have been around when the whole sponsored themes thing happened, when people were selling links in their themes.
+
+Stewart:	Sort of. I was around, I definitely remember when they were removed from theme.wordpress.net so I definitely remember that and I remember there was also some sort of voting controversy, I think.
+
+Interviewer:	[00:06:35] What? With Sandbox? 
+
+Stewart:	I don't think it was with Sandbox so much as people were...you could rate themes on themes.wordpress.net and I think some people were rating their own themes or creating new accounts to rate them.
+
+Interviewer:	Yeah. I read some things about that, about people getting their friends and family to up vote their themes. 
+
+Stewart:	Yes.
+
+Interviewer:	Yeah, which didn't go down too well. So what was your perception of the sponsored themes?
+
+Stewart:	I've always been...I mean myself as a themer, I've never really been, I don't know why, I've never really been a fan of even putting a credit link for myself at the bottom of themes so the idea of, you know, putting a credit card link there or something else or, you know, some pill link is really distasteful and I don't like the idea of people feeling like that they can't edit that. [00:07:38] So I'm not really a fan of it. It doesn't seem like something most people would be fans of. I mean I think at the beginning a lot of people...at that time with themes things felt maybe unprofessional or we, as themers, didn't expect that people were building websites and homes for themselves on the web with our work and I think that even most people now that were doing that would probably find it distasteful because they would look around and see just what can be done with WordPress and how it just, you know, doesn't seem appropriate at all.
+
+Interviewer:	So tell me, you've got a design background. Did you have any experience of an open source project before?
+
+Stewart:	Only as a user of open source products. [00:08:28] I'd used Mozilla Firefox. That was probably the first thing that I got really excited about as an open source tool. And Cyberduck, the FTP client that I still to this day use. So I would use it to transfer files and, yeah, I felt, you know, special for lack of a better word, that people were working on these products and I got to benefit from that.
+
+Interviewer:	One of the things that has been interesting has been speaking to designers who come from very much a background of copyright and protecting your designs and this sort of clash on this intersection between open source and people with a more traditional design background. So I was wondering what your perception of the open source product was going in? How comfortable were you with sharing your designs as well as your code?
+
+Stewart:	[00:09:29] I would say I was fairly comfortable. There was...I can definitely understand how people were uncomfortable, especially around themes and adoption of the GPL license and that's, you know, that's a whole hour long conversation about the history of that I would imagine.
+
+Interviewer:	Hm-mmm.
+
+Stewart:	Yeah, I would say I was mostly comfortable. I felt very good giving things away although maybe it's not a mostly proud problem for myself. When I first starting child themes for Thematic which was a big scene I was involved in, they were not GPL licensed. They had...I can't even remember the sort of ad hoc copyright notice I had on them but the idea was that you couldn't...what I had was that you couldn't reproduce the design but the code was all open. [00:10:40] You could learn from it. You could adapt it, something like CC buy, like Creative Commons, which I sort of experimented with for maybe like two weeks and switched to JPL.
+
+Interviewer:	Why did you do that in the first place?
+
+Stewart:	I thought I was being clever maybe. I'm not sure. I think the main thing I wanted to do was to make sure that I was selling a product that couldn't be resold or something like that. However, I quickly realized that wasn't like a real concern and that it's better just, you know, let people build...be totally free to build on what they acquire from me, much like I have been from WordPress and everything else I've learned from.
+
+Interviewer:	[00:11:38] Can you tell me about Thematic? What was...when did you launch that and what was your plan for it?
+
+Stewart:	Oh, sure. So when did I launch it? I probably launched it some time in 2008. I feel it was 2008. So I'd been doing a lot of freelance projects and I noticed really quickly that every website that I worked on was essentially the same and looking at the structure of most WordPress themes, when you take away the CSS, they are essentially the same or really they could be the same. So, like many people, I had my own sort of starter theme that I was using over and over again and once I noticed that you could essentially make something called the child theme although we didn't call it back then, I thought well, I could just keep using the same theme over and over again. [00:12:42] So my idea was to give away the starter theme that I was using so that other people could benefit from it. Also at the same time I was really excited about getting people to start using child themes because I had seen, you know, how powerful it could be, for lack of a better word, in my own practice.
+
+Interviewer:	And you decided to sell those child themes?
+
+Stewart:	Yeah, I released three or four that I sold for something like 20 dollars. It feels like a long time ago.
+
+Interviewer:	It was. It was five years ago, a while ago. Was that successful?
+
+Stewart:	[00:13:30] Yeah, it was pretty successful. I think so.
+
+Interviewer:	What was your perception of the premium theme market when it first emerged? 
+
+Stewart: 	When it first emerged, I probably achieved some sort of notoriety for my opinion on it. It was probably...at themeshaper.com, the site that I founded was successful. I'm sure a lot of it had to do with notoriety for that. I thought a lot of people were being silly, especially about the GPL, and trying to...well, doing the same thing I ended up doing with those child themes but trying to lock down the [unintelligible 00:14:14]. So I think my estimation of most themers at the time was that they grabbed a theme like Kubrick or Sandbox and they started tweaking it or classic and, you know, eventually sort of gained some knowledge and I felt like a lot of people were trying to lock that down, prevent people from learning the same way they did so I thought that was a little silly. [00:14:42] Also at the same time I was pretty sure that the idea of selling something that was open source was not sustainable which I think even the GPL FAQ sort of suggests that where they say if you're going to sell an open source product or a free open source product to sell it for as much as you can for that first download which I think played into my wanting to something like Creative Commons for child themes. Yeah, I thought it sort of was really unstable although, of course, I was famously wrong since it's proved to be like a huge enterprise although I think most people now sort of treat it as a support service, right, where the theme is almost like a loss leader for helping people learn how to set up a site with WordPress.
+
+Interviewer:	[00:15:47] Why do you think there was so much confusion around the GPL?
+
+Stewart:	I think, well, for one it's confusing and I think there's maybe sort of a divide between themers and plug-in developers? And developers coming from a development and programming and computer science background may be more familiar with open source philosophy and the different licenses and designers, at least at that time, may have gravitated more toward themes, might not just have been aware of that world or those ideas.
+
+Interviewer:	Yeah, I read the posts where you predict the premium theme mark-up [unintelligible 00:16:29]
+
+Stewart:	[00:16:30] People always make fun of me.
+
+Interviewer:	Well, it was a grand prediction.
+
+Stewart:	It was a grand prediction.
+
+Interviewer:	But that didn't happen. I thought it was interesting because it was based on Justin Tadlock releasing the Options theme. 
+
+Stewart:	Yes.
+
+Interviewer:	You know, trying to say that there are themes that are like premium themes but are given away for free. So why do you think it didn't come to an end?
+
+Stewart:	I think or at least in my defense of my grand prediction that things changed, that people started selling support instead and that probably was like where things pivoted.
+
+Interviewer:	So one of the things I want to ask you about is Thesis.
+
+Stewart:	Yes.
+
+Interviewer:	Because you wrote this great post in 2009 about Thesis and you talk about the Pearson principle. [00:17:37] Do you recall this?
+
+Stewart:	I sort of do. I kind of want to search. Is it fair? Is it fair if I search. Oh, perfect. I was afraid you'd have read everything I wrote.
+
+Interviewer:	I've read many of the things that you wrote. I was just wondering what sort of impact do you think that Thesis had on the premium theme market and theme market generally?
+
+Stewart:	I think...I still agree that if the Pearson principle is, just looking at the headings there, if it is a powerfully simple design on an equally robust framework I think that that's still accurate. I think right now there is a lot of talk about, just read a great post about seeing premium themes as a commodity and how you might want to delve into niches for themes or different verticals for themes because you can't really compete anymore. [00:18:36] And one niche which is the all purpose niche which is where I think Thesis was really successful. I think Chris or Mr. Pearson, I'll call him Chris, I think Chris has been super controversial and he said some kind of, you know, upsetting things sometimes. I think, however, he is a great designer and he really landed on maybe a great aesthetic. And one of the things I think he understands really well is that a theme...that when people look at themes that they are trying to envision themselves in a WordPress site so they're trying to imagine their future blog or their future website and I think with his designs and I think Cutline and Thesis probably, most especially, that when you look at those they are very polished but they're also abstract and offset. [00:19:40] Almost anyone can see themselves blogging with it or setting up a website with it. 
+
+	So I think that actually more than anything, I mean he's had lots of success, he's shown that marketing principles are really important for people wanting to set up websites. When he talks about SEO and how things can, you know...people that blog with Thesis convert more, he's shown that that's really important to people setting up websites and also you can make lots and lots of money. But I think that his design has probably been more influential showing that generic, robust designs that can work for a lot of people will be successful and I sort of see this.  [00:20:28] You know, themes get categorized in different ways like magazine or marketing themes or business themes, but when I look at a lot of themes, the most popular niche I see is probably that generic, polished, robust design that can work for anything. So I think that was his most successful thing that he's brought to WordPress themes.
+
+Interviewer:	Were there other themes that were influential?
+
+Stewart:	To me I sort of have a few old favorites. Cutline is definitely one for the only reasons I said. I think Hemingway is one. That's from like...it's really old, it's like from 2005 or something. I always thought that presented people's...just presented, you know, your blog in a unique way and showed that you could have sort of different forms of blogs. [00:21:28] I think it sort of foreshadows a lot of different styles of blogging maybe today. Sandbox definitely for, I think, showing...Sandbox sort of became like a workhorse for a lot of people and I think that maybe sort of foreshadowed the WordPress freelancer today who starts with something like underscores or something like Roots and is going to use to rapidly build different websites. Yeah, I think that those, Cutline, Hemingway, Sandbox, those are probably my biggest favorites. Kubrick is definitely up there. A lot of people...Kubrick is sort of like a laughingstock now in the progressing world but I think it's probably...well, when I hear about projects like the project you're working on, like the history of WordPress, to me Kubrick is like one of the biggest things that could be in there and I hope that it's written well about because for a while it seemed like...it became the laughingstock because, you know, you could go like every blog in the internet. 
+
+	[00:22:37] They'd be running Kubrick and then there was all these spam sites running Kubrick it felt like but when I first started looking at WordPress, when I first even heard about WordPress, the reason I did was because I kept going to all these really cool blogs written by really smart people that had this really cool design which, of course, turned out to be Kubrick. And I heard about WordPress because I was pulled all the way to the bottom looking for...I just wanted to know everything about this blog and there was link there that said 'powered by WordPress' or 'proudly powered by WordPress'. I sort of feel like Kubrick is, you know, like the theme that launched a thousand blogs.
+
+Interviewer:	That's a good title for a blogger.
+
+Stewart:	Yeah. And definitely comparing it to Helen of Troy there, like that's intentional. It was this, you know, impressive, amazing design.
+
+Interviewer:	People were very unhappy when it went in.
+
+Stewart:	[00:23:31] Oh, when it went into WordPress?
+
+Interviewer:	Yeah. There was a lot of arguing about that one. 
+
+Stewart:	I did not know about that.
+
+Interviewer:	Yeah, it was pretty controversial.
+
+Stewart:	Just because a choice was being made or...?
+
+Interviewer:	I guess because a choice was being made and people felt that there were other choices that could have been made.
+
+Stewart:	Interesting.
+
+Interviewer:	I mean most things at WordPress are controversial. What about people? Which people do you think really influenced the shape of the theme market? Well, theme design and also the sort of premium theme market?
+
+Stewart:	So for theme design, I think that Andy [Skelton??] is probably one of the people that never gets mentioned a lot. He helped Scott on Sandbox developing the body classes that made it easy for everyone to sort of, you know, easily style things and also he sort of encouraged me to keep complaining about child themes not being as powerful as they could be and helped write some of the code that you override different templates in your child theme which is pretty technical but I think that was a big deal because child themes became like a huge way for developers to build things. [00:24:58] You know, places like StudioPress, their entire business is based on that essentially and also ended up recently, I think 18 months ago, two years ago, I think he largely wrote something get template part function which again sort of changes the way people write themes. So he's like my unsung theme hero. No one ever talks about him. 
+
+	But anyway, I definitely think Scott [Wallach??], guys like Brian Gardner, Chris Pearson despite him being controversial I think is an important figure in theming. [00:25:36] Around premium themes, guys like [unintelligible 00:25:39], I hope I'm pronouncing his name correctly, for the way he...he was sort of in the thick of it with some of the controversial blog pills back and forth since starting with themes which came out of I think it was the premium news theme or something like that. Guys like Tung Do, Justin Tadlock - Tung Do being small potato he's commonly known as, probably forgetting lots of people who I think are really cool.
+
+Interviewer:	Can you tell me what you think are some of the most important developments in theming over the years in terms of what you can with themes?
+
+Stewart:	[00:26:28] Sure. So definitely I think the body class in Sandbox was a really big deal just because it sort of opened things up. I think it genericized themes in a way and helped them become a lot simpler, as well as allowed people who weren't...it sort of put more power in the hands of people who were designers and not developers because they could do more with CSS which is a language that's easier to understand. Definitely a child theme I think...child theming, I think, was a big deal. It sort of helped with the rise of theme as a theme [print??]. Boost formats are almost a big deal in theming. I think they eventually might be depending on the way WordPress goes with its editor. [00:27:27] Besides the introduction of themes which I think was like 1.5, to me the biggest thing is probably the body class in Sandbox for what it gave to designers and child theming I think was a big deal for a lot of people because again it made it easier for people that weren't hardcore developers to get into theming and to me, maybe going back to the question about theme competitions, makes WordPress theming more fun.
+
+	I think a lot of times we forget, especially today where themes feel like they're a big business, we forget, I think this is still there, but there are people out there with blogs who need themes and there's a bunch of crazy kids out there making crazy designs that anyone can use and I think anything that promotes that, just those crazy people having fun with themes, I think it's really good for WordPress.
+
+Interviewer:	[00:28:34] Can you explain the body class in Sandbox to me as though I'm a lay person?
+
+Stewart:	Sure. When you look at the...what it lets you do is it tells you when, if I'm looking at my home page, the body class function will let me know, give the designer ability to write a style using CSS just for the home page. Or if I'm looking at my post, like if I clink on the permalink and go to just the single post I can give a separate design for that which sounds pretty simple but what it lets you do is things like if you had a post in a fun category, you know, where the category was fun, every post that had that category could have its own special fun design. [00:29:40] So you can do lots of...and what that did by putting...wrapping it all up in a function that you can filter and add stuff too, it's just made it easier for...all that stuff could be done before but it made it easier for people who were only familiar with CSS and maybe not so much with PHP start easily doing that sort of thing with their designs.
+
+Interviewer:	So was this moved upstream from Sandbox to Core?
+
+Stewart:	Yeah, actually Scott wrote a post called The Sandbox is Dead, Long Live the Sandbox and moved up to Core with, I think, WordPress 3 and became part of the default team, 2010. I think that was exactly when it happened, I'm pretty sure.
+
+Interviewer:	[00:30:29] So is that something that's in the theme as opposed to in Core?
+
+Stewart:	It's in Core but your theme has to take advantage of it.
+
+Interviewer:	I see. Okay, that makes sense.
+
+Stewart:	But it's ridiculously simple.
+
+Interviewer:	Okay, great. What about template parts?
+
+Stewart:	So template parts, I think, are kind of exciting because of how they let you...WordPress themes can be hard to organize and hard to see what's going on and I think...it used to be pretty common to have like really overcomplicated index templates with lots of stuff going on there. The code was hard to read. There were lots of if statements if you wanted to do anything crazy so template parts give you the ability to abstract your template. So if you have like this big long chunk in a template you can pull it out, put it in another file and then call it in the original template. [00:31:33] So what that does...if you're building a theme anything that helps you to clean things up and make things more organized is really helpful. And then the second thing that made that really cool is if you were using a theme is built in a really sort of elegant abstracted way where say just the post...like just the part of your design, just the blog post itself in its own template part, it's not the header, nothing like, you know, larger structure of that post page with the comments and everything, just that post was in its post template part. If you then built a child theme you could copy that single little template part into your child theme and start editing that there if you wanted and this sort of makes it easier for people to edit the parent theme without messing it up too much.
+
+Interviewer:	[00:32:42] Can you tell me about some of the big trends that you've seen over the years in theme design?
+
+Stewart:	Sure, so theme frameworks was a big one, I think, where people were building all sort of tools into their themes to make it easy like to punch some buttons and build websites. Definitely magazine themes, it feels like it has been a big thing. I'm never really sure what a lot of these terms actually mean even though I say them. So I'll say magazine theme framework. What that is is up for grabs but I think it seems to be a common [mix-up??] that does, you know, punching buttons and building something but a magazine theme is tough too. [00:33:29] Is it something that looks like what the New York Times website looks like right now. This is something that has like a big slider at the top. It's tough to say. But the things that fall into that magazine theme category seem to have been really huge. People, bloggers, maybe because it gives them a sense of authority, sort of have gravitated towards those themes. It lets them structure different content in different ways, maybe makes the front page of their site look something like the web portal, like they [unintelligible 00:34:03] page or something like that. Definitely right now it feels like we're going back to the beginning of blogging, looks like a lot of really simple one column blog themes. 
+
+	It seems to be something that's really trendy right now. I mean you see what with other CMSs like Ghost or services like Medium where you have only one choice of the design and it's essentially very...it's elegant but it's like a really old blog theme.
+
+Interviewer:	[00:34:35] Did any of these trends influence WordPress' Core development?
+
+Stewart:	I would say a little. I'm not sure...I would definitely say a little. If you look at Tumblr themes or Tumblr blog themes although they weren't built by Tumblr. I think the first Tumblr log themes were WordPress themes. Tumblr sort of popularized, you know, the idea of having these different types of posts. Right? Like simple image posts. So I think it would be hard not to argue that Tumblr didn't get this from WordPress with post formats and things like magazine themes influenced it a little bit with...there are functions like the post thumbnail or we actually see it. It's called a featured image where you can add a little image to your post. That definitely rises out of the world of magazine themes.
+
+Interviewer:	[00:35:34] Can you tell me how you ended up joining Automatic?
+
+Stewart:	Sure. So I guess it was in...let's see, so I started in 2010 and bear with my memory here. So I think that was in the spring of 2010, so I think in the summer of 2009 or fall of 2009 there was an ad that went up for Themes Are, it was called, and I remember one item on it was that you might have built your own theme framework which I had done and I thought that this sounds like a job for me and I was too scared to apply because I thought I wasn't probably good enough to work at Automatic but a couple people reached out to me and encouraged me. [00:36:29] I applied and then I think like everyone else in the history of the company has done I did a trial project. During the midst of it I was also contributing to the 2010 theme so it was a pretty hectic time. I had a lot of other stuff going on. My wife was pregnant. Yeah, I did a trial and I wound up there.
+
+Interviewer:	So were you working at the time or were you primarily running Thematic?
+
+Stewart:	So I was working at the time. I was working full time. Actually during my trial it was pretty stressful. I was working full time and I think it was a busy time of the year and I was working maybe 50 hours a week, maybe a 55, and also I was running themeshare.com, posting there, and then I was also working maybe 20 hours a week for Automatic during my trial.
+
+Interviewer:	[00:37:32] A lot.
+
+Stewart:	I really wanted to do well. So, yeah, I don't think I slept much for probably about a month.
+
+Interviewer:	What was your role at Automatic?
+
+Stewart:	Theme wrangler. We changed the title from Theme czar because it implies one person. You can only really have one czar. I don't think czars get along very well with each other. We changed to theme wrangler and that's been my role now for a long time now, for four years.
+
+Interviewer:	So does what that involve, making themes? Do you make a lot of themes? Or...?
+
+Stewart:	Yeah, it's kind of a role where you do lots of things. So making themes is definitely part of it. A large part of it is also...WordPress.com, as far as themes go, it's closed off a bit because you can't just find a theme you like from someone's random website and offload it. [00:38:31] [unintelligible 00:38:32] service we want to make sure everything there is top notch so part of it is finding some really great themes that people have designed, those crazy kids I talked about. We go through the code line by line, maybe go through the design a bit because they haven't really considered every possible edge case and get those launched on wordpress.com, so that's a large part of it. Also there is maintaining the themes because we offer free support for everyone and sometimes try as we might we always have bugs in our themes and so we have to take care of those as well.
+
+Interviewer:	Can you tell me why the theme marketplace on wordpress.com took so long to appear? The first time on scene in 2007 and didn't arrive until 2011.
+
+Stewart:	[00:39:32] That's a good question. I only started in 2010 but I think that's the best thing I could tell you is just wordpress.com didn't think it was...just the time wasn't right and the time felt more right in 2011.
+
+Interviewer:	Why do you think themes have been more controversial than plug-ins?
+
+Stewart:	That's a really good question.  I don't know if I have a really great answer. It seems like...I find themers interesting. A lot of people that are doing...I guess everyone is... maybe plug-in developers have personalities too but it feels like there has been a lot of personalities in the theming world and maybe it just attracts people that are controversial.
+
+Interviewer:	Okay.
+
+Stewart:	Something inherently flawed in theming.
+
+Interviewer:	[00:40:30] Does that mean there's something inherently flawed in you?
+
+Stewart:	Probably.
+
+Interviewer:	All right. Well, you've actually answered all my questions so we can leave it there. Thanks for talking to me. I guess I'll see you probably San Francisco later this year?
+
+Stewart:	Yeah, I think in October is the...

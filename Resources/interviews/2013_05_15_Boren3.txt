@@ -1,0 +1,299 @@
+Interviewer: Ok, so, we were talking earlier about doing stuff by committee. Can you think of other things that were done by committee, kind of repercussions of that, whether they were good or bad?
+
+Boren: The nav menu always comes to mind first. I’m trying to think of another good example. There’s been lots of little things that get debated beyond proportion and not big enough for me to really remember, but little things that certainly have a working group around them. And these little working groups just tend to happen. Sometimes they’re good and I like to have everyone involved, but they don’t always produce good results. Or even if they do, they produce them in a very long period of time. One thing I think we’ve done well that’s the opposite of that is for the default themes, just giving them to a designer with some loose parameters saying, give us something to love and letting them have artistic control over it. So like core team folks will pitch in for internationalization and back compat and JS fallback and all that stuff on it, but the visual design and the editorial decisions about the look and the UX pretty much fall down to the person who has that theme for that release. I think that’s produced a pretty good result because we have another one next year, so it doesn’t have to be everything for everyone. I think that’s one of the best decisions we made. And that was very freeing, saying it doesn’t have to be everything to everyone. Unfortunately we can’t apply that to more stuff in WordPress unless we put it in a plugin.
+
+Interviewer: So when did you guys make the decision to have a theme every year?
+
+Boren: Sometime in 2009? I can’t remember the details. I’m trying to remember if that was at our little Orlando get together or if that was after we’d already started on the theme stuff. My timelines are horrible. But it came out of just… one reason we took so long moving away from Kubrick is just because we were trying to find something, it was… it had to be the perfect example theme from the code up. It had to be something that everyone would want to be the default. And we looked at these different frameworks come and go that would offer all kinds of stuff [3:00] and be beautiful and flexible and something that everybody would start from, but then it was just too much. And it just never got executed. So we finally said we’re doing this the wrong way. Let’s just have one that is good and simple, is clean and can be a decent learning template, but it doesn’t have to be THE learning template. It doesn’t have to be a framework. It can just be itself. And that’s how that came about was to kind of kill the gridlock from all those years with Kubrick sitting there being stale. 
+
+Interviewer: Yeah, that’s one of the things sometimes designers say to me is that they Kubrick because it was good to learn how to build a theme from, whereas things like Twenty Twelve, Twenty Eleven were much more complicated. 
+
+Boren: One thing with Kubrick we didn’t build gettext internationalization in it because it complicates themes a lot, especially once you start getting into format specifiers and replacing things. It just mystifies people. And that was a controversial decision. I was never really sure I liked it at the time. Because it is nice to have a theme that is international ready right out of the box that then people would just copy and use, but then again people looked at that stuff and they were like what is all this? Because it is very hard to grok sometimes. So when we did Twenty Ten, we just decided that it would have get tags built in everywhere even if it meant complicating it a little bit. But it does make it a little bit harder, as a learner theme. And by that time, in the intervening years, we’d introduced functions.php. And themes were doing some things that were done in plugins only before so they all got a little more complicated.
+
+Interviewer: So at what point did you introduce functions.php?
+
+Boren: I’m trying to remember what first motivated us to do that. Some of it was international stuff so that people could more easily bootstrap in things they needed for that, some of the multilingual stuff and just themes getting more sophisticated, wanting to do more, without having to have a plugin dependency. Because a lot of themes were popping up with dependencies, we didn’t, we don’t really, we still don’t have dependency management that can resolve all that for them. That’s always hard to do. To do right and to do smoothly. So we put in functions.php and it’s there and we load it and it kind of opened up [6:00] themes a lot. I don’t remember the exact moment it came to be, but it kind of came out of that motivation. Of reducing plugin dependencies. And because people were trying to use it to bootstrap in their language files and whatnot.
+
+Interviewer: I see. So before that, themes were just the template files and the CSS. And then once they got functions.php it was… act like plugins.
+
+Boren: Yeah. And functions.php is loaded before a lot of the other stuff, so they can bootstrap some stuff in that they need and share some stuff that way. And it worked out pretty well.
+
+Interviewer: Did that have an affect on the kind of theme marketplace. Was there a theme marketplace at that time?
+
+Boren: Oh lord. I don’t think there was much of one. I think it helped themes take off a little more. People seemed to use that to do simple stuff and make themes a little more marketable and sexy, I guess. 
+
+Interviewer: And what about the commercial aspect of themes that started in kind of 2009. What was your kind of feeling about that?
+
+Boren: I was cool. I like to see people making money off of WordPress. And doing cool stuff. Because I’m not a designer or a really visual person. I’m more server-backend, so it was really cool to see all these awesome good looking themes coming up and people making a living off of it. That was pretty cool. 
+
+Interviewer: What about the like sponsored links thing that happened? Do you remember that?
+
+Boren: Which one?
+
+Interviewer: It was in, I think it was 2006, and there was themes on the theme repository which had sponsored links in them which were, I guess, hidden with CSS. 
+
+Boren: Oh, yeah. I don’t think… anytime I see something hidden that someone’s being nefarious and sleazy. So I’d rather not see all that stuff. And I think it’s fine for us, for the stuff that’s hosted on .org, to have it’s own standards, you know, we say GPL and none of that stuff… and I think that’s cool and it’s probably also one of the reasons that we have more different theme market places because you know, people don’t like our rules, well go make your own. And I’m cool with that, as long as they follow the GPL, then there’s absolutely no arguments you can make with them, so. I wouldn’t buy from a place that did hidden stuff like that personally, but…
+
+Interviewer: And did the commercialization have an effect on WordPress development? Did business start getting involved with development in a kind of positive way, I guess?
+
+Boren: I don’t know. It’s always, even as all these businesses come online and more people in the market, it always seems to be just the same old people in core. 
+
+Interviewer: Right.
+
+Boren: Or, you know, the same kind of number. [9:00] We get more contributors all the kind, but it’s like the people who are there every day doing stuff is about the same handful. Some people change in and out, but… I don’t know. So I don’t see it doing a lot. 
+
+[Interrupted]
+
+Interviewer: Um, what we’re we talking about. So it’s just the same people?
+
+Boren: The people have changed here and there. But it doesn’t seem like there’s this big influx of help, I guess is what I mean.
+
+Interviewer: So the number of people actually contributing to core and actually building WordPress has not kind of grown in the same way that the people using…
+
+Boren: I don’t think it’s grown in proportion to everything else that’s blown up, you know. And maybe that’s good. Maybe it means that people are satisfied enough with it to just do their thing. Because you know, PHP developers kind of have the same thing as WordPress core developers. We’re not highly involved in PHP. Most of us aren’t interested in C and C++ programming. I did it for years, and I don’t really want to go back. So you know, there’s something to be said for just using a tool because it works for you. You don’t have to go contribute back or anything like that. You’re making cool themes that are released under the GPL and that’s perfectly fine. So we’ve had more people over the years, but it just didn’t seem as proportional to all the people making money off of it. We have done some work to get hosts, hosting providers to provide people for development. So we’ve actually have a right now that are kind of sponsored, part time at least, by hosts and some theme shops. Some consulting shops, like 10up and some others. They sponsor Helen and Dreamhost and Bluehost sponsor some people. [12:00] That’s been pretty cool.
+
+Interviewer: Are there many… do you think it’s easy for kind of commercial businesses to get people involved? In terms of, from the side of WordPress.org as opposed to whether they can provide the resources. 
+
+Boren: You need someone who shows up everyday to really get involved. And that can be hard.
+
+Interviewer: So like one day a week is just…
+
+Boren: Yeah, it’s kind of like you don’t really get to know the person and they don’t… they’re not there seeing the day-to-day decision making, so they’re not as in the loop. Still, keep up pretty well just by dropping in once a week or something but to really get the heartbeat you have to be there all the time because we’re always doing something, so. 
+
+Interviewer: Yeah, I know. It’s so busy, the chat room. I sometimes watch it and I’m like, ahhh, all the stuff going on. And do you think it’s easy for people to get involved with WordPress? Or do you think there’s anything that would be a blocker?
+
+Boren: I don’t know. It’s hard for an old-timer like me to say. And I’ve always been the type where I just go in and immerse myself in something and I sit there and lurk in the channels and show up every day and dig through the code until I know what the hell is going on. And I’m not one of those ones who even wants and on-boarding process. Show up and lurk and figure it out. And not everyone wants to spend that kind of time, or likes to learn that way. So when people ask me about it, I’m like I don’t know. I kind of approach these things a lot differently. 
+
+Interviewer: Yeah.
+
+Boren: I think we try to do everything out in the open. Almost everything is on the IRC. We try to minimize the kind of back chatting. We’ll kind of get together and Skype on sometimes one-on-one or in a small group just to kind of get everyone’s temperature on something, but we try to push all the decision making to IRC so it’s logged and we try to summarize that on make core, which we’ve been better about lately. We haven’t always been the best bloggers. When it come to, I think there’s always been that… it’s like, I don’t want to… I’m speaking for WordPress when I put something in. It makes people scared to put it out there, so, even though we’ve been working on it forever. You know. Especially as it’s gotten bigger it’s kind of like, I don’t want to speak for everyone. 
+
+Interviewer: Yeah. When I started posting stuff on docs blog, I was like can I really do this? On your personal blog for awhile you had a sort of commit log where you would talk about what you were doing that day.
+
+Boren: I tried that for a while and like anything it’s hard to keep up a habit like that. It was too much sometimes. I broke the habit because I just couldn’t keep up. 
+
+Interviewer: It was interesting to read for the short period that you did it there. 
+
+Boren: Yeah. I sometimes think about doing it again, but [15:00] there’s just so much going on.
+
+Interviewer: It’s hard to…
+
+Boren: And if I did it, I’d probably just put it on make core and put it there so that more people saw it. 
+
+Interviewer: I just lost my train of thought. So has the development process changed over the past 10 years, like in term of when it started it was like Matt and Mike just committing stuff and then the other developers came on board. So how has the process changed from whenever you came on board to now?
+
+Boren: Well, we’ve got more process now. As opposed to just a free for all, like every commit is supposed to have a ticket. And every problem is supposed to have a ticket and pretty much we want everything in Trac so it’s in public, it’s in the open, and it’s logged. And for a long time I was the funnel. Matt really liked to have a funnel. But the funnel broke. Because the funnel was overwhelmed. So we started adding more funnels. And lately we’ve been opening even more committers. I like that trend. Because I don’t want to be the guy doing all the commits. It’s just too much work. And I want to be able to forget about some things and have them just happen. I don’t want to know every single thing that goes on because I’d go crazy. So more committers is one of the biggest changes over the years. We’ve been steadily adding them. Used to be I’d just break down and give someone commit because I’d just need somebody to help. Now we have this sort of process where someone gets temp commit for a while and we see how that goes. And sometimes we just need temp help and we leave it at that. And other times, you know, we’ll give them permanent commit for a certain area or for general all over the place. We’ve tried shortening cycles, lengthening cycles, all kinds of different cycles. All kinds of different Trac management styles. Very milestone-y styles. We’ve experimented a lot trying to find that sweet spot. Trying to get more component owners now. We’ve tried to do this in the past, but saying you know, you… these people own this component and their going to keep Trac for that component tidy. And keep on top of patches. But it’s been hard to get that level of commitment from people. Because they can do it for a while, but then they can’t. You know. Work and life happen. There just aren’t a lot of people like me who are paid to do it full time. And do nothing but work on core without having to deal with clients. Although, I get [18:00] a lot of distractions on .com. And I’m responsible for all the merges there. Although that kind of feeds back in to core development because we use the merges for testing. But it is a time consuming and stressful, and sucks aways from some of my core time.
+
+Interviewer: I guess a six month release cycle would mean one less merge a year for you?
+
+Boren: Yeah, that’s one reason I like that. The merges are a big deal. They’re like so [inaudible], they’re like my SuperBowl. My twice a year, three times a year SuperBowl. And they’re extremely stressful because I’m the one holding the bag for all this stuff that’s coming in, you know. I’m like the point man. I’m the glue between the two. I don’t know if glue’s right. The funnel to something. I’m this pipe that’s not quite large enough to handle it all. So there is some self-serving there in that I’d like to have less merges. But also, it’s just like, we always rush at the end of four months. There’s always something that takes too long, and it’s usually UI. You know like this release, most all the server level PHP stuff we finished up a long time ago. We’re down to the UI again. It’s always the UI that hurts us. And in this case it’s a UI that’s got lots of back compat issues and that’s like a storm of bad.
+
+Interviewer: Do you think that’s because people, it gets to beta and people then actually see it, and then… having to interact with it?
+
+Boren: We spend a lot of time with UI just trying to get a design we like to start with, that we then put through… that we implement enough to user test and then say oh we hate it. And then we go back, tweak it, twist it, still don’t like it and just keep going. It took forever just to get some working copies of some of this UI for 3.6. It’s like two months without really any much code because we were still talking about it.
+
+Interviewer: Yeah, I kind of followed that along loosely. There’s just such things such a hard thing to get around because if you’re writing code, you’re writing code and it works or it doesn’t, but the UI is dependent not just on the thing itself, but also the person, so you have this whole random level that has to interact with it. 
+
+Boren: And we still… like we have more people fluent in PHP and doing server side things than we do in UI and JavaScripts. I think that’s true of a lot of projects out there. It’s a different skill set. And I think it’s harder. I can’t design and implement UIs worth a damn. A lot of that stuff I don’t even watch over very hard anymore. I’m just hoping everybody else gets the right [inaudible]. [21:00] I’m off doing my thing and trying to deal with cache bugs and all the lower level stuff. 
+
+Interviewer: I guess it’s design as well. Everybody’s got an opinion on it, although it’s subjective. 
+
+Boren: There is a lot of that.
+
+Interviewer: And the tickets are crazy. The one about the icons for the…
+
+Boren: Yeah. UI Trac tickets tend to hit 50 comments pretty quickly and then explode from there. And when they get that big it’s just impossible to keep track of what’ going on in the ticket. We’ll sometimes have to branch it out into another ticket, and it just fills up too. And we’re like, we need to take this somewhere else because Trac’s not the place for all this back and forth. It’s difficult. They had some pretty good UI discussions in IRC though as they were doing that stuff. It was like, Helen, I thought, had a pretty good handle on it considering what she was up against. She had to go on maternity leave too. And we have those kind of issues with every release. People have to come and go. Work and life prevail upon them. I was almost… I almost had back surgery for this release and was thinking I wasn’t going to be there for it at all. So I was kind of checked out for a while preparing for that. And then didn’t have to do it after all. But it’s stuff like that happens constantly. 
+
+Interviewer: So what’s wrong with your back?
+
+Boren: Oh I’ve got some spondylolisthesis they call it in my lumbar. Like disc aren’t aligned up and whatnot. And for a while there they were thinking that might explain stuff that happened in my lower limbs, but MRIs and whatnot said nah that’s… and it wasn’t hitting the, it wasn’t the right nerves involved. Just finally decided it wouldn’t be worthwhile. It wouldn’t be likely to help me much. For some of this stuff.
+
+Interviewer: Yeah, I have back problem. Discs. 
+
+Boren: I’ve had chronic stuff for my entire life pretty much, but it’s been getting worse as I get old, of course.
+
+Interviewer: And is that… do you think that is from sitting in a chair?
+
+Boren: These chairs and the amount of hours I’ve spent working on WordPress and other stuff had totally wrecked my health. 
+
+Interviewer: Do you think a lot of developers are like that? Do you think people are more aware of it now?
+
+Boren: I think they’re a lot more aware of it now. I’m hoping I’m like the last generation where we just toiled away in uncomfortable chairs in cubicles, and often slept under our desks to get things done. You shouldn’t live like that. You can do it when your 20. But it catches up with you and it hurts like hell when you’re 40. And you can’t escape it. [24:00] You have to live with it for the rest of your life. It’s not worth the… it’s not worth the money for sure. And even if you’re doing it for the grand intellectual adventure and the coolness of making of something, it’s still… you have to live with it for the rest of your life. My neck hurts. My back hurts everywhere. And I’ve been prone to that my whole life. I’ve had some issues. But sitting in the chairs just killed me. And like arm rests… I’d often lean on the arm rests to compensate for my back. Now my ulna nerves are all screwed up. You start compensating for one thing and ruin that. And then compensate for that and ruin that. And pretty soon you’re just a walking shambles. 
+
+Interviewer: It’s amazing how inertia can be the cause of so many problems. You would think it would not… as being active. Is this a, like an orthopedic chair? 
+
+Boren: Yeah. I got that through an ergonomics consultant that Automattic uses. It’s supposed to, for people with some thoracic pain like me, supposed to open up your shoulders and whatnot. I could just never get it quite right. So I switch it out with that chair and then I switch it out with the exercise ball. That way I avoid the hot spots from sitting in one chair all the time. And also, that’s a sit/stand desk. So I’ll take it to standing as well. So I pretty much, the way I cope is constantly change chairs, change positions, sit and stand, take lots of breaks. I do yoga breaks. I do long walks. And that helps. But yeah, the pain I feel in a day is directly proportional to how much time I spend in a chair. And it impedes my work. I can’t work nearly as much as I used to. And if I try to push it, I hurt myself, so. I just got to try to find a balance. It’s hard. Especially like during 3.5, I want to help everyone make it on time and make it good, but there are times when I say I’m done. I can’t sit here any more. My wrists hurt. My neck hurts. I’m in pain. So you all keep workin’. Make it good. I’ll be back later.
+
+Interviewer: Yeah, I’ve been getting that more and more with my back because I have a, two of my discs have no fluid in them, and one on them protrudes and presses against the nerve and the other one’s torn. I went to a chiropractor recently, and she said, I showed her my MRI results, and she said it was like a, she just saw injuries like that from horse people who’d been thrown off horses, and she was like have you ever had a back injury, and I was like no, it’s just this, it got like that. So, but I love sitting on the sofa working or, and it’s so bad for me. Like a day of like chairs. I’m just like ooooow…
+
+Boren: I can’t stand leaning, looking down anymore. I have to have a full setup with everything at the perfect height and whatnot to work. So I can’t really work remotely. [27:00] For Automattic meet ups I like to have those projects you work on while you’re there, I just flat out say I’m not going to do it because I cannot work remotely and be healthy. It hurts too much.
+
+Interviewer: So this is where you do all of your work.
+
+Boren: I can’t do cafe work. I can’t work offsite. Now that Automattic’s got an office in San Francisco and I think they actually furnished it. If I go there, there’ll be a proper monitor and stand and keyboard tray that’s articulated and a good chair and whatnot, otherwise I won’t be able to work there either. 
+
+Interviewer: So you have all of that there. 
+
+Boren: Yeah, Automattic paid for most of that stuff. It was real nice of them. When I came back from my medical leave, I was like I need something to help me out. I had like that brown chair over there and the keyboard tray and had a pretty decent setup and had everything on stands, but… I got those articulated monitor mounts, those are awesome. They’re expensive, but they’re friggin awesome. I can put it at any height. I can bring it towards me or away from me, and I can dial it in just right. And then that sit/stand desk, even if you don’t use it for standing, you can just get the perfect height you need. Every little adjustment helps.
+
+Interviewer: I’d like one of these desks. I have a beautiful desk that my husband got for me, like this beautiful 1920s desk. It’s just like hand carved. It’s stunning. But I fear that this is probably that this is where I’m going to have to go to eventually. 
+
+Boren: Before I had a walnut slab desk and I could have put those legs on it I think, but my walnut slab was a little small for all that stuff I’ve got there now. And I didn’t want to drill big huge pocket holes through it for the mounts. Because like a walnut… it’s in a walnut stain like that that I finished down nice and smooth and looks really pretty. It’s got a living edge with the bark on it. So I just got the manufactured thing there and stuck the legs on it and it’s been pretty cool. And those legs are strong enough to hold my speakers and books and everything else I throw on there.
+
+Interviewer: It’s a nice setup. 
+
+Boren: I like it.
+
+Interviewer: It’s good that Automattic kind of takes care of people…
+
+Boren: Yeah, they’re pretty good about paying for the ergonomic stuff. 
+
+Interviewer: At what point did that come about in the company? 
+
+Boren: I think they’ve always tried to do it. I haven’t always taken advantage of it because I had my own setup that worked pretty well, but when I came back from leave this last year I was kind of like I think I need to try some new stuff and they referred me to an ergonomics consultant and they just paid for everything he suggested. It was really nice. I really appreciated that. 
+
+Interviewer: That is nice. So can you tell me about any releases that were particularly stressful? Or difficult?
+
+Boren: 2.7. 3.0. 
+
+Interviewer: They’re burned into your memory.
+
+Boren: Yeah. Those ones that… they were really difficult. They were really big releases too. [30:00] They were like two of our most epic ones. But those were a lot of hours and I really hurt myself doing those releases. That’s why I remember it so well. And even like 3.4, I barely drug myself to the finish for, because I was so sick. I pretty much finished 3.4 and went to the hospital. 
+
+Interviewer: Jeeze.
+
+Boren: Yeah. 3.4 didn’t cause all of that. But me sitting there trying to finish it didn’t help. And that’s when that kept getting postponed, in part just because I couldn’t keep up with the work. I was so out of it. Luckily Nacin was there to carry it.
+
+Interviewer: What came in in 3.4? 
+
+Boren: I don’t remember any more. 
+
+Interviewer: I don’t remember either.
+
+Boren: Lots of cool stuff, I’m sure. Was that full screen or was that before that?
+
+Interviewer: That was… post formats, the first version? Maybe?
+
+Boren: I don’t know.
+
+Interviewer: Oh, I don’t know either. So 2.7 was the UI. 
+
+Boren: Yeah, that was the… we had the one UI refresh for 2.5 that Happy Cog helped with, I think. And then 2.7 was the one with the Matt Thomas visuals with the side menus and screen options came in in that release. A lot of stuff was first introduced with 2.7. That’s really the first modern WordPress. I guess it’s the beginning of the modern era of WordPress, if you want to put it that way. And that was a lot of work. Andrew Ozz worked a ton on that. He made most all that stuff happen in the visuals. He and I spent a lot of time, and Jane did a lot. We talked, and I said before, we just… there was lots of talking about every little detail because we pretty much redid the visuals from the ground up and discussed every curve and every bit of it. With like the link dialog, where you click a link, in the editor, you click to insert a link and we added it so you can choose one of your existing pages, or whatnot, and that was… we talked about that forever. To getting that interaction right. The delays right. Just for that little dialog. 
+
+Interviewer: When did come in?
+
+Boren: I can’t remember. That could have been a 3.4 thing. 
+
+Interviewer: I think that was quite, yeah, quite big. Because I remember thinking that was really useful. 
+
+Boren: Yeah, because that’s, I think that was something Jane really wanted. And we were talking about it, and she goes it’s a simple thing that makes a big difference. She, just being able to link to one of your own pages from another post is a very important thing for a lot of people. I know I’ve used it a lot.
+
+Interviewer: I used it all the time and… because before that you had to actually go and find the page and copy and paste it in. 
+
+Boren: Yeah, it was a big pain.
+
+Interviewer: It was a pain. That was good.
+
+Boren: That’s one of the features… [33:00] I don’t often use all the… like I don’t use distraction-free writing at all. I just never got into my flow. Because most of my blogging is of the photo blogging variety. I don’t really do much long form anymore. I use my notebooks and keep it to myself. This is my blog for long form. This is where all my more intense writing goes. Or I just stick it in Evernote. I get tired of putting some of that stuff out in public. And stressing about it. I’d stress about it too much I think. So I do more ephemeral, off the cuff stuff now. Like I did one about how much I like my vacuum. 
+
+Interviewer: I saw that. I know. 
+
+Boren: I was just vacuuming and I thought I’m going to blog this. What the hell. 
+
+Interviewer: Yeah, I like blogging about things like that. 
+
+Boren: I’m in a silly mood when I’m blogging right now. So I just do needless little things. And a lot of mine’s vegan lifestyle stuff because that’s what motivates me right now. I’m not even a recipe blogger. I don’t put recipes up.
+
+Interviewer: No, you just put photos. 
+
+Boren: I just do… it’s inspirational blogging. Because you can look up a recipe anywhere, right? You can put my title from the blog post in Google and get a thousand different recipes for it that will all work fine for you, so. I don’t need to be another recipe blogger. 
+
+Interviewer: So what are you most proud of in WordPress? What do you think that’s… are there things that have just been really good, really worked.
+
+Boren: I really love the new media, especially after so many years of not liking it. And being someone who does a lot of photo blogging, it’s really cleaned up my workflow. And it was always just nice to finally have it done. There were some rough periods of getting it done. When we put it on .com and realized that it wasn’t going to work for some people’s workflows and that we really should try to accommodate them. And we had to revamp some stuff. I was worried that after we made this really cool thing, it might not be the right thing. But after some late night discussions, Koop and Nacin and Jaquith and those guys, we came up with what we have now and I really like it. There was some compromise there to accommodate plugins and more workflows than we originally planned to accommodate. But it doesn’t feel like too much of a compromise to me. I actually like using it still. I’m pretty proud of that one. I think Cooper Smith did a bang-up job and him and Nacin worked really hard to get it done, pretty much on time. That was pretty heroic. [36:00] The link dialog I thought was pretty cool. And that was just a little thing. I think we just, Jane wanted that, I think we started it… at Automattic meet up at Seaside several years ago. If that helps pin the date and the release. And decided to go with it. And it turned out really cool. I think Coop helped start that one too. Going further back, I was really pleased when we did the first theme. You know, it may seem a little hokey now, but it’s just an assumed thing, something we take for granted. But I just thought it was cool when we got the template loading worked out and all that stuff. And it was like a simple little solution to it. Using some things that we already had available.
+
+Interviewer: So how does it work? Does it use the hooks… I was wondering how it worked?
+
+Boren: Well, we introduced like those template tags, like is_category and whatnot, and that kind of turned into the whole template system. It’s like well, we can load things conditionally based on what’s being queried and whatnot. And it’s like, okay we’ll use the query to drive the template. Nothing revolutionary or anything. It’s just a nice little extension of what we were kind of doing, and it ended up a pretty elegant little thing. Pretty easy to do. And all these themes took advantage of it. And we had a theme market then.
+
+Interviewer: Did the auto-installer come at the same time as the plugin auto-installer? 
+
+Boren: I think we first did it… I think we did one or the other first to see how it works. We might have done plugins first to shake out the bugs before we went to core. But that’s another thing I was pretty proud of. Because there were a lot of plugins that did it at the time. I didn’t like any of them. They screwed up permissions and whatnot. So I made the decision that if you can’t do it in an su-exec environment where you’re actually using that user with the proper permissions, it had to go over FTP or something like that which would. And a lot of them didn’t do that.  They would kind of do these underground, behind the scenes things where they’d change own, change mod stuff so that they could write it and mess with permissions. And I didn’t like all that stuff and wanted to keep it cleaner. And it was kind of controversial at the time. Some people thought that we should always just try to use direct file system access even if we’re in an su environment. I just didn’t like that. I think that was a good decision and dd32, Dion Hulse, had summer of code project that did some file system abstraction. And I decided to take that and he helped me run wit it and turn it into the installer upgrade we have today. [39:00] We almost get no bug reports about it these days, you know. 
+
+Interviewer: No, it does what it needs to do. 
+
+Boren: Yeah. Matt was asking for that release after release. I was like it’s almost, we’ve almost got everything we need. And then they came that release [inaudible] I said we have everything we need. And it wasn’t… we didn’t get a lot of bug reports even in that first release. It was one of the more solid things. And I was so pleased.
+
+Interviewer: Did that have an affect on people using WordPress? 
+
+Boren: I think it’s definitely helped them keep up to date and avoid outdated security bugged WordPress’. And it allows them, if something goes wrong, to just do a quick refresh. And I’ve seen a lot of people do that, where they get compromised, or they think they have, they can just say, reinstall WordPress for me and it will do it right then. You can have clean files again. That was really cool. And I think pretty powerful. And, you know, it’s just that now you get a notice and you can click a button and you’re there. And we saw, like in our stats, that we had a lot more uptick in new releases after that. 
+
+Interviewer: That’s good. So do you think it lowered the barrier to entry? Because people didn’t have to FTP?
+
+Boren: Yeah. Because you only have to deal with that the first time to get it installed. And oftentimes, after… especially with the pressure Matt was putting the hosts on to offer the one-click install, they’d now have one-click install and one-click upgrade. Because before the host could get it installed for them, but then they’d have to go learn FTP to upgrade. And that’s lame. 
+
+Interviewer: Yeah, you can… I mean, you don’t really need to FTP any more.
+
+Boren: Yeah. Those are motivation, because a lot of people don’t know how to deal with that. And even I think it’s a headache. Who wants to deal with that, right?
+
+Interviewer: Yeah, my husband would have no… no way would he be able to use FTP. 
+
+Boren: And no one should have to deal with that. You shouldn’t want them to deal with that if you want them to use your product. That was a big deal. That was one thing Matt really, really wanted. And he was after me for several releases to get it. And we finally got it. And I was very happy. And I was happy that Matt was happy. 
+
+Interviewer: That’s good. So who were the other developers that you think had a big impact kind of from the beginning and until now?
+
+Boren: Well, the guys still core have been there shepherding it along the way and whatnot, and writing cool stuff. Andrew Ozz was huge for 2.7. It wouldn’t have happened without him. Koopersmith. Nacin. Nacin was monumental in 3.0 and after. And he’s kind of… I considered him to be the main developer of WordPress right now. As I step back, [42:00] he’s been the guy who’s taken it over. He’s been a little more laid back this release because, you know, he got married and been working on .org server stuff. I missed him a little bit. Actually, I missed him a lot. I’ll be ready for him to be on a core focus again. It’s nice to give some people breaks, especially after 3.5. He put a lot of effort into that. So, Nacin, Koopersmith, Ozz, Jaquith. Those guys have all put a lot of life into it. A lot of their lives into it. 
+
+Interviewer: How do you guys make decisions? Or how…?
+
+Boren: Usually we start… we try to keep it open, but usually for the first release, we just kind of talk amongst ourselves on Skype just to see how we feel. What we’re feeling like. And kind of get some ideas of what we want to present to people. And see if they like it. But in the end it all gets put in a big pile and we all decide. And usually the first IRC meet up of the release, what’ going to go down, will provide what we… kind of like a editorial wish list. Things we kind of want to do with that release. But it usually kind of changes as everyone’s in there talking about it. Like it for this one it was editorial [inaudible] Before that it was media. And each one has a little theme. I kind of like doing those themes. 
+
+Interviewer: Yeah, I like those themes too.
+
+Boren: It gives it a little bit more focus. Helps a little bit from avoiding throwing in everything. If it has to have kind of this theme. But even then a theme can take on so much stuff. And I think we still end up with too much stuff that we try to do in a release. Partly because we want to make sure everyone has something to do, so that we’re using everyone. But at the end it all has to fit together and everyone has to jump in and test and make it happen. And often there’s just too much stuff. So I’m interested to see how we’ll adjust for next release. 
+
+Interviewer: Has that always been a problem?
+
+Boren: I perceived it as one. I’ve always thought there’s always one or two extra things. We’ve been pretty good about punting things. We’ve punted several things out of 3.6 along the way. We did the same with 3.5. But it always still seems like there’s just a little bit too much pressure at the end. There’s just that one feature that we should have just said maybe later. Because it distracted us just enough to make other things late. 
+
+Interviewer: And do you think that’s the post formats UI this time?
+
+Boren: I don’t know. You see, that’s like our marquee for this release. So I think that’s the thing that wouldn’t be punted. That’s the thing that we’d want to punt other things to make sure happens. [45:00] So maybe we’d have punted something else. But oftentimes we’ll end up with this one feature that, even if we did nothing else, it would just seem to suck up all the time. And post formats is kind of turning into that. Just like media in the previous release. Although we knew that media in 3.5 was going to be a beast. We put it off for so long that we just knew we were going to have to bite the bullet and work really hard and make it happen. And we would have delayed if we had to because it was just too important. 
+
+Interviewer: I’d love to see that drag and drop thing into the editor.
+
+Boren: Yeah, we’ve got code for it. That worked in some browsers, but not all of them. That’s the thing, you know. Get it working everywhere. Without busting everything. Because that required some pretty good trickery with Tiny MCE and upload. We had our own views system that went over the top of it all and it was pretty complicated and Ozz wrote a lot of it and had it mostly working, but it was just too much. If we hadn’t punted that we would definitely been late. That was a hard one to lose because I really wanted that. But I wanted the main media a little more. 
+
+Interviewer: Yeah, I would like that, I guess. Matt continued to be actively involved or has Automattic kind of distracted him from the actual project. He seems less involved than he used to be. 
+
+Boren: I think a while ago he decided to get out of the day to day development, and that was my job. So he stepped back from that and left it to me. And he did the vision and the strategy and the community building stuff and getting things like money to run WordPress.org and stuff like that. All the stuff that has to be done. He’s always pretty involved at the beginning of a release for setting the theme, for setting the goals, for deciding that release should be and what it should say, and what people should get from it. He does all that. And I’m glad I don’t have to deal with that stuff. And you know, it’s nice to have a little room to take, to shepherd thing myself, and make some stuff up. 
+
+Interviewer: So when… when has that been? Was that kind of Automattic sort of time? When Automattic was set up? Or?
+
+Boren: Yeah, I think that timing is when he started scaling back on the development a little more.
+
+Interviewer: And did you… at some point you must have revoked, I guess, commit access to the [48:00] original developers? 
+
+Boren: Oh, yeah.
+
+Interviewer: Was that a big deal? Or did that just go unnoticed?
+
+Boren: I think Matt did that and handled it all. And as far as I could tell, it wasn’t a big deal. Because most of them said, yeah, we haven’t been that active. So cool. But there could have been some behind the scenes with Matt and them that I wasn’t privy to. I was wondering how that would go over and I didn’t really hear much about it. So I decided that it was all good. I wasn’t going to put my nose in it. That was pretty early.
+
+Interviewer: Was it?
+
+Boren: Well, yeah. I think that was fairly early. I think that was like… we’d done something… like when we switched to SVN or something. Which was quite a while ago. I think it was when we switched to SVN that he decided when we switched that we were going to go to this funnel thing and that I would be the funnel. 
+
+Interviewer: And he has commit access too, I guess? 
+
+Boren: Yeah. He and I were the committers. I think we were the only two at the time. But still most everything, most of the commits I think he made at that time had started being me doing it, so.
+
+Interviewer: And then who else, who did you get on board after that? Was it Mark? Or…?
+
+Boren: I think Mark was…
+
+Interviewer: Or Westi?
+
+Boren: …one of the first. I think it was Mark. And then Peter. But I can’t remember the order. Just because they’d been around consistently and helping a lot and I needed help getting stuff in. We even had some temporary committers that came and went at the time, but they’re the first two that stuck. Who kept their commit. And still have their commit. And became lead developers or whatever we call them. 
+
+Interviewer: Cool. OK. I think we’re going to be WordPressed out. I don’t know about you. I’ve asked you all the things I wanted to ask you about. 

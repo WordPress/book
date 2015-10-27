@@ -1,0 +1,510 @@
+Interviewer:	It is the 7th of June. I'm talking to Samuel Wood, better known as Otto. How did you first discover WordPress?
+
+Wood:	[00:00:10] I literally don't remember. I think I was just looking to make a website. I had just bought a domain name, and I think I read about it on Slashdot, back in the day. Yeah, just started looking at it. Learned PHP.
+
+Interviewer:	What was the website?
+
+Wood:	[00:00:31] Slashdot.
+
+Interviewer:	No, the website that you were building.
+
+Wood:	[00:00:36] Oh, it was my personal site, Ottodestruct.com. I was just tinkering around, playing with building a blog sort of thing.
+
+Interviewer:	What were you doing at the time? What was your job?
+
+Wood:	[00:00:48] I was a computer programmer, senior assistant analyst, computer programmer guy over at AutoZone.  
+
+Interviewer:	Okay. Had you used PHP much before?
+
+Wood:	[00:01:00] No, I hadn't used it at all.
+
+Interviewer:	What was your first experience of the software? Did you think it was easy, or difficult? Did you love it? Did you hate it?
+
+Wood:	[00:01:11] Well, mostly I was using it just to learn PHP at the time, and I thought PHP was much easier than - currently, I was working in Java. So, it was a lot easier than Java and just a lot simpler to use. The software, itself, the interface back then wasn't the greatest. So, it was a little formy, but, you know, I thought it was easier than writing out HTML by hand.
+
+Interviewer:	When was that?
+
+Wood:	[00:01:43] 2006, probably Aprilish, just before Barbecue Fest. 
+
+Interviewer:	[Laughter] How did you start getting more involved with the community?
+
+Wood:	[00:01:55] Actually, I got on the support forums and started helping people out there. Because I've always done forums, ever since I was in college. I've just done online forums in order to chat with others, to learn how to do stuff, you know, things like that. So, I just started finding problems that people had and going to the code, reading it solving the problem and then posting the answer. From that, you know, that was a way to teach myself how to do different things and to learn the most about the code base.
+
+Interviewer:	What do you like about forums?
+
+Wood:	[00:02:37] I don't know, I've just always used them. Before forums, I used Usenet, old things like that. And before that I was on BBS's as a kid. So, I've always done online chatting.
+
+Interviewer:	What were the forums like, then?
+
+Wood:	[00:02:53] Basically the same as they are, now. Not as busy, but same as they are now. It was a lot easier back then because you didn't have as many different threads happening all at once. So, pretty much back then you were guaranteed that somebody would read what you were writing. Now, that's a little hit or miss.
+
+Interviewer:	Was there a community on the support forums?
+
+Wood:	[00:03:18] Oh, yeah. Much smaller community, but, yeah. After I did that for about a year, I forget who it was, but somebody asked me if I wanted to be a moderator. And, the moderators, there were about ten of them at the time, and I think they're probably about the same ten core people we have now moderating. There's a few more come and gone.
+
+Interviewer:	So, the people involved in the forum community, were they also involved with like wp-hackers, or the IRC Chat Room?
+
+Wood:	[00:03:52] I'm not familiar actually with the early days on the IRC because I never used it. But the wp-hackers list was where a lot of the discussion happened, too, more core discussion, I would say. That's sort of fallen off in recent years because mailing lists suck, but.
+
+Interviewer:	Why do mailing lists suck?
+
+Wood:	[00:04:12] Well, they're not as bad, now. If you've got good clients, like Gmail and such. But back in the day when, you know, everybody was using like Outlook and things like that, it just really hard to follow and categorize. If you wanted to keep up with the conversation you had to read bloody everything and it was just a lot of noise that most people didn't care about. Because there was no real good way to filter things down.  
+
+	I still think that mailing lists are fine if you use good clients like Gmail, but a lot of people don't feel the same way. A lot of people just hate email, honestly. So, they don't get as good traffic as they used to.
+
+Interviewer:	Yeah that seems quite common in the project. People who hate email.
+
+Wood:	[00:04:57] I love email. I use it for everything. But a lot of people just don't like it. I don't know. I think it's an age difference. Because I've been using email since bloody '95, and I've fine with it. It's been, what, 20 years almost. Perfectly happy with email. It works fine for me. But I've got 20 years of using it and screwing around with it.
+
+Interviewer:	One of the complaints that comes up fairly regularly in the early days was that there was a division between the people who were doing help on the support forums, and the people - the developers of the software. There was this sort of segregation of the two. And the developers weren't really willing to help on the support forums. Did you find that whenever you first got involved?
+
+Wood:	[00:05:51] Yes and no. It was rare to see the actual core dev's in the support forums. But, you know, Matt used to post in there sometimes, and so did Jaquith and them. But it was a little more rare. I think the one who used to post the most, but has sort of slacked off was Mike Adams. He had a lot of posts, originally, and then he just went on to do other things. You know, people's interest change. 
+
+	But even then, yeah, the core team was, sort of, they would read the forums, but they wouldn't really post in them because they were busy doing other things. A lot of them at the time had jobs relating to the software. Or, in Mark's case, he's still a consultant. He does different things. So, not a lot of people had all that time. I was in the forums, mostly, at work, because, well, I didn't have a lot to do at work. 
+
+	[00:06:48] You know how it is in any corporate environment. It's hurry up and wait. So, I would get a project and I would finish it in like a week or two and then they would come back later and say, “Oh, we budgeted three months for that.” So, I didn't have anything to do half the time I was there. So, yeah, free time, plus high-speed Internet means I'm on the forums all day. 
+
+Interviewer:	That's what Mika said, as well. 
+
+Wood:	[00:07:16] Yeah, basically. A surprising number of people who do support work and help, just sort of free time stuff like that, are people with actually jobs that just don't have anything really to do because their current job is under-utilizing them, which is great for Open Source. 
+
+Interviewer:	Did you get involved with development, as well?
+
+Wood:	[00:07:36] A little bit. It took me a while to pick up on Trac. I made some early mistakes.
+
+Interviewer:	What were your early mistakes?
+
+Wood:	[00:07:45] Well, I didn't understand how Trac worked, which I can understand. It's a complex thing. I had never really used bug tracking, before Trac. We didn't use bug tracking at my company because, hell, we're all in the same room. So, it really wasn't a huge deal. I mean, I was familiar with things like SVN and Source Control, but bug tracking was new to me. So, it took a while for me to understand and figure out 
+
+Interviewer:	How did you think it worked?
+
+Wood: 	[00:08:14] I thought it worked like a forum, quite honestly. But then I started understanding it a little better, and the whole tag system and the keywords. Everything about it was confusing, at first. And that's understandable. I think we can do a lot to improve that, but you gotta have some of that still, that complication, it's necessary. All that stuff is useful to people who are using it every day. 
+
+Interviewer:	You got involved with quite a lot of discussions on wp-hackers, as well. How did the mailing list change over the years?
+
+Wood:	[00:08:52] I think a lot of people just left, quite honestly, or unsubscribed. Just because the volume at some point got so high that people couldn't take it anymore. So, a lot of people who used to read it stopped. Currently, I think the only people that still read all the mailing lists are me and Nacin. 
+
+Interviewer:	[Laughter] What are they like now?
+
+Wood:	[00:09:19] Much less conversation. Hackers, in particular, there used to be a lot of discussion about various technical aspects of hackers, but everybody sort of stopped because they went to other places, went to Trac, they moved into the forums. Stack Exchange opened up. Things like that sort of drew away a lot of the crowd, especially the technical crowd. So, now, hackers, really the only thing you ever see is the occasional support request. Somebody asking about some obscure bit of code.
+
+Interviewer:	Do you think Trac is a good replacement?
+
+Wood:	[00:09:53] No. It's not really a replacement for hackers' list. I think Stack Exchange and the forums to a certain degree and, honestly IRC and other channels like Skype, even the Make P2's. The Make P2's changed a lot of that because now a lot of the discussion happens there, instead of in mailing lists. 
+
+Interviewer:	Do you think that's better?
+
+Wood:	[00:10:16] It's different. I'm not qualified - the one thing I don't do is read all the Make P2's because there's too much. There's just so much going on. But it does tend to focus the discussion better. Because people can only read the parts they're interested in. I think that's a good thing. With the subscription model, you know, you can opt in to subscriptions on specific topics. You can opt in to everything, things like that. 
+
+	That's a lot easier for people to manage because then they have to read want they want to read. I think the discussion tends to be more focused, and you don't get a lot of noise of people who don't understand what's going on. Or you don't get a lot of noise about discussions you're not interested in, like you did in the mailing lists. It's not a broadcast mechanism. That's good and bad. But once the community got to a certain size, I think it was just necessary, really.
+
+Interviewer:	What about communication off of sort of official channels. What sites do you think have been significant for discussions in WordPress?
+
+Wood:	[00:11:28] You mean like new sites?
+
+Interviewer:	New sites or, you know, like you mentioned Stack Exchange. But other ones that may have been significant in the past.
+
+Wood:	[00:11:38] Well, there's obviously a lot of discussion happens on news sites, WPTavern, WPCandy, assorted other sites. Comment sections, thing like that. Discussion happens everywhere on the web, you know. You're not going to control where it's location is. Reading as much as I do and how many bloody feed subscriptions I've got, I try to read everything and then comment where I can. 
+
+	But a lot of discussion happened on the Tavern forums back in the day, as well. But that was a limited subset of people. I don't think there were more than 100 people participating in that at any given moment. So, yeah, there's a lot of that, but realistically the majority of the early discussion was on the mailing list and, to a certain degree, in the forums. Later on, it became all P2's in Make and internal discussions. Skype became pretty popular for having private discussions and resolving things quickly. 
+
+	[00:12:38] And there's also some private mailing lists, things like security lists and stuff like that. Discussion happens everywhere. It's just whatever is the easiest way for the people involved to do it, they'll do it that way. 
+
+	The Stack Exchange is a good thing because it's a lot like support forums, but it's a lot more focused. So, I think that it's good in that it takes away some of the - it takes some of the load off of the support forums as they are, while keeping the answers focused on getting a specific answer, as opposed to a generalized discussion. 
+
+Interviewer:	Are the support forums more user-focused?
+
+Wood:	[00:13:22] They should be. I'm not sure they are. Support forums they have problems. We try to solve those problems, and then new problems happen. It's hard for the forums, specifically, to be user-focused because there's so many users. And I'm not sure of a good solution to that at this point. I think the forums will evolved in to something else, eventually. I just don't know what that is, yet.
+
+Interviewer:	Yeah. WPTavern I have a bucket of their forums. There are some major discussions that happened, there.
+
+Wood:	[00:14:04] Yeah, there was a lot of really good talk, debate and explanations and things like that just because the limited number of people - the forum, the people that were reading it were a lot of the core people. Not necessarily core developers, but people who have influenced the project quite a bit. Several of them went on to help out in other areas. Chip, for example, does a lot of our theme work. He was really active on those forums.
+
+Interviewer:	He was.
+
+Wood:	[00:14:38] Several people like that were. Just because - those were good discussions because there was a very small number of people looking at it. Once you open it up to the world, it becomes a little bit more noisy. Whereas, that was open to the world, but the barrier to entry - one, you had to know they were there. They weren't exactly the easiest things to find. I mean, it was on a WordPress news site. You would have to be really in to get that deep into a WordPress news site.
+
+Interviewer:	You read every single WordPress.
+
+Wood:	[00:15:17] Try to.
+
+Interviewer:	So, which big discussions stick out in your mind as being hot topics? 
+
+Wood:	[00:15:23] I don't know. There's been a lot of them. 
+
+Interviewer:	Well, we've got some time. [Laughter]
+
+Wood:	[00:15:33] Yeah. The discussion about the, what is it, the one click update stuff that was added in 2005, or 2007, when the auto updater was added and the - the one-click updater. The big discussion that happened around that was the privacy debate. Because it had to call home to check for plugin [unintelligible  00:16:00] I think there was a - privacy is always a really heated topic. That one went on for a long, long time. That one is still going on to a certain point.
+
+Interviewer:	It came up twice in a big way. I can't remember the exact dates. But Mark Jaquith was one of the first people to disagree with it. And then changed his mind, and then later it was - I can't remember her name, but the discussion was in 2007, I believe. There was a big discussion about that.
+
+Wood:	[00:16:35] Yeah, that was a huge discussion mostly because a lot of people didn't understand what the data was used for. And I think just showing them what the data is used for, the fact that it wasn't using anything exceptionally strange. I mean, if it's, you know, for example, plugins. It sends what WordPress version you have, what language you're in, and what plugins you're trying to check. There's not a lot of complication, there. The only thing that's debatable is it does send the URL. And I can see that because maybe different sites will want different things, I don't know. There's some thought on how we can better use that. 
+
+Interviewer:	Do you think that WordPress did a good job of explaining that to people?
+
+Wood:	[00:17:25] Not at first, but that's pretty common. People feel like they're being attacked when they're really not. Especially people who wrote that piece of code. It's easy to misconstrue text on the Internet as somebody saying - if somebody says you're doing a bad thing, and you know you're not, but they say it in a way that you feel under attack, then you're going to react defensively and that's probably not the best way to go. You know, I've gotten into a fair amount of shouting matches, and it took me a long time to understand that text is a shitty medium for communicating emotion. So, I try to get my Zen on and calm down and try to answer things factually and rationally, now. I didn't always do that. 
+
+Interviewer:	There's quite a lot of discussions that get very heated.
+
+Wood:	[00:18:24] Yeah. Well, there's - that happens on both sides because, you know, people are arguing and they just - once you step back and realize, hell, man, I'm arguing about the behavior of a piece of script code that runs a website, you know. Why am I getting so upset about this? And I can understand it's deeply important to you, but at the same time, calm down. Go out and have a beer. Once I started doing that. Once I started relaxing a lot more, I think I calmed down a bit.
+
+Interviewer:	Can you think of any discussions that could be described as bike shed discussions. 
+
+Wood:	[00:19:10] Oh, yeah, smileys. 
+
+Interviewer:	Smileys. You were very active in that whole bike shed, then?
+
+Wood:	[00:19:15] That's my bike shed. 
+
+Interviewer:	[Laughter] Otto's Bike Shed. 
+
+Wood:	[00:19:20] That's my personal one. I like the smileys. I'm the only person in the world I think who likes the current smileys.
+
+Interviewer:	Yeah, I know. But we still have them because of you. 
+
+Wood:	[00:19:29] And I'll keep arguing for them, too. I think they look great.
+
+Interviewer:	Yeah?
+
+Wood:	[00:19:32] Me, personally. I think they convey a lot more emotion than the new smoothy crap that people are trying to foist on us. But I admit, it is absolutely a bike shed. It's totally unimportant in the grand scheme me of things and if they do change it, I won't mind. Because I'll just write a plugin to put them back. I think I already have. So, yeah, it's not a big deal, but it's something that I think - I kind of think matters.
+
+Interviewer:	Why do you think it matters?
+
+Wood:	[00:20:03] Because I hate the new ones. Every time they replace them, they look so stupid. First, those gnome ones, the tango smileys, those were ugly and horrible. The new ones they're using on dot com, I don't like, because they're just strange-looking. And, yeah, I just don't care, that's all. But that's entirely a personal opinion. 
+
+Interviewer:	What about if they brought in some smileys that you liked?
+
+Wood:	[00:20:32] In order for me to like them, they would have to look like the current ones, but not pixilated. [Laughter] I'd be okay with an exact replacement that didn't pixilate. That's fine. But the new ones are just too shiny and silly-looking. 
+
+Interviewer:	What about Capital P dangits? Where did you fall on that?
+
+Wood:	[00:20:54] I really didn't care either way. It didn't bother me too much. I mean, I can understand the people that it did bother. I'm thinkin' that maybe that wasn't the best way to get that fed into the core. But, to be fair, if they had put it up as a ticket or anything, that's a bike shed discussion. It would have gone on forever with a bunch of opinions and, in the end, nothing would be resolved. So, it's just a matter of do it or don't do it, but there's no point in debating it because it's just a debate that has no correct answer.
+
+Interviewer:	But what about the breaking URLs?
+
+Wood:	[00:21:31] Well, no, that was a problem. They should have done it right, but, you know. You can't argue that it didn't break things, because it did. But I think that the breakage was fairly minor. Relatively minimal. Because URLs generally aren't case sensitive. I can see that it would have broke things, but it would have been really rare [edge KC] and it probably should have gone through some testing. Nowadays, we would probably do the same thing, but with a unit test, to be sure it doesn't break anything. You have a unit test for bloody everything. So, yeah, there should have been a test but, you know, that was then, this is now.
+
+Interviewer:	When I spoke to Mike, from Dreamhost, he said that it caused major problems for their users.
+
+Wood:	[00:22:21] It probably did to some degree. Especially, if they - I know that some systems that automatically installed WordPress into a directory, that caused issues. Especially is those systems were case sensitive on the URL, which some are. They shouldn't be, but they are. Yeah, that would have broke a lot of links. In hindsight - you know, hindsight is 20/20. They should have seen the problem, but there you go. I personally don't care either way whether it's spelled - I kind of like it better when there's a capital P, but it doesn't really bother me too much. I don't lose sleep over it or anything. 
+
+Interviewer:	That's good to know. Have you been involved with any other Open Source communities?
+
+Wood:	[00:23:07] Off and on, since college, yeah. But not so much like - back in college, I did contribute something to Linux. Because I got the Red Hat letter back in the day. Back when I was a poor college student and couldn't take advantage of it.
+
+Interviewer:	What's the Red Hat Letter?
+
+Wood:	[00:23:28] Back when Red Hat did their IPO, back around '99, they sent out a letter to everyone who had ever contributed to Linux offering them a chance to buy stock at the IPO price a couple of days before everybody else. And I didn't have any money, so I didn't buy any. Of course, when the stock came out, it instantly went up in value by like 200 times. A lot of people got rich off that. I got the letter, but I didn't get the stock. 
+
+	I've contributed to a few other projects here and there. I wrote a thing for iPods back when I still had an iPad. Back when they were new and back before iTunes existed for windows, I bought one and then tried to get it working with Windows and it didn't work really well. So, I sat down, reverse engineered it, wrote a library in C, and released it for free. And a bunch of other people took it. 
+
+	[00:24:29] They ended up making a iPad. Linux used parts of it. The Win App project, the iPod support for it used part of that code. There's a program called  Foobar2000 that wrote a thing called FuPod based directly on that code. So, a whole bunch of different apps started supporting the iPods based on a little piece of code I wrote, and I thought that was pretty cool. 
+
+	I was big in the TiVo community for a long time. Because TiVo runs Linux, and so there was sort of a hacker movement on that to try to reverse engineer it. I moderated their hack forums for like three or four years. That was before I even moved to Memphis. 
+
+Interviewer:	How does WordPress compare to other Open Source communities?
+
+Wood:	[00:25:25] It's bigger. But short of that it's pretty much the same thing. 
+
+Interviewer:	There's nothing distinctive about it?
+
+Wood:	[00:25:32] Not particularly. Any large community has a variety of different personalities in it. And I think that the WordPress community is, well, 1) it's definitely a lot bigger. And so this means that things like, you know, word camps exist. That's probably the only community I've seen large enough to have its own regular meet-ups in that sort of fashion, and to actively try to help people that are not as familiar with the software. 
+
+	Any community that's built online among strangers is usually generally helpful and tries to help new people, doesn't try to exclude people. Things like that to grow their community. I've never been part of one that's this large. That is so huge that you can do massive amounts of things like that, and that's pretty cool. Other than that, it's basically the same. It's just a matter of scale.
+
+Interviewer:	Are there any problems that come with scale?
+
+Wood:	[00:26:39] There's lots of problems that come with scale. Communication, the biggest one. And also, after a while, all the people that are involved - like most of the people I know now that are involved in a big way with the community are actively getting paid by somebody to be involved with that community. It didn't used to be that way. I mean, I used to work at AutoZone. Mika used to work at a bank. Now, she works at Dreamhost and I work for Matt. S, we're now actively involved in it and a lot of other people in the community have started WordPress businesses or they're part of hosting companies, or they make themes, or they make plugins. So, they have a financial interest at some point of how well things are going. And that makes them a lot more vocal to speak up when they think it's going the wrong way. That's both good and bad. 
+
+	It means that everything gets thought out more and more eyeballs and all that. But it also means that when somebody get disagreed with, then if they feel that it hurts them, specifically. Everything gets a bit more tense, I think, in some situations. Not all. Most people are pretty easygoing most of the time. But you start getting on somebody's bad side and they can go bad, quickly, if you're not real careful about it. 
+
+Interviewer:	At what did you notice that this was happening? That more people were making money out of it, being paid to work on it? And that it wasn't so much just hobbyists, anymore?
+
+Wood:	[00:28:15] About three years ago. Actually, it was at my first WordCamp San Francisco. I met a whole bunch of people there who I had never met before and who were now doing - they had started out like me, hobbyists, working on their own sites. Some of them started making themes. Some of them started making plugins. Some of them started selling plugins. And they started-the same people I'd talk to for years on-line and they're now doing it professionally, and so was I. 
+
+	And it just sort of changes your perspective a little bit. Because now you have an interest, day-to-day, as opposed to, “Whatever, I only use it for my blog.” Now, you're using it for everything. You know, I think the last few years, the theme in plugins and everything around it has exploded to where there is a large amount of business being done off WordPress, and that's relatively new, three or four years.
+
+Interviewer:	The community has changed quite a lot. How would you say it compares now to, say, four years ago? 
+
+Wood:	[00:29:30] How would it compare now to four years ago? A lot more people involved. A lot more eyeballs, and a lot of them non-English. The international aspect has ramped up in a big way. I mean, obviously, after I went to Europe I was able to see that, but even before that, you know, 2012, I started noticing that a large portion of the questions we were getting, especially in the forums and on Stack Exchange, were clearly by people that were non-native English speakers. And so I started looking into it and realized, hey, fully a third of WordPress users are not in the US, or not English. That's growing faster than anything, is the international community. 
+
+Interviewer:	How do you think the project has coped with international growth?
+
+Wood:	[00:30:25] Slowly, at first, but picking up speed. As more people get involved, especially from that community, from outside of English-speaking countries, they start noticing, finding the problems that we may not have and fixing them, and sending in patches. The internationalization of the last several releases has increased dramatically. Slowly, but it's much better than it used to be. I know with 4.0 they're wanting to do the whole language pack thing. And that being - it's sort of an exponential growth. It's slow at first, but then it builds up momentum and then, boom, everything happens at once. I think that's the way it's going. By 4.1 or 4.2, it'll be half and half, just straight up. Yeah, I think that's easily the case. It's going to change everything.
+
+Interviewer:	Does that bring any challenges?
+
+Wood:	[00:31:30] Well, yeah. I mean, I've written posts on the topic. Coding for any language is a lot different than coding for your own. To make your code translatable, to make things work smoothly, no matter what the text actually is in the program is tricky as heck. And there's a lot of caveats that you might not think of. Things like - even something as simple as right to left text is super complicated, and there's a lot of standards that are especially on the web and in browsers that English speakers might not know anything about because they never use non-English things. If you don't use it, you don't know about it.
+
+Interviewer:	What other areas of WordPress are you heavily involved with?
+
+Wood:	[00:32:23] Oh, Jeez. Well, obviously, forums. I wrote plugins. I've written several of those and deleted several of those, too. I've written a couple of themes. I haven't actually published any because I'm not really a theme, I'm not a designer. But I have taken other people's designs and turned them into things. I worked on a lot of the backend, API stuff. Helped out where I can on the various Makes. Pretty much at some point I've touched everything, except for things like the international sites. I really haven't gotten involved in that too much, yet.
+
+Interviewer:	What do you think have been the most significant changes in the code base, since you've been involved?
+
+Wood:	[00:33:10] Oh, Jeez. The move to PHP5 was probably the one that changed the most things. When I first started out it was PHP4, and we were having to sort of like - I wrote the first time zone code that handled daylight savings time. And you can't do that in PHP4. You just can't. So, after trying for a long time to do that, I ended up just saying, “Screw it,” and it only supported PHP5. That was the first bit of code we probably added to the core that was PHP5, only. And then I think about 2008-2009, somewhere around there is when we finally dropped PHP4 support entirely. But there's still remnants of that code, that PHP4 support code, in there. So, things like that, all the new code, all the new objects, the new classes, everything like that, could it have been done in PHP4. So, the move to PHP5 changed the way we wrote the code to make it - I do think better code on the whole, but mostly different and a lot more object-oriented, than it was before. As opposed to the previous procedural stuff.
+
+Interviewer:	What do you think is the  most significant changes outside of the code base?
+
+Wood:	[00:34:35] Outside of the code? Growth.
+
+Interviewer:	I'm in a café, so I have a bit of background noise.
+
+Wood:	[00:34:50] That's okay. Just the general growth has exploded quite a bit, and I think the fact that even the commercial growth, like WordPress.com, has changed the landscape. Because now a lot of people are using the software, even the VIP clients, and that's a huge clientele, and people exposed to the code that wouldn't have been - not to the code, but to the software, to the interface, to the use of WordPress that would not have been exposed to it, before. So, now, even my friends know what WordPress is. People who ask “What do you do?” and I'm like, “Oh, I work for WordPress.” They're like, “Really? I use WordPress.” Just everyone. One in five people know about WordPress. That's pretty amazing. It didn't used to be that way.
+
+Interviewer:	Are there any decisions that you strongly disagreed with?
+
+Wood:	[00:35:55] Yeah, several, a whole lot. There's decisions I still disagree with.
+
+Interviewer:	Like what?
+
+Wood:	[00:36:01] I've wrote about them on Trac, too. I think the first one was probably the taxonomy stuff. I think I was party right and partly wrong on that. I didn't like the current taxonomy database schema, but what I proposed, what I thought it should be is clearly not good enough. 
+
+Interviewer:	What was it you proposed?
+
+Wood:	[00:36:27] Something a lot flatter and simpler at the time. I didn't really understand scaling back then.
+
+Interviewer:	I've just been writing about taxonomies. I notice that brings that out, now.
+
+Wood:	[00:36:39] Yeah, well, at the time we were converting between - we were adopting tags is essentially what it was. So, category was - post-category was already in there. And we started adopting tags and we were pulling from - everybody used one of three tag plugins. And I thought that the tags should be much flatter and more like tags. Just a table with a bunch of tags in it, and post numbers. A real simple relational schema. Matt actually proposed the current schema, where it had the three tables and the categories and tags and other types of things, a much more generic schema. I haven't looked at it, recently, but on Trac I flat out told him he was wrong. But he wasn't wrong, he just made it overly complicated I think. The custom taxonomy stuff is possibly the greatest thing in WordPress. It's easily, hands-down, totally worth it. Worth the complication. I wish it was a little simpler, but it is what it is. 
+
+Interviewer:	Anything else you disagreed with?
+
+Wood:	[00:37:53] Probably. I can't think of anything at the moment. 
+
+Interviewer:	It's funny. Taxonomies is the one that sticks out for most people. [Laughter]
+
+Wood:	[00:38:01] Yeah, taxonomies was a big change. It was an early one, too. It was like 2.3 or something?
+
+Interviewer:	2.3, yeah.
+
+Wood:	[00:38:10] Yeah, it was pretty early. It was probably the first real debate I got into about the software. Because, I mean, I was in the software, I think I started using it in 2.0 or 2.1, and back then the releases were a little bit staggered. So, I had been using it for about a year-and-a-half when the taxonomy thing came up. That was probably the first real discussion I got into on Trac or anywhere else. And I was doing a lot of database work at work at the time. So, I thought I knew the right way, and I was convinced that this new way was the wrong way. There were a lot of different opinions on that one
+
+Interviewer:	What was your impression of the project coming to it as a professional developer?
+
+Wood:	[00:38:57] Well, the thing was, I didn't really understand web development all that much. Up until I started getting involved with WordPress, I wrote server code. Hard Core C, some Java, things like that. So, I was kind of unfamiliar  with scripting languages as a whole. Honestly thought of it as more of a toy, and I still do. But I didn't really see the web at the time as being the next big thing because the web had been since I was in college and I already knew the web, or so I thought. I didn't see HTML5 coming. Didn't see just the vast impact it would have on everything. So, didn't really think a whole lot of it at first because I was literally just using it to make a blog. 
+
+Interviewer:	Yeah, a lot of [unintelligible 00:40:00] at WordPress was, other than Ryan Boren, most of the developers were sort of learning PHP. I was wondering if you sort of noticed what impact that had on the code base.
+
+Wood:	[00:40:15] Say it again, I'm sorry.
+
+Interviewer:	I was wondering if you think that had any sort of obvious impact on the code base that you noticed as a professional developer. 
+
+Wood:	[00:40:26] My opinion on it? Not really. I'm still not heavily involved with core development. I mean, I contribute patches and I talk to the core devs every now and then, sort of offer advice. I'm not like Nacin. I don't do core. So, in that respect, I didn't really get involved in core heavily, and I'm still to a certain extent not involved with core very much. Mostly, I write plans and fix things and do things like that. I'll write tutorials and offer support. But, yeah, my opinion of it back then didn't really affect a whole lot. 
+
+	Mostly, I've always been a technical guy. I care about technical details. I never really cared too much about interface. When the interface changed and everybody hated it in 2.5, I thought it was fine. I didn't care. It didn't really affect me. So, I had no strong opinions in any direction. Whereas, for example, Matt. Matt is an interface guy. He cares entirely about the user experience. I agree that that's probably the most important thing, I just can't be bothered. It's not my thing. My thing is code and technical detail.
+
+Interviewer:	You've been involved with the security mailing list? 
+
+Wood:	[00:41:50] Yeah, for about four years.
+
+Interviewer:	Can you think of what security issues stick out in your mind as being really major?
+
+Wood:	[00:42:00] There's been a lot. There hasn't actually been a major core one that I'm aware of in a long time. Mostly plugins. There have been a lot of severe plugin issues. Some of them we patched. Some of them we've removed entirely. Some of them we force updated things like that. The big ones - in any language, it is easy to shoot yourself in the foot. There are certain aspects of WordPress that if you write it wrong it is very easy to shoot yourself in the foot. 
+
+	I remember one - I can't remember which plugin specifically, or what the intent was, but it accidentally, entirely accidentally, allowed anybody to log in without a password. And it went unnoticed for ages, like months. Until, finally, somebody posted a thing about and I tested it and, sure enough, I found a problem. 
+
+	[00:43:03] And I looked at the code and it was a really obvious - when you knew it was there it was obvious to find, but it was clearly a mistake, not intentional in any way. I contacted the author and said, “Look, I'm going to actually force update your plugin because this is horrifying and it affects 50,000 users.” So, I went ahead and patched it for him and fixed it. And he emailed me back like a day later and like, “Holy crap, how did you find that? I never would have noticed that.” And I'm like - I proved it to him by logging into his own site and sending him a screen chat. [Laughter] Yeah, it was a seriously bad bug, but it was a plugin bug and plugin bugs don't affect the entire user base. So, yeah.
+
+	[00:43:52] I can't think of any major core bugs that have happened. All the core patches, lately, have been process scripting issues, which are very horrible, but much harder to exploit. Things like that. Minor security issues. There have been a few really tricky ones that are in theory exploitable, but not really. But not anything major in the last four years that I could think of.
+
+Interviewer:	When did you join Audrey?
+
+Wood:	[00:44:25] About four years ago, four-and-a-half, something like that. 
+
+Interviewer:	Can you tell me how that happens.
+
+Wood:	[00:44:31] Sure. About six years ago, I got a call from - well, I got an email from Matt saying he was going to be here in Memphis and did I want to have lunch. So, I said, “Sure, Yeah.” It was like January or something. He showed up. We went out for lunch for a couple of hours. He told me about a bunch of things. One of which he talked about ended up becoming VOLQuest. We talked about that for a little while, and just had a good lunch. Up until then, the only person that I'd ever met who ran WordPress was my friend, Paul. He used to run Blogger and I converted him to WordPress.
+
+	So, at that point in my life I had met two people that ran WordPress, one of them being Matt Mullenweg. Coming around to March and the Barbecue Fest was coming up and I was at a bar with some friends. And we were debating how we were going to get money to finish the team. And it occurred to me, "Hey, Matt likes Barbecue. Why don't I just text him and see if he wants to sponsor." 
+
+	[00:45:34] So, I sent him a text and got a message back 30 seconds later that said, “Hell, yes.” So, he came down for Barbecue Fest and we put up a WordPress banner for him and had a grand ole time, just eating barbecue and talking. And he did it again the next year. And the second year he came, right after Barbecue Fest, he said, “Hey, I got an idea for you. I want to offer you a job.” And we talked about it over the next week or two. And it wasn't actually Audrey, back then. 
+
+	Because what had happened, I had gone through a couple of different jobs. I was actually unemployed for a stretch, there, and I did some work for Automartic, sort of a part-time thing. This was back around WordPress 2.7. And I had updated their themes to support the new comments thread. And they paid me like 5 grand for that and I worked for them for a  month and it was fun. But at the time I decided not to work for Automattic because there are wasn't - the remote working thing wasn't really my game. It didn't really fit in with my life at the time. So, I went back to AutoZone, again. 
+
+	[00:46:43] After that, he offered me a job. He said, “Instead of working for Automatic, I want you to work for me, directly, and work on my site at WordPress.org, specific. I thought it was a great idea, so I took the job. And we were both pretty excited about it. So much so that for the first 13 weeks he forgot to pay me. And I forgot to ask. I didn't even notice. So, I was Skyping one day and I'm like, “Hey, I've been doing this a couple of months, now. Shouldn't I get paid?” He's like, “Oh, yeah. We totally forgot about that.” 
+
+	So, for the first year or so he actually just paid me directly from his own accounts. And then he called me up one day and said, we're going to hire Nacin and we're going to make a company and it's going to be called Audrey. And that's when I met Rose for the first time. And Rose told me that she was actually surprised because he might have been paying me directly for a year and she knew nothing of it. That was pretty entertaining. 
+
+	[00:47:43] So, we formed the company around basically me and Nacin just doing Open Source work and doing work for WordPress.org and doing all sorts of different things outside of the commercial aspects of Automatic. So, Matt just really wanted somebody, I think to work on the Open Source project full-time, as opposed to part-time stuff he was getting out of his current employees that were at automatic.
+
+Interviewer:	What did you work on in WordPress.org?
+
+Wood:	[00:48:16] Everything. If you looked at the code for WordPress.org, you'll see that it's kind of a mess. It's a site that's been around for I guess almost ten years. It didn't used to exist in the current state. And in that time, it has been modified and remodified and changed. And parts of it run bbPress, parts of it run WordPress. Parts of it run GlotPress, parts of it run SupportPress. There's different - all the different stuff that the code team has developed over the years is there somewhere. And it's a mishmash of different people working on it at different times, with no real coordination or effort. Not effort. No real coordinate effort to make a unified system. So, over the years, it became a bit of a horrible mess.
+
+	[00:49:15] I've tried to clean up all of that as much as I can, but, you know, I'm only one guy. And we hired Scott for the same reason, to sort of help out with that project. Over the years, we've made significant improvements, but we still haven't changed the basic core fundamentals of the site, which is something I'd like to - which is something we're trying to do now. I'm redeveloping the theme directory, currently, to actually run as a WordPlus plugin, as opposed to running and old bbPress. Part of that process, we're Open Sourcing everything as we rewrite it and unify all the pieces. So, that's where Meta Trac and meta SVN came from. It's slow, but at least it's finally getting done. I mean, it's something I've been wanting to do ever since I started working on it four years ago. As opposed to putting out fires and fixing problems, we're now actually redeveloping the site and that's the great thing about it.  
+
+Interviewer:	Why is it taking so long?
+
+Wood:	[00:50:13] A lot of fires. Like any code base - well, partially, it's a fact of we wanted to add - for a long time it was a matter of adding new features and functionality to what was there, as opposed to redeveloping large parts. It's an axiom that it's always a bad idea to start over, rewrite existing code. And that's true to a certain degree, because the more you can get done, now, the more you have that helps out people - the fast you can help people. 
+
+	So, adding new functionality, adding things like e-mail subscriptions, adding things like all the Make blogs and everything that goes into those much higher priority. Because people working on the project need those tools right now. Redevelopment doesn't add anything. It just takes a bunch of time that doesn't create new stuff. 
+
+	[00:51:13] But at a certain point, it's become such a pain in large sections that adding features, now, is difficult. Specifically for things like the themes directory, which is probably the easiest one to start out with. So, by redeveloping it, we can add a bunch of new stuff at the same time, and still get gains out of it, while also improving the entire code base. 
+
+	There's also a lot of security concerns. For example, the whole SSL thing and with major issues with Heart Bleed and all the other stuff that's happened in the last year, just general security concerns. The site as a whole now needs to be updated and that's difficult to do with a lot of the outdated software that we have on there. So, updating to newer software, making everything work in a unified way, make it much easier for us to patch and continue to update security systems. 
+
+	[00:52:10] So, security became a much larger concern than it used to be, and it's just a lot easier now to do things in WordPress. WordPress, itself, matured to the point where we can use it for a lot of this stuff. The themes directory is built on bbPress. Simply because back when it was created, WordPress didn't have custom post types. It would have taken a lot of [unintelligible 00:52:32] Now, with custom post types, I mean, I've already recreated half the themes directory in like a week. It took almost no effort. WordPress, itself, has matured to the point where it is a tool we can use to handle a lot of this problem. 
+
+Interviewer:	Were you involved with setting up the theme or plugin directory?
+
+Wood:	[00:52:52] No. I inherited it. 
+
+Interviewer:	And now the theme and plugin directory were both from bbPress?
+
+Wood:	[00:52:59] Currently, they do.
+
+Interviewer:	And the support forums?
+
+Wood:	[00:53:01] It runs a different version of bbPress, but yes, bbPress. It will continue to run bbPress. We actually want to upgrade it to bbPress 2.0, the plugin. Or bbPress 2. I guess it's 2.1, now. Yeah, we want to upgrade that eventually, as well. The problem we're having right now is we need to develop a theme for it. So, I think somebody is working on it.
+
+Interviewer:	 What is WordPress.org's role in the community?
+
+Wood:	[00:53:28] I like to think of it as a central place to argue. [Laughter] I mean, if you look at all the discussion on Make, it's clearly where all the debate and discussion and development is happening. And WordPress.org, the site, is the central lead role in that. In that respect, it needs to be sort of go-to place to find out about development, find out about support. Eventually, for things like learning, tutorials. 
+
+	I think everything related to WordPress in some respects should be at least there for anything about the project you're learning about should be on WordPress.org in some fashion. I don't think it's all there, yet. But we're getting there. It's one step at a time. You know as much as I do how bad the Codex is, and how the handbooks are planning to replace that. It's just a very hard thing to replace such a huge body of work with something else. So, you have to do it one step at a time.
+
+Interviewer:	Were you involved with the Codex?
+
+Wood:	[00:54:51] In so far as I've written a lot of stuff on there, or people have taken stuff I've wrote and put it there, yes. For example, all that stuff I wrote about the theme customizer on my own blog, most of that got copied to Codex verbatim, which is fine. I don't mind. Several other tutorials I've written, the stuff about the settings API, all that is on the Codex, somewhere, probably. 
+
+Interviewer:	How do you think the Codex ended up in such a mess?
+
+Wood:	[00:55:21] It's a Wiki. It's as simple as that. Anybody can edit it. If you don't have - the thing about a Wiki is it does tend to be self-organizing, but only if you have a large number of people devoted to it all the time. Wikipedia didn't become such a good resource it is without having hundreds of thousands of people doing it. The Codex does not have thousands of people. It probably has lens than tens of people. A lot of people don't like it Codex, or don't edit it, or don't attribute to it, and that's fair. There's no reason they should. 
+
+	But when you don't have the necessary people to go and do that monitoring work and that rewriting, you're not going to have a quality product. You're just going to have a mishmash of stuff. But having a mishmash of stuff is better than having no stuff at all. It's still useful, just not even. 
+
+Interviewer:	It seems that there was more activity in the Codex in the past proofreading. Someone like Lorelle was pretty active. 
+
+Wood:	[00:56:26] To some degree I think she was. The problem is it just got too large. At a certain point, the software itself has so much going on that it's impossible to write everything about everything. Especially when the people doing the writing generally aren't the people that wrote the code. No coder likes to write documentation. 
+
+Interviewer:	No, I know. Except you, kind of.
+
+Wood:	[00:56:55] I like to write tutorials. I started writing tutorials because I would sit down and try to figure out a piece of code and I would take notes. And at the end I've got all these notes and so I would post them just because later after a few beers and I forgot it all I could come back and read my own tutorial. 
+
+Interviewer:	What changes to WordPress.org do you think have been the most significant?
+
+Wood:	[00:57:21] What changes have been the most significant? Well, the Make blogs, really. I mean, if you're just picking one thing, then the Make blogs changed everything. Because that's now where all development happens. The support forums are still basically the same. The plugins and themes directory are still basically the same. The showcase is nice and has had significant improvements, but it's not someplace that developers generally are looking. They know [unintelligible 00:57:52] and WordPress. They're more interested in the software and examples.  
+
+	But the whole Get Involved section, [unintelligible 00:58:00] and everything else, that's all new. That all happened in the last I guess so two or three, maybe four years. I think they were there for a long time and nobody used them. And we started expanding them and creating a place for people to actually have those conversations. Then they started growing, significantly. 
+
+Interviewer:	Where did the idea for those come from?
+
+Wood:	[00:58:22] No idea. I was not involved. I found out about them the same way everybody else did. They just showed up one day.
+
+Interviewer:	Okay. I mean, I could totally take a guess. 
+
+Wood:	[00:58:36] Honestly, I have no idea where those came from or who created them. 
+
+Interviewer:	I lost my train of thought, there. Would you say that the theme and plugin directory are pretty much the same as they have been since they were set up?
+
+Wood:	[00:58:52] As long as I've known them. I mean, the plugin directory was new in that  -  when I first started using WordPress the plugin directory didn't exist. Because the first thing I wrote - the first plugin I wrote was actually a widget, and it was when widgets were new. It was when widgets weren't even in core. They were a plugin themselves. Matt wrote the widget plugin and put it on his site. I took a look at it, started using it. Starting screwing around with my theme, making it use widgets instead of hard-coded sidebars. 
+
+	And I wrote a plugin that my first one was the exec PHP widget. It's just to let you run PHP code in a widget. I wrote it because I needed to migrate. It's easily my most popular plugin of all time. Still the most popular. It's gotten more downloads than everything else combined. People still comment on they love it. I wish I could delete it. It's easily the worst thing I've ever written. It's horrible. People writing PHP code on their site. It's terrible. But it fills a gap. It's very useful. 
+
+	[01:00:00] So, I actually wrote that, and I posted it on my own site, and I emailed Matt about it and he linked to it from his blog. And then the plugin directory came along about six or seven months later. I submitted that and got it in there and that's when I started writing other plugins, too. So, yeah, that probably happened around 2007  or 8. But in that time it hasn't really changed much, maybe design-wise, a little bit. But the core of it is basically the same. It's just a repository, a place to put plugins. 
+
+Interviewer:	Do you think it encouraged you to write the plugins?
+
+Wood:	[01:00:34] Oh, yeah. Because I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them. That helped a lot. 
+
+Interviewer:	When were the theme and plugin review teams set up? Were you involved with those at all?
+
+Wood:	[01:00:55] Plugin review to a certain extent, yes. Theme review was set up about a year before, about five years ago, before I started getting involved with it. The first time I saw theme review I actually hated it. I thought it was a horrible process. I complained about it a lot - this was before I calmed down - and actually alienated a bunch of people. I was too rude. I was rude. 
+
+	Anyway, in order to apologize, I said, Okay, let's fix it.” And I got on with Chip and all the other people that were working on it and started writing the system to not suck. Gave them a bunch of tools. We created theme check based on that. Over the years, it's turned into a really good team, but I've tried to, as much as possible, not join it. Mostly, I assist in giving them the tools they need and rigging things up to where things work smoothly without actually reviewing themes, myself. Because I think that keeps me more objective. 
+
+	[01:02:04] The plugin review team was something basically I created with Mark Riley. Mark had been doing all the plugin review, before. He worked mostly on Akismet at the time. He had been doing all the plugins, himself, 100 percent, which is why it took months to get a plugin in there. So, as soon as I joined up with the org stuff, I got involved with that and he had a P2 blog over on WordPress.com, where he was keeping track of everything. And so I just joined him with that and started reviewing with him. And we eventually moved that to a [unintelligible 01:02:41] blog on .org. And I recruited Mika to help out because Mika is super helpful. And eventually we recruited Pippin and a few other people to sort of just assist. And that really helped quite a bit I think, in terms of just getting the team together to do something. 
+
+	[01:03:05] It's helped a lot. A lot of plugins now are gone, where they were just problematic, before. Security holes, or malicious, or spam. And we came up with a set of guidelines over time and we improved the way that we communicate and the way that we evaluate plugins. And that's constantly changing. I think that will change more, eventually. We've discussed it a little bit. 
+
+	I think Plugin Review would benefit from being more open. Right now, when you submit a plugin, it goes into a cue and only a select few moderators can see that cue. If that cue was public, and anybody could see the code and anybody could comment on it, anybody could say this is spam, or this is malicious, or this is just terrible, and maybe even vote on things. Then that would open up the community to a wider audience. 
+
+	[01:04:04] My concern, there, is mostly about the intimidation factor of that. If, as a new plugin out there coming in, putting your plugin up for essentially a public tribunal might be a bit intimidating and that concerns me. On the whole, I'm not sure what we're going to do there. We'll probably do something there before the end of the year. I just don't know what, yet. I haven't figured out the right away.
+
+Interviewer:	What other tools have you created that people really use a lot?
+
+Wood:	[01:04:35] Well, theme check is easily the number one. Theme check I'm pretty proud of because I didn't write any of it. 
+
+Interviewer:	[Laughter] Good work.
+
+Wood:	[01:04:42] Yeah. The best way to write good code is to trick other people to do it for you. That's what I did with Theme Check. They were doing all these checks, themselves. And they sort of had manually worked out a list of what they were doing. And I saw that some of that could be automated. Simon Prosser had written a tool on his own site where you could upload a zip and it would do a simple evaluation. So, I asked him to send it to me and it was okay. It gave me a few ideas. And then I wrote the Theme Check plugin and I literally only included one check in it. And it was a simple example check just to show how it worked. 
+
+	But what I wrote it as was a sort of expandable process, where other people could add checks. My goal was to get all - to write all these checks because I had written the plugin in such a way that I could take all that same code, stick it on WordPress.org and put it right in the upload. So, I sort of had a subversive agenda, there. I wanted the theme check to be run automatically and to essentially just reject bad themes before they ever got to the cue. But I didn't tell anybody that. 
+
+	[01:05:52] So, they went ahead and added all these great checks, and I'm like, “Cool. Thanks for all the work.” And then I put it on .org. That worked out incredibly well. It still needs a little work. It's not perfect. But I'm going to use theme check in this new themes directory pretty much as is, without any code changes whatsoever, because it doesn't need any. It's perfectly expandable and capable of doing exactly what we want it to do. 
+
+	And that went on so well that even the VIP team over at Automatic adopted it, added a bunch of stuff specific to VIP for them, and they use it, too. The people over at ThemeForest use theme check as sort of a first draft kind of thing. They removed some of our checks, but they added their own. It got a lot wider usage than I expected it to. Because it was just an idea, I think, that was necessary. I'm pretty proud of that.
+
+Interviewer:	What's the work flow for theme review? Is the theme uploaded and then run through Theme Check, and then goes to Trac?
+
+Wood:	[01:07:06] Yeah. Well, the way it works is you upload the zip of your theme, it runs Theme Check and it has to pass Theme Check, first off. So, it gives a sort of rated scale of errors. So, some things it will just flat-out reject. Like, if you include Base64 B code, it rejects that. Other things, it says, “Maybe you should fix this. Here's where the problem was.” If you leave out things like post links, then it will say, “Hey, you might have forgotten to add this.” But it doesn't reject except on a very few number of things. If it rejects, it will tell you you're flats out rejected and throw up an ugly error - red error thing. But for everything else it either gives you a green warning or blue info, or yellow, “Hey, you know, this might be bad.” 
+
+	[01:07:58] But as long as it doesn't get any reds, it goes then into - it uploads it into the SVN, creates the structure that we use in themes, creates a standardized zip file out of it, and then creates a ticket in the Themes track for review. That process has changed a bit. It used to be it would create a new ticket for every zip. Now, if you are working in Trac with a reviewer, then you can make changes, update the version, upload the new version. And it doesn't create a new. It goes into the existing ticket. So, you can have a conversation with a reviewer and the reviewer could help out the person writing the theme, until they've made a successful theme and gotten approval. The goal should be not to reject things, but to approve them. To fix them and get as many approved as possible. 
+
+	[01:08:52] So, it works much more as a process and I think it's less intimidating for theme authors. Because now they feel more like - at least some of them feel more like they're having a discussion, as opposed to being judged, you know.
+
+Interviewer:	Would you like to have a similar process for plugins?
+
+Wood:	[01:09:11] I'm not sure. Plugins, the problem is most plugins aren't - first off, you can't do a plugin check. I've thought about it, but a plugin can essentially be anything. It can be any code. It can do anything. It doesn't even have to hook into  WordPress, in theory. So, it's a lot harder to generalize. A theme has a defined structure. It has certain functions it needs to call. It has to have a header. It has to have a footer, sidebars, whatever. Stuff that can be checked programmatically. 
+
+	A plugin can do literally anything. So, there's no way to automate any checks for it. Putting it into a review process, where you have a set of reviewers looking at it, is kind of what we do, now, except the feedback mechanism isn't as good. But I'm not sure that it helps too much. Because the majority of stuff that we reject is either intentional spam, intentional malware, security problems, or just things like that. There's not really - we don't necessarily reject things. We just say, “Look.” 
+
+	[01:10:25] Okay, I'll give you an example. If you're using your own copy of [unintelligible 01:10:28], we don't allow that. We say use the one in WordPress. Here's how you do it. Here's a message. But we don't reject based on that. We just wait for the author to come back and say, “Okay, I've fixed it,” and then we approve it. So, most plugins do get approved if that's all the issue is. If it's actually spam or malware, which is a lot of it, still, we try to recognize that and just flat out reject, and then block that author. Because a surprising number of bad actors try to get into the plugins directory. Occasionally, they succeed. Mostly, they don't. 
+
+Interviewer:	What are they trying to do?
+
+Wood:	[01:11:04] The goal is to get a plugin, get it installed on a bunch of sites and then hack those sites, essentially. So, for example, one of the more common ways that I've seen people do it is somebody will submit a plugin that's a pretty simple plugin. And they'll go ahead and we'll approve it. They'll check it in. Then later they'll come back and replace that plugin with somebody else's plugin that has bad code now injected into it. Usually, to show like add spam or something like that. 
+
+	They're essential trying to use the popularity of some other pretty often as a means to get into a bunch of installs and get their spam code on a bunch of WordPress sites. And that's the sort of thing we're trying to prevent. And they're really clever trying to do it. 
+
+	[01:12:01] They'll user multiple user names. They'll do a whole bunch over time. They're create user names months in advance so that we don't just see a bunch of brand new users. Things like that. There's a significant number of that that we just stop flat out. Occasionally one gets through. Usually, we catch it pretty quick. 
+
+Interviewer:	Can you think of any examples of it getting through and it caused some problems?
+
+Wood:	[01:12:31] Not so much causing problems, but they do get through occasionally. Usually, the most common that we've seen recently, there's this one guy, same guy has been trying to do it for a couple of years. He'll create a bunch of accounts. He'll wait a few months, or he'll create accounts on a continuing basis, so they all have different times. Then, those accounts will submit a bunch of really simple plugins. Then, he'll do what I just said, basically swap them out. 
+
+	The thing is, he won't swap them all out at the same time. He'll swap out one, wait a week, see if we notice it, and then they'll do it on another one. He's already got like ten plugins in there. When we catch that, the first couple where he's doing the swapping out or inserting bad code, sometimes we catch them via automated scans. Sometimes it's reported to us - various means. 
+
+	[01:13:31] But when we do, we go and look and see what other stuff happened around that at the same time. And usually we notice a trend of here's a bunch of user accounts that have made no posts and have nothing else, and created a plugin all around the same time. And we're able to tell that all of these ten accounts belong to this one guy. And he created a bunch of plugins and checked them in all around the same time and things like that. 
+
+	Then we can go ahead and pre-emptively close all of those, shutting all this. He's put all this work into it and we can just shut it all down all at once, once we find it. So, in that respect, he's wasted however many months he's taken to set up this whole elaborate process. But that's the kind of crap we're dealing with, now. It's literally people trying to do these huge efforts to get in there. Because it does hit, if you think about it, it can potentially hit several million sites. It's a big target.
+
+Interviewer: 	How has that evolved over the years?
+
+Wood:	[01:14:31]What do you mean? How we deal with it or?
+
+Interviewer:	No, how do people try and sort of manipulate the plugin directory.		 
+
+Wood:	[01:14:39] That's evolved quite a bit over the years, up till what we have now, which are these elaborate schemes with multiple user names and multiple accounts and even multiple IP addresses. Using essentially proxies, or - because that's the only way that they kind of found that actually works to any degree. They have to go through this amazing elaborate effort to get the code in there. Because we can catch most everything else, now. We've written automated schemes that check every check-in to the plugin directory. So, if you put in bad code and it's something I've thought of, then it'll probably email me just after you do it. So, yeah, things like that. 
+
+	We have so much going on there now that it has to be elaborate. It's the only way it works. It's the only way they can do it. They don't try often. We usually catch one about every six months. It's usually the same bloody guy. He's persistent, I'll give him that. He's over in Russia, somewhere. 
+
+Interviewer:	Who do you think has had the biggest impact on WordPress? Obviously, excluding Matt.
+
+Wood:	[01:15:53] Who has had the biggest impact?
+
+Interviewer:	Yeah, on the project.
+
+Wood:	I don't know. That's a tough question. There's several people. I mean, obviously, Ryan. Mark Jaquith. Nacin. Nacin has had a giant impact in the last five years, mostly just because he won't stop. I'm convinced he doesn't sleep. 
+
+Interviewer:	Probably not.
+
+Wood:	[01:16:20] Michael Adams had a huge impact in the early versions, and you can see it in the Mike Adams code, too. Mike Adams has this way of writing insanely great code that is totally incomprehensible. It's wonderful. Mike Adams wrote a lot of the plugins directory. I'm intimately familiar with that style. There's a large number of people, but those people have changed over the years. And while people like Mark Jaquith have been involved from the beginning, and Nacin is literally only around the last five years, Nacin has done more in the last three years than any two people put together, if you  think about it. So, in terms of just straight impact - but even then, that's only considering the code level. 
+
+	[01:17:13] If you think about the project as a whole and knowing just the code, I mean, one of my favorite people, ever, Mika. Mike does bloody everything. She's does all the support stuff. She's working on the handbooks. Just this huge amount of support work that she does make her my go-to person for anytime I need something to get done. She puts in a huge amount of time and that helps a lot. Because things like that maybe she's not the best coder, but by doing that than somebody else who is a good coder cannot have to do that. 
+
+	So, I don't really review plugins much, anymore, because I've recruited other people to help. Now, I try to rewrite things to work better. Whereas, before, I spent a lot of time reviewing plugins. Time that is not the best use of my time. So, finding people to do things like that really helps the project immensely, even if it's not as obvious as having their name on the credits. 
+
+	[01:18:17] I would be real happy if by 4.0 we add a bunch of people to that credit screen, saying like support, moderators and things like that. All these people who contribute to the project. People who wrote the handbooks. Kim Parsell puts in a fantastic amount of work on the handbooks and her picture should be in the credit screen in my opinion. So, all of these people that aren't just coders do a lot of work and I think we need to recognize that. 
+
+Interviewer:	Do you think that the projects been traditionally good at recognizing non-code contributions?
+
+Wood:	[01:18:50] Well, yes and no. We recognize it, but at the same time that credit screen hasn't reflected it to a great degree. While that credit screen is great, it's not necessarily the most important thing, either. I know a fair number of people just don't care. But I kind of do. I think it's a nice Thank you. Obviously, it's an Open Source project. People contribute because they want to. Recognition is nice. Not necessarily needed, but nice. And I think having that helps out. We have not recognized a lot of people who should be. Hopefully, we can change that.
+
+Interviewer:	Let's leave it there. You've answered all my questions, so, thanks.
+
+Wood:	[01:19:35] Cool. 
+
+
+
