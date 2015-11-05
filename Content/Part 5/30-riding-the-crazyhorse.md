@@ -2,19 +2,21 @@
 
 ## 30. Riding the Crazyhorse
 
-WordPress 2.7 brought in what Ryan Boren describes as “the modern era of WordPress.” It also brought a new face to the WordPress project. When the reaction to WordPress 2.5's redesign was less than positive, it was unclear whether the problem was inherent to the user interface, or whether people didn’t like it because they felt cut out of the process. Jen Mylo ([jenmylo](http://profiles.wordpress.org/jenmylo)) [^fn-1], an old friend of Matt, was running a usability testing and design center at a New York agency in conjunction with Ball State University. The center ran usability studies and made use of the latest eye-tracking technologies. The agency’s clients included big companies like television networks such as ABC, NBC, and MTV. When a TV network didn’t have a product ready in time for a usability test window, Jen offered the slot to WordPress at cost. 
+According to Ryan Boren, WordPress 2.7 ushered in “the modern era of WordPress.” It also brought a new face to the WordPress project. WordPress 2.5's redesign wasn't well received, though the reasons why weren't clear. Was the user interface the problem? Or did people dislike it because they felt cut out of the process? 
 
-The usability review had three main stages done in two rounds. In Round 1, WordPress 2.5 was tested, and recommendations made on "low hanging fruit" improvements to the admin. Following that, the development team created a prototype (Test1515) based on the recommendations to see if they improved users' experiences. Finally, based on the Test1515 findings, the Crazyhorse [^fn-2] prototype was created and tested in Round 2.
+Jen Mylo ([jenmylo](http://profiles.wordpress.org/jenmylo)) [^fn-1], and Matt are old friends. At the time, she ran a usability testing and design center at a New York agency in conjunction with Ball State University. The center's usability studies used the latest eye-tracking technologies with clients, including television networks such as ABC, NBC, and MTV. When a TV network missed a usability test window, Jen offered the slot to WordPress at cost. 
+
+The usability review had three stages conducted in two rounds. In Round 1, they tested WordPress 2.5, gathering "low hanging fruit" recommendations to improve the admin's UI. Using the recommendations, the development team created and tested a prototype (Test1515) to learn whether users' experiences had improved. Finally, based on the Test1515 findings, they created the Crazyhorse [^fn-2] prototype and tested it in Round 2.
 
 The research team used three main testing methods in Round 1:
 
-1. Talk-aloud, in which the participants are asked to think aloud as they carry out tasks.
-2. Morae Software screen activity and video recordings of participants, which enables researchers to watch remotely.
+1. Talk-aloud, in which participants are asked to think aloud as they carry out tasks.
+2. Morae screen activity and video recordings, which allow researchers to watch participants remotely.
 3. Eye-tracking technology to identify granular problems.
 
-The [twelve participants](http://en.blog.wordpress.com/2008/05/20/new-york-usability-testing/) tested a range of activities within WordPress' admin. In Round 1, despite finding WordPress generally easy-to-use, the researchers identified a number of problems, including:
+[Twelve participants](http://en.blog.wordpress.com/2008/05/20/new-york-usability-testing/) tested WordPress' admin. In Round 1, despite finding WordPress generally easy-to-use, the researchers identified several problems, including:
 
-1. Verbs vs nouns: users found it difficult to conceptualize tasks as action-oriented (Write/Manage). Instead, they perceived content in a more object-oriented way. (Posts, Pages, Comments, etc.)
+1. Verbs vs. nouns: users found it difficult to conceptualize tasks as action-oriented (Write/Manage). Instead, they perceived content in a more object-oriented way. (Posts, Pages, Comments, etc.)
 2. Users didn't spend time on the Dashboard. They used it as an entry point for other pages.
 3. The write post screen caused problems for users. Tags and categories appeared below the fold, and some participants forgot to add categories and tags before publication, returning to the post screen to add them afterward. 
 4. The comments screen was confusing. Users weren't aware that they had to click a commenter's name to edit a comment, and when asked to move a comment to spam they looked in the wrong place.
