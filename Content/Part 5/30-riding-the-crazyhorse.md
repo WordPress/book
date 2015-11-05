@@ -6,7 +6,7 @@ According to Ryan Boren, WordPress 2.7 ushered in “the modern era of WordPress
 
 Jen Mylo ([jenmylo](http://profiles.wordpress.org/jenmylo)) [^fn-1], and Matt are old friends. At the time, she ran a usability testing and design center at a New York agency in conjunction with Ball State University. The center's usability studies used the latest eye-tracking technologies with clients, including television networks such as ABC, NBC, and MTV. When a TV network missed a usability test window, Jen offered the slot to WordPress at cost. 
 
-The usability review had three stages conducted in two rounds. In Round 1, they tested WordPress 2.5, gathering "low hanging fruit" recommendations to improve the admin's UI. Using the recommendations, the development team created and tested a prototype (Test1515) to learn whether users' experiences had improved. Finally, based on the Test1515 findings, they created the Crazyhorse [^fn-2] prototype and tested it in Round 2.
+The usability review had three stages conducted in two rounds. In Round 1, they tested WordPress 2.5, gathering "low hanging fruit" recommendations to improve the admin's UI. Using the recommendations, the development team created and tested a prototype (Test1515) to learn whether users' experiences had improved. In Round 2, they created and tested a more drastic prototype -- dubbed Crazyhorse [^fn-2] -- based on the Test1515 findings.
 
 The research team used three main testing methods in Round 1:
 
@@ -16,19 +16,17 @@ The research team used three main testing methods in Round 1:
 
 [Twelve participants](http://en.blog.wordpress.com/2008/05/20/new-york-usability-testing/) tested WordPress' admin. In Round 1, despite finding WordPress generally easy-to-use, the researchers identified several problems, including:
 
-1. Verbs vs. nouns: users found it difficult to conceptualize tasks as action-oriented (Write/Manage). Instead, they perceived content in a more object-oriented way. (Posts, Pages, Comments, etc.)
+1. Verbs vs. nouns: users found it difficult to conceptualize tasks because they weren't action-oriented (Write/Manage). Instead, users perceived content in a more object-oriented way. (Posts, Pages, Comments, etc.)
 2. Users didn't spend time on the Dashboard. They used it as an entry point for other pages.
-3. The write post screen caused problems for users. Tags and categories appeared below the fold, and some participants forgot to add categories and tags before publication, returning to the post screen to add them afterward. 
-4. The comments screen was confusing. Users weren't aware that they had to click a commenter's name to edit a comment, and when asked to move a comment to spam they looked in the wrong place.
+3. The write post screen caused problems for users. Tags and categories appeared below the fold; some participants forgot to add categories and tags before publication -- returning to the post screen to add them afterward. 
+4. The comments screen was confusing. Users didn't understand that they had to click on a commenter's name to edit a comment; they looked in the wrong place when asked to move a comment to spam.
 5. The difference between uploading and embedding media in the media uploader confused users.
 
-They also discovered minor issues around settings, the media library, link categories, and tag management. Users also demonstrated a desire to have more control over the modules on the dashboard and the post edit screen, for example.
+Round 1 testing on WordPress 2.5 uncovered minor issues with settings, the media library, link categories, and tag management. Users also wanted more control over dashboard modules and the post edit screen.
 
-The [usability test report](https://github.com/WordPress/book/blob/master/Resources/articles/2008_07_Usability_Report_Crazyhorse.pdf) says the following:
+> In addition to a laundry list of small interface issues that presented simple fixes, such as changing comment author links, we were faced with larger issues such as the desire for user-determined hierarchies on long/scrolling screens, ambiguity in the Write/Manage navigation paradigm, and a disconnect between the act of adding media to a post and the ability to manage it. -- [Usability Test Report](https://github.com/WordPress/book/blob/master/Resources/articles/2008_07_Usability_Report_Crazyhorse.pdf)
 
-> In addition to a laundry list of small interface issues that presented simple fixes, such as changing comment author links, we were faced with larger issues such as the desire for user-determined hierarchies on long/scrolling screens, ambiguity in the Write/Manage navigation paradigm, and a disconnect between the act of adding media to a post and the ability to manage it.
-
-While minor changes were incorporated into the Test1515 prototype and tested, they were so minor that participants didn't have a strong reaction either way. The team decided to create a more drastic prototype -- dubbed Crazyhorse -- to achieve the following:
+Minor changes were incorporated into the Test1515 prototype and tested -- though they were so minor that participants didn't react strongly either way. The team created Crazyhorse to:
 
 - maximize vertical space, 
 - reduce scrolling, 
@@ -36,37 +34,37 @@ While minor changes were incorporated into the Test1515 prototype and tested, th
 - enable drag and drop on screens that would most benefit from user control, and
 - redesign management screens to take advantage of natural gaze paths.
 
+Jen and Liz Danzico -- who continued to work on WordPress’ usability in the Crazyhorse project -- created the design for the prototype. They sketched multiple ideas: front-end editing, accordion panes, and a top navigation. They chose the simplest prototype: a left hand navigation panel, similar to Google Analytics and other web apps.
+
 <img alt="Crazyhorse sketches and navigation planning" src="../../Resources/images/30/crazyhorse-process.jpg" />
 
 *Navigation sketches for Crazyhorse. Taken from Jen and Liz's [WordCamp San Francisco 2008 presentation](http://www.slideshare.net/edanzico/riding-the-crazyhorse-future-generation-wordpress-presentation)*
 
-Jen and Liz Danzico, who continued to work on WordPress’ usability in the Crazyhorse project, created the design for the prototype. They sketched multiple ideas: front-end editing, accordion panes, and a top navigation. They chose the simplest prototype: a left hand navigation panel, similar to Google Analytics and other web apps.
+WordPress [developers built the Crazyhorse prototype in a Subversion branch](http://lists.wordpress.org/pipermail/wp-hackers/2008-June/020652.html), [based on the prototype document](http://ma.tt/dropbox/2008/06/wordpress-prototype-1.1.pdf) which outlined changes and rationale. The project focused on user experience and functional development, so the prototype retained WordPress 2.5's visual styles. As in Round 1 testing, participants carried out tasks; talk-aloud, Morae, and eye-tracking helped assess results.
 
-WordPress [developers built the Crazyhorse prototype in a Subversion branch](http://lists.wordpress.org/pipermail/wp-hackers/2008-June/020652.html), [based on the prototype document](http://ma.tt/dropbox/2008/06/wordpress-prototype-1.1.pdf) which outlined the changes and their rationale. The project focused on user experience and functional development, so the prototype retained WordPress 2.5's visual styles. As in Round 1 testing, participants carried out tasks, and progress was assessed using talk-aloud, Morae, and eye-tracking. 
+Most participants preferred Crazyhorse over WordPress 2.5 and every new feature tested provided actionable information for the next version of WordPress. 
 
-Most responses demonstrated a preference for Crazyhorse over WordPress 2.5 and every new feature tested provided actionable information for the next version of WordPress. 
-
-Participants loved the navigation's new position, at the left-hand side of the screen, for example. They also preferred the object-oriented approach to organization. (Posts, Pages, Media, etc.) 
+Participants loved the navigation's new position at the left-hand side of the screen. They also preferred the object-oriented approach to organization. (Posts, Pages, Media, etc.) 
 
 <img alt="Crazyhorse dashboard prototype" src="../../Resources/images/30/crazyhorse-prototype-dashboard.jpg" />
 
 *The Dashboard in the Crazyhorse prototype*
 
-The new Dashboard was considered more useful, and people liked the ability to customize it. They liked QuickPress, though they weren't sure if they would use it. With action links now positioned under the comments, users found it easier to edit and act on comments. 
+Participants thought the Crazhorse Dashboard more useful, and people appeciated the ability to customize it. They liked QuickPress, though they weren't sure if they would use it. With action links beneath comments, users found it easier to edit and moderate them. 
 
 <img alt="Crazyhorse write screen prototype" src="../../Resources/images/30/crazyhorse-prototype.jpg" />
 
 *The Write Screen in the Crazyhorse prototype*
 
-The new Write screen had a drag and drop feature, which allowed users to decide which elements got prime screen real estate. They also liked having access to post comments and felt that the new media uploader -- with its clear integration with the media library -- was a huge improvement.
+The new Write screen had a drag and drop feature -- allowing users to decide which elements got prime screen real estate. They also liked access to post comments; they felt that the new media uploader -- with media library integration -- was a huge improvement.
 
 <img alt="The bottom publish bar in the crazyhorse prototype" src="../../Resources/images/30/crazyhorse-prototype-publish.jpg" />
 
 *The bottom publish bar in the Crazyhorse prototype*
 
-A publishing bar that floated at the bottom of the screen received the only major negative reactions. Users tended to look at the bar a few times before realizing it contained the Publish button. Some users compared it to a banner ad or thought it was part of their browser. 
+Users panned a publishing bar that floated at the bottom of the screen. Users would look at the bar a few times before realizing it contained the Publish button. Some users compared it to a banner ad or thought it part of their browser. 
 
-While Happy Cog and project Crazyhorse undertook user research, they ended up with quite different results. For Happy Cog, Liz conducted a series of interviews with community members. Later she conducted in-person user testing. The Crazyhorse project, however, used eye-tracking technology. This meant that the testers didn't have to rely solely on what participants said; instead they had insight into what the participants were looking at while they were making statements. Not only that, but gaze trails provided insight into how users navigated the screen with their eyes -- where were they drawn first? Were they missing important UI elements? Did they understand what they were seeing?
+While Happy Cog and project Crazyhorse did user research, they ended up with quite different results. For Happy Cog, Liz conducted a series of interviews with community members. Later she conducted in-person user testing. The Crazyhorse project, however, used eye-tracking technology. This meant that the testers didn't have to rely solely on what participants said; instead they had insight into what the participants were looking at while they were making statements. Not only that, but gaze trails provided insight into how users navigated the screen with their eyes -- where were they drawn first? Were they missing important UI elements? Did they understand what they were seeing?
 
 With the success of the prototypes, the design layer was the next step. When Crazyhorse was [first merged with trunk](https://core.trac.wordpress.org/ticket/7552) it was just a set of live wireframes. No design changes were presented, which prevented participants from being swayed by color or typeface preference. By the Automattic meetup in Breckenridge, Colorado, in 2008, Crazyhorse was ready for some color. 
 
