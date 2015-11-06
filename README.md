@@ -45,6 +45,6 @@ When the book is ready for production and no more changes are expected, we would
 
 The content has two licenses:
 - [GPLv2](https://github.com/WordPress/book/blob/master/license-gpl.txt)
-- [Creative Commons Sharealike](http://creativecommons.org/licenses/by-sa/3.0/)
+- [Creative Commons Sharealike](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Just like WordPress, you are free to read, share, distribute, and modify the content however you want, passing on those freedoms to everyone else. Cool!
