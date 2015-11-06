@@ -52,6 +52,11 @@ Better language support
 WordPress 3.8
 Admin redesign
 
+Release Leads
+- WordPress 3.6: Mark Jaquith & Aaron Campbell
+- WordPress 3.7: Andrew Nacin, Dion Hulse, Jon Cave
+- WordPress 3.8: Matt Mullenweg
+
 Community
 - community summit
 
