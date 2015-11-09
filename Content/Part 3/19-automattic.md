@@ -12,7 +12,7 @@ Automattic marked a new but challenging beginning for its employees, who had to 
 
 The company launched with four employees: Donncha O Caiomh, the original developer of WordPress MU, worked on WordPress.com's infrastructure with Ryan Boren, Matt, and Andy Skelton. They left their jobs and put their faith in WordPress -- that it could grow beyond its roots as a small project to a platform that could sustain a blogging business. 		
 
-In January 2006, Toni Schneider joined as CEO, or "adult supervision." Toni was a developer and later CEO of OddPost, a startup which was acquired by Yahoo! and became the basis of Yahoo! mail. After setting up the Yahoo! Developer Network, Toni left for new challenges at Automattic. 	
+In January 2006, Toni Schneider joined as CEO (or "adult supervision" for the only 19-year-old Matt). Toni was a developer and later CEO of OddPost, a startup that was acquired by Yahoo! and became the basis of Yahoo! mail. After setting up the Yahoo! Developer Network, Toni joined Automattic for a new challenge. 	
 	
 Toni had had his first exposure to the power of open source while working on OddPost. OddPost didn't have a spam filter and needed one, and an open source project provided the solution. Paul Graham had introduced his idea of [Bayesian spam filtering](http://www.paulgraham.com/spam.html); he open-sourced the idea, and Toni's team implemented it at OddPost. "It just showed me that this is a really powerful model," [he recalls](http://archive.wordpress.org/interviews/2013_07_27_Schneider.html#L28). 
 
@@ -26,7 +26,8 @@ Automattic brought together the founders' experience in free software developmen
 
 A distributed workforce seemed like the natural model. Contributors to a free software project come from all over the world, and collaborate online to build tools that suit their needs. Automattic's first four employees came from four different locations, and the company would remain distributed, enabling it to hire people from all over the world based on their skills, not their location -- a global talent pool. 
 
-[Toni recalls how](http://archive.wordpress.org/interviews/2013_07_27_Schneider.html#L16), in the early days of Automattic, people expected committment to a fully remote workforce to break down. It goes against traditional business wisdom, which keeps employees supervised, in one place, and focused on hours worked instead of output.		
+[Toni recalls how](http://archive.wordpress.org/interviews/2013_07_27_Schneider.html#L16), in the early days of Automattic, people expected committment to a fully remote workforce to break down. It goes against traditional business wisdom, which keeps employees supervised, in one place, and focused on hours worked instead of output.	
+
 Automattic responded by refining its hiring methods. The first few employees were experienced at working in a distributed environment; new employees who found it difficult didn't last. Automattic developed a hiring process in which potential employees do a trial, working on real projects in the distributed environment to see if the company is the right fit for them.
 
 A rapid release model, in which developers constantly push small releases straight to the user, lets Automattic iterate quickly and improve constantly. The company eschews the traditional ["waterfall model"](https://en.wikipedia.org/wiki/Waterfall_model), in which development follows a strict sequence: drawing up specifications, design, construction, integration, testing, debugging, installation, and maintenance. 
