@@ -1,8 +1,8 @@
-## 11. The birth of wp-hackers
+## 11. The Birth of wp-hackers
 
 WordPress 1.2 development discussions happened in the support forums, the IRC chat rooms, and via private chat and email. But the community was growing. The switchers from Movable Type had increased WordPress’ user base, proper internationalization made WordPress more usable worldwide, and the plugin system allowed developers to extend the platform. The growing community needed more diverse communication channels with which to manage development, communicate, and support users. 
 
-Many community members were happy with just the forums and IRC, but some developers wanted a mailing list. This was the case particularly for developers with free software project experience. A mailing list is one of the most important communication tools in a free software project and at the time, WordPress had no development mailing lists. It took more than a year after the project’s inception for WordPress’ developer infrastructure to take shape. The [FAQ on WordPress.org reflects the approach to development at the time](https://web.archive.org/web/20040402000122/http://wordpress.org/docs/faq/):	
+Many community members were happy with just the forums and IRC, but some developers wanted a mailing list. This was the case particularly for developers with free software project experience. A mailing list is one of the most important communication tools in a free software project, and at the time, WordPress had no development mailing lists. It took more than a year after the project’s inception for WordPress’ developer infrastructure to take shape. The [FAQ on WordPress.org reflects the approach to development at the time](https://web.archive.org/web/20040402000122/http://wordpress.org/docs/faq/):	
 
 > _I am a programmer/designer/hacker — can I help with the development of WP?_	
 > Sure you can! Post your suggestions and requests for features in the forums. Design or alter some hacks to add functionality to the WP suite of tools. Got some cool ideas on an innovative design? By all means, build it and show it off! If you want to be directly involved in the daily development of WP, the best way is to show your competence by building clean hacks or patches that conform to the developer guidelines. Once you have some code out there, contact Matt and he’ll talk to you about getting you involved more directly with development.	
@@ -28,7 +28,7 @@ Still, wp-hackers became an important place for WordPress development, particula
 
 The WordPress Plugin Repository was the other development resource that appeared around this time. The [WordPress Plugin Repository](http://wordpress.org/news/2005/01/the-wordpress-plugin-repository/) launched in January 2005. Hosted at dev.wp-plugins.org, and powered by subversion and trac, it’s quite different to the user-friendly plugin directory that we’re used to today. The plugin repository literally was just a code repository. 
 
-In order to make it a little more accessible, a wiki was used to create a very early version of the Plugin Directory.	
+In order to make it a little more accessible, a wiki was used to create an early version of the Plugin Directory.	
 <img src="../../Resources/images/11/plugin-directory-2005.jpg" width="800px" />
 
 *The first version of the WordPress Plugin Directory, in [late 2005](https://web.archive.org/web/20051124163617/http://dev.wp-plugins.org/wiki/PluginDirectory)*
