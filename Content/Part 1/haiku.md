@@ -1,5 +1,5 @@
 They found each other
 
-to build a community
+To build a community
 
 And called it WordPress
