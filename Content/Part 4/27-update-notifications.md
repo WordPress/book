@@ -4,7 +4,7 @@ Peter Westwood became a core committer in July 2007, bringing the number of peop
 
 The wp-hackers mailing list was in its third year, but productive discussion there diminished over time. More and more decision making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). The code was committed after a short discussion on Trac. It wasn’t until September that a [phpmailer conversation took place on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/014497.html) -- one that few committers participated in.
 
-Exchanges on the mailing list inclined less toward development, and more toward [meta-discussions about the mailing list itself](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015058.html), from the [high signal to noise ratio](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015173.html), to [ideas to improve mailing list etiquette](http://lists.wordpress.org/pipermail/wp-hackers/2007-October/015489.html). 	
+Exchanges on the mailing list inclined less toward development, and more toward [meta-discussions about the mailing list itself](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015058.html), from the [high signal-to-noise ratio](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015173.html), to [ideas to improve mailing list etiquette](http://lists.wordpress.org/pipermail/wp-hackers/2007-October/015489.html). 	
 
 [Andy Skelton wrote about the problem with wp-hackers](http://andy.wordpress.com/2007/10/03/wp-hackers/):
 
