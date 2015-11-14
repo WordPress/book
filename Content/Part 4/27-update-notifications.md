@@ -2,7 +2,7 @@
 
 Peter Westwood became a core committer in July 2007, bringing the number of people who could commit code to four. Westi got involved in the project in 2004 while working as a software engineer -- he had written a script that downloaded WordPress and installed it on a server. He helped with the Codex and found and fixed bugs. Like many other developers, he had little PHP experience when he came to the project.
 
-The wp-hackers mailing list was in its third year, but productive discussion there diminished over time. More and more decision making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). The code was committed after a short discussion on Trac. It wasn’t until September that a [phpmailer conversation took place on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/014497.html) -- one that few committers participated in.
+The wp-hackers mailing list was in its third year, but productive discussion there diminished over time. More and more decision-making happened elsewhere. For example, in February 2007 [Ryan integrated phpmailer with WordPress](https://core.trac.wordpress.org/ticket/3862). The code was committed after a short discussion on Trac. It wasn’t until September that a [phpmailer conversation took place on wp-hackers](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/014497.html) -- one that few committers participated in.
 
 Exchanges on the mailing list inclined less toward development, and more toward [meta-discussions about the mailing list itself](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015058.html), from the [high signal-to-noise ratio](http://lists.wordpress.org/pipermail/wp-hackers/2007-September/015173.html), to [ideas to improve mailing list etiquette](http://lists.wordpress.org/pipermail/wp-hackers/2007-October/015489.html). 	
 
@@ -18,9 +18,9 @@ Mailing lists tend toward bike shed discussions, [^fn-1] a term derived from [Pa
 
 > Parkinson shows how you can go in to the board of directors and get approval for building a multi-million or even billion dollar atomic power plant, but if you want to build a bike shed you will be tangled up in endless discussions.	
 
-An atomic plant is so vast that only very few people can grasp it. The board of directors assume that somebody has the knowledge and has done the groundwork. In contrast, everyone can build a bike shed, so everyone has an opinion on how it should be done, and especially what color it should be.
+An atomic plant is so vast that only very few people can grasp it. The board of directors assume that somebody has the knowledge and has done the groundwork. In contrast, everyone can build a bike shed, so everyone has an opinion on how it should be done, and especially what color it should be painted.
 
-In his book, _Producing Open Source Software_, Karl Fogel notes that as the technical difficulty of an issue goes down, the “[probability of meandering goes up](http://producingoss.com/en/producingoss.html#bikeshed):”
+In his book _Producing Open Source Software_, Karl Fogel notes that as the technical difficulty of an issue goes down, the “[probability of meandering goes up](http://producingoss.com/en/producingoss.html#bikeshed):”
 
 > consensus is hardest to achieve in technical questions that are simple to understand and easy to have an opinion about, and in "soft" topics such as organization, publicity, funding, etc. People can participate in those arguments forever, because there are no qualifications necessary for doing so, no clear ways to decide (even afterward) if a decision was right or wrong, and because simply outwaiting other discussants is sometimes a successful tactic.	
 
@@ -35,7 +35,7 @@ For some, the data collection appeared contrary to the free software project eth
 This debate goes to the heart of one of WordPress' design philosophies: “decisions, not options.” This idea is heavily influenced by a [2002 article written by GNOME contributor Havoc Pennington](http://ometer.com/free-software-ui.html). Many free software user interfaces cram in options so that they can be configured in multiple ways. If an argument ensues in a software project about whether something should or shouldn’t be added, a superficial solution is to add an option. The more options one adds, the more unwieldy a user interface becomes. Pennington writes, "preferences have a cost [..], each one has a price and you have to consider its value.” He outlines the problem with too many options:
 
 - When there are too many preferences it’s difficult for a user to find them.
-- They can damage QA and testing. Some bugs only happen when a certain configuration of options are selected.
+- They can damage QA and testing. Some bugs only happen when a certain configuration of options is selected.
 - They make creating a good UI difficult.
 - They keep people from fixing real bugs.
 - They can confuse users.
@@ -45,7 +45,7 @@ WordPress developers carefully consider the introduction of any new option, and 
 
 > One of the core design ideas for WordPress is that we don't introduce options lightly. The moment you think of making a feature optional you challenge the argument for introducing the feature in the beginning.
 
-What benefit would an opt-out button for update notifications provide to users? The purpose of the notifications is to help users to stay up-to-date and secure. Adding an option to opt-out of update notifications would only reduce the number of people who updated their sites, and increase the number of insecure instances of WordPress. The benefit to adding the option didn’t outweigh the cost. 
+What benefit would an opt-out button for update notifications provide to users? The purpose of the notifications is to help users to stay up-to-date and secure. Adding an option to opt out of update notifications would only reduce the number of people who updated their sites, and increase the number of insecure instances of WordPress. The benefit to adding the option didn’t outweigh the cost. 
 
 Consequently, and despite the extensive discussion on wp-hackers, [WordPress 2.3 was launched as planned](http://wordpress.org/news/2007/09/wordpress-23/), with the following note in the announcement post:	
 
