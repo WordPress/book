@@ -4,7 +4,7 @@
 
 In the wake of the exodus to Habari, the project began to evolve. In March 2007, Robin Adrianse ([rob1n](https://profiles.wordpress.org/rob1n)) became WordPress’ first temporary committer when he received commit access for three months to help Ryan Boren address languishing trac tickets. 
 
-Also in March, the plugin directory launched. Before the plugin directory, developers hosted their plugins on their website. The directory gave them exposure to a huge number of WordPress users. Samuel Wood ([Otto42](http://profiles.wordpress.org/otto42)), [recalls how the plugin directory encouraged him to distribute his code](http://archive.wordpress.org/interviews/2014_06_07_Wood.html#L204). “I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them.”	
+Also in March, the plugin directory launched. Before the plugin directory, developers hosted their plugins on their website. The directory gave them exposure to a huge number of WordPress users. Samuel Wood ([Otto42](http://profiles.wordpress.org/otto42)) [recalls how the plugin directory encouraged him to distribute his code](http://archive.wordpress.org/interviews/2014_06_07_Wood.html#L204). “I was writing them before, but I didn't give them to anybody. It encouraged me to release plugins because I had a place to put them.”	
 
 <img src="../../Resources/images/25/plugin-directory-2007.jpg" width="800px" />
 
