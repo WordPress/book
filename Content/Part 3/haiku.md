@@ -1,3 +1,3 @@
-Committers and themes!
-Balance day job with passion
+Committers and themes!<br>
+Balance day job with passion<br>
 A company forms
