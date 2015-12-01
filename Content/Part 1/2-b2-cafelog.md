@@ -1,3 +1,5 @@
+## 2. The Only Blogger In Corsica
+
 It was late 2000, and Michel Valdrighi (<a href="https://profiles.wordpress.org/michelv">michelv</a>) was writing a blog post in his small apartment above a bar in Corsica. The "only blogger in Corsica" used a creaking dial-up AOL connection that disconnected every thirty minutes. He shared his apartment with two cats, <a href="http://zengun.org/weblog/archives/2000/12/post1447/">No Name and Gribouille</a>, who perched on a windowsill overlooking a high drop.
 
 Like many bloggers, Michel experimented with different web publishing platforms, and started out with HTML before moving to Blogger. But he discovered that Blogger wasn’t as fully-featured as he'd wanted. For example, it didn’t have a built-in comment system. This was at a time when bloggers could sign up for external commenting services that were often unreliable and unstable. Michel signed up for two different commenting services -- both of which disappeared, along with all of the comments and discussions. Blogger was also plagued by stability issues, and users sometimes joked that the platform was “sometimes up.”
