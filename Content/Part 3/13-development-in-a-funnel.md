@@ -20,4 +20,4 @@ There is a perennial tug-of-war between those who contribute to the project and 
 
 [^fn-1] A version control system is a tool for managing the changes to a piece of software, document, or other collection of information. Each change is identified by a number and the name of the person who has made the change. They are often accompanied by comments about what that change is. A version control system allows a project to keep track of changes and also to revert changes as necessary.
 
-[^fn-2] Mosquito was the first bug tracker used by the WordPress project. Later bug tracking moved to Trac.
+[^fn-2] Mosquito was the first bug tracker used by the WordPress project. Later bug tracking moved to trac.
