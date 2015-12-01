@@ -16,7 +16,7 @@ WordCamp San Francisco 2006 also saw Matt's inaugural "State of the Word" presen
 
 <img alt="State of the word 2006" src="../../Resources/images/21/wcsf_2006_sotw_matt.jpg" width="800px" />
 
-_Matt giving his State of the Word presentation (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)))_
+_Matt giving his State of the Word presentation. (cc license Scott Beale ([Laughing Squid](http://laughingsquid.com)))_
 
 The event, despite the short lead time, was a success and the first of what would be a global conference series. WordCamp returned to the Swedish American Hall in 2007, to be followed by WordCamp Beijing in September 2007 and additional WordCamps in Israel, Argentina, and Melbourne, Australia. 
 
