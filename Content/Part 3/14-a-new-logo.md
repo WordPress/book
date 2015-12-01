@@ -35,7 +35,7 @@ A <a href="http://lists.wordpress.org/pipermail/wp-design/2005-March/000171.html
 
 ![Radenkovic heart logo](../../Resources/images/14/2005_03_wordpress-logo-proposal_radenkovic_sample.jpg) 
 
-*WordPress logo suggestions from Denis Radenkovic/*
+*WordPress logo suggestions from Denis Radenkovic.*
 
 Logo feedback was mostly lukewarm, though <a href="http://lists.wordpress.org/pipermail/wp-design/2005-April/000175.html">some of the</a> <a href="http://lists.wordpress.org/pipermail/wp-design/2005-March/000173.html">designers</a> liked Radenkovic's heart logos, describing them as "instantly recognizable."
 
