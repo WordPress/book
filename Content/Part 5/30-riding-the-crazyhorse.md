@@ -52,17 +52,18 @@ Most participants preferred Crazyhorse over WordPress 2.5 and every new feature 
 
 Participants loved the navigation on the left-hand side of the screen. They also preferred the object-oriented approach to organization. (Posts, Pages, Media, etc.) 
 
+Participants thought the Crazyhorse dashboard was more useful, and people appreciated the ability to customize it. They liked QuickPress, though they weren't sure if they would use it. With action links beneath comments, users found it easier to edit and moderate them. 
+
 <img alt="Crazyhorse write screen prototype" src="../../Resources/images/30/crazyhorse-prototype.jpg" />
 
 *The Write Screen in the Crazyhorse prototype.*
 
-Participants thought the Crazyhorse dashboard was more useful, and people appreciated the ability to customize it. They liked QuickPress, though they weren't sure if they would use it. With action links beneath comments, users found it easier to edit and moderate them. 
+The new Write screen had a drag and drop feature -- allowing users to decide which elements got prime screen real estate. They also liked access to post comments; they felt that the new media uploader -- with media library integration -- was a huge improvement.
 
 <img alt="The bottom publish bar in the crazyhorse prototype" src="../../Resources/images/30/crazyhorse-prototype-publish.jpg" />
 
 *The bottom publish bar in the Crazyhorse prototype.*
 
-The new Write screen had a drag and drop feature -- allowing users to decide which elements got prime screen real estate. They also liked access to post comments; they felt that the new media uploader -- with media library integration -- was a huge improvement.
 
 Users panned a publishing bar that floated at the bottom of the screen -- they'd look at the bar a few times before realizing it contained the Publish button. Some users compared it to a banner ad or thought it part of their browser. 
 
