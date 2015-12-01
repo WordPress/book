@@ -90,5 +90,7 @@ After completing the Crazyhorse redesign, Jen joined Automattic to work on WordP
 This new focus on user testing and user experience meant that the software would work for everyone who wanted to install it -- not just a small set of users. 
 
 [^fn-1] At that time Jen Mylo’s name was Jane Wells. Her name changed in 2014.
+
 [^fn-2] Unlike WordPress releases, smaller projects, like Crazyhorse, don't always follow the jazz-musician naming convention.
+
 [^fn-3] At that time Matt Miklic’s name was Matt Thomas. His name changed in 2014.
