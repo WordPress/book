@@ -34,15 +34,15 @@ He designed three early mockups:
 
 <img alt="Happy Cog design 1" src="../../Resources/images/28/happy-cog-design-a.jpg" />
 
-*Mockup Number 1*
+*Mockup Number 1.*
 
 <img alt="Happy Cog design 2" src="../../Resources/images/28/happy-cog-design-b.jpg" />
 
-*Mockup Number 2*
+*Mockup Number 2.*
 
 <img alt="Happy Cog design 3" src="../../Resources/images/28/happy-cog-design-c.jpg" />
 
-*Mockup Number 3*
+*Mockup Number 3.*
 
 Matt chose the visually lighter design. Jason had taken Shuttle's heavy blue palette and lightened the interface. An orange accent color complemented the lighter blues.
 
