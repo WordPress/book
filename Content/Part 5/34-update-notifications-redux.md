@@ -1,0 +1,38 @@
+
+## 34. Update Notifications Pt 2
+
+Community blogs became important gathering spaces for those who wanted to communicate outside the core project's official channels. One of these was WP Candy, a blog started by Michael Cromarty and later taken over by Ryan Imel. Another was WP Tavern, run by Jeff Chandler. WP Candy and WP Tavern became places where the community could share and discuss ideas, as well as vent outside the project's central channels -- and over time, both have hosted many major community debates. 
+
+One of the biggest debates was around data collection.
+
+When WordPress 2.3 shipped with update notifications, the initial debate quieted down. Lynne Pope (<a href="https://profiles.wordpress.org/Elpie">Elpie</a>) reopened the discussion in 2009 on WP Tavern's forums, and <a href="http://lists.wordpress.org/pipermail/wp-hackers/2009-December/029083.html">also posted to wp-hackers</a>. Lynne pointed out that Matt had said data collection would be reviewed in WordPress 2.5. She discussed URL collection and asked whether WordPress had a need to collect them, suggesting that an anonymous identifier could replace the blog URL. In the discussion thread on WP Tavern, Lynne went further into her concerns:
+
+<blockquote>wordpress.org is not a legal entity so there is nobody to sue if data is misused. You can't sue a community. There is no disclosure about what data is collected or how it will be used. People are just supposed to trust that volunteers working on an open source project can be relied upon to keep personal data private?	</blockquote>
+
+She <a href="http://wordpress.org/news/2007/03/upgrade-212/">referenced WordPress.org being cracked in March 2007</a>; if someone were to crack WordPress.org again, they would have access to all the data.	
+
+Since much of the data is freely available on the internet, many were unconcerned about the collection, but Lynne pointed out that what isn’t readily available is the totality of that information (WordPress version, PHP version, locale setting, plugin information, and the website’s URL as a package). In 2009, people were growing more concerned about internet privacy. People signed up for social media services that collected huge amounts of data, used to target advertising. A 2009 paper reported that personally identifiable information could be <a href="http://conferences.sigcomm.org/sigcomm/2009/workshops/wosn/papers/p7.pdf">leaked from social networks</a> (PDF) and third parties could link that data with actions on other websites. At the same time, internet users were becoming more vocal about privacy concerns. In February 2009, for example, when Facebook changed its Terms of Service to say that user data would be retained by Facebook even if the user quit the service, the company faced an outcry and was <a href="https://www.facebook.com/notes/facebook/update-on-terms/54746167130">forced to backtrack</a>.
+
+In the midst of these privacy concerns, WordPress was a bastion of the independent web. If a person has privacy concerns, they can avoid using social media; but they can create a website using something like WordPress, on their own server, with complete control over their own data. For some people in the community, data collection tarnishes this independence. There is potential for abuse, and even if there is trust in the people who have access to this data now, there’s no guarantee that others with access to the data will use it in the same way in the future.
+	
+Mark Jaquith, who had originally opposed the data collection, <a href="http://lists.wordpress.org/pipermail/wp-hackers/2009-December/029089.html">responded to Lynne on wp-hackers</a>:	
+
+<blockquote>The more I thought about it, the more my knee-jerk objections faded away. Your server is doing an HTTP request, so the server knows your server's IP address. You can figure out what blog domains are hosted on that IP with a search on Bing or several other search engines. So if WordPress.org really wanted to know your URL, it could find it. Again, that's just based on the IP address, which you HAVE to send for HTTP to work. If your URL is discoverable, and your IP address has to be sent, withholding the URL doesn't actually get you more privacy, ultimately.</blockquote>
+
+While wp-hackers saw some of this discussion, it mostly took place on WP Tavern. The discussion thread generated 291 responses -- the most popular post in the forum's lifespan. It was also <a href="http://weblogtoolscollection.com/archives/2009/12/10/is-wordpress-spyware/">heavily discussed on Weblog Tools Collection</a> under a post from Jeff Chandler, titled “Is WordPress spyware?”	
+
+The issue was <a href="https://core.trac.wordpress.org/ticket/5066#comment:23">reopened on WordPress trac</a>, and <a href="http://make.wordpress.org/core/2009/12/10/suggest-agenda-items-for-dec-17th-dev-ch/#comment-1030">was proposed for the development chat agenda</a>. Some community members felt that their privacy concerns were valid, and that they weren’t being taken seriously. In the thread, Matt posts that WordPress.org only stores the latest update sent, but no historical data. Historical data is only held in aggregate so that statistics can be provided for plugin and theme developers.	
+
+Mark joined the discussion on WP Tavern to share some of the reasons he changed his mind:	
+
+<ul>
+<li>An IP address, which must be sent by the server, is not significantly more anonymous than a URL.</li>	
+<li>URLs allow WordPress to verify the identity of a blog. When URLs are hashed it’s no longer possibly to verify the blog identity. Without proper verification, systems that involve plugin rankings based on usage or popularity are open to manipulation and abuse.</li>	
+<li>The privacy policy was updated to cover api.wordpress.org.</li>
+</ul>	
+
+The core developers stuck with their <em>decisions, not options</em> philosophy; no option was added to turn off update notifications. By the time it was raised again, in 2009, the project could apply another one of its philosophies to making the decision -- the 80% principle: if 80% of users find something useful, then it belongs in core; if not, then it belongs in a plugin. A number of plugins were created to <a href="https://wordpress.org/plugins/search.php?q=core+update+notification">disable update notifications</a>, but only a fraction of people used them. A clear notification of a website or plugin update was more important than adding a preference to satisfy a small number of people within the WordPress community.
+
+WordPress continues to collect data about sites, which is used in a number of ways. The project, for instance, can make informed decisions about which technologies to support. Using the data, it was possible to tell that, in 2010, around 11% of WordPress users were using a PHP version below 5.2, and that fewer than 6% of WordPress users were using MySQL 4.0. Using that information, the development team was confident about <a href="http://wordpress.org/news/2010/07/eol-for-php4-and-mysql4/">dropping support for PHP 4.0 and MySQL 4.0</a>. Browser usage data also helped in the decision to deprecate support for Internet Explorer 6. 
+
+Data is helpful when there is a security issue with a plugin, too. The project can detect how many sites have a plugin active and can determine the severity of the issue. In the case of a security issue in a popular plugin, web hosts are informed so that sites with insecure versions of a plugin can be blocked at the host level. Update notifications were also an important stage in the road toward automatic updates for minor releases, which were introduced in WordPress 3.7.	
