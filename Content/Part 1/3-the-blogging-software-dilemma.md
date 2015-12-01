@@ -1,3 +1,5 @@
+## 3. The Blogging Software Dilemma
+
 The internet brings people from different backgrounds, countries, and cultures together around shared interests. On a small corner of the internet, b2 was forming one such community. People supported one another because they were interested in two things: blogging and blogging software.
 
 The founders of WordPress were among those drawn into the b2 community. They were from very different backgrounds, but free software formed their common ground. In Houston, Matt Mullenweg wrote about politics, economics, technology, and his passions for jazz music and photography. Mike Little, from Stockport, wrote about blogging technology, the books he read, and his family.
