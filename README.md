@@ -1,8 +1,6 @@
 # Milestones: The Story of WordPress
 
-Welcome to the online repository for our book on the history and development of WordPress. The book is currently in version 1, having been written by Siobhan McKeown, edited by Krista Stevens, and with helpful pull requests from members of the community. 
-
-[Download a rough PDF of the book.](https://www.dropbox.com/s/ncvveuicsm0j7x6/wp-book.pdf?dl=0)
+Welcome to the online repository for our book on the history and development of WordPress. This book is currently in version one. 
 
 ## Table of Contents
 - [Introduction](https://github.com/WordPress/book/blob/master/Content/introduction.md)
@@ -15,15 +13,13 @@ Welcome to the online repository for our book on the history and development of 
 
 ## Feedback
 
-The book is currently in a stable state. In one month’s time we will be producing final versions of the book for distribution. At this time we are interested in feedback from members of the community. The following feedback is particularly valuable:
+The following feedback is particularly valuable:
 - *Factual errors*: notes about factual errors are welcome. All suggestions for changes should be evidenced with links that back up any claims. Any facts that cannot be corroborated will not be included.
 - *Clarity*:  any paragraphs or sections that you feel are not clear. This would be of particular help in sections that are technical in nature.
 - *Omissions*: anything that you feel has been omitted or not sufficiently covered. Note that this is a lengthy piece of writing and many issues have to be condensed to ensure that it is a manageable and interesting read. Suggestions about omissions should be accompanied with information about why it should be included, and backed up with evidence as to their importance.
 - *Images*: if you have any images that you feel would complement the text, we'd love to have them.
 
 All feedback should be opened as [issues](https://github.com/WordPress/book/issues) in the tracker.
-
-The deadline for feedback is Monday 6th April.
 
 Note: the [interviews conducted as part of this project](http://archive.wordpress.org/interviews) are available should you wish to reference anything or conduct your own research.
 
