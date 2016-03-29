@@ -2,9 +2,9 @@
 
 The book is available in three formats: 
 
-- PDF (Best for viewing on a computer)
 - ePub (iBooks, Google Play Books, most e-readers)
 - mobi (Kindle)
+- PDF (Best for viewing on a computer)
 
 To download the book, select a file format above. On the following screen, click the "Raw" button to download.
 
