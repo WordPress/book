@@ -4,7 +4,7 @@
 
 Shuttle wasn’t the only piece of the project that dragged. More than a year elapsed between Shuttle-inspired WordPress 2.0 and the next version, WordPress 2.1. <a href="http://ma.tt/2010/11/one-point-oh/">Matt describes</a> the period as “a dark time in WordPress development history, a lost year.” It was time for a streamlined development process.
 
-WordPress' approach to new versions gives each major release two numbers: 1.5, 2.0, 2.9, 3.4, 4.0. Patch releases get an additional decimal point (2.0.1, for example). Many other software projects, like Drupal, give each major release a round number; over a period of years, the version number climbs. Decimalization avoids that, althought it took WordPress a while to settle on regular numbering.
+WordPress' approach to new versions gives each major release two numbers: 1.5, 2.0, 2.9, 3.4, 4.0. Patch releases get an additional decimal point (2.0.1, for example). Many other software projects, like Drupal, give each major release a round number; over a period of years, the version number climbs. Decimalization avoids that, although it took WordPress a while to settle on regular numbering.
 
 The release cycle was sporadic in the early days. Version numbers jumped haphazardly. Some releases arrived in a few months, while 265 days went by between 1.2 and 1.5 -- the codebase had so many changes that WordPress skipped the interim version numbers, <a href="http://wordpress.org/news/2004/12/version-skip/">going straight from 1.2 to 1.5</a>. Version 1.6 was inflated to 2.0, because of the number of features in it and because 314 days had elapsed between the releases. But the delay between 2.0 (released December 31, 2005) and 2.1 (released January 22, 2007) was the longest to date.  
 
